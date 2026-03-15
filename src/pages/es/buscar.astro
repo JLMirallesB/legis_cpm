@@ -1,15 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LawCatalog from '../../components/LawCatalog.astro';
 import { t } from '../../i18n/utils';
 
 const lang = 'es' as const;
 ---
 
-<BaseLayout lang={lang}>
-  <div class="container hero">
-    <h1>{t('catalog.title', lang)}</h1>
-    <p class="subtitle">{t('catalog.subtitle', lang)}</p>
+<BaseLayout lang={lang} title={t('search.results', lang)}>
+  <div class="container search-page">
+    <h1>{t('search.results', lang)}</h1>
 
     <div class="search-box">
       <form action={`${import.meta.env.BASE_URL}es/buscar/`} method="get">
@@ -22,38 +20,28 @@ const lang = 'es' as const;
         />
         <button type="submit" class="btn btn-primary">{t('nav.search', lang)}</button>
       </form>
-      <a href={`${import.meta.env.BASE_URL}es/changelog/`} class="changelog-link">
-        &#128240; {t('nav.changelog', lang)}
-      </a>
     </div>
-  </div>
 
-  <div class="container catalog-container">
-    <LawCatalog lang={lang} />
+    <div class="results-area">
+      <p class="coming-soon">El buscador estar&aacute; disponible pr&oacute;ximamente. Por ahora, navega el cat&aacute;logo desde la <a href={`${import.meta.env.BASE_URL}es/`}>p&aacute;gina principal</a>.</p>
+    </div>
   </div>
 </BaseLayout>
 
 <style>
-  .hero {
-    text-align: center;
-    padding: var(--space-2xl) 0;
+  .search-page {
+    padding: var(--space-xl) 0;
+    max-width: 800px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--color-primary);
-    margin-bottom: var(--space-sm);
-  }
-
-  .subtitle {
-    color: var(--color-text-secondary);
-    font-size: 1.1rem;
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-lg);
   }
 
   .search-box {
-    max-width: 600px;
-    margin: 0 auto;
+    margin-bottom: var(--space-xl);
   }
 
   .search-box form {
@@ -75,19 +63,8 @@ const lang = 'es' as const;
     border-color: var(--color-primary);
   }
 
-  .changelog-link {
-    display: inline-block;
-    margin-top: var(--space-sm);
-    font-size: 0.85rem;
+  .coming-soon {
     color: var(--color-text-muted);
-    transition: color 0.2s;
-  }
-
-  .changelog-link:hover {
-    color: var(--color-primary);
-  }
-
-  .catalog-container {
-    padding-bottom: var(--space-2xl);
+    font-style: italic;
   }
 </style>

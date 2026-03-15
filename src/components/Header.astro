@@ -27,11 +27,18 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
       <a href={`${base}${lang}/buscar/`} class="nav-link">{t('nav.search', lang)}</a>
     </nav>
 
-    <a href={alternateUrl} class="lang-switch btn" title={t('lang.switch', lang)}>
+    <a href={alternateUrl} class="lang-switch btn" title={t('lang.switch', lang)} data-target-lang={otherLang}>
       {t('lang.switch', lang)}
     </a>
   </div>
 </header>
+
+<script>
+  document.querySelector('.lang-switch')?.addEventListener('click', (e) => {
+    const target = (e.currentTarget as HTMLElement).dataset.targetLang;
+    if (target) localStorage.setItem('legis-cpm-lang', target);
+  });
+</script>
 
 <style>
   .header {

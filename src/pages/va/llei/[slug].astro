@@ -1,0 +1,72 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { StructureNode } from '../../../lib/types';
+import LawReaderLayout from '../../../layouts/LawReaderLayout.astro';
+import ArticleContent from '../../../components/ArticleContent.astro';
+import { getAllLaws, getLawBySlug } from '../../../lib/laws';
+
+const lang = 'va' as const;
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const laws = getAllLaws('va');
+  return laws.map((law) => ({ params: { slug: law.slug } }));
+};
+
+const { slug } = Astro.params;
+const law = getLawBySlug(slug!, lang);
+
+if (!law) return Astro.redirect(`${import.meta.env.BASE_URL}va/`);
+
+function renderNodes(nodes: StructureNode[]): StructureNode[] {
+  const flat: StructureNode[] = [];
+  for (const node of nodes) {
+    flat.push(node);
+    if (node.children) flat.push(...renderNodes(node.children));
+  }
+  return flat;
+}
+
+const allNodes = renderNodes(law.structure);
+---
+
+<LawReaderLayout law={law} lang={lang}>
+  {allNodes.map((node) => {
+    if (node.type === 'titulo' || node.type === 'capitulo' || node.type === 'seccion') {
+      const Tag = node.type === 'titulo' ? 'h2' : 'h3';
+      return (
+        <div id={node.id} class={`section-heading section-${node.type}`} style="scroll-margin-top: calc(var(--header-height) + 1rem);">
+          <Tag>{node.title}</Tag>
+        </div>
+      );
+    }
+    if (node.content || node.versions) {
+      return <ArticleContent node={node} lang={lang} />;
+    }
+    return null;
+  })}
+</LawReaderLayout>
+
+<style>
+  .section-heading {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-md);
+  }
+
+  .section-titulo h2 {
+    font-size: 1.3rem;
+    color: var(--color-primary-dark);
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: var(--space-xs);
+  }
+
+  .section-capitulo h3 {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+  }
+
+  .section-seccion h3 {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+  }
+</style>

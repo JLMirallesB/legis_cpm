@@ -1,0 +1,186 @@
+{
+  "id": "decreto-158-2007",
+  "slug": "decreto-158-2007",
+  "type": "decreto",
+  "number": "158/2007",
+  "date": "2007-09-21",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "5606",
+    "date": "2007-09-25",
+    "url": "https://dogv.gva.es/datos/2007/09/25/pdf/2007_11701.pdf"
+  },
+  "title": "Decreto 158/2007, de 21 de septiembre, del Consell, por el que se establece el curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica y se regula el acceso a estas ense\u00f1anzas",
+  "titleShort": "Curr\u00edculo ense\u00f1anzas profesionales de m\u00fasica",
+  "category": "curriculo",
+  "vigpiracy": {
+    "status": "vigente_parcial",
+    "statusLabel": "Vigente con modificaciones",
+    "effectiveDate": "2007-09-26",
+    "lastModifiedDate": "2020-06-19"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Pre\u00e1mbulo",
+      "content": "La Ley Org\u00e1nica 2/2006, de 3 de mayo, de Educaci\u00f3n, establece en su art\u00edculo 45 que las ense\u00f1anzas art\u00edsticas profesionales tendr\u00e1n como finalidad proporcionar al alumnado una formaci\u00f3n art\u00edstica de calidad. En desarrollo de esta ley, el presente decreto establece el curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica en el \u00e1mbito de la Comunitat Valenciana."
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-1",
+      "title": "T\u00edtulo I. Disposiciones generales",
+      "children": [
+        {
+          "type": "capitulo",
+          "id": "titulo-1-cap-1",
+          "title": "Cap\u00edtulo I. Objeto, \u00e1mbito y organizaci\u00f3n",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-1",
+              "number": "1",
+              "title": "Art\u00edculo 1. Objeto y \u00e1mbito de aplicaci\u00f3n",
+              "content": "1. El presente decreto tiene por objeto establecer el curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica en la Comunitat Valenciana, as\u00ed como regular el acceso a estas ense\u00f1anzas.\n\n2. El \u00e1mbito de aplicaci\u00f3n de este decreto se extiende a todos los centros de la Comunitat Valenciana, tanto p\u00fablicos como privados autorizados, que impartan ense\u00f1anzas profesionales de m\u00fasica."
+            },
+            {
+              "type": "articulo",
+              "id": "art-2",
+              "number": "2",
+              "title": "Art\u00edculo 2. Finalidad",
+              "content": "Las ense\u00f1anzas profesionales de m\u00fasica tienen como finalidad proporcionar al alumnado una formaci\u00f3n art\u00edstica de calidad, as\u00ed como garantizar la cualificaci\u00f3n de los futuros profesionales de la m\u00fasica."
+            },
+            {
+              "type": "articulo",
+              "id": "art-3",
+              "number": "3",
+              "title": "Art\u00edculo 3. Organizaci\u00f3n de las ense\u00f1anzas",
+              "content": "1. Las ense\u00f1anzas profesionales de m\u00fasica se organizar\u00e1n en seis cursos de duraci\u00f3n.\n\n2. Estas ense\u00f1anzas se organizar\u00e1n en las especialidades recogidas en el Anexo I del presente decreto.",
+              "versions": [
+                {
+                  "versionId": "v2",
+                  "effectiveDate": "2020-06-19",
+                  "modifiedBy": {
+                    "lawId": "decreto-90-2020",
+                    "title": "Decreto 90/2020, de 19 de junio, del Consell"
+                  },
+                  "content": "1. Las ense\u00f1anzas profesionales de m\u00fasica se organizar\u00e1n en seis cursos de duraci\u00f3n.\n\n2. Estas ense\u00f1anzas se organizar\u00e1n en las especialidades recogidas en el Anexo I del presente decreto.\n\n3. Los centros podr\u00e1n organizar las ense\u00f1anzas de forma presencial o semipresencial en los t\u00e9rminos que establezca la administraci\u00f3n educativa."
+                },
+                {
+                  "versionId": "v1",
+                  "effectiveDate": "2007-09-26",
+                  "modifiedBy": null,
+                  "content": "1. Las ense\u00f1anzas profesionales de m\u00fasica se organizar\u00e1n en seis cursos de duraci\u00f3n.\n\n2. Estas ense\u00f1anzas se organizar\u00e1n en las especialidades recogidas en el Anexo I del presente decreto."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "capitulo",
+          "id": "titulo-1-cap-2",
+          "title": "Cap\u00edtulo II. Curr\u00edculo",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-4",
+              "number": "4",
+              "title": "Art\u00edculo 4. Curr\u00edculo",
+              "content": "1. Se entiende por curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica el conjunto de objetivos, contenidos, m\u00e9todos pedag\u00f3gicos y criterios de evaluaci\u00f3n que han de regular la pr\u00e1ctica docente en estas ense\u00f1anzas.\n\n2. El curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica es el que se establece en los anexos del presente decreto."
+            },
+            {
+              "type": "articulo",
+              "id": "art-5",
+              "number": "5",
+              "title": "Art\u00edculo 5. Objetivos generales",
+              "content": "Las ense\u00f1anzas profesionales de m\u00fasica deber\u00e1n contribuir a que los alumnos y alumnas adquieran las capacidades siguientes:\n\na) Habituarse a escuchar m\u00fasica y establecer un concepto est\u00e9tico propio.\n\nb) Valorar la importancia de la m\u00fasica como lenguaje art\u00edstico y medio de expresi\u00f3n cultural.\n\nc) Conocer y valorar el patrimonio musical valenciano."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-2",
+      "title": "T\u00edtulo II. Del acceso y la admisi\u00f3n",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-6",
+          "number": "6",
+          "title": "Art\u00edculo 6. Requisitos de acceso",
+          "content": "1. Para acceder a las ense\u00f1anzas profesionales de m\u00fasica ser\u00e1 preciso superar una prueba espec\u00edfica de acceso.\n\n2. Podr\u00e1 accederse a cada curso sin haber superado los anteriores siempre que, a trav\u00e9s de una prueba, el aspirante demuestre tener los conocimientos necesarios para cursar con aprovechamiento las ense\u00f1anzas correspondientes."
+        },
+        {
+          "type": "articulo",
+          "id": "art-7",
+          "number": "7",
+          "title": "Art\u00edculo 7. Prueba de acceso a primer curso",
+          "content": "1. La prueba de acceso a primer curso de las ense\u00f1anzas profesionales de m\u00fasica valorar\u00e1 la madurez, las aptitudes y los conocimientos del aspirante para cursar con aprovechamiento estas ense\u00f1anzas.\n\n2. La prueba constar\u00e1 de dos ejercicios:\n\na) Interpretaci\u00f3n, en el instrumento de la especialidad a la que se opte, de dos obras de libre elecci\u00f3n por el aspirante.\n\nb) Ejercicio te\u00f3rico-pr\u00e1ctico para evaluar los conocimientos de lenguaje musical."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "title": "Disposici\u00f3n adicional primera. Adaptaci\u00f3n curricular",
+      "content": "Los centros docentes adaptar\u00e1n el curr\u00edculo establecido en el presente decreto al contexto socioecon\u00f3mico y cultural del centro y a las caracter\u00edsticas del alumnado."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "title": "Disposici\u00f3n adicional segunda. Autonom\u00eda de los centros",
+      "content": "Los centros docentes, en el ejercicio de su autonom\u00eda pedag\u00f3gica, podr\u00e1n elaborar proyectos educativos que contemplen las particularidades de su contexto."
+    },
+    {
+      "type": "disposicion_transitoria",
+      "id": "dt-1",
+      "title": "Disposici\u00f3n transitoria \u00fanica. Implantaci\u00f3n",
+      "content": "La implantaci\u00f3n del curr\u00edculo establecido en el presente decreto se llevar\u00e1 a cabo seg\u00fan el calendario que establezca la Conselleria competente en materia de educaci\u00f3n."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "title": "Disposici\u00f3n derogatoria \u00fanica",
+      "content": "Quedan derogadas cuantas disposiciones de igual o inferior rango se opongan a lo establecido en el presente decreto."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "title": "Disposici\u00f3n final primera. Desarrollo normativo",
+      "content": "Se autoriza al conseller competente en materia de educaci\u00f3n para dictar cuantas disposiciones sean necesarias para el desarrollo y aplicaci\u00f3n del presente decreto."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "title": "Disposici\u00f3n final segunda. Entrada en vigor",
+      "content": "El presente decreto entrar\u00e1 en vigor el d\u00eda siguiente al de su publicaci\u00f3n en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Ley Org\u00e1nica 2/2006, de 3 de mayo, de Educaci\u00f3n (LOE)",
+        "articles": ["art-45", "art-46"],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Real Decreto 1577/2006, de 22 de diciembre, por el que se fijan los aspectos b\u00e1sicos del curr\u00edculo de las ense\u00f1anzas profesionales de m\u00fasica",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "decreto-90-2020",
+        "title": "Decreto 90/2020, de 19 de junio, del Consell",
+        "type": "modifica",
+        "articles": ["art-3"],
+        "date": "2020-06-19",
+        "description": "Modifica el art\u00edculo 3, a\u00f1adiendo la posibilidad de ense\u00f1anza semipresencial"
+      }
+    ],
+    "derogations": [],
+    "concordances": []
+  }
+}

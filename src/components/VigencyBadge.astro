@@ -1,0 +1,47 @@
+---
+import type { Lang, VigencyStatus } from '../lib/types';
+import { t } from '../i18n/utils';
+
+interface Props {
+  status: VigencyStatus;
+  lang: Lang;
+}
+
+const { status, lang } = Astro.props;
+const label = t(`law.${status}`, lang);
+---
+
+<span class={`vigency-badge vigency-${status}`}>{label}</span>
+
+<style>
+  .vigency-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 3px;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+  }
+
+  .vigency-vigente {
+    background: #c6f6d5;
+    color: #22543d;
+  }
+
+  .vigency-vigente_parcial {
+    background: #fefcbf;
+    color: #744210;
+  }
+
+  .vigency-derogada_parcial {
+    background: #feebc8;
+    color: #7b341e;
+  }
+
+  .vigency-derogada {
+    background: #fed7d7;
+    color: #742a2a;
+  }
+</style>

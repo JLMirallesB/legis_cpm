@@ -1,0 +1,74 @@
+---
+import type { Lang } from '../lib/types';
+import { getLawsByCategory, getCategories } from '../lib/laws';
+import { t } from '../i18n/utils';
+import LawCard from './LawCard.astro';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const categories = getCategories();
+const lawsByCategory = getLawsByCategory(lang);
+---
+
+<section class="catalog">
+  {categories.map((cat) => {
+    const laws = lawsByCategory.get(cat.id);
+    if (!laws || laws.length === 0) return null;
+
+    return (
+      <div class="category-section">
+        <h2 class="category-title">{cat.label[lang]}</h2>
+        {cat.description?.[lang] && (
+          <p class="category-desc">{cat.description[lang]}</p>
+        )}
+        <div class="law-grid">
+          {laws.map((law) => (
+            <LawCard law={law} lang={lang} />
+          ))}
+        </div>
+      </div>
+    );
+  })}
+
+  {lawsByCategory.size === 0 && (
+    <p class="empty">{lang === 'va' ? "No hi ha legislació disponible encara." : "No hay legislación disponible todavía."}</p>
+  )}
+</section>
+
+<style>
+  .catalog {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+  }
+
+  .category-title {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+    padding-bottom: var(--space-xs);
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .category-desc {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .law-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--space-md);
+  }
+
+  .empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-style: italic;
+    padding: var(--space-2xl) 0;
+  }
+</style>

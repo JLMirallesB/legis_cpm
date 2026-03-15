@@ -1,0 +1,115 @@
+---
+import type { Lang, Law } from '../lib/types';
+import BaseLayout from './BaseLayout.astro';
+import LawSidebar from '../components/LawSidebar.astro';
+import VigencyBadge from '../components/VigencyBadge.astro';
+import { t } from '../i18n/utils';
+
+interface Props {
+  law: Law;
+  lang: Lang;
+}
+
+const { law, lang } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-ES' : 'es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<BaseLayout lang={lang} title={law.titleShort}>
+  <div class="container law-reader">
+    <div class="law-header">
+      <div class="law-breadcrumb">
+        <a href={`${base}${lang}/`}>{t('nav.home', lang)}</a>
+        <span>&rsaquo;</span>
+        <span>{law.titleShort}</span>
+      </div>
+      <h1>{law.title}</h1>
+      <div class="law-meta">
+        <VigencyBadge status={law.vigpiracy.status} lang={lang} />
+        <span class="law-date">{dateFormatted}</span>
+        <span class="law-source">{law.publishedIn.source} n&uacute;m. {law.publishedIn.number}</span>
+        {law.publishedIn.url && (
+          <a href={law.publishedIn.url} target="_blank" rel="noopener" class="btn btn-source">
+            {t('download.view_source', lang, { source: law.publishedIn.source })} &nearr;
+          </a>
+        )}
+      </div>
+    </div>
+
+    <div class="law-body">
+      <LawSidebar structure={law.structure} />
+      <div class="law-content">
+        <slot />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .law-reader {
+    padding: var(--space-lg) 0 var(--space-2xl);
+  }
+
+  .law-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+  }
+
+  .law-breadcrumb a {
+    color: var(--color-text-muted);
+  }
+
+  .law-breadcrumb a:hover {
+    color: var(--color-primary);
+  }
+
+  .law-header {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-lg);
+    border-bottom: 2px solid var(--color-border);
+  }
+
+  .law-header h1 {
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    line-height: 1.4;
+    margin-bottom: var(--space-md);
+  }
+
+  .law-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-sm) var(--space-md);
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+  }
+
+  .btn-source {
+    font-size: 0.8rem;
+  }
+
+  .law-body {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    gap: var(--space-xl);
+  }
+
+  @media (max-width: 768px) {
+    .law-body {
+      grid-template-columns: 1fr;
+    }
+
+    .law-header h1 {
+      font-size: 1.2rem;
+    }
+  }
+</style>

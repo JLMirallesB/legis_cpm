@@ -1,0 +1,118 @@
+---
+import type { StructureNode } from '../lib/types';
+
+interface Props {
+  structure: StructureNode[];
+}
+
+const { structure } = Astro.props;
+
+function getNavItems(nodes: StructureNode[]): { id: string; title: string; depth: number }[] {
+  const items: { id: string; title: string; depth: number }[] = [];
+
+  function walk(nodes: StructureNode[], depth: number) {
+    for (const node of nodes) {
+      items.push({ id: node.id, title: node.title, depth });
+      if (node.children) walk(node.children, depth + 1);
+    }
+  }
+
+  walk(nodes, 0);
+  return items;
+}
+
+const navItems = getNavItems(structure);
+---
+
+<aside class="law-sidebar">
+  <nav class="sidebar-nav" aria-label="Índice de la norma">
+    <ul>
+      {navItems.map((item) => (
+        <li class={`nav-item depth-${item.depth}`}>
+          <a href={`#${item.id}`}>{item.title}</a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</aside>
+
+<script>
+  // Scroll spy: resalta el artículo activo en el sidebar
+  const links = document.querySelectorAll('.sidebar-nav a');
+  const sections = Array.from(links).map((link) => {
+    const id = link.getAttribute('href')?.replace('#', '');
+    return id ? document.getElementById(id) : null;
+  }).filter(Boolean) as HTMLElement[];
+
+  function updateActive() {
+    let current = '';
+    for (const section of sections) {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= 120) current = section.id;
+    }
+    links.forEach((link) => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
+    });
+  }
+
+  window.addEventListener('scroll', updateActive, { passive: true });
+  updateActive();
+</script>
+
+<style>
+  .law-sidebar {
+    position: sticky;
+    top: calc(var(--header-height) + var(--space-md));
+    max-height: calc(100vh - var(--header-height) - var(--space-xl));
+    overflow-y: auto;
+    padding-right: var(--space-md);
+  }
+
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-bottom: 1px;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    transition: all 0.15s;
+    line-height: 1.4;
+  }
+
+  .nav-item a:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-secondary);
+    text-decoration: none;
+  }
+
+  .nav-item a.active {
+    color: var(--color-primary);
+    border-left-color: var(--color-primary);
+    font-weight: 600;
+    background: var(--color-bg-secondary);
+  }
+
+  .depth-1 a { padding-left: 20px; }
+  .depth-2 a { padding-left: 32px; }
+  .depth-3 a { padding-left: 44px; }
+
+  @media (max-width: 768px) {
+    .law-sidebar {
+      position: static;
+      max-height: none;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: var(--space-md);
+      margin-bottom: var(--space-md);
+    }
+  }
+</style>

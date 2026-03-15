@@ -1,0 +1,77 @@
+---
+import type { Lang, LawMetadata } from '../lib/types';
+import VigencyBadge from './VigencyBadge.astro';
+
+interface Props {
+  law: LawMetadata;
+  lang: Lang;
+}
+
+const { law, lang } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const lawPath = lang === 'va' ? 'llei' : 'ley';
+const href = `${base}${lang}/${lawPath}/${law.slug}/`;
+const typeLabel = law.type.replace(/_/g, ' ');
+const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-ES' : 'es-ES', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<a href={href} class="law-card">
+  <div class="law-card-header">
+    <span class="law-type">{typeLabel}</span>
+    <VigencyBadge status={law.vigpiracy.status} lang={lang} />
+  </div>
+  <h3 class="law-title">{law.titleShort}</h3>
+  <p class="law-number">{law.number} &middot; {dateFormatted}</p>
+</a>
+
+<style>
+  .law-card {
+    display: block;
+    padding: var(--space-md);
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: all 0.2s;
+  }
+
+  .law-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .law-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-sm);
+  }
+
+  .law-type {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+  }
+
+  .law-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+    line-height: 1.4;
+  }
+
+  .law-number {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+</style>
