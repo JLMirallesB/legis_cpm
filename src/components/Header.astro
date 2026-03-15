@@ -1,6 +1,7 @@
 ---
 import type { Lang } from '../lib/types';
 import { t, getAlternateUrl, getOtherLang } from '../i18n/utils';
+import { VERSION } from '../lib/version';
 
 interface Props {
   lang: Lang;
@@ -16,13 +17,14 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 <header class="header">
   <div class="header-inner container">
     <a href={`${base}${lang}/`} class="logo">
-      <span class="logo-icon">&#9878;</span>
+      <span class="logo-icon">&#167;</span>
       <span class="logo-text">{t('site.title', lang)}</span>
+      <span class="logo-version">v{VERSION}</span>
     </a>
 
     <nav class="nav">
       <a href={`${base}${lang}/`} class="nav-link">{t('nav.catalog', lang)}</a>
-      <a href={`${base}${lang}/buscar`} class="nav-link">{t('nav.search', lang)}</a>
+      <a href={`${base}${lang}/buscar/`} class="nav-link">{t('nav.search', lang)}</a>
     </nav>
 
     <a href={alternateUrl} class="lang-switch btn" title={t('lang.switch', lang)}>
@@ -68,6 +70,15 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 
   .logo-icon {
     font-size: 1.5rem;
+    font-family: var(--font-serif);
+  }
+
+  .logo-version {
+    font-size: 0.65rem;
+    font-weight: 400;
+    opacity: 0.6;
+    align-self: flex-end;
+    margin-bottom: 2px;
   }
 
   .nav {
@@ -105,6 +116,9 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 
   @media (max-width: 640px) {
     .logo-text {
+      display: none;
+    }
+    .logo-version {
       display: none;
     }
     .nav {

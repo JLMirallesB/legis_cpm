@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/utils';
+import changelog from '../../../data/changelog.json';
+
+const lang = 'es' as const;
+---
+
+<BaseLayout lang={lang} title={t('changelog.title', lang)}>
+  <div class="container changelog-page">
+    <h1>{t('changelog.title', lang)}</h1>
+    <p class="subtitle">{t('changelog.subtitle', lang)}</p>
+
+    {changelog.length === 0 ? (
+      <p class="empty">{t('changelog.empty', lang)}</p>
+    ) : (
+      <div class="changelog-list">
+        {changelog.map((release) => (
+          <article class="release">
+            <header class="release-header">
+              <h2>{t('changelog.version', lang, { version: release.version })}</h2>
+              <time datetime={release.date}>{new Date(release.date).toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
+            </header>
+            <ul class="release-entries">
+              {release.entries.es.map((entry) => (
+                <li>
+                  <span class={`entry-badge entry-${entry.type}`}>{entry.type}</span>
+                  {entry.description}
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .changelog-page {
+    padding: var(--space-xl) 0;
+    max-width: 800px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+  }
+
+  .subtitle {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xl);
+  }
+
+  .empty {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .release {
+    margin-bottom: var(--space-xl);
+    padding-bottom: var(--space-xl);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .release:last-child {
+    border-bottom: none;
+  }
+
+  .release-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+  }
+
+  .release-header h2 {
+    font-size: 1.3rem;
+    color: var(--color-primary);
+  }
+
+  .release-header time {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+
+  .release-entries {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .release-entries li {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+    line-height: 1.5;
+  }
+
+  .entry-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1px 6px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  .entry-nuevo, .entry-nou {
+    background: #c6f6d5;
+    color: #22543d;
+  }
+
+  .entry-actualizado, .entry-actualitzat {
+    background: #bee3f8;
+    color: #2a4365;
+  }
+
+  .entry-corregido, .entry-corregit {
+    background: #fed7d7;
+    color: #742a2a;
+  }
+
+  .entry-eliminado, .entry-eliminat {
+    background: #e2e8f0;
+    color: #4a5568;
+  }
+</style>

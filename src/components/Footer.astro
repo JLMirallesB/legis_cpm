@@ -1,41 +1,114 @@
 ---
 import type { Lang } from '../lib/types';
 import { t } from '../i18n/utils';
+import { VERSION } from '../lib/version';
 
 interface Props {
   lang: Lang;
 }
 
 const { lang } = Astro.props;
+const githubUrl = 'https://github.com/JLMirallesB/legis_cpm';
+const email = 'jl.mirallesbono@edu.gva.es';
+const kofiUrl = 'https://ko-fi.com/miralles';
 ---
 
 <footer class="footer">
   <div class="container footer-inner">
-    <p class="footer-text">{t('footer.description', lang)}</p>
-    <p class="footer-copy">&copy; {new Date().getFullYear()} Legis CPM</p>
+    <div class="footer-main">
+      <p class="footer-project">{t('footer.personal_project', lang)}</p>
+      <p class="footer-disclaimer">{t('footer.disclaimer', lang)}</p>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>{t('footer.contact', lang)}</h4>
+        <ul>
+          <li><a href={`mailto:${email}`}>{email}</a></li>
+          <li><a href={`${githubUrl}/issues`} target="_blank" rel="noopener">{t('footer.report_error', lang)} (GitHub)</a></li>
+          <li><a href={kofiUrl} target="_blank" rel="noopener">{t('footer.buy_orxata', lang)} &#9749;</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {new Date().getFullYear()} Jos&eacute; Luis Miralles Bono &middot; Legis CPM v{VERSION}</p>
+    </div>
   </div>
 </footer>
 
 <style>
   .footer {
     margin-top: var(--space-2xl);
-    padding: var(--space-lg) 0;
+    padding: var(--space-xl) 0 var(--space-md);
     background: var(--color-primary-dark);
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.75);
     font-size: 0.85rem;
+    line-height: 1.6;
   }
 
   .footer-inner {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-project {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+  }
+
+  .footer-disclaimer {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.8rem;
+    max-width: 800px;
+    font-style: italic;
+  }
+
+  .footer-links h4 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.85rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-lg);
+  }
+
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--space-md);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.75rem;
   }
 
   @media (max-width: 640px) {
-    .footer-inner {
+    .footer-links ul {
       flex-direction: column;
-      gap: var(--space-sm);
-      text-align: center;
+      gap: var(--space-xs);
     }
   }
 </style>

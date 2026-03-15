@@ -4,6 +4,7 @@
   "nav.catalog": "Cat\u00e1logo",
   "nav.search": "Buscar",
   "nav.home": "Inicio",
+  "nav.changelog": "Novedades",
   "search.placeholder": "Buscar por nombre de ley o t\u00e9rmino...",
   "search.results": "Resultados de b\u00fasqueda",
   "search.no_results": "No se encontraron resultados para",
@@ -30,8 +31,18 @@
   "download.view_source": "Ver en {source}",
   "lang.switch": "Valenci\u00e0",
   "lang.current": "Castellano",
-  "footer.description": "Legislaci\u00f3n de Conservatorios Profesionales de M\u00fasica - Generalitat Valenciana",
+  "footer.description": "Legislaci\u00f3n de Conservatorios Profesionales de M\u00fasica \u2013 Generalitat Valenciana",
+  "footer.personal_project": "Proyecto personal de Jos\u00e9 Luis Miralles Bono. No es una publicaci\u00f3n oficial de la Generalitat Valenciana.",
+  "footer.disclaimer": "La informaci\u00f3n contenida en este sitio tiene car\u00e1cter meramente informativo. Aunque se ha procurado garantizar la exactitud y actualizaci\u00f3n de los textos legislativos, pueden contener errores, omisiones o no reflejar las \u00faltimas modificaciones. El autor no se responsabiliza de los da\u00f1os o perjuicios que pudieran derivarse del uso de esta informaci\u00f3n sin la debida verificaci\u00f3n con las fuentes oficiales (DOGV, BOE).",
+  "footer.contact": "Contacto",
+  "footer.report_error": "Notificar un error",
+  "footer.buy_orxata": "Inv\u00edtame a una orxata",
   "catalog.title": "Cat\u00e1logo de legislaci\u00f3n",
   "catalog.subtitle": "Conservatorios Profesionales de M\u00fasica de la Generalitat Valenciana",
-  "catalog.all_categories": "Todas las categor\u00edas"
+  "catalog.all_categories": "Todas las categor\u00edas",
+  "changelog.title": "Novedades y actualizaciones",
+  "changelog.subtitle": "Historial de normativas a\u00f1adidas y actualizadas",
+  "changelog.version": "Versi\u00f3n {version}",
+  "changelog.date": "Fecha",
+  "changelog.empty": "A\u00fan no hay entradas en el historial."
 }

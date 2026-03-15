@@ -1,0 +1,28 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2026-03-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Lanzamiento inicial del sitio Legis CPM"
+        },
+        {
+          "type": "nuevo",
+          "description": "Estructura base con cat\u00e1logo, b\u00fasqueda y soporte biling\u00fce (castellano / valenciano)"
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Llan\u00e7ament inicial del lloc Legis CPM"
+        },
+        {
+          "type": "nou",
+          "description": "Estructura base amb cat\u00e0leg, cerca i suport biling\u00fce (castell\u00e0 / valenci\u00e0)"
+        }
+      ]
+    }
+  }
+]
