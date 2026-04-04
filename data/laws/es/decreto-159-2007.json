@@ -85,21 +85,72 @@
           "id": "art-7",
           "number": "7",
           "title": "Artículo 7. Ingreso",
-          "content": "1. El consejo escolar del cada centro público, o el órgano competente en el caso de centros privados, establecerá, respetando las instrucciones que dicte a este fin la conselleria competente en materia de educación, el procedimiento de ingreso a las enseñanzas elementales de música, de acuerdo con el proyecto educativo y con las posibilidades organizativas del centro docente.\n\n2. Para iniciar los estudios del primer curso de las enseñanzas elementales de música será necesario realizar una prueba mediante la cual, se valorarán las aptitudes del aspirante para cursar dichas enseñanzas.\n\n3. Las enseñanzas elementales de música se cursarán ordinariamente entre los ocho y los doce años de edad. El inicio de las enseñanzas elementales con menos de ocho años o más de doce se entenderá como excepcional. A tal efecto, la conselleria competente en materia de educación atenderá el tratamiento de esta excepcionalidad.\n\n4. Los conservatorios y centros autorizados de música de carácter reglado del ámbito de gestión de la conselleria competente en materia de educación, establecerán en sus proyectos educativos los criterios de valoración de las pruebas de ingreso, atendiendo a las aptitudes de los aspirantes para cursar las especialidades solicitadas, y a la edad idónea establecida.\n\n5. La prueba de ingreso a los centros que imparten las enseñanzas elementales de música se realizará en una única convocatoria en el mes de septiembre, efectuada por el centro docente correspondiente."
+          "content": "1. El procedimiento de admisión a las enseñanzas elementales de Música se realizará según lo que determine la conselleria competente en materia de educación.\n\n2. Para iniciar los estudios del primer curso de las enseñanzas elementales de Música, será necesario realizar una prueba mediante la cual se valorarán las aptitudes del aspirante para cursar dichas enseñanzas.\n\n3. Las enseñanzas elementales de Música se cursarán ordinariamente a partir de los 8 años cumplidos en el año natural de la prueba de acceso. La conselleria competente en materia de educación regulará el acceso de aspirantes menores de la edad establecida como ordinaria.\n\n4. La prueba de acceso al primer curso de las enseñanzas elementales de Música tendrá la estructura y los criterios de calificación y ponderación que determine la conselleria competente en materia de educación.\n\n5. La prueba de acceso a los centros que imparten las enseñanzas elementales de Música se realizará de acuerdo con lo que determine la conselleria competente en materia de educación.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decreto 46/2026, de 27 de marzo, del Consell"
+              },
+              "content": "1. El procedimiento de admisión a las enseñanzas elementales de Música se realizará según lo que determine la conselleria competente en materia de educación.\n\n2. Para iniciar los estudios del primer curso de las enseñanzas elementales de Música, será necesario realizar una prueba mediante la cual se valorarán las aptitudes del aspirante para cursar dichas enseñanzas.\n\n3. Las enseñanzas elementales de Música se cursarán ordinariamente a partir de los 8 años cumplidos en el año natural de la prueba de acceso. La conselleria competente en materia de educación regulará el acceso de aspirantes menores de la edad establecida como ordinaria.\n\n4. La prueba de acceso al primer curso de las enseñanzas elementales de Música tendrá la estructura y los criterios de calificación y ponderación que determine la conselleria competente en materia de educación.\n\n5. La prueba de acceso a los centros que imparten las enseñanzas elementales de Música se realizará de acuerdo con lo que determine la conselleria competente en materia de educación."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. El consejo escolar del cada centro público, o el órgano competente en el caso de centros privados, establecerá, respetando las instrucciones que dicte a este fin la conselleria competente en materia de educación, el procedimiento de ingreso a las enseñanzas elementales de música, de acuerdo con el proyecto educativo y con las posibilidades organizativas del centro docente.\n\n2. Para iniciar los estudios del primer curso de las enseñanzas elementales de música será necesario realizar una prueba mediante la cual, se valorarán las aptitudes del aspirante para cursar dichas enseñanzas.\n\n3. Las enseñanzas elementales de música se cursarán ordinariamente entre los ocho y los doce años de edad. El inicio de las enseñanzas elementales con menos de ocho años o más de doce se entenderá como excepcional. A tal efecto, la conselleria competente en materia de educación atenderá el tratamiento de esta excepcionalidad.\n\n4. Los conservatorios y centros autorizados de música de carácter reglado del ámbito de gestión de la conselleria competente en materia de educación, establecerán en sus proyectos educativos los criterios de valoración de las pruebas de ingreso, atendiendo a las aptitudes de los aspirantes para cursar las especialidades solicitadas, y a la edad idónea establecida.\n\n5. La prueba de ingreso a los centros que imparten las enseñanzas elementales de música se realizará en una única convocatoria en el mes de septiembre, efectuada por el centro docente correspondiente."
+            }
+          ]
         },
         {
           "type": "articulo",
           "id": "art-8",
           "number": "8",
           "title": "Artículo 8. Adjudicación de puestos escolares",
-          "content": "1. La adjudicación de los puestos escolares vacantes en cada especialidad se realizará de acuerdo con las puntuaciones finales obtenidas en las pruebas de ingreso.\n\n2. La elaboración de estas pruebas así como su estructuración, compete al órgano de coordinación docente del centro que corresponda.\n\n3. La realización y valoración de las pruebas estará a cargo de una comisión de valoración designada por el director del centro."
+          "content": "1. La adjudicación de las plazas escolares vacantes en cada especialidad se realizará de acuerdo con las puntuaciones finales obtenidas en las pruebas de acceso y el orden de prelación establecido.\n\n3. La realización y valoración de las pruebas estará a cargo de un tribunal designado por la dirección del centro.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decreto 46/2026, de 27 de marzo, del Consell"
+              },
+              "content": "1. La adjudicación de las plazas escolares vacantes en cada especialidad se realizará de acuerdo con las puntuaciones finales obtenidas en las pruebas de acceso y el orden de prelación establecido.\n\n3. La realización y valoración de las pruebas estará a cargo de un tribunal designado por la dirección del centro."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. La adjudicación de los puestos escolares vacantes en cada especialidad se realizará de acuerdo con las puntuaciones finales obtenidas en las pruebas de ingreso.\n\n2. La elaboración de estas pruebas así como su estructuración, compete al órgano de coordinación docente del centro que corresponda.\n\n3. La realización y valoración de las pruebas estará a cargo de una comisión de valoración designada por el director del centro."
+            }
+          ]
         },
         {
           "type": "articulo",
           "id": "art-9",
           "number": "9",
           "title": "Artículo 9. Del acceso a otros cursos diferentes de primero",
-          "content": "1. Se podrá ingresar a cada curso de las enseñanzas elementales sin haber cursado los anteriores siempre que, a través de una prueba realizada ante una comisión de evaluación designada por el director del centro, el aspirante demuestre poseer los conocimientos técnicoinstrumentales y teórico-prácticos necesarios para seguir con aprovechamiento las enseñanzas correspondientes, valorándose la edad idónea.\n\n2. Las pruebas, que tendrán la estructura y organización que el proyecto educativo del centro determine, versarán sobre los contenidos de los cursos precedentes a aquel al que el aspirante opta.\n\n3. La prueba de acceso a cada curso de las enseñanzas reguladas en este decreto, se realizará en una convocatoria anual durante el mes de septiembre, efectuada por el centro docente. Los centros abrirán con la suficiente antelación, un plazo para que los interesados soliciten el curso y la especialidad a la cual quieren acceder.\n\n4. La superación de esta prueba de acceso faculta exclusivamente para matricularse en el curso académico para el que haya sido convocada.\n\n5. La prueba de acceso a cursos diferentes de primero se realizará con posterioridad la de ingreso a primer curso, y condicionada a la existencia de plazas vacantes después de acabado el proceso ordinario de adjudicación y matriculación."
+          "content": "1. Se podrá acceder a cada curso de las enseñanzas elementales sin haber cursado los anteriores siempre que, a través de una prueba realizada ante un tribunal designado por la dirección del centro, el aspirante demuestre poseer los conocimientos teórico-prácticos necesarios para seguir con aprovechamiento las enseñanzas correspondientes.\n\n2. Las pruebas, que tendrán la estructura y organización que determine la conselleria competente en materia de educación, versarán sobre los contenidos de los cursos precedentes al que el aspirante opta.\n\n3. La prueba de acceso a cada curso de las enseñanzas reguladas en este decreto se realizará atendiendo a las instrucciones que la conselleria competente en materia de educación determine.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decreto 46/2026, de 27 de marzo, del Consell"
+              },
+              "content": "1. Se podrá acceder a cada curso de las enseñanzas elementales sin haber cursado los anteriores siempre que, a través de una prueba realizada ante un tribunal designado por la dirección del centro, el aspirante demuestre poseer los conocimientos teórico-prácticos necesarios para seguir con aprovechamiento las enseñanzas correspondientes.\n\n2. Las pruebas, que tendrán la estructura y organización que determine la conselleria competente en materia de educación, versarán sobre los contenidos de los cursos precedentes al que el aspirante opta.\n\n3. La prueba de acceso a cada curso de las enseñanzas reguladas en este decreto se realizará atendiendo a las instrucciones que la conselleria competente en materia de educación determine."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. Se podrá ingresar a cada curso de las enseñanzas elementales sin haber cursado los anteriores siempre que, a través de una prueba realizada ante una comisión de evaluación designada por el director del centro, el aspirante demuestre poseer los conocimientos técnicoinstrumentales y teórico-prácticos necesarios para seguir con aprovechamiento las enseñanzas correspondientes, valorándose la edad idónea.\n\n2. Las pruebas, que tendrán la estructura y organización que el proyecto educativo del centro determine, versarán sobre los contenidos de los cursos precedentes a aquel al que el aspirante opta.\n\n3. La prueba de acceso a cada curso de las enseñanzas reguladas en este decreto, se realizará en una convocatoria anual durante el mes de septiembre, efectuada por el centro docente. Los centros abrirán con la suficiente antelación, un plazo para que los interesados soliciten el curso y la especialidad a la cual quieren acceder.\n\n4. La superación de esta prueba de acceso faculta exclusivamente para matricularse en el curso académico para el que haya sido convocada.\n\n5. La prueba de acceso a cursos diferentes de primero se realizará con posterioridad la de ingreso a primer curso, y condicionada a la existencia de plazas vacantes después de acabado el proceso ordinario de adjudicación y matriculación."
+            }
+          ]
         },
         {
           "type": "articulo",
@@ -127,7 +178,24 @@
           "id": "art-13",
           "number": "13",
           "title": "Artículo 13. Ampliación de matrícula",
-          "content": "Es competencia del consejo escolar de cada centro público, o de los órganos competentes en el caso de centros privados, autorizar con carácter excepcional la matriculación en más de un curso a aquellos alumnos que, previa orientación del profesorado así lo soliciten, siempre que el conjunto de profesores que imparten clases a dichos alumnos asegure su adecuada capacidad de aprendizaje, para cursar las enseñanzas en las condiciones establecidas."
+          "content": "La conselleria competente en materia de educación establecerá los criterios que regulen la flexibilización en las enseñanzas elementales de Música, de acuerdo con la normativa vigente.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decreto 46/2026, de 27 de marzo, del Consell"
+              },
+              "content": "La conselleria competente en materia de educación establecerá los criterios que regulen la flexibilización en las enseñanzas elementales de Música, de acuerdo con la normativa vigente."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "Es competencia del consejo escolar de cada centro público, o de los órganos competentes en el caso de centros privados, autorizar con carácter excepcional la matriculación en más de un curso a aquellos alumnos que, previa orientación del profesorado así lo soliciten, siempre que el conjunto de profesores que imparten clases a dichos alumnos asegure su adecuada capacidad de aprendizaje, para cursar las enseñanzas en las condiciones establecidas."
+            }
+          ]
         }
       ]
     },
@@ -176,7 +244,24 @@
           "id": "art-19",
           "number": "19",
           "title": "Artículo 19. Obtención directa del Certificado de Enseñanzas Elementales",
-          "content": "Los conservatorios públicos elementales y profesionales que impartan las enseñanzas elementales de música, organizarán en el primer trimestre del curso pruebas para la obtención directa del Certificado de Enseñanzas Elementales de Música."
+          "content": "Los conservatorios públicos que impartan enseñanzas elementales o profesionales de Música organizarán pruebas anuales para la obtención directa del Certificado de enseñanzas elementales de Música.\n\nLa conselleria competente en materia de educación regulará el procedimiento y la convocatoria anual para la obtención directa del Certificado de enseñanzas elementales de Música, así como la estructura, calificación y ponderación de las pruebas.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decreto 46/2026, de 27 de marzo, del Consell"
+              },
+              "content": "Los conservatorios públicos que impartan enseñanzas elementales o profesionales de Música organizarán pruebas anuales para la obtención directa del Certificado de enseñanzas elementales de Música.\n\nLa conselleria competente en materia de educación regulará el procedimiento y la convocatoria anual para la obtención directa del Certificado de enseñanzas elementales de Música, así como la estructura, calificación y ponderación de las pruebas."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "Los conservatorios públicos elementales y profesionales que impartan las enseñanzas elementales de música, organizarán en el primer trimestre del curso pruebas para la obtención directa del Certificado de Enseñanzas Elementales de Música."
+            }
+          ]
         },
         {
           "type": "articulo",

@@ -85,21 +85,72 @@
           "id": "art-7",
           "number": "7",
           "title": "Article 7. Ingrés",
-          "content": "1. El consell escolar de cada centre públic, o l’òrgan competent en el cas de centres privats, establirà, respectant les instruccions que dicte amb esta finalitat la conselleria competent en matèria d’Educació, el procediment d’ingrés a les ensenyances elementals de Música, d’acord amb el projecte educatiu i amb les possibilitats organitzatives del centre docent.\n\n2. Per a iniciar els estudis del primer curs de les ensenyances elementals de Música serà necessari realitzar una prova, mitjançant la qual es valoraran les aptituds de l’aspirant per a cursar les dites ensenyances.\n\n3. Les ensenyances elementals de Música es cursaran ordinàriament entre els huit i els dotze anys d’edat. L’inici de les ensenyances elementals amb menys de huit anys o més de dotze s’entendrà com a excepcional. En este cas, la conselleria competent en matèria d’Educació atendrà el tractament d’esta excepcionalitat.\n\n4. Els conservatoris i centres autoritzats de música, de caràcter reglat, de l’àmbit de gestió de la conselleria competent en matèria d’Educació, establiran en els seus projectes educatius els criteris de valoració de les proves d’ingrés, ateses les aptituds dels aspirants per a cursar les especialitats sol·licitades i l’edat idònia establida.\n\n5. La prova d’ingrés als centres que impartixen les ensenyances elementals de Música es realitzarà en una única convocatòria en el mes de setembre, efectuada pel centre docent corresponent."
+          "content": "1. El procediment d'admissió a les ensenyances elementals de Música es realitzarà segons el que determine la conselleria competent en matèria d'educació.\n\n2. Per a iniciar els estudis del primer curs de les ensenyances elementals de Música, serà necessari realitzar una prova per mitjà de la qual es valoraran les aptituds de l'aspirant per a cursar les dites ensenyances.\n\n3. Les ensenyances elementals de Música es cursaran ordinàriament a partir dels 8 anys complits en l'any natural de la prova d'accés. La conselleria competent en matèria d'educació regularà l'accés d'aspirants menors de l'edat establida com a ordinària.\n\n4. La prova d'accés al primer curs de les ensenyances elementals de Música tindrà l'estructura i els criteris de qualificació i ponderació que determine la conselleria competent en matèria d'educació.\n\n5. La prova d'accés als centres que impartixen les ensenyances elementals de Música es realitzarà d'acord amb el que determine la conselleria competent en matèria d'educació.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decret 46/2026, de 27 de març, del Consell"
+              },
+              "content": "1. El procediment d'admissió a les ensenyances elementals de Música es realitzarà segons el que determine la conselleria competent en matèria d'educació.\n\n2. Per a iniciar els estudis del primer curs de les ensenyances elementals de Música, serà necessari realitzar una prova per mitjà de la qual es valoraran les aptituds de l'aspirant per a cursar les dites ensenyances.\n\n3. Les ensenyances elementals de Música es cursaran ordinàriament a partir dels 8 anys complits en l'any natural de la prova d'accés. La conselleria competent en matèria d'educació regularà l'accés d'aspirants menors de l'edat establida com a ordinària.\n\n4. La prova d'accés al primer curs de les ensenyances elementals de Música tindrà l'estructura i els criteris de qualificació i ponderació que determine la conselleria competent en matèria d'educació.\n\n5. La prova d'accés als centres que impartixen les ensenyances elementals de Música es realitzarà d'acord amb el que determine la conselleria competent en matèria d'educació."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. El consell escolar de cada centre públic, o l’òrgan competent en el cas de centres privats, establirà, respectant les instruccions que dicte amb esta finalitat la conselleria competent en matèria d’Educació, el procediment d’ingrés a les ensenyances elementals de Música, d’acord amb el projecte educatiu i amb les possibilitats organitzatives del centre docent.\n\n2. Per a iniciar els estudis del primer curs de les ensenyances elementals de Música serà necessari realitzar una prova, mitjançant la qual es valoraran les aptituds de l’aspirant per a cursar les dites ensenyances.\n\n3. Les ensenyances elementals de Música es cursaran ordinàriament entre els huit i els dotze anys d’edat. L’inici de les ensenyances elementals amb menys de huit anys o més de dotze s’entendrà com a excepcional. En este cas, la conselleria competent en matèria d’Educació atendrà el tractament d’esta excepcionalitat.\n\n4. Els conservatoris i centres autoritzats de música, de caràcter reglat, de l’àmbit de gestió de la conselleria competent en matèria d’Educació, establiran en els seus projectes educatius els criteris de valoració de les proves d’ingrés, ateses les aptituds dels aspirants per a cursar les especialitats sol·licitades i l’edat idònia establida.\n\n5. La prova d’ingrés als centres que impartixen les ensenyances elementals de Música es realitzarà en una única convocatòria en el mes de setembre, efectuada pel centre docent corresponent."
+            }
+          ]
         },
         {
           "type": "articulo",
           "id": "art-8",
           "number": "8",
           "title": "Article 8. Adjudicació de llocs escolars",
-          "content": "1. L’adjudicació de les places escolars vacants en cada especialitat es realitzarà d’acord amb les puntuacions finals obtingudes en les proves d’ingrés.\n\n2. L’elaboració d’estes proves, així com la seua estructuració, competix a l’òrgan de coordinació docent del centre que corresponga.\n\n3. La realització i valoració de les proves serà a càrrec d’una comissió de valoració designada pel director del centre."
+          "content": "1. L'adjudicació de les places escolars vacants en cada especialitat es realitzarà d'acord amb les puntuacions finals obtingudes en les proves d'accés i l'orde de prelació establit.\n\n3. La realització i valoració de les proves estarà a càrrec d'un tribunal designat per la direcció del centre.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decret 46/2026, de 27 de març, del Consell"
+              },
+              "content": "1. L'adjudicació de les places escolars vacants en cada especialitat es realitzarà d'acord amb les puntuacions finals obtingudes en les proves d'accés i l'orde de prelació establit.\n\n3. La realització i valoració de les proves estarà a càrrec d'un tribunal designat per la direcció del centre."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. L’adjudicació de les places escolars vacants en cada especialitat es realitzarà d’acord amb les puntuacions finals obtingudes en les proves d’ingrés.\n\n2. L’elaboració d’estes proves, així com la seua estructuració, competix a l’òrgan de coordinació docent del centre que corresponga.\n\n3. La realització i valoració de les proves serà a càrrec d’una comissió de valoració designada pel director del centre."
+            }
+          ]
         },
         {
           "type": "articulo",
           "id": "art-9",
           "number": "9",
           "title": "Article 9. De l'accés a altres cursos diferents de primer",
-          "content": "1. Es podrà accedir a cada curs de les ensenyances elementals sense haver cursat els anteriors, sempre que, a través d’una prova realitzada davant d’una comissió d’avaluació designada pel director del centre, l’aspirant demostre posseir els coneixements tècnics, instrumentals i teoricopràctics necessaris per a seguir amb aprofitament les ensenyances corresponents, valorant-se l’edat idònia. Num. 5606 / 25.09.2007\n\n2. Les proves, que tindran l’estructura i l’organització que el Projecte Educatiu del Centre determine, versaran sobre els continguts dels cursos precedents a aquell a què l’aspirant opta.\n\n3. La prova d’accés a cada curs de les ensenyances regulades en este decret es realitzarà en una convocatòria anual durant el mes de setembre, efectuada pel centre docent. Els centres obriran, amb la suficient antelació, un termini perquè els interessats sol·liciten el curs i l’especialitat a la qual volen accedir.\n\n4. La superació d’esta prova d’accés faculta exclusivament per a matricular-se en el curs acadèmic per al qual haja sigut convocada.\n\n5. La prova d’accés a cursos diferents del primer es realitzarà amb posterioritat a la d’ingrés al primer curs i estarà condicionada a l’existència de places vacants després d’acabat el procés ordinari d’adjudicació i de matriculació."
+          "content": "1. Es podrà accedir a cada curs dels ensenyaments elementals sense haver cursat els anteriors sempre que, a través d'una prova realitzada davant d'un tribunal designat per la direcció del centre, l'aspirant demostre posseir els coneixements teoricopràctics necessaris per a seguir amb aprofitament els ensenyaments corresponents.\n\n2. Les proves, que tindran l'estructura i organització que determine la conselleria competent en matèria d'educació, versaran sobre els continguts dels cursos precedents al que l'aspirant opta.\n\n3. La prova d'accés a cada curs dels ensenyaments regulats en este decret es realitzarà atenent les instruccions que la conselleria competent en matèria d'educació determine.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decret 46/2026, de 27 de març, del Consell"
+              },
+              "content": "1. Es podrà accedir a cada curs dels ensenyaments elementals sense haver cursat els anteriors sempre que, a través d'una prova realitzada davant d'un tribunal designat per la direcció del centre, l'aspirant demostre posseir els coneixements teoricopràctics necessaris per a seguir amb aprofitament els ensenyaments corresponents.\n\n2. Les proves, que tindran l'estructura i organització que determine la conselleria competent en matèria d'educació, versaran sobre els continguts dels cursos precedents al que l'aspirant opta.\n\n3. La prova d'accés a cada curs dels ensenyaments regulats en este decret es realitzarà atenent les instruccions que la conselleria competent en matèria d'educació determine."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "1. Es podrà accedir a cada curs de les ensenyances elementals sense haver cursat els anteriors, sempre que, a través d’una prova realitzada davant d’una comissió d’avaluació designada pel director del centre, l’aspirant demostre posseir els coneixements tècnics, instrumentals i teoricopràctics necessaris per a seguir amb aprofitament les ensenyances corresponents, valorant-se l’edat idònia. Num. 5606 / 25.09.2007\n\n2. Les proves, que tindran l’estructura i l’organització que el Projecte Educatiu del Centre determine, versaran sobre els continguts dels cursos precedents a aquell a què l’aspirant opta.\n\n3. La prova d’accés a cada curs de les ensenyances regulades en este decret es realitzarà en una convocatòria anual durant el mes de setembre, efectuada pel centre docent. Els centres obriran, amb la suficient antelació, un termini perquè els interessats sol·liciten el curs i l’especialitat a la qual volen accedir.\n\n4. La superació d’esta prova d’accés faculta exclusivament per a matricular-se en el curs acadèmic per al qual haja sigut convocada.\n\n5. La prova d’accés a cursos diferents del primer es realitzarà amb posterioritat a la d’ingrés al primer curs i estarà condicionada a l’existència de places vacants després d’acabat el procés ordinari d’adjudicació i de matriculació."
+            }
+          ]
         },
         {
           "type": "articulo",
@@ -127,7 +178,24 @@
           "id": "art-13",
           "number": "13",
           "title": "Article 13. Ampliació de matrícula",
-          "content": "És competència del consell escolar de cada centre públic, o dels òrgans competents en el cas de centres privats, autoritzar amb caràcter excepcional la matriculació en més d’un curs d’aquells alumnes que, amb l’orientació prèvia del professorat, així ho sol·liciten, sempre que el conjunt de professors que impartixen classes als dits alumnes assegure la seua adequada capacitat d’aprenentatge per a cursar les ensenyances en les condicions establides."
+          "content": "La conselleria competent en matèria d'educació establirà els criteris que regulen la flexibilització en les ensenyances elementals de Música, d'acord amb la normativa vigent.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decret 46/2026, de 27 de març, del Consell"
+              },
+              "content": "La conselleria competent en matèria d'educació establirà els criteris que regulen la flexibilització en les ensenyances elementals de Música, d'acord amb la normativa vigent."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "És competència del consell escolar de cada centre públic, o dels òrgans competents en el cas de centres privats, autoritzar amb caràcter excepcional la matriculació en més d’un curs d’aquells alumnes que, amb l’orientació prèvia del professorat, així ho sol·liciten, sempre que el conjunt de professors que impartixen classes als dits alumnes assegure la seua adequada capacitat d’aprenentatge per a cursar les ensenyances en les condicions establides."
+            }
+          ]
         }
       ]
     },
@@ -176,7 +244,24 @@
           "id": "art-19",
           "number": "19",
           "title": "Article 19. Obtenció directa del Certificat d'Ensenyaments Elementals",
-          "content": "de Música Els conservatoris públics elementals i professionals que impartisquen les ensenyances elementals de Música organitzaran en el primer trimestre del curs proves per a l’obtenció directa del certificat d’Ensenyances Elementals de Música."
+          "content": "Els conservatoris públics que impartisquen ensenyances elementals o professionals de Música organitzaran proves anuals per a l'obtenció directa del Certificat d'ensenyances elementals de Música.\n\nLa conselleria competent en matèria d'educació regularà el procediment i la convocatòria anual per a l'obtenció directa del Certificat d'ensenyances elementals de Música, així com l'estructura, qualificació i ponderació de les proves.",
+          "versions": [
+            {
+              "versionId": "v2",
+              "effectiveDate": "2026-04-03",
+              "modifiedBy": {
+                "lawId": "decreto-46-2026",
+                "title": "Decret 46/2026, de 27 de març, del Consell"
+              },
+              "content": "Els conservatoris públics que impartisquen ensenyances elementals o professionals de Música organitzaran proves anuals per a l'obtenció directa del Certificat d'ensenyances elementals de Música.\n\nLa conselleria competent en matèria d'educació regularà el procediment i la convocatòria anual per a l'obtenció directa del Certificat d'ensenyances elementals de Música, així com l'estructura, qualificació i ponderació de les proves."
+            },
+            {
+              "versionId": "v1",
+              "effectiveDate": "2007-09-26",
+              "modifiedBy": null,
+              "content": "de Música Els conservatoris públics elementals i professionals que impartisquen les ensenyances elementals de Música organitzaran en el primer trimestre del curs proves per a l’obtenció directa del certificat d’Ensenyances Elementals de Música."
+            }
+          ]
         },
         {
           "type": "articulo",
