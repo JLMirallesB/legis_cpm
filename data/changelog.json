@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.2.0",
+    "date": "2026-04-04",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Decreto 158/2007: currículo de las enseñanzas profesionales de música (texto íntegro con anexo de especialidades)"
+        },
+        {
+          "type": "nuevo",
+          "description": "Decreto 159/2007: currículo de las enseñanzas elementales de música (texto íntegro con 4 anexos)"
+        },
+        {
+          "type": "nuevo",
+          "description": "Decreto 57/2020: organización y funcionamiento de los conservatorios profesionales de música y danza (56 artículos)"
+        },
+        {
+          "type": "nuevo",
+          "description": "Decreto 46/2026: modificación de decretos de enseñanzas de régimen especial (ERE)"
+        },
+        {
+          "type": "mejora",
+          "description": "Sistema de versiones de artículos: los artículos modificados por el Decreto 46/2026 permiten consultar la redacción original y la vigente"
+        },
+        {
+          "type": "mejora",
+          "description": "Validación automática de datos (npm run validate) y guía de ingesta de leyes"
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Decret 158/2007: currículum dels ensenyaments professionals de música (text íntegre amb annex d'especialitats)"
+        },
+        {
+          "type": "nou",
+          "description": "Decret 159/2007: currículum dels ensenyaments elementals de música (text íntegre amb 4 annexos)"
+        },
+        {
+          "type": "nou",
+          "description": "Decret 57/2020: organització i funcionament dels conservatoris professionals de música i dansa (56 articles)"
+        },
+        {
+          "type": "nou",
+          "description": "Decret 46/2026: modificació de decrets d'ensenyances de règim especial (ERE)"
+        },
+        {
+          "type": "millora",
+          "description": "Sistema de versions d'articles: els articles modificats pel Decret 46/2026 permeten consultar la redacció original i la vigent"
+        },
+        {
+          "type": "millora",
+          "description": "Validació automàtica de dades (npm run validate) i guia d'ingesta de lleis"
+        }
+      ]
+    }
+  },
+  {
     "version": "0.1.0",
     "date": "2026-03-15",
     "entries": {
