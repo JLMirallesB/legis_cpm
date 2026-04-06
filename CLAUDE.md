@@ -141,6 +141,11 @@ npm run build     # debe compilar sin errores
   - **Danza (D.156)**: headers con `Especialidad: Nombre` (`Especialidad: Baile Flamenco`, `Especialidad: Danza clásica`...)
   - **Danza elemental (D.157)**: headers en ALL CAPS (`DANZA ACADÉMICA`, `FOLKLORE`...)
 - Para detectar headers ALL CAPS usar el texto de `extract_text()` (v1), NO el texto con párrafos (v2), porque la detección de sangrado puede romper los headers en mayúsculas insertando `\n\n` dentro de ellos
+- **El contenido de cada sub-sección también necesita párrafos**: el texto v1 tiene `\n` en cada línea visual del PDF sin distinguir párrafos. Tras splitear por headers (v1), aplicar heurística de unión de líneas en párrafos:
+  - Líneas ALL CAPS → párrafo standalone (sub-header)
+  - Línea que empieza con `N. ` o `a) ` → nuevo párrafo (apartado numerado)
+  - Línea anterior termina en `.` `:` `»` + línea actual empieza con mayúscula + línea anterior > 40 chars → nuevo párrafo
+  - Resto → unir con espacio a la línea anterior (continuación de párrafo)
 - IDs de sub-sección: `anexo-1-{slugified-name}` (ej. `anexo-1-acompanamiento`, `anexo-1-baile-flamenco`)
 
 #### Estructura JSON
