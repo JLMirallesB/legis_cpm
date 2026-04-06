@@ -31,7 +31,21 @@ const allNodes = renderNodes(law.structure);
 
 <LawReaderLayout law={law} lang={lang}>
   {allNodes.map((node) => {
-    if (node.type === 'titulo' || node.type === 'capitulo' || node.type === 'seccion' || (node.children && !node.content)) {
+    const isContainer = node.type === 'titulo' || node.type === 'capitulo' || (node.children && !node.content);
+    const isSectionWithContent = node.type === 'seccion' && node.content;
+
+    if (isSectionWithContent) {
+      const Tag = 'h3';
+      return (
+        <>
+          <div id={node.id} class={`section-heading section-${node.type}`} style="scroll-margin-top: calc(var(--header-height) + 1rem);">
+            <Tag>{node.title}</Tag>
+          </div>
+          <ArticleContent node={node} lang={lang} />
+        </>
+      );
+    }
+    if (isContainer || node.type === 'seccion') {
       const Tag = node.type === 'titulo' ? 'h2' : 'h3';
       return (
         <div id={node.id} class={`section-heading section-${node.type}`} style="scroll-margin-top: calc(var(--header-height) + 1rem);">
