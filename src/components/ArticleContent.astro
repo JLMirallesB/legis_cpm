@@ -10,6 +10,46 @@ interface Props {
 const { node, lang } = Astro.props;
 const hasVersions = node.versions && node.versions.length > 1;
 const nodeId = node.id;
+
+/** Convert a markdown table block into HTML <table> */
+function mdTableToHtml(block: string): string {
+  const lines = block.split('\n').filter(l => l.trim().startsWith('|'));
+  if (lines.length < 2) return `<p>${block}</p>`;
+
+  const parseRow = (line: string) =>
+    line.split('|').slice(1, -1).map(c => c.trim());
+
+  const headerCells = parseRow(lines[0]);
+  // lines[1] is the separator (|---|---|...)
+  const bodyRows = lines.slice(2);
+
+  let html = '<div class="table-wrapper"><table>';
+  html += '<thead><tr>' + headerCells.map(c => `<th>${c}</th>`).join('') + '</tr></thead>';
+  html += '<tbody>';
+  for (const row of bodyRows) {
+    const cells = parseRow(row);
+    html += '<tr>' + cells.map(c => {
+      const bold = c.startsWith('**') && c.endsWith('**');
+      const text = bold ? c.slice(2, -2) : c;
+      return bold ? `<td><strong>${text}</strong></td>` : `<td>${text}</td>`;
+    }).join('') + '</tr>';
+  }
+  html += '</tbody></table></div>';
+  return html;
+}
+
+/** Render a content block: table or paragraph */
+function renderBlock(block: string): string {
+  if (block.trimStart().startsWith('|') && block.includes('|---')) {
+    return mdTableToHtml(block);
+  }
+  return `<p>${block}</p>`;
+}
+
+const contentHtml = (node.content ?? node.versions?.[0]?.content ?? '')
+  .split('\n\n')
+  .map(renderBlock)
+  .join('');
 ---
 
 <article class="article-block" id={nodeId}>
@@ -35,14 +75,31 @@ const nodeId = node.id;
     </div>
   )}
 
-  <div class="article-text" data-article-id={nodeId}>
-    {(node.content ?? node.versions?.[0]?.content ?? '').split('\n\n').map((paragraph) => (
-      <p>{paragraph}</p>
-    ))}
-  </div>
+  <div class="article-text" data-article-id={nodeId} set:html={contentHtml} />
 
   {hasVersions && (
     <script define:vars={{ nodeId, versions: node.versions }}>
+      function renderBlock(block) {
+        if (block.trimStart().startsWith('|') && block.includes('|---')) {
+          const lines = block.split('\n').filter(l => l.trim().startsWith('|'));
+          if (lines.length < 2) return `<p>${block}</p>`;
+          const parseRow = (line) => line.split('|').slice(1, -1).map(c => c.trim());
+          const hdr = parseRow(lines[0]);
+          let html = '<div class="table-wrapper"><table><thead><tr>' +
+            hdr.map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>';
+          for (const row of lines.slice(2)) {
+            const cells = parseRow(row);
+            html += '<tr>' + cells.map(c => {
+              const b = c.startsWith('**') && c.endsWith('**');
+              const t = b ? c.slice(2,-2) : c;
+              return b ? `<td><strong>${t}</strong></td>` : `<td>${t}</td>`;
+            }).join('') + '</tr>';
+          }
+          return html + '</tbody></table></div>';
+        }
+        return `<p>${block}</p>`;
+      }
+
       const selector = document.querySelector(`.version-selector[data-article-id="${nodeId}"] select`);
       const textContainer = document.querySelector(`.article-text[data-article-id="${nodeId}"]`);
       const indicator = document.querySelector(`.version-indicator[data-indicator-id="${nodeId}"]`);
@@ -55,7 +112,7 @@ const nodeId = node.id;
           if (version) {
             textContainer.innerHTML = version.content
               .split('\n\n')
-              .map((p) => `<p>${p}</p>`)
+              .map(renderBlock)
               .join('');
           }
           if (indicator) {
@@ -139,5 +196,40 @@ const nodeId = node.id;
   .article-text p {
     margin-bottom: var(--space-sm);
     text-indent: 1.5em;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    margin: var(--space-md) 0;
+  }
+
+  .article-text table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .article-text th,
+  .article-text td {
+    border: 1px solid var(--color-border);
+    padding: 4px 8px;
+    text-align: left;
+  }
+
+  .article-text th {
+    background: var(--color-bg-secondary);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .article-text td:not(:first-child) {
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .article-text td:first-child {
+    min-width: 150px;
   }
 </style>

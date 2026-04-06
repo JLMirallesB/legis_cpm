@@ -478,7 +478,7 @@
       "type": "anexo",
       "id": "anexo-2",
       "title": "Annex II. Càrrega lectiva",
-      "content": "ANNEX II\n\nCàrrega lectiva de les ensenyances elementals de música\n\nCurs Assignatura Total hores setmanals 1 2 3 4 Instrument 1 1 1 1 120 Llenguatge musical 2 2 2 2 240 Cor 1 1 1 1 120 Conjunt 1 1 60 Total setmanal 4 4 5 5 Total 540\n\n* Excepte en Percussió, assignatura per a la qual les classes seran sempre col·lectives. Es constituïxen grups d’alumnes en funció de les possibilitats organitzatives del centre. El temps lectiu assignat per a cada un d’estos grups serà de dos hores setmanals, i la relació professor /alumne no ha de superar la proporció 1/5. ** Temps lectius. El nombre mínim de setmanes per curs acadèmic serà de 30."
+      "content": "Càrrega lectiva de les ensenyances elementals de música\n\n| Assignatura | Curs hores setmanals |  |  |  | Total |\n|---|---|---|---|---|---|\n|  | 1 | 2 | 3 | 4 |  |\n| Instrument | 1 | 1 | 1 | 1 | 120 |\n| Llenguatge musical | 2 | 2 | 2 | 2 | 240 |\n| Cor | 1 | 1 | 1 | 1 | 120 |\n| Conjunt |  |  | 1 | 1 | 60 |\n| Total setmanal | 4 | 4 | 5 | 5 |  |\n| Total |  |  |  |  | 540 |\n\n* Excepte en Percussió, assignatura per a la qual les classes seran sempre col·lectives. Es constituïxen grups d’alumnes en funció de les possibilitats organitzatives del centre. El temps lectiu assignat per a cada un d’estos grups serà de dos hores setmanals, i la relació professor /alumne no ha de superar la proporció 1/5. ** Temps lectius. El nombre mínim de setmanes per curs acadèmic serà de 30."
     },
     {
       "type": "anexo",
@@ -490,7 +490,7 @@
       "type": "anexo",
       "id": "anexo-4",
       "title": "Annex IV",
-      "content": "ANNEX IV\n\nEquivalències a efectes acadèmics de les ensenyances de grau elemental de Música del Pla d’estudis regulat per la Llei Orgànica 1/1990, de 3 d’octubre, d’Ordenació General del Sistema Educatiu, amb les ensenyances elementals de Música corresponents a la Llei Orgànica 2/2006, de maig, d’Educació.\n\nPla d’estudis de grau elemental de Música, regulat per la Llei Orgànica 1/1990, de 3 d’octubre, d’Ordenació General del Sistema Educatiu Primer curs ensenyances grau elemental LOGSE Segon curs ensenyances grau elemental LOGSE Tercer curs ensenyances grau elemental LOGSE Quart curs ensenyances grau elemental LOGSE\n\n************************ Plan de estudios de grado elemental de Música, regulado por la Ley Orgánica Pl 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo te Primer curso enseñanzas grado elemental LOGSE Segundo curso enseñanzas grado elemental LOGSE Tercer curso enseñanzas grado elemental LOGSE Cuarto curso enseñanzas grado elemental LOGSE"
+      "content": "Equivalències a efectes acadèmics de les ensenyances de grau elemental de Música\n\n| Pla d’estudis de grau elemental de Música, regulat per la Llei Orgànica 1/1990, de 3 d’octubre, d’Ordenació General del Sistema Educatiu | Pla d’estudis de les ensenyances elementals de Música, corresponents a la Llei Orgànica 2/2006, de 3 de maig, d’Educació |\n|---|---|\n| Primer curs ensenyances grau elemental LOGSE | Primer curs ensenyances elementals LOE |\n| Segon curs ensenyances grau elemental LOGSE | Segon curs ensenyances elementals LOE |\n| Tercer curs ensenyances grau elemental LOGSE | Tercer curs ensenyances elementals LOE |\n| Quart curs ensenyances grau elemental LOGSE | Quart curs ensenyances elementals LOE |"
     }
   ],
   "legalAnalysis": {

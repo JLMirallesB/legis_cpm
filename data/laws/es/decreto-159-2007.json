@@ -478,7 +478,7 @@
       "type": "anexo",
       "id": "anexo-2",
       "title": "Anexo II. Carga lectiva",
-      "content": "ANEXO II\n\nCarga lectiva de las enseñanzas elementales de música\n\nCurso Asignatura Total horas semanales 1 2 3 4 Instrumento 1 1 1 1 120 Lenguaje musical 2 2 2 2 240 Coro 1 1 1 1 120 Conjunto 1 1 60 Total semanal 4 4 5 5 Total 540\n\n* Excepto en Percusión, asignatura para la cual las clases serán siempre colectivas. Se constituyen grupos de alumnos en función de las posibilidades organizativas del centro. El tiempo lectivo asignado para cada uno de estos grupos, será de dos horas semanales, y la relación profesor /alumno no debe superar la proporción 1/5. ** Tiempos lectivos. El número mínimo de semanas por curso académico será de 30."
+      "content": "Carga lectiva de las enseñanzas elementales de música\n\n| Asignatura | Curso horas semanales |  |  |  | Total |\n|---|---|---|---|---|---|\n|  | 1 | 2 | 3 | 4 |  |\n| Instrumento | 1 | 1 | 1 | 1 | 120 |\n| Lenguaje musical | 2 | 2 | 2 | 2 | 240 |\n| Coro | 1 | 1 | 1 | 1 | 120 |\n| Conjunto |  |  | 1 | 1 | 60 |\n| Total semanal | 4 | 4 | 5 | 5 |  |\n| Total |  |  |  |  | 540 |\n\n* Excepto en Percusión, asignatura para la cual las clases serán siempre colectivas. Se constituyen grupos de alumnos en función de las posibilidades organizativas del centro. El tiempo lectivo asignado para cada uno de estos grupos, será de dos horas semanales, y la relación profesor /alumno no debe superar la proporción 1/5. ** Tiempos lectivos. El número mínimo de semanas por curso académico será de 30."
     },
     {
       "type": "anexo",
@@ -490,7 +490,7 @@
       "type": "anexo",
       "id": "anexo-4",
       "title": "Anexo IV",
-      "content": "ANEXO IV\n\nEquivalencias a efectos académicos, de las enseñanzas de grado elemental de música del Plan de estudios regulado por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, con las enseñanzas elementales de Música correspondientes a la Ley Orgánica 2/2006, de mayo, de Educación.\n\nica Pla d’estudis de les ensenyances elementals de Música, corresponents a la Llei Orgànica 2/2006, de 3 de maig, d’Educació Primer curs ensenyances elementals LOE Segon curs ensenyances elementals LOE Tercer curs ensenyances elementals LOE Quart curs ensenyances elementals LOE\n\n************************** a Plan de estudios de las enseñanzas elementales de Música, correspondientes a la Ley Orgánica 2/2006, de 3 de mayo, de Educación Primer curso enseñanzas elementales LOE Segundo curso enseñanzas elementales LOE Tercer curso enseñanzas elementales LOE Cuarto curso enseñanzas elementales LOE"
+      "content": "Equivalencias a efectos académicos de las enseñanzas de grado elemental de Música\n\n| Plan de estudios de grado elemental de Música, regulado por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo | Plan de estudios de las enseñanzas elementales de Música, correspondien- tes a la Ley Orgánica 2/2006, de 3 de mayo, de Educación |\n|---|---|\n| Primer curso enseñanzas grado elemental LOGSE | Primer curso enseñanzas elementales LOE |\n| Segundo curso enseñanzas grado elemental LOGSE | Segundo curso enseñanzas elementales LOE |\n| Tercer curso enseñanzas grado elemental LOGSE | Tercer curso enseñanzas elementales LOE |\n| Cuarto curso enseñanzas grado elemental LOGSE | Cuarto curso enseñanzas elementales LOE |"
     }
   ],
   "legalAnalysis": {
