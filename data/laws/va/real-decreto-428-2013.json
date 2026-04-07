@@ -32,7 +32,25 @@
       "id": "art-1",
       "number": "1",
       "title": "Artículo 1. Objeto de la norma.",
-      "content": "Este real decreto tiene por objeto establecer las especialidades docentes del Cuerpo de Profesores de Música y Artes Escénicas vinculadas a las enseñanzas de Música y de Danza, así como definir la asignación de asignaturas que se deberán impartir en las enseñanzas profesionales de Música y de Danza."
+      "content": "Este real decreto tiene por objeto establecer las especialidades docentes del Cuerpo de Profesores de Música y Artes Escénicas vinculadas a las enseñanzas de Música y de Danza, así como definir la asignación de asignaturas que se deberán impartir en las enseñanzas profesionales de Música y de Danza.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2023-04-20",
+          "modifiedBy": {
+            "lawId": "real-decreto-286-2023",
+            "title": "Reial Decret 286/2023",
+            "articleRef": "df-5"
+          },
+          "content": "Este real decreto tiene por objeto establecer las especialidades docentes del Cuerpo de Profesores de Música y Artes Escénicas vinculadas a las enseñanzas de Música y de Danza, así como definir la asignación de asignaturas que se deberán impartir en las enseñanzas profesionales de Música y de Danza."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2013-06-16",
+          "modifiedBy": null,
+          "content": "Este real decreto tiene por objeto establecer las especialidades docentes del Cuerpo de Profesores de Música y Artes Escénicas vinculadas a las enseñanzas de Música y de Danza, así como definir la asignación de asignaturas que se deberán impartir en las enseñanzas profesionales de Música y de Danza y las materias que se podrán impartir en el Bachillerato."
+        }
+      ]
     },
     {
       "type": "articulo",
@@ -74,7 +92,25 @@
       "id": "art-7",
       "number": "7",
       "title": "Artículo 7. Docencia en el Bachillerato.",
-      "content": "En aplicación de lo establecido en la disposición adicional séptima de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, el personal funcionario del Cuerpo de Profesores de Música y Artes Escénicas de las especialidades vinculadas a las enseñanzas de Música y de Danza podrán impartir las materias de la modalidad de artes del Bachillerato en la vía de Música y Artes Escénicas de acuerdo con lo establecido en los desarrollos reglamentarios correspondientes con relación al ejercicio de la docencia en dicha etapa. Las administraciones educativas, en el ámbito de sus competencias, conforme a sus necesidades y en uso de su facultad de organización de centros docentes, podrán determinar la conveniencia de aplicar dicha asignación, sin que esta posibilidad tenga efectos en las plantillas orgánicas de los centros."
+      "content": "En aplicación de lo establecido en la disposición adicional séptima de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, el personal funcionario del Cuerpo de Profesores de Música y Artes Escénicas de las especialidades vinculadas a las enseñanzas de Música y de Danza podrán impartir las materias de la modalidad de artes del Bachillerato en la vía de Música y Artes Escénicas de acuerdo con lo establecido en los desarrollos reglamentarios correspondientes con relación al ejercicio de la docencia en dicha etapa. Las administraciones educativas, en el ámbito de sus competencias, conforme a sus necesidades y en uso de su facultad de organización de centros docentes, podrán determinar la conveniencia de aplicar dicha asignación, sin que esta posibilidad tenga efectos en las plantillas orgánicas de los centros.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2023-04-20",
+          "modifiedBy": {
+            "lawId": "real-decreto-286-2023",
+            "title": "Reial Decret 286/2023",
+            "articleRef": "df-5"
+          },
+          "content": "En aplicación de lo establecido en la disposición adicional séptima de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, el personal funcionario del Cuerpo de Profesores de Música y Artes Escénicas de las especialidades vinculadas a las enseñanzas de Música y de Danza podrán impartir las materias de la modalidad de artes del Bachillerato en la vía de Música y Artes Escénicas de acuerdo con lo establecido en los desarrollos reglamentarios correspondientes con relación al ejercicio de la docencia en dicha etapa. Las administraciones educativas, en el ámbito de sus competencias, conforme a sus necesidades y en uso de su facultad de organización de centros docentes, podrán determinar la conveniencia de aplicar dicha asignación, sin que esta posibilidad tenga efectos en las plantillas orgánicas de los centros."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2013-06-16",
+          "modifiedBy": null,
+          "content": "En aplicación de lo establecido en la disposición adicional séptima de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, los funcionarios del Cuerpo de Profesores de Música y Artes escénicas en las especialidades de Fundamentos de composición, Historia de la Música, Historia de la Danza y Lenguaje musical, podrán impartir las materias de Análisis musical I y II, Historia de la Música y de la Danza, Lenguaje y práctica musical, de la modalidad de Artes del Bachillerato en la Vía de Artes Escénicas, Música y Danza, de acuerdo con la asignación de materias que se establece en el anexo IV. Las administraciones educativas, en el ámbito de sus competencias, conforme a sus necesidades y en uso de su facultad de organización de centros docentes, podrán determinar la conveniencia de aplicar dicha asignación, sin que esta posibilidad tenga efectos en las plantillas orgánicas de los centros."
+        }
+      ]
     },
     {
       "type": "disposicion_adicional",
