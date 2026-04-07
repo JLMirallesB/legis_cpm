@@ -102,6 +102,19 @@ npm run build     # debe compilar sin errores
 - Los nombres de firmantes aparecen en ALL CAPS en el PDF → normalizar a mayúsculas/minúsculas ("Alberto Fabra Part", no "ALBERTO FABRA PART")
 - Los cargos (`role`) deben ir SIN artículo "El/La" al inicio: "President de la Generalitat", no "El president de la Generalitat"
 - Los cargos de conselleria se normalizan con nombre neutro y solo el área de educación: "Conselleria de Educación" / "Conselleria d'Educació" (no Conseller/Consellera, ni las otras áreas como Cultura, Deporte, etc.)
+
+#### Disposiciones (errores recurrentes en TODAS las ingestas)
+- Las disposiciones finales SIEMPRE deben ser nodos separados (df-1, df-2, etc.), NUNCA un solo nodo con todo junto
+- El subtítulo de la disposición (ej. "Única. Derogación normativa") NO debe repetirse al inicio del content
+- Los títulos deben ser completos: "Disposición final primera. Aplicación y desarrollo", no solo "Disposiciones finales"
+- La cláusula de promulgación NUNCA debe colarse en el content de la última disposición final
+- Verificar SIEMPRE tras la ingesta: buscar "Valencia," o "El president" dentro del content de disposiciones
+
+#### Listas y formato de contenido
+- Listas con guiones (art-5, art-6): usar `\n–` (salto simple), NO `\n\n–` (que crea párrafos separados con sangrado)
+- Headings de secciones curriculares (Introducción, Objetivos, Contenidos, Criterios de evaluación): marcar con `**negrita**` → se renderizan como `.content-heading`
+- Títulos de artículo multilínea en el PDF: verificar que el content NO empiece con un fragmento en minúscula (señal de título truncado)
+- Tablas: reconstruir manualmente si pdfplumber extrae Table 0 con celdas combinadas (usar Table 1/2 o datos directos del PDF)
 - Las tablas (distribución horaria, ratios profesor/alumno) están en páginas a ancho completo (no dos columnas), primero un idioma y luego el otro — NO usar crop de media página para estas páginas
 - Usar `pdfplumber.extract_tables()` para extraer tablas — funciona bien para la mayoría de PDFs excepto los más antiguos (D.157/2007 donde agrupa toda la tabla en 1 fila)
 - Almacenar tablas como **markdown** en el `content` (formato `| col | col |` con separador `|---|---|`). Esto funciona en los 3 formatos de salida: web (renderizado como `<table>`), JSON (legible), markdown export (nativo)
