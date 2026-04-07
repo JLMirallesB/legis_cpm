@@ -90,7 +90,34 @@ npm run build     # debe compilar sin errores
 
 ### Errores conocidos y lecciones aprendidas
 
-#### Extracción de texto
+#### Selección del método de extracción (CRÍTICO)
+
+Elegir el método según la fuente del PDF:
+
+| Fuente | Formato | Método recomendado |
+|--------|---------|-------------------|
+| DOGV bilingüe antiguo | 2 columnas (va izq, es der) | `pdfplumber` crop izq/der o `pdftotext -x` |
+| DOGV PDFs separados | 1 columna por idioma | `pdftotext -layout` |
+| BOE moderno (≥2009) | 2 columnas mismo idioma | **`pdftotext -layout`** (NO pdfplumber crop) |
+| BOE consolidado PDF | 1 columna | `pdfplumber extract_text()` o `pdftotext -layout` |
+| BOE consolidado HTML | HTML web | **Preferido** cuando existe: `curl + regex` |
+
+**⚠️ NUNCA usar `pdfplumber` crop (left/right) para PDFs del BOE de dos columnas del mismo idioma.** El crop a `pw/2` corta palabras en los bordes de columna, produciendo texto garbled ("habili-" + "tación" separados, "Orgá" + "nica" truncados). Este error se ha repetido múltiples veces.
+
+**`pdftotext -layout`** es el método más fiable para BOE: respeta columnas, no corta palabras, mantiene la estructura visual.
+
+**BOE consolidado HTML** (`https://www.boe.es/buscar/act.php?id=BOE-A-XXXX-NNNNN&tn=1`) es la fuente más fiable para texto de artículos. Extraer con:
+```python
+import re
+with open(html_path) as f: html = f.read()
+for m in re.finditer(r'<div class="bloque" id="(\w+)">(.*?)</div>\s*<p class="linkSubir">', html, re.DOTALL):
+    bid, block = m.group(1), m.group(2)
+    paras = [re.sub(r'<[^>]+>', '', p.group(1)).strip() 
+             for p in re.finditer(r'<p class="parrafo[^"]*"[^>]*>(.*?)</p>', block, re.DOTALL)]
+```
+IDs de bloques BOE: `pr` (preámbulo), `a1`-`aN` (artículos), `daprimera`, `dtprimera`, `ddunica`, `dfprimera`, `ani`-`anv` (anexos).
+
+#### Extracción de texto (DOGV)
 - `pdftotext` con `-layout` funciona bien para dos columnas si se usan las coordenadas `-x` correctas
 - El ancho de página A4 es 595-612 pts. La columna derecha empieza en ~290
 - Algunos artículos tienen "Articulo" (sin tilde) en PDFs antiguos - buscar ambas variantes
@@ -122,6 +149,59 @@ npm run build     # debe compilar sin errores
 - Agrupar tablas por especialidad con título en negrita: `**Especialidad: Arpa**\n\n| ... |`
 - Las páginas de tablas se identifican buscando `page.extract_tables()` con más de 3 filas (las de 1 fila son basura)
 - Un `ANEXO` sin número romano (ej. "Anexo único") no se captura con la regex `ANEXO\s+(I{1,3}V?...)` → buscar también `ANEXO\s*\n` sin número
+
+#### PDFs consolidados del BOE (errores recurrentes)
+- Los PDFs consolidados del BOE tienen un **ÍNDICE** al principio con los mismos marcadores de estructura (`Artículo N.`, `Disposición...`) que el cuerpo de la ley, pero seguidos de `. . . . . .` y número de página
+- **SIEMPRE** saltar el índice: buscar las líneas con `. . . .` (puntos suspensivos) y excluirlas. El cuerpo empieza tras `PREÁMBULO` (o `PREAMBULO` sin tilde en leyes antiguas)
+- Si el parser captura disposiciones con 0 chars de contenido, es casi seguro que está leyendo el índice en vez del cuerpo
+- Verificar siempre: NINGUNA disposición debe tener content vacío (excepto las explícitamente derogadas)
+
+#### Separación de párrafos (CRÍTICO - error en TODAS las ingestas de BOE)
+- Los apartados numerados (`1.`, `2.`, `3.`) DEBEN estar separados por `\n\n`
+- Las letras (`a)`, `b)`, `c)`) DEBEN estar separados por `\n\n`
+- Los ordinales de modificación (`Uno.`, `Dos.`, `Tres.`) DEBEN estar separados por `\n\n`
+- **Error recurrente**: `join_paragraphs()` une todo en mega-párrafos sin separar estos elementos
+- Aplicar post-procesamiento si el parser no los separa:
+```python
+content = re.sub(r'(\.) (\d+\. [A-Z])', r'\1\n\n\2', content)  # "... text. 2. New"
+content = re.sub(r'(\.) ([a-z]\) [A-Z])', r'\1\n\n\2', content)  # "... text. a) New"
+content = re.sub(r'\n(\d+\. [A-Z])', r'\n\n\1', content)  # single \n before numbered
+content = re.sub(r'\n([a-z]\) )', r'\n\n\1', content)  # single \n before lettered
+```
+- Para preámbulos extraídos con `pdftotext -layout`: detectar párrafos por **sangría** (indent > 14 espacios = nuevo párrafo, ~10 = continuación)
+
+#### Tablas de HTML del BOE
+- Las tablas del BOE consolidado HTML contienen `<br>` dentro de celdas → convertir a `; ` al generar markdown
+- **Cada fila de la tabla markdown DEBE estar en UNA sola línea** — si hay saltos de línea dentro de celdas, el renderizador no la detecta como tabla
+- Celdas con `**` (leyenda de asteriscos) NO deben interpretarse como negrita: `ArticleContent.astro` ya ignora `**` sin contenido (length ≤ 4)
+- Las tablas con puntos suspensivos (`Instrumento . . . . 6 180`) no se extraen bien con `extract_tables()` → parsear con regex del texto
+- Siempre incluir la leyenda de asteriscos (`*`, `**`) después de la tabla como texto normal
+
+#### Leyes solo en castellano
+- Muchas leyes estatales (BOE) solo existen en castellano: LOE, LOMLOE, LODE, reales decretos, órdenes ministeriales
+- Para la versión VA: **mismo contenido ES** con nota al inicio del preámbulo: `[Aquesta llei/norma només existeix en castellà. El text es mostra en castellà.]`
+- Los metadatos VA (title, titleShort, vigpiracy.statusLabel, promulgation.signatories.role, legalAnalysis titles/descriptions) deben traducirse al valenciano
+- Roles de firmantes estatales: `Rey de España` → `Rei d'Espanya`, `Presidente del Gobierno` → `President del Govern`, `Ministro/a de X` → `Ministre/a de X`
+
+#### Imágenes y diagramas en PDFs
+- Los diagramas/organigramas del PDF se extraen como texto garbled (celdas del diagrama mezcladas)
+- Detectar por patrones: bloques de texto corto con nombres de niveles educativos, siglas MECES/EQF mezclados
+- Sustituir por imagen: guardar en `public/images/laws/{slug}-{nombre}.png` y usar markdown `![alt](/legis_cpm/images/laws/archivo.png)`
+- `ArticleContent.astro` renderiza `![alt](url)` como `<figure>` con `<img>` y `<figcaption>`
+
+#### Leyes con contenido no relevante para conservatorios
+- Muchas leyes estatales regulan múltiples enseñanzas (ESO, bachillerato, FP, deportivas...)
+- Los artículos/disposiciones que NO tratan de música ni danza se sustituyen por: `[No relativo a conservatorios profesionales de música y danza - ver PDF original]`
+- Fórmula idéntica en ES y VA, solo el contenido cambia
+- Los capítulos excluidos de leyes grandes (ej. Título I LOE) se incluyen como nodos `capitulo` con un hijo `articulo` que contiene la nota (para que el renderizador lo muestre)
+- **NUNCA eliminar completamente** capítulos/artículos: siempre dejar referencia para que el lector sepa que existen
+
+#### Ingesta desde texto consolidado (no original)
+- Si se ingresa el texto consolidado (ya modificado por leyes posteriores) en vez del original:
+  - El `content` del artículo será la versión vigente
+  - Hay que obtener el texto **original** del PDF original del BOE para crear `versions[].v1`
+  - La `posteriorAffectation` debe existir y `versions[]` debe tener la cadena completa
+  - Indicar en la ley que es texto consolidado si procede
 
 #### Versiones de artículos (CRÍTICO)
 - Cuando una ley modifica artículos de otra, HAY QUE crear el array `versions` en el artículo afectado
@@ -223,7 +303,7 @@ npm run build     # debe compilar sin errores
 ### Leyes ingresadas
 Consultar siempre `data/metadata/law-registry.json` para la lista actualizada. No mantener lista duplicada aquí.
 
-Tipos de norma ingresados hasta ahora: `decreto`, `orden`. Pendientes: `resolucion`, `ley`, `ley_organica`, `real_decreto`, `correccion_errores`.
+Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`, `real_decreto`. Pendientes: `resolucion`, `correccion_errores`.
 
 ### Configuración importante
 - `base` en `astro.config.mjs` DEBE tener trailing slash: `/legis_cpm/`
