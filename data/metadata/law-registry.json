@@ -147,6 +147,41 @@
       "status": "ingested",
       "category": "evaluacion",
       "notes": "Cap I (arts 1-5, generales) + Cap V (arts 13-17, música y danza) completos. Caps II, III, IV, VI, VII excluidos (no relevantes). Incluye formModels: modelo Anexo I (solicitud reclamación). Bilingüe DOGV."
+    },
+    {
+      "slug": "orden-4-2026",
+      "title": "Orden 4/2026 - Premios profesionales de Música y Danza",
+      "status": "ingested",
+      "category": "evaluacion",
+      "notes": "26 arts (4 caps, 2 secciones en cap III) + 5 DA + 1 DT + 1 DD + 3 DF. DF 3ª modifica Orden 5/2017. Deroga Orden 76/2014 y Orden 35/2017. Incluye formModels: Anexo I (solicitud inscripción) y Anexo II (acta premio). Bilingüe DOGV."
+    },
+    {
+      "slug": "orden-5-2017",
+      "title": "Orden 5/2017 - Programa Coordinación horaria",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "10 arts + 5 DA + 1 DD + 1 DF (sin capítulos). Modificada por Orden 4/2026 (DF 3ª): título, preámbulo, arts 1-7, 9, 10, DA 1ª y DA 4ª. 11 nodos con versions[]. Incluye formModels: Anexo I (solicitud centros) y Anexo II (solicitud alumnado). Bilingüe DOGV."
+    },
+    {
+      "slug": "real-decreto-943-2003",
+      "title": "Real Decreto 943/2003 - Flexibilización para alumnado superdotado",
+      "status": "ingested",
+      "category": "general",
+      "notes": "9 arts (3 caps) + 1 DD + 3 DF. Solo en español. Regula la flexibilización de la duración de niveles/etapas educativas para alumnos superdotados intelectualmente."
+    },
+    {
+      "slug": "decreto-104-2018",
+      "title": "Decreto 104/2018 - Equidad e inclusión educativa",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Texto consolidado (17.08.2022). 35 arts (7 caps) + 3 DA + 1 DD + 2 DF + 1 Anexo. Arts 20-26, 28 marcados como no relevantes para conservatorios. Art 23 derogado (D.105/2022). Art 32 derogado (D.72/2021). Bilingüe DOGV."
+    },
+    {
+      "slug": "orden-20-2019",
+      "title": "Orden 20/2019 - Respuesta educativa para la inclusión",
+      "status": "ingested",
+      "category": "general",
+      "notes": "59 arts (6 caps, secciones en caps IV y VI) + 10 DA + 1 DT + 1 DD + 3 DF. Arts 22-29, 31-36 marcados como no relevantes para conservatorios. Bilingüe DOGV. Desarrolla Decreto 104/2018."
     }
   ]
 }

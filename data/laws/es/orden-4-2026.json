@@ -1,0 +1,418 @@
+{
+  "id": "orden-4-2026",
+  "slug": "orden-4-2026",
+  "type": "orden",
+  "number": "4/2026",
+  "date": "2026-04-01",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10336",
+    "date": "2026-04-07",
+    "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/10071",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/04/07/pdf/2026_10071_es.pdf"
+  },
+  "title": "Orden 4/2026, de 1 de abril, de la Conselleria de Educación, Cultura y Universidades, por la que se regulan en la Comunitat Valenciana los premios profesionales para el alumnado que ha concluido las enseñanzas profesionales de Música o de Danza",
+  "titleShort": "Premios profesionales de Música y Danza",
+  "category": "evaluacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2026-04-08"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "La Orden ECD/1611/2015, de 29 de julio, por la que se crean y regulan los premios nacionales al rendimiento académico del alumnado de Educación Secundaria Obligatoria y de enseñanzas artísticas profesionales en los ámbitos de Música, Danza y Artes Plásticas y Diseño, establece el marco jurídico para la concesión de estos premios con la finalidad de reconocer el esfuerzo, la dedicación y la excelencia académica. En el caso de las enseñanzas artísticas profesionales, la norma prevé específicamente la concesión de premios en los ámbitos de la Música y la Danza, que pone en valor la trayectoria formativa del alumnado y el nivel interpretativo alcanzado en las enseñanzas profesionales de estas disciplinas. Los decretos 156/2007 y 158/2007, ambos de 21 de septiembre, del Consell, por los que se establecen los currículos de las enseñanzas profesionales de Danza y de Música respectivamente, y se regula el acceso a las mismas, prevén que los centros puedan convocar anualmente premios extraordinarios por cada una de las especialidades que tengan autorizadas. Conscientes de que una formación de calidad, unida al progreso constante en los aprendizajes, fomenta en el alumnado la motivación necesaria para mejorar su rendimiento académico y artístico, se promueven tres modalidades de reconocimiento a la excelencia: los Premios al Rendimiento Académico, los Premios Profesionales de Música y de Danza en su fase de centro y su fase autonómica, y los Premios Extraordinarios de Música y de Danza de la Comunitat Valenciana. La presente orden crea los Premios al Rendimiento Académico en las enseñanzas profesionales de Música y de Danza de la Comunitat Valenciana como una medida innovadora para reconocer la excelencia del alumnado. Esta iniciativa busca valorar el esfuerzo, la constancia y el alto nivel de aprovechamiento en la formación artística, incentivando la dedicación y el compromiso del alumnado en su desarrollo educativo y artístico. Para dar cumplimiento a lo dispuesto en la Orden ECD/1611/2015, de 29 de julio, procede establecer que los Premios Profesionales de Música y de Danza en su fase autonómica se convoquen en todas las especialidades. Con ello se garantiza que cada especialidad de Música y Danza pueda ser representada en los premios nacionales, reconociendo la excelencia, el esfuerzo y la dedicación del alumnado, y contribuyendo a reforzar la valoración del talento y la proyección de las enseñanzas artísticas profesionales en la Comunitat Valenciana. Paralelamente, se crean los Premios Extraordinarios de Música y de Danza de la Comunitat Valenciana, concebidos para reconocer a aquellos estudiantes que han alcanzado el más alto nivel de excelencia en su trayectoria académica y artística. Estos premios representan un estímulo adicional al talento y la dedicación del alumnado, reforzando la promoción de la calidad educativa y el prestigio de las enseñanzas profesionales de Música y de Danza en la Comunitat Valenciana. De conformidad con lo dispuesto en el artículo 53.1 del Estatuto de Autonomía de la Comunitat Valenciana, aprobado por la Ley orgánica 5/1982, de 1 de julio, y reformado por la Ley orgánica 1/2006, de 10 de abril, la Generalitat tiene la competencia exclusiva en materia de Educación, con el Decreto 186/2025, de 5 de diciembre, del Consell, por el que establece la estructura orgánica básica de la Presidencia y de las Consellerias de la Generalitat, y el Decreto 38/2025, de 4 de marzo, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura, Universidades y Empleo. Por todo esto, una vez emitido el informe de la Abogacía de la Generalitat y el resto de los informes preceptivos, previa audiencia a las entidades representantes de los colectivos afectados y el Dictamen del Consell Escolar de la Comunitat Valenciana, en uso de las facultades que me confiere el artículo 28 de la Ley 5/1983, de 30 de diciembre, del Consell, y a propuesta de la Dirección General de Centros Docentes,"
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-1",
+      "number": "I",
+      "title": "Capítulo I. Disposiciones preliminares",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-1",
+          "number": "1",
+          "title": "Artículo 1. Objeto y ámbito de aplicación",
+          "content": "1. La presente orden tiene por objeto la creación y regulación de los Premios al Rendimiento Académico y de los premios extraordinarios de la Comunitat Valenciana, así como la regulación de los premios profesionales existentes, en el ámbito de las enseñanzas profesionales de Música y de Danza, estableciendo para todos ellos un régimen de concurrencia participativa.\n\n2. La presente orden será aplicable a todo el alumnado que haya completado las enseñanzas profesionales de música o danza, en cualquiera de sus especialidades, en conservatorios o centros autorizados, dentro del ámbito de gestión de la Comunitat Valenciana."
+        },
+        {
+          "type": "articulo",
+          "id": "art-2",
+          "number": "2",
+          "title": "Artículo 2. Premios",
+          "content": "Los distintos premios regulados por la presente orden y que pueden ser convocados son:\n\na) Premios al Rendimiento Académico de las enseñanzas profesionales de Música y de Danza.\n\nb) Premios Profesionales de Música y de Danza en las diferentes especialidades, organizados en dos fases: fase de centro y fase autonómica.\n\nc) Premios Extraordinarios de Música y de Danza de la Comunitat Valenciana."
+        },
+        {
+          "type": "articulo",
+          "id": "art-3",
+          "number": "3",
+          "title": "Artículo 3. Resolución y publicación",
+          "content": "Las resoluciones de concesión de los Premios al Rendimiento Académico, de los premios profesionales en fase autonómica y de los Premios Extraordinarios de Música y de Danza de la Comunitat Valenciana serán publicadas en el Diari Oficial de la Generalitat Valenciana. Los resultados de la fase de centro de los premios profesionales serán resueltos en cada centro y publicados en sus tablones de anuncios o medios de difusión interna."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-2",
+      "number": "II",
+      "title": "Capítulo II. Premios al Rendimiento Académico",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-4",
+          "number": "4",
+          "title": "Artículo 4. Finalidad de los Premios al Rendimiento Académico",
+          "content": "Los Premios al Rendimiento Académico tienen como finalidad reconocer el esfuerzo, la constancia y el alto nivel de aprovechamiento en las enseñanzas profesionales de Música y de Danza. Para ello, se valoran los expedientes que reflejan la excelencia en el proceso formativo del alumnado, destacando su compromiso, dedicación y dominio de los contenidos teóricos y prácticos, e incentivando así la perseverancia y el logro de elevados estándares educativos."
+        },
+        {
+          "type": "articulo",
+          "id": "art-5",
+          "number": "5",
+          "title": "Artículo 5. Requisitos",
+          "content": "Podrá optar al Premio al Rendimiento Académico de las Enseñanzas Profesionales de Música o de Danza, el alumnado que reúna los siguientes requisitos:\n\na) Haber cursado al menos los dos últimos cursos de las enseñanzas profesionales de música o danza en un conservatorio o centro autorizado.\n\nb) Haber finalizado las enseñanzas profesionales de música o de danza en un conservatorio o centro autorizado en el curso de la convocatoria.\n\nc) Haber obtenido una nota media igual o superior a 9,25 en los dos últimos cursos de las enseñanzas profesionales de Música o de Danza. Para su determinación se calculará, en primer lugar, la media aritmética de las calificaciones de todas las asignaturas cursadas en cada uno de los cursos, incluidas las aprobadas con anterioridad en otra especialidad, aplicándose la calificación obtenida en su momento. Las asignaturas convalidadas con materias de enseñanzas de régimen general no se computarán. La calificación media final resultará de la media aritmética de las medias de ambos cursos, redondeada a la centésima más próxima y, en caso de equidistancia, a la superior."
+        },
+        {
+          "type": "articulo",
+          "id": "art-6",
+          "number": "6",
+          "title": "Artículo 6. Propuesta, presentación y criterios de adjudicación de los Premios al Rendimiento Académico",
+          "content": "1. Cada centro podrá proponer un premio al rendimiento académico por cada veinte estudiantes, o fracción inferior, que finalicen las enseñanzas profesionales.\n\n2. En la sesión de evaluación final, los equipos docentes de los conservatorios profesionales y de los centros autorizados elaborarán la propuesta de concesión de los Premios al Rendimiento Académico, seleccionando al alumnado con la calificación más alta de entre aquellos que cumplan los requisitos establecidos.\n\n3. En caso de igualdad en la puntuación obtenida, el desempate se resolverá aplicando, por este orden, los siguientes criterios: mayor nota media en 6.º, 5.º, 4.º, 3.º, 2.º y 1.º curso de las enseñanzas profesionales, respectivamente, y, en último término, mayor calificación en las pruebas de acceso a dichas enseñanzas. Cuando alguno de los aspirantes hubiera accedido a las enseñanzas en un curso posterior al primero, se compararán únicamente las calificaciones de los cursos que todos los aspirantes en igualdad de puntuación hayan cursado. En el supuesto de que persista el empate, se dirimirá por sorteo público en presencia de las personas interesadas y, cuando se trate de menores de edad, sus representantes legales.\n\n4. La dirección del centro trasladará la propuesta, junto con el certificado académico oficial, a la dirección general competente en materia de enseñanzas de régimen especial, a través del registro telemático.\n\n5. De acuerdo con la propuesta formulada por la dirección del centro, será la dirección general competente en materia de enseñanzas de régimen especial quien resuelva la concesión de los premios."
+        },
+        {
+          "type": "articulo",
+          "id": "art-7",
+          "number": "7",
+          "title": "Artículo 7. Efectos de la obtención del Premio al Rendimiento Académico",
+          "content": "1. La obtención del Premio al Rendimiento Académico de las Enseñanzas Profesionales de Música o de Danza de la Comunitat Valenciana se reflejará mediante diligencia específica en el expediente académico del alumnado, con la denominación de Premio al Rendimiento Académico de las Enseñanzas Profesionales de Música o de Danza según corresponda.\n\n2. La concesión del Premio al Rendimiento Académico en las Enseñanzas Profesionales de Música o Danza podrá otorgar al alumnado la exención del pago de precios públicos por la prestación de servicios académicos en las universidades públicas de la Comunitat Valenciana o en las enseñanzas artísticas superiores gestionadas por el ISEACV, durante el primer curso y por una única vez, y de acuerdo con la normativa vigente en materia de regulación de los precios públicos de la Generalitat."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-3",
+      "number": "III",
+      "title": "Capítulo III. Premios Profesionales de Música y de Danza",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-8",
+          "number": "8",
+          "title": "Artículo 8. Finalidad de los Premios Profesionales de Música y de Danza",
+          "content": "Los Premios Profesionales de Música y de Danza reconocen la excelencia técnica y artística en las distintas especialidades, valorando la calidad interpretativa a nivel técnico y expresivo del alumnado. Estos premios fomentan el desarrollo del talento y consolidan la formación artística profesional como una etapa esencial para la adquisición de competencias orientadas tanto al crecimiento profesional como a la proyección artística."
+        },
+        {
+          "type": "articulo",
+          "id": "art-9",
+          "number": "9",
+          "title": "Artículo 9. Fases",
+          "content": "Las convocatorias de los Premios Profesionales de Música y de Danza, en sus distintas especialidades, se desarrollarán en dos fases: una primera fase de centro y una segunda fase de ámbito autonómico."
+        },
+        {
+          "type": "seccion",
+          "id": "cap-3-sec-1",
+          "number": "I",
+          "title": "Sección I. Fase de centro",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-10",
+              "number": "10",
+              "title": "Artículo 10. Condiciones de acceso",
+              "content": "1. Podrán optar al premio profesional en fase de centro el alumnado que haya cursado y superado el sexto curso de enseñanzas profesionales de música o de danza en los centros comprendidos en el ámbito de aplicación de esta orden.\n\n2. Para concurrir a los Premios Profesionales de Música y de Danza, el alumnado deberá cumplir los siguientes requisitos académicos:\n\na) Enseñanzas profesionales de música: haber obtenido, en quinto y sexto curso, una calificación mínima de 9 puntos en la asignatura instrumental o vocal propia de la especialidad.\n\nb) Enseñanzas profesionales de danza: acreditar una calificación mínima de 9 puntos en las asignaturas específicas de quinto y sexto curso correspondientes a la especialidad del premio al que se opte. En las especialidades de Baile Flamenco y Danza Española, se entenderá cumplido el requisito cuando se haya obtenido una calificación mínima de 9 puntos en una de las asignaturas específicas de la especialidad y una calificación igual o superior a 8 puntos en cada una de las restantes asignaturas específicas. A estos efectos, las asignaturas específicas por especialidad son:\n– Baile Flamenco: Danza Española y Baile Flamenco.\n– Danza Clásica: Danza Clásica.\n– Danza Contemporánea: Técnicas de Danza Contemporánea.\n– Danza Española: Escuela Bolera, Danza Estilizada y Flamenco. Asimismo, tanto en Música como en Danza, será requisito haber obtenido una calificación media aritmética igual o superior a 8,75 puntos, calculada a partir de las calificaciones finales de los cursos quinto y sexto de las enseñanzas profesionales en la especialidad correspondiente. Para su determinación se calculará, en primer lugar, la media aritmética de las calificaciones de todas las asignaturas cursadas en cada uno de los cursos, incluidas las aprobadas con anterioridad en otra especialidad, aplicándose la calificación obtenida en su momento. Las asignaturas convalidadas con asignaturas de enseñanzas de régimen general no se computarán. La calificación media final resultará de la media aritmética de las medias de ambos cursos, redondeada a la centésima más próxima y, en caso de equidistancia, a la superior.\n\n3. En el caso de alumnado que haya accedido directamente al sexto curso de las enseñanzas profesionales, la calificación media se calculará exclusivamente a partir de las calificaciones obtenidas en dicho curso."
+            },
+            {
+              "type": "articulo",
+              "id": "art-11",
+              "number": "11",
+              "title": "Artículo 11. Pruebas",
+              "content": "1. El contenido del programa presentado se ajustará, como mínimo, a los contenidos finales correspondientes a los currículos vigentes de cada centro, del sexto curso de enseñanzas profesionales de Música y de Danza.\n\n2. En los Premios Profesionales de Música, la fase de centro consistirá en una prueba de interpretación en audición pública, en la que la persona participante deberá presentar un programa compuesto por un mínimo de tres obras, estudios o movimientos pertenecientes a distintos estilos de la especialidad correspondiente. La duración del programa presentado será de al menos treinta minutos. El tribunal establecerá un límite máximo de treinta minutos para la prueba y seleccionará las obras, movimientos o fragmentos que deberán interpretarse, ajustando la duración total a dicho límite. Las obras que requieran acompañamiento instrumental deberán interpretarse con el acompañamiento o la reducción correspondiente. El centro pondrá a disposición del aspirante el acompañamiento pianístico o clavecinístico en aquellas especialidades para las que la Administración haya asignado dicho recurso, siempre que el repertorio haya sido trabajado durante el curso académico. En las especialidades que no cuenten con este servicio, el aspirante quedará exento de la obligación de interpretar con acompañamiento, sin perjuicio de que pueda aportarlo por sus propios medios.\n\n3. En los Premios Profesionales de Danza, la fase de centro consistirá en una prueba de interpretación en audición pública, en la que la persona participante deberá presentar un programa compuesto por obras, movimientos o variaciones extraídas de repertorios representativos de autores o autoras tanto clásicos como contemporáneos, así como en la interpretación de una composición de creación propia, correspondiente a la especialidad por la que se presenta el alumnado. El alumnado presentará un programa con una duración mínima de veinte minutos. El tribunal podrá establecer un límite máximo de veinte minutos para la ejecución, de acuerdo con su criterio. Las obras que requieran acompañamiento deberán interpretarse obligatoriamente con el acompañamiento correspondiente, facilitado por el profesorado del centro. Asimismo, cuando la obra lo requiera, se deberá aportar acompañante para pasos a dos o para agrupaciones."
+            },
+            {
+              "type": "articulo",
+              "id": "art-12",
+              "number": "12",
+              "title": "Artículo 12. Solicitud y documentación",
+              "content": "1. El alumnado que cumpla los requisitos establecidos en el artículo anterior y desee optar a los premios profesionales deberá inscribirse en el conservatorio o centro autorizado donde haya finalizado las enseñanzas profesionales, mediante la presentación de la solicitud disponible en la página web de la conselleria: https://www.gva.es/es/inicio/procedimientos?id_proc=G14898&id_caso=sollicitud.\n\n2. Junto con la solicitud, las personas participantes deberán aportar la documentación requerida, según corresponda. Asimismo, deberán indicar la duración aproximada de cada una de las piezas que integran el programa presentado.\n\nPara los Premios Profesionales de Música, se presentarán las obras que conforman el programa a interpretar, cada una de ellas en un archivo independiente en formato PDF, correctamente identificada y coincidente con la versión que se ejecutará. Para aquellas obras que requieran acompañamiento, será obligatorio adjuntar la partitura general correspondiente. Para los premios de Danza, se presentará el programa a interpretar, especificando todos los datos necesarios para la evaluación por parte del tribunal.\n\n3. La inscripción en los premios profesionales en la fase de centro requerirá una autorización expresa para que el centro pueda grabar las pruebas y registrarlas en un soporte que permita su posterior reproducción, destinada exclusivamente a la evaluación por parte del tribunal.\n\n4. Corresponde a la secretaría de los conservatorios, o a quienes ejerzan sus funciones en los centros autorizados, verificar que las solicitudes cumplen con los requisitos de calificación establecidos.\n\n5. El plazo de presentación de instancias vendrá determinado por la resolución anual de la convocatoria de los Premios Profesionales de Música y de Danza."
+            },
+            {
+              "type": "articulo",
+              "id": "art-13",
+              "number": "13",
+              "title": "Artículo 13. Tribunal",
+              "content": "1. La dirección de los centros designará a los integrantes de los tribunales encargados de evaluar estos premios. Estos tribunales actuarán como órganos colegiados y deberán ceñirse, en el ejercicio de sus funciones, a lo dispuesto en la Ley 40/2015, de 1 de octubre, de régimen jurídico del sector público.\n\n2. Los tribunales estarán constituidos por cinco profesores o profesoras del centro, que pertenecerán, siempre que sea posible, a la especialidad convocada o al mismo departamento.\n\n3. No podrá formar parte del tribunal el profesorado que haya impartido docencia directa al alumnado participante durante los dos últimos cursos de las enseñanzas.\n\n4. La composición del tribunal se hará pública con una antelación mínima de cinco días hábiles antes de la realización de las pruebas, mediante publicación en el tablón de anuncios del centro y en otros medios disponibles para la difusión de la información, con el fin de garantizar a las personas interesadas la posibilidad de ejercer el derecho de recusación o de abstención.\n\n5. Son funciones del tribunal, las siguientes:\n\na) Elaborar los criterios de evaluación y calificación que se aplicarán, garantizando su adecuación a las bases de la convocatoria.\n\nb) Confeccionar y custodiar los instrumentos de evaluación que se utilizarán para la calificación de la prueba, en los cuales quede constancia de la información que justifique las calificaciones emitidas.\n\nc) Comprobar la identidad de cada aspirante.\n\nd) Calificar las pruebas y publicar los resultados con las propuestas de adjudicación de premios, siempre siguiendo las instrucciones en materia de protección de datos según la normativa vigente.\n\ne) Resolver incidencias, reclamaciones y recursos que se presenten dentro del ámbito de sus competencias.\n\nf) Levantar acta.\n\ng) Cualquier otra función necesaria para el correcto desarrollo del proceso. Los documentos generados por el tribunal durante el proceso quedarán bajo la custodia del centro hasta que se resuelvan las reclamaciones que puedan producirse."
+            },
+            {
+              "type": "articulo",
+              "id": "art-14",
+              "number": "14",
+              "title": "Artículo 14. Evaluación",
+              "content": "1. La prueba se calificará en función del grado de dificultad técnica, la ejecución y la interpretación, con una puntuación máxima de 10 puntos. La nota se expresará con una precisión máxima de dos decimales, redondeándose a la centésima más próxima y, en caso de equidistancia, a la inmediatamente superior.\n\n2. Los criterios de evaluación y calificación, así como las rúbricas detalladas, deberán hacerse públicos con antelación suficiente a la celebración de las pruebas, mediante su exposición en el tablón de anuncios del centro y, en su caso, a través de otros medios de difusión de información disponibles.\n\n3. Una vez obtenida la calificación final de todo el alumnado participante, el acta recogerá la ordenación de mayor a menor puntuación, haciendo constar la distinción obtenida, en su caso."
+            },
+            {
+              "type": "articulo",
+              "id": "art-15",
+              "number": "15",
+              "title": "Artículo 15. Premios en la fase de centro",
+              "content": "1. Para poder optar al premio, la calificación mínima que se deberá alcanzar en la prueba será de 9,5 puntos sobre un máximo de 10. Esta calificación se considerará requisito indispensable y deberá reflejarse en el acta correspondiente de evaluación.\n\n2. El tribunal podrá conceder un único premio por especialidad a la alumna o alumno que haya obtenido la máxima puntuación en la prueba, pudiendo declararlo desierto si la calificación no alcanza el mínimo establecido en el apartado anterior.\n\n3. Asimismo, el tribunal podrá conceder un máximo de dos menciones de honor por cada especialidad, de acuerdo con su propio criterio, a los participantes que destaquen por su excelencia interpretativa y que no hayan alcanzado una calificación suficiente para la obtención del premio, o que, habiéndola alcanzado, no hayan quedado en primer lugar.\n\n4. Las decisiones del tribunal en el momento de otorgar el premio y, en su caso, las menciones honoríficas correspondientes a cada especialidad se indicarán en el acta correspondiente, según el modelo que figura en el anexo II de la presente orden."
+            },
+            {
+              "type": "articulo",
+              "id": "art-16",
+              "number": "16",
+              "title": "Artículo 16. Efectos del premio profesional en la fase de centro",
+              "content": "1. La obtención del premio en la fase de centro habilitará al alumnado para concurrir a la correspondiente fase autonómica de la misma convocatoria.\n\n2. El centro podrá expedir un diploma acreditativo de la distinción obtenida."
+            }
+          ]
+        },
+        {
+          "type": "seccion",
+          "id": "cap-3-sec-2",
+          "number": "II",
+          "title": "Sección II. Fase autonómica",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-17",
+              "number": "17",
+              "title": "Artículo 17. Condiciones de acceso",
+              "content": "1. Podrá acceder a la fase autonómica de los premios profesionales el alumnado que haya obtenido el correspondiente premio en la fase de centro, en cualquiera de las especialidades, dentro de la misma convocatoria anual, y siempre que el centro esté comprendido en el ámbito de aplicación de esta orden.\n\n2. La dirección de cada centro comunicará a los premiados de la fase de centro toda la información relativa a su participación en la fase autonómica."
+            },
+            {
+              "type": "articulo",
+              "id": "art-18",
+              "number": "18",
+              "title": "Artículo 18. Pruebas",
+              "content": "1. La prueba para los Premios Profesionales de Música en la fase autonómica consistirá en una interpretación en audición pública de un programa compuesto por un mínimo de tres obras, estudios o movimientos pertenecientes a distintos estilos de la especialidad correspondiente. La duración del programa presentado será de al menos treinta minutos. El tribunal establecerá un límite máximo de treinta minutos para la prueba y seleccionará las obras, movimientos o fragmentos que deberán interpretarse, ajustando la duración total a dicho límite. Las obras que requieran acompañamiento instrumental deberán interpretarse necesariamente con el acompañamiento correspondiente.\n\n2. La prueba para los Premios Profesionales de Danza en la fase autonómica consistirá en una interpretación en audición pública de un programa compuesto por obras, movimientos o variaciones extraídas de repertorios representativos de autores o autoras tanto clásicos como contemporáneos, así como en la interpretación de una composición de creación propia, correspondiente a la especialidad por la que se presenta el alumnado. El alumnado presentará un programa con una duración mínima de veinte minutos. El tribunal podrá establecer un límite máximo de veinte minutos para la ejecución, de acuerdo con su criterio. Las obras que requieran acompañamiento deberán interpretarse obligatoriamente con el acompañamiento correspondiente. Asimismo, cuando la obra lo requiera, se deberá aportar acompañante para paso a dos o para agrupaciones.\n\n3. La detección por parte del tribunal del incumplimiento de los requisitos referidos al programa o al acompañamiento correspondiente, será motivo de descalificación del aspirante en el proceso."
+            },
+            {
+              "type": "articulo",
+              "id": "art-19",
+              "number": "19",
+              "title": "Artículo 19. Presentación de solicitudes",
+              "content": "1. Para participar en la fase autonómica, la secretaría del conservatorio o del centro autorizado deberá presentar la propuesta de los participantes de su propio centro, acompañada de toda la documentación indicada en el presente artículo, a la dirección general competente en materia de enseñanzas de régimen especial.\n\n2. El plazo de presentación de instancias vendrá determinado por la resolución anual de la convocatoria de los premios de las enseñanzas profesionales de Música y de Danza.\n\n3. A las solicitudes se adjuntarán:\n\na) Una copia del acta en la que conste la obtención del premio en la fase de centro.\n\nb) Un certificado académico de cada participante del centro, de las enseñanzas profesionales de Música o de Danza, en la especialidad en la que se presente, que incluya la nota media obtenida en los dos últimos cursos.\n\nc) Consentimiento de participación de los aspirantes o sus representantes legales en caso de ser menores de edad, que incluya los datos de identificación y contacto.\n\n4. En el caso de la modalidad de Música, se deberá presentar además el programa a interpretar en formato PDF, en el que cada pieza figure en un archivo independiente, debidamente identificado y correspondiente a la versión que será interpretada. Para las obras que requieran acompañamiento, se deberá adjuntar también la partitura general o completa. Así mismo, se indicará la duración aproximada de cada una de las piezas a interpretar.\n\n5. En el caso de Danza, se deberá presentar el programa a interpretar, con especificación de todos los datos que sean de interés para el tribunal.\n\n6. La inscripción en los premios profesionales en la fase autonómica requerirá una autorización expresa a la conselleria competente en materia de educación para que las pruebas puedan ser grabadas y registradas en un soporte que permita su posterior reproducción, destinada exclusivamente a la evaluación por parte del tribunal."
+            },
+            {
+              "type": "articulo",
+              "id": "art-20",
+              "number": "20",
+              "title": "Artículo 20. Tribunal",
+              "content": "1. La dirección general competente en materia de enseñanzas de régimen especial designará los miembros de los tribunales. Estos tribunales actuarán como órganos colegiados y deberán ceñirse, en el ejercicio de sus funciones, a lo dispuesto en la Ley 40/2015, de 1 de octubre, de régimen jurídico del sector público.\n\n2. El tribunal encargado de supervisar y evaluar las pruebas en cada una de las dos enseñanzas estará formado por tres miembros fijos, y será presidido por un inspector o inspectora de educación. También formará parte de cada tribunal un director o directora de alguno de los centros de la red pública, preferentemente del centro sede. Actuará como secretario o secretaria un profesor o profesora del cuerpo de profesores de música y artes escénicas.\n\n3. En función de las especialidades presentadas en cada convocatoria, podrá ampliarse la composición del tribunal mediante la incorporación de profesorado de las correspondientes especialidades objeto de la prueba, que actuará como personal colaborador con voz y voto. Las colaboraciones se configurarán en cada sesión según las especialidades a evaluar, pudiendo incorporarse hasta un máximo de cuatro personas colaboradoras. En todo caso, la composición final del tribunal deberá contar con un número impar de miembros.\n\n4. No podrá formar parte del tribunal el profesorado que haya impartido docencia directa al alumnado aspirante durante los dos últimos cursos de las enseñanzas.\n\n5. La composición del tribunal se hará pública con una antelación mínima de cinco días hábiles respecto a la fecha de realización de las pruebas, mediante su publicación en la página web de la conselleria, a fin de garantizar lo establecido en los artículos 23 y 24 de la Ley 40/2015, de 1 de octubre, de régimen jurídico del sector público.\n\n6. Son funciones del tribunal, las siguientes:\n\na) Elaborar los criterios de evaluación y calificación que se aplicarán, garantizando su adecuación a las bases de la convocatoria.\n\nb) Confeccionar y custodiar los instrumentos de evaluación que se utilizarán para la calificación de la prueba, en los cuales quede constancia de la información que justifique las calificaciones emitidas.\n\nc) Comprobar la identidad de cada aspirante.\n\nd) Calificar las pruebas y publicar los resultados con las propuestas de adjudicación de premios, siempre siguiendo las instrucciones en materia de protección de datos según la normativa vigente.\n\ne) Resolver incidencias, reclamaciones y recursos que se presenten dentro del ámbito de sus competencias.\n\nf) Levantar acta de cada una de las sesiones realizadas.\n\ng) Elevar el acta de los resultados a la dirección general competente en materia de enseñanzas de régimen especial.\n\nh) Cualquier otra función necesaria para el correcto desarrollo del proceso. Los documentos generados por el tribunal durante el proceso quedarán bajo la custodia del centro sede hasta que se resuelvan las reclamaciones que puedan producirse."
+            },
+            {
+              "type": "articulo",
+              "id": "art-21",
+              "number": "21",
+              "title": "Artículo 21. Evaluación",
+              "content": "1. Los criterios de evaluación de la prueba de los Premios Profesionales de Música en su fase autonómica deberán contemplar, al menos, el nivel técnico, la expresividad, el carácter y estilo y la dificultad del programa presentado.\n\n2. Los criterios de evaluación de la prueba de los Premios Profesionales de Danza en su fase autonómica deberán contemplar, al menos, la técnica y dominio corporal, la expresividad y comunicación escénica, la musicalidad y relación con la música, la creatividad e interpretación personal, y la adecuación y dificultad de las coreografías presentadas.\n\n3. Los criterios de evaluación y calificación deberán hacerse públicos, como mínimo, tres días hábiles antes de la celebración de las pruebas, mediante su exposición en el tablón de anuncios del centro sede, de la página web de la conselleria competente en materia de enseñanzas de régimen especial, y a través de otros medios de difusión de información disponibles.\n\n4. La prueba se calificará con una puntuación máxima de 10 puntos. La nota se expresará con una precisión máxima de dos decimales, redondeándose a la centésima más próxima y, en caso de equidistancia, a la inmediatamente superior.\n\n5. La puntuación será el resultado de la media aritmética de las calificaciones otorgadas por cada miembro del tribunal siempre que estas no difieran entre sí en 3 o más puntos. Si las calificaciones difieren entre sí en 3 o más puntos, se realizará la media aritmética de las calificaciones otorgadas por los miembros del tribunal, una vez eliminada la calificación más alta y la calificación más baja.\n\n6. Una vez evaluados todos los aspirantes, el tribunal elaborará un acta con las calificaciones finales, en la que constará la relación del alumnado participante ordenada de mayor a menor puntuación en cada una de las especialidades y, en su caso, la distinción otorgada propuesta.\n\n7. Finalizadas las pruebas, las actas de las diferentes especialidades serán remitidas a la dirección general competente en materia de enseñanzas de régimen especial.\n\n8. En caso de empate, éste se resolverá aplicando los criterios que se indican a continuación, en el orden en que se enumeran, hasta que se produzca el desempate:\n– Mejor nota media de todas las asignaturas del sexto curso de las enseñanzas profesionales, redondeada a la centésima. Esta nota se calculará como la media aritmética de las asignaturas cursadas y superadas en dicho curso de las enseñanzas profesionales de música o danza, incluidas aquellas aprobadas con anterioridad en otra especialidad, con la calificación obtenida en su momento. Las asignaturas convalidadas no serán objeto de cómputo.\n– Mejor calificación media obtenida en el expediente académico de las enseñanzas profesionales de música o danza, redondeada a la centésima.\n– Año de nacimiento más reciente\n– En caso de empate en todos los puntos anteriores, se resolverá por el sorteo público que la conselleria competente en materia de educación celebra anualmente para regular los procesos de admisión de alumnado en centros sostenidos con fondos públicos.\n\n9. En las actas de evaluación constarán los candidatos que no comparezcan a las pruebas con la expresión «No presentado», o con el abreviamiento «NP», así como los criterios de desempate que se apliquen en caso de haberse producido."
+            },
+            {
+              "type": "articulo",
+              "id": "art-22",
+              "number": "22",
+              "title": "Artículo 22. Premios Profesionales de Música fase autonómica",
+              "content": "1. El tribunal podrá proponer la concesión de un único premio por especialidad a la alumna o alumno que haya obtenido la máxima puntuación en la prueba, siempre que alcance la calificación mínima de 9,5 puntos sobre un máximo de 10, pudiendo declarar el premio desierto en caso contrario.\n\n2. Los resultados de las pruebas de los premios en la fase autonómica de música y de danza, se publicarán en el tablón de anuncios del lugar de realización de las pruebas, así como en la web de la conselleria competente en materia de enseñanzas de régimen especial.\n\n3. De acuerdo con la propuesta formulada por el tribunal, la dirección general competente en materia de enseñanzas de régimen especial concederá los premios, que serán publicados en el Diari Oficial de la Generalitat Valenciana."
+            },
+            {
+              "type": "articulo",
+              "id": "art-23",
+              "number": "23",
+              "title": "Artículo 23. Efectos del premio",
+              "content": "1. La obtención del premio profesional en la fase autonómica se consignará en el expediente académico del alumnado por medio de una diligencia específica.\n\n2. La obtención del premio en la fase de autonómica habilitará al alumnado para ser propuesto por la conselleria competente en materia de enseñanzas de régimen especial para concurrir a los premios profesionales de ámbito nacional.\n\n3. La concesión del premio profesional en la fase autonómica, en las enseñanzas profesionales de música o danza, podrá otorgar al alumnado la exención del pago de precios públicos por la prestación de servicios académicos en las universidades públicas de la Comunitat Valenciana o en las enseñanzas artísticas superiores gestionadas por el ISEACV, durante el primer curso y por una única vez, de conformidad con la normativa vigente en materia de regulación de los\n\nprecios públicos de la Generalitat, y será esta exención incompatible con cualquier otra exención de tasas obtenida mediante otros premios."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-4",
+      "number": "IV",
+      "title": "Capítulo IV. Premios Extraordinarios de Música y de Danza de la Comunitat Valenciana",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-24",
+          "number": "24",
+          "title": "Artículo 24. Condiciones de participación",
+          "content": "Para optar al Premio Extraordinario de Música o Danza de la Comunitat Valenciana será necesario haber obtenido el Premio al Rendimiento Académico y el Premio Profesional de Música o Danza en una de las especialidades, en la fase autonómica."
+        },
+        {
+          "type": "articulo",
+          "id": "art-25",
+          "number": "25",
+          "title": "Artículo 25. Adjudicación",
+          "content": "La conselleria competente en materia de educación otorgará, entre las personas participantes que cumplan los requisitos establecidos en el artículo anterior, dos premios extraordinarios en la modalidad de música y un premio extraordinario en la modalidad de danza, a los premiados que hayan obtenido la mayor media aritmética, expresada con tres cifras decimales, entre la calificación con la que se haya obtenido el premio al rendimiento académico y la calificación obtenida en el premio profesional autonómico. Estos premios podrán declararse desiertos o ser ampliados en número de manera excepcional, según determine la dirección general competente en materia de enseñanzas de régimen especial."
+        },
+        {
+          "type": "articulo",
+          "id": "art-26",
+          "number": "26",
+          "title": "Artículo 26. Efectos de la obtención del premio",
+          "content": "La conselleria competente en materia de enseñanzas de régimen especial promoverá que el alumnado premiado durante cada convocatoria pueda realizar la interpretación de un repertorio propio de su especialidad en una sala representativa de la Comunitat Valenciana, y sin perjuicio otros beneficios que se puedan establecer para este alumnado."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposición adicional primera. Reclamaciones",
+      "content": "Cualquier reclamación que se genere en los procesos de evaluación de los premios, tanto en la fase en el centro como en la fase autonómica, se resolverá de acuerdo con la Orden 32/2011, de 20 de diciembre, de la Conselleria de Educación, Formación y Empleo, por la cual se regula el derecho del alumnado a la objetividad en la evaluación y se establece el procedimiento de reclamación de calificaciones obtenidas y de las decisiones de promoción, de certificación o de obtención del título académico que corresponda."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segunda",
+      "title": "Disposición adicional segunda. Protección de datos y derechos de imagen",
+      "content": "1. La obtención de los datos personales del alumnado, la cesión de estos de unos centros a otros y la seguridad y la confidencialidad de estos estarán sujetas a lo que dispone la legislación vigente en materia de protección de datos de carácter personal y, en todo caso, a lo que establece la disposición adicional vigesimotercera de la Ley orgánica 2/2006, de 3 de mayo, de educación.\n\n2. La participación en los presentes premios, en cualquiera de sus modalidades, requerirá que las personas participantes otorguen expresamente su autorización y cesión de derechos de uso de imagen a la entidad convocante para su captación, reproducción y difusión en el acto de entrega y en los medios oficiales vinculados a la convocatoria. Esta cesión se realizará en conformidad con el Reglamento (UE) 2016/679 (RGPD) y la Ley orgánica 3/2018, de protección de datos personales y garantía de los derechos digitales (LOPDGDD)."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposición adicional tercera. Difusión y supervisión de la norma",
+      "content": "1. La dirección de los centros cumplirá y hará cumplir el contenido de esta orden y difundirá su contenido entre los miembros de la comunidad educativa.\n\n2. La inspección de educación velará por el cumplimiento de lo que establece esta orden."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "cuarta",
+      "title": "Disposición adicional cuarta. Incidencia en las dotaciones de gasto",
+      "content": "La aplicación y desarrollo de esta orden tendrá que ser atendido con los medios personales y materiales de la conselleria competente por razón de la materia."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-5",
+      "number": "quinta",
+      "title": "Disposición adicional quinta. Habilitación normativa",
+      "content": "Se habilita a la persona titular de la dirección general competente en materia de enseñanzas de régimen especial a modificar o actualizar mediante la resolución publicada en el Diari Oficial de la Generalitat Valenciana los anexos aprobados en esta orden si fuera necesario adaptar la presente norma a las necesidades cambiantes del sistema educativo y su alumnado."
+    },
+    {
+      "type": "disposicion_transitoria",
+      "id": "dt-unica",
+      "number": "única",
+      "title": "Disposición transitoria única. Exención del pago de los precios públicos para las enseñanzas de grado",
+      "content": "La exención del pago de los precios públicos establecida en los artículos 7 y 23, podrá ser aplicable a partir de la convocatoria de los premios correspondiente al curso 2026-2027, siempre que esté contemplada en la normativa vigente en materia de regulación de los precios públicos de la Generalitat."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposición derogatoria única. Derogación normativa",
+      "content": "1. Queda derogada la Orden 76/2014, de 16 de septiembre, de la Conselleria de Educación, Cultura, Universidades y Empleo y Deporte, por la cual se regulan en la Comunitat Valenciana los premios profesionales para el alumnado que ha concluido las enseñanzas profesionales de Música o de Danza. [2014/8491]\n\n2. Queda derogada la Orden 35/2017, de 10 de agosto, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se establece el procedimiento de inscripción, modificación y baja, de las escuelas de música, escuelas de danza y escuelas de Música y Danza en el Registro de Centros Docentes de la Comunitat Valenciana.\n\n3. Asimismo, quedan derogadas todas las disposiciones del mismo rango o inferior que se opongan a lo que dispone esta orden."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "number": "primera",
+      "title": "Disposición final primera. Aplicación y despliegue",
+      "content": "De acuerdo con la disposición final primera de los Decretos 156/2007 y 158/2007, de 21 de septiembre, del Consell, que establecen el currículum de las enseñanzas profesionales de Danza, y el currículum de las enseñanzas profesionales de Música respectivamente, se autoriza a la conselleria competente en materia de educación a dictar las disposiciones necesarias para la aplicación y el desarrollo de esta orden."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "number": "segunda",
+      "title": "Disposición final segunda. Entrada en vigor",
+      "content": "Esta orden entrará en vigor el día siguiente a ser publicada en el Diari Oficial de la Generalitat Valenciana."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-3",
+      "number": "tercera",
+      "title": "Disposición final tercera. Modificación de la Orden 5/2017, de 6 de febrero, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el programa denominado «Coordinación horaria» dirigido al alumnado que cursa simultáneamente las enseñanzas profesionales de Música y/o Danza y la Educación Secundaria",
+      "content": "1. Se modifica el título de la Orden, que queda con la siguiente redacción:\n\n«Orden 5/2017, de 6 de febrero, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el programa denominado \"Coordinación horaria\" dirigido al alumnado que cursa simultáneamente las enseñanzas elementales o profesionales de Música y/o Danza y la Educación Primaria o Secundaria.»\n\n2. Se modifica el preámbulo, y se añade como penúltimo párrafo:\n\n«Del mismo modo, es necesario extender esta coordinación a las enseñanzas elementales de Música y Danza, así como a la etapa de Educación Primaria, con el fin de garantizar una adecuada organización horaria que permita al alumnado compaginar ambas modalidades formativas. Esta medida contribuye a favorecer la continuidad educativa, la\n\nconciliación de los distintos ámbitos de aprendizaje y el pleno desarrollo del alumnado que inicia de manera temprana su formación artística reglada.»\n\n3. Se modifica el artículo 1.1 y 1.2, que queda con la siguiente redacción:\n\n«1. Esta orden tiene por objeto regular el procedimiento para autorizar la implantación del programa \"Coordinación horaria\" dirigido al alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza, en función de los respectivos horarios debidamente aprobados, así como regular sus condiciones de participación.\n\n2. Esta orden será aplicable en los conservatorios y centros autorizados de enseñanzas elementales y profesionales de Música y de Danza, y en los centros públicos y concertados que impartan las enseñanzas de régimen general, en el ámbito de gestión de la Comunitat Valenciana.»\n\n4. Se modifica el artículo 2.1, 2.3 y 2.4, que queda con la siguiente redacción:\n\n«1. La finalidad del programa de \"Coordinación horaria\" es compatibilizar los horarios del alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas regladas de Música y/o Danza de régimen especial, con el fin de facilitar el máximo rendimiento académico en ambas enseñanzas.\n\n3. La Conselleria competente en materia de educación publicará anualmente una convocatoria para establecer el calendario de solicitud de participación y será la encargada de valorar y autorizar los proyectos de coordinación horaria presentados por los centros. Los centros autorizados que participen en el programa de \"Coordinación horaria\" dispondrán de la correspondiente distinción, la cual será claramente identificable en la guía de centros publicada en la página web de la conselleria competente en materia de educación.\n\n4. Se creará una comisión coordinadora del programa \"Coordinación horaria\" por cada propuesta de acuerdo entre un centro de enseñanzas de régimen general y uno de enseñanzas de régimen especial, que será el órgano responsable de su despliegue y aplicación en cada centro en el cual se implante.»\n\n5. Se modifica el artículo 3.3, se añade el apartado e)\n\n«e) Coordinar, a través de las secretarías de ambos centros y de manera conjunta, las actuaciones administrativas necesarias para la verificación de la matrícula y de la superación de las asignaturas objeto de convalidación del alumnado participante en el programa, con el fin de agilizar los trámites y minimizar la carga burocrática para el alumnado.»\n\n6. Se modifica el artículo 4, que queda con la siguiente redacción:\n\n«Los horarios del alumnado participante serán elaborados por la comisión coordinadora del programa de \"Coordinación horaria\", con el fin de facilitar la integración de las enseñanzas. En secundaria, se favorecerá la agrupación de aquellas materias susceptibles de convalidación en un bloque horario común, ubicado en la franja más adecuada, posibilitando, según las necesidades del alumnado, el retraso de la hora de entrada, el adelanto de la hora de salida o la integración de las enseñanzas dentro del horario lectivo. En primaria, se realizará la coordinación fuera del horario lectivo y dentro de la jornada escolar. Todo ello permitirá, conforme a lo establecido en la presente normativa, el desplazamiento del alumnado y/o del profesorado entre los centros de enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza.»\n\n7. Se modifica el artículo 5. «Presentación de solicitudes de los centros participantes»\n– Se añade el siguiente apartado:\n\n«3. Los centros autorizados en el marco del programa de \"Coordinación horaria\" renovarán su participación de forma automática, siempre que continúe matriculado alumnado que cumpla las condiciones y requisitos de participación establecidos. No obstante, los centros podrán solicitar expresamente su baja en el programa dentro del plazo que determine la conselleria competente en materia de educación.»\n– Se modifica el apartado 2.c) 3., que queda redactado de la siguiente forma:\n\n«3. Previsión de alumnado participante en el programa \"Coordinación horaria\".»\n\n8. Se modifica el artículo 6, que queda con la siguiente redacción:\n\n«Artículo 6. Supervisión, seguimiento y evaluación del programa de \"Coordinación horaria\"\n\n1. La supervisión, el seguimiento y la evaluación de los proyectos del programa de \"Coordinación horaria\" corresponderán, de manera conjunta y en el ámbito de sus respectivas competencias, a la conselleria competente en materia de educación y a la dirección territorial de educación correspondiente, garantizando su adecuación a la normativa vigente y a los objetivos del programa.\n\n2. A tal efecto, podrán llevarse a cabo actuaciones de evaluación y seguimiento, así como requerirse los informes, memorias y documentación necesarios para verificar el desarrollo y los resultados de los proyectos. Las comisiones de coordinación del programa de \"Coordinación horaria\" colaborarán con los órganos competentes facilitando la información que les sea requerida.»\n\n9. Se modifica el artículo 7.2, y se añade el apartado 6 a dicho artículo:\n\n«2. Las solicitudes de participación del alumnado en el programa se presentarán en la secretaría de aquellos centros de enseñanza de régimen general que hayan sido previamente autorizados para el desarrollo del presente programa, en el periodo de formalización de matrícula de dicho centro.»\n\n«6. Esta solicitud se renovará automáticamente cada curso siempre que continúen cumpliéndose los requisitos, a no ser que voluntariamente se solicite la baja de participación en el programa.»\n\n10. Se modifica el artículo 9, se añade el siguiente párrafo:\n\n«El control de asistencia del profesorado desplazado será supervisado por la dirección de estudios del centro donde se impartan las sesiones lectivas, quedando constancia de la asistencia en los registros correspondientes.»\n\n11. Se modifica el artículo 10, que queda con la siguiente redacción:\n\n«1. El programa de \"Coordinación horaria\" formará parte de la oferta educativa de los centros participantes, integrándose en el proyecto educativo del centro (PEC). Asimismo, los criterios a seguir en todos los aspectos relacionados con el programa se incluirán en las normas de organización y funcionamiento del centro.\n\n2. La planificación y concreción anual del programa de \"Coordinación horaria\" se incorporará a la programación general anual (PGA) del centro y podrá integrarse en el plan de mejora, formando parte de la programación de acciones del curso escolar con la finalidad de optimizar todos los aspectos relacionados con el programa.\n\n3. La memoria final de curso del centro incluirá un apartado específico sobre el programa de \"Coordinación horaria\", que deberá contener la valoración de la comisión de coordinación del programa, así como del profesorado y alumnado participante.»\n\n12. Se modifica el apartado 1 de la disposición adicional primera, que queda con la siguiente redacción:\n\n«1. Se delega en la dirección general competente en materia de enseñanzas de régimen especial la autorización de los programas de coordinación horaria entre los centros de enseñanzas de régimen general y los centros de enseñanzas regladas de régimen especial de Música o Danza. Asimismo, se le autoriza para dictar las resoluciones e instrucciones necesarias para el cumplimiento y la aplicación del contenido de esta orden.»\n\n13. Se modifica el apartado 1 de la disposición adicional cuarta, que queda con la siguiente redacción:\n\n«1. Los equipos directivos de los centros participantes en el programa de \"Coordinación horaria\" cumplirán y harán cumplir el contenido de la presente orden y lo difundirán entre los miembros de la comunidad educativa.»"
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)",
+        "relationship": "conformidad"
+      },
+      {
+        "title": "Decreto 156/2007, de 21 de septiembre, del Consell (currículo EEPP de Danza)",
+        "lawId": "decreto-156-2007",
+        "relationship": "desarrollo"
+      },
+      {
+        "title": "Decreto 158/2007, de 21 de septiembre, del Consell (currículo EEPP de Música)",
+        "lawId": "decreto-158-2007",
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "orden-ecd-1611-2015",
+        "title": "Orden ECD/1611/2015, de 29 de julio (premios nacionales al rendimiento académico)",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [
+      {
+        "lawId": "orden-5-2017",
+        "title": "Orden 5/2017, de 6 de febrero (programa Coordinación horaria)",
+        "type": "modifica",
+        "articles": [
+          "art-1",
+          "art-2",
+          "art-3",
+          "art-4",
+          "art-5",
+          "art-6",
+          "art-7",
+          "art-9",
+          "art-10"
+        ],
+        "date": "2026-04-08",
+        "description": "Modificada por la disposición final tercera: título, preámbulo, arts 1-7, 9, 10, DA 1ª y DA 4ª"
+      }
+    ],
+    "posteriorAffectations": [],
+    "derogations": [
+      {
+        "lawId": "orden-76-2014",
+        "title": "Orden 76/2014, de 16 de septiembre, por la cual se regulan los premios profesionales de Música o de Danza",
+        "type": "deroga",
+        "description": "Derogada íntegramente por la disposición derogatoria única"
+      },
+      {
+        "lawId": "orden-35-2017",
+        "title": "Orden 35/2017, de 10 de agosto, por la que se establece el procedimiento de inscripción de escuelas de música y danza",
+        "type": "deroga",
+        "description": "Derogada íntegramente por la disposición derogatoria única"
+      }
+    ],
+    "concordances": [
+      {
+        "lawId": "orden-32-2011",
+        "title": "Orden 32/2011, de 20 de diciembre (reclamación de calificaciones)",
+        "description": "Procedimiento de reclamación aplicable a los premios (DA primera)"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-04-01",
+    "signatories": [
+      {
+        "name": "María del Carmen Ortí Ferre",
+        "role": "Conselleria de Educación"
+      }
+    ]
+  },
+  "formModels": [
+    {
+      "id": "solicitud-inscripcion",
+      "title": "Solicitud de inscripción en los Premios Profesionales (Anexo I)",
+      "pdfUrl": "models/orden-4-2026-solicitud-inscripcion.pdf"
+    },
+    {
+      "id": "acta-premio",
+      "title": "Acta Premios Profesionales - fase de centro (Anexo II)",
+      "pdfUrl": "models/orden-4-2026-acta-premio.pdf"
+    }
+  ]
+}

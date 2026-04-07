@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.6.0",
+    "date": "2026-04-07",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta: Orden 4/2026 de premios profesionales de Música y Danza (26 artículos, 4 capítulos con secciones). Deroga Orden 76/2014 y Orden 35/2017"
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta: Orden 5/2017 del programa Coordinación horaria (10 artículos). Incluye versiones originales y vigentes de 11 artículos modificados por la Orden 4/2026"
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta: Real Decreto 943/2003 de flexibilización para alumnado superdotado intelectualmente (9 artículos, 3 capítulos)"
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta: Decreto 104/2018 de equidad e inclusión educativa (35 artículos, 7 capítulos, texto consolidado con D.72/2021 y D.105/2022). Incluye tabla de niveles de respuesta en el Anexo"
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta: Orden 20/2019 de respuesta educativa para la inclusión (59 artículos, 6 capítulos con secciones, 10 disposiciones adicionales)"
+        },
+        {
+          "type": "mejora",
+          "description": "Las URLs en el contenido de los artículos son ahora clicables (auto-linking)"
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingestió: Orde 4/2026 de premis professionals de Música i Dansa (26 articles, 4 capítols amb seccions). Deroga Orde 76/2014 i Orde 35/2017"
+        },
+        {
+          "type": "nou",
+          "description": "Ingestió: Orde 5/2017 del programa Coordinació horària (10 articles). Inclou versions originals i vigents d'11 articles modificats per l'Orde 4/2026"
+        },
+        {
+          "type": "nou",
+          "description": "Ingestió: Reial Decret 943/2003 de flexibilització per a alumnat superdotat intel·lectualment (9 articles, 3 capítols)"
+        },
+        {
+          "type": "nou",
+          "description": "Ingestió: Decret 104/2018 d'equitat i inclusió educativa (35 articles, 7 capítols, text consolidat amb D.72/2021 i D.105/2022). Inclou taula de nivells de resposta en l'Annex"
+        },
+        {
+          "type": "nou",
+          "description": "Ingestió: Orde 20/2019 de resposta educativa per a la inclusió (59 articles, 6 capítols amb seccions, 10 disposicions addicionals)"
+        },
+        {
+          "type": "millora",
+          "description": "Les URLs en el contingut dels articles ara són clicables (auto-linking)"
+        }
+      ]
+    }
+  },
+  {
     "version": "0.5.4",
     "date": "2026-04-07",
     "entries": {

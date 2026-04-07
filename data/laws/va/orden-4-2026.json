@@ -1,0 +1,418 @@
+{
+  "id": "orden-4-2026",
+  "slug": "orden-4-2026",
+  "type": "orden",
+  "number": "4/2026",
+  "date": "2026-04-01",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10336",
+    "date": "2026-04-07",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2026/10071",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/04/07/pdf/2026_10071_va.pdf"
+  },
+  "title": "Orde 4/2026, d'1 d'abril, de la Conselleria d'Educació, Cultura i Universitats, per la qual es regulen a la Comunitat Valenciana els premis professionals per a l'alumnat que ha conclòs les ensenyances professionals de Música o de Dansa",
+  "titleShort": "Premis professionals de Música i Dansa",
+  "category": "evaluacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-04-08"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "L'Orde ECD/1611/2015, de 29 de juliol, per la qual es creen i regulen els premis nacionals al rendiment acadèmic de l'alumnat d'Educació Secundària Obligatòria i d'ensenyances artístiques professionals en els àmbits de Música, Dansa i Arts Plàstiques i Disseny, establix el marc jurídic per a la concessió d'estos premis amb la finalitat de reconéixer l'esforç, la dedicació i l'excel·lència acadèmica. En el cas de les ensenyances artístiques professionals, la norma preveu específicament la concessió de premis en els àmbits de la Música i la Dansa, que posen en valor la trajectòria formativa de l'alumnat i el nivell interpretatiu aconseguit en les ensenyances professionals d'estes disciplines. Els decrets 156/2007 i 158/2007, els dos de 21 de setembre, del Consell, pels quals s'establixen els currículums de les ensenyances professionals de Dansa i de Música respectivament, i es regula l'accés a estes, preveuen que els centres puguen convocar anualment premis extraordinaris per cada una de les especialitats que tinguen autoritzades. Conscients que una formació de qualitat, unida al progrés constant en els aprenentatges, fomenta en l'alumnat la motivació necessària per a millorar el seu rendiment acadèmic i artístic, es promouen tres modalitats de reconeixement a l'excel·lència: els Premis al Rendiment Acadèmic, els Premis Professionals de Música i de Dansa en la seua fase de centre i la seua fase autonòmica, i els Premis Extraordinaris de Música i Dansa de la Comunitat Valenciana. Esta orde crea els Premis al Rendiment Acadèmic en les ensenyances professionals de Música i de Dansa de la Comunitat Valenciana com una mesura innovadora per a reconéixer l'excel·lència de l'alumnat. Esta iniciativa busca valorar l'esforç, la constància i l'alt nivell d'aprofitament en la formació artística, incentivant la dedicació i el compromís de l'alumnat en el seu desenrotllament educatiu i artístic. Per a complir el que es disposa en l'Orde ECD/1611/2015, de 29 de juliol, és procedent establir que els Premis Professionals de Música i de Dansa en la seua fase autonòmica es convoquen en totes les especialitats. Amb això es garantix que cada especialitat de Música i Dansa puga ser representada en els premis nacionals, reconeixent l'excel·lència, l'esforç i la dedicació de l'alumnat, i contribuint a reforçar la valoració del talent i la projecció de les ensenyances artístiques professionals en la Comunitat Valenciana. Paral·lelament, es creen els Premis Extraordinaris de Música i de Dansa de la Comunitat Valenciana, concebuts per a reconéixer els estudiants que han assolit el més alt nivell d'excel·lència en la seua trajectòria acadèmica i artística. Estos premis representen un estímul addicional al talent i la dedicació de l'alumnat, reforçant la promoció de la qualitat educativa i el prestigi de les ensenyances professionals de Música i de Dansa en la Comunitat Valenciana. De conformitat amb el que disposa l'article 53.1 de l'Estatut d'Autonomia de la Comunitat Valenciana, aprovat per la Llei orgànica 5/1982, d'1 de juliol, i reformat per la Llei orgànica 1/2006, de 10 d'abril, la Generalitat té la competència exclusiva en matèria d'educació; amb el Decret 186/2025, de 5 de desembre, del Consell, pel qual s'establix l'estructura orgànica bàsica de la Presidència i de les conselleries de la Generalitat, i el Decret 38/2025, de 4 de març, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura, Universitats i Ocupació. Per tot això, una vegada emés l'informe de l'Advocacia de la Generalitat i la resta dels informes preceptius, amb una audiència prèvia a les entitats representants dels col·lectius afectats i el dictamen del Consell Escolar de la Comunitat Valenciana, fent ús de les facultats que em conferix l'article 28 de la Llei 5/1983, de 30 de desembre, del Consell, i a proposta de la Direcció General de Centres Docents,"
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-1",
+      "number": "I",
+      "title": "Capítol I. Disposicions preliminars",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-1",
+          "number": "1",
+          "title": "Article 1. Objecte i àmbit aplicable",
+          "content": "1. Esta orde té per objecte la creació i la regulació dels Premis al Rendiment Acadèmic i dels premis extraordinaris de la Comunitat Valenciana, així com la regulació dels premis professionals existents, en l'àmbit de les ensenyances professionals de Música i de Dansa, i establix per a tots un règim de concurrència participativa.\n\n2. La present orde serà aplicable a tot l'alumnat que haja completat les ensenyances professionals de Música o Dansa, en qualsevol de les seues especialitats, en conservatoris o centres autoritzats, dins de l'àmbit de gestió de la Comunitat Valenciana."
+        },
+        {
+          "type": "articulo",
+          "id": "art-2",
+          "number": "2",
+          "title": "Article 2. Premis",
+          "content": "Els diferents premis regulats per la present orde i que poden ser convocats són:\n\na) Premis al Rendiment Acadèmic de les ensenyances professionals de Música i de Dansa.\n\nb) Premis Professionals de Música i de Dansa en les diferents especialitats, organitzats en dos fases: fase de centre i fase autonòmica.\n\nc) Premis Extraordinaris de Música i de Dansa de la Comunitat Valenciana."
+        },
+        {
+          "type": "articulo",
+          "id": "art-3",
+          "number": "3",
+          "title": "Article 3. Resolució i publicació",
+          "content": "Les resolucions de concessió dels Premis al Rendiment Acadèmic, dels premis professionals en fase autonòmica i dels Premis Extraordinaris de Música i de Dansa de la Comunitat Valenciana seran publicades en el Diari Oficial de la Generalitat Valenciana. Els resultats de la fase de centre dels premis professionals seran resolts en cada centre i publicats en els seus taulers d'anuncis o mitjans de difusió interna."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-2",
+      "number": "II",
+      "title": "Capítol II. Premis al Rendiment Acadèmic",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-4",
+          "number": "4",
+          "title": "Article 4. Finalitat dels Premis al Rendiment Acadèmic",
+          "content": "Els Premis al Rendiment Acadèmic tenen com a finalitat reconéixer l'esforç, la constància i l'alt nivell d'aprofitament en les ensenyances professionals de Música i de Dansa. En este sentit, es valoren els expedients que reflectixen l'excel·lència en el procés formatiu de l'alumnat, destacant el seu compromís, dedicació i domini dels continguts teòrics i pràctics, i incentivant així la perseverança i l'assoliment d'elevats estàndards educatius."
+        },
+        {
+          "type": "articulo",
+          "id": "art-5",
+          "number": "5",
+          "title": "Article 5. Requisits. Podrà optar al Premi al Rendiment Acadèmic de les ensenyances professionals de Música o de Dansa l'alumnat que reunisca els requisits següents:",
+          "content": "a) Haver cursat almenys els dos últims cursos de les ensenyances professionals de Música o Dansa en un conservatori o centre autoritzat.\n\nb) Haver finalitzat les ensenyances professionals de Música o de Dansa en un conservatori o centre autoritzat en el curs de la convocatòria.\n\nc) Haver obtingut una nota mitjana igual o superior a 9,25 en els dos últims cursos de les ensenyances professionals de Música o de Dansa. Per a determinar-la es calcularà, en primer lloc, la mitjana aritmètica de les qualificacions de totes les assignatures cursades en cada un dels cursos, incloses les aprovades amb anterioritat en una altra especialitat, i s'aplicarà la qualificació obtinguda en el seu moment. Les assignatures convalidades amb matèries d'ensenyances de règim general no es computaran. La qualificació mitjana final resultarà de la mitjana aritmètica de les mitjanes dels dos cursos, arredonida a la centèsima més pròxima i, en cas d'equidistància, a la superior."
+        },
+        {
+          "type": "articulo",
+          "id": "art-6",
+          "number": "6",
+          "title": "Article 6. Proposta, presentació i criteris d'adjudicació dels Premis al Rendiment Acadèmic",
+          "content": "1. Cada centre podrà proposar un premi al rendiment acadèmic per cada vint estudiants, o fracció inferior, que finalitzen les ensenyances professionals.\n\n2. En la sessió d'avaluació final, els equips docents dels conservatoris professionals i dels centres autoritzats elaboraran la proposta de concessió dels Premis al Rendiment Acadèmic, seleccionant l'alumnat amb la qualificació més alta d'entre aquells que complisquen els requisits establits.\n\n3. En cas d'igualtat en la puntuació obtinguda, el desempat es resoldrà aplicant, per este orde, els següents criteris: nota mitjana més alta en 6t, 5t, 4t, 3r, 2n i 1r curs de les ensenyances professionals, respectivament, i, en últim terme, qualificació més alta en les proves d'accés a estes ensenyances. Quan algun dels aspirants haguera accedit a les ensenyances en un curs posterior al primer, es compararan únicament les qualificacions dels cursos que tots els aspirants en igualtat de puntuació hagen cursat. En el cas que persistisca l'empat, es dirimirà per sorteig públic en presència de les persones interessades i, quan es tracte de menors d'edat, els seus representants legals.\n\n4. La direcció del centre traslladarà la proposta, juntament amb el certificat acadèmic oficial, a la direcció general competent en matèria d'ensenyances de règim especial, a través del registre telemàtic.\n\n5. D'acord amb la proposta formulada per la direcció del centre, serà la direcció general competent en matèria d'ensenyances de règim especial la que resolga la concessió dels premis."
+        },
+        {
+          "type": "articulo",
+          "id": "art-7",
+          "number": "7",
+          "title": "Article 7. Efectes de l'obtenció del Premi al Rendiment Acadèmic",
+          "content": "1. L'obtenció del Premi al Rendiment Acadèmic de les ensenyances professionals de Música o de Dansa de la Comunitat Valenciana es reflectirà, mitjançant diligència específica, en l'expedient acadèmic de l'alumnat, amb la denominació de Premi al Rendiment Acadèmic de les ensenyances professionals de Música o de Dansa, segons corresponga.\n\n2. La concessió del Premi al Rendiment Acadèmic en les ensenyances professionals de Música o Dansa podrà atorgar a l'alumnat l'exempció del pagament de preus públics per la prestació de servicis acadèmics en les universitats públiques de la Comunitat Valenciana o en les ensenyances artístiques superiors gestionades per l'ISEACV, durant el primer curs i per una única vegada, i d'acord amb la normativa vigent en matèria de regulació dels preus públics de la Generalitat."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-3",
+      "number": "III",
+      "title": "Capítol III. Premis Professionals de Música i de Dansa",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-8",
+          "number": "8",
+          "title": "Article 8. Finalitat dels Premis Professionals de Música i de Dansa",
+          "content": "Els Premis Professionals de Música i de Dansa reconeixen l'excel·lència tècnica i artística en les diferents especialitats, i valoren la qualitat interpretativa tècnica i expressiva de l'alumnat. Estos premis fomenten el desenrotllament del talent i consoliden la formació artística professional com una etapa essencial per a l'adquisició de competències orientades tant al creixement professional com a la projecció artística."
+        },
+        {
+          "type": "articulo",
+          "id": "art-9",
+          "number": "9",
+          "title": "Article 9. Fases",
+          "content": "Les convocatòries dels Premis Professionals de Música i de Dansa, en les seues diferents especialitats, es desenrotllaran en dos fases: una primera fase de centre i una segona fase d'àmbit autonòmic."
+        },
+        {
+          "type": "seccion",
+          "id": "cap-3-sec-1",
+          "number": "I",
+          "title": "Secció I. Fase de centre",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-10",
+              "number": "10",
+              "title": "Article 10. Condicions d'accés",
+              "content": "1. Podran optar al premi professional en fase de centre l'alumnat que haja cursat i superat el sext curs d'ensenyances professionals de Música o de Dansa en els centres compresos en l'àmbit aplicable d'esta orde.\n\n2. Per a concórrer als Premis Professionals de Música i de Dansa, l'alumnat haurà de complir els següents requisits acadèmics:\n\na) Ensenyances professionals de Música: haver obtingut, en quint i sext curs, una qualificació mínima de 9 punts en l'assignatura instrumental o vocal pròpia de l'especialitat.\n\nb) Ensenyances professionals de Dansa: acreditar una qualificació mínima de 9 punts en les assignatures específiques de quint i sext curs corresponents a l'especialitat del premi al qual s'opte. En les especialitats de Ball Flamenc i Dansa Espanyola, es considerarà complit el requisit quan s'haja obtingut una qualificació mínima de 9 punts en una de les\n\nassignatures específiques de l'especialitat i una qualificació igual o superior a 8 punts en cada una de les altres assignatures específiques. A este efecte, les assignatures específiques per especialitat són:\n– Ball Flamenc: Dansa Espanyola i Ball Flamenc.\n– Dansa Clàssica: Dansa Clàssica.\n– Dansa Contemporània: Tècniques de Dansa Contemporània.\n– Dansa Espanyola: Escola Bolera, Dansa Estilitzada i Flamenc. Així mateix, tant en Música com en Dansa, serà requisit haver obtingut una qualificació mitjana aritmètica igual o superior a 8,75 punts, calculada a partir de les qualificacions finals dels cursos quint i sext de les ensenyances professionals en l'especialitat corresponent. Per a determinar-la es calcularà, en primer lloc, la mitjana aritmètica de les qualificacions de totes les assignatures cursades en cada un dels cursos, incloses les aprovades amb anterioritat en una altra especialitat, i s'aplicarà la qualificació obtinguda en el seu moment. Les assignatures convalidades amb assignatures d'ensenyances de règim general no es computaran. La qualificació mitjana final resultarà de la mitjana aritmètica de les mitjanes dels dos cursos, arredonida a la centèsima més pròxima i, en cas d'equidistància, a la superior.\n\n3. En el cas d'alumnat que haja accedit directament al sext curs de les ensenyances professionals, la qualificació mitjana es calcularà exclusivament a partir de les qualificacions obtingudes en este curs."
+            },
+            {
+              "type": "articulo",
+              "id": "art-11",
+              "number": "11",
+              "title": "Article 11. Proves",
+              "content": "1. El contingut del programa presentat s'ajustarà, com a mínim, als continguts finals corresponents als currículums vigents de cada centre, del sext curs d'ensenyances professionals de Música i de Dansa.\n\n2. En els Premis Professionals de Música, la fase de centre consistirà en una prova d'interpretació en audició pública, en la qual la persona participant haurà de presentar un programa compost per un mínim de tres obres, estudis o moviments pertanyents a diferents estils de l'especialitat corresponent. La duració del programa presentat serà d'almenys trenta minuts. El tribunal establirà un límit màxim de trenta minuts per a la prova i seleccionarà les obres, moviments o fragments que hauran d'interpretar-se, ajustant la duració total a este límit. Les obres que requerisquen acompanyament instrumental hauran d'interpretar-se amb l'acompanyament o la reducció corresponent. El centre posarà a la disposició de l'aspirant l'acompanyament pianístic o clavecinístic en les especialitats per a les quals l'Administració haja assignat este recurs, sempre que el repertori s'haja treballat durant el curs acadèmic. En les especialitats que no compten amb este servici, l'aspirant quedarà exempt de l'obligació d'interpretar amb acompanyament, sense perjuí que puga aportar-lo per mitjans propis.\n\n3. En els Premis Professionals de Dansa, la fase de centre consistirà en una prova d'interpretació en audició pública, en la qual la persona participant haurà de presentar un programa compost per obres, moviments o variacions extretes de repertoris representatius d'autors o autores tant clàssics com contemporanis, així com en la interpretació d'una composició de creació pròpia, corresponent a l'especialitat per la qual es presenta l'alumnat. L'alumnat presentarà un programa amb una duració mínima de vint minuts. El tribunal podrà establir un límit màxim de vint minuts per a l'execució, d'acord amb el seu criteri. Les obres que requerisquen acompanyament hauran d'interpretar-se obligatòriament amb l'acompanyament corresponent, facilitat pel professorat del centre. Així mateix, quan l'obra ho requerisca, s'haurà d'aportar acompanyant per a passos a dos o per a agrupacions."
+            },
+            {
+              "type": "articulo",
+              "id": "art-12",
+              "number": "12",
+              "title": "Article 12. Sol·licitud i documentació",
+              "content": "1. L'alumnat que complisca els requisits establits en l'article anterior i desitge optar als premis professionals haurà d'inscriure's en el conservatori o centre autoritzat a on haja finalitzat les ensenyances professionals, mitjançant la presentació de la sol·licitud disponible en la pàgina web de la Conselleria: https://www.gva.es/va/inicio/procedimientos?id_proc=G14898&id_caso=sollicitud.\n\n2. Juntament amb la sol·licitud, les persones participants hauran d'aportar la documentació requerida, segons corresponga. Així mateix, hauran d'indicar la duració aproximada de cada una de les peces que integren el programa presentat. Per als Premis Professionals de Música, es presentaran les obres que conformen el programa a interpretar, cada una en un arxiu independent en format PDF, correctament identificada i coincident amb la versió que s'executarà. Per a les obres que requerisquen acompanyament, serà obligatori adjuntar la partitura general corresponent.\n\nPer als premis de Dansa, es presentarà el programa que cal interpretar i caldrà especificar totes les dades necessàries per a l'avaluació del tribunal.\n\n3. La inscripció en els premis professionals en la fase de centre requerirà una autorització expressa perquè el centre puga gravar les proves i registrar-les en un suport que permeta una reproducció posterior, destinada exclusivament a l'avaluació per part del tribunal.\n\n4. Correspon a la secretaria dels conservatoris, o a qui exercisca les seues funcions en els centres autoritzats, verificar que les sol·licituds complixen els requisits de qualificació establits.\n\n5. El termini de presentació d'instàncies estarà determinat per la resolució anual de la convocatòria dels Premis Professionals de Música i de Dansa."
+            },
+            {
+              "type": "articulo",
+              "id": "art-13",
+              "number": "13",
+              "title": "Article 13. Tribunal",
+              "content": "1. La direcció dels centres designarà els integrants dels tribunals encarregats d'avaluar estos premis. Estos tribunals actuaran com a òrgans col·legiats i hauran de cenyir-se, en l'exercici de les seues funcions, al que es disposa en la Llei 40/2015, d'1 d'octubre, de règim jurídic del sector públic.\n\n2. Els tribunals estaran constituïts per cinc professors o professores del centre, que pertanyeran, sempre que siga possible, a l'especialitat convocada o al mateix departament.\n\n3. No podrà formar part del tribunal el professorat que haja impartit docència directa a l'alumnat participant durant els dos últims cursos de les ensenyances.\n\n4. La composició del tribunal es farà pública amb una antelació mínima de cinc dies hàbils abans de la realització de les proves, mitjançant publicació en el tauler d'anuncis del centre i en altres mitjans disponibles per a la difusió de la informació, amb la finalitat de garantir a les persones interessades la possibilitat d'exercir el dret de recusació o d'abstenció.\n\n5. Són funcions del tribunal les següents:\n\na) Elaborar els criteris d'avaluació i qualificació que s'aplicaran, garantint la seua adequació a les bases de la convocatòria.\n\nb) Confeccionar i custodiar els instruments d'avaluació que s'utilitzaran per a la qualificació de la prova, en els quals quede constància de la informació que justifique les qualificacions emeses.\n\nc) Comprovar la identitat de cada aspirant.\n\nd) Qualificar les proves i publicar els resultats amb les propostes d'adjudicació de premis, sempre seguint les instruccions en matèria de protecció de dades segons la normativa vigent.\n\ne) Resoldre incidències, reclamacions i recursos que es presenten dins de l'àmbit de les seues competències.\n\nf) Estendre acta.\n\ng) Qualsevol altra funció necessària per al desenrotllament correcte del procés. Els documents generats pel tribunal durant el procés quedaran en la custòdia del centre fins que es resolguen les reclamacions que puguen produir-se."
+            },
+            {
+              "type": "articulo",
+              "id": "art-14",
+              "number": "14",
+              "title": "Article 14. Avaluació",
+              "content": "1. La prova es qualificarà en funció del grau de dificultat tècnica, l'execució i la interpretació, amb una puntuació màxima de 10 punts. La nota s'expressarà amb una precisió màxima de dos decimals, arredonint-se a la centèsima més pròxima i, en cas d'equidistància, a la immediatament superior.\n\n2. Els criteris d'avaluació i qualificació, així com les rúbriques detallades, hauran de fer-se públics amb antelació suficient a la celebració de les proves, exposant-los en el tauler d'anuncis del centre i, si és el cas, a través d'altres mitjans de difusió d'informació disponibles.\n\n3. Una vegada obtinguda la qualificació final de tot l'alumnat participant, l'acta arreplegarà l'ordenació de més a menys puntuació, fent constar la distinció obtinguda, si és el cas."
+            },
+            {
+              "type": "articulo",
+              "id": "art-15",
+              "number": "15",
+              "title": "Article 15. Premis en la fase de centre",
+              "content": "1. Per a poder optar al premi, la qualificació mínima que s'haurà d'aconseguir en la prova serà de 9,5 punts sobre un màxim de 10. Esta qualificació es considerarà requisit indispensable i haurà de reflectir-se en l'acta corresponent d'avaluació.\n\n2. El tribunal podrà concedir un únic premi per especialitat a l'alumna o alumne que haja obtingut la màxima puntuació en la prova, i podrà declarar-lo desert si la qualificació no aconseguix el mínim establit en l'apartat anterior.\n\n3. Així mateix, el tribunal podrà concedir un màxim de dos mencions d'honor per cada especialitat, d'acord amb el seu propi criteri, als participants que destaquen per la seua excel·lència interpretativa i que no hagen aconseguit una qualificació suficient per a l'obtenció del premi, o que l'hagen aconseguit però no hagen quedat en primer lloc.\n\n4. Les decisions del tribunal en el moment d'atorgar el premi i, si és el cas, les mencions honorífiques corresponents a cada especialitat s'indicaran en l'acta corresponent, segons el model que figura en l'Annex II de la present orde."
+            },
+            {
+              "type": "articulo",
+              "id": "art-16",
+              "number": "16",
+              "title": "Article 16. Efectes del premi professional en la fase de centre",
+              "content": "1. L'obtenció del premi en la fase de centre habilitarà l'alumnat per a concórrer a la corresponent fase autonòmica de la mateixa convocatòria.\n\n2. El centre podrà expedir un diploma acreditatiu de la distinció obtinguda."
+            }
+          ]
+        },
+        {
+          "type": "seccion",
+          "id": "cap-3-sec-2",
+          "number": "II",
+          "title": "Secció II. Fase autonòmica",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-17",
+              "number": "17",
+              "title": "Article 17. Condicions d'accés",
+              "content": "1. Podrà accedir a la fase autonòmica dels premis professionals l'alumnat que haja obtingut el corresponent premi en la fase de centre, en qualsevol de les especialitats, dins de la mateixa convocatòria anual, i sempre que el centre estiga comprés en l'àmbit aplicable d'esta orde.\n\n2. La direcció de cada centre comunicarà als premiats de la fase de centre tota la informació relativa a la seua participació en la fase autonòmica."
+            },
+            {
+              "type": "articulo",
+              "id": "art-18",
+              "number": "18",
+              "title": "Article 18. Proves",
+              "content": "1. La prova per als Premis Professionals de Música en la fase autonòmica consistirà en una interpretació en audició pública d'un programa compost per un mínim de tres obres, estudis o moviments pertanyents a diferents estils de l'especialitat corresponent. La duració del programa presentat serà d'almenys trenta minuts. El tribunal establirà un límit màxim de trenta minuts per a la prova i seleccionarà les obres, moviments o fragments que hauran d'interpretar-se, ajustant la duració total a este límit. Les obres que requerisquen acompanyament instrumental hauran d'interpretar-se necessàriament amb l'acompanyament corresponent.\n\n2. La prova per als Premis Professionals de Dansa en la fase autonòmica consistirà en una interpretació en audició pública d'un programa compost per obres, moviments o variacions extrets de repertoris representatius d'autors o autores tant clàssics com contemporanis, així com en la interpretació d'una composició de creació pròpia, corresponent a l'especialitat per la qual es presenta l'alumnat. L'alumnat presentarà un programa amb una duració mínima de vint minuts. El tribunal podrà establir un límit màxim de vint minuts per a l'execució, d'acord amb el seu criteri. Les obres que requerisquen acompanyament hauran d'interpretar-se obligatòriament amb l'acompanyament corresponent. Així mateix, quan l'obra ho requerisca, s'haurà d'aportar acompanyant per a pas a dos o per a agrupacions.\n\n3. La detecció per part del tribunal de l'incompliment dels requisits referits al programa o a l'acompanyament corresponent serà motiu de desqualificació de l'aspirant en el procés."
+            },
+            {
+              "type": "articulo",
+              "id": "art-19",
+              "number": "19",
+              "title": "Article 19. Presentació de sol·licituds",
+              "content": "1. Per a participar en la fase autonòmica, la secretaria del conservatori o del centre autoritzat haurà de presentar la proposta dels participants del seu propi centre, acompanyada de tota la documentació indicada en el present article, a la direcció general competent en matèria d'ensenyances de règim especial.\n\n2. El termini de presentació d'instàncies vindrà determinat per la resolució anual de la convocatòria dels premis de les ensenyances professionals de Música i de Dansa.\n\n3. A les sol·licituds s'adjuntaran:\n\na) Una còpia de l'acta en la qual conste l'obtenció del premi en la fase de centre.\n\nb) Un certificat acadèmic de cada participant del centre, de les ensenyances professionals de Música o de Dansa, en l'especialitat en la qual es presente, que incloga la nota mitjana obtinguda en els dos últims cursos.\n\nc) Consentiment de participació dels aspirants o els seus representants legals en cas de ser menors d'edat, que incloga les dades d'identificació i contacte.\n\n4. En el cas de la modalitat de Música, s'haurà de presentar també el programa que s'interpretarà en format PDF, en el qual cada peça figure en un arxiu independent, degudament identificat i corresponent a la versió que serà interpretada. Per a les obres que requerisquen acompanyament, s'haurà d'adjuntar també la partitura general o completa. Així mateix, s'indicarà la duració aproximada de cada una de les peces que cal interpretar.\n\n5. En el cas de Dansa, s'haurà de presentar el programa que s'interpretarà, amb especificació de totes les dades que siguen d'interés per al tribunal.\n\n6. La inscripció en els premis professionals en la fase autonòmica requerirà una autorització expressa a la conselleria competent en matèria d'educació perquè les proves es puguen gravar i registrar en un suport que permeta una reproducció posterior, destinada exclusivament a l'avaluació per part del tribunal."
+            },
+            {
+              "type": "articulo",
+              "id": "art-20",
+              "number": "20",
+              "title": "Article 20. Tribunal",
+              "content": "1. La direcció general competent en matèria d'ensenyances de règim especial designarà els membres dels tribunals. Estos tribunals actuaran com a òrgans col·legiats i hauran de cenyir-se, en l'exercici de les seues funcions, al que es disposa en la Llei 40/2015, d'1 d'octubre, de règim jurídic del sector públic.\n\n2. El tribunal encarregat de supervisar i avaluar les proves en cada una de les dos ensenyances estarà format per tres membres fixos, i serà presidit per un inspector o inspectora d'educació. També formarà part de cada tribunal un director o directora d'algun dels centres de la xarxa pública, preferentment del centre seu. Actuarà com a secretari o secretària un professor o professora del cos de professors de Música i Arts Escèniques.\n\n3. En funció de les especialitats presentades en cada convocatòria, podrà ampliar-se la composició del tribunal mitjançant la incorporació de professorat de les corresponents especialitats objecte de la prova, que actuarà com a personal col·laborador amb veu i vot. Les col·laboracions es configuraran en cada sessió segons les especialitats que cal avaluar, i podran incorporar-se fins a un màxim de quatre persones col·laboradores. En tot cas, la composició final del tribunal haurà de comptar amb un nombre imparell de membres.\n\n4. No podrà formar part del tribunal el professorat que haja impartit docència directa a l'alumnat aspirant durant els dos últims cursos de les ensenyances.\n\n5. La composició del tribunal es farà pública amb una antelació mínima de cinc dies hàbils respecte a la data de realització de les proves, mitjançant la seua publicació en la pàgina web de la Conselleria, a fi de garantir el que s'establix en els articles 23 i 24 de la Llei 40/2015, d'1 d'octubre, de règim jurídic del sector públic.\n\n6. Són funcions del tribunal les següents:\n\na) Elaborar els criteris d'avaluació i qualificació que s'aplicaran, garantint la seua adequació a les bases de la convocatòria.\n\nb) Confeccionar i custodiar els instruments d'avaluació que s'utilitzaran per a la qualificació de la prova, en els quals quede constància de la informació que justifique les qualificacions emeses.\n\nc) Comprovar la identitat de cada aspirant.\n\nd) Qualificar les proves i publicar els resultats amb les propostes d'adjudicació de premis, sempre seguint les instruccions en matèria de protecció de dades segons la normativa vigent.\n\ne) Resoldre incidències, reclamacions i recursos que es presenten dins de l'àmbit de les seues competències.\n\nf) Estendre acta de cada una de les sessions realitzades.\n\ng) Elevar l'acta dels resultats a la direcció general competent en matèria d'ensenyances de règim especial.\n\nh) Qualsevol altra funció necessària per al desenrotllament correcte del procés. Els documents generats pel tribunal durant el procés quedaran davall de la custòdia del centre seu fins que es resolguen les reclamacions que puguen produir-se."
+            },
+            {
+              "type": "articulo",
+              "id": "art-21",
+              "number": "21",
+              "title": "Article 21. Avaluació",
+              "content": "1. Els criteris d'avaluació de la prova dels Premis Professionals de Música en la seua fase autonòmica hauran de prevore, almenys, el nivell tècnic, l'expressivitat, el caràcter i estil i la dificultat del programa presentat.\n\n2. Els criteris d'avaluació de la prova dels Premis Professionals de Dansa en la seua fase autonòmica hauran de prevore, almenys, la tècnica i domini corporal, l'expressivitat i comunicació escènica, la musicalitat i relació amb la música, la creativitat i interpretació personal, i l'adequació i dificultat de les coreografies presentades.\n\n3. Els criteris d'avaluació i qualificació hauran de fer-se públics, com a mínim, tres dies hàbils abans de la celebració de les proves, mitjançant la seua exposició en el tauler d'anuncis del centre seu, de la pàgina web de la conselleria competent en matèria d'ensenyances de règim especial, i a través d'altres mitjans de difusió d'informació disponibles.\n\n4. La prova es qualificarà amb una puntuació màxima de 10 punts. La nota s'expressarà amb una precisió màxima de dos decimals, arredonint-se a la centèsima més pròxima i, en cas d'equidistància, a la immediatament superior.\n\n5. La puntuació serà el resultat de la mitjana aritmètica de les qualificacions atorgades per cada membre del tribunal sempre que estes no diferisquen entre si en 3 punts o més. Si les qualificacions diferixen entre si en 3 punts o més, es realitzarà la mitjana aritmètica de les qualificacions atorgades pels membres del tribunal, una vegada eliminada la qualificació més alta i la qualificació més baixa.\n\n6. Una vegada avaluats tots els aspirants, el tribunal elaborarà una acta amb les qualificacions finals, en la qual constarà la relació de l'alumnat participant ordenada de més a menys puntuació en cada una de les especialitats i, si és el cas, la distinció atorgada proposada.\n\n7. Finalitzades les proves, les actes de les diferents especialitats seran remeses a la direcció general competent en matèria d'ensenyances de règim especial.\n\n8. En cas d'empat, este es resoldrà aplicant els criteris que s'indiquen a continuació, en l'orde en què s'enumeren, fins que es produïsca el desempat:\n– Millor nota mitjana de totes les assignatures del sext curs de les ensenyances professionals, arredonida a la centèsima. Esta nota es calcularà com la mitjana aritmètica de les assignatures cursades i superades en este curs de les ensenyances professionals de Música o Dansa, incloses les aprovades amb anterioritat en una altra especialitat, amb la qualificació obtinguda en el seu moment. Les assignatures convalidades no seran objecte de còmput.\n– Millor qualificació mitjana obtinguda en l'expedient acadèmic de les ensenyances professionals de Música o Dansa, arredonida a la centèsima.\n– Any de naixement més recent.\n– En cas d'empat en tots els punts anteriors, es resoldrà pel sorteig públic que la conselleria competent en matèria d'educació celebra anualment per a regular els processos d'admissió d'alumnat en centres sostinguts amb fons públics.\n\n9. En les actes d'avaluació constaran els candidats que no compareguen a les proves amb l'expressió «No presentat», o amb l'abreviació «NP», així com els criteris de desempat que s'apliquen en cas d'haver-se produït."
+            },
+            {
+              "type": "articulo",
+              "id": "art-22",
+              "number": "22",
+              "title": "Article 22. Premis Professionals de Música fase autonòmica",
+              "content": "1. El tribunal podrà proposar la concessió d'un únic premi per especialitat a l'alumna o alumne que haja obtingut la màxima puntuació en la prova, sempre que arribe a la qualificació mínima de 9,5 punts sobre un màxim de 10, i es podrà declarar el premi desert en cas contrari.\n\n2. Els resultats de les proves dels premis en la fase autonòmica de Música i de Dansa es publicaran en el tauler d'anuncis del lloc de realització de les proves, així com en la web de la conselleria competent en matèria d'ensenyances de règim especial.\n\n3. D'acord amb la proposta formulada pel tribunal, la direcció general competent en matèria d'ensenyances de règim especial concedirà els premis, que seran publicats en el Diari Oficial de la Generalitat Valenciana."
+            },
+            {
+              "type": "articulo",
+              "id": "art-23",
+              "number": "23",
+              "title": "Article 23. Efectes del premi",
+              "content": "1. L'obtenció del premi professional en la fase autonòmica es consignarà en l'expedient acadèmic de l'alumnat per mitjà d'una diligència específica.\n\n2. L'obtenció del premi en la fase d'autonòmica habilitarà l'alumnat per a ser proposat per la conselleria competent en matèria d'ensenyances de règim especial per a concórrer als premis professionals d'àmbit nacional.\n\n3. La concessió del premi professional en la fase autonòmica, en les ensenyances professionals de Música o Dansa, podrà atorgar a l'alumnat l'exempció del pagament de preus públics per la prestació de servicis acadèmics en les universitats públiques de la Comunitat Valenciana o en les ensenyances artístiques superiors gestionades per l'ISEACV, durant el primer curs i per una única vegada, de conformitat amb la normativa vigent en matèria de regulació dels preus públics de la Generalitat, i esta exempció serà incompatible amb qualsevol altra exempció de taxes obtinguda mitjançant altres premis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-4",
+      "number": "IV",
+      "title": "Capítol IV. Premis Extraordinaris de Música i de Dansa de la Comunitat Valenciana",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-24",
+          "number": "24",
+          "title": "Article 24. Condicions de participació",
+          "content": "Per a optar al Premi Extraordinari de Música o Dansa de la Comunitat Valenciana serà necessari haver obtingut el Premi al Rendiment Acadèmic i el Premi Professional de Música o Dansa en una de les especialitats, en la fase autonòmica."
+        },
+        {
+          "type": "articulo",
+          "id": "art-25",
+          "number": "25",
+          "title": "Article 25. Adjudicació",
+          "content": "La conselleria competent en matèria d'educació atorgarà, entre les persones participants que complisquen els requisits establits en l'article anterior, dos premis extraordinaris en la modalitat de Música i un premi extraordinari en la modalitat de Dansa, als premiats que hagen obtingut la mitjana aritmètica més alta, expressada amb tres xifres decimals, entre la qualificació amb la qual s'haja obtingut el Premi al Rendiment Acadèmic i la qualificació obtinguda en el premi professional autonòmic. Estos premis podran declarar-se deserts o ser ampliats en nombre de manera excepcional, segons determine la direcció general competent en matèria d'ensenyances de règim especial."
+        },
+        {
+          "type": "articulo",
+          "id": "art-26",
+          "number": "26",
+          "title": "Article 26. Efectes de l'obtenció del premi",
+          "content": "La conselleria competent en matèria d'ensenyances de règim especial promourà que l'alumnat premiat durant cada convocatòria puga realitzar la interpretació d'un repertori propi de la seua especialitat en una sala representativa de la Comunitat Valenciana, i sense perjuí d'altres beneficis que es puguen establir per a este alumnat."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposició addicional primera. Reclamacions",
+      "content": "Qualsevol reclamació que es genere en els processos d'avaluació dels premis, tant en la fase en el centre com en la fase autonòmica, es resoldrà d'acord amb l'Orde 32/2011, de 20 de desembre, de la Conselleria d'Educació, Formació i Ocupació, per la qual es regula el dret de l'alumnat a l'objectivitat en l'avaluació i s'establix el procediment de reclamació de qualificacions obtingudes i de les decisions de promoció, de certificació o d'obtenció del títol acadèmic que corresponga."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segona",
+      "title": "Disposició addicional segona. Protecció de dades i drets d'imatge",
+      "content": "1. L'obtenció de les dades personals de l'alumnat, la cessió d'estes d'uns centres a uns altres i la seguretat i la confidencialitat d'estes estaran subjectes al que disposa la legislació vigent en matèria de protecció de dades de caràcter personal i, en tot cas, al que establix la disposició addicional vint-i-tresena de la Llei orgànica 2/2006, de 3 de maig, d'educació.\n\n2. La participació en estos premis, en qualsevol de les modalitats, requerirà que les persones participants atorguen expressament autorització i cessió de drets d'ús d'imatge a l'entitat convocant per a la seua captació, reproducció i difusió en l'acte d'entrega i en els mitjans oficials vinculats a la convocatòria. Esta cessió es realitzarà de conformitat amb el Reglament (UE) 2016/679 (RGPD) i la Llei orgànica 3/2018, de protecció de dades personals i garantia dels drets digitals (LOPDGDD)."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposició addicional tercera. Difusió i supervisió de la norma",
+      "content": "1. La direcció dels centres complirà i farà complir el contingut d'esta orde i difondrà el seu contingut entre els membres de la comunitat educativa.\n\n2. La Inspecció d'Educació vetlarà pel compliment del que establix esta orde."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "quarta",
+      "title": "Disposició addicional quarta. Incidència en les dotacions de gasto",
+      "content": "L'aplicació i desplegament d'esta orde haurà de ser atés amb els mitjans personals i materials de la conselleria competent per raó de la matèria."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-5",
+      "number": "quinta",
+      "title": "Disposició addicional quinta. Habilitació normativa",
+      "content": "S'habilita la persona titular de la direcció general competent en matèria d'ensenyances de règim especial a modificar o actualitzar mitjançant la resolució publicada en el Diari Oficial de la Generalitat Valenciana els annexos aprovats en esta orde si fora necessari adaptar la present norma a les necessitats canviants del sistema educatiu i el seu alumnat."
+    },
+    {
+      "type": "disposicion_transitoria",
+      "id": "dt-unica",
+      "number": "única",
+      "title": "Disposició transitòria única. Exempció del pagament dels preus públics per a les ensenyances de grau",
+      "content": "L'exempció del pagament dels preus públics establida en els articles 7 i 23, podrà ser aplicable a partir de la convocatòria dels premis corresponent al curs 2026-2027, sempre que estiga prevista en la normativa vigent en matèria de regulació dels preus públics de la Generalitat."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposició derogatòria única. Derogació normativa",
+      "content": "1. Queda derogada l'Orde 76/2014, de 16 de setembre, de la Conselleria d'Educació, Cultura, Universitats i Ocupació i Esport, per la qual es regulen en la Comunitat Valenciana els premis professionals per a l'alumnat que ha conclòs les ensenyances professionals de Música o de Dansa. [2014/8491].\n\n2. Queda derogada l'Orde 35/2017, de 10 d'agost, de la Conselleria d'Educació, Investigació, Cultura i Esport, per la qual s'establix el procediment d'inscripció, modificació i baixa de les escoles de música, escoles de dansa i escoles de música i dansa en el Registre de Centres Docents de la Comunitat Valenciana.\n\n3. Així mateix, queden derogades totes les disposicions del mateix rang o inferior que s'oposen al que disposa esta orde."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "number": "primera",
+      "title": "Disposició final primera. Aplicació i desplegament",
+      "content": "D'acord amb la disposició final primera dels decrets 156/2007 i 158/2007, de 21 de setembre, del Consell, que establixen el currículum de les ensenyances professionals de Dansa, i el currículum de les ensenyances professionals de Música, respectivament, s'autoritza la conselleria competent en matèria d'educació a dictar les disposicions necessàries per a l'aplicació i el desplegament d'esta orde."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "number": "segona",
+      "title": "Disposició final segona. Entrada en vigor",
+      "content": "Esta orde entrarà en vigor l'endemà de ser publicada en el Diari Oficial de la Generalitat Valenciana."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-3",
+      "number": "tercera",
+      "title": "Disposició final tercera. Modificació de l'Orde 5/2017, de 6 de febrer, de la Conselleria d'Educació, Investigació, Cultura i Esport, per la qual es regula el programa denominat «Coordinació horària» dirigit a l'alumnat que cursa simultàniament les ensenyances professionals de Música i/o Dansa i l'Educació Secundària.",
+      "content": "1. Es modifica el títol de l'orde, que queda amb la redacció següent:\n\n«Orde 5/2017, de 6 de febrer, de la Conselleria d'Educació, Investigació, Cultura i Esport, per la qual es regula el programa denominat \"Coordinació horària\", dirigit a l'alumnat que cursa simultàniament les ensenyances elementals o professionals de Música i/o Dansa i l'Educació Primària o Secundària.»\n\n2. Es modifica el preàmbul, i s'hi afig com a penúltim paràgraf: «De la mateixa manera, és necessari estendre esta coordinació a les ensenyances elementals de Música i Dansa, així com a l'etapa d'Educació Primària, amb la finalitat de garantir una adequada organització horària que permeta a l'alumnat compaginar les dos modalitats formatives. Esta mesura contribuïx a afavorir la continuïtat educativa, la conciliació dels diferents àmbits d'aprenentatge i el ple desenrotllament de l'alumnat que inicia de manera primerenca la seua formació artística reglada.»\n\n3. Es modifica l'article 1.1 i 1.2, que queda amb la redacció següent:\n\n«1. Esta orde té per objecte regular el procediment per a autoritzar la implantació del programa \"Coordinació horària\", dirigit a l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa, en funció dels respectius horaris degudament aprovats, així com regular les seues condicions de participació.\n\n2. Esta orde serà aplicable en els conservatoris i centres autoritzats d'ensenyances elementals i professionals de Música i de Dansa, i en els centres públics i concertats que impartisquen les ensenyances de règim general, en l'àmbit de gestió de la Comunitat Valenciana.»\n\n4. Es modifica l'article 2.1, 2.3 i 2.4, que queda amb la redacció següent:\n\n«1. La finalitat del programa de \"Coordinació horària\" és compatibilitzar els horaris de l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances reglades de Música i/o Dansa de règim especial, amb la finalitat de facilitar el màxim rendiment acadèmic en les dos ensenyances.\n\n3. La Conselleria competent en matèria d'educació publicarà anualment una convocatòria per a establir el calendari de sol·licitud de participació i serà l'encarregada de valorar i autoritzar els projectes de \"Coordinació horària\" presentats pels centres. Els centres autoritzats que participen en el programa de \"Coordinació horària\" disposaran de la corresponent distinció, la qual serà clarament identificable en la guia de centres publicada en la pàgina web de la conselleria competent en matèria d'educació.\n\n4. Es crearà una comissió coordinadora del programa \"Coordinació horària\" per cada proposta d'acord entre un centre d'ensenyances de règim general i un d'ensenyances de règim especial, que serà l'òrgan responsable del seu desplegament i aplicació en cada centre en el qual s'implante.»\n\n5. Es modifica l'article 3.3, que afig l'apartat e.\n\n«e) Coordinar, a través de les secretaries dels dos centres i, de manera conjunta, les actuacions administratives necessàries per a la verificació de la matrícula i de la superació de les assignatures objecte de convalidació de l'alumnat participant en el programa, amb la finalitat d'agilitzar els tràmits i minimitzar la càrrega burocràtica per a l'alumnat.»\n\n6. Es modifica l'article 4, que queda amb la redacció següent:\n\n«Els horaris de l'alumnat participant seran elaborats per la comissió coordinadora del programa de \"Coordinació horària\", amb la finalitat de facilitar la integració de les ensenyances. En Secundària, s'afavorirà l'agrupació de les matèries susceptibles de convalidació en un bloc horari comú, situat en la franja més adequada, i es possibilitarà, segons les necessitats de l'alumnat, el retard de l'hora d'entrada, l'avançament de l'hora d'eixida o la integració de les ensenyances dins de l'horari lectiu. En Primària, es realitzarà la coordinació fora de l'horari lectiu i dins de la jornada escolar. Tot això permetrà, d'acord amb el que establix la present normativa, el desplaçament de l'alumnat i/o del professorat entre els centres d'ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa.»\n\n7. Es modifica l'article 5. «Presentació de sol·licituds dels centres participants»\n– S'hi afig l'apartat següent:\n\n«3. Els centres autoritzats en el marc del programa de \"Coordinació horària\" renovaran la seua participació de manera automàtica, sempre que continue matriculat alumnat que complisca les condicions i els requisits de participació establits. No obstant això, els centres podran sol·licitar expressament la baixa en el programa dins del termini que determine la conselleria competent en matèria d'educació.»\n– Es modifica l'apartat 2.c 3, que queda redactat de la manera següent:\n\n«3. Previsió d'alumnat participant en el programa \"Coordinació horària\".»\n\n8. Es modifica l'article 6, que queda amb la redacció següent:\n\n«Article 6. Supervisió, seguiment i avaluació del programa \"Coordinació horària\"\n\n1. La supervisió, el seguiment i l'avaluació dels projectes del programa de \"Coordinació horària\" correspondran, de manera conjunta i en l'àmbit de les seues respectives competències, a la conselleria competent en matèria d'educació i a la direcció territorial d'educació corresponent, i es garantirà la seua adequació a la normativa vigent i als objectius del programa.\n\n2. A este efecte, podran dur-se a terme actuacions d'avaluació i seguiment, així com requerir-se els informes, les memòries i la documentació necessaris per a verificar el desenrotllament i els resultats dels projectes. Les comissions de coordinació del programa de \"Coordinació horària\" col·laboraran amb els òrgans competents facilitant la informació que se'l requerisca.»\n\n9. Es modifica l'article 7.2, i s'afig l'apartat 6 a este article:\n\n«2. Les sol·licituds de participació de l'alumnat en el programa es presentaran en la secretaria d'aquells centres d'ensenyança de règim general que hagen sigut prèviament autoritzats per al desenrotllament del present programa, en el període de formalització de matrícula d'este centre.»\n\n«6. Esta sol·licitud es renovarà automàticament cada curs sempre que continuen complint-se els requisits, llevat que voluntàriament se sol·licite la baixa de participació en el programa.»\n\n10. Es modifica l'article 9, s'hi afig el paràgraf següent:\n\n«El control d'assistència del professorat desplaçat serà supervisat per la direcció d'estudis del centre a on s'impartisquen les sessions lectives, i quedarà constància de l'assistència en els registres corresponents.»\n\n11. Es modifica l'article 10, que queda amb la redacció següent:\n\n«1. El programa de \"Coordinació horària\" formarà part de l'oferta educativa dels centres participants, i s'integrarà en el projecte educatiu del centre (PEC). Així mateix, els criteris que caldrà seguir en tots els aspectes relacionats amb el programa s'inclouran en les normes d'organització i funcionament del centre.\n\n2. La planificació i la concreció anual del programa de \"Coordinació horària\" s'incorporarà a la programació general anual (PGA) del centre i podrà integrar-se en el pla de millora, i formarà part de la programació d'accions del curs escolar amb la finalitat d'optimitzar tots els aspectes relacionats amb el programa.\n\n3. La memòria final de curs del centre inclourà un apartat específic sobre el programa de \"Coordinació horària\" que haurà de contindre la valoració de la comissió de coordinació del programa, així com del professorat i alumnat participant.»\n\n12. Es modifica l'apartat 1 de la disposició addicional primera, que queda amb la redacció següent:\n\n«1. Es delega en la direcció general competent en matèria d'ensenyances de règim especial l'autorització dels programes de \"Coordinació horària\" entre els centres d'ensenyances de règim general i els centres d'ensenyances reglades de règim especial de Música o Dansa. Així mateix, se l'autoritza per a dictar les resolucions i instruccions necessàries per al compliment i l'aplicació del contingut d'esta orde.»\n\n13. Es modifica l'apartat 1 de la disposició addicional quarta, que queda amb la redacció següent:\n\n«1. Els equips directius dels centres participants en el programa de \"Coordinació horària\" compliran i faran complir el contingut de la present orde i el difondran entre els membres de la comunitat educativa.»"
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "Llei orgànica 2/2006, de 3 de maig, d'Educació (LOE)",
+        "relationship": "conformidad"
+      },
+      {
+        "title": "Decret 156/2007, de 21 de setembre, del Consell (currículum EEPP de Dansa)",
+        "lawId": "decreto-156-2007",
+        "relationship": "desarrollo"
+      },
+      {
+        "title": "Decret 158/2007, de 21 de setembre, del Consell (currículum EEPP de Música)",
+        "lawId": "decreto-158-2007",
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "orden-ecd-1611-2015",
+        "title": "Orde ECD/1611/2015, de 29 de juliol (premis nacionals al rendiment acadèmic)",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [
+      {
+        "lawId": "orden-5-2017",
+        "title": "Orde 5/2017, de 6 de febrer (programa Coordinació horària)",
+        "type": "modifica",
+        "articles": [
+          "art-1",
+          "art-2",
+          "art-3",
+          "art-4",
+          "art-5",
+          "art-6",
+          "art-7",
+          "art-9",
+          "art-10"
+        ],
+        "date": "2026-04-08",
+        "description": "Modificada per la disposició final tercera: títol, preàmbul, arts 1-7, 9, 10, DA 1a i DA 4a"
+      }
+    ],
+    "posteriorAffectations": [],
+    "derogations": [
+      {
+        "lawId": "orden-76-2014",
+        "title": "Orde 76/2014, de 16 de setembre, per la qual es regulen els premis professionals de Música o de Dansa",
+        "type": "deroga",
+        "description": "Derogada íntegrament per la disposició derogatòria única"
+      },
+      {
+        "lawId": "orden-35-2017",
+        "title": "Orde 35/2017, de 10 d'agost, per la qual s'establix el procediment d'inscripció d'escoles de música i dansa",
+        "type": "deroga",
+        "description": "Derogada íntegrament per la disposició derogatòria única"
+      }
+    ],
+    "concordances": [
+      {
+        "lawId": "orden-32-2011",
+        "title": "Orde 32/2011, de 20 de desembre (reclamació de qualificacions)",
+        "description": "Procediment de reclamació aplicable als premis (DA primera)"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-04-01",
+    "signatories": [
+      {
+        "name": "María del Carmen Ortí Ferre",
+        "role": "Conselleria d'Educació"
+      }
+    ]
+  },
+  "formModels": [
+    {
+      "id": "solicitud-inscripcion",
+      "title": "Sol·licitud d'inscripció en els Premis Professionals (Annex I)",
+      "pdfUrl": "models/orden-4-2026-solicitud-inscripcion.pdf"
+    },
+    {
+      "id": "acta-premio",
+      "title": "Acta Premis Professionals - fase de centre (Annex II)",
+      "pdfUrl": "models/orden-4-2026-acta-premio.pdf"
+    }
+  ]
+}

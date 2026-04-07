@@ -38,9 +38,11 @@ function mdTableToHtml(block: string): string {
   return html;
 }
 
-/** Render inline markdown: **bold** */
+/** Render inline markdown: **bold**, and auto-link URLs */
 function renderInline(text: string): string {
-  return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return text
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/(https?:\/\/[^\s<)]+[^\s<).,;:])/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
 /** Render a content block: table, section heading, image, or paragraph */
@@ -115,7 +117,7 @@ const contentHtml = (node.content ?? node.versions?.[0]?.content ?? '')
         if (block.startsWith('**') && block.endsWith('**') && !block.slice(2,-2).includes('**')) {
           return `<p class="content-heading">${block.slice(2,-2)}</p>`;
         }
-        return `<p>${block.replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`;
+        return `<p>${block.replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(https?:\/\/[^\s<)]+[^\s<).,;:])/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')}</p>`;
       }
 
       const selector = document.querySelector(`.version-selector[data-article-id="${nodeId}"] select`);

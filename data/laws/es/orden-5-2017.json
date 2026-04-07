@@ -1,0 +1,403 @@
+{
+  "id": "orden-5-2017",
+  "slug": "orden-5-2017",
+  "type": "orden",
+  "number": "5/2017",
+  "date": "2017-02-06",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "7981",
+    "date": "2017-02-16",
+    "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2017/1229",
+    "pdfUrl": "https://dogv.gva.es/datos/2017/02/16/pdf/2017_1229.pdf"
+  },
+  "title": "Orden 5/2017, de 6 de febrero, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la que se regula el programa denominado \"Coordinación horaria\" dirigido al alumnado que cursa simultáneamente las enseñanzas elementales o profesionales de Música y/o Danza y la Educación Primaria o Secundaria",
+  "titleShort": "Programa Coordinación horaria",
+  "category": "organizacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente (modificada)",
+    "effectiveDate": "2017-02-17",
+    "lastModifiedDate": "2026-04-08"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "El artículo 47 de la Ley orgánica 2/2006, de 3 de mayo, de educación, establece que «las administraciones educativas facilitarán la posibilidad de cursar simultáneamente las enseñanzas artísticas profesionales y la Educación Secundaria». En concreto, el apartado segundo del mencionado artículo determina que «con el fin de hacer efectivo lo que prevé el apartado anterior, se podrán adoptar las oportunas medidas de organización y de ordenación académica que incluirán, entre otros, las convalidaciones y la creación de centros integrados». Por otro lado, en el apartado tercero del artículo 85 de la mencionada Ley orgánica 2/2006, de 3 de mayo, de educación, se especifica que «aquellos alumnos que cursen simultáneamente enseñanzas regladas de Música o Danza y enseñanzas de Educación Secundaria tendrán prioridad para ser admitidos en los centros que impartan enseñanzas de Educación Secundaria que la Administración educativa determine».\n\nAsimismo, el Decreto 158/2007, de 21 de septiembre, del Consell, por el que se establece el currículo de las enseñanzas profesionales de Música y se regula el acceso a estas enseñanzas, así como el Decreto 156/2007, de 21 de septiembre, del Consell, por el que se establece el currículo de las enseñanzas profesionales de Danza y se regula el acceso a estas enseñanzas, especifican en el artículo 20 y 21, respectivamente, que «la conselleria competente en materia de educación facilitará al alumnado la posibilidad de cursar simultáneamente las enseñanzas profesionales de Música y Danza y la Educación Secundaria Obligatoria y Bachillerato».\n\nDado el creciente número de alumnado que simultanea las enseñanzas de régimen general (Educación Secundaria Obligatoria o Bachillerato) y las enseñanzas profesionales de Música y/o Danza, hecho que exige un esfuerzo añadido y una intensa dedicación, por medio de esta orden, que diseña este programa de coordinación horaria, se concretan los aspectos que regulan la compatibilidad horaria y la simultaneidad entre las enseñanzas de régimen general y las enseñanzas profesionales de Música y/o Danza.\n\nDel mismo modo, es necesario extender esta coordinación a las enseñanzas elementales de Música y Danza, así como a la etapa de Educación Primaria, con el fin de garantizar una adecuada organización horaria que permita al alumnado compaginar ambas modalidades formativas. Esta medida contribuye a favorecer la continuidad educativa, la conciliación de los distintos ámbitos de aprendizaje y el pleno desarrollo del alumnado que inicia de manera temprana su formación artística reglada.\n\nPor todo ello, vista la propuesta de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, de conformidad con esta, teniendo en cuenta que se ha dado trámite de audiencia a los sectores implicados y recogidas las alegaciones, en virtud de las competencias que me atribuye el artículo 28.e de la Ley de la Generalitat 5/1983, de 30 de diciembre, del Consell, conforme con el Consell Jurídic Consultiu,"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "number": "1",
+      "title": "Artículo 1. Objeto y ámbito de aplicación",
+      "content": "1. Esta orden tiene por objeto regular el procedimiento para autorizar la implantación del programa \"Coordinación horaria\" dirigido al alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza, en función de los respectivos horarios debidamente aprobados, así como regular sus condiciones de participación.\n\n2. Esta orden será aplicable en los conservatorios y centros autorizados de enseñanzas elementales y profesionales de Música y de Danza, y en los centros públicos y concertados que impartan las enseñanzas de régimen general, en el ámbito de gestión de la Comunitat Valenciana.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. Esta orden tiene por objeto regular el procedimiento para autorizar la implantación del programa \"Coordinación horaria\" dirigido al alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza, en función de los respectivos horarios debidamente aprobados, así como regular sus condiciones de participación.\n\n2. Esta orden será aplicable en los conservatorios y centros autorizados de enseñanzas elementales y profesionales de Música y de Danza, y en los centros públicos y concertados que impartan las enseñanzas de régimen general, en el ámbito de gestión de la Comunitat Valenciana."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Esta orden tiene por objeto regular el procedimiento para autorizar la implantación del Programa coordinación horaria dirigido al alumnado que cursa simultáneamente las enseñanzas de régimen general (Educación Secundaria Obligatoria o Bachillerato) y las enseñanzas profesionales de Música y/o Danza, en función de los respectivos horarios debidamente aprobados, así como regular sus condiciones de participación.\n\n2. Esta orden será aplicable en los conservatorios y centros autorizados de enseñanzas profesionales de Música y Danza, y en los centros sostenidos con fondos públicos que impartan las enseñanzas de Educación Secundaria y/o Bachillerato, en el ámbito de gestión de la Comunitat Valenciana."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "number": "2",
+      "title": "Artículo 2. Finalidades y características del Programa coordinación horaria",
+      "content": "1. La finalidad del programa de \"Coordinación horaria\" es compatibilizar los horarios del alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas regladas de Música y/o Danza de régimen especial, con el fin de facilitar el máximo rendimiento académico en ambas enseñanzas.\n\n2. Los equipos directivos de los centros participantes, tanto de enseñanzas de régimen general como de régimen especial, deberán coordinarse en el diseño horario para garantizar la optimización del tiempo lectivo en ambas enseñanzas.\n\n3. La Conselleria competente en materia de educación publicará anualmente una convocatoria para establecer el calendario de solicitud de participación y será la encargada de valorar y autorizar los proyectos de coordinación horaria presentados por los centros. Los centros autorizados que participen en el programa de \"Coordinación horaria\" dispondrán de la correspondiente distinción, la cual será claramente identificable en la guía de centros publicada en la página web de la conselleria competente en materia de educación.\n\n4. Se creará una comisión coordinadora del programa \"Coordinación horaria\" por cada propuesta de acuerdo entre un centro de enseñanzas de régimen general y uno de enseñanzas de régimen especial, que será el órgano responsable de su despliegue y aplicación en cada centro en el cual se implante.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. La finalidad del programa de \"Coordinación horaria\" es compatibilizar los horarios del alumnado que cursa simultáneamente las enseñanzas de régimen general y las enseñanzas regladas de Música y/o Danza de régimen especial, con el fin de facilitar el máximo rendimiento académico en ambas enseñanzas.\n\n2. Los equipos directivos de los centros participantes, tanto de enseñanzas de régimen general como de régimen especial, deberán coordinarse en el diseño horario para garantizar la optimización del tiempo lectivo en ambas enseñanzas.\n\n3. La Conselleria competente en materia de educación publicará anualmente una convocatoria para establecer el calendario de solicitud de participación y será la encargada de valorar y autorizar los proyectos de coordinación horaria presentados por los centros. Los centros autorizados que participen en el programa de \"Coordinación horaria\" dispondrán de la correspondiente distinción, la cual será claramente identificable en la guía de centros publicada en la página web de la conselleria competente en materia de educación.\n\n4. Se creará una comisión coordinadora del programa \"Coordinación horaria\" por cada propuesta de acuerdo entre un centro de enseñanzas de régimen general y uno de enseñanzas de régimen especial, que será el órgano responsable de su despliegue y aplicación en cada centro en el cual se implante."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La finalidad del Programa coordinación horaria es compatibilizar el horario del alumnado que simultanea las enseñanzas de régimen general y las enseñanzas regladas de Música y/o Danza de régimen especial, facilitando el máximo rendimiento del alumnado que convalida materias entre ambas enseñanzas.\n\n2. Los equipos directivos de los centros participantes, tanto de enseñanzas de régimen general como de régimen especial, deberán coordinarse en el diseño horario para garantizar la optimización del tiempo lectivo en ambas enseñanzas.\n\n3. Se creará una comisión de valoración que será la encargada de seleccionar, entre los centros sostenidos con fondos públicos de Educación Secundaria Obligatoria y/o Bachillerato que estén interesados en participar en este programa, los centros que finalmente lo llevarán a cabo en colaboración con los conservatorios o centros autorizados de enseñanzas profesionales de Música o Danza respectivos.\n\n4. Asimismo, se creará una comisión coordinadora del Programa coordinación horaria por cada propuesta de acuerdo entre un centro de enseñanzas de régimen general y uno de enseñanzas de régimen especial, que será el órgano responsable de su despliegue y aplicación en cada centro en el cual se implante. Esta comisión de coordinación contará con la supervisión y aprobación de la Inspección de Educación responsable del centro de régimen especial."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "number": "3",
+      "title": "Artículo 3. Comisión coordinadora del Programa coordinación horaria",
+      "content": "1. La comisión coordinadora del Programa coordinación horaria estará constituida por las direcciones de los centros de enseñanzas de régimen general y de enseñanzas profesionales de Música y/o Danza de régimen especial, así como las jefaturas de estudios de cada uno de los centros.\n\n2. La comisión coordinadora del Programa coordinación horaria actuará como órgano colegiado, y la presidirá el/la director/a de mayor edad, y la secretaría estará a cargo del/de la jefe/a de estudios de menor edad de entre los miembros que la forman.\n\n3. Las funciones de la comisión serán:\n\na) Coordinar los horarios de las correspondientes enseñanzas.\n\nb) Acordar las medidas de organización, así como las actuaciones necesarias para el buen funcionamiento del programa.\n\nc) Proponer por escrito la formalización de participación a cada centro implicado en el programa.\n\nd) Proponer a la conselleria competente en materia de educación medidas para el desarrollo y mejora del Programa coordinación horaria.\n\ne) Coordinar, a través de las secretarías de ambos centros y de manera conjunta, las actuaciones administrativas necesarias para la verificación de la matrícula y de la superación de las asignaturas objeto de convalidación del alumnado participante en el programa, con el fin de agilizar los trámites y minimizar la carga burocrática para el alumnado.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. La comisión coordinadora del Programa coordinación horaria estará constituida por las direcciones de los centros de enseñanzas de régimen general y de enseñanzas profesionales de Música y/o Danza de régimen especial, así como las jefaturas de estudios de cada uno de los centros.\n\n2. La comisión coordinadora del Programa coordinación horaria actuará como órgano colegiado, y la presidirá el/la director/a de mayor edad, y la secretaría estará a cargo del/de la jefe/a de estudios de menor edad de entre los miembros que la forman.\n\n3. Las funciones de la comisión serán:\n\na) Coordinar los horarios de las correspondientes enseñanzas.\n\nb) Acordar las medidas de organización, así como las actuaciones necesarias para el buen funcionamiento del programa.\n\nc) Proponer por escrito la formalización de participación a cada centro implicado en el programa.\n\nd) Proponer a la conselleria competente en materia de educación medidas para el desarrollo y mejora del Programa coordinación horaria.\n\ne) Coordinar, a través de las secretarías de ambos centros y de manera conjunta, las actuaciones administrativas necesarias para la verificación de la matrícula y de la superación de las asignaturas objeto de convalidación del alumnado participante en el programa, con el fin de agilizar los trámites y minimizar la carga burocrática para el alumnado."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La comisión coordinadora del Programa coordinación horaria estará constituida por las direcciones de los centros de enseñanzas de régimen general y de enseñanzas profesionales de Música y/o Danza de régimen especial, así como las jefaturas de estudios de cada uno de los centros.\n\n2. La comisión coordinadora del Programa coordinación horaria actuará como órgano colegiado, y la presidirá el/la director/a de mayor edad, y la secretaría estará a cargo del/de la jefe/a de estudios de menor edad de entre los miembros que la forman.\n\n3. Las funciones de la comisión serán:\n\na) Coordinar los horarios de las correspondientes enseñanzas.\n\nb) Acordar las medidas de organización, así como las actuaciones necesarias para el buen funcionamiento del programa.\n\nc) Proponer por escrito la formalización de participación a cada centro implicado en el programa.\n\nd) Proponer a la conselleria competente en materia de educación medidas para el desarrollo y mejora del Programa coordinación horaria."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-4",
+      "number": "4",
+      "title": "Artículo 4. Confección de los horarios del alumnado",
+      "content": "Los horarios del alumnado participante serán elaborados por la comisión coordinadora del programa de \"Coordinación horaria\", con el fin de facilitar la integración de las enseñanzas. En secundaria, se favorecerá la agrupación de aquellas materias susceptibles de convalidación en un bloque horario común, ubicado en la franja más adecuada, posibilitando, según las necesidades del alumnado, el retraso de la hora de entrada, el adelanto de la hora de salida o la integración de las enseñanzas dentro del horario lectivo. En primaria, se realizará la coordinación fuera del horario lectivo y dentro de la jornada escolar. Todo ello permitirá, conforme a lo establecido en la presente normativa, el desplazamiento del alumnado y/o del profesorado entre los centros de enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "Los horarios del alumnado participante serán elaborados por la comisión coordinadora del programa de \"Coordinación horaria\", con el fin de facilitar la integración de las enseñanzas. En secundaria, se favorecerá la agrupación de aquellas materias susceptibles de convalidación en un bloque horario común, ubicado en la franja más adecuada, posibilitando, según las necesidades del alumnado, el retraso de la hora de entrada, el adelanto de la hora de salida o la integración de las enseñanzas dentro del horario lectivo. En primaria, se realizará la coordinación fuera del horario lectivo y dentro de la jornada escolar. Todo ello permitirá, conforme a lo establecido en la presente normativa, el desplazamiento del alumnado y/o del profesorado entre los centros de enseñanzas de régimen general y las enseñanzas elementales y profesionales de Música y/o Danza."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "Los horarios del alumnado participante serán elaborados por la comisión coordinadora del Programa coordinación horaria, favoreciendo la ubicación de las materias que puedan ser objeto de convalidación en un bloque propuesto en la franja horaria más conveniente a la integración, para que sea cubierta por las asignaturas de enseñanzas profesionales de Música y/o Danza, permitiendo al alumnado y/o al profesorado, según se estipula a la presente norma, el desplazamiento entre ambos centros de enseñanzas de régimen general y especial."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-5",
+      "number": "5",
+      "title": "Artículo 5. Presentación de solicitudes de los centros participantes",
+      "content": "1. Cada comisión coordinadora del Programa coordinación horaria remitirá las solicitudes, según el anexo I, firmadas por la dirección de cada uno de los centros que forman parte, al servicio competente en materia de enseñanzas de régimen especial de la conselleria competente en materia de educación.\n\n2. Las solicitudes irán acompañadas de la siguiente documentación:\n\na) Acta de constitución de la comisión coordinadora, así como el acta de aprobación del proyecto firmada por todos los miembros de la comisión mencionada con anterioridad, y el escrito de propuesta de participación en el programa de la misma comisión.\n\nb) Las actas del claustro, para todos los casos, y del consejo escolar de cada centro implicado, en el caso de los centros de titularidad pública, firmadas por parte de quien ocupa la secretaría del centro con el visto bueno de quien ejerza la dirección, en los cuales se apoya y se aprueba la participación en el Programa de coordinación horaria.\n\nc) Proyecto de coordinación horaria diseñado por la comisión coordinadora, donde se detallará:\n\n1. La justificación, los objetivos y criterios de evaluación del proyecto.\n\n2. La distancia existente entre el centro de enseñanzas de régimen general y el centro de enseñanzas de régimen especial.\n\n3. Previsión de alumnado participante en el programa \"Coordinación horaria\".\n\n4. El horario lectivo de los diferentes grupos, así como otros aspectos relacionados con la distribución temporal, resultado de la coordinación horaria, en ambas enseñanzas.\n\n5. La experiencia en coordinación horaria entre ambas enseñanzas.\n\n3. Los centros autorizados en el marco del programa de \"Coordinación horaria\" renovarán su participación de forma automática, siempre que continúe matriculado alumnado que cumpla las condiciones y requisitos de participación establecidos. No obstante, los centros podrán solicitar expresamente su baja en el programa dentro del plazo que determine la conselleria competente en materia de educación.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. Cada comisión coordinadora del Programa coordinación horaria remitirá las solicitudes, según el anexo I, firmadas por la dirección de cada uno de los centros que forman parte, al servicio competente en materia de enseñanzas de régimen especial de la conselleria competente en materia de educación.\n\n2. Las solicitudes irán acompañadas de la siguiente documentación:\n\na) Acta de constitución de la comisión coordinadora, así como el acta de aprobación del proyecto firmada por todos los miembros de la comisión mencionada con anterioridad, y el escrito de propuesta de participación en el programa de la misma comisión.\n\nb) Las actas del claustro, para todos los casos, y del consejo escolar de cada centro implicado, en el caso de los centros de titularidad pública, firmadas por parte de quien ocupa la secretaría del centro con el visto bueno de quien ejerza la dirección, en los cuales se apoya y se aprueba la participación en el Programa de coordinación horaria.\n\nc) Proyecto de coordinación horaria diseñado por la comisión coordinadora, donde se detallará:\n\n1. La justificación, los objetivos y criterios de evaluación del proyecto.\n\n2. La distancia existente entre el centro de enseñanzas de régimen general y el centro de enseñanzas de régimen especial.\n\n3. Previsión de alumnado participante en el programa \"Coordinación horaria\".\n\n4. El horario lectivo de los diferentes grupos, así como otros aspectos relacionados con la distribución temporal, resultado de la coordinación horaria, en ambas enseñanzas.\n\n5. La experiencia en coordinación horaria entre ambas enseñanzas.\n\n3. Los centros autorizados en el marco del programa de \"Coordinación horaria\" renovarán su participación de forma automática, siempre que continúe matriculado alumnado que cumpla las condiciones y requisitos de participación establecidos. No obstante, los centros podrán solicitar expresamente su baja en el programa dentro del plazo que determine la conselleria competente en materia de educación."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Cada comisión coordinadora del Programa coordinación horaria remitirá las solicitudes, según el anexo I, firmadas por la dirección de cada uno de los centros que forman parte, al servicio competente en materia de enseñanzas de régimen especial de la conselleria competente en materia de educación.\n\n2. Las solicitudes irán acompañadas de la siguiente documentación:\n\na) Acta de constitución de la comisión coordinadora, así como el acta de aprobación del proyecto firmada por todos los miembros de la comisión mencionada con anterioridad, y el escrito de propuesta de participación en el programa de la misma comisión.\n\nb) Las actas del claustro, para todos los casos, y del consejo escolar de cada centro implicado, en el caso de los centros de titularidad pública, firmadas por parte de quien ocupa la secretaría del centro con el visto bueno de quien ejerza la dirección, en los cuales se apoya y se aprueba la participación en el Programa de coordinación horaria.\n\nc) Proyecto de coordinación horaria diseñado por la comisión coordinadora, donde se detallará:\n\n1. La justificación, los objetivos y criterios de evaluación del proyecto.\n\n2. La distancia existente entre el centro de enseñanzas de régimen general y el centro de enseñanzas de régimen especial.\n\n3. El número de plazas escolares de cada nivel que, el centro que imparte Educación Secundaria, propone reservar para la admisión del alumnado de nuevo ingreso participando en el Programa coordinación horaria.\n\n4. El horario lectivo de los diferentes grupos, así como otros aspectos relacionados con la distribución temporal, resultado de la coordinación horaria, en ambas enseñanzas.\n\n5. La experiencia en coordinación horaria entre ambas enseñanzas."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-6",
+      "number": "6",
+      "title": "Artículo 6. Supervisión, seguimiento y evaluación del programa de «Coordinación horaria»",
+      "content": "1. La supervisión, el seguimiento y la evaluación de los proyectos del programa de \"Coordinación horaria\" corresponderán, de manera conjunta y en el ámbito de sus respectivas competencias, a la conselleria competente en materia de educación y a la dirección territorial de educación correspondiente, garantizando su adecuación a la normativa vigente y a los objetivos del programa.\n\n2. A tal efecto, podrán llevarse a cabo actuaciones de evaluación y seguimiento, así como requerirse los informes, memorias y documentación necesarios para verificar el desarrollo y los resultados de los proyectos. Las comisiones de coordinación del programa de \"Coordinación horaria\" colaborarán con los órganos competentes facilitando la información que les sea requerida.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. La supervisión, el seguimiento y la evaluación de los proyectos del programa de \"Coordinación horaria\" corresponderán, de manera conjunta y en el ámbito de sus respectivas competencias, a la conselleria competente en materia de educación y a la dirección territorial de educación correspondiente, garantizando su adecuación a la normativa vigente y a los objetivos del programa.\n\n2. A tal efecto, podrán llevarse a cabo actuaciones de evaluación y seguimiento, así como requerirse los informes, memorias y documentación necesarios para verificar el desarrollo y los resultados de los proyectos. Las comisiones de coordinación del programa de \"Coordinación horaria\" colaborarán con los órganos competentes facilitando la información que les sea requerida."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La conselleria competente en materia de educación nombrará la comisión de valoración que será la encargada de seleccionar las solicitudes de los centros interesados en participar, y que estará formada por los siguientes miembros:\n\na) Presidencia: quien ostente el cargo de la dirección general con competencias en enseñanzas de régimen especial o persona en quien delegue.\n\nb) Vocalías:\n– Un/a representante de la dirección general con competencias en planificación educativa.\n– Un/a representante de la dirección general con competencias en centros y personal docente.\n– Un/a representante de la dirección general con competencias en enseñanzas de régimen especial.\n\nc) Un/a representante de la Inspección General de Educación.\n\nd) Secretaría: un/a técnico del servicio con competencias en enseñanzas de régimen especial, con voz y sin derecho a voto.\n\n2. La función de esta comisión de valoración será la de seleccionar y proponer a la dirección general competente, para su autorización, de entre los proyectos presentados por los diferentes centros, los que mejor se adecuen a los objetivos de este programa y a su desarrollo en cuanto a organización y funcionamiento, valorando todos los aspectos significativos (estimación de alumnado beneficiado, distancia entre los centros, total de horas y materias coordinadas, así como otros aspectos que deberán detallarse, si cabe, a la resolución que convoque el presente programa) de los objetivos que se quieren conseguir."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-7",
+      "number": "7",
+      "title": "Artículo 7. Procedimiento para la participación del alumnado en el Programa coordinación horaria",
+      "content": "1. El alumnado que desee participar en el Programa coordinación horaria presentará la solicitud de participación según el anexo II de esta orden en el centro donde esté matriculado.\n\n2. Las solicitudes de participación del alumnado en el programa se presentarán en la secretaría de aquellos centros de enseñanza de régimen general que hayan sido previamente autorizados para el desarrollo del presente programa, en el periodo de formalización de matrícula de dicho centro.\n\n3. Una vez hayan formalizado el proceso de matrícula en las enseñanzas de régimen especial, entregarán el certificado de matrícula de las enseñanzas profesionales de Música y/o Danza en el centro de estudios de enseñanzas de régimen general de Educación Secundaria Obligatoria y/o Bachillerato.\n\n4. Las solicitudes de participación presentadas fuera de este plazo podrán ser atendidas si quedan plazas vacantes en el programa una vez realizada la adjudicación.\n\n5. Una vez finalizada la adscripción del alumnado en el Programa coordinación horaria, y antes del inicio del curso escolar de las enseñanzas de Música y Danza de régimen especial, cada comisión de coordinación remitirá a la correspondiente dirección territorial con competencias en educación la lista definitiva del alumnado que participa.\n\n6. Esta solicitud se renovará automáticamente cada curso siempre que continúen cumpliéndose los requisitos, a no ser que voluntariamente se solicite la baja de participación en el programa.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. El alumnado que desee participar en el Programa coordinación horaria presentará la solicitud de participación según el anexo II de esta orden en el centro donde esté matriculado.\n\n2. Las solicitudes de participación del alumnado en el programa se presentarán en la secretaría de aquellos centros de enseñanza de régimen general que hayan sido previamente autorizados para el desarrollo del presente programa, en el periodo de formalización de matrícula de dicho centro.\n\n3. Una vez hayan formalizado el proceso de matrícula en las enseñanzas de régimen especial, entregarán el certificado de matrícula de las enseñanzas profesionales de Música y/o Danza en el centro de estudios de enseñanzas de régimen general de Educación Secundaria Obligatoria y/o Bachillerato.\n\n4. Las solicitudes de participación presentadas fuera de este plazo podrán ser atendidas si quedan plazas vacantes en el programa una vez realizada la adjudicación.\n\n5. Una vez finalizada la adscripción del alumnado en el Programa coordinación horaria, y antes del inicio del curso escolar de las enseñanzas de Música y Danza de régimen especial, cada comisión de coordinación remitirá a la correspondiente dirección territorial con competencias en educación la lista definitiva del alumnado que participa.\n\n6. Esta solicitud se renovará automáticamente cada curso siempre que continúen cumpliéndose los requisitos, a no ser que voluntariamente se solicite la baja de participación en el programa."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. El alumnado que desee participar en el Programa coordinación horaria presentará la solicitud de participación según el anexo II de esta orden en el centro donde esté matriculado.\n\n2. Las solicitudes de participación del alumnado en el programa, se presentarán en la secretaría de aquellos centros de enseñanza Secundaria que hayan sido previamente autorizados para el desarrollo del presente programa, en el periodo de formalización de matrícula de dicho centro.\n\n3. Una vez hayan formalizado el proceso de matrícula en las enseñanzas de régimen especial, entregarán el certificado de matrícula de las enseñanzas profesionales de Música y/o Danza en el centro de estudios de enseñanzas de régimen general de Educación Secundaria Obligatoria y/o Bachillerato.\n\n4. Las solicitudes de participación presentadas fuera de este plazo podrán ser atendidas si quedan plazas vacantes en el programa una vez realizada la adjudicación.\n\n5. Una vez finalizada la adscripción del alumnado en el Programa coordinación horaria, y antes del inicio del curso escolar de las enseñanzas de Música y Danza de régimen especial, cada comisión de coordinación remitirá a la correspondiente dirección territorial con competencias en educación la lista definitiva del alumnado que participa."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-8",
+      "number": "8",
+      "title": "Artículo 8. Adjudicación de plazas del Programa coordinación horaria",
+      "content": "1. Cada comisión de coordinación del programa atenderá las solicitudes presentadas por el alumnado, publicando en los espacios de información pública de los dos centros el listado provisional del alumnado seleccionado dentro del programa. Después del plazo de reclamaciones, que se hará constar en el listado provisional, se publicará el listado definitivo de aquel alumnado autorizado y que, por tanto, cumpla los requisitos establecidos en la normativa vigente.\n\n2. El centro de estudios de enseñanzas de régimen general de Educación Secundaria Obligatoria y/o Bachillerato sostenido con fondos públicos publicará la relación provisional y definitiva de los solicitantes en el Programa coordinación horaria según se estipule en cada convocatoria de dicho programa.\n\n3. La comisión coordinadora enviará el listado definitivo de alumnado matriculado a la correspondiente dirección territorial competente en materia de educación antes del comienzo del curso académico de las enseñanzas de régimen especial."
+    },
+    {
+      "type": "articulo",
+      "id": "art-9",
+      "number": "9",
+      "title": "Artículo 9. Desplazamiento del profesorado",
+      "content": "Si el profesorado de uno de los centros se desplaza al otro por impartir docencia, dentro de la coordinación horaria objeto de esta norma, esta circunstancia deberá estar reflejada al proyecto y tener el informe favorable de la inspección de educación del centro de origen del docente, y en ningún caso comportará derecho de indemnización económica o reducción del horario lectivo.\n\nAsimismo, este profesorado no formará parte, en ningún caso, del claustro del centro donde se desplaza, ni podrá participar en la vida académica de este último, fuera del que estuviera contemplado en el Proyecto de coordinación horaria.\n\nEl control de asistencia del profesorado desplazado será supervisado por la dirección de estudios del centro donde se impartan las sesiones lectivas, quedando constancia de la asistencia en los registros correspondientes.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "Si el profesorado de uno de los centros se desplaza al otro por impartir docencia, dentro de la coordinación horaria objeto de esta norma, esta circunstancia deberá estar reflejada al proyecto y tener el informe favorable de la inspección de educación del centro de origen del docente, y en ningún caso comportará derecho de indemnización económica o reducción del horario lectivo.\n\nAsimismo, este profesorado no formará parte, en ningún caso, del claustro del centro donde se desplaza, ni podrá participar en la vida académica de este último, fuera del que estuviera contemplado en el Proyecto de coordinación horaria.\n\nEl control de asistencia del profesorado desplazado será supervisado por la dirección de estudios del centro donde se impartan las sesiones lectivas, quedando constancia de la asistencia en los registros correspondientes."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "Si el profesorado de uno de los centros se desplaza al otro por impartir docencia, dentro de la coordinación horaria objeto de esta norma, esta circunstancia deberá estar reflejada al proyecto y tener el informe favorable de la inspección de educación del centro de origen del docente, y en ningún caso comportará derecho de indemnización económica o reducción del horario lectivo.\n\nAsimismo, este profesorado no formará parte, en ningún caso, del claustro del centro donde se desplaza, ni podrá participar en la vida académica de este último, fuera del que estuviera contemplado en el Proyecto de coordinación horaria."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-10",
+      "number": "10",
+      "title": "Artículo 10. Proyecto educativo y memoria final de curso",
+      "content": "1. El programa de \"Coordinación horaria\" formará parte de la oferta educativa de los centros participantes, integrándose en el proyecto educativo del centro (PEC). Asimismo, los criterios a seguir en todos los aspectos relacionados con el programa se incluirán en las normas de organización y funcionamiento del centro.\n\n2. La planificación y concreción anual del programa de \"Coordinación horaria\" se incorporará a la programación general anual (PGA) del centro y podrá integrarse en el plan de mejora, formando parte de la programación de acciones del curso escolar con la finalidad de optimizar todos los aspectos relacionados con el programa.\n\n3. La memoria final de curso del centro incluirá un apartado específico sobre el programa de \"Coordinación horaria\", que deberá contener la valoración de la comisión de coordinación del programa, así como del profesorado y alumnado participante.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. El programa de \"Coordinación horaria\" formará parte de la oferta educativa de los centros participantes, integrándose en el proyecto educativo del centro (PEC). Asimismo, los criterios a seguir en todos los aspectos relacionados con el programa se incluirán en las normas de organización y funcionamiento del centro.\n\n2. La planificación y concreción anual del programa de \"Coordinación horaria\" se incorporará a la programación general anual (PGA) del centro y podrá integrarse en el plan de mejora, formando parte de la programación de acciones del curso escolar con la finalidad de optimizar todos los aspectos relacionados con el programa.\n\n3. La memoria final de curso del centro incluirá un apartado específico sobre el programa de \"Coordinación horaria\", que deberá contener la valoración de la comisión de coordinación del programa, así como del profesorado y alumnado participante."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. El Programa coordinación horaria formará parte de la oferta educativa de cada uno de los centros educativos participantes, por lo que estará incluido en el proyecto educativo de estos. Asimismo, las direcciones de los centros deberán incluir en la memoria final de curso un apartado en que se valore la implantación del programa.\n\n2. Asimismo, las comisiones de coordinación participantes en el mencionado programa deberán realizar una memoria anual del Programa coordinación horaria, y remitirla, durante el mes de julio, a la correspondiente dirección territorial competente en materia de educación. La memoria constará, como mínimo, de las siguientes partes:\n\na) El horario lectivo definitivo aplicado al alumnado participante en el Programa coordinación horaria en ambas enseñanzas.\n\nb) Relación de alumnado participante en el mencionado programa, detallando los datos académicos en ambas enseñanzas.\n\nc) Valoración del programa por parte de la comisión coordinadora, detallando la consecución de los objetivos, contenidos, capacidades y criterios de evaluación del programa.\n\nd) Valoración del programa por parte del profesorado tutor del alumnado participante en ambas enseñanzas.\n\ne) Valoración del programa por parte del alumnado participante."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposición adicional primera. Delegación de competencias",
+      "content": "1. Se delega en la dirección general competente en materia de enseñanzas de régimen especial la autorización de los programas de coordinación horaria entre los centros de enseñanzas de régimen general y los centros de enseñanzas regladas de régimen especial de Música o Danza. Asimismo, se le autoriza para dictar las resoluciones e instrucciones necesarias para el cumplimiento y la aplicación del contenido de esta orden.\n\n2. Los centros participantes en este programa lo podrán incluir como línea de actuación en las convocatorias del plan de actuación para la mejora realizadas desde la conselleria competente en materia de educación.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. Se delega en la dirección general competente en materia de enseñanzas de régimen especial la autorización de los programas de coordinación horaria entre los centros de enseñanzas de régimen general y los centros de enseñanzas regladas de régimen especial de Música o Danza. Asimismo, se le autoriza para dictar las resoluciones e instrucciones necesarias para el cumplimiento y la aplicación del contenido de esta orden.\n\n2. Los centros participantes en este programa lo podrán incluir como línea de actuación en las convocatorias del plan de actuación para la mejora realizadas desde la conselleria competente en materia de educación."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Se delega en la dirección general competente en materia de enseñanzas de régimen especial la autorización de los programas de coordinación horaria entre los centros de enseñanzas de régimen general de Educación Secundaria Obligatoria y/o Bachillerato y los centros de enseñanzas regladas de régimen especial de Música o Danza, con el informe favorable de la Dirección General de Centros y Personal Docente. Asimismo, se le autoriza para dictar las resoluciones e instrucciones necesarias para el cumplimiento y la aplicación del contenido de esta orden.\n\n2. Los centros participantes en este programa lo podrán incluir como línea de actuación en las convocatorias del plan de actuación para la mejora realizadas desde la conselleria competente en materia de educación."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segunda",
+      "title": "Disposición adicional segunda. Incidencia en los procedimientos de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Secundaria Obligatoria y Bachillerato",
+      "content": "El alumnado que curse enseñanzas de Música o Danza de régimen especial en los conservatorios de la Comunitat Valenciana y opte en los centros participantes y autorizados para cada curso académico en el Programa coordinación horaria, podrá tener prioridad en los procesos de admisión del alumnado en los centros docentes sostenidos con fondos públicos de la Comunitat Valenciana que imparten enseñanzas de Educación Secundaria Obligatoria y Bachillerato, según el orden establecido en el artículo 17 del Decreto 40/2016, de 15 de abril, del Consell, por el que se regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposición adicional tercera. Aprobación del reglamento de funcionamiento de la comisión coordinadora",
+      "content": "Hasta el momento de la aprobación del reglamento de funcionamiento específico, este órgano colegiado se regirá según lo dispuesto en la subsección 1a de la sección 3a del capítulo II del título preliminar de la Ley 40/2015, de 1 de octubre, de régimen jurídico del sector público."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "cuarta",
+      "title": "Disposición adicional cuarta. Difusión, aplicación y supervisión de la norma",
+      "content": "1. Los equipos directivos de los centros participantes en el programa de \"Coordinación horaria\" cumplirán y harán cumplir el contenido de la presente orden y lo difundirán entre los miembros de la comunidad educativa.\n\n2. Las direcciones territoriales competentes en materia de educación adoptarán las medidas necesarias para la difusión y aplicación de esta orden.\n\n3. La Inspección de Educación velará por el cumplimiento del que establece esta orden.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orden 4/2026, de 1 de abril (DF tercera)"
+          },
+          "content": "1. Los equipos directivos de los centros participantes en el programa de \"Coordinación horaria\" cumplirán y harán cumplir el contenido de la presente orden y lo difundirán entre los miembros de la comunidad educativa.\n\n2. Las direcciones territoriales competentes en materia de educación adoptarán las medidas necesarias para la difusión y aplicación de esta orden.\n\n3. La Inspección de Educación velará por el cumplimiento del que establece esta orden."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Los equipos directivos de los centros de Educación Secundaria Obligatoria y/o Bachillerato sostenidos con fondos públicos, los conservatorios y la dirección de los centros autorizados de enseñanzas artísticas profesionales de Música o de Danza cumplirán y harán cumplir el contenido de la presente orden y lo difundirán entre los miembros de la comunidad educativa.\n\n2. Las direcciones territoriales competentes en materia de educación adoptarán las medidas necesarias para la difusión y aplicación de esta orden.\n\n3. La Inspección de Educación velará por el cumplimiento del que establece esta orden."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-5",
+      "number": "quinta",
+      "title": "Disposición adicional quinta. Incidencia en las dotaciones de gasto",
+      "content": "La implementación y el posterior despliegue de esta orden no podrá tener ninguna incidencia en la dotación de todos y cada uno de los capítulos de gasto asignados en la conselleria competente en materia de educación, y en todo caso deberá ser atendido con los medios personales y materiales de la conselleria competente por razón de la materia."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposición derogatoria única. Derogación normativa",
+      "content": "Quedan derogadas todas las resoluciones que establecen la prioridad para la admisión del alumnado que compaginen las enseñanzas de régimen general con las enseñanzas regladas de Música o Danza de régimen especial, así como el resto de disposiciones del mismo rango o de un rango inferior que se opongan a lo dispuesto de la presente orden."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-unica",
+      "number": "única",
+      "title": "Disposición final única. Entrada en vigor",
+      "content": "La presente orden entrará en vigor el día siguiente al de su publicación en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "LOE (arts 47, 85)",
+        "relationship": "conformidad"
+      },
+      {
+        "lawId": "decreto-158-2007",
+        "title": "D.158/2007 (art 20)",
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "decreto-156-2007",
+        "title": "D.156/2007 (art 21)",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "orden-4-2026",
+        "title": "Orden 4/2026 (DF Tercera)",
+        "type": "modifica",
+        "articles": [
+          "art-1",
+          "art-2",
+          "art-3",
+          "art-4",
+          "art-5",
+          "art-6",
+          "art-7",
+          "art-9",
+          "art-10",
+          "da-1",
+          "da-4"
+        ],
+        "date": "2026-04-08",
+        "description": "Modifica título, preámbulo, arts 1-7, 9, 10, DA 1ª y DA 4ª"
+      }
+    ],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "Valencia",
+    "date": "2017-02-06",
+    "signatories": [
+      {
+        "name": "Vicent Marzà Ibáñez",
+        "role": "Conselleria de Educación"
+      }
+    ]
+  },
+  "formModels": [
+    {
+      "id": "solicitud-centros",
+      "title": "Solicitud de participación de los centros (Anexo I)",
+      "pdfUrl": "models/orden-5-2017-solicitud-centros.pdf"
+    },
+    {
+      "id": "solicitud-alumnado",
+      "title": "Solicitud de participación del alumnado (Anexo II)",
+      "pdfUrl": "models/orden-5-2017-solicitud-alumnado.pdf"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "id": "orden-5-2017",
+  "slug": "orden-5-2017",
+  "type": "orden",
+  "number": "5/2017",
+  "date": "2017-02-06",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "7981",
+    "date": "2017-02-16",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2017/1229",
+    "pdfUrl": "https://dogv.gva.es/datos/2017/02/16/pdf/2017_1229.pdf"
+  },
+  "title": "Orde 5/2017, de 6 de febrer, de la Conselleria d'Educació, Investigació, Cultura i Esport, per la qual es regula el programa denominat \"Coordinació horària\", dirigit a l'alumnat que cursa simultàniament les ensenyances elementals o professionals de Música i/o Dansa i l'Educació Primària o Secundària",
+  "titleShort": "Programa Coordinació horària",
+  "category": "organizacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent (modificada)",
+    "effectiveDate": "2017-02-17",
+    "lastModifiedDate": "2026-04-08"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "L'article 47 de la Llei orgànica 2/2006, de 3 de maig, d'educació, estableix que «les administracions educatives facilitaran la possibilitat de cursar simultàniament els ensenyaments artístics professionals i l'Educació Secundària». En concret, l'apartat segon del mencionat article determina que «a fi de fer efectiu el que preveu l'apartat anterior, es podran adoptar les mesures oportunes d'organització i d'ordenació acadèmica que inclouran, entre altres, les convalidacions i la creació de centres integrats». D'altra banda, en l'apartat tercer de l'article 85 de l'esmentada Llei orgànica 2/2006, de 3 de maig, d'educació, s'especifica que «aquells alumnes que cursen simultàniament ensenyaments reglats de Música o Dansa i ensenyaments d'Educació Secundària tindran prioritat per a ser admesos en els centres que impartisquen ensenyaments d'Educació Secundària que l'Administració educativa determine».\n\nAixí mateix, el Decret 158/2007, de 21 de setembre, del Consell, pel qual s'estableix el currículum dels ensenyaments professionals de Música i es regula l'accés a aquests ensenyaments, així com el Decret 156/2007, de 21 de setembre, del Consell, pel qual s'estableix el currículum dels ensenyaments professionals de Dansa i es regula l'accés a aquests ensenyaments, especifiquen en l'article 20 i 21, respectivament, que «la conselleria competent en matèria d'educació facilitarà a l'alumnat la possibilitat de cursar simultàniament els ensenyaments professionals de Música i Dansa i l'Educació Secundària Obligatòria i Batxillerat».\n\nAtés el creixent nombre d'alumnat que simultanieja els ensenyaments de règim general (Educació Secundària Obligatòria o Batxillerat) i els ensenyaments professionals de Música i/o Dansa, fet que exigeix un esforç afegit i una intensa dedicació, per mitjà d'aquesta ordre, que dissenya aquest programa de coordinació horària, es concreten els aspectes que regulen la compatibilitat horària i la simultaneïtat entre els ensenyaments de règim general i els ensenyaments professionals de Música i/o Dansa.\n\nDe la mateixa manera, és necessari estendre esta coordinació a les ensenyances elementals de Música i Dansa, així com a l'etapa d'Educació Primària, amb la finalitat de garantir una adequada organització horària que permeta a l'alumnat compaginar les dos modalitats formatives. Esta mesura contribuïx a afavorir la continuïtat educativa, la conciliació dels diferents àmbits d'aprenentatge i el ple desenrotllament de l'alumnat que inicia de manera primerenca la seua formació artística reglada.\n\nPer tot això, vista la proposta de la Direcció General de Formació Professional i Ensenyaments de Règim Especial, de conformitat amb aquesta, tenint en compte que s'ha donat tràmit d'audiència als sectors implicats i recollides les al·legacions, en virtut de les competències que m'atribueix l'article 28.e de la Llei de la Generalitat 5/1983, de 30 de desembre, del Consell, conforme amb el Consell Jurídic Consultiu,"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "number": "1",
+      "title": "Article 1. Objecte i àmbit d'aplicació",
+      "content": "1. Esta orde té per objecte regular el procediment per a autoritzar la implantació del programa \"Coordinació horària\", dirigit a l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa, en funció dels respectius horaris degudament aprovats, així com regular les seues condicions de participació.\n\n2. Esta orde serà aplicable en els conservatoris i centres autoritzats d'ensenyances elementals i professionals de Música i de Dansa, i en els centres públics i concertats que impartisquen les ensenyances de règim general, en l'àmbit de gestió de la Comunitat Valenciana.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. Esta orde té per objecte regular el procediment per a autoritzar la implantació del programa \"Coordinació horària\", dirigit a l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa, en funció dels respectius horaris degudament aprovats, així com regular les seues condicions de participació.\n\n2. Esta orde serà aplicable en els conservatoris i centres autoritzats d'ensenyances elementals i professionals de Música i de Dansa, i en els centres públics i concertats que impartisquen les ensenyances de règim general, en l'àmbit de gestió de la Comunitat Valenciana."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Aquesta ordre té per objecte regular el procediment per a autoritzar la implantació del Programa coordinació horària dirigit a l'alumnat que cursa simultàniament els ensenyaments de règim general (Educació Secundària Obligatòria o Batxillerat) i els ensenyaments professionals de Música i/o Dansa, en funció dels respectius horaris degudament aprovats, així com regular les seues condicions de participació.\n\n2. Aquesta ordre serà aplicable en els conservatoris i centres autoritzats d'ensenyaments professionals de Música i Dansa i en els centres sostinguts amb fons públics que impartisquen els ensenyaments d'Educació Secundària i/o Batxillerat, en l'àmbit de gestió de la Comunitat Valenciana."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "number": "2",
+      "title": "Article 2. Finalitats i característiques del Programa coordinació horària",
+      "content": "1. La finalitat del programa de \"Coordinació horària\" és compatibilitzar els horaris de l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances reglades de Música i/o Dansa de règim especial, amb la finalitat de facilitar el màxim rendiment acadèmic en les dos ensenyances.\n\n2. Els equips directius dels centres participants, tant d'ensenyaments de règim general com de règim especial, hauran de coordinar-se en el disseny horari per a garantir l'optimització del temps lectiu en ambdós ensenyaments.\n\n3. La Conselleria competent en matèria d'educació publicarà anualment una convocatòria per a establir el calendari de sol·licitud de participació i serà l'encarregada de valorar i autoritzar els projectes de \"Coordinació horària\" presentats pels centres. Els centres autoritzats que participen en el programa de \"Coordinació horària\" disposaran de la corresponent distinció, la qual serà clarament identificable en la guia de centres publicada en la pàgina web de la conselleria competent en matèria d'educació.\n\n4. Es crearà una comissió coordinadora del programa \"Coordinació horària\" per cada proposta d'acord entre un centre d'ensenyances de règim general i un d'ensenyances de règim especial, que serà l'òrgan responsable del seu desplegament i aplicació en cada centre en el qual s'implante.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. La finalitat del programa de \"Coordinació horària\" és compatibilitzar els horaris de l'alumnat que cursa simultàniament les ensenyances de règim general i les ensenyances reglades de Música i/o Dansa de règim especial, amb la finalitat de facilitar el màxim rendiment acadèmic en les dos ensenyances.\n\n2. Els equips directius dels centres participants, tant d'ensenyaments de règim general com de règim especial, hauran de coordinar-se en el disseny horari per a garantir l'optimització del temps lectiu en ambdós ensenyaments.\n\n3. La Conselleria competent en matèria d'educació publicarà anualment una convocatòria per a establir el calendari de sol·licitud de participació i serà l'encarregada de valorar i autoritzar els projectes de \"Coordinació horària\" presentats pels centres. Els centres autoritzats que participen en el programa de \"Coordinació horària\" disposaran de la corresponent distinció, la qual serà clarament identificable en la guia de centres publicada en la pàgina web de la conselleria competent en matèria d'educació.\n\n4. Es crearà una comissió coordinadora del programa \"Coordinació horària\" per cada proposta d'acord entre un centre d'ensenyances de règim general i un d'ensenyances de règim especial, que serà l'òrgan responsable del seu desplegament i aplicació en cada centre en el qual s'implante."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La finalitat del programa coordinació horària és compatibilitzar l'horari de l'alumnat que simultanieja els ensenyaments de règim general i els ensenyaments reglats de Música i/o Dansa de règim especial, i facilitar el màxim rendiment de l'alumnat que convalida matèries entre ambdós ensenyaments.\n\n2. Els equips directius dels centres participants, tant d'ensenyaments de règim general com de règim especial, hauran de coordinar-se en el disseny horari per a garantir l'optimització del temps lectiu en ambdós ensenyaments.\n\n3. Es crearà una comissió de valoració que serà l'encarregada de seleccionar, entre els centres sostinguts amb fons públics d'Educació Secundària Obligatòria i/o Batxillerat que estiguen interessats a participar en aquest programa, els centres que finalment el duran a terme en col·laboració amb els conservatoris o centres autoritzats d'ensenyaments professionals de Música o Dansa respectius.\n\n4. Així mateix, es crearà una comissió coordinadora del Programa coordinació horària per cada proposta d'acord entre un centre d'ensenyaments de règim general i un d'ensenyaments de règim especial, que serà l'òrgan responsable del seu desplegament i aplicació en cada centre en el qual s'implante. Aquesta comissió de coordinació comptarà amb la supervisió i aprovació de la Inspecció d'Educació responsable del centre de règim especial."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "number": "3",
+      "title": "Article 3. Comissió coordinadora del Programa coordinació horària",
+      "content": "1. La comissió coordinadora del Programa de coordinació horària estarà constituïda per les direccions dels centres d'ensenyaments de règim general i d'ensenyaments professionals de Música i/o Dansa de règim especial, així com les direccions d'estudis de cadascun dels centres.\n\n2. La comissió coordinadora del Programa coordinació horària actuarà com a òrgan col·legiat, i la presidirà el/la director/a de major edat, i la secretaria estarà a càrrec del/de la cap d'estudis de menor edat d'entre els membres que la formen.\n\n3. Les funcions de la comissió seran:\n\na) Coordinar els horaris dels corresponents ensenyaments.\n\nb) Acordar les mesures d'organització, així com les actuacions necessàries per al bon funcionament del programa.\n\nc) Proposar per escrit la formalització de participació a cada centre implicat en el programa.\n\nd) Proposar a la conselleria competent en matèria d'educació mesures per al desenvolupament i la millora del Programa coordinació horària.\n\ne) Coordinar, a través de les secretaries dels dos centres i, de manera conjunta, les actuacions administratives necessàries per a la verificació de la matrícula i de la superació de les assignatures objecte de convalidació de l'alumnat participant en el programa, amb la finalitat d'agilitzar els tràmits i minimitzar la càrrega burocràtica per a l'alumnat.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. La comissió coordinadora del Programa de coordinació horària estarà constituïda per les direccions dels centres d'ensenyaments de règim general i d'ensenyaments professionals de Música i/o Dansa de règim especial, així com les direccions d'estudis de cadascun dels centres.\n\n2. La comissió coordinadora del Programa coordinació horària actuarà com a òrgan col·legiat, i la presidirà el/la director/a de major edat, i la secretaria estarà a càrrec del/de la cap d'estudis de menor edat d'entre els membres que la formen.\n\n3. Les funcions de la comissió seran:\n\na) Coordinar els horaris dels corresponents ensenyaments.\n\nb) Acordar les mesures d'organització, així com les actuacions necessàries per al bon funcionament del programa.\n\nc) Proposar per escrit la formalització de participació a cada centre implicat en el programa.\n\nd) Proposar a la conselleria competent en matèria d'educació mesures per al desenvolupament i la millora del Programa coordinació horària.\n\ne) Coordinar, a través de les secretaries dels dos centres i, de manera conjunta, les actuacions administratives necessàries per a la verificació de la matrícula i de la superació de les assignatures objecte de convalidació de l'alumnat participant en el programa, amb la finalitat d'agilitzar els tràmits i minimitzar la càrrega burocràtica per a l'alumnat."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La comissió coordinadora del Programa de coordinació horària estarà constituïda per les direccions dels centres d'ensenyaments de règim general i d'ensenyaments professionals de Música i/o Dansa de règim especial, així com les direccions d'estudis de cadascun dels centres.\n\n2. La comissió coordinadora del Programa coordinació horària actuarà com a òrgan col·legiat, i la presidirà el/la director/a de major edat, i la secretaria estarà a càrrec del/de la cap d'estudis de menor edat d'entre els membres que la formen.\n\n3. Les funcions de la comissió seran:\n\na) Coordinar els horaris dels corresponents ensenyaments.\n\nb) Acordar les mesures d'organització, així com les actuacions necessàries per al bon funcionament del programa.\n\nc) Proposar per escrit la formalització de participació a cada centre implicat en el programa.\n\nd) Proposar a la conselleria competent en matèria d'educació mesures per al desenvolupament i la millora del Programa coordinació horària."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-4",
+      "number": "4",
+      "title": "Article 4. Confecció dels horaris de l'alumnat",
+      "content": "Els horaris de l'alumnat participant seran elaborats per la comissió coordinadora del programa de \"Coordinació horària\", amb la finalitat de facilitar la integració de les ensenyances. En Secundària, s'afavorirà l'agrupació de les matèries susceptibles de convalidació en un bloc horari comú, situat en la franja més adequada, i es possibilitarà, segons les necessitats de l'alumnat, el retard de l'hora d'entrada, l'avançament de l'hora d'eixida o la integració de les ensenyances dins de l'horari lectiu. En Primària, es realitzarà la coordinació fora de l'horari lectiu i dins de la jornada escolar. Tot això permetrà, d'acord amb el que establix la present normativa, el desplaçament de l'alumnat i/o del professorat entre els centres d'ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "Els horaris de l'alumnat participant seran elaborats per la comissió coordinadora del programa de \"Coordinació horària\", amb la finalitat de facilitar la integració de les ensenyances. En Secundària, s'afavorirà l'agrupació de les matèries susceptibles de convalidació en un bloc horari comú, situat en la franja més adequada, i es possibilitarà, segons les necessitats de l'alumnat, el retard de l'hora d'entrada, l'avançament de l'hora d'eixida o la integració de les ensenyances dins de l'horari lectiu. En Primària, es realitzarà la coordinació fora de l'horari lectiu i dins de la jornada escolar. Tot això permetrà, d'acord amb el que establix la present normativa, el desplaçament de l'alumnat i/o del professorat entre els centres d'ensenyances de règim general i les ensenyances elementals i professionals de Música i/o Dansa."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "Els horaris de l'alumnat participant seran elaborats per la comissió coordinadora del Programa coordinació horària, i s'afavorirà la ubicació de les matèries que puguen ser objecte de convalidació en un bloc proposat en la franja horària més convenient a la integració, perquè siga coberta per les assignatures d'ensenyaments professionals de Música i/o Dansa, per tal de permetre a l'alumnat i/o al professorat, segons s'estipula en la present norma, el desplaçament entre ambdós centres d'ensenyaments de règim general i especial."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-5",
+      "number": "5",
+      "title": "Article 5. Presentació de sol·licituds dels centres participants",
+      "content": "1. Cada comissió coordinadora del Programa de coordinació horària remetrà les sol·licituds, segons l'annex I, signades per la direcció de cadascun dels centres que en formen part, al servei competent en matèria d'ensenyaments de règim especial de la conselleria competent en matèria d'educació.\n\n2. Les sol·licituds aniran acompanyades de la documentació següent:\n\na) Acta de constitució de la comissió coordinadora, així com l'acta d'aprovació del projecte signada per tots els membres de la comissió mencionada amb anterioritat, i l'escrit de proposta de participació en el programa de la mateixa comissió.\n\nb) Les actes del claustre, per a tots els casos, i del consell escolar de cada centre implicat, en el cas dels centres de titularitat pública, signades per part de qui ocupe la secretaria del centre amb el vistiplau de qui exercisca la direcció, en les quals es basa i s'aprova la participació en el Programa de coordinació horària.\n\nc) Projecte de coordinació horària dissenyat per la comissió coordinadora, on es detallaran:\n\n1. La justificació, els objectius i criteris d'avaluació del projecte.\n\n2. La distància existent entre el centre d'ensenyaments de règim general i el centre d'ensenyaments de règim especial.\n\n3. Previsió d'alumnat participant en el programa \"Coordinació horària\".\n\n4. L'horari lectiu dels diferents grups, així com altres aspectes relacionats amb la distribució temporal, resultat de la coordinació horària, en ambdós ensenyaments.\n\n5. L'experiència en coordinació horària entre ambdós ensenyaments.\n\n3. Els centres autoritzats en el marc del programa de \"Coordinació horària\" renovaran la seua participació de manera automàtica, sempre que continue matriculat alumnat que complisca les condicions i els requisits de participació establits. No obstant això, els centres podran sol·licitar expressament la baixa en el programa dins del termini que determine la conselleria competent en matèria d'educació.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. Cada comissió coordinadora del Programa de coordinació horària remetrà les sol·licituds, segons l'annex I, signades per la direcció de cadascun dels centres que en formen part, al servei competent en matèria d'ensenyaments de règim especial de la conselleria competent en matèria d'educació.\n\n2. Les sol·licituds aniran acompanyades de la documentació següent:\n\na) Acta de constitució de la comissió coordinadora, així com l'acta d'aprovació del projecte signada per tots els membres de la comissió mencionada amb anterioritat, i l'escrit de proposta de participació en el programa de la mateixa comissió.\n\nb) Les actes del claustre, per a tots els casos, i del consell escolar de cada centre implicat, en el cas dels centres de titularitat pública, signades per part de qui ocupe la secretaria del centre amb el vistiplau de qui exercisca la direcció, en les quals es basa i s'aprova la participació en el Programa de coordinació horària.\n\nc) Projecte de coordinació horària dissenyat per la comissió coordinadora, on es detallaran:\n\n1. La justificació, els objectius i criteris d'avaluació del projecte.\n\n2. La distància existent entre el centre d'ensenyaments de règim general i el centre d'ensenyaments de règim especial.\n\n3. Previsió d'alumnat participant en el programa \"Coordinació horària\".\n\n4. L'horari lectiu dels diferents grups, així com altres aspectes relacionats amb la distribució temporal, resultat de la coordinació horària, en ambdós ensenyaments.\n\n5. L'experiència en coordinació horària entre ambdós ensenyaments.\n\n3. Els centres autoritzats en el marc del programa de \"Coordinació horària\" renovaran la seua participació de manera automàtica, sempre que continue matriculat alumnat que complisca les condicions i els requisits de participació establits. No obstant això, els centres podran sol·licitar expressament la baixa en el programa dins del termini que determine la conselleria competent en matèria d'educació."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Cada comissió coordinadora del Programa de coordinació horària remetrà les sol·licituds, segons l'annex I, signades per la direcció de cadascun dels centres que en formen part, al servei competent en matèria d'ensenyaments de règim especial de la conselleria competent en matèria d'educació.\n\n2. Les sol·licituds aniran acompanyades de la documentació següent:\n\na) Acta de constitució de la comissió coordinadora, així com l'acta d'aprovació del projecte signada per tots els membres de la comissió mencionada amb anterioritat, i l'escrit de proposta de participació en el programa de la mateixa comissió.\n\nb) Les actes del claustre, per a tots els casos, i del consell escolar de cada centre implicat, en el cas dels centres de titularitat pública, signades per part de qui ocupe la secretaria del centre amb el vistiplau de qui exercisca la direcció, en les quals es basa i s'aprova la participació en el Programa de coordinació horària.\n\nc) Projecte de coordinació horària dissenyat per la comissió coordinadora, on es detallaran:\n\n1. La justificació, els objectius i criteris d'avaluació del projecte.\n\n2. La distància existent entre el centre d'ensenyaments de règim general i el centre d'ensenyaments de règim especial.\n\n3. El nombre de llocs escolars de cada nivell que el centre que imparteix Educació Secundària proposa reservar per a l'admissió de l'alumnat de nou ingrés participant en el Programa coordinació horària.\n\n4. L'horari lectiu dels diferents grups, així com altres aspectes relacionats amb la distribució temporal, resultat de la coordinació horària, en ambdós ensenyaments.\n\n5. L'experiència en coordinació horària entre ambdós ensenyaments."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-6",
+      "number": "6",
+      "title": "Article 6. Supervisió, seguiment i avaluació del programa «Coordinació horària»",
+      "content": "1. La supervisió, el seguiment i l'avaluació dels projectes del programa de \"Coordinació horària\" correspondran, de manera conjunta i en l'àmbit de les seues respectives competències, a la conselleria competent en matèria d'educació i a la direcció territorial d'educació corresponent, i es garantirà la seua adequació a la normativa vigent i als objectius del programa.\n\n2. A este efecte, podran dur-se a terme actuacions d'avaluació i seguiment, així com requerir-se els informes, les memòries i la documentació necessaris per a verificar el desenrotllament i els resultats dels projectes. Les comissions de coordinació del programa de \"Coordinació horària\" col·laboraran amb els òrgans competents facilitant la informació que se'l requerisca.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. La supervisió, el seguiment i l'avaluació dels projectes del programa de \"Coordinació horària\" correspondran, de manera conjunta i en l'àmbit de les seues respectives competències, a la conselleria competent en matèria d'educació i a la direcció territorial d'educació corresponent, i es garantirà la seua adequació a la normativa vigent i als objectius del programa.\n\n2. A este efecte, podran dur-se a terme actuacions d'avaluació i seguiment, així com requerir-se els informes, les memòries i la documentació necessaris per a verificar el desenrotllament i els resultats dels projectes. Les comissions de coordinació del programa de \"Coordinació horària\" col·laboraran amb els òrgans competents facilitant la informació que se'l requerisca."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. La conselleria competent en matèria d'educació nomenarà la comissió de valoració que serà l'encarregada de seleccionar les sol·licituds dels centres interessats a participar, i que estarà formada pels membres següents:\n\na) Presidència: qui ostente el càrrec de la direcció general amb competències en ensenyaments de règim especial o persona en qui delegue.\n\nb) Vocalies:\n– Un/a representant de la direcció general amb competències en planificació educativa.\n– Un/a representant de la direcció general amb competències en centres i personal docent.\n– Un/a representant de la direcció general amb competències en ensenyaments de règim especial.\n\nc) Un/a representant de la Inspecció General d'Educació.\n\nd) Secretaria: un/a tècnic del servei amb competències en ensenyaments de règim especial, amb veu i sense dret a vot.\n\n2. La funció d'aquesta comissió de valoració serà la de seleccionar i proposar a la direcció general competent, per a la seua autorització, d'entre els projectes presentats pels diferents centres, els que millor s'adeqüen als objectius d'aquest programa i al seu desenvolupament quant a organització i funcionament, i s'hauran de valorar tots els aspectes significatius (estimació d'alumnat beneficiat, distància entre els centres, total d'hores i matèries coordinades, així com altres aspectes que hauran de detallar-se, si escau, a la resolució que convoque el present programa) dels objectius que es volen aconseguir."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-7",
+      "number": "7",
+      "title": "Article 7. Procediment per a la participació de l'alumnat en el Programa coordinació horària",
+      "content": "1. L'alumnat que desitge participar en el Programa coordinació horària presentarà la sol·licitud de participació segons l'annex II d'aquesta ordre en el centre on estiga matriculat.\n\n2. Les sol·licituds de participació de l'alumnat en el programa es presentaran en la secretaria d'aquells centres d'ensenyança de règim general que hagen sigut prèviament autoritzats per al desenrotllament del present programa, en el període de formalització de matrícula d'este centre.\n\n3. Una vegada hagen formalitzat el procés de matrícula en els ensenyaments de règim especial, entregaran el certificat de matrícula dels ensenyaments professionals de Música i/o Dansa en el centre d'estudis d'ensenyaments de règim general d'Educació Secundària Obligatòria i/o Batxillerat.\n\n4. Les sol·licituds de participació presentades fora d'aquest termini podran ser ateses si queden places vacants en el programa, una vegada realitzada l'adjudicació.\n\n5. Una vegada finalitzada l'adscripció de l'alumnat en el Programa coordinació horària, i abans de l'inici del curs escolar dels ensenyaments de Música i Dansa de règim especial, cada comissió de coordinació remetrà a la corresponent direcció territorial amb competències en educació la llista definitiva de l'alumnat que hi participa.\n\n6. Esta sol·licitud es renovarà automàticament cada curs sempre que continuen complint-se els requisits, llevat que voluntàriament se sol·licite la baixa de participació en el programa.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. L'alumnat que desitge participar en el Programa coordinació horària presentarà la sol·licitud de participació segons l'annex II d'aquesta ordre en el centre on estiga matriculat.\n\n2. Les sol·licituds de participació de l'alumnat en el programa es presentaran en la secretaria d'aquells centres d'ensenyança de règim general que hagen sigut prèviament autoritzats per al desenrotllament del present programa, en el període de formalització de matrícula d'este centre.\n\n3. Una vegada hagen formalitzat el procés de matrícula en els ensenyaments de règim especial, entregaran el certificat de matrícula dels ensenyaments professionals de Música i/o Dansa en el centre d'estudis d'ensenyaments de règim general d'Educació Secundària Obligatòria i/o Batxillerat.\n\n4. Les sol·licituds de participació presentades fora d'aquest termini podran ser ateses si queden places vacants en el programa, una vegada realitzada l'adjudicació.\n\n5. Una vegada finalitzada l'adscripció de l'alumnat en el Programa coordinació horària, i abans de l'inici del curs escolar dels ensenyaments de Música i Dansa de règim especial, cada comissió de coordinació remetrà a la corresponent direcció territorial amb competències en educació la llista definitiva de l'alumnat que hi participa.\n\n6. Esta sol·licitud es renovarà automàticament cada curs sempre que continuen complint-se els requisits, llevat que voluntàriament se sol·licite la baixa de participació en el programa."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. L'alumnat que desitge participar en el Programa coordinació horària presentarà la sol·licitud de participació segons l'annex II d'aquesta ordre en el centre on estiga matriculat.\n\n2. Les sol·licituds de participació de l'alumnat en el programa, es presentaran en la secretaria d'aquells centres d'Ensenyament Secundari que hagen sigut prèviament autoritzats per al desenvolupament del present programa, en el període de formalització de matrícula de dit centre.\n\n3. Una vegada hagen formalitzat el procés de matrícula en els ensenyaments de règim especial, entregaran el certificat de matrícula dels ensenyaments professionals de Música i/o Dansa en el centre d'estudis d'ensenyaments de règim general d'Educació Secundària Obligatòria i/o Batxillerat.\n\n4. Les sol·licituds de participació presentades fora d'aquest termini podran ser ateses si queden places vacants en el programa, una vegada realitzada l'adjudicació.\n\n5. Una vegada finalitzada l'adscripció de l'alumnat en el Programa coordinació horària, i abans de l'inici del curs escolar dels ensenyaments de Música i Dansa de règim especial, cada comissió de coordinació remetrà a la corresponent direcció territorial amb competències en educació la llista definitiva de l'alumnat que hi participa."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-8",
+      "number": "8",
+      "title": "Article 8. Adjudicació de places del Programa coordinació horària",
+      "content": "1. Cada comissió de coordinació del programa atendrà les sol·licituds presentades per l'alumnat, i haurà de publicar en els espais d'informació pública d'ambdós centres el llistat provisional d'alumnat seleccionat dins del programa. Després del termini de reclamacions, que es farà constar en el llistat provisional, es publicarà el llistat definitiu d'aquell alumnat autoritzat i que, per tant, complisca els requisits establerts en la normativa vigent.\n\n2. El centre d'estudis d'ensenyaments de règim general d'Educació Secundària Obligatòria i/o Batxillerat sostingut amb fons públics, publicarà la relació provisional i definitiva dels sol·licitants en el Programa coordinació horària, segons s'estipule en cada convocatòria de l'esmentat programa.\n\n3. La comissió coordinadora enviarà el llistat definitiu d'alumnat matriculat a la corresponent direcció territorial competent en matèria d'educació abans de l'inici del curs acadèmic dels ensenyaments de règim especial."
+    },
+    {
+      "type": "articulo",
+      "id": "art-9",
+      "number": "9",
+      "title": "Article 9. Desplaçament del professorat",
+      "content": "Si el professorat d'un dels centres es desplaça a l'altre per impartir docència, dins de la coordinació horària objecte d'aquesta norma, aquesta circumstància haurà d'estar reflectida en el projecte i tindre l'informe favorable de la inspecció d'educació del centre d'origen del docent, i en cap cas no comportarà cap dret d'indemnització econòmica o reducció de l'horari lectiu.\n\nAixí mateix, aquest professorat no formarà part, en cap cas, del claustre del centre on es desplaça, ni podrà participar en la vida acadèmica d'aquest últim, fora del que estiga contemplat en el Projecte de coordinació horària.\n\nEl control d'assistència del professorat desplaçat serà supervisat per la direcció d'estudis del centre a on s'impartisquen les sessions lectives, i quedarà constància de l'assistència en els registres corresponents.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "Si el professorat d'un dels centres es desplaça a l'altre per impartir docència, dins de la coordinació horària objecte d'aquesta norma, aquesta circumstància haurà d'estar reflectida en el projecte i tindre l'informe favorable de la inspecció d'educació del centre d'origen del docent, i en cap cas no comportarà cap dret d'indemnització econòmica o reducció de l'horari lectiu.\n\nAixí mateix, aquest professorat no formarà part, en cap cas, del claustre del centre on es desplaça, ni podrà participar en la vida acadèmica d'aquest últim, fora del que estiga contemplat en el Projecte de coordinació horària.\n\nEl control d'assistència del professorat desplaçat serà supervisat per la direcció d'estudis del centre a on s'impartisquen les sessions lectives, i quedarà constància de l'assistència en els registres corresponents."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "Si el professorat d'un dels centres es desplaça a l'altre per impartir docència, dins de la coordinació horària objecte d'aquesta norma, aquesta circumstància haurà d'estar reflectida en el projecte i tindre l'informe favorable de la inspecció d'educació del centre d'origen del docent, i en cap cas no comportarà cap dret d'indemnització econòmica o reducció de l'horari lectiu.\n\nAixí mateix, aquest professorat no formarà part, en cap cas, del claustre del centre on es desplaça, ni podrà participar en la vida acadèmica d'aquest últim, fora del que estiga contemplat en el Projecte de coordinació horària."
+        }
+      ]
+    },
+    {
+      "type": "articulo",
+      "id": "art-10",
+      "number": "10",
+      "title": "Article 10. Projecte educatiu i memòria final de curs",
+      "content": "1. El programa de \"Coordinació horària\" formarà part de l'oferta educativa dels centres participants, i s'integrarà en el projecte educatiu del centre (PEC). Així mateix, els criteris que caldrà seguir en tots els aspectes relacionats amb el programa s'inclouran en les normes d'organització i funcionament del centre.\n\n2. La planificació i la concreció anual del programa de \"Coordinació horària\" s'incorporarà a la programació general anual (PGA) del centre i podrà integrar-se en el pla de millora, i formarà part de la programació d'accions del curs escolar amb la finalitat d'optimitzar tots els aspectes relacionats amb el programa.\n\n3. La memòria final de curs del centre inclourà un apartat específic sobre el programa de \"Coordinació horària\" que haurà de contindre la valoració de la comissió de coordinació del programa, així com del professorat i alumnat participant.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. El programa de \"Coordinació horària\" formarà part de l'oferta educativa dels centres participants, i s'integrarà en el projecte educatiu del centre (PEC). Així mateix, els criteris que caldrà seguir en tots els aspectes relacionats amb el programa s'inclouran en les normes d'organització i funcionament del centre.\n\n2. La planificació i la concreció anual del programa de \"Coordinació horària\" s'incorporarà a la programació general anual (PGA) del centre i podrà integrar-se en el pla de millora, i formarà part de la programació d'accions del curs escolar amb la finalitat d'optimitzar tots els aspectes relacionats amb el programa.\n\n3. La memòria final de curs del centre inclourà un apartat específic sobre el programa de \"Coordinació horària\" que haurà de contindre la valoració de la comissió de coordinació del programa, així com del professorat i alumnat participant."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. El Programa coordinació horària formarà part de l'oferta educativa de cada un dels centres educatius participants, per la qual cosa estarà inclòs en el projecte educatiu d'aquests. Així mateix, les direccions dels centres hauran d'incloure en la memòria final de curs un apartat en què es valore la implantació del programa.\n\n2. Així mateix, les comissions de coordinació participants en el mencionat programa hauran de realitzar una memòria anual del Programa coordinació horària, i remetre-la, durant el mes de juliol, a la corresponent direcció territorial competent en matèria d'educació. La memòria constarà, com a mínim, de les parts següents:\n\na) L'horari lectiu definitiu aplicat a l'alumnat participant en el Programa coordinació horària en ambdós ensenyaments.\n\nb) Relació d'alumnat participant en el mencionat programa, en què es detallen les dades acadèmiques en ambdós ensenyaments.\n\nc) Valoració del programa per part de la comissió coordinadora, en què es detallen la consecució dels objectius, continguts, capacitats i criteris d'avaluació del programa.\n\nd) Valoració del programa per part del professorat tutor de l'alumnat participant en ambdós ensenyaments.\n\ne) Valoració del programa per part de l'alumnat participant."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposició addicional primera. Delegació de competències",
+      "content": "1. Es delega en la direcció general competent en matèria d'ensenyances de règim especial l'autorització dels programes de \"Coordinació horària\" entre els centres d'ensenyances de règim general i els centres d'ensenyances reglades de règim especial de Música o Dansa. Així mateix, se l'autoritza per a dictar les resolucions i instruccions necessàries per al compliment i l'aplicació del contingut d'esta orde.\n\n2. Els centres participants en aquest programa podran incloure'l com a línia d'actuació en les convocatòries del Pla d'actuació per a la millora realitzades des de la conselleria competent en matèria d'educació.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. Es delega en la direcció general competent en matèria d'ensenyances de règim especial l'autorització dels programes de \"Coordinació horària\" entre els centres d'ensenyances de règim general i els centres d'ensenyances reglades de règim especial de Música o Dansa. Així mateix, se l'autoritza per a dictar les resolucions i instruccions necessàries per al compliment i l'aplicació del contingut d'esta orde.\n\n2. Els centres participants en aquest programa podran incloure'l com a línia d'actuació en les convocatòries del Pla d'actuació per a la millora realitzades des de la conselleria competent en matèria d'educació."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Es delega la direcció general competent en matèria d'ensenyaments de règim especial per a l'autorització dels programes de coordinació horària entre els centres d'ensenyaments de règim general d'Educació Secundària Obligatòria i/o Batxillerat i els centres d'ensenyaments reglats de règim especial de Música o Dansa, amb l'informe favorable de la Direcció General de Centres i Personal Docent. Així mateix, se l'autoritza per a dictar les resolucions i instruccions necessàries per al compliment i l'aplicació del contingut d'aquesta ordre.\n\n2. Els centres participants en aquest programa podran incloure'l com a línia d'actuació en les convocatòries del Pla d'actuació per a la millora realitzades des de la conselleria competent en matèria d'educació."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segunda",
+      "title": "Disposició addicional segona. Incidència en els procediments d'admissió de l'alumnat en els centres docents sostinguts amb fons públics de la Comunitat Valenciana que imparteixen ensenyaments d'Educació Secundària Obligatòria i Batxillerat",
+      "content": "L'alumnat que curse ensenyaments de Música o Dansa de règim especial en els conservatoris de la Comunitat Valenciana i opte als centres participants i autoritzats per a cada curs acadèmic en el Programa coordinació horària, podrà tindre prioritat en els processos d'admissió de l'alumnat en els centres docents sostinguts amb fons públics de la Comunitat Valenciana que imparteixen ensenyaments d'Educació Secundària Obligatòria i Batxillerat, segons l'ordre establit en l'article 17 del Decret 40/2016, de 15 d'abril, del Consell, pel qual es regula l'admissió en els centres docents públics i privats concertats que imparteixen ensenyaments d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria i Batxillerat."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposició addicional tercera. Aprovació del Reglament de funcionament de la comissió coordinadora",
+      "content": "Fins al moment de l'aprovació del reglament de funcionament específic, aquest òrgan col·legiat es regirà segons el que disposa la subsecció 1a de la secció 3a del capítol II del títol preliminar de la Llei 40/2015, d'1 d'octubre, de règim jurídic del sector públic."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "cuarta",
+      "title": "Disposició addicional quarta. Difusió, aplicació i supervisió de la norma",
+      "content": "1. Els equips directius dels centres participants en el programa de \"Coordinació horària\" compliran i faran complir el contingut de la present orde i el difondran entre els membres de la comunitat educativa.\n\n2. Les direccions territorials competents en matèria d'educació adoptaran les mesures necessàries per a la difusió i aplicació d'aquesta ordre.\n\n3. La Inspecció d'Educació vetlarà pel compliment del que estableix aquesta ordre.",
+      "versions": [
+        {
+          "versionId": "v2",
+          "effectiveDate": "2026-04-08",
+          "modifiedBy": {
+            "lawId": "orden-4-2026",
+            "title": "Orde 4/2026, d'1 d'abril (DF tercera)"
+          },
+          "content": "1. Els equips directius dels centres participants en el programa de \"Coordinació horària\" compliran i faran complir el contingut de la present orde i el difondran entre els membres de la comunitat educativa.\n\n2. Les direccions territorials competents en matèria d'educació adoptaran les mesures necessàries per a la difusió i aplicació d'aquesta ordre.\n\n3. La Inspecció d'Educació vetlarà pel compliment del que estableix aquesta ordre."
+        },
+        {
+          "versionId": "v1",
+          "effectiveDate": "2017-02-17",
+          "modifiedBy": null,
+          "content": "1. Els equips directius dels centres d'Educació Secundària Obligatòria i/o Batxillerat sostinguts amb fons públics, els conservatoris i la direcció dels centres autoritzats d'ensenyaments artístics professionals de Música o de Dansa compliran i faran complir el contingut de la present ordre i el difondran entre els membres de la comunitat educativa.\n\n2. Les direccions territorials competents en matèria d'educació adoptaran les mesures necessàries per a la difusió i aplicació d'aquesta ordre.\n\n3. La Inspecció d'Educació vetlarà pel compliment del que estableix aquesta ordre."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-5",
+      "number": "quinta",
+      "title": "Disposició addicional cinquena. Incidència en les dotacions de despesa",
+      "content": "La implementació i el posterior desplegament d'aquesta ordre no podran tindre cap incidència en la dotació de tots i cada un dels capítols de despesa assignats a la conselleria competent en matèria d'educació, i en tot cas haurà de ser atés amb els mitjans personals i materials de la conselleria competent per raó de la matèria."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposició derogatòria única. Derogació normativa",
+      "content": "Queden derogades totes les resolucions que estableixen la prioritat per a l'admissió de l'alumnat que compagine els ensenyaments de règim general amb els ensenyaments reglats de Música o Dansa de règim especial, així com la resta de disposicions del mateix rang o d'un rang inferior que s'oposen al que disposa la present ordre."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-unica",
+      "number": "única",
+      "title": "Disposició final única. Entrada en vigor",
+      "content": "La present ordre entrarà en vigor l'endemà de ser publicada en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "LOE (arts 47, 85)",
+        "relationship": "conformidad"
+      },
+      {
+        "lawId": "decreto-158-2007",
+        "title": "D.158/2007 (art 20)",
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "decreto-156-2007",
+        "title": "D.156/2007 (art 21)",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "orden-4-2026",
+        "title": "Orde 4/2026 (DF Tercera)",
+        "type": "modifica",
+        "articles": [
+          "art-1",
+          "art-2",
+          "art-3",
+          "art-4",
+          "art-5",
+          "art-6",
+          "art-7",
+          "art-9",
+          "art-10",
+          "da-1",
+          "da-4"
+        ],
+        "date": "2026-04-08",
+        "description": "Modifica títol, preàmbul, arts 1-7, 9, 10, DA 1a i DA 4a"
+      }
+    ],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2017-02-06",
+    "signatories": [
+      {
+        "name": "Vicent Marzà Ibáñez",
+        "role": "Conselleria d'Educació"
+      }
+    ]
+  },
+  "formModels": [
+    {
+      "id": "solicitud-centros",
+      "title": "Sol·licitud de participació dels centres (Annex I)",
+      "pdfUrl": "models/orden-5-2017-solicitud-centros.pdf"
+    },
+    {
+      "id": "solicitud-alumnado",
+      "title": "Sol·licitud de participació de l'alumnat (Annex II)",
+      "pdfUrl": "models/orden-5-2017-solicitud-alumnado.pdf"
+    }
+  ]
+}
