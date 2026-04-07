@@ -412,7 +412,8 @@
         "articles": [
           "art-48"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Real Decreto 85/2007, de 26 de enero, por el que se fijan los aspectos básicos del currículo de las enseñanzas profesionales de danza",

@@ -89,7 +89,8 @@
     "enactedPursuantTo": [
       {
         "title": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "lawId": "decreto-158-2007",

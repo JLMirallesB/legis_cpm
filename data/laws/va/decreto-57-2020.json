@@ -620,7 +620,8 @@
           "art-45",
           "art-46"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Estatut d'Autonomia de la Comunitat Valenciana, article 53",

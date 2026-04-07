@@ -662,7 +662,8 @@
         "articles": [
           "art-6"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Real Decreto 1577/2006, de 22 de diciembre, por el que se fijan los aspectos básicos del currículo de las enseñanzas profesionales de música",

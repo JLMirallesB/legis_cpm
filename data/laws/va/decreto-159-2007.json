@@ -536,7 +536,8 @@
         "articles": [
           "art-48"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       }
     ],
     "priorAffectations": [],

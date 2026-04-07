@@ -103,7 +103,8 @@
     "enactedPursuantTo": [
       {
         "title": "Llei Orgànica 2/2006, de 3 de maig, d'Educació (LOE)",
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       }
     ],
     "priorAffectations": [

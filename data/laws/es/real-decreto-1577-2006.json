@@ -1,0 +1,310 @@
+{
+  "id": "real-decreto-1577-2006",
+  "slug": "real-decreto-1577-2006",
+  "type": "real_decreto",
+  "number": "1577/2006",
+  "date": "2006-12-22",
+  "publishedIn": {
+    "source": "BOE",
+    "number": "18",
+    "date": "2007-01-20",
+    "url": "https://www.boe.es/eli/es/rd/2006/12/22/1577",
+    "pdfUrl": "https://www.boe.es/boe/dias/2007/01/20/pdfs/A02853-02900.pdf"
+  },
+  "title": "Real Decreto 1577/2006, de 22 de diciembre, por el que se fijan los aspectos básicos del currículo de las enseñanzas profesionales de música reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+  "titleShort": "RD 1577/2006 - Currículo básico EEPP Música",
+  "category": "curriculo",
+  "vigpiracy": {
+    "status": "vigente_parcial",
+    "statusLabel": "Vigente con modificaciones (RD 628/2022)",
+    "effectiveDate": "2007-01-21",
+    "lastModifiedDate": "2022-07-28"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "currículo de las enseñanzas profesionales de música reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación. Las enseñanzas artísticas reguladas en la Ley Orgánica 2/2006, de 3 de mayo, de Educación, tienen por finalidad proporcionar al alumnado una formación artística de calidad, así como garantizar la cualificación de los futuros profesionales de la música, la danza, el arte dramático, las artes plásticas y el diseño. Son enseñanzas artísticas, entre otras, las enseñanzas profesionales de música y de danza. La Ley establece que estas enseñanzas se organicen, unas y otras, en un grado profesional de seis cursos de duración. Considerando el avance que para las enseñanzas de música supuso la normativa emanada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, este real decreto sigue fundamentándose en el estudio de la especialidad instrumental o vocal, que actúa como eje vertebrador del currículo y, a la vez, pretende avanzar hacia una estructura más abierta y flexible. Se abordan asimismo medidas que permitan la máxima adecuación de los estudios a los intereses del alumnado, se considera la compatibilidad real entre estas enseñanzas y las de educación secundaria y se faculta a las Administraciones educativas para la adopción de diferentes soluciones a este respecto. En lo que se refiere a la apertura de las enseñanzas de música, este real decreto crea una nueva especialidad relacionada con el flamenco y nuevas especialidades relacionadas con las herramientas conceptuales que proponen las nuevas estéticas de las artes escénicas. Todo ello sin perjuicio de que las Administraciones educativas puedan seguir solicitando la ampliación de especialidades instrumentales o vocales por razones derivadas de su raíz tradicional o grado de interés etnográfico y complejidad de su repertorio, o por su valor histórico en la cultura musical europea y grado de implantación en el ámbito territorial correspondiente. Otra novedad de este real decreto es el tratamiento de la práctica musical de conjunto. En efecto, teniendo en cuenta la individualidad que requiere el estudio de un instrumento o del canto, el currículo debe albergar asignaturas que trasciendan este componente unipersonal de la práctica musical y que introduzcan elementos colectivos hasta ahora definidos por la orquesta, por el coro y por la música de cámara. A la adquisición de la técnica del instrumento o del canto y a la formación de los criterios interpretativos propios se unen fórmulas de práctica musical en grupo como verdadera herramienta de relación social y de intercambio de ideas entre los propios instrumentistas y cantantes. En cuanto a los contenidos de las especialidades instrumentales y vocales, se mantiene la necesidad de conjugar comprensión y expresión, conocimiento y realización. Este proceso complejo de educación artística debe tener en cuenta que los contenidos esenciales en la formación de un músico que se expresa a través de un instrumento o del canto están presentes, casi en su totalidad, desde el inicio de los estudios, y que su desarrollo se realiza no tanto por la adquisición de nuevos elementos como por la profundización permanente de los mismos. En esta trayectoria, el grado de dificultad interpretativa vendrá determinado por la naturaleza de las obras que en cada tramo del proceso se seleccionen. En relación con los criterios de evaluación, éstos establecen el tipo y grado de aprendizaje que se espera hayan alcanzado los alumnos en un momento determinado respecto de los objetivos generales de las enseñanzas, las capacidades indicadas en los objetivos específicos de las enseñanzas profesionales de música y los propios de cada especialidad. El nivel de cumplimiento de estos objetivos, en relación con los criterios de evaluación fijados, ha de ser medido teniendo en cuenta el contexto del alumno así como sus propias características y posibilidades. De este modo, la evaluación se constituye en una función formativa y, además, en una fuente de información sobre el mismo proceso de enseñanza convirtiéndose así en un referente fundamental de todo el proceso de enseñanza-aprendizaje. En consonancia estas premisas, se fijan los aspectos básicos del currículo que constituyen las enseñanzas mínimas y los horarios escolares mínimos de las enseñanzas profesionales de música. La función de estas\n\nenseñanzas queda definida y netamente diferenciada de otras vías para acceder al conocimiento de la música trazadas en la nueva ordenación del sistema educativo. En el proceso de elaboración de este real decreto han sido consultadas las Comunidades Autónomas y han emitido informe el Consejo Escolar del Estado y el Ministerio de Administraciones Públicas. En su virtud, a propuesta de la Ministra de Educación y Ciencia, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 22 de diciembre de 2006, D I S P O N G O :"
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-1",
+      "title": "Capítulo I. Finalidad, organización y especialidades",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-1",
+          "number": "1",
+          "title": "Artículo 1. Finalidad y organización.",
+          "content": "1. Las enseñanzas profesionales de música tienen como finalidad proporcionar al alumnado una formación artística de calidad y garantizar la cualificación de los futuros profesionales de la música.\n\n2. La finalidad de las enseñanzas profesionales de música se ordena en tres funciones básicas: formativa, orientadora y preparatoria para estudios posteriores.\n\n3. Las enseñanzas profesionales de música se organizarán en un grado de seis cursos de duración, según lo dispuesto en el artículo 48.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+        },
+        {
+          "type": "articulo",
+          "id": "art-2",
+          "number": "2",
+          "title": "Artículo 2. Objetivos generales de las enseñanzas profesionales de música.",
+          "content": "Las enseñanzas profesionales de música tienen como objetivo contribuir a desarrollar en los alumnos y alumnas las capacidades generales y los valores cívicos propios del sistema educativo y, además, las capacidades siguientes:\n\na) Habituarse a escuchar música y establecer un concepto estético que les permita fundamentar y desarrollar los propios criterios interpretativos.\n\nb) Desarrollar la sensibilidad artística y el criterio estético como fuente de formación y enriquecimiento personal.\n\nc) Analizar y valorar la calidad de la música.\n\nd) Conocer los valores de la música y optar por los aspectos emanados de ella que sean más idóneos para el desarrollo personal.\n\ne) Participar en actividades de animación musical y cultural que permitan vivir la experiencia de trasmitir el goce de la música.\n\nf) Conocer y emplear con precisión el vocabulario específico relativo a los conceptos científicos de la música.\n\ng) Conocer y valorar el patrimonio musical como parte integrante del patrimonio histórico y cultural."
+        },
+        {
+          "type": "articulo",
+          "id": "art-3",
+          "number": "3",
+          "title": "Artículo 3. Objetivos específicos de las enseñanzas profesionales de música.",
+          "content": "Las enseñanzas profesionales de música deberán contribuir a que los alumnos y alumnas adquieran las capacidades siguientes:\n\na) Superar con dominio y capacidad crítica los contenidos y objetivos planteados en las asignaturas que componen el currículo de la especialidad elegida.\n\nb) Conocer los elementos básicos de los lenguajes musicales, sus características, funciones y transformaciones en los distintos contextos históricos.\n\nc) Utilizar el «oído interno» como base de la afinación, de la audición armónica y de la interpretación musical.\n\nd) Formar una imagen ajustada de las posibilidades y características musicales de cada uno, tanto a nivel individual como en relación con el grupo, con la disposición necesaria para saber integrarse como un miembro más del mismo o para actuar como responsable del conjunto.\n\ne) Compartir vivencias musicales de grupo en el aula y fuera de ella que permitan enriquecer la relación afectiva con la música a través del canto y de participación instrumental en grupo.\n\nf) Valorar el cuerpo y la mente para utilizar con seguridad la técnica y poder concentrarse en la audición e interpretación.\n\ng) Interrelacionar y aplicar los conocimientos adquiridos en todas las asignaturas que componen el currículo, en las vivencias y en las experiencia propias para conseguir una interpretación artística de calidad.\n\nh) Conocer y aplicar las técnicas del instrumento o de la voz de acuerdo con las exigencias de las obras.\n\ni) Adquirir y demostrar los reflejos necesarios para resolver eventualidades que surjan en la interpretación.\n\nj) Cultivar la improvisación y la transposición como elementos inherentes a la creatividad musical.\n\nk) Interpretar, individualmente o dentro de la agrupación correspondiente, obras escritas en todos los lenguajes musicales profundizando en el conocimiento de los diferentes estilos y épocas, así como en los recursos interpretativos de cada uno de ellos.\n\nl) Actuar en público con autocontrol, dominio de la memoria y capacidad comunicativa."
+        },
+        {
+          "type": "articulo",
+          "id": "art-4",
+          "number": "4",
+          "title": "Artículo 4. Especialidades de las enseñanzas profesionales de música.",
+          "content": "Son especialidades de las enseñanzas profesionales de música: Acordeón. Arpa. Bajo eléctrico. Cante flamenco. Canto. Clarinete. Clave. Contrabajo. Dulzaina. Fagot. Flabiol i Tamborí. Flauta travesera. Flauta de pico. Gaita. Guitarra. Guitarra eléctrica. Guitarra flamenca. Instrumentos de cuerda pulsada del renacimiento y barroco. Instrumentos de púa. Oboe. Órgano. Percusión. Piano. Saxofón. Tenora. Tible. Trombón. Trompa. Trompeta.\n\nTuba. Txistu. Viola. Viola da gamba. Violín. Violoncello."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-2",
+      "title": "Capítulo II. Currículo",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-5",
+          "number": "5",
+          "title": "Artículo 5. Currículo.",
+          "content": "1. Los objetivos, contenidos y criterios de evaluación que, para las distintas especialidades y asignaturas de las enseñanzas profesionales de música, se incluyen en el anexo I de este real decreto constituyen los aspectos básicos de los currículos respectivos.\n\n2. El horario escolar correspondiente a los contenidos básicos de las enseñanzas mínimas, de conformidad con lo dispuesto en el artículo 6, apartado 3, de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, será el establecido en el anexo II de este real decreto.\n\n3. Las Administraciones educativas establecerán el currículo de las enseñanzas profesionales de música, del que formarán parte en todo caso los aspectos básicos que, para cada especialidad, se establecen en el anexo I de este real decreto.\n\n4. Al establecer el currículo de las enseñanzas profesionales de música, las Administraciones educativas fomentarán la autonomía pedagógica y organizativa de los centros, favorecerán el trabajo en equipo de los profesores y estimularán la actividad investigadora de los mismos a partir de su práctica docente."
+        },
+        {
+          "type": "articulo",
+          "id": "art-6",
+          "number": "6",
+          "title": "Artículo 6. Asignaturas que constituyen el currículo.",
+          "content": "1. Las enseñanzas profesionales de música se organizarán en las asignaturas siguientes:\n\na) Asignaturas comunes a todas las especialidades: Instrumento o voz. Lenguaje musical. Armonía.\n\nb) Asignaturas propias de la especialidad: Música de cámara: En las especialidades de Acordeón, Arpa, Canto, Clarinete, Clave, Contrabajo, Fagot, Flauta de pico, Flauta travesera, Guitarra, Instrumentos de cuerda pulsada de renacimiento y barroco, Instrumentos de púa, Oboe, Órgano, Percusión, Piano, Saxofón, Trombón, Trompa, Trompeta, Tuba, Viola, Viola da gamba, Violín y Violoncello. Orquesta: En las especialidades de Arpa, Clarinete, Contrabajo, Fagot, Flauta travesera, Oboe, Percusión, Saxofón, Trombón, Trompa, Trompeta, Tuba, Viola, Violín y Violoncello. Banda: En las especialidades de Clarinete, Contrabajo, Fagot, Flauta travesera, Oboe, Percusión, Saxofón, Trombón, Trompa, Trompeta, Tuba. Conjunto: En las especialidades de Acordeón, Arpa, Bajo eléctrico, Cante Flamenco, Clave, Dulzaina, Flabiol i Tamborí, Flauta de pico, Gaita, Guitarra, Guitarra eléctrica, Guitarra flamenca, Instrumentos de cuerda pulsada de renacimiento y barroco, Instrumentos de púa, Órgano, Percusión, Piano, Saxofón, Tenora, Tible, Txistu, Viola da gamba. Coro: En las especialidades de Acordeón, Bajo eléctrico, Cante flamenco, Canto, Clave, Dulzaina, Flabiol i Tamborí, Flauta de pico, Gaita, Guitarra, Guitarra eléctrica, Guitarra flamenca, Instrumentos de cuerda pulsada del renacimiento y barroco, Instrumentos de púa, Órgano, Piano, Tenora, Tible, Txistu y Viola da gamba. Idiomas aplicados al canto: En la especialidad de Canto.\n\n2. Las Administraciones educativas determinarán los cursos en los que se deberán incluir las asignaturas establecidas en el apartado anterior. Asimismo, podrán añadir otras asignaturas dentro de las diferentes especialidades que integran las enseñanzas profesionales de música.\n\n3. Asimismo, las Administraciones educativas podrán potenciar en sus currículos distintos perfiles dentro de cada especialidad en los dos últimos cursos de las enseñanzas profesionales de música."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-3",
+      "title": "Capítulo III. Acceso y admisión",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-7",
+          "number": "7",
+          "title": "Artículo 7. Requisitos académicos y prueba de acceso.",
+          "content": "1. Conforme al artículo 49 de la Ley Orgánica 2/2006, de 3 de mayo, para acceder a las enseñanzas profesionales de música será preciso superar una prueba específica de acceso regulada y organizada por las Administraciones educativas. Mediante esta prueba se valorará la madurez, las aptitudes y los conocimientos para cursar con aprovechamiento las enseñanzas profesionales, de acuerdo con los objetivos establecidos en el presente real decreto.\n\n2. Asimismo, podrá accederse a cada curso de las enseñanzas profesionales sin haber cursado los anteriores siempre que, a través de una prueba, el aspirante demuestre poseer los conocimientos necesarios para cursar con aprovechamiento las enseñanzas correspondientes. Dicha prueba será organizada por las Administraciones educativas."
+        },
+        {
+          "type": "articulo",
+          "id": "art-8",
+          "number": "8",
+          "title": "Artículo 8. Calificación de las pruebas de acceso.",
+          "content": "1. Las puntuaciones definitivas obtenidas por los alumnos en las pruebas de acceso se ajustarán a la calificación numérica de 0 a 10 hasta un máximo de un decimal, siendo precisa la calificación de 5 para el aprobado.\n\n2. La superación de la prueba de acceso faculta exclusivamente para matricularse en el curso académico en el que haya sido convocada."
+        },
+        {
+          "type": "articulo",
+          "id": "art-9",
+          "number": "9",
+          "title": "Artículo 9. Admisión de alumnos.",
+          "content": "La admisión de alumnos estará sometida a los principios de igualdad, mérito y capacidad, y supeditada a las calificaciones obtenidas en la prueba de acceso a la que se refiere el artículo 7 de este real decreto."
+        },
+        {
+          "type": "articulo",
+          "id": "art-10",
+          "number": "10",
+          "title": "Artículo 10. Matriculación.",
+          "content": "1. Corresponde a las Administraciones educativas regular los procesos de matriculación del alumnado.\n\n2. En el caso de los alumnos que cursan más de una especialidad únicamente cursarán las asignaturas comunes por una de ellas. Una vez cursadas y superadas en una especialidad, la calificación obtenida es válida para todas las especialidades y de esta manera deberá constar en el libro de calificaciones.\n\n3. Las Administraciones educativas establecerán las condiciones para la matriculación, con carácter excepcional, en más de un curso académico, de acuerdo con lo establecido en el artículo 48.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-4",
+      "title": "Capítulo IV. Evaluación, promoción, permanencia y titulación",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-11",
+          "number": "11",
+          "title": "Artículo 11. Evaluación.",
+          "content": "1. La evaluación de las enseñanzas profesionales de música se llevará a cabo teniendo en cuenta los objetivos educativos y los criterios de evaluación establecidos en el currículo.\n\n2. La evaluación del aprendizaje de los alumnos será continua e integradora, aunque diferenciada según los distintas asignaturas del currículo.\n\n3. La evaluación será realizada por el conjunto de profesores del alumno coordinados por el profesor tutor, actuando dichos profesores de manera integrada a lo largo del proceso de evaluación y en la adopción de las decisiones resultantes de dicho proceso.\n\n4. Los profesores evaluarán tanto el aprendizaje de los alumnos como los procesos de enseñanza.\n\n5. Las Administraciones educativas regularán las condiciones para que los centros organicen las oportunas pruebas extraordinarias con el fin de facilitar a los alumnos la recuperación de las asignaturas con evaluación negativa.\n\n6. Los resultados de la evaluación final de las distintas asignaturas que componen el currículo se expresarán mediante la escala numérica de 1 a 10 sin decimales, considerándose positivas las calificaciones iguales o superiores a cinco y negativas las inferiores a cinco."
+        },
+        {
+          "type": "articulo",
+          "id": "art-12",
+          "number": "12",
+          "title": "Artículo 12. Promoción.",
+          "content": "1. Los alumnos promocionarán de curso cuando hayan superado las asignaturas cursadas o tengan evaluación negativa como máximo en dos asignaturas. En el supuesto de asignaturas pendientes referidas a práctica instrumental o vocal, la recuperación de la asignatura deberá realizarse en la clase del curso siguiente si forma parte del mismo. En el resto de los casos los alumnos deberán asistir a las clases de las asignaturas no superadas en el curso anterior.\n\n2. La calificación negativa en tres o más asignaturas de uno o varios cursos impedirá la promoción de un alumno al curso siguiente.\n\n3. Los alumnos que al término del 6.º curso tuvieran pendientes de evaluación positiva tres asignaturas o más deberán repetir el curso en su totalidad. Cuando la calificación negativa se produzca en una o dos asignaturas, sólo será necesario que realicen las asignaturas pendientes."
+        },
+        {
+          "type": "articulo",
+          "id": "art-13",
+          "number": "13",
+          "title": "Artículo 13. Límites de permanencia.",
+          "content": "1. El límite de permanencia en las enseñanzas profesionales de música será de ocho años. El alumno o la alumna no podrá permanecer más de dos años en el mismo curso, excepto en 6.º curso.\n\n2. Con carácter excepcional y en las condiciones que establezcan las Administraciones educativas, se podrá ampliar en un año el límite de permanencia en supuestos de enfermedad grave u otras circunstancias que merezcan similar consideración."
+        },
+        {
+          "type": "articulo",
+          "id": "art-14",
+          "number": "14",
+          "title": "Artículo 14. Titulación.",
+          "content": "1. Los alumnos y las alumnas que hayan superado las enseñanzas profesionales de música obtendrán el título profesional de música, en el que constará la especialidad cursada.\n\n2. Los alumnos y las alumnas que finalicen las enseñanzas profesionales de música, obtendrán el título de bachiller si superan las materias comunes del bachillerato, aunque no hayan realizado el bachillerato de la modalidad de artes en su vía específica de música y danza."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-5",
+      "title": "Capítulo V. Documentos de evaluación",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-15",
+          "number": "15",
+          "title": "Artículo 15. Documentos de evaluación.",
+          "content": "1. Son documentos de evaluación de las enseñanzas profesionales de música el expediente académico personal, las actas de evaluación, el libro de calificaciones y los informes de evaluación individualizados.\n\n2. De los documentos de evaluación, tendrá la consideración de documento básico el libro de calificaciones.\n\n3. Los documentos de evaluación llevarán las firmas fehacientes de las personas que corresponda en cada caso, con indicación del puesto desempeñado. Debajo de las mismas constará el nombre y los apellidos del firmante."
+        },
+        {
+          "type": "articulo",
+          "id": "art-16",
+          "number": "16",
+          "title": "Artículo 16. Libro de calificaciones.",
+          "content": "1. El libro de calificaciones de las enseñanzas profesionales de música es el documento oficial que refleja los estudios cursados. En él se recogerán las calificaciones obtenidas por el alumno, la información sobre su permanencia en el centro y, en su caso, sobre los traslados de matrícula. Asimismo, constará la solicitud, por parte del alumno, de la expedición del título correspondiente, una vez superadas todas las asignaturas correspondientes a las enseñanzas profesionales de música.\n\n2. El libro de calificaciones se referirá a los estudios cursados dentro de una única especialidad. En el caso de alumnos que cursen más de una especialidad, se cumplimentará un libro de calificaciones por cada especialidad cursada, indicándose en su caso, en la página de «estudios previos de enseñanzas profesionales en otras especialidades», las asignaturas comunes superadas y la calificación obtenida.\n\n3. El libro de calificaciones se ajustará al modelo y características que se determinan en el anexo III de este real decreto y será editado por las Administraciones educativas, que establecerán el procedimiento de solicitud y registro del citado documento.\n\n4. Corresponde a los centros la cumplimentación y custodia de los libros de calificaciones. Una vez superados los estudios, el libro será entregado a los alumnos, lo cual se hará constar en la diligencia correspondiente del libro, de la que se guardará copia con el expediente del alumno.\n\n5. Cuando un alumno o alumna se traslade de centro antes de haber concluido sus estudios de enseñanzas profesionales de música, el centro de origen remitirá al de destino, a petición de éste, el libro de calificaciones del alumno, haciendo constar, en la diligencia correspondiente, que las calificaciones concuerdan con las actas que obran en el centro. Cuando el libro de calificaciones corresponda a alumnos de centros privados, esta diligencia será cumplimentada por el Conservatorio al que estén adscritos según la regulación de las Administraciones educativas.\n\n6. Los alumnos que trasladen su matrícula desde el ámbito de gestión de una Administración educativa al de otra se incorporarán en el curso correspondiente, siempre que existan plazas vacantes.\n\n7. El centro receptor abrirá el correspondiente expediente académico del alumno e incorporará en él los datos del libro de calificaciones."
+        },
+        {
+          "type": "articulo",
+          "id": "art-17",
+          "number": "17",
+          "title": "Artículo 17. Lenguas de los documentos básicos.",
+          "content": "En las Comunidades Autónomas cuyas lenguas tengan estatutariamente atribuido carácter oficial, los documentos básicos de evaluación podrán ser redactados en la correspondiente lengua, debiendo ser expedidos, en todo caso, en forma bilingüe cuando lo pidan los alumnos y debiendo figurar siempre el texto castellano cuando hayan de surtir efectos fuera del ámbito de la Comunidad Autónoma. Si debiera surtir efectos en el territorio de una Comunidad Autónoma donde sea cooficial esa misma lengua distinta del castellano, no será precisa su traducción."
+        },
+        {
+          "type": "articulo",
+          "id": "art-18",
+          "number": "18",
+          "title": "Artículo 18. Procedimiento de cumplimentación y custodia.",
+          "content": "La supervisión del procedimiento de cumplimentación y custodia de los diferentes documentos de evaluación se realizará en la forma que determinen las Administraciones educativas competentes."
+        },
+        {
+          "type": "articulo",
+          "id": "art-19",
+          "number": "19",
+          "title": "Artículo 19. Traslados de expediente.",
+          "content": "Cuando un alumno se traslade a otro centro antes de haber concluido el curso se emitirá un informe de evaluación individualizado, en el que se recogerá, a tales efectos, toda aquella información que resulte necesaria para la continuidad del proceso de aprendizaje. Será elaborado por el tutor del curso que el alumno estuviera realizando en el centro, a partir de los datos facilitados por los profesores de las distintas asignaturas y remitido por el centro de origen al de destino junto con el libro de calificaciones."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-6",
+      "title": "Capítulo VI. Correspondencia entre enseñanzas",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-20",
+          "number": "20",
+          "title": "Artículo 20. Correspondencia entre enseñanzas de música y enseñanzas de educación secundaria.",
+          "content": "1. De acuerdo con el artículo 47.1 de la Ley Orgánica 2/2006, de 3 de mayo, las Administraciones educativas facilitarán al alumnado la posibilidad de cursar simultáneamente las enseñanzas artísticas profesionales y la educación secundaria.\n\n2. Asimismo, de conformidad con el artículo 47.2 de la citada Ley Orgánica 2/2006, de 3 de mayo, con objeto de hacer efectivo lo previsto en el apartado anterior, se podrán adoptar las oportunas medidas de organización y de ordenación académica que incluirán, entre otras, las convalidaciones y la creación de centros integrados.\n\n3. El Ministerio de Educación y Ciencia, consultadas las Comunidades Autónomas, establecerá correspondencias entre materias de educación secundaria obligatoria y de bachillerato y asignaturas de las enseñanzas profesionales de música.\n\n4. Sin perjuicio de lo establecido en el apartado anterior, las Administraciones educativas podrán establecer convalidaciones cuando éstas afecten a las materias optativas de educación secundaria obligatoria y de bachillerato, y regular, en el ámbito de sus competencias, adaptaciones en sus currículos encaminadas a facilitar la simultaneidad de estudios de régimen general y de régimen especial."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "title": "Disposición adicional primera. Creación de nuevas especialidades.",
+      "content": "1. La relación de especialidades instrumentales o vocales que se incluye en el artículo 4 de este real decreto podrá ser ampliada con otras que, por su raíz tradicional o grado de interés etnográfico y complejidad de su repertorio, o por su valor histórico en la cultura musical europea y grado de implantación en el ámbito territorial correspondiente, así como debido a las nuevas demandas de una sociedad plural requieran el tratamiento de especialidad.\n\n2. La creación de nuevas especialidades será adoptada por el Gobierno, bien a instancias de las Comunidades Autónomas o bien por iniciativa propia, oídas éstas. El establecimiento del currículo de las posibles nuevas especialidades se regirá por lo establecido en el artículo 6 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "title": "Disposición adicional segunda. Valoración del título profesional en el acceso a las enseñanzas superiores.",
+      "content": "Para hacer efectivo lo previsto en el artículo 54.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en relación con la prueba de acceso a las enseñanzas superiores, la nota media del expediente de los estudios profesionales constituirá como máximo el 50 % de la nota de la prueba en el caso de los alumnos y las alumnas que opten a ella y estén en posesión del título profesional de música. Corresponde a las Administraciones educativas la concreción de ese tanto por ciento."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "title": "Disposición adicional tercera. Alumnos con discapacidad.",
+      "content": "1. En el marco de las disposiciones establecidas en la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad, los centros escolares de nueva creación deberán cumplir con las disposiciones vigentes en materia de promoción de la accesibilidad. El resto de los centros deberá adecuarse a dicha Ley en los plazos y con los criterios establecidos en la misma.\n\n2. Las Administraciones educativas adoptarán las medidas oportunas para la adaptación del currículo a las necesidades del alumnado con discapacidad."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "title": "Disposición adicional cuarta. Incorporación de alumnos procedentes de planes anteriores con asignaturas pendientes.",
+      "content": "1. Sin perjuicio de las equivalencias establecidas en el Real Decreto 806/2006, de 30 de junio, por el que se establece el calendario de aplicación de la nueva ordenación del sistema educativo, establecida por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, cuando un alumno haya suspendido dos o más asignaturas del curso que esté realizando de las enseñanzas establecidas en la Ley Orgánica 1/1990, de 3 de octubre de Ordenación General del Sistema Educativo, se incorporará al mismo curso de las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, que deberá realizar completo.\n\n2. Asimismo, cuando un alumno tenga calificación negativa en una asignatura del curso que esté realizando de las enseñanzas establecidas en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, se incorporará al curso siguiente de las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación. A tal fin, las Administraciones educativas determinarán las condiciones para la superación de la asignatura pendiente.\n\n3. El alumno presentará el libro de calificaciones y el centro receptor abrirá el correspondiente expediente académico, al que incorporará los datos pertinentes."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "title": "Disposición derogatoria única. Derogación normativa.",
+      "content": "Queda derogado el Real Decreto 756/1992, de 26 de junio, por el que se establecen los aspectos básicos del\n\ncurrículo de los grados elemental y medio de las enseñanzas de música, sin perjuicio de su aplicación transitoria en función del calendario de aplicación de la nueva ordenación del sistema educativo establecido por el Real Decreto 806/2006, de 30 de junio. Asimismo, queda derogada la Orden de 29 de mayo de 1995, por la que se establecen los elementos básicos de los informes de evaluación del grado elemental de danza y de los grados elemental y medio de las enseñanzas de música, reguladas por la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "title": "Disposición final primera. Título competencial.",
+      "content": "Este real decreto tiene carácter básico y se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, de la habilitación que confiere al Gobierno el artículo 6.2. de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y en uso de la competencia estatal para la fijación de las enseñanzas mínimas recogida expresadamente en la disposición adicional primera, 2, c), de la Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "title": "Disposición final segunda. Entrada en vigor.",
+      "content": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado». Dado en Madrid, el 22 de diciembre de 2006. JUAN CARLOS R. La Ministra de Educación y Ciencia, MERCEDES CABRERA CALVO-SOTELO"
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "title": "Anexo I",
+      "content": "ENSEÑANZAS MÍNIMAS CORRESPONDIENTES A LAS ENSEÑANZAS PROFESIONALES DE MÚSICA Armonía Introducción El lenguaje musical occidental incluye una multiplicidad de elementos que, aunque distintos en lo conceptual y, por tanto, divisibles analíticamente, percibimos en forma unitaria en un contexto musical. La Armonía se ocupa por un lado, y dentro de una consideración morfológica, de lo que se produce en un mismo instante temporal; por otro, dentro de lo sintáctico, de su relación con lo que antecede y con lo que le sigue: su función en el contexto de que forma parte. El sistema tonal, que puede ser calificado como una de las mayores y más prolíficas invenciones del género humano, puede llegar a ser, por las consecuencias derivadas de la simplificación que supone, un fuerte condicionamiento para la audición pura de música no compuestas con arreglo a sus postulados y a su mecánica. El conocimiento de sus peculiaridades es, en manos de quien conoce a fondo todas las cuestiones relativas a su formación y disolución, una poderosa herramienta para desarrollar una escucha inteligente y consciente que permita valorar, en su justa medida, tanto la música compuesta según sus principios, como la que no se ajusta a ellos. Corresponde a la enseñanza de la Armonía el suministrar el conocimiento profundo de dicho sistema, así como la mecánica del funcionamiento de los elementos que lo componen. Por ser la Armonía la continuación del Lenguaje Musical, es lógico que sus aspectos teóricos más básicos estén ya incluidos en los estudios de esta materia didáctica. Por otra parte, la práctica de la entonación y el repertorio del instrumento estudiado, así como la asistencia del alumno y de la alumna a las actividades musicales propias de su entorno social, la habrán puesto, sin duda, en contacto con una práctica y un repertorio basados en el predominio casi absoluto de músicas compuestas con arreglo al sistema tonal, prioritario en su educación y en su formación durante esta etapa de los estudios musicales. Partiendo de ese supuesto, la enseñanza de la Armonía habrá de ir paso a paso descubriendo al alumnado lo que ya sabe sin saber que lo sabe; actuará de forma similar al de la Gramática de la propia lengua: no enseñando a hablar sino a comprender cómo se habla. En las enseñanzas profesionales de música la enseñanza de la Armonía estará centrada, básicamente, en el estudio de dicho sistema tonal, pero siempre considerado bajo un doble prisma sincrónico-diacrónico: por un lado, considerando que el sistema tonal posee unas estructuras cerradas en sí mismas, que precisamente son estudiables y analizables por la permanencia que conlleva el que dichas estructuras estén estrechamente conectadas a un estilo perfectamente definido; por otro lado, no se debe perder de vista en el estudio de la Armonía que cada estilo ocupa su lugar en el devenir diacrónico del lenguaje musical de Occidente, y que en sus elementos morfológicos y su sintaxis están presentes elementos y procedimientos de su propio pasado y, en forma latente, las consecuencias de su propia evolución. Por otra parte, el conocimiento detallado y profundo del sistema tonal irá permitiendo, en forma progresiva, ampliar la comprensión de determinadas enseñanzas, como la Historia de la Música, con las que la Armonía habrá de hermanarse, con el fin de buscar la deseable complementariedad en cuanto a la adquisición de conocimientos. Los contenidos de la asignatura responden a una ordenación lógica y progresiva de los elementos y procedimientos puestos en juego en el sistema tonal. En los conceptos correspondientes a cada uno de los elementos estudiados, no sólo deberá prestarse atención al aspecto mecánico de su empleo (criterio sincrónico), sino que será necesaria una valoración diacrónica en la que se den cita consideraciones históricas y estilísticas. Esta valoración se llevará a cabo fundamentalmente por medio del análisis, el cual será materia importantísima a trabajar durante este período de estudios. Con respecto a los procedimientos, debe tenerse en cuenta que el alumno y la alumna aprenden a lo largo de estos estudios lo concerniente a los aspectos morfológico y sintáctico de la Armonía Tonal. Con el fin de facilitar su aprendizaje y evaluar el aprovechamiento por parte del alumnado, se desarrollan una serie de criterios que orientan la disciplina desde un tratamiento esencialmente vertical, casi homofónico, de la realización de la Armonía –con el fin de que los elementos y procedimientos morfológicos y sintácticos que constituyen su doble dimensión sean comprendidos en su formulación más esquemática–, hasta el empleo de técnicas de escritura más relacionadas con la realidad musical. Además, habrá de fomentarse ya desde el comienzo del estudio de esta materia la propia capacidad creativa de los alumnos y de las alumnas, y no sólo en lo concerniente a la composición íntegra de ejercicios dentro de los supuestos estilísticos estudiados, sino incluso en lo referente a pequeñas piez\n\n[Contenido extenso del anexo - ver PDF original]"
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-2",
+      "title": "Anexo II",
+      "content": "HORARIO ESCOLAR MÍNIMO POR ESPECIALIDADES DE LAS ENSEÑANZAS PROFESIONALES DE MÚSICA\n\n1. Acordeón Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Música de cámara/Coro/Conjunto1 . . . . . . 6 300 1 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 300 horas en el conjunto de las agrupaciones especificadas. Las asignaturas de Música de Cámara y de Coro se cursarán cada una de ellas un mínimo de dos cursos académicos.\n\n2. Arpa Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Música de cámara/Orquesta/Conjunto2 . . . 6 340 2 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 340 horas en el conjunto de las agrupaciones especificadas. La asignatura de Música de Cámara se cursará un mínimo de dos cursos académicos.\n\n3. Bajo eléctrico Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Coro/Conjunto3 . . . . . . . . . . . . . . . . . . . . . . 6 300 3 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 300 horas en el conjunto de las agrupaciones especificadas. La asignatura de Coro se cursará un mínimo de dos cursos académicos.\n\n4. Cante flamenco Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Coro/Conjunto4 . . . . . . . . . . . . . . . . . . . . . . 6 300 4 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 300 horas en el conjunto de las agrupaciones especificadas. La asignatura de Coro se cursará un mínimo de dos cursos académicos.\n\n5. Canto Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Idiomas aplicados al canto . . . . . . . . . . . . . 4 240 Música de cámara/Coro5 . . . . . . . . . . . . . . . 6 180 5 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 180 horas en el conjunto de las agrupaciones especificadas. Las asignaturas de Música de Cámara y de Coro se cursarán cada una de ellas un mínimo de dos cursos académicos.\n\n6. Clarinete Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Música de cámara/Orquesta/Banda6 . . . . . 6 340 6 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 340 horas en el conjunto de las agrupaciones especificadas. La asignatura de Música de Cámara se cursará un mínimo de dos cursos académicos.\n\n7. Clave Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Música de cámara/Coro/Conjunto7 . . . . . . 6 300 7 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 300 horas en el conjunto de las agrupaciones especificadas. Las asignaturas de Música de Cámara y de Coro se cursarán cada una de ellas un mínimo de dos cursos académicos.\n\n8. Contrabajo Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje musical . . . . . . . . . . . . . . . . . . . . . 2 120 Armonía . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 120 Música de cámara/Orquesta/Banda8 . . . . . 6 340 8 Los alumnos y alumnas deberán realizar como mínimo, durante los seis cursos que componen las enseñanzas profesionales de música, 340 horas en el conjunto de las agrupaciones especificadas. La asignatura de Música de Cámara se cursará un mínimo de dos cursos académicos.\n\n9. Dulzaina Total N.º de Asignatura – cursos horas Instrumento . . . . . . . . . . . . . . . . . . . . . . . . . 6 180 Lenguaje mus\n\n[Contenido extenso del anexo - ver PDF original]"
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+        "articles": [
+          "art-46",
+          "art-48"
+        ],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "real-decreto-628-2022",
+        "title": "Real Decreto 628/2022",
+        "type": "modifica",
+        "articles": [
+          "art-14",
+          "art-15"
+        ],
+        "date": "2022-07-26",
+        "description": "Modifica arts 14 y 15 (titulación y documentos)"
+      }
+    ],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "Madrid",
+    "date": "2006-12-22",
+    "signatories": [
+      {
+        "name": "Juan Carlos I",
+        "role": "Rey de España"
+      },
+      {
+        "name": "Mercedes Cabrera Calvo-Sotelo",
+        "role": "Ministra de Educación y Ciencia"
+      }
+    ]
+  }
+}

@@ -644,7 +644,8 @@
         "articles": [
           "art-6"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Reial decret 1577/2006, de 22 de desembre, pel qual es fixen els aspectes bàsics del currículum dels ensenyaments professionals de música",

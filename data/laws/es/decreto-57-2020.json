@@ -636,7 +636,8 @@
           "art-129",
           "art-133"
         ],
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Estatuto de Autonomía de la Comunitat Valenciana",

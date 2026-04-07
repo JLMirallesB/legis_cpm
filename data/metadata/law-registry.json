@@ -70,6 +70,76 @@
       "status": "ingested",
       "category": "curriculo",
       "notes": "Modifica D.158/2007: arts 6, 8, 14 + Anexos I y II. Incorpora Cant Valencià. 5 arts + 5 anexos."
+    },
+    {
+      "slug": "ley-organica-2-2006",
+      "title": "Ley Orgánica 2/2006 - LOE (Ley Orgánica de Educación)",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Extracto: Título I solo Cap VI (enseñanzas artísticas, arts 45-58). Resto de títulos completos. 112 arts + 60 disposiciones. Primera ley_organica ingresada. Ley estatal (BOE)."
+    },
+    {
+      "slug": "ley-organica-3-2020",
+      "title": "Ley Orgánica 3/2020 - LOMLOE (modificación de la LOE)",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Artículo único con ~90 modificaciones a la LOE + 11 DA + 5 DT (+ 2bis) + 1 DD + 6 DF. Ley estatal (BOE)."
+    },
+    {
+      "slug": "ley-1-2024",
+      "title": "Ley 1/2024 - Enseñanzas artísticas superiores y profesionales",
+      "status": "ingested",
+      "category": "general",
+      "notes": "71 arts + 18 DA + 7 DT + 1 DD + 11 DF. Solo existe en español (VA apunta a ES). Modifica LOE: arts 45, 46, 48, 50, 58, 96; suprime arts 54-57. Ley estatal (BOE)."
+    },
+    {
+      "slug": "ley-organica-8-1985",
+      "title": "Ley Orgánica 8/1985 - LODE (Derecho a la Educación)",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Texto consolidado (última mod 07/09/2022). Solo en español. 63 arts + 5 DA + 5 DT + 1 DD + 3 DF. Arts 36-49 derogados. Ley estatal (BOE)."
+    },
+    {
+      "slug": "real-decreto-1577-2006",
+      "title": "Real Decreto 1577/2006 - Currículo básico EEPP Música",
+      "status": "ingested",
+      "category": "curriculo",
+      "notes": "20 arts + 4 DA + 1 DD + 2 DF + 2 anexos. Solo en español. Modificado por RD 628/2022. Primer real_decreto ingresado."
+    },
+    {
+      "slug": "real-decreto-628-2022",
+      "title": "Real Decreto 628/2022 - Modificaciones enseñanzas artísticas (LOMLOE)",
+      "status": "ingested",
+      "category": "general",
+      "notes": "7 arts + 3 DA + 3 DT + 3 DF. Solo en español. Arts 2 y 7 (artes plásticas y deportivas) marcados como no relevantes. Modifica RD 1577/2006."
+    },
+    {
+      "slug": "orden-ecd-1611-2015",
+      "title": "Orden ECD/1611/2015 - Premios Nacionales EEPP",
+      "status": "ingested",
+      "category": "evaluacion",
+      "notes": "10 arts + 1 DA + 1 DT + 3 DF. Solo en español. Premios al rendimiento académico en ESO y EEPP Música/Danza/Artes Plásticas."
+    },
+    {
+      "slug": "real-decreto-303-2010",
+      "title": "Real Decreto 303/2010 - Requisitos mínimos centros enseñanzas artísticas",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "34 arts + 3 DA + 4 DT + 1 DD + 3 DF. Solo en español. Requisitos de todos los centros de enseñanzas artísticas (elementales, profesionales, superiores)."
+    },
+    {
+      "slug": "real-decreto-428-2013",
+      "title": "Real Decreto 428/2013 - Especialidades docentes Música y Danza",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "Texto consolidado. 7 arts + 3 DA + 2 DT + 1 DD + 3 DF + 5 anexos. Solo en español. Modificado por RD 286/2023 (arts 1, 7)."
+    },
+    {
+      "slug": "real-decreto-286-2023",
+      "title": "Real Decreto 286/2023 - Asignación materias y profesorado",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "5 arts + 2 DA + 1 DT + 1 DD + 10 DF. Solo en español. Arts 2-5 (ESO/Bach) no relevantes. DF 5ª modifica RD 428/2013."
     }
   ]
 }

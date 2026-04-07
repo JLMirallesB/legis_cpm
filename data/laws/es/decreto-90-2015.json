@@ -120,7 +120,8 @@
     "enactedPursuantTo": [
       {
         "title": "Ley Orgánica 2/2006, de 3 de mayo, de Educación",
-        "relationship": "habilitante"
+        "relationship": "habilitante",
+        "lawId": "ley-organica-2-2006"
       },
       {
         "title": "Real Decreto 471/2014, de 13 de junio, por el que se crea la especialidad de Cant Valencià",
