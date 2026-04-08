@@ -32,6 +32,7 @@ const tagLabels: Record<string, string> = {
 
 <BaseLayout lang={lang} title={t('search.results', lang)}>
   <div class="container search-page">
+    <img class="page-icon" src={`${base}icons/icon-192.png`} alt="" width="48" height="48" />
     <h1>{t('search.results', lang)}</h1>
 
     <div class="search-box">
@@ -500,7 +501,14 @@ const tagLabels: Record<string, string> = {
     max-width: 800px;
   }
 
+  .page-icon {
+    display: block;
+    margin: 0 auto var(--space-sm);
+    border-radius: var(--radius-md);
+  }
+
   h1 {
+    text-align: center;
     font-size: 1.8rem;
     color: var(--color-primary);
     margin-bottom: var(--space-lg);

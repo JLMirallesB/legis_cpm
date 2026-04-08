@@ -17,7 +17,6 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 <header class="header">
   <div class="header-inner container">
     <a href={`${base}${lang}/`} class="logo">
-      <img class="logo-icon" src={`${base}favicon-32.png`} alt="" width="24" height="24" />
       <span class="logo-text">{t('site.title', lang)}</span>
       <span class="logo-version">v{VERSION}</span>
     </a>
@@ -73,12 +72,6 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     color: white;
     text-decoration: none;
     opacity: 0.9;
-  }
-
-  .logo-icon {
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
   }
 
   .logo-version {

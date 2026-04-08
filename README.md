@@ -139,10 +139,10 @@ Por orden de prioridad:
 2. **Convalidaciones y equivalencias** &mdash; Normativa sobre reconocimiento de estudios entre ense&ntilde;anzas
 3. **Plantillas** &mdash; Normativa sobre plantillas de profesorado de conservatorios
 4. **Danza (normativa nacional)** &mdash; Reales decretos espec&iacute;ficos de ense&ntilde;anzas profesionales de danza
-5. **Escuelas de M&uacute;sica** &mdash; Regulaci&oacute;n completa de las escuelas de m&uacute;sica (falta completamente)
-6. **Conservatorios Superiores** &mdash; Normativa de ense&ntilde;anzas art&iacute;sticas superiores (falta completamente)
-7. **Convivencia** &mdash; Normativa sobre convivencia en centros educativos aplicable a conservatorios
-8. **Protecci&oacute;n de datos y TIC** &mdash; Normativa sobre privacidad, protecci&oacute;n de datos y uso de tecnolog&iacute;as en centros educativos
+5. **Convivencia** &mdash; Normativa sobre convivencia en centros educativos aplicable a conservatorios
+6. **Protecci&oacute;n de datos y TIC** &mdash; Normativa sobre privacidad, protecci&oacute;n de datos y uso de tecnolog&iacute;as en centros educativos
+7. **Escuelas de M&uacute;sica** &mdash; Regulaci&oacute;n completa de las escuelas de m&uacute;sica (falta completamente)
+8. **Conservatorios Superiores** &mdash; Normativa de ense&ntilde;anzas art&iacute;sticas superiores (falta completamente)
 
 ## Licencia
 

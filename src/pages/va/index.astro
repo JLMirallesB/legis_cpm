@@ -8,6 +8,7 @@ const lang = 'va' as const;
 
 <BaseLayout lang={lang}>
   <div class="container hero">
+    <img class="page-icon" src={`${import.meta.env.BASE_URL}icons/icon-192.png`} alt="" width="64" height="64" />
     <h1>{t('catalog.title', lang)}</h1>
     <p class="subtitle">{t('catalog.subtitle', lang)}</p>
 
@@ -37,6 +38,12 @@ const lang = 'va' as const;
   .hero {
     text-align: center;
     padding: var(--space-2xl) 0;
+  }
+
+  .page-icon {
+    display: block;
+    margin: 0 auto var(--space-md);
+    border-radius: var(--radius-md);
   }
 
   h1 {

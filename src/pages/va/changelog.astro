@@ -30,6 +30,7 @@ const releases = changelog.map((release) => {
 
 <BaseLayout lang={lang} title={t('changelog.title', lang)}>
   <div class="container changelog-page">
+    <img class="page-icon" src={`${base}icons/icon-192.png`} alt="" width="48" height="48" />
     <div class="changelog-header">
       <div>
         <h1>{t('changelog.title', lang)}</h1>
@@ -92,6 +93,12 @@ const releases = changelog.map((release) => {
   .changelog-page {
     padding: var(--space-xl) 0;
     max-width: 800px;
+  }
+
+  .page-icon {
+    display: block;
+    margin: 0 auto var(--space-sm);
+    border-radius: var(--radius-md);
   }
 
   .changelog-header {
