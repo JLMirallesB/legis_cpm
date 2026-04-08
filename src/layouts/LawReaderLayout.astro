@@ -7,6 +7,7 @@ import DownloadButtons from '../components/DownloadButtons.astro';
 import FormModelButtons from '../components/FormModelButtons.astro';
 import LegalAnalysis from '../components/LegalAnalysis.astro';
 import LawTags from '../components/LawTags.astro';
+import NotebookPanel from '../components/NotebookPanel.astro';
 import { t } from '../i18n/utils';
 
 interface Props {
@@ -52,6 +53,35 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
       {law.formModels && law.formModels.length > 0 && (
         <FormModelButtons models={law.formModels} lang={lang} />
       )}
+      <div class="share-buttons" role="group" aria-label={lang === 'va' ? 'Compartir' : 'Compartir'}>
+        <button class="btn btn-share" id="share-copy-link" type="button">
+          &#128279; {t('share.copy_link', lang)}
+        </button>
+        <a
+          class="btn btn-share"
+          id="share-email"
+          href="#"
+          rel="noopener"
+        >&#9993; {t('share.email', lang)}</a>
+        <a
+          class="btn btn-share"
+          id="share-whatsapp"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >&#128172; {t('share.whatsapp', lang)}</a>
+        <button class="btn btn-share" id="share-embed-btn" type="button">
+          &lt;/&gt; {t('share.embed', lang)}
+        </button>
+        <div id="share-embed-popover" class="embed-popover" hidden>
+          <p class="embed-label">{t('share.embed_code', lang)}</p>
+          <textarea id="share-embed-code" class="embed-textarea" readonly rows="3"></textarea>
+          <div class="embed-actions">
+            <button class="btn btn-share" id="share-embed-copy" type="button">{t('share.copy_link', lang)}</button>
+            <button class="btn btn-share" id="share-embed-close" type="button">{t('share.embed_close', lang)}</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     {law.legalAnalysis && (
@@ -68,6 +98,8 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
       </div>
     </div>
   </div>
+
+  <NotebookPanel lang={lang} lawTitle={law.title} lawShort={`${law.type.replace(/_/g, ' ')} ${law.number}`} lawSlug={law.slug} />
 </BaseLayout>
 
 <style>
@@ -166,4 +198,166 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
       font-size: 1.2rem;
     }
   }
+
+  /* Share buttons */
+  .share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+    position: relative;
+  }
+
+  .btn-share {
+    font-size: 0.8rem;
+    padding: var(--space-xs) var(--space-sm);
+    cursor: pointer;
+    border: 1px solid #81c784;
+    background: #f1f8f1;
+    color: #2e7d32;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    text-decoration: none;
+  }
+
+  .btn-share:hover {
+    background: #c8e6c9;
+    color: #1b5e20;
+    border-color: #388e3c;
+    text-decoration: none;
+  }
+
+  /* Embed popover */
+  .embed-popover {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border-dark);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-lg);
+    z-index: 100;
+    min-width: 380px;
+    max-width: 95vw;
+  }
+
+  .embed-label {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xs);
+    font-family: var(--font-sans);
+  }
+
+  .embed-textarea {
+    width: 100%;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    padding: var(--space-xs);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    resize: none;
+    color: var(--color-text);
+    background: var(--color-bg-secondary);
+  }
+
+  .embed-actions {
+    display: flex;
+    gap: var(--space-sm);
+    margin-top: var(--space-sm);
+  }
 </style>
+
+<script define:vars={{
+  lawTitle: law.title,
+  lawShort: `${law.type.replace(/_/g, ' ')} ${law.number}`,
+  copiedMsg: t('share.link_copied', lang),
+  embedCopiedMsg: t('share.embed_copied', lang),
+  promoText: lang === 'va'
+    ? '\n\n--\n📚 Compartit des de Legis CPM, lector de legislació de Conservatoris Professionals de Música i Dansa de la Comunitat Valenciana.\nhttps://JLMirallesB.github.io/legis_cpm/'
+    : '\n\n--\n📚 Compartido desde Legis CPM, lector de legislación de Conservatorios Profesionales de Música y Danza de la Comunitat Valenciana.\nhttps://JLMirallesB.github.io/legis_cpm/',
+}}>
+  function getBaseUrl() {
+    return window.location.origin + window.location.pathname;
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('sidebar-toast');
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    setTimeout(() => toast.classList.remove('visible'), 2000);
+  }
+
+  function copyText(text, msg) {
+    navigator.clipboard.writeText(text).then(() => showToast(msg)).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast(msg);
+    });
+  }
+
+  // Copy link
+  document.getElementById('share-copy-link')?.addEventListener('click', () => {
+    copyText(getBaseUrl(), copiedMsg);
+  });
+
+  // Email
+  const emailLink = document.getElementById('share-email');
+  if (emailLink) {
+    emailLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      const subject = encodeURIComponent(lawTitle);
+      const body = encodeURIComponent(getBaseUrl() + promoText);
+      window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    });
+  }
+
+  // WhatsApp
+  const waLink = document.getElementById('share-whatsapp');
+  if (waLink) {
+    waLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      const text = encodeURIComponent(lawShort + ' — ' + getBaseUrl() + promoText);
+      window.open('https://wa.me/?text=' + text, '_blank', 'noopener,noreferrer');
+    });
+  }
+
+  // Embed popover
+  const embedBtn = document.getElementById('share-embed-btn');
+  const embedPopover = document.getElementById('share-embed-popover');
+  const embedCode = document.getElementById('share-embed-code');
+  const embedCopy = document.getElementById('share-embed-copy');
+  const embedClose = document.getElementById('share-embed-close');
+
+  if (embedBtn && embedPopover && embedCode) {
+    embedBtn.addEventListener('click', () => {
+      const url = getBaseUrl();
+      embedCode.value = `<iframe src="${url}" width="100%" height="600" style="border:1px solid #e2e8f0;border-radius:8px;" title="${lawShort}"></iframe>`;
+      embedPopover.hidden = !embedPopover.hidden;
+      if (!embedPopover.hidden) embedCode.select();
+    });
+
+    embedCopy?.addEventListener('click', () => {
+      copyText(embedCode.value, embedCopiedMsg);
+    });
+
+    embedClose?.addEventListener('click', () => {
+      embedPopover.hidden = true;
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!embedPopover.hidden && !embedPopover.contains(e.target) && e.target !== embedBtn) {
+        embedPopover.hidden = true;
+      }
+    });
+  }
+</script>

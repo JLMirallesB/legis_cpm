@@ -14,6 +14,7 @@ interface Props {
 const { structure, lang, sidebarLabel, promulgation } = Astro.props;
 
 const navItems = getNavItemsWithGroups(structure, lang);
+const copyLabel = t('share.copy_link', lang);
 ---
 
 <aside class="law-sidebar">
@@ -25,25 +26,75 @@ const navItems = getNavItemsWithGroups(structure, lang);
       {navItems.map((item) => (
         <li class={`nav-item depth-${item.depth}${item.isGroup ? ' nav-group' : ''}`}>
           <a href={`#${item.id}`}>{item.title}</a>
+          {!item.isGroup && (
+            <button
+              class="sidebar-link-btn"
+              data-id={item.id}
+              aria-label={copyLabel}
+              title={copyLabel}
+              type="button"
+            >&#128279;</button>
+          )}
         </li>
       ))}
       {promulgation && (
         <li class="nav-item depth-0">
           <a href="#promulgacion">{t('law.promulgation', lang)}</a>
+          <button
+            class="sidebar-link-btn"
+            data-id="promulgacion"
+            aria-label={copyLabel}
+            title={copyLabel}
+            type="button"
+          >&#128279;</button>
         </li>
       )}
     </ul>
   </nav>
 </aside>
 
-<script>
-  // Scroll spy: resalta el artículo activo en el sidebar
+<div id="sidebar-toast" class="sidebar-toast" aria-live="polite"></div>
+
+<script define:vars={{ copiedMsg: t('share.link_copied', lang) }}>
+  // ── Toast ──────────────────────────────────────────────
+  function showToast(msg) {
+    const toast = document.getElementById('sidebar-toast');
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    setTimeout(() => toast.classList.remove('visible'), 2000);
+  }
+
+  // ── Copy link buttons ───────────────────────────────────
+  document.querySelectorAll('.sidebar-link-btn').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = btn.getAttribute('data-id');
+      const url = window.location.href.split('#')[0] + '#' + id;
+      navigator.clipboard.writeText(url).then(() => showToast(copiedMsg)).catch(() => {
+        // fallback
+        const ta = document.createElement('textarea');
+        ta.value = url;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showToast(copiedMsg);
+      });
+    });
+  });
+
+  // ── Scroll spy + replaceState ───────────────────────────
   const links = document.querySelectorAll('.sidebar-nav a');
   const sections = Array.from(links).map((link) => {
     const id = link.getAttribute('href')?.replace('#', '');
     return id ? document.getElementById(id) : null;
-  }).filter(Boolean) as HTMLElement[];
+  }).filter(Boolean);
 
+  let ticking = false;
   function updateActive() {
     let current = '';
     for (const section of sections) {
@@ -53,9 +104,18 @@ const navItems = getNavItemsWithGroups(structure, lang);
     links.forEach((link) => {
       link.classList.toggle('active', link.getAttribute('href') === `#${current}`);
     });
+    if (current) {
+      history.replaceState(null, '', '#' + current);
+    }
+    ticking = false;
   }
 
-  window.addEventListener('scroll', updateActive, { passive: true });
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(updateActive);
+      ticking = true;
+    }
+  }, { passive: true });
   updateActive();
 </script>
 
@@ -86,10 +146,14 @@ const navItems = getNavItemsWithGroups(structure, lang);
 
   .nav-item {
     margin-bottom: 1px;
+    position: relative;
+    display: flex;
+    align-items: center;
   }
 
   .nav-item a {
     display: block;
+    flex: 1;
     padding: 4px 8px;
     font-size: 0.8rem;
     color: var(--color-text-secondary);
@@ -125,6 +189,59 @@ const navItems = getNavItemsWithGroups(structure, lang);
   .depth-1 a { padding-left: 20px; }
   .depth-2 a { padding-left: 32px; }
   .depth-3 a { padding-left: 44px; }
+
+  /* Copy-link button */
+  .sidebar-link-btn {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.15s, color 0.15s;
+    line-height: 1;
+  }
+
+  .nav-item:hover .sidebar-link-btn {
+    opacity: 1;
+  }
+
+  .sidebar-link-btn:hover {
+    color: var(--color-primary);
+    background: var(--color-bg-secondary);
+  }
+
+  /* Toast */
+  .sidebar-toast {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background: var(--color-primary);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: var(--radius-md);
+    font-size: 0.82rem;
+    font-family: var(--font-sans);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 9999;
+    white-space: nowrap;
+  }
+
+  .sidebar-toast.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 
   @media (max-width: 768px) {
     .law-sidebar {

@@ -10,6 +10,10 @@ interface Props {
 const { node, lang } = Astro.props;
 const hasVersions = node.versions && node.versions.length > 1;
 const nodeId = node.id;
+const copyLinkLabel = t('share.copy_link', lang);
+const emailLabel = t('share.email', lang);
+const waLabel = t('share.whatsapp', lang);
+const saveFullLabel = t('notebook.save_full', lang);
 
 /** Convert a markdown table block into HTML <table> */
 function mdTableToHtml(block: string): string {
@@ -70,7 +74,32 @@ const contentHtml = (node.content ?? node.versions?.[0]?.content ?? '')
 ---
 
 <article class="article-block" id={nodeId}>
-  <h3 class="article-title">{node.title}</h3>
+  <div class="article-title-row">
+    <h3 class="article-title">{node.title}</h3>
+    <div class="article-share-wrap">
+      <button
+        class="article-share-btn"
+        data-article-id={nodeId}
+        aria-label="Compartir"
+        title="Compartir"
+        type="button"
+      >&#8942;</button>
+      <div class="article-share-popover" id={`share-pop-${nodeId}`} hidden>
+        <button class="share-pop-item" data-action="copy" data-id={nodeId} type="button">
+          &#128279; {copyLinkLabel}
+        </button>
+        <a class="share-pop-item" data-action="email" data-id={nodeId} href="#">
+          &#9993; {emailLabel}
+        </a>
+        <a class="share-pop-item" data-action="wa" data-id={nodeId} href="#">
+          &#128172; {waLabel}
+        </a>
+        <button class="share-pop-item share-pop-divider" data-action="save-full" data-id={nodeId} type="button">
+          &#128221; {saveFullLabel}
+        </button>
+      </div>
+    </div>
+  </div>
 
   {hasVersions && (
     <div class="version-selector" data-article-id={nodeId}>
@@ -93,6 +122,84 @@ const contentHtml = (node.content ?? node.versions?.[0]?.content ?? '')
   )}
 
   <div class="article-text" data-article-id={nodeId} set:html={contentHtml} />
+
+  <script define:vars={{
+    nodeId,
+    copiedMsg: t('share.link_copied', lang),
+    savedMsg: t('notebook.saved', lang),
+    promoText: lang === 'va'
+      ? '\n\n--\n📚 Compartit des de Legis CPM, lector de legislació de Conservatoris Professionals de Música i Dansa de la Comunitat Valenciana.\nhttps://JLMirallesB.github.io/legis_cpm/'
+      : '\n\n--\n📚 Compartido desde Legis CPM, lector de legislación de Conservatorios Profesionales de Música y Danza de la Comunitat Valenciana.\nhttps://JLMirallesB.github.io/legis_cpm/',
+  }}>
+    // Article share popover
+    const shareBtn = document.querySelector(`[data-article-id="${nodeId}"].article-share-btn`);
+    const sharePop = document.getElementById(`share-pop-${nodeId}`);
+
+    if (shareBtn && sharePop) {
+      shareBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        sharePop.hidden = !sharePop.hidden;
+      });
+
+      sharePop.addEventListener('click', (e) => {
+        const target = e.target.closest('[data-action]');
+        if (!target) return;
+        const action = target.getAttribute('data-action');
+        const id = target.getAttribute('data-id');
+        const url = window.location.href.split('#')[0] + '#' + id;
+        const articleTitle = document.querySelector(`#${id} h3`)?.textContent?.trim() || id;
+
+        if (action === 'copy') {
+          e.preventDefault();
+          navigator.clipboard.writeText(url).catch(() => {
+            const ta = document.createElement('textarea');
+            ta.value = url; ta.style.cssText = 'position:fixed;opacity:0';
+            document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+            document.body.removeChild(ta);
+          });
+          // Show toast via sidebar toast element
+          const toast = document.getElementById('sidebar-toast');
+          if (toast) {
+            toast.textContent = copiedMsg;
+            toast.classList.add('visible');
+            setTimeout(() => toast.classList.remove('visible'), 2000);
+          }
+          sharePop.hidden = true;
+        } else if (action === 'email') {
+          e.preventDefault();
+          window.location.href = `mailto:?subject=${encodeURIComponent(articleTitle)}&body=${encodeURIComponent(url + promoText)}`;
+          sharePop.hidden = true;
+        } else if (action === 'wa') {
+          e.preventDefault();
+          window.open('https://wa.me/?text=' + encodeURIComponent(articleTitle + ' — ' + url + promoText), '_blank', 'noopener,noreferrer');
+          sharePop.hidden = true;
+        } else if (action === 'save-full') {
+          e.preventDefault();
+          const articleTextEl = document.querySelector(`#${id} .article-text`);
+          const fullText = articleTextEl?.innerText?.trim() || '';
+          if (fullText) {
+            document.dispatchEvent(new CustomEvent('notebook:save-request', {
+              detail: { text: fullText, articleId: id, articleTitle }
+            }));
+            // Toast (sidebar-toast is owned by LawSidebar but accessible by ID)
+            const toast = document.getElementById('sidebar-toast');
+            if (toast) {
+              toast.textContent = savedMsg;
+              toast.classList.add('visible');
+              setTimeout(() => toast.classList.remove('visible'), 2000);
+            }
+          }
+          sharePop.hidden = true;
+        }
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!sharePop.hidden && !sharePop.contains(e.target) && e.target !== shareBtn) {
+          sharePop.hidden = true;
+        }
+      });
+    }
+  </script>
 
   {hasVersions && (
     <script define:vars={{ nodeId, versions: node.versions }}>
@@ -157,11 +264,94 @@ const contentHtml = (node.content ?? node.versions?.[0]?.content ?? '')
     border-bottom: none;
   }
 
+  /* Article title row with share button */
+  .article-title-row {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    margin-bottom: var(--space-sm);
+  }
+
   .article-title {
     font-size: 1.05rem;
     color: var(--color-primary);
-    margin-bottom: var(--space-sm);
     font-weight: 600;
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  .article-share-wrap {
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .article-share-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    width: 24px;
+    height: 24px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.15s, background 0.15s;
+    padding: 0;
+    line-height: 1;
+  }
+
+  .article-block:hover .article-share-btn {
+    opacity: 1;
+  }
+
+  .article-share-btn:hover {
+    background: var(--color-bg-secondary);
+    color: var(--color-primary);
+  }
+
+  .article-share-popover {
+    position: absolute;
+    right: 0;
+    top: 28px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border-dark);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    z-index: 200;
+    min-width: 180px;
+    overflow: hidden;
+  }
+
+  :global(.share-pop-item) {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: 8px 12px;
+    font-size: 0.82rem;
+    font-family: var(--font-sans);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    transition: background 0.1s, color 0.1s;
+  }
+
+  :global(.share-pop-item:hover) {
+    background: var(--color-bg-secondary);
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  :global(.share-pop-divider) {
+    border-top: 1px solid var(--color-border);
+    margin-top: 2px;
+    padding-top: 8px;
   }
 
   .version-selector {

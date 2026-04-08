@@ -1,5 +1,71 @@
 [
   {
+    "version": "0.8.0",
+    "date": "2026-04-08",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Cuaderno de fragmentos: selecciona texto de cualquier artículo y guárdalo en un panel persistente (localStorage). Permite reordenar, eliminar, copiar todo con referencias y exportar a PDF con agrupación por ley."
+        },
+        {
+          "type": "nuevo",
+          "description": "Guardar artículo completo al cuaderno desde el menú de compartir de cada artículo. Las selecciones parciales incluyen marcadores [...] para indicar texto omitido."
+        },
+        {
+          "type": "nuevo",
+          "description": "Botones de compartir en la cabecera de cada ley: copiar enlace, enviar por email, WhatsApp y código embed (iframe)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Menú de compartir por artículo (icono ⋮ al hover): copiar enlace, email y WhatsApp con enlace directo al artículo."
+        },
+        {
+          "type": "mejora",
+          "description": "Iconos de enlace en el sidebar: copia la URL con hash del elemento directamente al portapapeles. La URL del navegador se actualiza al hacer scroll para reflejar siempre el artículo visible."
+        },
+        {
+          "type": "mejora",
+          "description": "Email y WhatsApp incluyen pie promocional discreto con descripción del proyecto Legis CPM."
+        },
+        {
+          "type": "mejora",
+          "description": "Botones de compartir (verde) y de descarga (azul grisáceo) con colores diferenciados para mejorar la usabilidad."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Quadern de fragments: selecciona text de qualsevol article i guarda'l en un panell persistent (localStorage). Permet reordenar, eliminar, copiar tot amb referències i exportar a PDF amb agrupació per llei."
+        },
+        {
+          "type": "nou",
+          "description": "Guardar article complet al quadern des del menú de compartir de cada article. Les seleccions parcials inclouen marcadors [...] per indicar text omés."
+        },
+        {
+          "type": "nou",
+          "description": "Botons de compartir a la capçalera de cada llei: copiar enllaç, enviar per correu, WhatsApp i codi embed (iframe)."
+        },
+        {
+          "type": "nou",
+          "description": "Menú de compartir per article (icona ⋮ en hover): copiar enllaç, correu i WhatsApp amb enllaç directe a l'article."
+        },
+        {
+          "type": "millora",
+          "description": "Icones d'enllaç al sidebar: copia la URL amb hash de l'element directament al porta-retalls. La URL del navegador s'actualitza en fer scroll per reflectir sempre l'article visible."
+        },
+        {
+          "type": "millora",
+          "description": "Correu i WhatsApp inclouen peu promocional discret amb descripció del projecte Legis CPM."
+        },
+        {
+          "type": "millora",
+          "description": "Botons de compartir (verd) i de descàrrega (blau grisenc) amb colors diferenciats per millorar la usabilitat."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.7.0",
     "date": "2026-04-07",
     "entries": {

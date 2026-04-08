@@ -1,0 +1,795 @@
+---
+import type { Lang } from '../lib/types';
+import { t } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  lawTitle: string;
+  lawShort: string;
+  lawSlug: string;
+}
+
+const { lang, lawTitle, lawShort, lawSlug } = Astro.props;
+---
+
+<!-- Floating trigger button -->
+<button id="notebook-trigger" class="notebook-trigger" type="button" aria-label={t('notebook.title', lang)}>
+  &#128221;
+  <span id="notebook-badge" class="notebook-badge" hidden>0</span>
+</button>
+
+<!-- Selection tooltip -->
+<div id="notebook-tooltip" class="notebook-tooltip">
+  <span id="notebook-tooltip-ref" class="tooltip-ref"></span>
+  <button id="notebook-save-btn" class="tooltip-save-btn" type="button">
+    + {t('notebook.save', lang)}
+  </button>
+</div>
+
+<!-- Panel drawer -->
+<div id="notebook-panel" class="notebook-panel" aria-label={t('notebook.title', lang)}>
+  <div class="panel-header">
+    <span class="panel-title">&#128221; {t('notebook.title', lang)}</span>
+    <button id="notebook-close" class="panel-close" type="button" aria-label="Cerrar">&times;</button>
+  </div>
+
+  <div id="notebook-list" class="panel-list"></div>
+
+  <div id="notebook-empty" class="panel-empty">
+    <p>{t('notebook.empty', lang)}</p>
+    <p class="panel-empty-hint">{t('notebook.empty_hint', lang)}</p>
+  </div>
+
+  <div class="panel-footer">
+    <button id="notebook-copy-all" class="panel-btn panel-btn-primary" type="button">
+      &#128203; {t('notebook.copy_all', lang)}
+    </button>
+    <button id="notebook-print" class="panel-btn" type="button">
+      &#128438; {t('notebook.print', lang)}
+    </button>
+    <button id="notebook-clear" class="panel-btn panel-btn-danger" type="button">
+      &#128465; {t('notebook.clear', lang)}
+    </button>
+  </div>
+</div>
+
+
+<script define:vars={{
+  lang,
+  lawTitle,
+  lawShort,
+  lawSlug,
+  saveLabel: t('notebook.save', lang),
+  savedLabel: t('notebook.saved', lang),
+  copiedLabel: t('notebook.copied', lang),
+  clearConfirm: t('notebook.clear_confirm', lang),
+  moveUpLabel: t('notebook.move_up', lang),
+  moveDownLabel: t('notebook.move_down', lang),
+  deleteLabel: t('notebook.delete', lang),
+  fromLabel: t('notebook.from', lang),
+  generatedWith: lang === 'va'
+    ? 'Generat amb Legis CPM · https://JLMirallesB.github.io/legis_cpm/'
+    : 'Generado con Legis CPM · https://JLMirallesB.github.io/legis_cpm/',
+  printTitle: lang === 'va'
+    ? 'Quadern de fragments'
+    : 'Cuaderno de fragmentos',
+  printDisclaimer: lang === 'va'
+    ? t('footer.personal_project', lang)
+    : t('footer.personal_project', lang),
+  printDisclaimerLong: lang === 'va'
+    ? t('footer.disclaimer', lang)
+    : t('footer.disclaimer', lang),
+  siteUrl: 'https://JLMirallesB.github.io/legis_cpm/',
+}}>
+  const STORAGE_KEY = 'legis_notebook';
+
+  // ── Helpers ────────────────────────────────────────────────
+  function loadFragments() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); }
+    catch { return []; }
+  }
+
+  function saveFragments(fragments) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(fragments));
+  }
+
+  function generateId() {
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('sidebar-toast');
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('visible');
+    setTimeout(() => toast.classList.remove('visible'), 2000);
+  }
+
+  // ── Badge ──────────────────────────────────────────────────
+  function updateBadge() {
+    const badge = document.getElementById('notebook-badge');
+    if (!badge) return;
+    const count = loadFragments().length;
+    badge.textContent = count;
+    badge.hidden = count === 0;
+  }
+
+  // ── Render list ────────────────────────────────────────────
+  function renderList() {
+    const list = document.getElementById('notebook-list');
+    const empty = document.getElementById('notebook-empty');
+    if (!list || !empty) return;
+
+    const fragments = loadFragments();
+    list.innerHTML = '';
+
+    if (fragments.length === 0) {
+      list.style.display = 'none';
+      empty.style.display = 'flex';
+      return;
+    }
+    list.style.display = '';
+    empty.style.display = 'none';
+
+    fragments.forEach((frag, idx) => {
+      const item = document.createElement('div');
+      item.className = 'fragment-item';
+      item.setAttribute('data-id', frag.id);
+
+      // Header row: ref label + action buttons
+      const header = document.createElement('div');
+      header.className = 'fragment-header';
+
+      const ref = document.createElement('span');
+      ref.className = 'fragment-ref';
+      ref.textContent = `${frag.lawShort} › ${frag.articleTitle}`;
+
+      const actions = document.createElement('div');
+      actions.className = 'fragment-actions';
+
+      const up = document.createElement('button');
+      up.type = 'button';
+      up.className = 'frag-btn';
+      up.textContent = '↑';
+      up.title = moveUpLabel;
+      up.disabled = idx === 0;
+      up.addEventListener('click', () => moveFragment(frag.id, -1));
+
+      const down = document.createElement('button');
+      down.type = 'button';
+      down.className = 'frag-btn';
+      down.textContent = '↓';
+      down.title = moveDownLabel;
+      down.disabled = idx === fragments.length - 1;
+      down.addEventListener('click', () => moveFragment(frag.id, 1));
+
+      const del = document.createElement('button');
+      del.type = 'button';
+      del.className = 'frag-btn frag-btn-delete';
+      del.textContent = '✕';
+      del.title = deleteLabel;
+      del.addEventListener('click', () => deleteFragment(frag.id));
+
+      actions.append(up, down, del);
+      header.append(ref, actions);
+
+      const text = document.createElement('div');
+      text.className = 'fragment-text';
+      text.textContent = frag.text.length > 200 ? frag.text.slice(0, 200) + '…' : frag.text;
+
+      item.append(header, text);
+      list.appendChild(item);
+    });
+  }
+
+  // ── Fragment operations ────────────────────────────────────
+  function moveFragment(id, dir) {
+    const fragments = loadFragments();
+    const idx = fragments.findIndex(f => f.id === id);
+    if (idx < 0) return;
+    const newIdx = idx + dir;
+    if (newIdx < 0 || newIdx >= fragments.length) return;
+    [fragments[idx], fragments[newIdx]] = [fragments[newIdx], fragments[idx]];
+    saveFragments(fragments);
+    renderList();
+  }
+
+  function deleteFragment(id) {
+    const fragments = loadFragments().filter(f => f.id !== id);
+    saveFragments(fragments);
+    updateBadge();
+    renderList();
+  }
+
+  function addFragment(text, articleEl) {
+    const articleId = articleEl?.id || '';
+    const titleEl = articleEl?.querySelector('h3');
+    const articleTitle = titleEl ? titleEl.textContent.trim() : articleId;
+    const url = window.location.href.split('#')[0] + (articleId ? '#' + articleId : '');
+
+    const fragment = {
+      id: generateId(),
+      text: text.trim(),
+      articleId,
+      articleTitle,
+      lawSlug,
+      lawShort,
+      lawTitle,
+      url,
+      savedAt: new Date().toISOString(),
+    };
+
+    const fragments = loadFragments();
+    fragments.push(fragment);
+    saveFragments(fragments);
+    updateBadge();
+    return fragment;
+  }
+
+  // ── Selection tooltip ─────────────────────────────────────
+  const tooltip = document.getElementById('notebook-tooltip');
+  const tooltipRef = document.getElementById('notebook-tooltip-ref');
+  const saveBtn = document.getElementById('notebook-save-btn');
+  let pendingSelection = null;
+
+  function getArticleEl(node) {
+    let el = node instanceof Element ? node : node.parentElement;
+    while (el && !el.classList.contains('article-block')) {
+      el = el.parentElement;
+    }
+    return el;
+  }
+
+  document.addEventListener('mouseup', (e) => {
+    // Don't trigger inside the notebook panel itself
+    if (tooltip?.contains(e.target) || document.getElementById('notebook-panel')?.contains(e.target)) return;
+
+    setTimeout(() => {
+      const sel = window.getSelection();
+      const selText = sel?.toString().trim();
+      if (!selText || selText.length < 5) {
+        if (tooltip) tooltip.hidden = true;
+        pendingSelection = null;
+        return;
+      }
+
+      // Must be inside .law-content
+      const anchor = sel.anchorNode;
+      const lawContent = document.querySelector('.law-content');
+      if (!lawContent || !lawContent.contains(anchor)) {
+        if (tooltip) tooltip.hidden = true;
+        pendingSelection = null;
+        return;
+      }
+
+      const articleEl = getArticleEl(anchor);
+      pendingSelection = { text: selText, articleEl };
+
+      if (tooltipRef && articleEl) {
+        const titleEl = articleEl.querySelector('h3');
+        tooltipRef.textContent = titleEl ? titleEl.textContent.trim() : '';
+      }
+
+      // Position tooltip near end of selection
+      const range = sel.getRangeAt(0);
+      const rect = range.getBoundingClientRect();
+      if (tooltip) {
+        tooltip.style.display = 'flex';
+        tooltip.style.top = (window.scrollY + rect.bottom + 6) + 'px';
+        tooltip.style.left = Math.min(rect.left, window.innerWidth - 240) + 'px';
+      }
+    }, 10);
+  });
+
+  document.addEventListener('mousedown', (e) => {
+    if (tooltip && !tooltip.contains(e.target)) {
+      tooltip.style.display = 'none';
+    }
+  });
+
+  function withEllipsis(selectedText, articleEl) {
+    const articleTextEl = articleEl?.querySelector('.article-text');
+    const fullText = articleTextEl?.innerText?.trim() || '';
+    if (!fullText) return selectedText.trim();
+
+    const norm = (s) => s.replace(/\s+/g, ' ').trim();
+    const normFull = norm(fullText);
+    const normSel = norm(selectedText);
+    const idx = normFull.indexOf(normSel.slice(0, 80));
+    if (idx < 0) return selectedText.trim();
+
+    const before = normFull.slice(0, idx).trim();
+    const after = normFull.slice(idx + normSel.length).trim();
+    let result = selectedText.trim();
+    if (before.length > 10) result = '[...] ' + result;
+    if (after.length > 10) result = result + ' [...]';
+    return result;
+  }
+
+  saveBtn?.addEventListener('click', () => {
+    if (!pendingSelection) return;
+    const text = withEllipsis(pendingSelection.text, pendingSelection.articleEl);
+    addFragment(text, pendingSelection.articleEl);
+    tooltip.style.display = 'none';
+    pendingSelection = null;
+    window.getSelection()?.removeAllRanges();
+    showToast(savedLabel);
+    renderList();
+  });
+
+  // ── Listener para guardar artículo completo desde el popover ─
+  document.addEventListener('notebook:save-request', (e) => {
+    const { text, articleId, articleTitle } = e.detail;
+    const url = window.location.href.split('#')[0] + (articleId ? '#' + articleId : '');
+    const fragment = {
+      id: generateId(),
+      text,
+      articleId,
+      articleTitle,
+      lawSlug,
+      lawShort,
+      lawTitle,
+      url,
+      savedAt: new Date().toISOString(),
+    };
+    const fragments = loadFragments();
+    fragments.push(fragment);
+    saveFragments(fragments);
+    updateBadge();
+    if (document.getElementById('notebook-panel')?.classList.contains('is-open')) {
+      renderList();
+    }
+  });
+
+  // ── Panel open/close ───────────────────────────────────────
+  const panel = document.getElementById('notebook-panel');
+  document.getElementById('notebook-trigger')?.addEventListener('click', () => {
+    if (panel) {
+      const isOpen = panel.classList.toggle('is-open');
+      if (isOpen) renderList();
+    }
+  });
+  document.getElementById('notebook-close')?.addEventListener('click', () => {
+    panel?.classList.remove('is-open');
+  });
+
+  // ── Copy all ───────────────────────────────────────────────
+  document.getElementById('notebook-copy-all')?.addEventListener('click', () => {
+    const fragments = loadFragments();
+    if (fragments.length === 0) return;
+
+    const lines = fragments.map(f =>
+      `${f.lawShort} — ${f.articleTitle}\n${f.url}\n\n"${f.text}"`
+    );
+    const text = lines.join('\n\n---\n\n') + '\n\n---\n' + generatedWith;
+
+    navigator.clipboard.writeText(text).then(() => showToast(copiedLabel)).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast(copiedLabel);
+    });
+  });
+
+  // ── Print ──────────────────────────────────────────────────
+  document.getElementById('notebook-print')?.addEventListener('click', () => {
+    const fragments = loadFragments();
+    if (fragments.length === 0) return;
+
+    const locale = lang === 'va' ? 'ca-ES' : 'es-ES';
+    const now = new Date().toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' });
+
+    // Build body: group consecutive fragments from the same law
+    let bodyHtml = '';
+    let prevLawSlug = null;
+
+    fragments.forEach((f) => {
+      const isNewLaw = f.lawSlug !== prevLawSlug;
+      if (isNewLaw) {
+        if (prevLawSlug !== null) bodyHtml += '</div>'; // close prev group
+        bodyHtml += `<div class="law-group">
+          <h2 class="law-heading">${f.lawShort}</h2>
+          <p class="law-full-title">${f.lawTitle}</p>`;
+        prevLawSlug = f.lawSlug;
+      }
+      bodyHtml += `
+        <div class="fragment">
+          <h3 class="fragment-ref">${f.articleTitle}</h3>
+          <blockquote class="fragment-text">${f.text.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>')}</blockquote>
+          <p class="fragment-url">${f.url}</p>
+        </div>`;
+    });
+    if (prevLawSlug !== null) bodyHtml += '</div>'; // close last group
+
+    const html = `<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+  <meta charset="utf-8">
+  <title>${printTitle} – Legis CPM</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Georgia, 'Times New Roman', serif; font-size: 11pt; color: #1a202c; padding: 2cm 2.5cm; line-height: 1.6; }
+
+    /* Header */
+    .print-header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2pt solid #1a365d; padding-bottom: 10pt; margin-bottom: 24pt; }
+    .header-left .site-name { font-family: Arial, sans-serif; font-size: 16pt; font-weight: bold; color: #1a365d; }
+    .header-left .site-url { font-family: monospace; font-size: 8pt; color: #718096; margin-top: 2pt; }
+    .header-right { text-align: right; font-family: Arial, sans-serif; font-size: 9pt; color: #4a5568; }
+    .header-right .doc-title { font-weight: bold; font-size: 11pt; color: #1a202c; }
+
+    /* Law groups */
+    .law-group { margin-bottom: 24pt; page-break-inside: avoid; }
+    .law-heading { font-family: Arial, sans-serif; font-size: 12pt; font-weight: bold; color: #1a365d; border-left: 4pt solid #1a365d; padding-left: 8pt; margin-bottom: 2pt; }
+    .law-full-title { font-family: Arial, sans-serif; font-size: 8pt; color: #718096; margin-bottom: 10pt; padding-left: 12pt; }
+
+    /* Fragments */
+    .fragment { margin-bottom: 14pt; padding-left: 12pt; page-break-inside: avoid; }
+    .fragment-ref { font-family: Arial, sans-serif; font-size: 9.5pt; font-weight: bold; color: #2d3748; margin-bottom: 4pt; }
+    .fragment-text { font-size: 10.5pt; font-style: italic; border-left: 2pt solid #cbd5e0; padding: 4pt 8pt; margin: 4pt 0; color: #2d3748; }
+    .fragment-url { font-family: monospace; font-size: 7.5pt; color: #a0aec0; margin-top: 3pt; }
+
+    /* Footer */
+    .print-footer { margin-top: 32pt; padding-top: 10pt; border-top: 1pt solid #cbd5e0; font-family: Arial, sans-serif; font-size: 8pt; color: #718096; }
+    .footer-row { display: flex; justify-content: space-between; margin-bottom: 4pt; }
+    .footer-disclaimer { margin-top: 6pt; font-size: 7pt; color: #a0aec0; }
+
+    @page { margin: 1.5cm; }
+  </style>
+</head>
+<body>
+  <header class="print-header">
+    <div class="header-left">
+      <div class="site-name">📚 Legis CPM</div>
+      <div class="site-url">${siteUrl}</div>
+    </div>
+    <div class="header-right">
+      <div class="doc-title">${printTitle}</div>
+      <div>${now}</div>
+      <div>${fragments.length} fragment${fragments.length !== 1 ? 's' : ''}</div>
+    </div>
+  </header>
+
+  <main>${bodyHtml}</main>
+
+  <footer class="print-footer">
+    <div class="footer-row">
+      <span>${printDisclaimer}</span>
+      <span>${siteUrl}</span>
+    </div>
+    <div class="footer-disclaimer">${printDisclaimerLong}</div>
+  </footer>
+</body>
+</html>`;
+
+    const pw = window.open('', '_blank', 'width=800,height=600');
+    if (!pw) { alert('Permite las ventanas emergentes para imprimir.'); return; }
+    pw.document.write(html);
+    pw.document.close();
+    pw.focus();
+    setTimeout(() => { pw.print(); pw.close(); }, 400);
+  });
+
+  // ── Clear ──────────────────────────────────────────────────
+  document.getElementById('notebook-clear')?.addEventListener('click', () => {
+    if (!confirm(clearConfirm)) return;
+    saveFragments([]);
+    updateBadge();
+    renderList();
+  });
+
+  // ── Init ───────────────────────────────────────────────────
+  updateBadge();
+</script>
+
+<style>
+  /* ── Trigger button ──────────────────────────────────────── */
+  .notebook-trigger {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 900;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .notebook-trigger:hover {
+    background: var(--color-primary-light);
+    transform: scale(1.07);
+  }
+
+  .notebook-badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: var(--color-accent);
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    min-width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3px;
+    font-family: var(--font-sans);
+  }
+
+  /* ── Selection tooltip ───────────────────────────────────── */
+  .notebook-tooltip {
+    display: none;
+    position: absolute;
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: var(--radius-md);
+    padding: 6px 10px;
+    align-items: center;
+    gap: var(--space-sm);
+    box-shadow: var(--shadow-md);
+    z-index: 800;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  .tooltip-ref {
+    opacity: 0.75;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .tooltip-save-btn {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.4);
+    color: #fff;
+    border-radius: var(--radius-sm);
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    font-family: var(--font-sans);
+    transition: background 0.15s;
+  }
+
+  .tooltip-save-btn:hover {
+    background: rgba(255,255,255,0.35);
+  }
+
+  /* ── Panel drawer ────────────────────────────────────────── */
+  .notebook-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    max-width: 95vw;
+    height: 100vh;
+    background: var(--color-bg-white);
+    border-left: 1px solid var(--color-border-dark);
+    box-shadow: var(--shadow-lg);
+    z-index: 950;
+    display: none;
+    flex-direction: column;
+    font-family: var(--font-sans);
+  }
+
+  .notebook-panel.is-open {
+    display: flex;
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-border);
+    flex-shrink: 0;
+  }
+
+  .panel-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .panel-close {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--color-text-muted);
+    padding: 0 4px;
+    line-height: 1;
+    border-radius: var(--radius-sm);
+  }
+
+  .panel-close:hover {
+    color: var(--color-accent);
+    background: var(--color-bg-secondary);
+  }
+
+  /* Fragment list */
+  .panel-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--space-sm);
+  }
+
+  .fragment-item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-sm) var(--space-sm) var(--space-xs);
+    margin-bottom: var(--space-sm);
+    background: var(--color-bg-white);
+  }
+
+  .fragment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-xs);
+    margin-bottom: 6px;
+  }
+
+  .fragment-ref {
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: var(--font-sans);
+    color: var(--color-primary);
+    background: #ebf4ff;
+    border: 1px solid #bee3f8;
+    border-radius: var(--radius-sm);
+    padding: 2px 6px;
+    line-height: 1.4;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .fragment-text {
+    font-size: 0.82rem;
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font-serif);
+    font-style: italic;
+    border-left: 2px solid var(--color-border-dark);
+    padding-left: 8px;
+  }
+
+  .fragment-actions {
+    display: flex;
+    gap: 3px;
+    flex-shrink: 0;
+  }
+
+  .frag-btn {
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border-dark);
+    color: var(--color-text-secondary);
+    font-size: 0.8rem;
+    width: 26px;
+    height: 26px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .frag-btn:hover:not(:disabled) {
+    background: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+  }
+
+  .frag-btn:disabled {
+    opacity: 0.25;
+    cursor: default;
+  }
+
+  .frag-btn-delete:hover:not(:disabled) {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+  }
+
+  /* Empty state */
+  .panel-empty {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl);
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    gap: var(--space-sm);
+  }
+
+  .panel-empty-hint {
+    font-size: 0.78rem;
+    opacity: 0.8;
+  }
+
+  /* Footer */
+  .panel-footer {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-sm);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    flex-shrink: 0;
+  }
+
+  .panel-btn {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.8rem;
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid var(--color-border-dark);
+    background: var(--color-bg-white);
+    color: var(--color-text-secondary);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .panel-btn:hover {
+    background: var(--color-bg-secondary);
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  .panel-btn-primary {
+    background: var(--color-primary);
+    color: #fff;
+    border-color: var(--color-primary);
+  }
+
+  .panel-btn-primary:hover {
+    background: var(--color-primary-light);
+    color: #fff;
+  }
+
+  .panel-btn-danger:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background: #fff5f5;
+  }
+
+  @media (max-width: 768px) {
+    .notebook-trigger {
+      bottom: 16px;
+      right: 16px;
+      width: 48px;
+      height: 48px;
+      font-size: 1.2rem;
+    }
+
+    .notebook-panel {
+      width: 100vw;
+    }
+  }
+</style>
