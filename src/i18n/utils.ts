@@ -12,7 +12,7 @@ const strings: Record<Lang, Record<string, string>> = {
  * Si la ruta empieza por /va, devuelve 'va'. En caso contrario, 'es'.
  */
 export function getLang(url: URL): Lang {
-  const path = url.pathname.replace(/^\/legis_cpm/, '');
+  const path = url.pathname.replace(/^\/legis_cpmdem/, '');
   return path.startsWith('/va') ? 'va' : 'es';
 }
 
@@ -37,7 +37,7 @@ export function t(key: string, lang: Lang, params?: Record<string, string>): str
  * /es/ley/slug → /va/llei/slug y viceversa.
  */
 export function getAlternateUrl(url: URL, targetLang: Lang): string {
-  const base = '/legis_cpm';
+  const base = '/legis_cpmdem';
   let path = url.pathname.replace(base, '');
 
   if (targetLang === 'va') {

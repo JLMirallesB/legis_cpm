@@ -17,7 +17,7 @@ Archivo: `.github/workflows/deploy.yml`
 
 ### URL del sitio
 
-`https://JLMirallesB.github.io/legis_cpm/`
+`https://JLMirallesB.github.io/legis_cpmdem/`
 
 ## Desarrollo Local
 
@@ -43,6 +43,6 @@ npm run preview
 
 ## Notas
 
-- `astro.config.mjs` tiene `base: '/legis_cpm/'` (con trailing slash) para que las rutas funcionen correctamente en GitHub Pages
+- `astro.config.mjs` tiene `base: '/legis_cpmdem/'` (con trailing slash) para que las rutas funcionen correctamente en GitHub Pages
 - El `site` est&aacute; configurado como `https://JLMirallesB.github.io`
 - Todas las rutas internas usan `import.meta.env.BASE_URL` para el prefijo correcto

@@ -1,0 +1,14 @@
+{
+  "name": "legis-cpmdem-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for Legis CPMDEM - legislation reader for music and dance conservatories",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "tsx": "^4.19.4"
+  }
+}

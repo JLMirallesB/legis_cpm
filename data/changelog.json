@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.9.0",
+    "date": "2026-04-08",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Renombrado del proyecto a Legis CPMDEM para incluir Conservatorios Profesionales de Música y Danza y Escuelas de Música."
+        },
+        {
+          "type": "nuevo",
+          "description": "Nuevo icono de aplicación (pergamino con notas musicales). Favicon, Apple Touch Icon y manifest PWA para instalación en móvil."
+        },
+        {
+          "type": "nuevo",
+          "description": "Feed RSS bilingüe (castellano y valenciano) para suscribirse a las novedades desde cualquier lector RSS."
+        },
+        {
+          "type": "nuevo",
+          "description": "Botón \"Copiar anuncio\" en cada versión del changelog: genera un resumen con el número de novedades, mejoras y correcciones, listo para pegar en WhatsApp o email."
+        },
+        {
+          "type": "nuevo",
+          "description": "MCP Server local: permite consultar la legislación desde Claude Desktop u otros clientes MCP. Incluye búsqueda de artículos, listado de leyes con filtros y consulta de versiones."
+        },
+        {
+          "type": "nuevo",
+          "description": "README completo del proyecto con documentación de funcionalidades, instrucciones de uso del MCP y legislación pendiente de incorporar."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Reanomenat del projecte a Legis CPMDEM per a incloure Conservatoris Professionals de Música i Dansa i Escoles de Música."
+        },
+        {
+          "type": "nou",
+          "description": "Nova icona d'aplicació (pergamí amb notes musicals). Favicon, Apple Touch Icon i manifest PWA per a instal·lació en mòbil."
+        },
+        {
+          "type": "nou",
+          "description": "Feed RSS bilingüe (castellà i valencià) per a subscriure's a les novetats des de qualsevol lector RSS."
+        },
+        {
+          "type": "nou",
+          "description": "Botó \"Copiar anunci\" en cada versió del changelog: genera un resum amb el nombre de novetats, millores i correccions, llest per a enganxar a WhatsApp o correu."
+        },
+        {
+          "type": "nou",
+          "description": "MCP Server local: permet consultar la legislació des de Claude Desktop o altres clients MCP. Inclou cerca d'articles, llistat de lleis amb filtres i consulta de versions."
+        },
+        {
+          "type": "nou",
+          "description": "README complet del projecte amb documentació de funcionalitats, instruccions d'ús del MCP i legislació pendent d'incorporar."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.8.3",
     "date": "2026-04-08",
     "entries": {
@@ -120,7 +178,7 @@
         },
         {
           "type": "mejora",
-          "description": "Email y WhatsApp incluyen pie promocional discreto con descripción del proyecto Legis CPM."
+          "description": "Email y WhatsApp incluyen pie promocional discreto con descripción del proyecto Legis CPMDEM."
         },
         {
           "type": "mejora",
@@ -150,7 +208,7 @@
         },
         {
           "type": "millora",
-          "description": "Correu i WhatsApp inclouen peu promocional discret amb descripció del projecte Legis CPM."
+          "description": "Correu i WhatsApp inclouen peu promocional discret amb descripció del projecte Legis CPMDEM."
         },
         {
           "type": "millora",
@@ -850,7 +908,7 @@
       "es": [
         {
           "type": "nuevo",
-          "description": "Lanzamiento inicial del sitio Legis CPM"
+          "description": "Lanzamiento inicial del sitio Legis CPMDEM"
         },
         {
           "type": "nuevo",
@@ -860,7 +918,7 @@
       "va": [
         {
           "type": "nou",
-          "description": "Llan\u00e7ament inicial del lloc Legis CPM"
+          "description": "Llan\u00e7ament inicial del lloc Legis CPMDEM"
         },
         {
           "type": "nou",

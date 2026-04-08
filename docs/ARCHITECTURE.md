@@ -1,8 +1,8 @@
-# Arquitectura - Legis CPM
+# Arquitectura - Legis CPMDEM
 
 ## Visi&oacute;n General
 
-Legis CPM es una aplicaci&oacute;n web **100% est&aacute;tica** construida con [Astro](https://astro.build/) y desplegada en GitHub Pages. No tiene backend ni base de datos. Todo el contenido legislativo se almacena en archivos JSON que se procesan en tiempo de build para generar p&aacute;ginas HTML est&aacute;ticas.
+Legis CPMDEM es una aplicaci&oacute;n web **100% est&aacute;tica** construida con [Astro](https://astro.build/) y desplegada en GitHub Pages. No tiene backend ni base de datos. Todo el contenido legislativo se almacena en archivos JSON que se procesan en tiempo de build para generar p&aacute;ginas HTML est&aacute;ticas.
 
 ## Stack Tecnol&oacute;gico
 
@@ -31,7 +31,7 @@ src/i18n/{lang}.json     &rarr;                       &rarr;
 ## Estructura de Carpetas
 
 ```
-legis_cpm/
+legis_cpmdem/
 &boxvr;&boxh; astro.config.mjs          # Config Astro (site, base path)
 &boxvr;&boxh; src/
 &boxv;   &boxvr;&boxh; layouts/                # Layouts HTML (BaseLayout, LawReaderLayout)

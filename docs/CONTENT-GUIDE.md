@@ -18,7 +18,7 @@ La ingesta de leyes se hace de forma **asistida por Claude** en sesiones de trab
 Usa esta plantilla al inicio de la sesión:
 
 ```
-Necesito ingerir esta ley en el proyecto legis_cpm.
+Necesito ingerir esta ley en el proyecto legis_cpmdem.
 
 DATOS:
 - Tipo: [decreto/orden/resolucion/ley/ley_organica/real_decreto/correccion_errores]

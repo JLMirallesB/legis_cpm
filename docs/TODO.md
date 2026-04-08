@@ -48,6 +48,6 @@
 
 - El proyecto usa Astro 6.x (Node.js >= 22)
 - Deploy automático via GitHub Actions en push a main
-- URL: https://JLMirallesB.github.io/legis_cpm/
+- URL: https://JLMirallesB.github.io/legis_cpmdem/
 - Ley de ejemplo: Decreto 158/2007 (datos ficticios pero estructura real)
 - Búsqueda: índice JSON generado en build, búsqueda client-side sin FlexSearch (suficiente para 20-50 leyes)

@@ -191,7 +191,7 @@ content = re.sub(r'\n([a-z]\) )', r'\n\n\1', content)  # single \n before letter
 #### Imágenes y diagramas en PDFs
 - Los diagramas/organigramas del PDF se extraen como texto garbled (celdas del diagrama mezcladas)
 - Detectar por patrones: bloques de texto corto con nombres de niveles educativos, siglas MECES/EQF mezclados
-- Sustituir por imagen: guardar en `public/images/laws/{slug}-{nombre}.png` y usar markdown `![alt](/legis_cpm/images/laws/archivo.png)`
+- Sustituir por imagen: guardar en `public/images/laws/{slug}-{nombre}.png` y usar markdown `![alt](/legis_cpmdem/images/laws/archivo.png)`
 - `ArticleContent.astro` renderiza `![alt](url)` como `<figure>` con `<img>` y `<figcaption>`
 - `ArticleContent.astro` convierte URLs (`https://...`) en enlaces clicables automáticamente (auto-linking). No hace falta usar markdown de enlaces.
 
@@ -328,7 +328,7 @@ Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`
 - Las resoluciones anuales (instrucciones de curso) usan `temporality.type: "anual"` con `schoolYear` y `expiresDate`.
 
 ### Configuración importante
-- `base` en `astro.config.mjs` DEBE tener trailing slash: `/legis_cpm/`
+- `base` en `astro.config.mjs` DEBE tener trailing slash: `/legis_cpmdem/`
 - Node.js >= 22.12.0
 - Deploy automático en push a main via GitHub Actions
 

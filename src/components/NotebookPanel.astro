@@ -74,8 +74,8 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
   deleteLabel: t('notebook.delete', lang),
   fromLabel: t('notebook.from', lang),
   generatedWith: lang === 'va'
-    ? 'Generat amb Legis CPM · https://JLMirallesB.github.io/legis_cpm/'
-    : 'Generado con Legis CPM · https://JLMirallesB.github.io/legis_cpm/',
+    ? 'Generat amb Legis CPMDEM · https://JLMirallesB.github.io/legis_cpmdem/'
+    : 'Generado con Legis CPMDEM · https://JLMirallesB.github.io/legis_cpmdem/',
   printTitle: lang === 'va'
     ? 'Quadern de fragments'
     : 'Cuaderno de fragmentos',
@@ -85,7 +85,7 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
   printDisclaimerLong: lang === 'va'
     ? t('footer.disclaimer', lang)
     : t('footer.disclaimer', lang),
-  siteUrl: 'https://JLMirallesB.github.io/legis_cpm/',
+  siteUrl: 'https://JLMirallesB.github.io/legis_cpmdem/',
   appVersion: VERSION,
   apaRef,
   apaParen,
@@ -528,17 +528,17 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
     <div class="footer-contact">
       <strong>${contactLabel}</strong><br>
       jl.mirallesbono@edu.gva.es<br>
-      <a href="https://github.com/JLMirallesB/legis_cpm/issues">${reportLabel}</a><br>
+      <a href="https://github.com/JLMirallesB/legis_cpmdem/issues">${reportLabel}</a><br>
       <a href="https://ko-fi.com/miralles">${orxataLabel} &#9749;</a>
     </div>
-    <div class="footer-copyright">&copy; ${currentYear} Jos&eacute; Luis Miralles Bono &middot; Legis CPM v${appVersion}</div>
+    <div class="footer-copyright">&copy; ${currentYear} Jos&eacute; Luis Miralles Bono &middot; Legis CPMDEM v${appVersion}</div>
   </footer>` : '';
 
     const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
   <meta charset="utf-8">
-  <title>${printTitle} – Legis CPM</title>
+  <title>${printTitle} – Legis CPMDEM</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Georgia, 'Times New Roman', serif; font-size: 9pt; color: #000; padding: 1cm 1.5cm; line-height: 1.45; }
@@ -605,7 +605,7 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
 
   <header class="print-header">
     <div class="header-left">
-      <div class="site-name">Legis CPM</div>
+      <div class="site-name">Legis CPMDEM</div>
       <div class="site-url">${siteUrl}</div>
     </div>
     <div class="header-right">

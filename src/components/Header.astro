@@ -17,7 +17,7 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 <header class="header">
   <div class="header-inner container">
     <a href={`${base}${lang}/`} class="logo">
-      <span class="logo-icon">&#167;</span>
+      <img class="logo-icon" src={`${base}favicon-32.png`} alt="" width="24" height="24" />
       <span class="logo-text">{t('site.title', lang)}</span>
       <span class="logo-version">v{VERSION}</span>
     </a>
@@ -36,7 +36,7 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
 <script>
   document.querySelector('.lang-switch')?.addEventListener('click', (e) => {
     const target = (e.currentTarget as HTMLElement).dataset.targetLang;
-    if (target) localStorage.setItem('legis-cpm-lang', target);
+    if (target) localStorage.setItem('legis-cpmdem-lang', target);
   });
 </script>
 
@@ -76,8 +76,9 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
   }
 
   .logo-icon {
-    font-size: 1.5rem;
-    font-family: var(--font-serif);
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
   }
 
   .logo-version {
