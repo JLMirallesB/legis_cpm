@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.9.1",
+    "date": "2026-04-09",
+    "entries": {
+      "es": [
+        {
+          "type": "correccion",
+          "description": "Cuaderno de fragmentos: al imprimir, ahora se muestra solo el texto seleccionado y no el artículo completo."
+        }
+      ],
+      "va": [
+        {
+          "type": "correccio",
+          "description": "Quadern de fragments: en imprimir, ara es mostra només el text seleccionat i no l'article complet."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.9.0",
     "date": "2026-04-08",
     "entries": {

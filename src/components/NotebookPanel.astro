@@ -254,13 +254,13 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
     return textEl.innerHTML;
   }
 
-  function addFragment(text, articleEl) {
+  function addFragment(text, articleEl, selectedHtml = null) {
     const articleId = articleEl?.id || '';
     const titleEl = articleEl?.querySelector('h3');
     const articleTitle = titleEl ? titleEl.textContent.trim() : articleId;
     const url = window.location.href.split('#')[0] + (articleId ? '#' + articleId : '');
     const versionLabel = getVersionLabel(articleId);
-    const html = getFragmentHtml(articleEl);
+    const html = selectedHtml !== null ? selectedHtml : getFragmentHtml(articleEl);
 
     const fragment = {
       id: generateId(),
@@ -322,7 +322,14 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
       }
 
       const articleEl = getArticleEl(anchor);
-      pendingSelection = { text: selText, articleEl };
+
+      // Capture selected HTML before the range is lost
+      const range = sel.getRangeAt(0);
+      const container = document.createElement('div');
+      container.appendChild(range.cloneContents());
+      const selectedHtml = container.innerHTML;
+
+      pendingSelection = { text: selText, articleEl, selectedHtml };
 
       if (tooltipRef && articleEl) {
         const titleEl = articleEl.querySelector('h3');
@@ -330,7 +337,6 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
       }
 
       // Position tooltip near end of selection
-      const range = sel.getRangeAt(0);
       const rect = range.getBoundingClientRect();
       if (tooltip) {
         tooltip.style.display = 'flex';
@@ -368,7 +374,7 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
   saveBtn?.addEventListener('click', () => {
     if (!pendingSelection) return;
     const text = withEllipsis(pendingSelection.text, pendingSelection.articleEl);
-    addFragment(text, pendingSelection.articleEl);
+    addFragment(text, pendingSelection.articleEl, pendingSelection.selectedHtml);
     tooltip.style.display = 'none';
     pendingSelection = null;
     window.getSelection()?.removeAllRanges();
