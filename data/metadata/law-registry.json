@@ -224,6 +224,13 @@
       "status": "ingested",
       "category": "organizacion",
       "notes": "PDFs separados ES/VA. 3 títulos, 36 artículos, 3 DA, 2 DT, 1 DD, 7 DF. Deroga D.195/2022 (no ingresado). Vigente desde 07/01/2026."
+    },
+    {
+      "slug": "instrucciones-convalidaciones-2023",
+      "title": "Instrucciones convalidaciones música y danza – bachillerato (2023)",
+      "status": "ingested",
+      "category": "convalidaciones",
+      "notes": "Documento (no normativa). PDFs separados ES/VA. Sin artículos, solo contenido con 4 tablas de convalidaciones. Firmado por DG Centros Docentes."
     }
   ]
 }

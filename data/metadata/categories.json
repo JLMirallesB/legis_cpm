@@ -82,6 +82,15 @@
       "icon": "award"
     },
     {
+      "id": "convalidaciones",
+      "label": { "es": "Convalidaciones", "va": "Convalidacions" },
+      "description": {
+        "es": "Instrucciones y normas sobre convalidaciones entre enseñanzas de música y danza y otras enseñanzas",
+        "va": "Instruccions i normes sobre convalidacions entre ensenyaments de música i dansa i altres ensenyaments"
+      },
+      "icon": "check"
+    },
+    {
       "id": "general",
       "label": { "es": "Normativa general", "va": "Normativa general" },
       "description": {
