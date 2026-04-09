@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.10.1",
+    "date": "2026-04-09",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Nuevo cuaderno: \"Distribución horaria por especialidad\" con los cuadros de horas de los decretos de currículo autonómicos de música (elemental y profesional) y danza profesional."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Nou quadern: \"Distribució horària per especialitat\" amb els quadres d'hores dels decrets de currículum autonòmics de música (elemental i professional) i dansa professional."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.10.0",
     "date": "2026-04-09",
     "entries": {

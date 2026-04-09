@@ -1,0 +1,20 @@
+{
+  "id": "distribucion-horaria",
+  "slug": "distribucion-horaria",
+  "title": {
+    "es": "Distribución horaria por especialidad",
+    "va": "Distribució horària per especialitat"
+  },
+  "description": {
+    "es": "Cuadros de horas de asignatura por especialidad de los decretos de currículo autonómicos de música y danza.",
+    "va": "Quadres d'hores d'assignatura per especialitat dels decrets de currículum autonòmics de música i dansa."
+  },
+  "updatedAt": "2026-04-09",
+  "fragments": [
+    { "lawSlug": "decreto-159-2007", "articleId": "anexo-2" },
+    { "lawSlug": "decreto-158-2007", "articleId": "anexo-2" },
+    { "lawSlug": "decreto-109-2011", "articleId": "anexo-2" },
+    { "lawSlug": "decreto-90-2015", "articleId": "anexo-3" },
+    { "lawSlug": "decreto-156-2007", "articleId": "anexo-2" }
+  ]
+}
