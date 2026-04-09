@@ -1,0 +1,204 @@
+{
+  "id": "orden-gestion-economica-1995",
+  "slug": "orden-gestion-economica-1995",
+  "type": "orden",
+  "number": "18/05/1995",
+  "date": "1995-05-18",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "2526",
+    "date": "1995-06-09",
+    "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1995/835012",
+    "pdfUrl": "https://dogv.gva.es/datos/1995/06/09/pdf/1995_835012.pdf"
+  },
+  "title": "Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se delega en los directores de los centros docentes no universitarios de titularidad de la Generalitat Valenciana determinadas facultades ordinarias en materia de contratación y se aprueban las normas que regulan la gestión económica de dichos centros",
+  "titleShort": "Orden de gestión económica de centros docentes (1995)",
+  "category": "economica",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "1995-06-10"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "Son objetivos de la Generalitat Valenciana procurar la buena organización y funcionamiento de los centros docentes públicos no universitarios de la Comunidad Valenciana, así como la transparencia en el gasto y la autonomía en la actividad económica y financiera.\n\nPara conseguirlo, la Conselleria de Educación y Ciencia ha fijado las medidas fundamentales para la regulación de la actividad de los centros; y, en cuanto a la gestión económica, ha dictado la Orden de 2 de mayo de 1991, modificada por la de 19 de febrero de 1993, que regula la actividad económico-financiera y que es la culminación de una serie de resoluciones que ha venido dictando la Conselleria desde el año 1984.\n\nNo obstante, la experiencia en la aplicación de esta orden, así como la adecuación a la normativa legal vigente, especialmente a los preceptos de las últimas leyes anuales de presupuestos de la Generalitat Valenciana, requiere ampliar y completar la orden anterior y profundizar así en el marco legal al cual han de referirse los centros docentes.\n\nDe otra parte, el artículo 68 de la Ley 5/1983, de 30 de diciembre, de Gobierno Valenciano, establece que el ejercicio de competencias propias de cada órgano podrá ser delegado por éste en el órgano inferior, excepto que, por aplicación del principio de eficacia, sea aconsejable atribuirlo a otro órgano. Y el artículo 13 de la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común, establece la posibilidad de delegar el ejercicio de las competencias atribuidas a un determinado órgano en otro aunque no sea jerárquicamente dependiente, cuando existan circunstancias de índole técnica, económica, social, jurídica o territorial que lo hagan conveniente.\n\nSegún lo establecido en el Real Decreto 2.093/1983, de 28 de julio, sobre traspasos de funciones y servicios de la Administración del Estado a la Comunidad Valenciana en materia de educación, y en virtud de las atribuciones conferidas por la Ley 5/1983, de 30 de diciembre, de gobierno valenciano,"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "title": "Primero",
+      "content": "Se aprueban las normas reguladoras de la gestión económica de los centros docentes públicos no universitarios de titularidad de la Generalitat Valenciana (Conselleria de Educación y Ciencia) que se adjuntan como anexos a esta orden."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "title": "Segundo",
+      "content": "1. Se delega en los directores de los centros docentes públicos no universitarios de titularidad de la Generalitat Valenciana las facultades ordinarias en materia de contratación de los suministros de agua, gas, combustible, energía eléctrica y teléfono, y en todas aquellas materias en las que los centros estén autorizados para efectuar el gasto, según se establece en las normas que se aprueban en esta orden.\n\n2. El ejercicio de las facultades que se delegan en esta orden deberá adecuarse a lo establecido en los artículos 68 de la Ley de Gobierno Valenciano y 13 de la Ley de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común y en las instrucciones que dicte la Dirección General de Centros Docentes de esta Conselleria.\n\n3. En las resoluciones que se adopten por delegación deberá constar expresamente esta circunstancia."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "title": "Disposición derogatoria única",
+      "content": "Quedan derogadas las órdenes de la Conselleria de Cultura, Educación y Ciencia de 2 de mayo de 1991 y de 19 de febrero de 1993, así como las disposiciones de igual o inferior rango en todo aquello que se opongan a la presente orden."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "title": "Disposición final primera",
+      "content": "Se autoriza a las direcciones generales de Centros Docentes y de Régimen Económico para que, en el ámbito de sus competencias, dicten las resoluciones necesarias para la aplicación y desarrollo de la presente orden."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "title": "Disposición final segunda. Entrada en vigor",
+      "content": "Esta orden entrará en vigor el día siguiente de su publicación en el Diari Oficial de la Generalitat Valenciana."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "title": "Anexo I. Normas reguladoras de la gestión económica de los centros docentes públicos no universitarios",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "norma-1",
+          "title": "Norma primera. Provisión de fondos",
+          "content": "Los fondos a los centros docentes públicos no universitarios se librarán mediante órdenes de pago en firme de carácter cuatrimestral, excepto en la prórroga del ejercicio, a la cuenta corriente de cada centro escolar.\n\nLas cantidades anuales asignadas a los centros educativos no universitarios para su funcionamiento se fijarán por la Dirección General de Centros Docentes para cada ejercicio económico en función de los presupuestos de la Generalitat Valenciana."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-2",
+          "title": "Norma segunda. Ingresos",
+          "content": "Constituirán ingresos de los centros, que deberán aplicarse a gastos de los permitidos por la norma 4:\n\n– Los fondos que, con esta finalidad, les libre, mediante órdenes de pago en firme, la Conselleria de Educación y Ciencia, en sus diferentes conceptos, con cargo al presupuesto anual.\n\n– Las aportaciones procedentes de otras consellerias, corporaciones locales y entidades públicas.\n\n– Los fondos producidos por legados, donaciones o cualquier otra forma admisible en derecho.\n\n– Los derivados de la venta de bienes y prestación de servicios distintos de los gravados por las tasas y los precios públicos. En este sentido, los centros podrán obtener ingresos como consecuencia de la venta de bienes y servicios que, excepcionalmente, se produzcan como consecuencia del ejercicio de la docencia en su vertiente práctica.\n\n– El saldo final, en su caso, de la cuenta de gestión del ejercicio anterior, que no repercutirá en una minoración de recursos procedentes de la Conselleria de Educación y Ciencia."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-3",
+          "title": "Norma tercera. Presupuesto",
+          "content": "El director del centro, con la colaboración del secretario o administrador donde lo hubiese, elaborará un proyecto de presupuesto del centro para cada ejercicio, que se ajustará al modelo contenido en el anexo II de estas normas, lo presentará a la comisión económica para su informe y, posteriormente, al consejo escolar del centro que procederá, en el primer trimestre de cada año, a la aprobación del referido proyecto de presupuesto anual del centro.\n\nCumplidos estos trámites, se remitirá una copia a la dirección territorial de Educación para la aprobación del presupuesto, previa comprobación de que el contenido y procedimiento se ajustan a lo establecido en estas normas. En caso contrario, notificará al centro los defectos detectados para que sean subsanados. El presupuesto se entenderá aprobado si el centro no recibe una resolución desaprobatoria de la dirección territorial en el plazo de un mes.\n\nEl presupuesto de gastos vinculará al centro, pudiendo reajustarse, con las formalidades previstas para su aprobación, en función de las necesidades que se produzcan. Asimismo, el presupuesto podrá modificarse cuando se produzcan mayores o menores ingresos sobre los consignados inicialmente."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-4",
+          "title": "Norma cuarta. Gastos",
+          "content": "Los centros docentes podrán efectuar los siguientes gastos, cuya clasificación se detalla en el anexo III:\n\n1. Los contenidos en la vigente clasificación económica de los presupuestos de la Generalitat Valenciana dentro del capítulo II.\n\n2. Los destinados a la reparación y conservación de los inmuebles en que están ubicados los centros escolares.\n\n3. Los destinados a la adquisición de mobiliario y equipo didáctico del propio centro escolar.\n\nLos gastos a que se refiere el número 2 de esta norma son, exclusivamente, los de reparación y conservación de los edificios incluidos en el ámbito de la parcela escolar y sus instalaciones, como reparar o sustituir pavimentos, revestimientos de paredes y de techos, ventanas, puertas, persianas, vidrios, sanitarios, griferías, pintura, luminarias, pistas polideportivas, vallas de cerramiento, etc. y elementos de las instalaciones. Quedan excluidas todas aquellas obras que estén reguladas por normas técnicas que exijan proyecto firmado por técnico competente y que entrañen responsabilidad para su autor, o aquellas otras que modifiquen los espacios funcionales del edificio, sus usos y el de los espacios exteriores.\n\nEn los centros de Educación Infantil o Preescolar, de Educación Primaria, de Educación Especial y de Educación de Adultos, los gastos destinados al mantenimiento de inmuebles y los ocasionados por la conservación y reparación de los mismos serán cubiertos por las administraciones locales o entidades de derecho público titulares de los edificios.\n\nEn el resto de centros públicos de enseñanza no universitaria el mantenimiento del inmueble será a cargo de la Conselleria de Educación y Ciencia. Tales centros son los institutos de Enseñanza Secundaria, de Bachillerato y de Formación Profesional, y las escuelas de Enseñanzas de Régimen Especial, a saber, las oficiales de idiomas y las artísticas (de música, danza, arte dramático, artes aplicadas, cerámica y diseño).\n\nEn ningún caso se destinarán fondos a suplir obligaciones que, como la conservación, reparación o mantenimiento de bienes, los servicios y los suministros, estén atribuidas a la administración local o a las entidades de derecho público titulares de los edificios. Tampoco se incluirán como partidas de gasto las relativas a contratación de profesorado y a inversiones, excepto las permitidas por la presente norma."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-5",
+          "title": "Norma quinta. Procedimiento y justificación de los expedientes de obras, suministros y asistencias",
+          "content": "En los gastos a que se refiere la norma anterior, la adjudicación de las obras, suministros y asistencias o servicios cuya cuantía exceda de las 300.000 pesetas se ajustará a lo siguiente:\n\n**1. Procedimiento**\n\nSe abrirá un expediente de adjudicación, según el modelo del anexo IV, en el que constará la justificación de todas las actuaciones que al efecto se realicen.\n\nEl director recabará, al menos, tres presupuestos de firmas comerciales o empresas del sector, y el consejo escolar resolverá la adjudicación.\n\nEn el caso de la realización de obras que el centro puede efectuar a tenor de la norma 4 y en el de la adquisición de mobiliario y equipo didáctico, el centro remitirá inmediatamente a la dirección territorial de Educación respectiva la copia de los tres presupuestos y de la resolución de adjudicación.\n\nSi se adquiere mobiliario y equipo didáctico, éstos se deberán inscribir en el correspondiente libro de inventario del centro. Si se realizan obras, se pedirá previamente la autorización de la dirección territorial de Educación, que tendrá que contar con el informe favorable de la Unidad Técnica, debiendo obtenerse los reglamentarios permisos municipales y otros requisitos legales y técnicos.\n\n**2. Documentación**\n\nEn el expediente de adjudicación también habrán de constar como documentos exigibles:\n\na) En obras de reparación, conservación o mantenimiento: el presupuesto de la obra suscrito por una empresa del sector, la factura conformada y la certificación reglamentaria.\n\nb) En suministros menores realizados mediante compras directas en establecimientos comerciales abiertos al público: el presupuesto, la factura reglamentaria y la certificación de haberse recibido.\n\nc) En trabajos de asistencia prestados por empresas consultoras o de servicios: acreditación de la ineludible necesidad de la misma por carecer el centro de suficiente personal, el presupuesto, la factura reglamentaria y la certificación de realización del trabajo o servicio."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-6",
+          "title": "Norma sexta. Contratación",
+          "content": "Los directores de los centros quedan autorizados para suscribir contratos para el suministro de agua, gas, combustible para calefacción, energía eléctrica y teléfono, y todos aquellos contratos necesarios para efectuar gastos y que no estén excluidos en los apartados siguientes.\n\nLos directores de los centros no podrán autorizar los gastos de obras, suministros y asistencias o servicios para los que, por su cuantía, que anualmente determina la Ley de Presupuestos de la Generalitat Valenciana, se requiere un contrato administrativo regulado por la Ley de Contratos del Estado.\n\nLos directores tampoco podrán celebrar contratos para alquiler de locales ni para adjudicar bares o cafeterías: la competencia para la adjudicación de bar-cafetería está reservada a los directores territoriales, de conformidad con la circular de la Secretaría General de la Conselleria de Educación y Ciencia de 6 de junio de 1991."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-7",
+          "title": "Norma séptima. Justificación de los gastos",
+          "content": "La justificación de los gastos se efectuará mediante presentación, ante la Intervención Delegada de Hacienda en la Conselleria de Educación y Ciencia, de la cuenta de gestión anual. A este efecto, el director del centro formulará por triplicado esta cuenta de gestión anual conforme al modelo del anexo VI, que consta de: estado letra A, que recoge las operaciones de ingresos procedentes de la Conselleria de Educación y Ciencia y de gastos con cargo a tales ingresos; estado letra B, que recoge los recursos de otras procedencias y los gastos con cargo a esos recursos; y estado letra C, que recoge la situación inicial y final de la tesorería del centro resultante de ambos tipos de operaciones.\n\nLa tramitación de la cuenta de gestión anual tendrá el siguiente proceso:\n\n– En el mes de enero de cada año, el director del centro presentará al respectivo consejo escolar para su aprobación, si procede, la cuenta de gestión anual del ejercicio anterior.\n\n– Una vez aprobada por el consejo escolar correspondiente, la dirección de cada centro remitirá a la dirección territorial de Educación, antes del 15 de febrero, dos ejemplares de dicha cuenta, en la que ha de constar la diligencia de aprobación por el consejo escolar. Las direcciones territoriales controlarán la utilización de los fondos de que dispone cada uno de los centros docentes de su provincia.\n\n– El tercer ejemplar, junto con los justificantes originales y demás documentos acreditativos de los gastos realizados, quedará bajo la custodia y responsabilidad del secretario del centro.\n\n– Las direcciones territoriales de Educación remitirán las mencionadas cuentas, antes del 31 de marzo, a la Intervención Delegada de la Generalitat Valenciana en la Conselleria de Educación y Ciencia, junto con el resumen de balances (anexo VII).\n\nAdemás de la justificación anual, el director del centro informará trimestralmente a la comunidad escolar, a través del consejo escolar, del estado de cuentas del centro."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-8",
+          "title": "Norma octava. Apertura y funcionamiento de cuentas corrientes",
+          "content": "Los centros dispondrán de una única cuenta corriente, abierta a nombre del centro, en cualquier entidad bancaria o de ahorro, a través de la cual se efectuarán los ingresos y pagos del centro.\n\nLas órdenes de pago que se expidan contra dicha cuenta lo serán bajo las firmas mancomunadas del director y del secretario si lo hubiese o, en defecto de éste, del profesor que forme parte de la comisión económica.\n\nEn los casos de ausencia prolongada o enfermedad, el director determinará los funcionarios o funcionarias que han de sustituir a los titulares de las firmas de órdenes de pago. En los centros de una unidad el profesor titular queda autorizado a tener una sola firma en dicha cuenta.\n\nLa apertura de cuentas en centros nuevos debe solicitarse a la dirección territorial de Educación, la cual remitirá de inmediato la solicitud conformada a la Dirección General de Centros Docentes como órgano pagador.\n\nEl NIF del centro escolar, el código del Registro de Centros Docentes y los datos bancarios (claves de entidad y sucursal y número de cuenta) constituyen señas de identidad necesarias del centro escolar."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-9",
+          "title": "Norma novena. Instrumentación contable",
+          "content": "Los libros para instrumentar la gestión contable de los centros públicos no universitarios son: el libro de la cuenta de gestión, cuyo modelo se detalla en el anexo VIII, el libro de la cuenta corriente bancaria y el libro de caja.\n\nLos apuntes del libro de la cuenta de gestión se trasladarán resumidamente, al final del año, a los distintos estados de la cuenta anual de gestión que ha de remitirse a la dirección territorial de Educación.\n\nPodrán aplicarse medios informáticos a la gestión contable y, con el material impreso, se confeccionarán los mismos libros antes señalados, con idénticas características y requisitos."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-10",
+          "title": "Norma diez. Tasas y precios públicos",
+          "content": "En cuanto a las tasas y a los precios públicos, se estará a lo que disponen la legislación vigente en la materia, las leyes presupuestarias de cada año, las órdenes que, a estos efectos, dicte la Conselleria de Economía y Hacienda, así como las normas complementarias que dicte la Conselleria de Educación y Ciencia."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-11",
+          "title": "Norma once. Archivo de documentación",
+          "content": "Las rendiciones anuales de cuentas y la aprobación del consejo escolar, así como toda la documentación que sirve de justificación a las operaciones económicas y contables (presupuestos, facturas, recibos, talonarios de cheques, copias de órdenes de transferencia y demás justificantes), deberán ser archivados por orden cronológico.\n\nDicha documentación podrá ser recabada en cualquier momento por la administración educativa, por la Intervención Delegada de la Generalitat Valenciana o por cualquier otro órgano competente, los cuales, asimismo, podrán realizar los controles de auditoría e inspección que estimen convenientes.\n\nDe su custodia es responsable el secretario del centro o, en su defecto, el director del mismo.\n\nEn caso de cambio en la dirección del centro se producirá el traspaso de la documentación, y deberá rellenarse un acta diligenciada por el consejo escolar que incluya el balance de la situación económica, siendo, en cualquier caso, el director saliente el responsable del estado de cuentas."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-12",
+          "title": "Norma doce. Inventario de bienes",
+          "content": "Los inventarios de los centros escolares se ajustarán a lo establecido por la Dirección General de Régimen Económico de la Conselleria de Educación y Ciencia. Se podrán establecer procedimientos de informatización para mantener vivos los bancos de datos sobre libros de inventario que se fijan en la normativa."
+        }
+      ]
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-2",
+      "title": "Anexo II. Presupuesto",
+      "content": "Disponible para descarga en el PDF oficial (pág. 7)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-3",
+      "title": "Anexo III. Clasificación de los gastos",
+      "content": "**1. Reparación y conservación de bienes**\n\nSe imputan a este concepto los gastos de mantenimiento, conservación y reparación de los bienes, tanto inmuebles como muebles, que pertenezcan al centro en propiedad, en arrendamiento o en cualquier otra forma. Así, se incluyen en este concepto los gastos de mantenimiento, conservación y reparación de edificios y otras construcciones, de maquinaria, instalaciones y utillaje, de mobiliario y enseres, y de equipos para procesos de información. Se excluyen todas las demás obras que, como las de reforma y ampliación, están excluidas según la norma 4.\n\n| Código | Concepto |\n|---|---|\n| 1.1 | Edificios y otras construcciones |\n| 1.2 | Maquinaria, instalaciones y utillaje |\n| 1.3 | Mobiliario y enseres |\n| 1.4 | Equipos para procesos informáticos |\n\n**2. Suministros**\n\nSe incluyen en este concepto los gastos por la provisión de agua, gas, electricidad, combustible para calefacción, vestuario, productos alimenticios y farmacéuticos, material de limpieza, material de actividades docentes, culturales o recreativas, y aquellos suministros no especificados en los demás grupos de gastos.\n\n| Código | Concepto |\n|---|---|\n| 2.1 | Agua |\n| 2.2 | Gas |\n| 2.3 | Electricidad |\n| 2.4 | Combustible para calefacción |\n| 2.5 | Productos de alimentación |\n| 2.6 | Material de limpieza |\n| 2.7 | Material de actividades |\n| 2.8 | Otros |\n\n**3. Transportes y comunicaciones**\n\nSe imputan a este concepto los gastos de transporte de todo tipo, excepto los referidos a personas, así como los gastos por teléfono, correos, telégrafo y cualquier otro tipo de comunicación que no se encargue a una entidad privada.\n\n| Código | Concepto |\n|---|---|\n| 3.1 | Teléfono |\n| 3.2 | Correos, telégrafo |\n| 3.3 | Otros |\n\n**4. Trabajos realizados por otros**\n\nSe imputan a este concepto los gastos ocasionados por la realización de servicios encomendados a empresas consultoras o de servicios, así como los gastos por la realización de trabajos específicos y concretos no habituales concertados con personas físicas que reúnan los requisitos de solvencia técnica o científica necesarios y las exigencias fiscales y de Seguridad Social.\n\n| Código | Concepto |\n|---|---|\n| 4.1 | Limpieza, desinfección y desratización |\n| 4.2 | Vigilancia |\n| 4.3 | Primas de seguros |\n| 4.4 | Trabajos de imprenta |\n| 4.5 | Otros |\n\n**5. Material de oficina**\n\nSe imputan los gastos originados por la compra de material de oficina no inventariable, prensa, revistas, publicaciones, libros, fotocopias y material para el funcionamiento de equipos informáticos.\n\n| Código | Concepto |\n|---|---|\n| 5.1 | Prensa, revistas y libros |\n| 5.2 | Fotocopias |\n| 5.3 | Material funcionamiento equipos informáticos |\n| 5.4 | Otros |\n\n**6. Mobiliario y equipo**\n\nSe imputan los gastos destinados a la adquisición de mobiliario y equipo escolar de carácter inventariable no contemplados en programas centralizados de inversiones.\n\n| Código | Concepto |\n|---|---|\n| 6.1 | Mobiliario |\n| 6.2 | Equipamiento |\n\n**7. Dietas y locomoción**\n\nSe incluyen las cantidades abonadas a personal del mismo centro para resarcirles de los gastos de esta naturaleza ocasionados por la comisión de servicios. En todo caso, las cantidades serán las legalmente establecidas.\n\n| Código | Concepto |\n|---|---|\n| 7.1 | Dietas |\n| 7.2 | Locomoción |\n\n**8. Gastos diversos**\n\nGastos no incluidos en los demás conceptos.\n\n| Código | Concepto |\n|---|---|\n| 8.0 | Gastos diversos |"
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-4",
+      "title": "Anexo IV. Expediente de adjudicación",
+      "content": "Disponible para descarga en el PDF oficial (pág. 11)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-5",
+      "title": "Anexo V. Orden de comisión de servicios",
+      "content": "Disponible para descarga en el PDF oficial (pág. 12)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-6",
+      "title": "Anexo VI. Cuenta anual de gestión",
+      "content": "Disponible para descarga en el PDF oficial (pág. 13-15)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-7",
+      "title": "Anexo VII. Resumen de cuentas anuales de gestión",
+      "content": "Disponible para descarga en el PDF oficial (pág. 16)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-8",
+      "title": "Anexo VIII. Libro de la cuenta de gestión",
+      "content": "Disponible para descarga en el PDF oficial (pág. 17)."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "1995-05-18",
+    "signatories": [
+      {
+        "name": "Joan Romero i González",
+        "role": "Conselleria de Educación"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "normativa"
+}

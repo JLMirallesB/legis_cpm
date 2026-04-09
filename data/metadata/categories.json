@@ -82,6 +82,15 @@
       "icon": "award"
     },
     {
+      "id": "economica",
+      "label": { "es": "Gestión económica", "va": "Gestió econòmica" },
+      "description": {
+        "es": "Normas sobre gestión económica, contratación y presupuestos de centros docentes",
+        "va": "Normes sobre gestió econòmica, contractació i pressupostos de centres docents"
+      },
+      "icon": "book"
+    },
+    {
       "id": "convalidaciones",
       "label": { "es": "Convalidaciones", "va": "Convalidacions" },
       "description": {

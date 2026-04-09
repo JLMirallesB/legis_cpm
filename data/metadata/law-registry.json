@@ -231,6 +231,13 @@
       "status": "ingested",
       "category": "convalidaciones",
       "notes": "Documento (no normativa). PDFs separados ES/VA. Sin artículos, solo contenido con 4 tablas de convalidaciones. Firmado por DG Centros Docentes."
+    },
+    {
+      "slug": "orden-gestion-economica-1995",
+      "title": "Orden 18/05/1995 - Gestión económica de centros docentes",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "PDF antiguo DOGV bilingüe 2 columnas. 2 artículos, DD, 2 DF, Anexo I (12 normas), Anexo III (clasificación gastos). Anexos II, IV-VIII como formularios para descarga (no ingresados)."
     }
   ]
 }

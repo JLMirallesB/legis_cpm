@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.13.0",
+    "date": "2026-04-09",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Orden de 18 de mayo de 1995 de gestión económica de centros docentes. 2 artículos, 12 normas (Anexo I), clasificación de gastos (Anexo III), y 6 formularios para descarga (Anexos II, IV-VIII)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Nueva categoría \"Gestión económica\" en el catálogo."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de l'Ordre de 18 de maig de 1995 de gestió econòmica de centres docents. 2 articles, 12 normes (Annex I), classificació de despeses (Annex III), i 6 formularis per a descàrrega (Annexos II, IV-VIII)."
+        },
+        {
+          "type": "nou",
+          "description": "Nova categoria \"Gestió econòmica\" al catàleg."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.12.1",
     "date": "2026-04-09",
     "entries": {

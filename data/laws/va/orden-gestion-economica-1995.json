@@ -1,0 +1,204 @@
+{
+  "id": "orden-gestion-economica-1995",
+  "slug": "orden-gestion-economica-1995",
+  "type": "orden",
+  "number": "18/05/1995",
+  "date": "1995-05-18",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "2526",
+    "date": "1995-06-09",
+    "url": "https://dogv.gva.es/es/resultat-dogv?signatura=1995/835012",
+    "pdfUrl": "https://dogv.gva.es/datos/1995/06/09/pdf/1995_835012.pdf"
+  },
+  "title": "Ordre de 18 de maig de 1995, de la Conselleria d'Educació i Ciència, per la qual es delega en els directors dels centres docents no universitaris de titularitat de la Generalitat Valenciana determinades facultats ordinàries en matèria de contractació i s'aproven les normes que regulen la gestió econòmica d'aquests centres",
+  "titleShort": "Ordre de gestió econòmica de centres docents (1995)",
+  "category": "economica",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "1995-06-10"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "Són objectius de la Generalitat Valenciana procurar la bona organització i funcionament dels centres docents públics no universitaris de la Comunitat Valenciana, així com la transparència en la despesa i l'autonomia en la gestió econòmica i financera.\n\nPer a aconseguir-ho, la Conselleria d'Educació i Ciència ha fixat les mesures fonamentals per a la regulació de l'activitat dels centres, a més a més de dictar, quant a la gestió econòmica, l'Ordre de 2 de maig de 1991, modificada per la de 19 de febrer de 1993, que regula l'activitat econòmico-financera i que és la culminació d'una sèrie de resolucions que ha dictat la Conselleria des de l'any 1984.\n\nNo obstant això, l'experiència en l'aplicació d'aquesta ordre, així com l'adequació a la normativa legal vigent, especialment als preceptes de les últimes lleis anuals de pressupostos de la Generalitat Valenciana, requereix ampliar i completar l'ordre anterior i aprofundir així en el marc legal al qual han de referir-se els centres docents.\n\nD'altra banda, l'article 68 de la Llei 5/1983, de 30 de desembre, de Govern Valencià, estableix que l'exercici de competències pròpies de cada òrgan podrà ser delegat per aquest en l'òrgan inferior, excepte que, per aplicació del principi d'eficàcia, siga aconsellable atribuir-lo a un altre òrgan. I l'article 13 de la Llei 30/1992, de 26 de novembre, de Règim Jurídic de les Administracions Públiques i del Procediment Administratiu Comú, estableix la possibilitat de delegar l'exercici de les competències atribuïdes a un determinat òrgan en un altre, encara que no siga jeràrquicament dependent, quan existisquen circumstàncies d'índole tècnica, econòmica, social, jurídica o territorial que ho facen convenient.\n\nSegons el que estableix el Reial Decret 2.093/1983, de 28 de juliol, sobre traspassos de funcions i serveis de l'Administració de l'Estat a la Comunitat Valenciana en matèria d'educació, i en virtut de les atribucions que confereix la Llei 5/1983, de 30 de desembre, de govern valencià,"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "title": "Primer",
+      "content": "S'aproven les normes reguladores de la gestió econòmica dels centres docents públics no universitaris de titularitat de la Generalitat Valenciana (Conselleria d'Educació i Ciència) que s'adjunten com a annexos a aquesta ordre."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "title": "Segon",
+      "content": "1. Es delega en els directors dels centres docents públics no universitaris de titularitat de la Generalitat Valenciana les facultats ordinàries en matèria de contractació dels subministraments d'aigua, gas, combustible, energia elèctrica i telèfon, i en totes aquelles matèries en què els centres estiguen autoritzats per a efectuar la despesa, segons estableixen les normes que s'aproven en aquesta ordre.\n\n2. L'exercici de les facultats que es deleguen en aquesta ordre haurà d'adequar-se a allò que s'estableix en els articles 68 de la Llei de Govern Valencià i 13 de la Llei de Règim Jurídic de les Administracions Públiques i del Procediment Administratiu Comú i en les instruccions que dicte la Direcció General de Centres Docents d'aquesta Conselleria.\n\n3. En les resolucions que s'adopten per delegació cal que conste expressament aquesta circumstància."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "title": "Disposició derogatòria única",
+      "content": "Queden derogades les ordres de la Conselleria de Cultura, Educació i Ciència de 2 de maig de 1991 i de 19 de febrer de 1993, així com les disposicions d'igual o inferior rang en tot allò que s'oposen a aquesta ordre."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "title": "Disposició final primera",
+      "content": "S'autoritza les direccions generals de Centres Docents i de Règim Econòmic perquè, en l'àmbit de les seues competències, dicten les resolucions necessàries per a l'aplicació i el desplegament d'aquesta ordre."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "title": "Disposició final segona. Entrada en vigor",
+      "content": "Aquesta ordre entrarà en vigor l'endemà de la seua publicació en el Diari Oficial de la Generalitat Valenciana."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "title": "Annex I. Normes reguladores de la gestió econòmica dels centres docents públics no universitaris",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "norma-1",
+          "title": "Norma primera. Provisió de fons",
+          "content": "Els fons es lliuraran als centres docents públics no universitaris mitjançant ordres de pagament en ferm de caràcter quadrimestral, excepció feta de la pròrroga de l'exercici, al compte corrent de cada centre escolar.\n\nLes quantitats anuals assignades als centres educatius no universitaris per al seu funcionament les fixarà la Direcció General de Centres Docents per a cada exercici econòmic en funció dels pressupostos de la Generalitat Valenciana."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-2",
+          "title": "Norma segona. Ingressos",
+          "content": "Constituiran ingressos dels centres, que caldrà aplicar a les despeses que permet la norma 4:\n\n– Els fons que, amb aquesta finalitat, els lliurarà, mitjançant ordres de pagament en ferm, la Conselleria d'Educació i Ciència, en els diferents conceptes, a càrrec del pressupost anual.\n\n– Les aportacions procedents d'altres conselleries, corporacions locals i entitats públiques.\n\n– Els fons produïts per llegats, donacions o qualsevol altra forma admissible en dret.\n\n– Els derivats de la venda de béns i prestació de serveis distints dels gravats per les taxes i els preus públics. En aquest sentit, els centres podran obtenir ingressos com a conseqüència de la venda de béns i serveis que, excepcionalment, es produïsquen com a conseqüència de l'exercici de la docència en l'aspecte pràctic.\n\n– El saldo final, si s'escau, del compte de gestió de l'exercici anterior, que no repercutirà en una minoració de recursos procedents de la Conselleria d'Educació i Ciència."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-3",
+          "title": "Norma tercera. Pressupost",
+          "content": "El director del centre, amb la col·laboració del secretari o administrador, on n'hi haja, elaborarà un projecte de pressupost del centre per a cada exercici, que s'ajustarà al model contingut en l'annex II d'aquestes normes, el presentarà a la comissió econòmica perquè emeta l'informe corresponent i, posteriorment, al consell escolar del centre, el qual, en el primer trimestre de cada any, aprovarà l'esmentat projecte de pressupost anual del centre.\n\nUna vegada complerts aquests tràmits, s'enviarà una còpia a la direcció territorial d'Educació per a l'aprovació del pressupost, després de comprovar prèviament que el contingut i el procediment s'ajusten a allò establert en aquestes normes. En cas contrari, haurà de notificar al centre els defectes observats perquè siguen esmenats. El pressupost s'entendrà aprovat si el centre no rep una resolució desaprovatòria de la direcció territorial en el termini d'un mes.\n\nEl pressupost de despeses vincularà el centre, que podrà reajustar-lo, amb les formalitats previstes per a la seua aprovació, en funció de les necessitats que es produïsquen. Així mateix, el pressupost podrà modificar-se quan es produïsquen majors o menors ingressos sobre els consignats inicialment."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-4",
+          "title": "Norma quarta. Despeses",
+          "content": "Els centres docents podran efectuar les següents despeses, la classificació de les quals es detalla en l'annex III:\n\n1. Les incloses en la classificació econòmica vigent dels pressupostos de la Generalitat Valenciana dins del capítol II.\n\n2. Les destinades a la reparació i conservació dels immobles en què estan ubicats els centres escolars.\n\n3. Les destinades a l'adquisició de mobiliari i equip didàctic del propi centre escolar.\n\nLes despeses a què es refereix el número 2 d'aquesta norma són, exclusivament, les de reparació i conservació dels edificis inclosos en l'àmbit de la parcel·la escolar i les seues instal·lacions, com ara reparar o substituir paviments, revestiments de parets i de sostres, finestres, portes, persianes, vidres, sanitaris, aixetes, pintura, lluminàries, pistes poliesportives, tanques, etc. i elements de les instal·lacions. Queden excloses totes aquelles obres que estiguen regulades per normes tècniques que exigisquen projecte signat per un tècnic competent i que comporten responsabilitat per al seu autor, o aquelles altres que modifiquen els espais funcionals de l'edifici, els seus usos i el dels espais exteriors.\n\nAls centres d'Educació Infantil o Preescolar, d'Educació Primària, d'Educació Especial i d'Educació d'Adults, les despeses destinades al manteniment d'immobles i les ocasionades per la conservació i reparació d'aquests seran cobertes per les administracions locals o entitats de dret públic titulars dels edificis.\n\nA la resta dels centres públics d'ensenyament no universitari el manteniment de l'immoble serà a càrrec de la Conselleria d'Educació i Ciència. Aquests centres són els instituts d'Ensenyament Secundari, de Batxillerat i de Formació Professional, i les escoles d'Ensenyaments de Règim Especial, que són les escoles oficials d'idiomes i les artístiques (de música, dansa, art dramàtic, arts aplicades, ceràmica i disseny).\n\nEn cap cas es destinaran fons a suplir obligacions que, com ara la conservació, reparació o manteniment de béns, els serveis o els subministraments, corresponguen a l'administració local o a les entitats de dret públic titulars dels edificis. Tampoc no s'hi inclouran com a partides de despesa les relatives a la contractació de professorat i a inversions, excepte les permeses per aquesta norma."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-5",
+          "title": "Norma cinquena. Procediment i justificació dels expedients d'obres, subministraments i assistències",
+          "content": "En les despeses a què es refereix la norma anterior, l'adjudicació de les obres, subministraments i assistències o serveis d'una quantitat superior a 300.000 pessetes s'haurà d'ajustar als punts següents:\n\n**1. Procediment**\n\nCaldrà obrir un expedient d'adjudicació, d'acord amb el model de l'annex IV, en el qual haurà de constar la justificació de totes les actuacions que es facen a aquest efecte.\n\nEl director haurà de demanar, almenys, tres pressupostos de firmes comercials o empreses del sector i el consell escolar en resoldrà l'adjudicació.\n\nEn el cas de la realització d'obres que el centre pot efectuar segons la norma 4 i en el de l'adquisició de mobiliari i equip didàctic, el centre trametrà immediatament a la direcció territorial d'Educació respectiva la còpia dels tres pressupostos i de la resolució d'adjudicació.\n\nSi s'adquireix mobiliari i equip didàctic, caldrà inscriure-ho en el corresponent llibre d'inventari del centre. Si es realitzen obres, caldrà demanar prèviament l'autorització de la direcció territorial d'Educació, que haurà de tenir l'informe favorable de la Unitat Tècnica, i obtenir els reglamentaris permisos municipals i altres requisits legals i tècnics.\n\n**2. Documentació**\n\nEn l'expedient d'adjudicació també hauran de constar com a documents exigibles:\n\na) En obres de reparació, conservació o manteniment: el pressupost de l'obra subscrit per una empresa del sector, la factura conformada i la certificació reglamentària.\n\nb) En subministraments menors que es fan a través de compres directes a establiments comercials oberts al públic: el pressupost, la factura reglamentària i el certificat de rebuda.\n\nc) En treballs d'assistència realitzats per empreses consultores o de serveis: acreditació de la ineludible necessitat d'aquesta per manca de personal suficient, el pressupost, la factura reglamentària i la certificació de realització del treball o servei."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-6",
+          "title": "Norma sisena. Contractació",
+          "content": "S'autoritza els directors dels centres perquè subscriguen els contractes per al subministrament d'aigua, gas, combustible per a calefacció, energia elèctrica i telèfon, i tots aquells contractes necessaris per a efectuar despeses i que no estiguen exclosos en els apartats següents.\n\nEls directors dels centres no podran autoritzar les despeses d'obres, subministraments i assistències o serveis per als quals, per la seua quantia, que anualment determina la Llei de Pressupostos de la Generalitat Valenciana, es requereix un contracte administratiu regulat per la Llei de Contractes de l'Estat.\n\nEls directors tampoc no podran signar contractes per a lloguer de locals ni per a adjudicar bars o cafeteries: la competència per a l'adjudicació de bar-cafeteria està reservada als directors territorials de conformitat amb la circular de la Secretaria General de la Conselleria d'Educació i Ciència de 6 de juny de 1991."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-7",
+          "title": "Norma setena. Justificació de les despeses",
+          "content": "La justificació de les despeses s'haurà de presentar, davant de la Intervenció Delegada d'Hisenda en la Conselleria d'Educació i Ciència, mitjançant el compte de gestió anual. A aquest efecte, el director del centre formularà en tres exemplars aquest compte de gestió anual conforme al model de l'annex VI, que consta de: estat lletra A, que conté les operacions d'ingressos procedents de la Conselleria d'Educació i Ciència i les despeses a càrrec d'aquests ingressos; estat lletra B, que conté els recursos d'altres procedències i les despeses a càrrec d'aquests recursos; i estat lletra C, que conté la situació inicial i final de la tresoreria del centre resultant d'ambdós tipus d'operacions.\n\nLa tramitació del compte de gestió anual tindrà el següent procés:\n\n– Al mes de gener de cada any, el director del centre presentarà al respectiu consell escolar per tal que l'aprove, si escau, el compte de gestió anual de l'exercici anterior.\n\n– Una vegada aprovat pel consell escolar corresponent, la direcció de cada centre trametrà a la direcció territorial d'Educació, abans del 15 de febrer, dos exemplars d'aquest compte, en el qual ha de constar la diligència d'aprovació per part del consell escolar. Les direccions territorials d'Educació controlaran la utilització dels fons de què disposa cadascun dels centres docents de la seua província.\n\n– El tercer exemplar, juntament amb els justificants originals i els altres documents acreditatius de les despeses realitzades, restarà sota la custòdia i responsabilitat del secretari del centre.\n\n– Les direccions territorials d'Educació trametran els esmentats comptes, abans del 31 de març, a la Intervenció Delegada de la Generalitat Valenciana en la Conselleria d'Educació i Ciència, juntament amb el resum de balanços (annex VII).\n\nA més de la justificació anual, el director del centre informarà trimestralment la comunitat escolar, a través del consell escolar, sobre l'estat de comptes del centre."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-8",
+          "title": "Norma vuitena. Obertura i funcionament de comptes corrents",
+          "content": "Els centres disposaran d'un únic compte corrent, obert a nom del centre en qualsevol entitat bancària o d'estalvi, a través de la qual s'efectuaran els ingressos i els pagaments del centre.\n\nLes ordres de pagament que s'expediran contra aquest compte portaran les firmes conjuntes del director i del secretari, si n'hi ha, o, en cas contrari, del professor que forme part de la comissió econòmica.\n\nPer a preveure els casos d'absència prolongada o malaltia, el director determinarà els funcionaris o les funcionàries que els han de substituir en les firmes d'aquestes ordres de pagament. Als centres d'una unitat el professor titular queda autoritzat a tindre una sola firma en aquest compte.\n\nL'obertura de comptes a centres nous s'ha de sol·licitar a la direcció territorial d'Educació, la qual trametrà immediatament la sol·licitud conformada a la Direcció General de Centres Docents com a òrgan pagador.\n\nEl NIF del centre escolar, el codi del Registre de Centres Docents i les dades bancàries (claus d'entitat i sucursal i número de compte) constitueixen senyes d'identitat necessàries del centre escolar."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-9",
+          "title": "Norma novena. Instrumentació comptable",
+          "content": "Els llibres per a fer efectiva la gestió comptable dels centres públics no universitaris són: el llibre del compte de gestió, el model del qual s'inclou en l'annex VIII, el llibre del compte corrent bancari i el llibre de caixa.\n\nEls apunts del llibre del compte de gestió es traslladaran resumidament, al final de l'any, als diversos estats del compte anual de gestió que ha de trametre's a la direcció territorial d'Educació.\n\nPodran aplicar-se mitjans informàtics a la gestió comptable i, amb el material imprès, es confeccionaran els mateixos llibres abans assenyalats, amb idèntiques característiques i requisits."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-10",
+          "title": "Norma deu. Taxes i preus públics",
+          "content": "Pel que fa a les taxes i als preus públics, hom s'ajustarà a allò que disposen la legislació vigent en la matèria, les lleis pressupostàries de cada any, les ordres que, a aquests efectes, dicte la Conselleria d'Economia i Hisenda, com també les normes complementàries que dicte la Conselleria d'Educació i Ciència."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-11",
+          "title": "Norma onze. Arxiu de documentació",
+          "content": "Les rendicions anuals de comptes i l'aprovació del consell escolar, com també tota la documentació que servirà de justificació a les operacions econòmiques i comptables (pressupostos, factures, rebuts, talonaris de xecs, còpies d'ordres de transferència i altres justificants), s'hauran d'arxivar per ordre cronològic.\n\nAquesta documentació podrà ser demanada en qualsevol moment per part de l'administració educativa, per la Intervenció Delegada de la Generalitat Valenciana o per qualsevol altre òrgan competent, els quals també podran fer els controls d'auditoria i inspecció que consideren escaients.\n\nDe la custòdia d'aquesta documentació és responsable el secretari del centre o, si no n'hi ha, el director d'aquest.\n\nEn cas que canvie la direcció del centre s'hi produirà el traspàs de la documentació i caldrà omplir una acta diligenciada pel consell escolar que incloga el balanç de la situació econòmica. En tot cas, el director eixint serà el responsable de l'estat de comptes."
+        },
+        {
+          "type": "seccion",
+          "id": "norma-12",
+          "title": "Norma dotze. Inventari de béns",
+          "content": "Els inventaris dels centres escolars s'ajustaran a allò que dispose la Direcció General de Règim Econòmic de la Conselleria d'Educació i Ciència. Es podran establir procediments d'informatització per mantenir vius els bancs de dades sobre llibres d'inventari que es fixen en la normativa."
+        }
+      ]
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-2",
+      "title": "Annex II. Pressupost",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 7)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-3",
+      "title": "Annex III. Classificació de les despeses",
+      "content": "**1. Reparació i conservació de béns**\n\nS'hi imputen en aquest concepte les despeses de manteniment, conservació i reparació dels béns, tant immobles com mobles, que pertanyen al centre en propietat, en arrendament o en qualsevol altra forma. Així, s'inclouen en aquest concepte les despeses de manteniment, conservació i reparació d'edificis i d'altres construccions, de maquinària, instal·lacions i utillatge, de mobiliari i estris, i d'equips per a processos d'informació. S'hi exclouen totes les altres obres que, com les de reforma i ampliació, estan excloses segons la norma 4.\n\n| Codi | Concepte |\n|---|---|\n| 1.1 | Edificis i altres construccions |\n| 1.2 | Maquinària, instal·lacions i utillatge |\n| 1.3 | Mobiliari i estris |\n| 1.4 | Equips per a processos informàtics |\n\n**2. Subministraments**\n\nS'inclouen en aquest concepte les despeses per la provisió d'aigua, gas, electricitat, combustible per a calefacció, vestuari, productes d'alimentació i de farmàcia, material de neteja, material d'activitats docents, culturals o recreatives, i aquells subministraments no especificats en els altres grups de despeses.\n\n| Codi | Concepte |\n|---|---|\n| 2.1 | Aigua |\n| 2.2 | Gas |\n| 2.3 | Electricitat |\n| 2.4 | Combustible per a calefacció |\n| 2.5 | Productes d'alimentació |\n| 2.6 | Material de neteja |\n| 2.7 | Material d'activitats |\n| 2.8 | Altres |\n\n**3. Transports i comunicacions**\n\nS'hi imputen en aquest concepte les despeses de transport de qualsevol tipus, llevat de les referides a persones, així com les despeses per telèfon, correus, telègraf i qualsevol altre tipus de comunicació que no s'encomane a una entitat privada.\n\n| Codi | Concepte |\n|---|---|\n| 3.1 | Telèfon |\n| 3.2 | Correus, telègraf |\n| 3.3 | Altres |\n\n**4. Treballs realitzats per altres**\n\nS'hi imputen en aquest concepte les despeses per la realització de serveis encomanats a empreses consultores o de serveis, així com les despeses per la realització de treballs específics i concrets no habituals concertats amb persones físiques que complisquen els requisits de solvència tècnica o científica necessaris i les exigències fiscals i de Seguretat Social.\n\n| Codi | Concepte |\n|---|---|\n| 4.1 | Neteja, desinfecció i desratització |\n| 4.2 | Vigilància |\n| 4.3 | Primes d'assegurances |\n| 4.4 | Treballs d'impremta |\n| 4.5 | Altres |\n\n**5. Material d'oficina**\n\nS'hi imputen les despeses produïdes per la compra de material d'oficina no inventariable, premsa, revistes, publicacions, llibres, fotocòpies i material per al funcionament d'equips informàtics.\n\n| Codi | Concepte |\n|---|---|\n| 5.1 | Premsa, revistes i llibres |\n| 5.2 | Fotocòpies |\n| 5.3 | Material funcionament equips informàtics |\n| 5.4 | Altres |\n\n**6. Mobiliari i equipament**\n\nS'hi imputen les despeses produïdes per l'adquisició de mobiliari i equip escolar de caràcter inventariable no incloses en programes centralitzats d'inversions.\n\n| Codi | Concepte |\n|---|---|\n| 6.1 | Mobiliari |\n| 6.2 | Equipament |\n\n**7. Dietes i locomoció**\n\nS'hi inclouen les quantitats pagades a personal del mateix centre per tal de rescabalar-los de les despeses d'aquesta naturalesa produïdes per la comissió de serveis. En qualsevol cas, les quantitats seran les legalment establertes.\n\n| Codi | Concepte |\n|---|---|\n| 7.1 | Dietes |\n| 7.2 | Locomoció |\n\n**8. Despeses diverses**\n\nDespeses no incloses en els altres conceptes.\n\n| Codi | Concepte |\n|---|---|\n| 8.0 | Despeses diverses |"
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-4",
+      "title": "Annex IV. Expedient d'adjudicació",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 11)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-5",
+      "title": "Annex V. Ordre de comissió de serveis",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 12)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-6",
+      "title": "Annex VI. Compte anual de gestió",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 13-15)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-7",
+      "title": "Annex VII. Resum dels comptes anuals de gestió",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 16)."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-8",
+      "title": "Annex VIII. Llibre del compte de gestió",
+      "content": "Disponible per a descàrrega en el PDF oficial (pàg. 17)."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "1995-05-18",
+    "signatories": [
+      {
+        "name": "Joan Romero i González",
+        "role": "Conselleria d'Educació"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "normativa"
+}
