@@ -14,12 +14,22 @@ const lawsByCategory = getLawsByCategory(lang);
 ---
 
 <section class="catalog">
+  <nav class="category-nav" aria-label={lang === 'va' ? 'Categories' : 'Categorías'}>
+    {categories.map((cat) => {
+      const laws = lawsByCategory.get(cat.id);
+      if (!laws || laws.length === 0) return null;
+      return (
+        <a href={`#cat-${cat.id}`} class="category-chip">{cat.label[lang]} ({laws.length})</a>
+      );
+    })}
+  </nav>
+
   {categories.map((cat) => {
     const laws = lawsByCategory.get(cat.id);
     if (!laws || laws.length === 0) return null;
 
     return (
-      <div class="category-section">
+      <div class="category-section" id={`cat-${cat.id}`}>
         <h2 class="category-title">{cat.label[lang]}</h2>
         {cat.description?.[lang] && (
           <p class="category-desc">{cat.description[lang]}</p>
@@ -43,6 +53,37 @@ const lawsByCategory = getLawsByCategory(lang);
     display: flex;
     flex-direction: column;
     gap: var(--space-xl);
+  }
+
+  .category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+
+  .category-chip {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .category-chip:hover {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .category-section {
+    scroll-margin-top: calc(var(--header-height) + var(--space-md));
   }
 
   .category-title {
