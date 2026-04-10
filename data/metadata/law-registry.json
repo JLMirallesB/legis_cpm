@@ -252,6 +252,27 @@
       "status": "ingested",
       "category": "profesorado",
       "notes": "PDFs separados ES/VA desde CEICE. Documento (no normativa), tipo anual curso 26-27. 17 secciones + intro. Tablas de ratios, horas directivas, coordinaciones y pianista acompañante. Desarrolla Orden 9/2025. Firmado por DG Personal Docente."
+    },
+    {
+      "slug": "decreto-234-2022",
+      "title": "Decreto 234/2022 - Permisos y licencias del personal docente",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "PDF bilingüe DOGV 2 columnas. 34 arts (5 caps, 2 secciones en cap III) + 2 DA + 1 DD + 2 DF. Deroga D.7/2008. Regula permisos, licencias, reducción de jornada y vacaciones del personal docente no universitario."
+    },
+    {
+      "slug": "circular-1-2025-permisos",
+      "title": "Circular 1/2025 - Manual de permisos y licencias del personal docente (DG Personal Docente)",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "Documento (no normativa). PDFs separados ES/VA desde CEICE (110 páginas). 10 secciones (I-X) con subsecciones numeradas. Desarrolla Decreto 234/2022. Sub-subsecciones (Supuesto de hecho, Duración, Documentación, etc.) en negrita en contenido. Tabla de grado de parentesco como markdown. Firmado por Francisco Pablo Ortega Gil, DG Personal Docente, 17/01/2025. Modificada por Circular 6/2025 (apartados II.5, II.6, II.8, II.11 y II.22)."
+    },
+    {
+      "slug": "circular-6-2025",
+      "title": "Circular 6/2025 - Modificación permisos por RDL 9/2025",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "Documento (no normativa). PDFs separados ES/VA desde CEICE. Modifica Circular 1/2025 (permisos): apartados II.5, II.6, II.8, II.11 (texto completo) y subapartado 'Efectos retributivos' del II.22, en aplicación del RDL 9/2025. Vigente desde 31/07/2025. Firmado por Francisco Pablo Ortega Gil, DG Personal Docente, 16/10/2025."
     }
   ]
 }

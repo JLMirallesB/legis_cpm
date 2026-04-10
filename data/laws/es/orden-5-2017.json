@@ -15,8 +15,8 @@
   "titleShort": "O 5/2017 - Programa Coordinación horaria",
   "category": "organizacion",
   "vigpiracy": {
-    "status": "vigente",
-    "statusLabel": "Vigente (modificada)",
+    "status": "vigente_parcial",
+    "statusLabel": "Vigente con modificaciones",
     "effectiveDate": "2017-02-17",
     "lastModifiedDate": "2026-04-08"
   },

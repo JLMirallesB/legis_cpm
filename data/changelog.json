@@ -1,5 +1,47 @@
 [
   {
+    "version": "0.14.1",
+    "date": "2026-04-10",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Decreto 234/2022, de 30 de diciembre, del Consell, sobre condiciones de trabajo del personal docente no universitario: permisos y licencias. 34 artículos en 5 capítulos, 2 disposiciones adicionales, 1 derogatoria y 2 finales. Deroga el Decreto 7/2008."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Circular 1/2025 (DG Personal Docente) que aprueba el Manual de permisos y licencias del personal docente no universitario. Documento extenso de 110 páginas con 10 secciones (I-X) y subsecciones numeradas. Desarrolla el Decreto 234/2022."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Circular 6/2025 (DG Personal Docente) que modifica los apartados 5, 6, 8, 11 y 22 de la Circular 1/2025 en aplicación del RDL 9/2025 de ampliación del permiso de nacimiento y cuidado. Cross-references bidireccionales con versiones de los apartados afectados."
+        },
+        {
+          "type": "correccion",
+          "description": "Normalización de etiquetas de vigencia: 7 leyes con modificaciones que mostraban 'Vigente' simple ahora muestran correctamente 'Vigente con modificaciones' (Circular 1/2025 permisos, Decreto 104/2018, Orden 5/2017). Corrección de etiquetas en valenciano que aparecían en castellano (Real Decreto 428/2013, 286/2023, 303/2010, Orden ECD/1611/2015)."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta del Decret 234/2022, de 30 de desembre, del Consell, sobre condicions de treball del personal docent no universitari: permisos i llicències. 34 articles en 5 capítols, 2 disposicions addicionals, 1 derogatòria i 2 finals. Deroga el Decret 7/2008."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de la Circular 1/2025 (DG Personal Docent) que aprova el Manual de permisos i llicències del personal docent no universitari. Document extens de 110 pàgines amb 10 seccions (I-X) i subseccions numerades. Desplega el Decret 234/2022."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de la Circular 6/2025 (DG Personal Docent) que modifica els apartats 5, 6, 8, 11 i 22 de la Circular 1/2025 en aplicació del RDL 9/2025 d'ampliació del permís de naixement i cura. Referències creuades bidireccionals amb versions dels apartats afectats."
+        },
+        {
+          "type": "correccio",
+          "description": "Normalització d'etiquetes de vigència: 7 normes amb modificacions que mostraven 'Vigent' simple ara mostren correctament 'Vigent amb modificacions' (Circular 1/2025 permisos, Decret 104/2018, Orde 5/2017). Correcció d'etiquetes en valencià que apareixien en castellà (Reial Decret 428/2013, 286/2023, 303/2010, Orde ECD/1611/2015)."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.14.0",
     "date": "2026-04-10",
     "entries": {

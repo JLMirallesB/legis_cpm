@@ -27,7 +27,7 @@ El proyecto nace de la necesidad de tener un acceso r&aacute;pido, organizado y 
 ## Funcionalidades
 
 ### Cat&aacute;logo y navegaci&oacute;n
-- **36 normas ingresadas** entre decretos, &oacute;rdenes, leyes org&aacute;nicas, reales decretos, resoluciones, circulares y documentos
+- **39 normas ingresadas** entre decretos, &oacute;rdenes, leyes org&aacute;nicas, reales decretos, resoluciones, circulares y documentos
 - Navegaci&oacute;n por **categor&iacute;as**: curr&iacute;culo, organizaci&oacute;n, evaluaci&oacute;n, acceso, profesorado, titulaciones, flexibilizaci&oacute;n, premios, etc.
 - **Etiquetas de clasificaci&oacute;n**: aplicaci&oacute;n (M&uacute;sica, Danza, General), &aacute;mbito (Estatal, Auton&oacute;mico), periodo (Permanente, Anual) y tipo documental
 - **Buscador** con filtros m&uacute;ltiples: por tipo de norma, publicaci&oacute;n, a&ntilde;o, firmante, cargo, &aacute;mbito, etc.
