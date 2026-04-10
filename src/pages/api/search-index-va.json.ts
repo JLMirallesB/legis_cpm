@@ -10,6 +10,7 @@ interface SearchEntry {
   type: string;
   date: string;
   vigpiracy: string;
+  vigencia: string;
   source: string;
   year: number;
   scope: string;
@@ -38,23 +39,31 @@ function extractFragments(nodes: StructureNode[]): { id: string; title: string; 
 
 export const GET: APIRoute = () => {
   const laws = getAllLaws('va');
-  const index: SearchEntry[] = laws.map((law) => ({
-    slug: law.slug,
-    title: law.title,
-    titleShort: law.titleShort,
-    number: law.number,
-    type: law.type,
-    date: law.date,
-    vigpiracy: law.vigpiracy.status,
-    source: law.publishedIn.source,
-    year: new Date(law.publishedIn.date).getFullYear(),
-    scope: law.scope,
-    territory: law.territory,
-    temporality: law.temporality,
-    docType: law.docType,
-    signatories: law.promulgation?.signatories ?? [],
-    fragments: extractFragments(law.structure),
-  }));
+  const now = new Date();
+  const index: SearchEntry[] = laws.map((law) => {
+    const isDerogada = law.vigpiracy.status === 'derogada' || law.vigpiracy.status === 'derogada_parcial';
+    const isExpiredAnual = law.temporality?.type === 'anual'
+      && law.temporality.expiresDate
+      && new Date(law.temporality.expiresDate) < now;
+    return {
+      slug: law.slug,
+      title: law.title,
+      titleShort: law.titleShort,
+      number: law.number,
+      type: law.type,
+      date: law.date,
+      vigpiracy: law.vigpiracy.status,
+      vigencia: (isDerogada || isExpiredAnual) ? 'historico' : 'vigente',
+      source: law.publishedIn.source === 'CEICE' ? 'Documentos' : law.publishedIn.source,
+      year: new Date(law.publishedIn.date).getFullYear(),
+      scope: law.scope,
+      territory: law.territory,
+      temporality: law.temporality,
+      docType: law.docType,
+      signatories: law.promulgation?.signatories ?? [],
+      fragments: extractFragments(law.structure),
+    };
+  });
 
   return new Response(JSON.stringify(index), {
     headers: { 'Content-Type': 'application/json' },

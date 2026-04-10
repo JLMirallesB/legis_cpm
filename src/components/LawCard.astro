@@ -18,9 +18,15 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
   month: 'short',
   day: 'numeric',
 });
+
+const isDerogada = law.vigpiracy.status === 'derogada' || law.vigpiracy.status === 'derogada_parcial';
+const isExpiredAnual = law.temporality?.type === 'anual'
+  && law.temporality.expiresDate
+  && new Date(law.temporality.expiresDate) < new Date();
+const vigencia = (isDerogada || isExpiredAnual) ? 'historico' : 'vigente';
 ---
 
-<a href={href} class="law-card">
+<a href={href} class="law-card" data-temporality={law.temporality?.type ?? 'permanente'} data-vigencia={vigencia}>
   <div class="law-card-header">
     <span class="law-type">{typeLabel}</span>
     <VigencyBadge status={law.vigpiracy.status} lang={lang} />

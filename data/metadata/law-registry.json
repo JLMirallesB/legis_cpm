@@ -238,6 +238,20 @@
       "status": "ingested",
       "category": "economica",
       "notes": "PDF antiguo DOGV bilingüe 2 columnas. 2 artículos, DD, 2 DF, Anexo I (12 normas), Anexo III (clasificación gastos). Anexos II, IV-VIII como formularios para descarga (no ingresados)."
+    },
+    {
+      "slug": "orden-9-2025",
+      "title": "Orden 9/2025 - Criterios plantillas personal docente",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "PDFs separados ES/VA. 18 arts (2 caps) + 6 DA + 1 DT + 1 DD + 3 DF + 8 anexos. Solo art 18 y anexos VII-VIII relevantes para conservatorios. Arts 5-7, 11-17 y DA 1ª marcados como no relevantes. Anexos I-VI no relevantes."
+    },
+    {
+      "slug": "instrucciones-plantillas-conservatorios-2026-2027",
+      "title": "Instrucciones plantillas conservatorios 2026-2027",
+      "status": "ingested",
+      "category": "profesorado",
+      "notes": "PDFs separados ES/VA desde CEICE. Documento (no normativa), tipo anual curso 26-27. 17 secciones + intro. Tablas de ratios, horas directivas, coordinaciones y pianista acompañante. Desarrolla Orden 9/2025. Firmado por DG Personal Docente."
     }
   ]
 }

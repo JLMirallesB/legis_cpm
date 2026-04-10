@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.14.0",
+    "date": "2026-04-10",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Orden 9/2025 de criterios para plantillas de personal docente. 18 artículos, 8 anexos (VII y VIII con tablas de horas por especialidad para conservatorios de música y danza)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de las Instrucciones de plantillas de conservatorios para el curso 2026/2027. 17 secciones con tablas de ratios, horas directivas, coordinaciones y pianista acompañante."
+        },
+        {
+          "type": "nuevo",
+          "description": "Toggle de temporalidad en el catálogo: filtrar entre normativa permanente, todas, o solo anual."
+        },
+        {
+          "type": "nuevo",
+          "description": "Toggle de vigencia en el catálogo: filtrar entre vigentes, todas, o histórico (derogadas o anuales expiradas)."
+        },
+        {
+          "type": "mejora",
+          "description": "Filtro de vigencia añadido también a la página de búsqueda. Fuente CEICE unificada dentro de Documentos."
+        },
+        {
+          "type": "correccion",
+          "description": "Corrección del renderizado de secciones con contenido que mostraba el título duplicado."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de l'Orde 9/2025 de criteris per a plantilles de personal docent. 18 articles, 8 annexos (VII i VIII amb taules d'hores per especialitat per a conservatoris de música i dansa)."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de les Instruccions de plantilles de conservatoris per al curs 2026/2027. 17 seccions amb taules de ràtios, hores directives, coordinacions i pianista acompanyant."
+        },
+        {
+          "type": "nou",
+          "description": "Toggle de temporalitat en el catàleg: filtrar entre normativa permanent, totes, o només anual."
+        },
+        {
+          "type": "nou",
+          "description": "Toggle de vigència en el catàleg: filtrar entre vigents, totes, o històric (derogades o anuals expirades)."
+        },
+        {
+          "type": "millora",
+          "description": "Filtre de vigència afegit també a la pàgina de cerca. Font CEICE unificada dins de Documents."
+        },
+        {
+          "type": "correccio",
+          "description": "Correcció del renderitzat de seccions amb contingut que mostrava el títol duplicat."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.13.1",
     "date": "2026-04-09",
     "entries": {

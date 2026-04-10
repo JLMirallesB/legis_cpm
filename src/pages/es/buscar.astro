@@ -83,6 +83,14 @@ const tagLabels: Record<string, string> = {
           </select>
         </div>
         <div class="filter-group">
+          <label for="filter-vigencia">Vigencia</label>
+          <select id="filter-vigencia">
+            <option value="">Todas</option>
+            <option value="vigente">Vigentes</option>
+            <option value="historico">Histórico</option>
+          </select>
+        </div>
+        <div class="filter-group">
           <label for="filter-scope">{t('filter.scope', lang)}</label>
           <select id="filter-scope">
             <option value="">{t('filter.scope.all', lang)}</option>
@@ -137,6 +145,7 @@ const tagLabels: Record<string, string> = {
   const filterYear = document.getElementById('filter-year');
   const filterSignatory = document.getElementById('filter-signatory');
   const filterRole = document.getElementById('filter-role');
+  const filterVigencia = document.getElementById('filter-vigencia');
   const filterScope = document.getElementById('filter-scope');
   const filterTerritory = document.getElementById('filter-territory');
   const filterTemporality = document.getElementById('filter-temporality');
@@ -165,7 +174,7 @@ const tagLabels: Record<string, string> = {
     applySearchAndFilters();
   });
 
-  [filterType, filterSource, filterYear, filterSignatory, filterRole, filterScope, filterTerritory, filterTemporality, filterDocType].forEach(el => {
+  [filterType, filterSource, filterYear, filterSignatory, filterRole, filterVigencia, filterScope, filterTerritory, filterTemporality, filterDocType].forEach(el => {
     el.addEventListener('change', applySearchAndFilters);
   });
 
@@ -175,6 +184,7 @@ const tagLabels: Record<string, string> = {
     filterYear.value = '';
     filterSignatory.value = '';
     filterRole.value = '';
+    filterVigencia.value = '';
     filterScope.value = '';
     filterTerritory.value = '';
     filterTemporality.value = '';
@@ -256,11 +266,12 @@ const tagLabels: Record<string, string> = {
     const fYear = filterYear.value;
     const fSignatory = filterSignatory.value;
     const fRole = filterRole.value;
+    const fVigencia = filterVigencia.value;
     const fScope = filterScope.value;
     const fTerritory = filterTerritory.value;
     const fTemporality = filterTemporality.value;
     const fDocType = filterDocType.value;
-    const hasFilters = fType || fSource || fYear || fSignatory || fRole || fScope || fTerritory || fTemporality || fDocType;
+    const hasFilters = fType || fSource || fYear || fSignatory || fRole || fVigencia || fScope || fTerritory || fTemporality || fDocType;
 
     // If no query and no filters, show nothing
     if (!q && !hasFilters) {
@@ -290,6 +301,7 @@ const tagLabels: Record<string, string> = {
       r.signatories && r.signatories.some(s => s.name === fSignatory));
     if (fRole) results = results.filter(r =>
       r.signatories && r.signatories.some(s => s.role === fRole));
+    if (fVigencia) results = results.filter(r => r.vigencia === fVigencia);
     if (fScope) results = results.filter(r => r.scope === fScope);
     if (fTerritory) results = results.filter(r => r.territory === fTerritory);
     if (fTemporality) results = results.filter(r => r.temporality && r.temporality.type === fTemporality);

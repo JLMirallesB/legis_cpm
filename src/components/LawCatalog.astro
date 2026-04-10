@@ -14,6 +14,36 @@ const lawsByCategory = getLawsByCategory(lang);
 ---
 
 <section class="catalog">
+  <div class="toggles-row">
+    <div class="segmented-control" data-group="vigencia" data-active="0"
+         role="radiogroup" aria-label={lang === 'va' ? 'Filtre per vigència' : 'Filtro por vigencia'}>
+      <div class="seg-slider" aria-hidden="true"></div>
+      <button type="button" role="radio" aria-checked="true" class="seg-btn active" data-value="vigente" data-idx="0">
+        {lang === 'va' ? 'Vigents' : 'Vigentes'}
+      </button>
+      <button type="button" role="radio" aria-checked="false" class="seg-btn" data-value="all" data-idx="1">
+        {lang === 'va' ? 'Totes' : 'Todas'}
+      </button>
+      <button type="button" role="radio" aria-checked="false" class="seg-btn" data-value="historico" data-idx="2">
+        {lang === 'va' ? 'Històric' : 'Histórico'}
+      </button>
+    </div>
+
+    <div class="segmented-control" data-group="temporality" data-active="1"
+         role="radiogroup" aria-label={lang === 'va' ? 'Filtre per temporalitat' : 'Filtro por temporalidad'}>
+      <div class="seg-slider" aria-hidden="true"></div>
+      <button type="button" role="radio" aria-checked="false" class="seg-btn" data-value="permanente" data-idx="0">
+        {lang === 'va' ? 'Permanent' : 'Permanente'}
+      </button>
+      <button type="button" role="radio" aria-checked="true" class="seg-btn active" data-value="all" data-idx="1">
+        {lang === 'va' ? 'Totes' : 'Todas'}
+      </button>
+      <button type="button" role="radio" aria-checked="false" class="seg-btn" data-value="anual" data-idx="2">
+        {lang === 'va' ? 'Anual' : 'Anual'}
+      </button>
+    </div>
+  </div>
+
   <nav class="category-nav" aria-label={lang === 'va' ? 'Categories' : 'Categorías'}>
     {categories.map((cat) => {
       const laws = lawsByCategory.get(cat.id);
@@ -55,6 +85,62 @@ const lawsByCategory = getLawsByCategory(lang);
     gap: var(--space-xl);
   }
 
+  /* ── Toggle row ── */
+  .toggles-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+  }
+
+  /* ── Segmented control ── */
+  .segmented-control {
+    position: relative;
+    display: inline-flex;
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 3px;
+  }
+
+  .seg-slider {
+    position: absolute;
+    top: 3px;
+    height: calc(100% - 6px);
+    background: var(--color-primary);
+    border-radius: calc(var(--radius-lg) - 2px);
+    box-shadow: var(--shadow-sm);
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+  }
+
+  .seg-btn {
+    position: relative;
+    z-index: 1;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--color-text-secondary);
+    background: none;
+    border: none;
+    border-radius: calc(var(--radius-lg) - 2px);
+    cursor: pointer;
+    transition: color 0.25s;
+    white-space: nowrap;
+    user-select: none;
+  }
+
+  .seg-btn.active {
+    color: white;
+  }
+
+  .seg-btn:hover:not(.active) {
+    color: var(--color-primary);
+  }
+
+  /* ── Category nav ── */
   .category-nav {
     display: flex;
     flex-wrap: wrap;
@@ -112,4 +198,98 @@ const lawsByCategory = getLawsByCategory(lang);
     font-style: italic;
     padding: var(--space-2xl) 0;
   }
+
+  .category-section[data-hidden="true"] {
+    display: none;
+  }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll<HTMLElement>('.law-card');
+    const sections = document.querySelectorAll<HTMLElement>('.category-section');
+    const chips = document.querySelectorAll<HTMLElement>('.category-chip');
+    const controls = document.querySelectorAll<HTMLElement>('.segmented-control');
+
+    // Current filter state
+    const state: Record<string, string> = { vigencia: 'vigente', temporality: 'all' };
+
+    // ── Position slider over the active button ──
+    function positionSlider(control: HTMLElement) {
+      const slider = control.querySelector<HTMLElement>('.seg-slider');
+      const activeBtn = control.querySelector<HTMLElement>('.seg-btn.active');
+      if (!slider || !activeBtn) return;
+
+      const controlRect = control.getBoundingClientRect();
+      const btnRect = activeBtn.getBoundingClientRect();
+      slider.style.left = (btnRect.left - controlRect.left) + 'px';
+      slider.style.width = btnRect.width + 'px';
+    }
+
+    // Init all sliders
+    controls.forEach(c => positionSlider(c));
+
+    // Re-position on resize
+    window.addEventListener('resize', () => controls.forEach(c => positionSlider(c)));
+
+    // ── Apply combined filters ──
+    function applyFilters() {
+      cards.forEach(card => {
+        const temp = card.dataset.temporality || 'permanente';
+        const vig = card.dataset.vigencia || 'vigente';
+
+        const passTemp = state.temporality === 'all' || temp === state.temporality;
+        const passVig = state.vigencia === 'all' || vig === state.vigencia;
+
+        card.style.display = (passTemp && passVig) ? '' : 'none';
+      });
+
+      // Hide empty sections
+      sections.forEach(section => {
+        const visible = section.querySelectorAll('.law-card:not([style*="display: none"])');
+        section.dataset.hidden = visible.length === 0 ? 'true' : 'false';
+      });
+
+      // Update chip counts
+      chips.forEach(chip => {
+        const catId = (chip.getAttribute('href') || '').replace('#', '');
+        const section = document.getElementById(catId);
+        if (section) {
+          const visible = section.querySelectorAll('.law-card:not([style*="display: none"])');
+          const label = chip.textContent?.replace(/\(\d+\)/, '').trim() || '';
+          chip.textContent = `${label} (${visible.length})`;
+          (chip as HTMLElement).style.display = visible.length === 0 ? 'none' : '';
+        }
+      });
+    }
+
+    // ── Button click handlers ──
+    controls.forEach(control => {
+      const group = control.dataset.group || '';
+      const btns = control.querySelectorAll<HTMLButtonElement>('.seg-btn');
+
+      btns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Update button states within this control
+          btns.forEach(b => {
+            const isActive = b === btn;
+            b.classList.toggle('active', isActive);
+            b.setAttribute('aria-checked', String(isActive));
+          });
+
+          // Update state
+          state[group] = btn.dataset.value || 'all';
+
+          // Animate slider
+          positionSlider(control);
+
+          // Apply combined filters
+          applyFilters();
+        });
+      });
+    });
+
+    // Apply initial filter (vigentes by default)
+    applyFilters();
+  });
+</script>
