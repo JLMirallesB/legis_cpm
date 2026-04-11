@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.16.0",
+    "date": "2026-04-11",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Guía \"Cuenta de Gestión de Centros Docentes Públicos No Universitarios — Guía práctica de preguntas frecuentes\" (2ª Actualización, noviembre 2019), publicada por la CEICE. Documento con presentación, normativa de aplicación, consideraciones generales sobre gestión, contratación y justificación del gasto (3 subsecciones) y 55 preguntas frecuentes sobre gestión económica diaria (cuentas bancarias, pagos, tributos IRPF/IVA, contratos menores, límites presupuestarios, mobiliario inventariable, sistema modular, ERASMUS, DelegaTIC, etc.). Solo disponible en castellano; la versión valenciana reproduce el contenido original con nota indicativa. Categoría: Gestión económica."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Guia \"Compte de Gestió de Centres Docents Públics No Universitaris — Guia pràctica de preguntes freqüents\" (2a Actualització, novembre 2019), publicada per la CEICE. Document amb presentació, normativa d'aplicació, consideracions generals sobre gestió, contractació i justificació de la despesa (3 subseccions) i 55 preguntes freqüents sobre gestió econòmica diària (comptes bancaris, pagaments, tributs IRPF/IVA, contractes menors, límits pressupostaris, mobiliari inventariable, sistema modular, ERASMUS, DelegaTIC, etc.). Només disponible en castellà; la versió valenciana reprodueix el contingut original amb nota indicativa. Categoria: Gestió econòmica."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.15.0",
     "date": "2026-04-11",
     "entries": {

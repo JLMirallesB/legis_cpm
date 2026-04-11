@@ -2,6 +2,13 @@
   "description": "Registro de leyes para tracking de ingesta. NO usado por Astro, solo para seguimiento.",
   "laws": [
     {
+      "slug": "cuenta-gestion-centros-docentes",
+      "title": "Cuenta de Gestión de Centros Docentes Públicos No Universitarios - Guía práctica de preguntas frecuentes (2ª Act. nov. 2019)",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "Guía CEICE (documento). Solo en castellano; VA usa mismo contenido con nota. Presentación + normativa aplicable + 3 consideraciones generales + 55 preguntas frecuentes."
+    },
+    {
       "slug": "decreto-158-2007",
       "title": "Decreto 158/2007 - Currículo EEPP de música",
       "status": "ingested",

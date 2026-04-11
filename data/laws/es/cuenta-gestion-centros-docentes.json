@@ -1,0 +1,479 @@
+{
+  "id": "cuenta-gestion-centros-docentes",
+  "slug": "cuenta-gestion-centros-docentes",
+  "type": "documento",
+  "number": "",
+  "date": "2019-11-01",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "",
+    "date": "2019-11-01",
+    "url": "https://ceice.gva.es/documents/162640666/166762769/GESTI%C3%93N_ECON%C3%93MICA_GU%C3%8DA+PR%C3%81CTICA_+PREGUNTAS_FRECUENTES_DEFINITIVO.pdf/7d966a1c-3d2f-464d-8a17-8370af646797",
+    "pdfUrl": "https://ceice.gva.es/documents/162640666/166762769/GESTI%C3%93N_ECON%C3%93MICA_GU%C3%8DA+PR%C3%81CTICA_+PREGUNTAS_FRECUENTES_DEFINITIVO.pdf/7d966a1c-3d2f-464d-8a17-8370af646797"
+  },
+  "title": "Cuenta de Gestión de Centros Docentes Públicos No Universitarios — Guía práctica de preguntas frecuentes (2ª Actualización, noviembre 2019)",
+  "titleShort": "Cuenta de Gestión de Centros Docentes (Guía)",
+  "category": "economica",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2019-11-01"
+  },
+  "structure": [
+    {
+      "type": "seccion",
+      "id": "sec-presentacion",
+      "number": "",
+      "title": "Presentación",
+      "content": "La elaboración de esta guía tiene por objeto servir de apoyo y ayuda en la ejecución de la cuenta de gestión de los centros docentes públicos no universitarios. Este manual es el resultado del conjunto de las consultas que, desde los centros docentes, se han planteado a las Secciones de Gestión Económico-Administrativa de las Direcciones Territoriales. Sin ánimo de ser exhaustivos, para el documento de inicio, se han resumido e integrado la mayoría de cuestiones que, por su interés, resulta conveniente esclarecer y explicar. Se trata pues, de un documento abierto, con un marcado carácter dinámico, dispuesto para incorporar nuevas aportaciones, con actualizaciones permanentes en función de las necesidades registradas por los centros y de acuerdo con la aplicación de una normativa en constante evolución.\n\nCon la finalidad de mejorar el documento, con la intención de servir de verdadero soporte a los centros y con la intención de mejorar la eficacia en la gestión económica, desde la Conselleria de Educación, Cultura y Deporte, se procederá a actualizar este documento, a través de las consultas, dudas o aclaraciones que se realicen tanto por parte de las personas titulares de las direcciones o secretarias de los centros docentes públicos dependientes de la Generalitat, como de las Direcciones Territoriales competentes en educación, o la propia Inspección de Educación."
+    },
+    {
+      "type": "seccion",
+      "id": "sec-normativa",
+      "number": "",
+      "title": "Normativa de aplicación",
+      "content": "- Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se delega en las direcciones de los centros docentes no universitarios de titularidad de la Generalitat Valenciana determinadas facultades ordinarias en materia de contratación y se aprueban las normas que regulan la gestión económica de estos centros. https://www.dogv.gva.es/portal/ficha_disposicion_pc.jsp?sig=1389/1995&L=1\n\n- Ley anual de Presupuestos de la Generalitat (actual Ley 28/2018, de 28 de diciembre, de presupuestos de la Generalitat para el ejercicio 2019, artículo 10, gestión económica en los centros docentes públicos no universitarios y artículo 53, tasas propias y otros ingresos de derecho público). http://www.dogv.gva.es/datos/2018/12/31/pdf/2018_12323.pdf\n\n- Ley 20/2017, de 28 de diciembre, de la Generalitat, de tasas, texto consolidado en: http://www.dogv.gva.es/disposicio-consolidada?signatura=011728/2017&url_lista=\n\n- Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público. https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902\n\n- Orden de 27 de diciembre de 2001, de la Conselleria de Economía, Hacienda y Empleo, por la que se aprueban los códigos de la clasificación económica de los presupuestos del sector administración general de la Generalitat Valenciana y sus entidades autónomas con similar estructura. https://www.dogv.gva.es/portal/ficha_disposicion_pc.jsp?sig=5331/2001&L=1\n\n- Orden HAP/2194/2013, de 22 de noviembre, por la que se regulan los procedimientos y las condiciones generales para la presentación de determinadas autoliquidaciones, declaraciones informativas, declaraciones censales, comunicaciones y solicitudes de devolución, de naturaleza tributaria. https://www.boe.es/buscar/act.php?id=BOE-A-2013-12385\n\n- Información de la Subsecretaría sobre tasas y exenciones para el año 2019.\n\n- Comunicado de la Subdirección General de Tesorería 01/2017 sobre cuentas bancarias de los centros docentes públicos. http://pf.gva.es/tesoreria/CUENTAS%20CENTROS%20DOCENTES/2017%20COMUN %20%201%20CENTROS%20DOCENTES.pdf\n\n- Instrucciones de la Dirección General de Centros y Personal Docente en relación a la ley de cuentas abiertas.\n\n- Instrucciones de la Conselleria de Educación, Investigación, Cultura y Deporte, para la implantación de la factura electrónica y del registro unificado de facturas en centros docentes públicos de titularidad de la Generalitat.\n\n- Circular 2018/01 de la Secretaría Autonómica de Hacienda relativa a la apertura y cancelación de las cuentas bancarias de los centros docentes dependientes de la Generalitat: http://pf.gva.es/tesoreria_v.htm"
+    },
+    {
+      "type": "seccion",
+      "id": "sec-consideraciones",
+      "number": "",
+      "title": "Consideraciones generales sobre la gestión, contratación y justificación del gasto en los centros docentes no universitarios",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "sec-consideraciones-1",
+          "number": "1",
+          "title": "1. Regulación normativa",
+          "content": "La normativa que regula la gestión económica de los centros docentes públicos no universitarios de titularidad de la Generalitat es la Orden de 18 de mayo de 1995, (DOCV 2.526, de 9 de junio de 1995) de la Conselleria de Educación y Ciencia, por la que se delega en los directores de los centros docentes no universitarios de titularidad de la Generalitat Valenciana determinadas facultades ordinarias en materia de contratación y se aprueban las normas que regulan la gestión económica de dichos centros.\n\nEn la citada Orden se establecen las normas reguladoras de la gestión económica de los centros docentes públicos no universitarios, se indican los tipos de gastos que pueden afrontar, se regula el régimen de disposición de fondos de cuenta bancaria, el régimen contable de los centros y se establecen las obligaciones de justificación y archivo que les corresponden por la utilización de fondos públicos.\n\nLa Orden determina que los centros dispondrán de una única cuenta corriente, abierta a nombre del centro. Las órdenes de pago que se expidan contra dicha cuenta se realizarán bajo las firmas mancomunadas del director o directora y del secretario o secretaria si hubiera o, en su defecto, del profesor/a que forme parte de la comisión económica.\n\nLa gestión contable se instrumenta a través del libro de la cuenta de gestión, el libro de la cuenta corriente bancaria y el libro de caja. Los apuntes del libro de cuenta de gestión se trasladarán al final del año, a los distintos estados de la cuenta de gestión anual que ha de remitirse a la Dirección Territorial de Educación.\n\nLa justificación de los gastos se debe efectuar mediante presentación de la cuenta de gestión anual ante la correspondiente Dirección Territorial, para que ésta, a su vez, dé traslado de la misma a la Intervención Delegada de la Conselleria de Educación, Cultura y Deporte. En esta cuenta, entre otra información económico financiera, se deberá recoger la situación inicial y final de la tesorería del centro.\n\nLas rendiciones anuales de cuentas y la aprobación del Consejo Escolar, así como toda la documentación que sirve de justificación a las operaciones económicas y contables, deberán ser archivadas por su orden cronológico. De su custodia es responsable el/la secretario/a del centro o en su defecto, el/la director/a del mismo.\n\nEn este sentido:\n\n- El Decreto 233/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento Orgánico y Funcional de las Escuelas de Educación Infantil y de los Colegios de Educación Primaria dispone que:\n\nArtículo 19. Son competencias del Director/Directora, (entre otras): “…...9. Autorizar los gastos de acuerdo con el presupuesto del centro y ordenar los pagos así como formalizar contratos relativos a bienes, suministros y servicios, de acuerdo con la normativa vigente. Así como visar las certificaciones y los documentos oficiales del centro.”\n\nArtículo 25. Son competencias del Secretario/Secretaria (entre otras): “… 4. Custodiar los libros y archivos del centro. ……9. Elaborar el proyecto de presupuestos del centro. 10. Ordenar el régimen económico del centro, de conformidad con las directrices del Director o Directora, realizar la contabilidad y rendir cuentas ante las autoridades correspondientes. … 13. Diligenciar, ordenar el proceso de archivo y custodiar las expedientes académicos, los libros de escolaridad y cuantos documentos oficiales sean generados en el centro.”\n\n- El Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento Orgánico y Funcional de los Institutos de Educación Secundaria dispone que:\n\nArtículo 15. Son competencias del Director/Directora, (entre otras): “ 9. Autorizar los gastos de acuerdo con el presupuesto del instituto, ordenar los pagos, y visar las certificaciones y los documentos oficiales del instituto. 10. Realizar las contrataciones de obras, suministros y servicios, de acuerdo con lo legalmente establecido.”\n\nArtículo 24. Son competencias del Secretario/Secretaria, (entre otras): “…...3. Custodiar los libros y archivos oficiales del instituto. …… 8. Elaborar el proyecto de presupuestos del instituto. 9. Ordenar el régimen económico del instituto, de conformidad con las directrices del Director o Directora, según el presupuesto aprobado por el consejo escolar. Realizar la contabilidad y rendir cuentas ante el consejo escolar y las autoridades correspondientes. … 14. Diligenciar, ordenar el proceso de archivo y custodiar las expedientes académicos, los libros de escolaridad y cuantos documentos oficiales sean generados en el instituto.”·\n\nLa documentación de contenido económico de los centros docentes podrá ser recabada en cualquier momento por la Administración Educativa, por la Intervención de la Generalitat o por cualquier otro órgano competente, los cuales, así mismo, podrán realizar los controles de auditoria e inspección que estimen convenientes.\n\nEn caso de cambio de la dirección del centro se producirá el traspaso de la documentación y deberá rellenarse un acta diligenciada por el Consejo Escolar que incluya el balance de la situación económica, siendo, en cualquier caso, el director/directora saliente la persona responsable del estado de las cuentas.\n\nLas Direcciones Territoriales controlarán la utilización de los fondos de los que dispone cada uno de los centros de su provincia. Todo ello sin perjuicio de las competencias de los servicios de inspección y control financiero que la Ley 1/2015, de 6 de febrero, de Hacienda Pública, del Sector Público Instrumental y de Subvenciones, atribuye a la intervención General de la Generalitat.\n\nLos centros docentes de titularidad de la Generalitat dependientes de la Conselleria competente en materia de educación tienen la obligación de proporcionar la información necesaria para conocer los elementos de la gestión económica del centro a través del sistema de información ITACA (acrónimo de Innovación Tecnológica Administrativa de Centros y Alumnado)."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-consideraciones-2",
+          "number": "2",
+          "title": "2. Gastos",
+          "content": "Es de aplicación la siguiente normativa:\n\na).- La norma cuarta de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se delega en los directores de los centres docentes no universitarios de titularidad de la Generalitat Valenciana determinadas facultades ordinarias en materia de contratación y se aprueban las normas que regulan la gestión económica de dichos centros, señala lo siguiente:\n\n“Norma cuarta. Gastos: Los centros docentes podrán efectuar los siguientes gastos, cuya clasificación se detalla en el anexo III: 1. Los contenidos en la vigente clasificación económica de los presupuestos de la Generalitat Valenciana dentro del capítulo II. 2. Los destinados a la reparación y conservación de los inmuebles en que están ubicados los centros escolares. 3. Los destinados a la adquisición de mobiliario y equipo didáctico del propio centro escolar. Los gastos a que se refiere el número 2 de esta norma son, exclusivamente, los de reparación y conservación de los edificios incluidos en el ámbito de la parcela escolar y sus instalaciones, como reparar o sustituir pavimentos, revestimientos de paredes y de techos, ventanas, puertas, persianas, vidrios, sanitarios, griferías, pintura, luminarias, pistas polideportivas, vallas de cerramiento, etc. y elementos de las instalaciones. Quedan excluidas todas aquellas obras que estén reguladas por normas técnicas que exijan proyecto firmado por técnico competente y que entrañen responsabilidad para su autor, o aquellas otras que modifiquen los espacios funcionales del edificio, sus usos y el de los espacios exteriores; dentro de las primeras se encuentran las que afecten a la seguridad, estabilidad y estanqueidad del edificio, y las que modifiquen substancialmente sus instalaciones; entre las segundas están las que alteren por adición o reducción los espacios funcionales del edificio de la parcela escolar, o sus usos, regulados por la LOGSE y por los reales decretos y órdenes que la desarrollan. En los centros de Educación Infantil o Preescolar, de Educación Primaria, de Educación Especial y de Educación de Adultos, los gastos destinados al mantenimiento de inmuebles (como los derivados del consumo de energía eléctrica, calefacción, agua y limpieza) y los ocasionados por la conservación y reparación de los mismos serán cubiertos por las administraciones locales o entidades de derecho público titulares de los edificios. En el resto de centros públicos de enseñanza no universitaria el mantenimiento del inmueble será a cargo de la Conselleria de Educación y Ciencia. Tales centros son los institutos de Enseñanza Secundaria, de Bachillerato y de Formación Profesional, y las escuelas de Enseñanzas de Régimen Especial, a saber, las oficiales de idiomas y las artísticas (de música, danza, arte dramático, artes aplicadas, cerámica y diseño).”\n\nLa competencia de las direcciones para suscribir contratos viene delimitada en la norma sexta de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, la cual establece que las direcciones de los centros quedan autorizadas para suscribir contratos para el suministro de agua, gas, combustible para calefacción, energía eléctrica y teléfono, así como todos aquellos contratos necesarios para efectuar gastos y que no estén incluidos en los siguientes supuestos:\n\n1.- Independientemente de su cuantía: -Todas aquellas obras que estén reguladas por normas técnicas que exijan proyecto firmado por técnico competente y que entrañen responsabilidad para su autor (las que afecten a la seguridad y estanqueidad del edificio, y las que modifiquen sustancialmente sus instalaciones).\n\n- Obras que modifiquen los espacios funcionales del edificio, sus usos y el de los espacios exteriores (las que alteren por adición o reducción los espacios funcionales del edificio de la parcela escolar, o sus usos, regulados por la ley y por los reales decretos y órdenes que la desarrollan) por paramentos no removibles.\n\n-No se podrán realizar contratos de alquiler de locales y de adjudicación de bares o cafeterías: la competencia para la adjudicación de bar-cafetería está reservada a las Direcciones Territoriales.\n\n2.- En relación a la cuantía: En aplicación del artículo 118 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, los centros, actuando por delegación del órgano de contratación y en relación a los contratos menores: -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 15.000 euros (IVA excluido), por contratos de suministros, en el periodo correspondiente a un mismo ejercicio presupuestario anual. -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 15.000 euros (IVA excluido), por contratos de servicios, en el periodo correspondiente a un mismo ejercicio presupuestario anual. -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 40.000 euros (IVA excluido), por contratos de obras, en el periodo correspondiente a un mismo ejercicio presupuestario anual.\n\nb).-El artículo 10 de la Ley de presupuestos para el año 2019\n\n“Artículo 10. Gestión económica en los centros docentes públicos no universitarios 1. Los centros docentes públicos no universitarios dispondrán de autonomía en su gestión económica, en los términos que se establecen en los puntos siguientes: a) Constituirán ingresos de estos centros, que deberán ser aplicados a gastos de funcionamiento: 1.º Los fondos que se les libren, a propuesta de la Conselleria que tenga asignadas las competencias en materia de educación, mediante órdenes de pago en firme y con cargo al presupuesto anual de esta, con la finalidad de cubrir los gastos de funcionamiento, mantenimiento y reposición de inversiones, adquisición de mobiliario y equipos didácticos y otros que sean aprobados por la dirección general competente en materia de centros docentes públicos. 2º Los fondos provenientes de otras administraciones públicas, instituciones de la Unión Europea o de organismos internacionales, siempre que los mismos tengan el carácter de finalistas, y su titularidad esté afectada expresamente al centro docente en cuestión. 3º. Aquellos obtenidos a través de las ayudas, premios y otros ingresos otorgados por instituciones, organismos y entidades públicas y privadas por el desarrollo de proyectos y acciones de innovación e investigación educativa realizadas por el profesorado y el alumnado en el marco de la programación general anual del centro. 4.º Los derivados de la venta de bienes y prestación de servicios distintos de los gravados por las tasas y los precios públicos. 5.º Los producidos por legados, donaciones o cualquier otra forma admisible en derecho. 6º El saldo final, en su caso, de la cuenta de gestión del ejercicio anterior, que podrá repercutir en una minoración de recursos procedentes de la consellleria competente en materia de educación, siempre y cuando queden cubiertos los gastos incluidos en el apartado segundo de este artículo y los gastos derivados de ingresos que tengan el carácter de finalistas. b) Los gastos en bienes corrientes y de servicios que tengan su origen en los ingresos citados en el punto anterior, se justificarán mediante la rendición de una única cuenta de gestión anual por la persona titular de la dirección del centro, previa aprobación de la misma por el respectivo consejo escolar o consejo social. Los centros pondrán a disposición de la administración educativa las cuentas de gestión anual que les sean requeridas. c) La documentación que corresponda elaborar al centro relativa a su presupuesto y a su cuenta de gestión deberá ajustarse, en cualquiera de los conceptos de gasto a que venga referida, a la clasificación económica del estado de gastos que se aplica en la presente ley. A tal efecto, los gastos en bienes corrientes y de servicios incluirán, además de los contenidos en el capítulo II de la vigente clasificación económica del estado de gastos de la Generalitat, los destinados a la adquisición de mobiliario y equipos didácticos del propio centro, que se corresponden con los siguientes artículos de gasto, de acuerdo con la citada clasificación económica del estado de gastos de la Generalitat: 1.º 6.2 Inversión nueva asociada al funcionamiento operativo de los servicios. 2.º 6.3 Inversión de reposición asociada al funcionamiento operativo de los servicios.\n\n2. Los gastos destinados a reparaciones, que excedan del mero mantenimiento de los centros y los destinados a la adquisición de mobiliario y equipos didácticos del propio centro, podrán efectuarse siempre que estos y aquellos no sobrepasen la cantidad de 50.000 euros, y que quede suficientemente acreditado que se cubren previamente el resto de las obligaciones ordinarias del mismo. Las direcciones territoriales de la conselleria competente en materia de educación excepcionalmente podrán autorizar a los centros docentes públicos gastos que tengan por objeto obras de reparación, hasta un límite máximo de 30.000 euros anuales, adicionales a lo establecido en el párrafo anterior, siempre que quede acreditado que el centro cubre previamente el resto de sus obligaciones ordinarias.\n\n3. Sin perjuicio de lo dispuesto en el apartado anterior la gestión económica de los centros integrados públicos de formación profesional y de los centros adscritos en el Instituto Superior de Enseñanzas Artísticas de la Comunitat Valenciana se regirá por una normativa específica”."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-consideraciones-3",
+          "number": "3",
+          "title": "3. Procedimiento y justificación",
+          "content": "**a) Procedimiento**\n\nLos gastos inferiores a 1.803 euros se podrán efectuar sin necesidad de abrir un expediente de adjudicación, siempre que se ajuste a las limitaciones y prohibiciones señaladas en los apartados anteriores.\n\nPara los gastos superiores a 1.803 euros se seguirá el procedimiento que se indica en la norma quinta de la Orden de 18 de mayo de 1995.\n\n“Norma quinta. Procedimiento y justificación de los expedientes de obras, suministros y asistencias\n\nEn los gastos a que se refiere la norma anterior, la adjudicación de las obras, suministros y asistencias o servicios cuya cuantía exceda de las 300.000 pesetas (1.803 euros) se ajustará a lo siguiente:\n\n1.Procedimiento Se abrirá un expediente de adjudicación, según el modelo del anexo IV, en el que constará la justificación de todas las actuaciones que al efecto se realicen.\n\nEl director recabará, al menos, tres presupuestos de firmas comerciales o empresas del sector, y el consejo escolar resolverá la adjudicación.\n\nEn el caso de la realización de obras que el centro puede efectuar a tenor de la norma 4 y en el de la adquisición de mobiliario y equipo didáctico, el centro remitirá inmediatamente a la dirección territorial de Educación respectiva la copia de los tres presupuestos y de la resolución de adjudicación.\n\nSi se adquiere mobiliario y equipo didáctico, éstos se deberán inscribir en el correspondiente libro de inventario del centro. Si se realizan obras, se pedirá previamente la autorización de la dirección territorial de Educación, que tendrá que contar con el informe favorable de la Unidad Técnica, debiendo obtenerse los reglamentarios permisos municipales y otros requisitos legales y técnicos.\n\n2.Documentación En el expediente de adjudicación también habrán de constar como documentos exigibles: a) En obras de reparación, conservación o mantenimiento: el presupuesto de la obra suscrito por una empresa del sector, la factura conformada y la certificación reglamentaria. b) En suministros menores realizados mediante compras directas en establecimientos comerciales abiertos al público: el presupuesto, la factura reglamentaria y la certificación de haberse recibido. c) En trabajos de asistencia prestados por empresas consultoras o de servicios: acreditación de la ineludible necesidad de la misma por carecer el centro de suficiente personal, el presupuesto, la factura reglamentaria y la certificación de realización del trabajo o servicio. “\n\nLa gestión económica de los centros debe de quedar debidamente registrada a través del programa ITACA. Los apuntes contables derivados de las operaciones económicas realizadas, deberán efectuarse al menos mensualmente, siendo el periodo límite para el registro de facturas del mes correspondiente, la primera semana del mes siguiente.\n\nLa fecha de la factura se hará constar obligatoriamente, indicándose en el campo correspondiente si la misma está o no pendiente.\n\n**b) Justificación**\n\nLa correspondiente justificación se realizará de acuerdo con lo establecido en la norma séptima de la referida Orden.\n\nAdemás del envío telemático mediante la aplicación ITACA de los estados A, B y C de la cuenta de gestión anual del ejercicio, deben remitirse a la Dirección Territorial, mediante oficio debidamente registrado de salida, los citados estados en original y por duplicado ejemplar (sin encuadernar), acompañados del correspondiente certificado bancario que acredite el saldo a 31 de diciembre, así como certificado del saldo de caja, en caso que proceda.\n\nAntes de efectuar el cierre de la gestión económica, deberá tenerse en cuenta el contenido de las instrucciones que se remitan a los centros como consecuencia de las deficiencias detectadas en las cuentas del ejercicio anterior.\n\nNo se deben remitir copias de los libros contables, ni ningún otro documento que no sea la propia cuenta de gestión y los certificados indicados anteriormente.\n\nEl plazo de presentación de las cuentas de gestión anual finaliza el 15 de febrero del año siguiente."
+        }
+      ]
+    },
+    {
+      "type": "seccion",
+      "id": "sec-faq",
+      "number": "",
+      "title": "Preguntas frecuentes en la gestión económica diaria",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-1",
+          "number": "1",
+          "title": "1. Apertura de cuentas bancarias",
+          "content": "Para abrir una cuenta se deberá solicitar a la Dirección Territorial de Educación mediante el modelo establecido, por medios electrónicos, a través del sistema informático habilitado al efecto en el siguiente enlace: https://oficinavirtual.gva.es/oficina_tactica/#/tramita/10007/10241/procedimientos\n\nDe acuerdo con lo establecido en la circular 2018/01 de la Secretaría Autonómica de Hacienda relativa a la apertura y cancelación de las cuentas bancarias de los centros docentes dependientes de la Generalitat. Dicha circular está disponible en el siguiente enlace: http://pf.gva.es/tesoreria_v.htm"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-2",
+          "number": "2",
+          "title": "2. Cambio de cuenta bancaria",
+          "content": "La circular 2018/01 de la Secretaría Autonómica de Hacienda relativa a la apertura y cancelación de las cuentas bancarias de los centros docentes dependientes de la Generalitat, establece que, por causas debidamente justificadas, los centros podrán solicitar cambios de entidad financiera, para lo cual se procederá de acuerdo con lo establecido en el punto 1.\n\nPara llevar a cabo este procedimiento, se deberá presentar solicitud a la Dirección Territorial de Educación, mediante el modelo establecido, a través del sistema informático habilitado al efecto en el siguiente enlace: https://oficinavirtual.gva.es/oficina_tactica/#/tramita/10007/10241/procedimientos"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-3",
+          "number": "3",
+          "title": "3. Convenio de la Generalitat con las entidades bancarias para las cuentas de los centros docentes",
+          "content": "Desde la Dirección General de Centros se ha remitido a los centros el Comunicado de la Subdirección General de Tesorería 01/2017, en relación a las cuentas bancarias de los centros docentes http://pf.gva.es/tesoreria/CUENTAS%20CENTROS%20DOCENTES/2017%20COMUN %20%201%20CENTROS%20DOCENTES.pdf\n\nEn base a este convenio establecido con las entidades bancarias adjudicatarias del contrato de servicios financieros para la Generalitat y el Sector Público, la Tesorería de la Generalitat pagará una tarifa plana a las entidades financieras por todas las cuentas abiertas de centros docentes.\n\nDicha tarifa cubre el coste de los siguientes servicios:\n\n- Mantenimiento de cuentas, administración y gastos de correo.\n\n- Movimientos de fondos (ingresos/pagos).\n\n- Emisión de remesas electrónicas para el cobro de recibos domiciliados a cargo de terceros, incluso los gastos de las posibles devoluciones de estos recibos.\n\n- Servicios de banca electrónica.\n\n- Certificados de saldos (máximo uno por trimestre).\n\nEn consecuencia, las entidades bancarias adjudicatarias del contrato de servicios financieros para la Generalitat y el Sector Público, NO pueden cobrar comisiones o gastos por estos conceptos.\n\nCualquier otro servicio bancario deberá ser pagado o negociado por el centro.\n\nEn el caso de que se cargue alguna comisión por los servicios arriba indicados, el centro deberá reclamar ante el director de la sucursal para su devolución y para aplicar las condiciones de la Generalitat.\n\nSi después de efectuar estas gestiones la sucursal no aplicara las condiciones mencionadas, el centro deberá ponerse en contacto con la Tesorería de la Generalitat en el correo electrónico palau_ana@gva.es para tramitar las reclamaciones oportunas."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-4",
+          "number": "4",
+          "title": "4. ¿En qué casos no se puede utilizar la cuenta del centro?",
+          "content": "El contrato de servicios financieros para la Generalitat y el Sector Público es aplicable a los centros docentes públicos no universitarios, excluyendo cualquier otro ente, sociedad o asociación de carácter privado como es el caso de las Asociaciones de Padres y Madres de Alumnos. Por lo tanto, la cuenta del centro no puede ser utilizada para recaudar cuotas ni pagar adelantos para realizar actividades complementarias que organicen y gestionen el AMPA u órganos similares (por ejemplo, viajes de fin de curso, excursiones, comidas, visitas deportivas o culturales no previstas en la PGA, etc.).\n\nNo se deben cargar en la cuenta del centro gastos de carácter personal sin ninguna relación con la actividad docente (compra de cafés, regalos, ramos de flores, gratificaciones navideñas, comidas de despedida, etc.). Los gastos deben tener relación directa con la actividad docente.\n\nEn este sentido, es importante tener en cuenta la Ley 5/2016, de 6 mayo, de Cuentas Abiertas para la Generalitat Valenciana, Ley que declara como abiertas y accesibles todas los cuentas bancarias abiertas en entidades financieras de las administraciones públicas.\n\nEsta Ley, además de exigir la publicación de todas las cuentas y los saldos, también establece la obligación de publicar todos los movimientos, tanto los pagos como los ingresos, dentro del portal de transparencia GVA Abierta."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-5",
+          "number": "5",
+          "title": "5. Presentación de facturas",
+          "content": "Cuando el centro contrate un servicio, un suministro, o previa autorización contrate una obra de reparación, debe asegurarse que la empresa o profesional esté en condiciones de emitir la factura correspondiente. En cuanto a los requisitos de la factura, se trata de normativa estatal y los datos que deben figurar necesariamente están determinados en aquella. Otra cuestión es el procedimiento para el pago, ya que la normativa de contratación exige un acto de conformidad con el servicio prestado o el material suministrado. Esto implicaría que la factura se debería pagar una vez dada la conformidad. Es decir, el pago anticipado de la factura sin que se haya recibido de conformidad, no sería el procedimiento adecuado. Junto a la factura original, con el sello de pagado, es una buena práctica anotar la fecha, modo y registro de pago, acompañando un pequeño certificado de que el servicio o suministro ha sido recibido y hay conformidad con él. Asimismo, en los casos de adquisición de material inventariable, consignar el registro del inventario y el lugar donde inicialmente se deposita ese bien."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-6",
+          "number": "6",
+          "title": "6. Pagos mediante cheque",
+          "content": "Los pagos se han de realizar mediante transferencia. Si excepcionalmente se paga alguna factura por cheque, nunca será al portador y se ha de marcar como pendiente de pago en la casilla correspondiente hasta que se formalice el pago. De no hacerse así, si no llega a cobrarse por caducidad o se cierra el ejercicio antes de su cobro, se creará un descuadre en los saldos de la cuenta de gestión."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-7",
+          "number": "7",
+          "title": "7. Pagos mediante transferencia",
+          "content": "De acuerdo con la norma octava de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, los centros dispondrán de una única cuenta corriente, abierta a nombre del centro y a través de la cual se efectuarán los ingresos y pagos del mismo.\n\nLas órdenes de pago que se expidan contra dicha cuenta, lo serán bajo las firmas mancomunadas de las personas que ejercen la dirección y la secretaría o, en defecto de ésta, del personal docente que forme parte de la comisión económica.\n\nLas facturas, siempre a nombre del centro, han de hacerse efectivas en lo posible mediante transferencia bancaria.\n\nEs conveniente tener en cuenta el comunicado de la Subdirección General de Tesorería mediante el cual se recomienda a los centros docentes que, en la medida de lo posible, minimicen las operaciones presenciales en las oficinas de las entidades bancarias y las realicen a través de medios electrónicos."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-8",
+          "number": "8",
+          "title": "8. Pagos en efectivo",
+          "content": "Excepcionalmente, cuando se trate de pequeñas cantidades y el centro disponga de caja, se pueden pagar facturas simplificadas como son los tickets o gastos que no tengan como cobertura una factura, con el dinero existente en la misma. Se recomienda seguir con las facturas simplificadas el mismo procedimiento de registro que con las facturas debidamente conformadas, es decir, junto a la factura simplificada original, con el sello de pagado, es una buena práctica anotar la descripción de servicio o suministro recibido, si la factura simplificada no lo incorpora (ya que no tiene obligación), la fecha, modo y registro de pago, acompañando un pequeño certificado de que el servicio o suministro ha sido recibido de conformidad.\n\nEn ningún caso el personal docente podría adelantar el dinero para comprar material para el centro. En cualquier caso, la compra en metálico deberá efectuarse a través del efectivo existente en caja."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-9",
+          "number": "9",
+          "title": "9. Tributos- IRPF Modelo 111 y 190",
+          "content": "Modelo 111. (Retenciones e ingresos a cuenta. Rendimiento del trabajo y de actividades económicas, premios y determinadas ganancias patrimoniales e imputaciones de Renta) y Modelo 190 (Resumen anual de retenciones e ingresos a cuenta). Autoliquidación. El centro está obligado a practicar las retenciones de IRPF e ingresarlas en el Tesoro a través del modelo 111 por las cantidades satisfechas a:\n\n1.- Las direcciones, el personal encargado del comedor y los ponentes que trabajan en la Conselleria de Educación, Cultura y Deporte: éstas serán cantidades abonadas en concepto\n\nde rendimientos de trabajo y como tal el tipo aplicable será el mismo que se venga aplicando en la nómina de cada uno de ellos.\n\n2.- Las personas físicas que ejercen actividades profesionales reglamentarias: el porcentaje a aplicar por este tipo de rendimiento de actividades profesionales será del 15% con carácter general y del 7% para los profesionales de nuevo inicio.\n\n3.- Ponentes de cursos, conferencias y seminarios que no trabajan en la Conselleria de Educación, Cultura y Deporte: éstas también tienen la consideración de rendimientos del trabajo pero están sujetas al tipo fijo del 15%.\n\nEn cualquier caso, tanto las y los ponentes como las y los profesionales tienen la obligación de especificarlo y desglosarlo en la factura que emitan. Estas cantidades se ingresarán en la AEAT dentro del plazo correspondiente para evitar sanciones por presentaciones fuera de plazo. En consecuencia, se debe consultar a la Agencia Tributaria la gestión de este modelo.\n\nLa presentación del modelo 190 se realizará por vía telemática y deberá ajustarse al procedimiento establecido en los artículos 16 y 17 de la Orden HAP/2194/2013, de 22 de noviembre, por la que se regulan los procedimientos y las condiciones generales para la presentación de determinadas autoliquidaciones y declaraciones informativas de naturaleza tributaria.\n\nDicha presentación deberá efectuarse en el plazo comprendido entre los días 1 y 31 de enero de cada año."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-10",
+          "number": "10",
+          "title": "10. Tributos- IVA Modelo 347",
+          "content": "Modelo 347. Declaración informativa. Declaración anual de operaciones con terceras personas. El procedimiento para la presentación del modelo 347, viene regulado por normativa de carácter estatal. En este modelo se deben hacer constar facturas con un mismo proveedor que en su conjunto haya facturado más de 3005,06 € en el año objeto de liquidación. Por tanto se deben tener en cuenta las facturas y no los gastos que no tienen cobertura con factura."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-11",
+          "number": "11",
+          "title": "11. Trabajos de Gestoría",
+          "content": "El personal responsable del centro es el órgano competente en materia económica. Con cargo a los gastos del centro, no existe la posibilidad de contratar servicios de gestoría, asesoría o similares."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-12",
+          "number": "12",
+          "title": "12. Tasas",
+          "content": "De acuerdo con la Ley 20/2017, de 28 de diciembre, de la Generalitat, de tasas se remitió información de la Subsecretaría relativas a las tasas y exenciones para el año 2018 en materia educativa.\n\nRuta de acceso para la obtención y cumplimentación, on-line, de los impresos 046: http://www.hisenda.gva.es/web/tributos-y-juego/tributos-impuestos-declaraciones-tasas-046conseducacion"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-13",
+          "number": "13",
+          "title": "13. Olvido del pago de impuestos y otras obligaciones tributarias",
+          "content": "Para regularizar la situación provocada por el olvido del ingreso del IRPF del o de la profesional o cualquier otro impuesto, deberá actuar según el procedimiento tributario correspondiente, es decir, realizando una declaración complementaria corrigiendo el error y además deberá asumir las consecuencias derivadas del incumplimiento de tal obligación, como son el pago de los recargos por extemporaneidad y/o sanciones."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-14",
+          "number": "14",
+          "title": "14. Tablas informativas de retenciones de IRPF",
+          "content": "Tablas resumen de tipo de retención, http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/ La_Agencia_Tributaria/Informacion_institucional/Campanias/IRPF_permanente/ Informacion_general/Cuestiones_destacadas/reten_ingresos_cuenta_IRPF.pdf\n\nCuadro informativo tipo de retención aplicables, http://www.agenciatributaria.es/AEAT.internet/Inicio/_Segmentos_/Ciudadanos/ Retenciones_a_cuenta_del_IRPF/ _Que_rentas_estan_sometidas_a_retencion_o_ingreso_a_cuenta_/ _Que_rentas_estan_sometidas_a_retencion_o_ingreso_a_cuenta_.shtml"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-15",
+          "number": "15",
+          "title": "15. Contratación de líneas de teléfono",
+          "content": "Los centros educativos no pueden contratar líneas telefónicas. Cualquier necesidad al respecto debe ser tramitada a través de la Oficina Virtual de la Conselleria de Educación (OVICE): https://oficinavirtual.gva.es/oficina_tactica/#/tramita/10007/10216/procDestacados"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-16",
+          "number": "16",
+          "title": "16. Incidencias en las lineas telefónicas de los ascensores",
+          "content": "Las incidencias relativas al funcionamiento de las líneas telefónicas vinculadas a los ascensores instalados en los centros, bien por ausencia de línea, bien por anomalías en su funcionamiento, se deben gestionar a través del portal SAI, sistema de gestión de incidencias del servicio de Apoyo y Asistencia Informática para centros educativos de la Generalitat Valenciana, en el enlace http://sai.edu.gva.es/\n\nEn el caso de ausencia de línea telefónica propia vinculada al ascensor, se deberá gestionar la conexión de la línea existente en el centro, para su funcionamiento también para el ascensor, y así poder recibir la señal en el caso de alarma."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-17",
+          "number": "17",
+          "title": "17. Competencia de las direcciones de los centros para realizar gastos inferiores a 1.803 euros.",
+          "content": "La norma cuarta de la Orden de 18 de mayo de 1995, con respecto al tipo de gasto que pueden efectuar los centros docentes, lo clasifica del siguiente tenor:\n\n1.- Gastos corrientes en bienes y servicios del capítulo II de los Presupuestos de la Generalitat.\n\n2.- Los destinados a la reparación y conservación de los edificios e instalaciones así como reparar o sustituir: pavimentos, revestimientos (de paredes y techos), ventanas, puertas, persianas, vidrios, sanitarios, grifería, pintura, luminarias, pistas polideportivas, vallas de cerramiento y elementos de las instalaciones.\n\n3.- Los destinados a la adquisición de mobiliario y equipo didáctico del propio centro.\n\nSi el gasto se ha podido clasificar en cualquiera de los tres grupos anteriores, hay que tener en cuenta las siguientes exclusiones: a) Que no se trate de la realización de obras que exijan proyecto o modifiquen los espacios y usos funcionales (tanto del edificio como de la parcela escolar). b) Que tratándose de centros de Educación Infantil o Preescolar, Primaria, Educación Especial y de Adultos, los gastos destinados al mantenimiento de inmuebles (como los derivados del consumo de energía eléctrica, calefacción, agua y limpieza) y los de reparación y conservación de los mismos serán cubiertos por las administraciones locales o entidades de derecho público titulares de los edificios.\n\nLa competencia de las direcciones para suscribir contratos viene delimitada en la norma sexta de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, la cual establece que las direcciones de los centros quedan autorizadas para suscribir contratos para el suministro de agua, gas, combustible para calefacción, energía eléctrica y teléfono, así como todos aquellos contratos necesarios para efectuar gastos y que no estén incluidos en los siguientes supuestos:\n\nEn aplicación del artículo 118 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, los centros, actuando por delegación del órgano de contratación, y, en relación a los contratos menores: -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 15.000 euros, por contratos de suministros, en el periodo correspondiente a un mismo ejercicio presupuestario anual. -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 15.000 euros, por contratos de servicios, en el periodo correspondiente a un mismo ejercicio presupuestario anual. -No se podrá acumular a favor de una misma empresa y tipo de contrato una cantidad igual o superior a 40.000 euros, por contratos de obras, en el periodo correspondiente a un mismo ejercicio presupuestario anual. -No se podrán realizar contratos de alquiler de locales y de adjudicación de bares o cafeterías.\n\nBasándose en dicha norma sexta de la Orden de 18 de mayo de 1995, los directores de los centros docentes no pueden suscribir contratos para asistencias, servicios o trabajos específicos cuyo plazo de ejecución sea superior a un año. Por ejemplo, contratos superiores al año de renting, leasing, compras a plazos, contratos de mantenimiento, fotocopias, etc.\n\nPor último, el procedimiento a seguir, si están sujetos a apertura de expediente de adjudicación o no, a tenor de la norma quinta de la misma Orden, todos los gastos que puedan efectuar los centros (clasificados en la norma cuarta) cuya cuantía supere los 1.803 euros se ajustarán al procedimiento de apertura de expediente de adjudicación y presentación de documentación. En definitiva, si se trata de un gasto clasificado en la norma cuarta y no excluido por la misma, se puede afirmar que ese gasto corresponde asumirlo al centro docente, si el gasto (según la clase y cuantía) está incluido y no excluido en la norma sexta, también se podrá afirmar que la dirección del centro está autorizada para suscribir el contrato pertinente y por último, si el importe es inferior a 1.803 euros, según la norma quinta, no será necesaria la apertura de expediente de adjudicación. Hay que tener en cuenta que si lo que se realizan son obras, siempre se pedirá previamente la autorización a la Dirección Territorial (independientemente de la cuantía)."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-18",
+          "number": "18",
+          "title": "18. Procedimiento a seguir cuando el gasto supera los 1.803 euros",
+          "content": "Si por la norma cuarta el gasto corresponde al centro, y por la norma sexta la dirección del mismo es competente para contratar, se sigue el procedimiento indicado en la norma quinta, apertura expediente adjudicación y se añaden las obligaciones formales impuestas por el artículo 10.2 de la Ley 28/2018, de 28 de diciembre, de presupuestos de la Generalitat para el ejercicio 2019.\n\nEn dicho artículo se indica: “Los gastos destinados a reparaciones que excedan del mero mantenimiento de los centros y los destinados a la adquisición de mobiliario y equipos didácticos del propio centro, podrán efectuarse siempre que estos y aquellos no sobrepasen la cantidad de 50.000 euros, y que quede suficientemente acreditado que se cubren previamente el resto de las obligaciones ordinarias del mismo. Las direcciones territoriales de la conselleria competente en materia de educación excepcionalmente podrán autorizar a los centros docentes públicos gastos que tengan por objeto obras de reparación, hasta un límite máximo de 30.000 euros anuales, adicionales a lo establecido en el párrafo anterior, siempre que quede acreditado que el centro cubre previamente el resto de sus obligaciones ordinarias.”\n\nPor ello, el procedimiento a seguir es el siguiente:\n\n1º.- Antes de realizar la obra, encargar el servicio o comprar el suministro, se ha de enviar a la Dirección Territorial la siguiente documentación:\n\n- Recopilación de tres presupuestos.\n\n- Resolución del consejo escolar con la adjudicación de uno de los presupuestos.\n\n- Solicitud de autorización expresa a la Dirección Territorial, en el caso de obras.\n\n- Informe en el que quede acreditado que el centro cubre previamente el resto sus obligaciones ordinarias, para los gastos de reparaciones que excedan el mero mantenimiento y los destinados a adquisición de mobiliario y equipos didácticos del propio centro – no podrán sobrepasar los 50.000 euros.\n\n- Solicitud de autorización expresa de la Dirección Territorial, para las obras de reparación hasta el límite de 30.000 euros anuales, adicionales a los 50.000 euros del caso excepcional del párrafo tercero del art. 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019.\n\n- Informe en el que quede acreditado que el centro cubre previamente el resto de sus obligaciones ordinarias para las obras de reparación hasta el límite de 30.000 euros del caso excepcional del párrafo tercero del art. 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019.\n\n2º.- Después de finalizada la obra, prestado el servicio o recibido el suministro, se completará el expediente de adjudicación, según el modelo del anexo IV de la Orden 18 mayo 1995 de la Consellería de Educación y Ciencia, en el que constará la siguiente documentación:\n\n- Presupuesto suscrito por la empresa.\n\n- Factura conformada.\n\n- Certificación de fin de obra, recepción del suministro o prestación del servicio.\n\n- Autorización de la Dirección Territorial en caso de obra.\n\n- Acreditación de la ineludible necesidad en caso de los trabajos de asistencia.\n\n- Autorización de la Dirección Territorial cuando se trate de obras de reparación del caso excepcional del párrafo tercero del art. 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-19",
+          "number": "19",
+          "title": "19. Solicitud autorización cambio ventanas",
+          "content": "Resulta conveniente diferenciar entre una mera reparación, como la rotura de ventanas por diversos motivos, de una actuación de mayor envergadura, como por ejemplo cambiar las ventanas con motivo de mejorar la eficiencia energética. En este último caso, la autorización de la misma estaría comprendida dentro del concepto de reparación que excede el mero mantenimiento del centro, con la limitación establecida en la vigente Ley de Presupuestos.\n\nEl artículo 10.2 de la Ley de Presupuestos, en su último párrafo contempla la posibilidad de acometer obras extraordinarias de reparación. En el caso de que el centro considere que la intervención solicitada se trata de obras extraordinarias de reparación y así se informe por la Unidad Técnica, y previa a su autorización por parte de la Dirección Territorial, será necesario, tal y como se establece en la referida norma, acreditar que el centro cubre previamente el resto de las obligaciones ordinarias."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-20",
+          "number": "20",
+          "title": "20. ¿A qué conceptos económicos y códigos afecta el límite del artículo 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019?",
+          "content": "De acuerdo con este artículo se ven afectados tanto los gastos contabilizados en el concepto 625 por adquisiciones de mobiliario y equipos didácticos, como aquellos clasificados en el código 21 de reparación, mantenimiento y conservación (212, 213, 215 y 216) , pero no en su totalidad, sino, solo aquellos destinados a reparaciones que excedan del mero mantenimiento."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-21",
+          "number": "21",
+          "title": "21. ¿Para qué tipo de gasto se tiene que acreditar que el centro cubre previamente sus necesidades ordinarias antes de hacer frente al mismo?",
+          "content": "En cumplimiento del art. 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019, será necesario acreditar tal extremo en estos dos casos: a) Los gastos destinados a reparaciones que excedan el mero mantenimiento y las adquisiciones de mobiliario y equipo didáctico. b) Obras de reparación autorizadas por la Dirección Territorial basadas en el caso excepcional del párrafo tercero del art. 10.2 de la citada Ley de Presupuestos."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-22",
+          "number": "22",
+          "title": "22. Compras por internet",
+          "content": "La normativa en vigor que regula la contratación, la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, exige un acto de conformidad del servicio prestado, el material suministrado o la obra ejecutada para dar conformidad a la factura correspondiente. Por este motivo, las compras realizadas vía telemática con proveedores que exigen el pago previo a la recepción de la mercancía, podrían ser susceptibles de ser consideradas un incumplimiento de la Ley mencionada así como de la Orden de 18 de mayo de1995. Además de no cumplir el requisito de firma mancomunada de la operación con la cuenta del centro."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-23",
+          "number": "23",
+          "title": "23. Compra de mobiliario, equipamiento y gastos que supere 15.000 € (IVA excluido)",
+          "content": "Con independencia del límite establecido por la vigente Ley de Presupuestos, para efectuar adquisiciones de mobiliario y equipamiento didáctico y gastos que exceden el mero mantenimiento del centro, la adquisición de suministros y la prestación de servicios (siempre que se trate del mismo proveedor y tipo de contrato) por importe superior a 15.000 euros (IVA excluido), no es viable de acuerdo con la norma sexta de la Orden de 18 de mayo de\n\n1995, en consonancia con la normativa en materia de contratación administrativa, dado que el total de la propuesta superaría el límite establecido para los contratos menores, fijado en 15.000 euros (IVA excluido) (servicios–suministros) artículo 118 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-24",
+          "number": "24",
+          "title": "24. ¿Cómo se contabilizan las ayudas económicas para el Plan de Mejora y para el Proyecto de Formación?",
+          "content": "Si procede de la Conselleria de Educación, Cultura y Deporte se debe incluir como ingreso tipo A en “otros programas”."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-25",
+          "number": "25",
+          "title": "25. ¿Dónde se imputan los ingresos por aportación de comensales del comedor escolar?",
+          "content": "En virtud de la norma séptima de la Orden 18 mayo 1995 de la Consellería de Educación y Ciencia si los fondos tienen una procedencia distinta de la Consellería de Educación, como es el caso de las aportaciones de comensales, se recogerán en el estado letra B."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-26",
+          "number": "26",
+          "title": "26. Precio máximo a cobrar por el servicio de comedor escolar establecido por la Conselleria",
+          "content": "La Resolución de 11 de junio de 2019, del conseller de Educación, Investigación, Cultura y Deporte por la cual se convoca la concesión de ayudas de comedor escolar en los centros educativos no universitarios públicos y privados concertados para el curso escolar 20192020, establece en su apartado tercero, punto 5 que el precio diario del servicio de comedor durante el curso escolar 2019-2020 no podrá ser superior a 4,25 euros en los centros docentes de titularidad de la Generalitat, y no fija una distinción entre usuarios habituales o esporádicos. Por tanto, en ningún caso se podrá superar este importe máximo."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-27",
+          "number": "27",
+          "title": "27. ¿Cómo se contabiliza la devolución de las comisiones cobradas indebidamente por la entidad bancaria?",
+          "content": "Las devoluciones de cantidades pagadas indebidamente suponen un ingreso para nuestra contabilidad, debido a su origen y teniendo en cuenta la norma séptima de la Orden 18 mayo de 1995 se han de contabilizar como ingreso de la letra B como “otro ingreso” ."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-28",
+          "number": "28",
+          "title": "28. ¿Qué tratamiento contable se le debe dar a las facturas de abono por devolución de suministros?",
+          "content": "Se deberá hacer un apunte como ingreso por el apartado B con el concepto correspondiente (por ejemplo: Devolución factura nº...…)."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-29",
+          "number": "29",
+          "title": "29. Ingresos procedentes del alumnado que vulneran el principio de gratuidad de la enseñanza",
+          "content": "Los centros no pueden cobrar al alumnado ninguna cantidad por los sobres de documentación para la matrícula, ni ninguna otra que no esté debidamente regulada por normativa (tasa o precio público). Así queda establecido en el Decreto 40/2016, por el cual se regula la admisión en los centros docentes públicos y privados concertados, determinándose en el mismo la prohibición de percibir cantidades de las familias por las enseñanzas de carácter gratuito, así como de aportaciones en concepto de matrícula o reserva de plaza.\n\n**Ingresos recibidos de las familias por incumplimiento del deber de entrega del material en el programa Xarxa Llibres**\n\nEn cuanto a los ingresos de las familias que pagan los libros del programa Xarxa Llibres que se han deteriorado o perdido, se informa que según lo que establece la Orden 26/2016 de 13 de junio, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la cual se regula el programa de reutilización, reposición y renovación de libros de texto y material curricular, en los artículos 9, 10 y 11, las familias tienen la obligación de hacer un uso adecuado y esmerado de los libros de texto o material curricular de los cuales disponen gratuitamente en régimen de préstamo, y de reintegrarlos en el centro una vez finalizado el curso escolar o en el momento que se cause baja en el mismo. Por este motivo, los centros incluirán en el reglamento de régimen interno las normas de utilización y conservación de libros de texto y material curricular cedidos al alumnado en régimen de préstamo, haciendo constar las indicaciones relativas a la no entrega de libros, desperfecto, pérdida de los mismos, etc., catalogadas como daños del material propiedad de la administración y aplicar cuantos procedimientos pedagógicos, económicos y disciplinarios considere oportunos. Siguiendo así con lo que establece el artículo 31 del Decreto 39/2008, de 4 de abril, del Consell, sobre la convivencia en los centros docentes no universitarios sostenidos con fondos públicos y sobre los derechos y deberes del alumnado, padres, madres, tutores o tutoras, profesorado y personal de administración y servicios. De acuerdo con este artículo que hace referencia a la reparación de daños materiales, el alumnado que cause algún daño a las instalaciones, equipación informática o cualquier material del centro, quedará obligado a reparar el daño causado o hacerse cargo del coste económico de su reparación o restablecimiento. Por este motivo, el hecho de que un centro reciba un importe que corresponde a un libro o material curricular que no se ha devuelto en el centro educativo o se ha entregado en mal estado y no puede sustituirse por otro nuevo o en condiciones óptimas de reutilización, no comporta ningún agravio en el objetivo de gratuidad que establece la normativa mencionada. Este importe se destinará a la compra del libro o material curricular que no se ha devuelto por la familia, considerando el procedimiento como la restitución de un bien propiedad del centro educativo."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-30",
+          "number": "30",
+          "title": "30. ¿Cómo se tiene que proceder para devolver el remanente de la dotación económica del Banco de Libros?",
+          "content": "Concepto de remanente: Es la cantidad restante entre el total ingresado por la Generalitat Valenciana y el importe justificado por el centro, diferenciando las líneas de PRIM-EE y la de ESOFPB.\n\nDesde el curso 2017/2018 se contempla el remanente de Banco Libros de los centros, por lo que el importe a pagar en los centros en cualquiera convocatoria se verá afectado por el mencionado remanente.\n\nEn caso de que, una vez el centro haya abonado la totalidad de las facturas correspondientes a la reposición o renovación de los libros y material curricular, disponga de un remanente, podrá optar por su reintegro a la Generalitat. En este caso, si se considera más conveniente reintegrar, ¿como se ha de actuar?:\n\nSe ha de comprobar que el importe a reintegrar se corresponde con la diferencia entre la cantidad ingresada por la Generalitat Valenciana y la cantidad justificada mediante facturas por parte del centro.\n\nAntes de realizar la transferencia, se debe comunicar mediante correo electrónico a ajudesllibres@gva.es la intención de querer hacer el reintegro en el período voluntario y el importe que quiere reintegrar. Habrá que esperar la respuesta dando el visto bueno.\n\nEl reintegro debe efectuarse mediante transferencia bancaria en el cuenta de CaixaBank, IBAN: ES08 2100 8681 5302 0004 1640\n\nEs muy importante que aparezcan en la transferencia las datos siguientes del centro: Código del centro, CIF y como concepto, Banco de libros 18-19."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-31",
+          "number": "31",
+          "title": "31. ¿Se pueden rechazar las e-facturas con el argumento de falta de fondos?",
+          "content": "En ningún caso se puede rechazar una factura por falta de fondos. Si la factura es correcta, se debe aceptar y quedar pendiente de pago hasta que éste se pueda hacer efectivo."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-32",
+          "number": "32",
+          "title": "32. ¿Qué código se tiene que asignar a cada gasto?",
+          "content": "La clasificación económica de cada gasto viene dada en función de la naturaleza del mismo, para ello, siguiendo instrucciones de la Intervención General de la Conselleria de Hacienda y Administración Pública, se enviaron a todos los centros, con fecha 22/01/2015, núm. de registro de salida 2015/1041, los códigos de la Clasificación Económica de los Presupuestos del Sector Administración General de la Generalitat Valenciana y sus Entidades Autónomas con similar estructura presupuestaria, publicada en el DOGV nº 4158, Orden de 27 de diciembre de 2001."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-33",
+          "number": "33",
+          "title": "33. Gestión del proyecto de ERASMUS autorizado. Tratamiento contable",
+          "content": "33.1. ¿Los ingresos procedentes del proyecto ERASMUS, .se contabilizan como recurso B? ¿Los gastos son también recurso B? No, en cumplimiento de la norma séptima de la Orden 18 mayo 1995 de la Consellería de Educación y Ciencia, en la letra A se recogerán todos los ingresos procedentes de la Consellería de Educación y todos los gastos con cargo a tales ingresos, es decir, si el origen de los fondos del proyecto ERASMUS es la Cosellería de Educación, tanto el ingreso como los gastos con cargo a dichos ingresos se contabilizarán en el estado letra A.\n\n33. 2. ¿El centro puede avanzar el dinero para adquirir los billetes de avión necesarios para los desplazamientos que hay que hacer? Si hay constancia de la asignación de dicha subvención a ese centro y llegado el momento de disponer de ella, no se ha recibido, el centro puede adelantar el importe siguiendo la norma octava de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia y se contabilizará en el concepto de gastos diversos.\n\n33.3. ¿Cómo se contabilizan en ITACA estos gastos? La forma de contabilizar en la aplicación ITACA es siempre la misma, es decir, todos aquellos gastos que conlleven una factura o un ticket se contabilizarán como \"factura papel\".\n\n33.4. ¿A qué cuenta asocio los gastos del vuelo, de estancia, los de matrícula a cursos y los generales? Cada apunte se contabilizará en el código que corresponda según su naturaleza, y en el campo \"concepto\", podrá añadir el texto necesario para asociarlo al programa ERASMUS\n\n33.5. ¿Las facturas se hacen a nombre del personal docente o es necesario que vengan a nombre del IES? Todos los gastos que el centro asuma en virtud de la dotación económica que ha dado cobertura a este proyecto necesariamente tendrán que ir a nombre del IES.\n\n33.6. ¿Qué hago si la factura de los vuelos de un/a profesor/a asciende a 450€ y la cantidad que se le ha becado (por decirlo de alguna manera) es de 350€ y el personal docente asume la diferencia de 100€ que pone de su bolsillo? En este caso, habrá que advertir al proveedor de tal circunstancia para que emita dos facturas, una a nombre del centro por el importe que asume el centro y la otra a nombre del personal docente por el importe que asume el mismo."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-34",
+          "number": "34",
+          "title": "34. Límites que hay que tener en cuenta para asumir los gastos de mantenimiento, reparación y conservación",
+          "content": "De la normativa actual se puede extraer que existen dos límites importantes, uno en cuanto a la competencia para asumir el gasto y el otro, en cuanto a la cantidad máxima que se permite destinar a este concepto. Son los siguientes:\n\na) En cuanto a la competencia: la Orden de 18 de mayo de 1995 en la norma cuarta excluye a determinados centros (Educación Infantil o Preescolar, Primaria, Educación Especial y de Adultos) para asumir los gastos destinados al mantenimiento de inmuebles (como los derivados del consumo de energía eléctrica, calefacción, agua y limpieza), y los de reparación y conservación de los mismos, debiendo ser cubiertos por las administraciones locales o entidades de derecho público titulares de los edificios.\n\nb) En cuanto a la cantidad: el art. 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019, por un lado en el primer párrafo no se permite que los gastos de reparaciones que excedan el mero mantenimiento más las adquisiciones de mobiliario y equipos didácticos puedan sobrepasar la cantidad de 50.000 euros. Y por otro lado, en el último párrafo se permite que excepcionalmente la dirección territorial pueda autorizar gastos en obras de reparación hasta un límite máximo de 30.000 €, adicional al anterior."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-35",
+          "number": "35",
+          "title": "35. ¿Qué podemos hacer si necesitamos afrontar una obra de reparación y ya hemos llegado al límite de 50.000 euros?",
+          "content": "De acuerdo con el último párrafo del artículo 10.2 de la Ley de Presupuestos, en el caso de que el centro considere que la intervención solicitada se trata de obras extraordinarias de reparación, en primer lugar tendrá que solicitar autorización a la Dirección Territorial y será necesario, tal y como se establece en la referida norma, acreditar que:\n\n1.- El centro cubre previamente el resto de sus obligaciones ordinarias (deberá emitirse certificado por el centro en tal sentido).\n\n2.- El límite máximo adicional es de 30.000 €. El procedimiento a seguir viene regulado en la norma quinta de la orden de 18 de mayo de 1995 y se explica en la pregunta 19 de esta guía."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-36",
+          "number": "36",
+          "title": "36. ¿Qué diferencia hay entre gastos de mantenimiento o conservación y de reparación? ¿Y las mejoras?",
+          "content": "Todos estos conceptos tienden a confundirse, pero a grandes rasgos, lo que diferencia la reparación del resto de conceptos, es el daño sufrido, si el bien sobre el que se va a intervenir ha sufrido algún daño, estamos ante una reparación, si lo que se pretende es mantener o conservar la capacidad operativa del bien o que ésta no disminuya, serán gastos de mantenimiento o conservación, y por último, si lo que desea es aumentar la capacidad del bien o alargar su vida útil, se trataría de mejoras y por tanto aumentarían el valor de adquisición del activo."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-37",
+          "number": "37",
+          "title": "37. ¿Puede el centro contratar un seguro para robos? ¿La Conselleria de Educacion, Cultura y Deporte dispone de seguro de responsabilidad civil para los centros? ¿Podría contratar el centro directamente la cobertura de responsabilidad civil?",
+          "content": "Los centros sí pueden contratar un seguro para robos, excepto los centros públicos de Educación Infantil, de Educación Primaria o de Educación Especial al ser la vigilancia de los edificios competencia del municipio respectivo (disposición adicional decimoquinta apartado 2 de la Ley Orgánica de Educación, LOE 2/2006, de 3 de mayo), pero no podrán incluir en las coberturas la responsabilidad civil o patrimonial, ya que en el ámbito de la Administración Pública se regula esta circunstancia, y siempre que se cumplan los requisitos que contempla la normativa vigente, sería de aplicación el procedimiento de responsabilidad patrimonial de la administración. Por esta razón, la Conselleria de Educación, Cultura y Deporte tampoco dispone de ningún seguro de responsabilidad civil para los centros."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-38",
+          "number": "38",
+          "title": "38. Puede el centro contratar personal externo al centro educativo, por ejemplo una persona encargada del mantenimiento informático o de la biblioteca?",
+          "content": "En el artículo 310 de la Ley 9/2017, de 8 de noviembre, de Contratos del sector público, que habla del régimen de contratación para actividades docentes, se contempla la posibilidad de contratar personas físicas o empresas externas a la Generalitat para la impartición de cursos, jornadas, ponencias, conferencias, etc. Si estas actividades son realizadas por personas físicas, el gasto estará incluido en el apartado 1 de la norma cuarta de la Orden de 18 de mayo de 1995, reguladora de la gestión económica de los centros docentes públicos, y se justificará por el capítulo II, sin que estas actividades se consideren como determinantes para el reconocimiento de una relación laboral. Así, el centro no puede incurrir en la contratación de personal externo al centro educativo, como por ejemplo personal para el mantenimiento informático o personal encargado de la biblioteca, dado que no se adecua a los gastos que un centro educativo puede realizar, contemplados en la norma cuarta de la Orden de 18 de mayo de 1995, y dado que las contrataciones del personal que se puedan asimilar a una relación laboral corresponden únicamente a la Conselleria. En definitiva, el destino de los fondos recibidos por parte de los centros, debe aplicarse a las finalidades por las cuales fueron concedidos, es decir, el presupuesto del gasto no puede financiar gastos de personal."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-39",
+          "number": "39",
+          "title": "39. Seguro escolar",
+          "content": "El alumnado español o extranjero que resida legalmente en España, que curse estudios oficiales desde tercer curso de la ESO, o equivalente, según el actual sistema educativo y hasta el curso escolar en que cumpla los 28 años, será beneficiario del Seguro Escolar\n\nObligatorio, según la Ley de 17 de julio de 1953, sobre el establecimiento del Seguro Escolar en España. El procedimiento de tramitación del seguro escolar por parte de los centros docentes sostenidos con fondos públicos está indicado en las Instrucciones de la Dirección General de Centros Docentes de fecha 28 de octubre de 2019, disponibles en la página: http://www.ceice.gva.es/es/web/admision-alumnado/normativa\n\nEl enlace directo al documento es el siguiente: http://www.ceice.gva.es/documents/162640623/167743489/Actualitzaci %C3%B3n_Instrucciones+Centros_SEGURO+ESCOLAR_cast_firmado.pdf/6ee7fef6-f05b48d3-836d-4521f9294fb8\n\nEl alumnado que curse las enseñanzas profesionales de Música o de Danza en conservatorios de Música o de Danza y que al mismo tiempo curse tercero o cuarto de Educación Secundaria Obligatoria o Bachillerato, se considerará incluido en el campo de aplicación del seguro escolar, sin que para lo cual sea necesario el abono de una nueva cuota, puesto que, de acuerdo con el artículo 60.4 del Reglamento general sobre cotización y liquidación de otros derechos de la Seguridad Social, aprobado por el Real Decreto 2064/1995, de 22 de diciembre, la obligación de cotizar al seguro escolar es única por estudiante y curso académico, aunque el estudiante esté matriculado en varios centros."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-40",
+          "number": "40",
+          "title": "40. ¿Qué gastos se deben incluir en el concepto “gastos diversos”?",
+          "content": "Este concepto está previsto para contabilizar gastos no previstos en otros tipos de conceptos económicos. En ningún caso se contabilizarán en este concepto adquisiciones de mobiliario y equipamiento, que al tratarse de material inventariable, se realizará a través del concepto 625."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-41",
+          "number": "41",
+          "title": "41. ¿Qué gastos se deben incluir en el concepto “trabajos realizados por profesionales y otras empresas”?",
+          "content": "Según el punto 4 del anexo III de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia se clasifican en este concepto los gastos ocasionados por la realización de servicios encomendados a empresas de servicios profesionales, así como aquellos trabajos específicos y concretos no habituales encargados a personas físicas que reúnan los requisitos de solvencia técnica o científica. Hay que tener en cuenta que en la factura ha de constar la aplicación del IVA (o su exención) y practicarse el correspondiente descuento que posteriormente se ingresará mediante el modelo 111. Normalmente suele coincidir con los siguientes servicios: desinfección, desinsectación, desratización, vigilancia, estudios e informes técnicos, imprenta, cursos y conferencias, transporte de alumnado para actividades extraescolares, etc."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-42",
+          "number": "42",
+          "title": "42. Hemos recibido un curso de formación en pizarras digitales por parte de un profesional, este gasto, ¿cómo ha de figurar contablemente en la aplicación de ITACA? Al no ser una empresa, ¿debe figurar como persona física o jurídica?",
+          "content": "A tenor de la clasificación económica de los gastos dada en el punto 4 del anexo III de la Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, éste es un gasto que se puede imputar al concepto económico 227.99, al adaptarse con posterioridad a los códigos de clasificación de la Orden de 27 de diciembre de 2001 de la Conselleria de\n\nEconomía, Hacienda y Empleo y, en consecuencia, en la aplicación ITACA le corresponde el código 227.99 “otros trabajos realizados por empresas y profesionales”.\n\nPara dar respuesta a la segunda pregunta, en primer lugar hay que ver quién emite la factura. En los servicios prestados por profesional identificado con NIF, deberá figurar como persona física, y si es una mercantil identificada con CIF, figurará como persona jurídica."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-43",
+          "number": "43",
+          "title": "43. ¿Cómo se contabiliza la factura emitida por un ponente en la que se desglosa la ponencia y los gastos de transporte?",
+          "content": "Dado que hay una única factura (aunque se desglosen los conceptos) y el servicio de transporte no ha sido contratado directamente por el centro, la contabilización de la misma irá íntegramente en el mismo concepto económico, 227.99, trabajos realizados por empresas y profesionales."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-44",
+          "number": "44",
+          "title": "44. ¿Debe el ponente del taller de actividades del programa de innovación educativa repercutir IVA en la factura que emita al centro?",
+          "content": "Cuando el centro contrate un servicio a una persona profesional, debe asegurarse que esté en condiciones de emitir la factura correspondiente. En cuanto a los requisitos de la factura, se trata de normativa estatal y los datos que deben figurar necesariamente están determinados en aquella. En consecuencia, es responsabilidad de la persona emisora de la factura cumplir con la normativa aplicable. La Dirección Territorial no es competente para discernir si los ponentes de talleres deben repercutir el IVA o no, en las facturas que emiten al centro. En cualquier caso, es el/la profesional quien debe elevar la consulta al órgano competente, la Agencia Tributaria Estatal."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-45",
+          "number": "45",
+          "title": "45. Indemnizaciones por comisiones de servicio",
+          "content": "Las únicas indemnizaciones por comisiones de servicio (dietas y desplazamientos) que pueden abonarse son las contempladas en la normativa vigente para esta materia, regulada en el Decreto 64/2011, de 27 de mayo, del Consell, por el que se modifica el Decreto 24/1997, de 11 de febrero, sobre indemnizaciones por razón del servicio y gratificaciones por servicios extraordinarios. Han de ser autorizadas previamente por el/la director/a del centro y el modelo se encuentra en el Anexo V de la Orden de 18 de mayo de 1995."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-46",
+          "number": "46",
+          "title": "46. ¿Qué diferencia hay entre los concepto económicos 215 y 625?",
+          "content": "En el concepto 215 se contabiliza la reparacion, mantenimiento y conservacion del mobiliario y enseres y en el 625 la adquisición de mobiliario inventariable y equipos didácticos del propio centro. Como ejemplo, la compra de pizarras digitales, ordenadores o equipos de climatización, se contabilizan en el concepto 625.\n\nLa reparación de ordenadores y el mantenimiento informático han de venir reflejados en el concepto 216, Equipos para procesos de la información."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-47",
+          "number": "47",
+          "title": "47. ¿Se puede comprar material inventariable si no supera los 1.803 €?",
+          "content": "Se puede realizar la compra pero ha de tenerse en cuenta la limitación de gastos establecida en el artículo 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la\n\nGeneralitat para el ejercicio 2019. Al tratarse de material inventariable, ha de contabilizarse en el concepto 625."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-48",
+          "number": "48",
+          "title": "48. ¿Cuál es limite que tiene el centro para gastar en la partida de mobiliario y equipos?",
+          "content": "Este límite viene impuesto por el artículo 10.2 de la Ley 28/2018, de 28 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2019, en el que se establece que las reparaciones que excedan del mero mantenimiento más las compras de mobiliario y equipo didáctico del centro no podrán sobrepasar la cantidad de 50.000 euros."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-49",
+          "number": "49",
+          "title": "49. Elaboración del presupuesto",
+          "content": "El saldo final del ejercicio contable finalizado forma parte del presupuesto del ejercicio a presupuestar como saldo inicial. Los ingresos ordinarios están definidos por los que le correspondan al centro de acuerdo con el sistema modular vigente. En cuanto a los gastos, se debe hacer una distribución razonable de las necesidades teniendo en cuenta el carácter contable del presupuesto que exige un equilibrio entre gastos e ingresos y considerando que se trata de una previsión.\n\nLos ingresos pendientes de recibir correspondientes a ejercicios anteriores no se deben presupuestar porque ya lo fueron en el ejercicio anterior.\n\nLos centros no pueden cobrar al alumnado ninguna cantidad por los sobres de documentación para la matrícula, ni ninguna otra que no esté debidamente regulada por normativa (tasa o precio público). Así queda establecido en el Decreto 40/2016, por el que se regula la admisión en los centros docentes públicos y privados concertados, determinando en el mismo la prohibición de percibir cantidades de las familias por las enseñanzas de carácter gratuito, así como de aportaciones en concepto de matrícula o reserva de plaza."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-50",
+          "number": "50",
+          "title": "50. Sistema modular",
+          "content": "El sistema modular es enviado a los centros por parte de la Dirección General de Centros Docentes. Representa la cuantía anual prevista para cubrir los gastos de funcionamiento ordinario de los centros, de acuerdo con lo que se establece en los Presupuestos de la Generalitat Valenciana y atendiendo al coste de funcionamiento de los distintos servicios."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-51",
+          "number": "51",
+          "title": "51. Consultas sobre el sistema modular del centro",
+          "content": "Para este tipo de consultas hay que enviar un e-mail a la siguiente dirección de correo electrónico de la Dirección General de Centros Docentes: dgcd.fpublic@gva.es"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-52",
+          "number": "52",
+          "title": "52. Consultas en relación al motivo de un determinado ingreso",
+          "content": "Ruta de acceso para consultar el concepto de ingresos del centro: https://atenea.ha.gva.es/flapro/inicio.jsp?idioma=val"
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-53",
+          "number": "53",
+          "title": "53. Para más información sobre los ingresos",
+          "content": "Llamar al 012 con el CIF del centro."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-54",
+          "number": "54",
+          "title": "54. DelegaTIC",
+          "content": "Al amparo de la Resolución de 23 de octubre de 2018, del conseller de Hacienda y Modelo Económico, sobre delegación de competencias en quien ejerza la dirección de los centros educativos públicos no universitarios de la Generalitat para adquisición de equipamiento y productos TIC para uso en el entorno educativo. [2018/10278], se ha publicado un catálogo de artículos sobre los cuales se delega la competencia de la compra en los centros educativos. La resolución indica que el catálogo se irá revisando y ampliando periódicamente. El catálogo de los artículos así como las instrucciones a seguir por parte de los centros educativos se encuentran detallados en la página http://www.ceice.gva.es/es/delegatic Tal y como se indica en la web, cualquier consulta que se desee realizar desde los centros educativos sobre esta delegación de competencias puede realizarse abriendo una incidencia en el SAI en la cola DelegaTIC, subcola Consultas."
+        },
+        {
+          "type": "seccion",
+          "id": "sec-pregunta-55",
+          "number": "55",
+          "title": "55. Consultas a la Sección de Gestión Económica de las direcciones territoriales",
+          "content": "Las consultas en materia de gestión económica se presentarán a través de medios electrónicos en la siguiente dirección: Dirección Territorial de Alicante, edueconomica_dta@gva.es Dirección Territorial de Castellón, seccioeconomicaeducas@gva.es Dirección Territorial de Valencia, gest_economica_dtv@gva.es\n\nManual de Gestión Económica con ITACA, consta en el apartado 28 del índice de manuales web de ITACA: http://www.ceice.gva.es/webitaca/docs/URL_manuals_web_orde_menu_ITACA.pdf"
+        }
+      ]
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "orden-gestion-economica-1995",
+        "title": "Orden de 18 de mayo de 1995, de la Conselleria de Educación y Ciencia, por la que se delega en los directores de los centros docentes no universitarios determinadas facultades ordinarias en materia de contratación y se aprueban las normas de gestión económica",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}
