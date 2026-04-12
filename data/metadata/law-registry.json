@@ -329,6 +329,20 @@
       "status": "ingested",
       "category": "tic",
       "notes": "Documento (no normativa). PDFs separados ES/VA desde CEICE, 4 páginas. Instrucción de Servicio firmada el 17/06/2025 por José María Larena Berrocal. Regula el uso seguro de la identidad digital y del equipamiento TIC gestionado por la Conselleria. Preámbulo + 5 secciones (Objeto, Ámbito, Normas de cuentas de correo con subsecciones 3.1 Identidad Digital Personal y 3.2 Identidad digital de centro y buzones compartidos, Normas de equipamiento informático, Derogaciones). Habilitada por D.38/2025 (art. 22.m). Deroga 4 instrucciones previas (1/2011, 2/2011, 1/2009, 4/2009). URL activa: gvasai.edu.gva.es."
+    },
+    {
+      "slug": "decreto-93-2016",
+      "title": "Decreto 93/2016 - Proceso electoral de consejos escolares",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "PDF bilingüe DOGV 2 columnas. 23 arts + 2 DA + 1 DT + 1 DD + 2 DF. Regula el proceso electoral para la renovación y constitución de los consejos escolares de centros docentes no universitarios sostenidos con fondos públicos. Deroga las Órdenes de 10/10/1997 sobre elección de consejos escolares."
+    },
+    {
+      "slug": "circular-1-2024-contratacion-servicios",
+      "title": "Circular 1/2024 - Consideraciones sobre contratación de servicios en centros docentes",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "Documento (no normativa). PDF solo en castellano enviado por correo (no publicado en DOGV). 4 páginas. Circular de la DG Centros Docentes, 17/04/2024. Preámbulo + 7 consideraciones (secciones) + conclusión. Orienta a las direcciones de centros sobre contratación menor: tres presupuestos, duración máxima 12 meses, cláusulas abusivas en reprografía, certificado de obsolescencia, servicio técnico oficial, suministros originales. Referencias a Orden gestión económica 1995, LCSP (Ley 9/2017) y Ley Presupuestos 2024. VA usa mismo contenido ES con nota. URL de verificación CSV."
     }
   ]
 }

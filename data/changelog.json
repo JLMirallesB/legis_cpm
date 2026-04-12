@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.16.1",
+    "date": "2026-04-12",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Decreto 93/2016, de 22 de julio, del Consell, por el que se regula el proceso electoral para la renovación y constitución de los consejos escolares de los centros docentes no universitarios de la Comunitat Valenciana, sostenidos con fondos públicos (DOGV 7837, 26/07/2016). 23 artículos + 2 DA + 1 DT + 1 DD + 2 DF. Deroga las Órdenes de 10/10/1997 sobre elección de consejos escolares. Categoría: Organización y funcionamiento."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Circular 1/2024, de 17 de abril, de la Dirección General de Centros Docentes, por la que se dictan consideraciones en materia de contratación de servicios realizadas por las direcciones de los centros docentes públicos. 7 consideraciones sobre contratación menor: solicitar tres presupuestos, duración máxima 12 meses, rechazo de cláusulas de revisión de precios y cláusulas abusivas, certificado de obsolescencia, servicio técnico oficial y suministros originales. Solo disponible en castellano. Categoría: Gestión económica."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta del Decret 93/2016, de 22 de juliol, del Consell, pel qual es regula el procés electoral per a la renovació i constitució dels consells escolars dels centres docents no universitaris de la Comunitat Valenciana, sostinguts amb fons públics (DOGV 7837, 26/07/2016). 23 articles + 2 DA + 1 DT + 1 DD + 2 DF. Deroga les Ordres de 10/10/1997 sobre elecció de consells escolars. Categoria: Organització i funcionament."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de la Circular 1/2024, de 17 d'abril, de la Direcció General de Centres Docents, per la qual es dicten consideracions en matèria de contractació de serveis realitzades per les direccions dels centres docents públics. 7 consideracions sobre contractació menor: sol·licitar tres pressupostos, duració màxima 12 mesos, rebuig de clàusules de revisió de preus i clàusules abusives, certificat d'obsolescència, servei tècnic oficial i subministraments originals. Només disponible en castellà. Categoria: Gestió econòmica."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.16.0",
     "date": "2026-04-11",
     "entries": {
