@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.17.0",
+    "date": "2026-04-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público (LRJSP), norma estatal hermana de la Ley 39/2015. Texto consolidado a 02/08/2024. 158 artículos (más 8 artículos bis/ter/quater/quinquies/sexies) distribuidos en Título Preliminar (disposiciones generales, órganos administrativos, potestad sancionadora, responsabilidad patrimonial, funcionamiento electrónico, convenios), Título I (Administración General del Estado), Título II (sector público institucional estatal) y Título III (relaciones interadministrativas), más 30 DA, 4 DT, 1 DD y 18 DF. Deroga la Ley 30/1992, la LOFAGE (Ley 6/1997) y la Ley 28/2006 de Agencias Estatales. Aplicable supletoriamente a los conservatorios en materia de órganos colegiados, abstención y recusación, funcionamiento electrónico y convenios. Categoría: Organización y funcionamiento."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Llei 40/2015, d'1 d'octubre, de Règim Jurídic del Sector Públic (LRJSP), norma estatal bessona de la Llei 39/2015. Text consolidat a 02/08/2024. 158 articles (més 8 articles bis/ter/quater/quinquies/sexies) distribuïts en Títol Preliminar (disposicions generals, òrgans administratius, potestat sancionadora, responsabilitat patrimonial, funcionament electrònic, convenis), Títol I (Administració General de l'Estat), Títol II (sector públic institucional estatal) i Títol III (relacions interadministratives), més 30 DA, 4 DT, 1 DD i 18 DF. Deroga la Llei 30/1992, la LOFAGE (Llei 6/1997) i la Llei 28/2006 d'Agències Estatals. Aplicable supletòriament als conservatoris en matèria d'òrgans col·legiats, abstenció i recusació, funcionament electrònic i convenis. Només disponible en castellà. Categoria: Organització i funcionament."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.16.2",
     "date": "2026-04-14",
     "entries": {

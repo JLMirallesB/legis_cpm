@@ -2,6 +2,13 @@
   "description": "Registro de leyes para tracking de ingesta. NO usado por Astro, solo para seguimiento.",
   "laws": [
     {
+      "slug": "ley-40-2015",
+      "title": "Ley 40/2015 - Régimen Jurídico del Sector Público (LRJSP)",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "Ley estatal. Texto consolidado BOE a 02/08/2024. 158 artículos + 8 bis/ter/etc + 30 DA + 4 DT + 1 DD + 18 DF. Deroga Ley 30/1992, LOFAGE (6/1997) y Ley 28/2006. Solo en castellano; VA usa mismo contenido con nota. Categoría: Organización y funcionamiento."
+    },
+    {
       "slug": "cuenta-gestion-centros-docentes",
       "title": "Cuenta de Gestión de Centros Docentes Públicos No Universitarios - Guía práctica de preguntas frecuentes (2ª Act. nov. 2019)",
       "status": "ingested",
