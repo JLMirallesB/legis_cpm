@@ -2,6 +2,13 @@
   "description": "Registro de leyes para tracking de ingesta. NO usado por Astro, solo para seguimiento.",
   "laws": [
     {
+      "slug": "resolucion-sorteo-admision-2026-2027",
+      "title": "Resolución 21/04/2026 - Sorteo admisión centros docentes curso 2026-2027",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Resolución de la DG de Centros Docentes. Publica el resultado del sorteo de letras para desempate en admisión (D.48/2024, art. 38): primer apellido Q-O, segundo apellido N-W. Anual (curso 2026-2027). Ámbito general (Infantil, Primaria, ESO, Bachillerato, Educación Especial)."
+    },
+    {
       "slug": "resolucion-coordinacion-horaria-2026-2027",
       "title": "Resolución 15/04/2026 - Convocatoria Programa de coordinación horaria curso 2026-2027",
       "status": "ingested",

@@ -1,0 +1,74 @@
+{
+  "id": "resolucion-sorteo-admision-2026-2027",
+  "slug": "resolucion-sorteo-admision-2026-2027",
+  "type": "resolucion",
+  "number": "21/04/2026",
+  "date": "2026-04-21",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10348",
+    "date": "2026-04-23",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2026/11785",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/04/23/pdf/2026_11785_va.pdf"
+  },
+  "title": "Resolució de 21 d'abril de 2026, de la Direcció General de Centres Docents, per la qual es fa públic el resultat del sorteig a què fa referència l'article 38 del Decret 48/2024, que regula l'admissió en els centres docents públics i privats concertats que impartixen ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria i Batxillerat, i en els centres d'Educació Especial, per al curs 2026/2027",
+  "titleShort": "Res 21/04/2026 - Sorteig admissió 2026-2027",
+  "category": "general",
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "anual",
+    "schoolYear": "26-27",
+    "expiresDate": "2027-09-01"
+  },
+  "docType": "normativa",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-04-23"
+  },
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "decreto-48-2024",
+        "title": "Decret 48/2024 (admissió en centres docents)",
+        "articles": ["art-38"],
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "orden-8-2024",
+        "title": "Orde 8/2024 (procediment d'admissió)",
+        "articles": ["art-40"],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-04-21",
+    "signatories": [
+      {
+        "name": "Jorge Cabo Martínez",
+        "role": "Direcció General de Centres Docents"
+      }
+    ]
+  },
+  "structure": [
+    {
+      "id": "preambulo",
+      "type": "preambulo",
+      "title": "Preàmbul",
+      "content": "El Decret 48/2024, de 23 d'abril, del Consell, regula l'admissió de l'alumnat en els centres docents públics i privats concertats que impartixen ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria i Batxillerat, i en els centres d'Educació Especial. L'article 38.2 del mencionat decret, que es referix als desempats, establix que «en les situacions d'empat que es produïsquen després d'aplicar els criteris indicats en l'apartat 1 d'este article, l'ordenació de les sol·licituds afectades es farà per sorteig públic, d'acord amb el procediment que establisca la conselleria competent en matèria d'educació».\n\nL'Orde 8/2024, de 24 d'abril, de la Conselleria d'Educació, Universitats i Ocupació, per la qual es regula el procediment d'admissió de l'alumnat en els centres docents públics i privats concertats que impartixen ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria i Batxillerat, i en els centres d'Educació Especial a la Comunitat Valenciana, en la redacció actual, article 40 (procediment de desempats), establix que «segons el que s'establix en l'apartat 2 de l'article 38 del Decret 48/2024, en les situacions d'empat que es produïsquen després d'aplicar els criteris de desempat, es farà un sorteig públic d'acord amb el procediment següent: es triaran dos lletres per les quals s'ordenarà el primer cognom; també altres dos lletres per les quals s'ordenarà el segon cognom i que s'aplicaran quan hi haja coincidència amb el primer. En cas de no disposar d'un segon cognom, es considerarà que este comença amb \"AA\"»."
+    },
+    {
+      "id": "apartado-unico",
+      "type": "articulo",
+      "title": "Resultat del sorteig",
+      "content": "La Direcció General de Centres Docents, en compliment del que preveu el mencionat article 38, una vegada realitzat el sorteig públic en les dependències de la Conselleria d'Educació, Cultura i Universitats, el dia 21 d'abril de 2026, a les 10:30 h, fa públic el resultat del sorteig de les lletres a partir de les quals es dirimiran els empats que es produïsquen:\n\nLletres per a ordenar el primer cognom: **Q-O** (en este orde)\n\nLletres per a ordenar el segon cognom, i que s'aplicaran quan hi haja coincidència amb el primer: **N-W** (en este orde)\n\nPer tant, els empats que es produïsquen en el procés d'admissió de l'alumnat en els centres docents públics i privats concertats que impartisquen ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria i Batxillerat, i en els centres d'Educació Especial per al curs 2026-2027, fins i tot havent aplicat successivament el que preveuen els apartats 1 i 2 de l'article 38 del mencionat Decret 48/2024, es dirimiran a partir dels resultats d'este sorteig."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "resolucion-sorteo-admision-2026-2027",
+  "slug": "resolucion-sorteo-admision-2026-2027",
+  "type": "resolucion",
+  "number": "21/04/2026",
+  "date": "2026-04-21",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10348",
+    "date": "2026-04-23",
+    "url": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/11785",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/04/23/pdf/2026_11785_es.pdf"
+  },
+  "title": "Resolución de 21 de abril de 2026, de la Dirección General de Centros Docentes, por la cual se hace público el resultado del sorteo a que hace referencia el artículo 38 del Decreto 48/2024, que regula la admisión en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, y en los centros de Educación Especial, para el curso 2026/2027",
+  "titleShort": "Res 21/04/2026 - Sorteo admisión 2026-2027",
+  "category": "general",
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "anual",
+    "schoolYear": "26-27",
+    "expiresDate": "2027-09-01"
+  },
+  "docType": "normativa",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2026-04-23"
+  },
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "decreto-48-2024",
+        "title": "Decreto 48/2024 (admisión en centros docentes)",
+        "articles": ["art-38"],
+        "relationship": "desarrollo"
+      },
+      {
+        "lawId": "orden-8-2024",
+        "title": "Orden 8/2024 (procedimiento de admisión)",
+        "articles": ["art-40"],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-04-21",
+    "signatories": [
+      {
+        "name": "Jorge Cabo Martínez",
+        "role": "Dirección General de Centros Docentes"
+      }
+    ]
+  },
+  "structure": [
+    {
+      "id": "preambulo",
+      "type": "preambulo",
+      "title": "Preámbulo",
+      "content": "El Decreto 48/2024, de 23 de abril, del Consell, regula la admisión del alumnado en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, y centros de Educación Especial. El artículo 38.2 del mencionado decreto, refiriéndose a los desempates, establece que «En las situaciones de empate que se produzcan después de aplicar los criterios indicados en el apartado 1 de este artículo, la ordenación de las solicitudes afectadas se hará por sorteo público, de acuerdo con el procedimiento que establezca la conselleria competente en materia de Educación».\n\nLa Orden 8/2024, de 24 de abril, de la Conselleria de Educación, Universidades y Empleo, por la cual se regula el procedimiento de admisión del alumnado en los centros docentes públicos y privados concertados que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato y en los centros de Educación Especial en la Comunitat Valenciana, en su redacción actual, artículo 40, procedimiento de desempates, establece que «según lo establecido en el apartado 2 del artículo 38 del Decreto 48/2024, en las situaciones de empate que se produzcan después de aplicar los criterios de desempates, se realizará un sorteo público de acuerdo con el procedimiento siguiente: se elegirán dos letras por las cuales se ordenará el primer apellido; también otros dos letras por las cuales se ordenará el segundo apellido, y que se aplicarán cuando exista coincidencia con el primero. En caso de no disponer de un segundo apellido, se considerará que este empieza con \"AA\"»."
+    },
+    {
+      "id": "apartado-unico",
+      "type": "articulo",
+      "title": "Resultado del sorteo",
+      "content": "La Dirección General de Centros Docentes, en cumplimiento de lo que prevé el mencionado artículo 38, una vez realizado el sorteo público en las dependencias de la Conselleria de Educación, Cultura y Universidades, el día 21 de abril de 2026, a las 10.30 h., hace público el resultado del sorteo de las letras a partir de las cuales se dirimirán los empates que se produzcan:\n\nLetras para ordenar el primer apellido: **Q-O** (en este orden)\n\nLetras para ordenar el segundo apellido, y que se aplicarán cuando haya coincidencia con el primero: **N-W** (en este orden)\n\nPor lo tanto, los empates que se produzcan en el proceso de admisión del alumnado en los centros docentes públicos y privados concertados que impartan enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria y Bachillerato, y centros de Educación Especial para el curso 2026-2027, incluso habiendo aplicado sucesivamente lo previsto en los apartados 1 y 2 del artículo 38 del citado Decreto 48/2024, se dirimirán a partir de los resultados de este sorteo."
+    }
+  ]
+}

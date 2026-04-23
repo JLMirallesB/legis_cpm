@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.17.4",
+    "date": "2026-04-23",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 21 de abril de 2026, de la Dirección General de Centros Docentes, por la cual se hace público el resultado del sorteo de desempate para la admisión en centros docentes públicos y privados concertados (curso 2026-2027). Letras primer apellido: Q-O; segundo apellido: N-W. Anual. Categoría: General."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 21 d'abril de 2026, de la Direcció General de Centres Docents, per la qual es fa públic el resultat del sorteig de desempat per a l'admissió en centres docents públics i privats concertats (curs 2026-2027). Lletres primer cognom: Q-O; segon cognom: N-W. Anual. Categoria: General."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.17.3",
     "date": "2026-04-23",
     "entries": {
