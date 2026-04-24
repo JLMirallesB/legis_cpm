@@ -6,8 +6,8 @@
     "va": "Avaluació: sessions, equip docent i documents"
   },
   "description": {
-    "es": "Normativa sobre las sesiones de evaluación, funciones del equipo docente en la evaluación colegiada, documentos de evaluación preceptivos (actas, informes individualizados) y obligaciones de actas en reuniones de departamentos y órganos de coordinación.",
-    "va": "Normativa sobre les sessions d'avaluació, funcions de l'equip docent en l'avaluació col·legiada, documents d'avaluació preceptius (actes, informes individualitzats) i obligacions d'actes en reunions de departaments i òrgans de coordinació."
+    "es": "Normativa sobre las sesiones de evaluación, funciones del equipo docente en la evaluación colegiada, documentos de evaluación preceptivos (actas, informes individualizados), planificación de sesiones y participación del pianista acompañante.",
+    "va": "Normativa sobre les sessions d'avaluació, funcions de l'equip docent en l'avaluació col·legiada, documents d'avaluació preceptius (actes, informes individualitzats), planificació de sessions i participació del pianista acompanyant."
   },
   "updatedAt": "2026-04-24",
   "fragments": [
@@ -147,6 +147,14 @@
       }
     },
     {
+      "lawSlug": "resolucion-inicio-curso-2025-2026",
+      "articleId": "anexo-6-3",
+      "excerpt": {
+        "es": "1. El pianista/clavecinista acompañante formará parte del equipo docente del alumnado asignado. Como tal participará activamente en todas las decisiones de la evaluación del proceso de enseñanza aprendizaje, teniendo voz y voto en la evaluación, de forma que su participación puede suponer un porcentaje de calificación de la asignatura de especialidad (instrumento o voz) de cada alumno, de acuerdo con la regulación de la figura del pianista/clavecinista acompañante recogida en el PEC del centro.",
+        "va": "1. El pianista/clavecinista acompanyant formarà part de l'equip docent de l'alumnat assignat. Com a tal participarà activament en totes les decisions de l'avaluació del procés d'ensenyament aprenentatge, tenint veu i vot en l'avaluació, de manera que la seua participació pot suposar un percentatge de qualificació de l'assignatura d'especialitat (instrument o veu) de cada alumne, d'acord amb la regulació de la figura del pianista/clavecinista acompanyant recollida en el PEC del centre."
+      }
+    },
+    {
       "lawSlug": "decreto-57-2020",
       "articleId": "art-30",
       "excerpt": {
@@ -156,50 +164,10 @@
     },
     {
       "lawSlug": "decreto-57-2020",
-      "articleId": "art-31",
-      "excerpt": {
-        "es": "6. De todas las reuniones celebradas, los departamentos didácticos, tendrán que levantar acta en la cual constarán los acuerdos adoptados en las reuniones mencionadas. Las actas tendrán que ser elaboradas, firmadas y custodiadas por quienes ejerzan la dirección del departamento.",
-        "va": "6. De totes les reunions celebrades, els departaments didàctics, alçaran acta en la qual hi constaran els acords adoptats en les dites reunions. Les actes hauran de ser elaborades, signades i custodiades per qui exercisca la direcció del departament."
-      }
-    },
-    {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-33",
-      "excerpt": {
-        "es": "c) Convocar, organizar y presidir las reuniones del departamento, así como redactar, firmar y custodiar las actas de cada una de las reuniones.\n\nf) Velar por el cumplimiento de las programaciones didácticas y por la correcta aplicación de los criterios de evaluación en las condiciones acordadas por el profesorado del departamento, según las directrices de la Comisión de Coordinación Pedagógica.",
-        "va": "c) Convocar, organitzar i presidir les reunions del departament, com també redactar, signar i custodiar les actes de cada una de les reunions.\n\nf) Vetlar pel compliment de les programacions didàctiques i per la correcta aplicació dels criteris d'avaluació en les condicions acordades pel professorat del departament, segons les directrius de la Comissió de Coordinació Pedagògica."
-      }
-    },
-    {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-35",
-      "excerpt": {
-        "es": "3. La Comisión de Coordinación Pedagógica se reunirá al menos una vez por trimestre, habiendo de levantar acta de cada una de las sesiones que celebre este órgano de coordinación. Todos sus miembros tendrán la obligación de asistir a las reuniones que se celebran.",
-        "va": "3. La Comissió de Coordinació Pedagògica es reunirà almenys una vegada per trimestre i haurà d'alçar acta de cada una de les sessions que celebre este òrgan de coordinació. Tots els seus membres tindran l'obligació d'assistir a les reunions que se celebren."
-      }
-    },
-    {
-      "lawSlug": "decreto-57-2020",
       "articleId": "art-36",
       "excerpt": {
         "es": "h) Preparar junto con la jefatura de estudios, y proponer posteriormente al claustro, la planificación general de las sesiones de evaluación, el calendario de exámenes o pruebas extraordinarias y las directrices para llevar a cabo la acción tutorial.",
         "va": "h) Preparar junt amb la direcció d'estudis, i proposar posteriorment al claustre, la planificació general de les sessions d'avaluació, el calendari d'exàmens o proves extraordinàries i les directrius per a dur a terme l'acció tutorial."
-      }
-    },
-    {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-22",
-      "excerpt": {
-        "es": "7. De cada sesión, la secretaria redactará un acta con los apartados siguientes: personas que asisten, orden del día, lugar y duración de la sesión, asuntos principales tratados y acuerdos adoptados.\n\n8. La asistencia del profesorado a las sesiones de los órganos colegiados de gobierno que les correspondan es obligatoria, por lo cual las ausencias tendrán el carácter de horas lectivas a efectos de faltas de asistencia y permisos.",
-        "va": "7. De cada sessió, la secretària redactarà una acta amb els apartats següents: persones que hi assisteixen, ordre del dia, lloc i duració de la sessió, assumptes principals tractats i acords adoptats.\n\n8. L'assistència del professorat a les sessions dels òrgans col·legiats de govern que els corresponguen és obligatòria, per la qual cosa les absències tindran el caràcter d'hores lectives a l'efecte de faltes d'assistència i permisos."
-      }
-    },
-    {
-      "lawSlug": "orden-20-2019",
-      "articleId": "art-9",
-      "excerpt": {
-        "es": "2. Trimestralmente, coincidiendo con las sesiones de evaluación, el equipo educativo, coordinado por la tutora o el tutor y asesorado por el servicio especializado de orientación, con la información obtenida de las familias, el alumnado y otros agentes que intervienen, tiene que evaluar los resultados del PAP.\n\n3. Las decisiones sobre la modificación y, si es el caso, la incorporación de nuevas medidas de respuesta, se han de acordar de forma colegiada por el equipo educativo en las sesiones de evaluación.",
-        "va": "2. Trimestralment, coincidint amb les sessions d'avaluació, l'equip educatiu, coordinat per la tutora o el tutor i assessorat pel servei especialitzat d'orientació, amb la informació obtinguda de les famílies, l'alumnat i altres agents que hi intervenen, ha d'avaluar els resultats del PAP.\n\n3. Les decisions sobre la modificació i, si escau, la incorporació de noves mesures de resposta, les ha d'acordar de manera col·legiada l'equip educatiu en les sessions d'avaluació."
       }
     },
     {

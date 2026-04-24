@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.17.6",
+    "date": "2026-04-24",
+    "entries": {
+      "es": [
+        {
+          "type": "corrección",
+          "description": "Cuaderno Evaluación: eliminados fragmentos de régimen general de reuniones (arts. 22, 31, 33, 35 del D.57/2020) y PAP (Orden 20/2019, art. 9) por no ser específicos de evaluación ni aplicables a conservatorios. Añadido fragmento sobre la participación del pianista/clavecinista acompañante en el equipo docente con voz y voto en evaluación (Resolución inicio de curso 2025-2026, sec. 6.3)."
+        }
+      ],
+      "va": [
+        {
+          "type": "correcció",
+          "description": "Quadern Avaluació: eliminats fragments de règim general de reunions (arts. 22, 31, 33, 35 del D.57/2020) i PAP (Ordre 20/2019, art. 9) per no ser específics d'avaluació ni aplicables a conservatoris. Afegit fragment sobre la participació del pianista/clavecinista acompanyant en l'equip docent amb veu i vot en avaluació (Resolució inici de curs 2025-2026, sec. 6.3)."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.17.5",
     "date": "2026-04-24",
     "entries": {
