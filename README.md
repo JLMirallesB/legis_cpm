@@ -5,7 +5,7 @@
 <h1 align="center">Legis CPMDEM</h1>
 
 <p align="center">
-  Lector de legislaci&oacute;n de <strong>Conservatorios Profesionales de M&uacute;sica y Danza</strong> y <strong>Escuelas de M&uacute;sica</strong> de la Generalitat Valenciana.
+  Lector de legislaci&oacute;n de <strong>Conservatorios Profesionales de M&uacute;sica y Danza</strong> de la Generalitat Valenciana.
 </p>
 
 <p align="center">
@@ -18,16 +18,18 @@
 
 ## Sobre el proyecto
 
-Legis CPMDEM recopila, estructura y presenta la normativa vigente que regula los conservatorios profesionales de m&uacute;sica y danza y las escuelas de m&uacute;sica de la Comunitat Valenciana. Toda la legislaci&oacute;n se ofrece en **castellano y valenciano**, con navegaci&oacute;n biling&uuml;e autom&aacute;tica seg&uacute;n el idioma del navegador.
+Legis CPMDEM recopila, estructura y presenta la normativa vigente que regula los conservatorios profesionales de m&uacute;sica y danza de la Comunitat Valenciana. Toda la legislaci&oacute;n se ofrece en **castellano y valenciano**, con navegaci&oacute;n biling&uuml;e autom&aacute;tica seg&uacute;n el idioma del navegador.
 
 El proyecto nace de la necesidad de tener un acceso r&aacute;pido, organizado y actualizado a una normativa dispersa entre el DOGV y el BOE, con textos consolidados que reflejan las modificaciones vigentes.
 
 **No es una publicaci&oacute;n oficial** de la Generalitat Valenciana. Es un proyecto personal de Jos&eacute; Luis Miralles Bono, profesor de conservatorio.
 
+> **En desarrollo:** la normativa sobre **Escuelas de M&uacute;sica** y **Ense&ntilde;anzas Art&iacute;sticas Superiores** a&uacute;n no est&aacute; incorporada. Se ir&aacute; a&ntilde;adiendo en futuras versiones.
+
 ## Funcionalidades
 
 ### Cat&aacute;logo y navegaci&oacute;n
-- **39 normas ingresadas** entre decretos, &oacute;rdenes, leyes org&aacute;nicas, reales decretos, resoluciones, circulares y documentos
+- Decretos, &oacute;rdenes, leyes org&aacute;nicas, reales decretos, resoluciones y m&aacute;s, actualizados progresivamente
 - Navegaci&oacute;n por **categor&iacute;as**: curr&iacute;culo, organizaci&oacute;n, evaluaci&oacute;n, acceso, profesorado, titulaciones, flexibilizaci&oacute;n, premios, etc.
 - **Etiquetas de clasificaci&oacute;n**: aplicaci&oacute;n (M&uacute;sica, Danza, General), &aacute;mbito (Estatal, Auton&oacute;mico), periodo (Permanente, Anual) y tipo documental
 - **Buscador** con filtros m&uacute;ltiples: por tipo de norma, publicaci&oacute;n, a&ntilde;o, firmante, cargo, &aacute;mbito, etc.
@@ -39,7 +41,6 @@ El proyecto nace de la necesidad de tener un acceso r&aacute;pido, organizado y 
 - **An&aacute;lisis jur&iacute;dico**: afectaciones anteriores y posteriores, derogaciones, concordancias y norma habilitante
 - **Cl&aacute;usula de promulgaci&oacute;n**: lugar, fecha y firmantes de cada norma
 - Tablas de distribuci&oacute;n horaria y ratios renderizadas desde markdown
-- **Auto-linking**: las URLs en el texto son clicables autom&aacute;ticamente
 
 ### Herramientas de trabajo
 - **Cuaderno de fragmentos**: selecciona texto de cualquier art&iacute;culo y gu&aacute;rdalo en un panel persistente. Permite reordenar, eliminar y copiar con referencias
@@ -53,7 +54,7 @@ El proyecto nace de la necesidad de tener un acceso r&aacute;pido, organizado y 
 
 La secci&oacute;n de [Novedades](https://JLMirallesB.github.io/legis_cpmdem/es/changelog/) muestra el historial completo de versiones con las normativas a&ntilde;adidas y las mejoras de la aplicaci&oacute;n.
 
-- **Suscripci&oacute;n RSS**: bot&oacute;n naranja en la p&aacute;gina de novedades para suscribirse al feed y recibir actualizaciones en tu lector RSS favorito
+- **Suscripci&oacute;n RSS**: feed disponible en la p&aacute;gina de novedades para recibir actualizaciones en tu lector RSS favorito
 - **Anunciar novedades**: cada versi&oacute;n tiene un bot&oacute;n para copiar al portapapeles un resumen listo para pegar en WhatsApp, email o donde quieras
 
 ## Tecnolog&iacute;a
@@ -64,7 +65,7 @@ La secci&oacute;n de [Novedades](https://JLMirallesB.github.io/legis_cpmdem/es/c
 - **GitHub Pages** &mdash; Despliegue autom&aacute;tico en cada push a main
 - **PWA** &mdash; Manifest e iconos para instalaci&oacute;n en m&oacute;vil
 
-## MCP Server (avanzado)
+## MCP Server
 
 Legis CPMDEM incluye un **servidor MCP** (Model Context Protocol) que permite consultar la legislaci&oacute;n desde Claude Desktop, Claude Code u otros clientes MCP compatibles.
 
@@ -130,19 +131,6 @@ Ver la carpeta `docs/` para documentaci&oacute;n detallada:
 - [Gu&iacute;a de contenido](docs/CONTENT-GUIDE.md)
 - [Deploy](docs/DEPLOYMENT.md)
 - [Decisiones](docs/DECISIONS.md)
-
-## Legislaci&oacute;n pendiente de incorporar
-
-Por orden de prioridad:
-
-1. **Admisi&oacute;n y pruebas de acceso** &mdash; Esperando actualizaci&oacute;n normativa antes de introducirlas
-2. ~~**Convalidaciones y equivalencias**~~ &mdash; Instrucciones de convalidaciones m&uacute;sica/danza-bachillerato ingresadas. Pendiente: normativa general sobre reconocimiento de estudios
-3. ~~**Plantillas**~~ &mdash; &#10004; Orden 9/2025 (criterios generales) e Instrucciones plantillas conservatorios 2026/2027
-4. **Danza (normativa nacional)** &mdash; Reales decretos espec&iacute;ficos de ense&ntilde;anzas profesionales de danza
-5. ~~**Convivencia**~~ &mdash; &#10004; Decreto 193/2025 de convivencia en el sistema educativo
-6. **Protecci&oacute;n de datos y TIC** &mdash; Normativa sobre privacidad, protecci&oacute;n de datos y uso de tecnolog&iacute;as en centros educativos
-7. **Escuelas de M&uacute;sica** &mdash; Regulaci&oacute;n completa de las escuelas de m&uacute;sica (falta completamente)
-8. **Conservatorios Superiores** &mdash; Normativa de ense&ntilde;anzas art&iacute;sticas superiores (falta completamente)
 
 ## Licencia
 

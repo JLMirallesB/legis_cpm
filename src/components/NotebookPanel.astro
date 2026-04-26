@@ -299,31 +299,22 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
     return el;
   }
 
-  document.addEventListener('mouseup', (e) => {
-    // Don't trigger inside the notebook panel itself
-    if (tooltip?.contains(e.target) || document.getElementById('notebook-panel')?.contains(e.target)) return;
+  let selectionDebounce = null;
 
-    setTimeout(() => {
-      const sel = window.getSelection();
-      const selText = sel?.toString().trim();
-      if (!selText || selText.length < 5) {
-        if (tooltip) tooltip.hidden = true;
-        pendingSelection = null;
-        return;
-      }
+  function showSelectionTooltip() {
+    const sel = window.getSelection();
+    const selText = sel?.toString().trim();
+    if (!selText || selText.length < 5) return;
 
-      // Must be inside .law-content
-      const anchor = sel.anchorNode;
-      const lawContent = document.querySelector('.law-content');
-      if (!lawContent || !lawContent.contains(anchor)) {
-        if (tooltip) tooltip.hidden = true;
-        pendingSelection = null;
-        return;
-      }
+    const anchor = sel.anchorNode;
+    if (tooltip?.contains(anchor) || document.getElementById('notebook-panel')?.contains(anchor)) return;
 
-      const articleEl = getArticleEl(anchor);
+    const lawContent = document.querySelector('.law-content');
+    if (!lawContent || !lawContent.contains(anchor)) return;
 
-      // Capture selected HTML before the range is lost
+    const articleEl = getArticleEl(anchor);
+
+    try {
       const range = sel.getRangeAt(0);
       const container = document.createElement('div');
       container.appendChild(range.cloneContents());
@@ -336,17 +327,27 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
         tooltipRef.textContent = titleEl ? titleEl.textContent.trim() : '';
       }
 
-      // Position tooltip near end of selection
       const rect = range.getBoundingClientRect();
       if (tooltip) {
+        const tooltipWidth = 260;
+        const left = Math.max(8, Math.min(rect.left, window.innerWidth - tooltipWidth - 8));
+        let top = window.scrollY + rect.bottom + 8;
+        if (rect.bottom + 60 > window.innerHeight) {
+          top = window.scrollY + rect.top - 46;
+        }
         tooltip.style.display = 'flex';
-        tooltip.style.top = (window.scrollY + rect.bottom + 6) + 'px';
-        tooltip.style.left = Math.min(rect.left, window.innerWidth - 240) + 'px';
+        tooltip.style.top = top + 'px';
+        tooltip.style.left = left + 'px';
       }
-    }, 10);
+    } catch (e) {}
+  }
+
+  document.addEventListener('selectionchange', () => {
+    if (selectionDebounce) clearTimeout(selectionDebounce);
+    selectionDebounce = setTimeout(showSelectionTooltip, 300);
   });
 
-  document.addEventListener('mousedown', (e) => {
+  document.addEventListener('pointerdown', (e) => {
     if (tooltip && !tooltip.contains(e.target)) {
       tooltip.style.display = 'none';
     }
@@ -1127,6 +1128,16 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
 
     .notebook-panel {
       width: 100vw;
+    }
+
+    .notebook-tooltip {
+      flex-wrap: wrap;
+      max-width: calc(100vw - 16px);
+      white-space: normal;
+    }
+
+    .tooltip-ref {
+      display: none;
     }
   }
 </style>

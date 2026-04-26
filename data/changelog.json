@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.18.0",
+    "date": "2026-04-26",
+    "entries": {
+      "es": [
+        {
+          "type": "mejora",
+          "description": "Mejoras de usabilidad en móvil: márgenes de lectura más amplios, menú contextual de selección de texto (guardar fragmento / citar) ahora funciona en dispositivos táctiles, índice lateral colapsable en pantallas pequeñas, botón de compartir artículo siempre visible y README actualizado."
+        }
+      ],
+      "va": [
+        {
+          "type": "millora",
+          "description": "Millores d'usabilitat en mòbil: marges de lectura més amples, menú contextual de selecció de text (guardar fragment / citar) ara funciona en dispositius tàctils, índex lateral replegable en pantalles xicotetes, botó de compartir article sempre visible i README actualitzat."
+        }
+      ]
+    }
+  },
+  {
     "version": "0.17.6",
     "date": "2026-04-24",
     "entries": {

@@ -90,6 +90,12 @@ a:hover {
   padding: 0 var(--space-md);
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--space-lg);
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

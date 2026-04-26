@@ -440,4 +440,14 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
   .article-text :global(td:first-child) {
     text-align: left;
   }
+
+  @media (max-width: 768px) {
+    .article-share-btn {
+      opacity: 1;
+    }
+
+    .version-select {
+      max-width: calc(100vw - 6rem);
+    }
+  }
 </style>

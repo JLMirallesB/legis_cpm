@@ -15,42 +15,46 @@ const { structure, lang, sidebarLabel, promulgation } = Astro.props;
 
 const navItems = getNavItemsWithGroups(structure, lang);
 const copyLabel = t('share.copy_link', lang);
+const indexLabel = lang === 'va' ? 'Índex de la norma' : 'Índice de la norma';
 ---
 
 <aside class="law-sidebar">
-  <nav class="sidebar-nav" aria-label="Índice de la norma">
-    {sidebarLabel && (
-      <div class="sidebar-label">{sidebarLabel}</div>
-    )}
-    <ul>
-      {navItems.map((item) => (
-        <li class={`nav-item depth-${item.depth}${item.isGroup ? ' nav-group' : ''}`}>
-          <a href={`#${item.id}`}>{item.title}</a>
-          {!item.isGroup && (
+  <details class="sidebar-details" open>
+    <summary class="sidebar-toggle">{indexLabel}</summary>
+    <nav class="sidebar-nav" aria-label={indexLabel}>
+      {sidebarLabel && (
+        <div class="sidebar-label">{sidebarLabel}</div>
+      )}
+      <ul>
+        {navItems.map((item) => (
+          <li class={`nav-item depth-${item.depth}${item.isGroup ? ' nav-group' : ''}`}>
+            <a href={`#${item.id}`}>{item.title}</a>
+            {!item.isGroup && (
+              <button
+                class="sidebar-link-btn"
+                data-id={item.id}
+                aria-label={copyLabel}
+                title={copyLabel}
+                type="button"
+              >&#128279;</button>
+            )}
+          </li>
+        ))}
+        {promulgation && (
+          <li class="nav-item depth-0">
+            <a href="#promulgacion">{t('law.promulgation', lang)}</a>
             <button
               class="sidebar-link-btn"
-              data-id={item.id}
+              data-id="promulgacion"
               aria-label={copyLabel}
               title={copyLabel}
               type="button"
             >&#128279;</button>
-          )}
-        </li>
-      ))}
-      {promulgation && (
-        <li class="nav-item depth-0">
-          <a href="#promulgacion">{t('law.promulgation', lang)}</a>
-          <button
-            class="sidebar-link-btn"
-            data-id="promulgacion"
-            aria-label={copyLabel}
-            title={copyLabel}
-            type="button"
-          >&#128279;</button>
-        </li>
-      )}
-    </ul>
-  </nav>
+          </li>
+        )}
+      </ul>
+    </nav>
+  </details>
 </aside>
 
 <div id="sidebar-toast" class="sidebar-toast" aria-live="polite"></div>
@@ -86,6 +90,11 @@ const copyLabel = t('share.copy_link', lang);
       });
     });
   });
+
+  // ── Collapse sidebar on mobile ──────────────
+  if (window.matchMedia('(max-width: 768px)').matches) {
+    document.querySelector('.sidebar-details')?.removeAttribute('open');
+  }
 
   // ── Scroll spy + replaceState ───────────────────────────
   const links = document.querySelectorAll('.sidebar-nav a');
@@ -126,6 +135,10 @@ const copyLabel = t('share.copy_link', lang);
     max-height: calc(100vh - var(--header-height) - var(--space-xl));
     overflow-y: auto;
     padding-right: var(--space-md);
+  }
+
+  .sidebar-toggle {
+    display: none;
   }
 
   .sidebar-label {
@@ -250,6 +263,36 @@ const copyLabel = t('share.copy_link', lang);
       border-bottom: 1px solid var(--color-border);
       padding-bottom: var(--space-md);
       margin-bottom: var(--space-md);
+    }
+
+    .sidebar-toggle {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      padding: var(--space-sm) 0;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .sidebar-toggle::-webkit-details-marker {
+      display: none;
+    }
+
+    .sidebar-toggle::before {
+      content: '\25B8';
+      font-size: 0.7rem;
+      transition: transform 0.2s;
+    }
+
+    .sidebar-details[open] .sidebar-toggle::before {
+      transform: rotate(90deg);
+    }
+
+    .sidebar-link-btn {
+      opacity: 1;
     }
   }
 </style>
