@@ -1,0 +1,79 @@
+---
+import type { Lang, ExternalResource } from '../lib/types';
+import { t } from '../i18n/utils';
+
+interface Props {
+  resources: ExternalResource[];
+  lang: Lang;
+}
+
+const { resources, lang } = Astro.props;
+---
+
+{resources.length > 0 && (
+  <div class="external-resource-buttons" role="group" aria-label={t('download.external_resources', lang)}>
+    <span class="external-resource-label">{t('download.external_resources', lang)}:</span>
+    {resources.map((resource) => (
+      <a
+        href={resource.url}
+        target="_blank"
+        rel="noopener"
+        class="btn btn-external-resource"
+        aria-label={resource.title}
+      >
+        <span class="external-resource-icon" aria-hidden="true">&#128279;</span>
+        {resource.title} &nearr;
+      </a>
+    ))}
+  </div>
+)}
+
+<style>
+  .external-resource-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: var(--radius-md);
+  }
+
+  .external-resource-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1e40af;
+    white-space: nowrap;
+  }
+
+  .btn-external-resource {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: var(--space-xs) var(--space-sm);
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .btn-external-resource:hover {
+    background: #1d4ed8;
+  }
+
+  .btn-external-resource:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+
+  .external-resource-icon {
+    font-size: 0.9rem;
+  }
+</style>

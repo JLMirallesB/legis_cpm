@@ -545,6 +545,13 @@
       "pdfUrl": "pdf/orden-8-2026/anexo-X_va.pdf"
     }
   ],
+  "externalResources": [
+    {
+      "id": "prelacion",
+      "title": "Calculadora de prelació",
+      "url": "https://jlmirallesb.github.io/prelacion/"
+    }
+  ],
   "scope": "musica_y_danza",
   "territory": "autonomico",
   "temporality": {

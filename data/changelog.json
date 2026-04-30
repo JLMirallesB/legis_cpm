@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.1.1",
+    "date": "2026-04-30",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Nuevo tipo de botón «recurso externo» en la vista de ley. Enlace a la calculadora de prelación en la Orden 8/2026."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Nou tipus de botó «recurs extern» en la vista de llei. Enllaç a la calculadora de prelació en l'Orde 8/2026."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.1.0",
     "date": "2026-04-29",
     "entries": {

@@ -120,6 +120,12 @@ export interface FormModel {
   pdfUrl: string; // URL to download the model PDF
 }
 
+export interface ExternalResource {
+  id: string;
+  title: string;
+  url: string;
+}
+
 export interface Law {
   id: string;
   slug: string;
@@ -134,7 +140,8 @@ export interface Law {
   structure: StructureNode[];
   legalAnalysis: LegalAnalysis;
   promulgation?: Promulgation;
-  formModels?: FormModel[]; // Optional downloadable model forms (e.g., solicitud)
+  formModels?: FormModel[];
+  externalResources?: ExternalResource[];
   scope: LawScope;
   territory: LawTerritory;
   temporality: LawTemporality;

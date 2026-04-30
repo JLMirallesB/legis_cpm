@@ -5,6 +5,7 @@ import LawSidebar from '../components/LawSidebar.astro';
 import VigencyBadge from '../components/VigencyBadge.astro';
 import DownloadButtons from '../components/DownloadButtons.astro';
 import FormModelButtons from '../components/FormModelButtons.astro';
+import ExternalResourceButtons from '../components/ExternalResourceButtons.astro';
 import LegalAnalysis from '../components/LegalAnalysis.astro';
 import LawTags from '../components/LawTags.astro';
 import NotebookPanel from '../components/NotebookPanel.astro';
@@ -56,6 +57,9 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
       <DownloadButtons law={law} lang={lang} />
       {law.formModels && law.formModels.length > 0 && (
         <FormModelButtons models={law.formModels} lang={lang} />
+      )}
+      {law.externalResources && law.externalResources.length > 0 && (
+        <ExternalResourceButtons resources={law.externalResources} lang={lang} />
       )}
       <div class="cite-apa-wrap">
         <button class="btn btn-cite" id="cite-apa-btn" type="button">
