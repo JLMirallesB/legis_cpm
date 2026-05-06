@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.1.2",
+    "date": "2026-05-06",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 30/04/2026 — Convocatoria del proceso de admisión y matrícula en EE y EEPP de Música y Danza para el curso 2026-2027. Incluye calendario ordinario y extraordinario, niveles de prioridad y enlace a ADMINOVA."
+        },
+        {
+          "type": "nuevo",
+          "description": "Añadidos 3 anexos descargables (formularios de profesorado) a las Instrucciones de plantillas de conservatorios 2026-2027."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 30/04/2026 — Convocatòria del procés d'admissió i matrícula en EE i EEPP de Música i Dansa per al curs 2026-2027. Inclou calendari ordinari i extraordinari, nivells de prioritat i enllaç a ADMINOVA."
+        },
+        {
+          "type": "nou",
+          "description": "Afegits 3 annexos descarregables (formularis de professorat) a les Instruccions de plantilles de conservatoris 2026-2027."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.1.1",
     "date": "2026-04-30",
     "entries": {

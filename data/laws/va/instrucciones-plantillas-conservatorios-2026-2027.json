@@ -153,6 +153,23 @@
       }
     ]
   },
+  "formModels": [
+    {
+      "id": "anexo-1",
+      "title": "Annex I - Professorat que completa horari amb altres especialitats",
+      "pdfUrl": "/legis_cpmdem/models/instrucciones-plantillas-conservatorios-anexo-1-va.pdf"
+    },
+    {
+      "id": "anexo-2",
+      "title": "Annex II - Professorat suprimit o desplaçat que opta per la recol·locació",
+      "pdfUrl": "/legis_cpmdem/models/instrucciones-plantillas-conservatorios-anexo-2-va.pdf"
+    },
+    {
+      "id": "anexo-3",
+      "title": "Annex III - Professorat desplaçat per falta d'horari",
+      "pdfUrl": "/legis_cpmdem/models/instrucciones-plantillas-conservatorios-anexo-3-va.pdf"
+    }
+  ],
   "promulgation": {
     "place": "València",
     "date": "2026-03-16",

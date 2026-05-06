@@ -399,6 +399,13 @@
       "status": "ingested",
       "category": "acceso",
       "notes": "PDF bilingüe DOGV 2 columnas. 43 arts (6 títulos) + 3 DA + 1 DT + 1 DD + 1 DF + 16 anexos. Derogada parcialmente por O.8/2026 (Títulos II y V completos, arts 25-26). Vigentes: Título III (convalidaciones, arts 19-24), art 27 (permanencia), Título VI (optativas, arts 39-43). Modificada por O.49/2015 (arts 40, 43 con versions[])."
+    },
+    {
+      "slug": "resolucion-admision-2026-2027",
+      "title": "Resolución 30/04/2026 - Convocatoria admisión Música y Danza 2026-2027",
+      "status": "ingested",
+      "category": "acceso",
+      "notes": "PDFs separados ES/VA. 15 apartados (Primero-Decimoquinto) + 2 anexos (calendarios convocatoria ordinaria y extraordinaria con tablas). Resolución anual de la DG Ordenación Educativa. Desarrolla Orden 8/2026. Bilingüe DOGV."
     }
   ]
 }
