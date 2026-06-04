@@ -78,6 +78,7 @@
   "filter.type.ley_organica": "Llei orgànica",
   "filter.type.real_decreto": "Reial decret",
   "filter.type.circular": "Circular",
+  "filter.type.instrucciones": "Instruccions",
   "filter.type.documento": "Document",
   "filter.type.correccion_errores": "Correcció d'errades",
   "filter.source": "Publicació",

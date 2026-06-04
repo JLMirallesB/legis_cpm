@@ -1,0 +1,88 @@
+{
+  "id": "instrucciones-altas-temperaturas-2026",
+  "slug": "instrucciones-altas-temperaturas-2026",
+  "type": "instrucciones",
+  "number": "",
+  "date": "2026-06-03",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "",
+    "date": "2026-06-03",
+    "url": "",
+    "pdfUrl": "https://ceice.gva.es/webitaca/docs/avisos/inst_260602_SAE_altas_temperaturas_tr_def_firmado.pdf"
+  },
+  "title": "Instruccions de 3 de juny de 2026, de la Secretaria Autonòmica d'Educació, sobre les mesures a adoptar davant de possibles exposicions a altes temperatures en centres educatius",
+  "titleShort": "Instruccions SAE - Mesures altes temperatures en centres educatius",
+  "category": "organizacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-06-03"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "Es considera que l'existència d'altes temperatures pot suposar un risc per a la salut. L'exposició a la calor pot causar greus alteracions a l'alumnat, personal docent i un altre personal dels centres educatius, atés que els mecanismes de regulació que mantenen la temperatura poden vore's alterats, sobretot durant les onades de calor i en els mesos de juny a setembre. Este risc per a la salut és encara més important si l'organisme no està preparat (aclimatació), per la qual cosa, amb estes instruccions, es recorda, fent referència a instruccions precedents, les precaucions que cal que adopten els equips directius dels centres educatius davant d'una possible situació d'altes temperatures.\n\nD'altra banda, durant els mesos de juny i setembre, les etapes d'Educació Infantil i d'Educació Primària veuen reduïda la duració de la jornada escolar de l'alumnat, que es desenrotllarà durant el matí en jornada continuada de 9 h a 13 h, en virtut de l'Orde d'11 de juny de 1998, de la Conselleria de Cultura, Educació i Ciència, per la qual s'establixen els criteris generals pels quals s'ha de regir el calendari escolar per a tots els centres docents de la Comunitat Valenciana que impartixen ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria, Formació Professional, Batxillerat, Ensenyances Artístiques i Ensenyances d'Idiomes. No obstant, la reducció anàloga en l'Educació Secundària prevista en esta Orde d'11 de juny de 1998 va quedar sense efecte després de ser derogada pel Decret 107/2022, de 5 d'agost, del Consell, pel qual s'establix l'ordenació i el currículum d'Educació Secundària Obligatòria, i pel Decret 108/2022, de 5 d'agost, del Consell, pel qual s'establixen l'ordenació i el currículum de Batxillerat. En conseqüència, és procedent mitjançant estes instruccions reobrir esta possibilitat de flexibilització de la jornada escolar com una possible mesura per a evitar les altes temperatures en les hores centrals del dia.\n\nFinalment, cal recordar que l'efecte de les altes temperatures, a vegades, pot minimitzar-se mitjançant una redistribució en l'ús d'espais del mateix centre. No obstant, si s'arribara al punt que això no és possible, cal recordar que l'article 25.2.f de la Llei 7/1985, de 2 d'abril, reguladora de les bases del règim local, establix que els municipis exerciran en tot cas com a competències pròpies les competències en matèria de protecció civil, per la qual cosa correspondria que els centres educatius traslladen esta circumstància a l'òrgan competent de l'entitat local.\n\nPer tot això, fent ús de les competències en matèria de política educativa atribuïdes a esta secretaria autonòmica per l'article 7 del Decret 68/2026, de 4 de maig, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura i Universitats, es dicten les següents:"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "title": "Primera. Mesures de precaució que han d'adoptar els equips directius",
+      "content": "Davant d'una possible situació d'altes temperatures, els equips directius dels centres educatius adoptaran les precaucions previstes en les Instruccions de 13 de juny de 2017, de la Secretaria Autonòmica d'Educació i Investigació:\n\n**1. En les aules**\n\n– Comprovar la temperatura de les instal·lacions.\n– Tindre identificades prèviament les zones menys caloroses del centre per a traslladar l'alumnat en cas de necessitat.\n– Mantindre les aules tan fresques com siga possible, sobretot les orientades a l'est i al sud.\n– Mantindre les persianes baixades mentres el sol incidix de manera directa i fer ús dels elements de protecció que tinguen al seu abast (tendals, etc.).\n– Deixar les finestres tancades mentres la temperatura exterior siga superior a la interior.\n– Ventilar durant les hores menys caloroses del dia.\n\n**2. En el pati**\n\n– Evitar l'exposició prolongada al sol. Pot considerar-se la modificació d'horaris i/o activitats durant l'esbarjo.\n– Limitar els exercicis i l'esforç físic, i traslladar algunes activitats a les hores menys caloroses del dia.\n\n**3. Aigua i alimentació**\n\n– Permetre la hidratació de l'alumnat tan sovint com siga necessari.\n– Recordar a l'alumnat la necessitat de beure aigua de manera regular i vigilar que així ho facen. És molt útil l'ús d'una botella marcant la ingestió diària.\n– Si és possible, adaptar la dieta en el menjador augmentant el consum de plats freds i de fruites i verdures fresques. Evitar els menjars pesats.\n– Vigilar especialment les condicions de conservació i preparació dels aliments.\n\n**4. Medicaments**\n\n– Comprovar les condicions especials de conservació, que figuren en l'envàs de cada medicament."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "title": "Segona. Flexibilització horària durant els mesos de juny i setembre",
+      "content": "1. Durant els mesos de juny i setembre, els centres docents que impartisquen Educació Secundària Obligatòria, Batxillerat i/o Formació Professional, com a mesura per a evitar l'exposició a altes temperatures durant les hores centrals del dia, podran organitzar les activitats escolars durant el matí en jornada continuada de 8 a 13 hores. En este cas, hauran d'impartir totes les matèries pròpies del currículum amb la reducció proporcional dels períodes lectius corresponents.\n\nAixí mateix, en els grups vespertins es podrà retardar en una hora el moment d'inici de la jornada escolar. En este cas, hauran d'impartir-se totes les matèries pròpies del currículum amb la reducció proporcional dels períodes lectius dedicats a estes i mantenint l'hora de finalització de la jornada escolar.\n\n2. Les mesures establides en el punt anterior únicament podran adoptar-se quan quede garantida la prestació ordinària dels servicis complementaris que tinga autoritzats el centre educatiu.\n\nEn particular, la flexibilització horària no podrà implicar:\n\na) la supressió, reducció o alteració del servici de menjador escolar autoritzat, en el seu cas;\n\nb) la modificació del calendari o condicions de prestació del menjador escolar que puga generar incidències econòmiques, organitzatives o de facturació;\n\nc) la modificació de rutes, parades, expedicions, horaris o itineraris del transport escolar col·lectiu;\n\nd) la necessitat de realitzar reiteracions, duplicitats de ruta o servicis addicionals de transport;\n\ne) l'increment de quilòmetres, temps de prestació, acompanyants, vehicles o qualsevol altre cost associat al servici de transport escolar;\n\nf) l'afectació a l'alumnat transportat d'altres centres inclosos en la mateixa ruta.\n\nEn cap cas l'aprovació de la flexibilització horària podrà generar obligacions econòmiques addicionals per a l'Administració amb relació als contractes de menjador o transport escolar.\n\n3. Correspondrà als consells escolars dels centres docents públics i a la titularitat dels centres sostinguts amb fons públics l'aprovació de les mesures de flexibilització horària recollides en la present instrucció.\n\nL'aprovació haurà d'incorporar una declaració expressa de que la mesura no afecta a la prestació ordinària dels servicis complementaris autoritzats en el centre.\n\nUna vegada aprovada, i amb caràcter previ a la seua aplicació, la mesura es comunicarà a la Direcció Territorial d'Educació, Cultura i Universitats competent. La comunicació haurà d'indicar, almenys:\n\na) l'horari que es pretén aplicar;\n\nb) les ensenyances, grups i períodes afectats;\n\nc) la data d'inici i finalització de la mesura;\n\nd) l'existència o no de menjador escolar autoritzat;\n\ne) l'existència o no d'alumnat usuari de transport escolar col·lectiu;\n\nf) la confirmació expressa de que la mesura no altera menjador, transport ni altres servicis complementaris.\n\n4. La mesura produirà efectes des de la data de comunicació a la Direcció Territorial, sempre que la documentació remesa acredite expressament que no es veuen afectats els servicis complementaris autoritzats en el centre.\n\nQuan la Direcció Territorial detecte que la mesura pot afectar al menjador escolar, al transport escolar col·lectiu o a qualsevol altre servici complementari, podrà requerir al centre l'esmena o aclariment de la documentació presentada i suspendre l'aplicació de la mesura fins que quede acreditada la continuïtat ordinària dels mencionats servicis.\n\nEn tot cas, la Direcció Territorial podrà deixar sense efecte la mesura si comprova que la seua aplicació altera la prestació dels servicis complementaris, genera necessitats addicionals de transport o menjador, o implica qualsevol cost no previst per a l'Administració, o per qualsevol altre causa degudament motivada mitjançant resolució expressa."
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "title": "Tercera. Comunicació a l'òrgan competent en matèria de protecció civil",
+      "content": "Si en algun moment en alguna de les aules la temperatura és superior als màxims recomanats, es podrà continuar l'activitat en una altra dependència del centre o, fins i tot, comunicar-ho al cap de protecció civil de la localitat, que és qui té la potestat de suspendre l'activitat acadèmica. En cas que es produïsca esta última comunicació, es traslladarà esta també a la Direcció Territorial d'Educació, Cultura i Universitats competent, bé directament o a través de la Inspecció d'Educació."
+    },
+    {
+      "type": "articulo",
+      "id": "art-4",
+      "title": "Quarta. Entrada en vigor",
+      "content": "1. Estes Instruccions entraran en vigor amb efectes del curs 2026-2027.\n\n2. No obstant, amb caràcter transitori, es podran aplicar per al que queda del curs 2025-2026, sempre que es complisca amb el que prescriuen els punts 2, 3 i 4 de la instrucció segona."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Decret 68/2026, de 4 de maig, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura i Universitats (art. 7)",
+        "articles": ["art-7"],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Instruccions de 13 de juny de 2017, de la Secretaria Autonòmica d'Educació i Investigació, sobre mesures de precaució davant altes temperatures",
+        "articles": [],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-06-03",
+    "signatories": [
+      {
+        "name": "Daniel McEvoy Bravo",
+        "role": "Secretari Autonòmic d'Educació"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}

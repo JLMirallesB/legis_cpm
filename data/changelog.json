@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.2.1",
+    "date": "2026-06-04",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de las Instrucciones de 03/06/2026, de la Secretaría Autonómica de Educación, sobre medidas a adoptar ante altas temperaturas en centros educativos. Incluye precauciones, flexibilización horaria en junio y septiembre para ESO/Bachillerato/FP, y comunicación a protección civil."
+        },
+        {
+          "type": "nuevo",
+          "description": "Nuevo rango de disposición «Instrucciones» en el catálogo y buscador."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de les Instruccions de 03/06/2026, de la Secretaria Autonòmica d'Educació, sobre mesures a adoptar davant altes temperatures en centres educatius. Inclou precaucions, flexibilització horària en juny i setembre per a ESO/Batxillerat/FP, i comunicació a protecció civil."
+        },
+        {
+          "type": "nou",
+          "description": "Nou rang de disposició «Instruccions» en el catàleg i cercador."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.2.0",
     "date": "2026-05-21",
     "entries": {

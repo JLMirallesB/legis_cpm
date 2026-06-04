@@ -1,0 +1,88 @@
+{
+  "id": "instrucciones-altas-temperaturas-2026",
+  "slug": "instrucciones-altas-temperaturas-2026",
+  "type": "instrucciones",
+  "number": "",
+  "date": "2026-06-03",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "",
+    "date": "2026-06-03",
+    "url": "",
+    "pdfUrl": "https://ceice.gva.es/webitaca/docs/avisos/inst_260602_SAE_altas_temperaturas_firmado.pdf"
+  },
+  "title": "Instrucciones de 3 de junio de 2026, de la Secretaría Autonómica de Educación, sobre las medidas a adoptar ante posibles exposiciones a altas temperaturas en centros educativos",
+  "titleShort": "Instrucciones SAE - Medidas altas temperaturas en centros educativos",
+  "category": "organizacion",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2026-06-03"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "Se considera que la existencia de altas temperaturas puede suponer un riesgo para la salud. La exposición al calor puede causar graves alteraciones al alumnado, personal docente y otro personal de los centros educativos, dado que los mecanismos de regulación que mantienen la temperatura pueden verse alterados, sobre todo durante las olas de calor y en los meses de junio a septiembre. Este riesgo para la salud es aún más importante si el organismo no está preparado (aclimatación), por lo que mediante las presentes instrucciones se recuerda, haciendo referencia a instrucciones precedentes, de las precauciones a adoptar por los equipos directivos de los centros educativos ante una posible situación de altas temperaturas.\n\nPor otra parte, durante los meses de junio y septiembre, las etapas de Educación Infantil y de Educación Primaria, ven reducida la duración de la jornada escolar diaria del alumnado, que se desarrollarán durante la mañana en jornada continuada de 9 h a 13 h, en virtud de la Orden de 11 de junio de 1998, de la Conselleria de Cultura, Educación y Ciencia, por la que se establecen los criterios generales por los que se ha de regir el calendario escolar para todos los centros docentes de la Comunidad Valenciana que imparten enseñanzas de Educación Infantil, Educación Primaria, Educación Secundaria Obligatoria, Formación Profesional, Bachillerato, Enseñanzas Artísticas y Enseñanzas de Idiomas. Sin embargo, la reducción análoga en la Educación Secundaria prevista en dicha Orden de 11 de junio de 1998 quedó sin efecto tras la derogación de esta por el Decreto 107/2022, de 5 de agosto, del Consell, por el que se establece la ordenación y el currículo de Educación Secundaria Obligatoria, y por el Decreto 108/2022, de 5 de agosto, del Consell, por el que se establecen la ordenación y el currículo de Bachillerato. En consecuencia, procede mediante las presentes instrucciones reabrir dicha posibilidad de flexibilización de la jornada escolar como una posible medida para evitar las altas temperaturas en las horas centrales del día.\n\nFinalmente, cabe recordar que el efecto de las altas temperaturas, en ocasiones, puede minimizarse mediante una redistribución en el uso de espacios del propio centro. Sin embargo, llegados al extremo de que lo anterior no sea posible, cabe recordar que el artículo 25.2.f) de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local establece que los municipios ejercerán en todo caso como competencias propias, las competencias en materia de protección civil, por lo que correspondería que los centros educativos trasladen dicha circunstancia al órgano competente de la entidad local.\n\nPor todo ello, en uso de las competencias en materia de política educativa atribuidas a esta secretaría autonómica por el artículo 7 del Decreto 68/2026, de 4 de mayo, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Universidades, se dictan las siguientes:"
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "title": "Primera. Medidas de precaución a adoptar por los equipos directivos",
+      "content": "Ante una posible situación de altas temperaturas, los equipos directivos de los centros educativos adoptarán las precauciones previstas en las Instrucciones de 13 de junio de 2017, de la Secretaría Autonómica de Educación e Investigación:\n\n**1. En las aulas**\n\n– Comprobar la temperatura de las instalaciones.\n– Tener identificadas previamente las zonas menos calurosas del centro para trasladar al alumnado en caso de necesidad.\n– Mantener las aulas tan frescas como sea posible, sobre todo las orientadas al Este y Sur.\n– Mantener las persianas bajadas mientras el sol incide de manera directa, y hacer uso de los elementos de protección que tengan a su alcance (toldos, etc.).\n– Dejar las ventanas cerradas mientras que la temperatura exterior sea superior a la interior.\n– Ventilar durante las horas menos calurosas del día.\n\n**2. En el patio**\n\n– Evitar la exposición prolongada al sol. Puede considerarse la modificación de horarios y/o actividades durante el recreo.\n– Limitar los ejercicios y el esfuerzo físico, trasladando ciertas actividades a las horas menos calurosas del día.\n\n**3. Agua y alimentación**\n\n– Permitir la hidratación del alumnado tan a menudo como sea necesario.\n– Recordar al alumnado la necesidad de beber agua de manera regular y vigilar que así lo hagan. Es muy útil el uso de una botella marcando la ingestión diaria.\n– Si es posible, adaptar la dieta en el comedor aumentando el consumo de platos fríos y de frutas y verduras frescas. Evitar las comidas pesadas.\n– Vigilar especialmente las condiciones de conservación y preparación de los alimentos.\n\n**4. Medicamentos**\n\n– Comprobar las condiciones especiales de conservación, que figuran en el envase de cada medicamento."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "title": "Segunda. Flexibilización horaria durante los meses de junio y septiembre",
+      "content": "1. Durante los meses de junio y septiembre, los centros docentes que impartan Educación Secundaria Obligatoria, Bachillerato y/o Formación Profesional, como medida para evitar la exposición a altas temperaturas durante las horas centrales del día, podrán organizar las actividades escolares durante la mañana en jornada continuada de 8 a 13 horas. En tal caso, deberán impartir todas las materias propias del currículum con la reducción proporcional de los períodos lectivos correspondientes.\n\nAsimismo, en los grupos vespertinos se podrá retrasar en una hora el momento de inicio de la jornada escolar. En este caso, deberán impartirse todas las materias propias del currículo, con la reducción proporcional de los periodos lectivos correspondientes, y se mantendrá la hora habitual de finalización de la jornada escolar.\n\n2. Las medidas establecidas en el punto anterior, únicamente podrán adoptarse cuando quede garantizada la prestación ordinaria de los servicios complementarios que tenga autorizado el centro educativo.\n\nEn particular, la flexibilización horaria no podrá implicar:\n\na) la supresión, reducción o alteración del servicio de comedor escolar autorizado, en su caso;\n\nb) la modificación del calendario o condiciones de prestación del comedor escolar que pueda generar incidencias económicas, organizativas o de facturación;\n\nc) la modificación de rutas, paradas, expediciones, horarios o itinerarios del transporte escolar colectivo;\n\nd) la necesidad de realizar reiteraciones, duplicidades de ruta o servicios adicionales de transporte;\n\ne) el incremento de kilómetros, tiempos de prestación, acompañantes, vehículos o cualquier otro coste asociado al servicio de transporte escolar;\n\nf) la afectación al alumnado transportado de otros centros incluidos en la misma ruta.\n\nEn ningún caso la aprobación de la flexibilización horaria podrá generar obligaciones económicas adicionales para la Administración en relación con los contratos de comedor o transporte escolar.\n\n3. Corresponderá a los consejos escolares de los centros docentes públicos y a la titularidad de los centros sostenidos con fondos públicos la aprobación de las medidas de flexibilización horaria recogidas en la presente instrucción.\n\nLa aprobación deberá incorporar una declaración expresa de que la medida no afecta a la prestación ordinaria de los servicios complementarios autorizados en el centro.\n\nUna vez aprobada, y con carácter previo a su aplicación, la medida se comunicará a la Dirección Territorial de Educación, Cultura y Universidades competente. La comunicación deberá indicar, al menos:\n\na) el horario que se pretende aplicar;\n\nb) las enseñanzas, grupos y periodos afectados;\n\nc) la fecha de inicio y finalización de la medida;\n\nd) la existencia o no de comedor escolar autorizado;\n\ne) la existencia o no de alumnado usuario de transporte escolar colectivo;\n\nf) la confirmación expresa de que la medida no altera comedor, transporte ni otros servicios complementarios.\n\n4. La medida producirá efectos desde la fecha de comunicación a la Dirección Territorial, siempre que la documentación remitida acredite expresamente que no se ven afectados los servicios complementarios autorizados en el centro.\n\nCuando la Dirección Territorial detecte que la medida puede afectar al comedor escolar, al transporte escolar colectivo o a cualquier otro servicio complementario, podrá requerir al centro la subsanación o aclaración de la documentación presentada y suspender la aplicación de la medida hasta que quede acreditada la continuidad ordinaria de dichos servicios.\n\nEn todo caso, la Dirección Territorial podrá dejar sin efecto la medida si comprueba que su aplicación altera la prestación de los servicios complementarios, genera necesidades adicionales de transporte o comedor, o implica cualquier coste no previsto para la Administración, o por cualquier otra causa debidamente motivada mediante resolución expresa."
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "title": "Tercera. Comunicación al órgano competente en materia de protección civil",
+      "content": "Si en algún momento, en alguna de las aulas, la temperatura fuera superior a los máximos recomendados, se podrá continuar la actividad en otra dependencia del centro o incluso comunicarlo al jefe de protección civil de la localidad, que es quien tiene la potestad de suspender la actividad académica. En caso de producirse esta última comunicación, se trasladará esta también a la Dirección Territorial de Educación, Cultura y Universidades competente, bien directamente o a través de la Inspección de Educación."
+    },
+    {
+      "type": "articulo",
+      "id": "art-4",
+      "title": "Cuarta. Entrada en vigor",
+      "content": "1. Las presentes Instrucciones entrarán en vigor con efectos del curso 2026/2027.\n\n2. No obstante, con carácter transitorio, se podrán aplicar para lo que resta del curso 2025/2026, siempre que se cumpla con lo prescrito en los puntos 2, 3 y 4 de la instrucción segunda."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Decreto 68/2026, de 4 de mayo, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Universidades (art. 7)",
+        "articles": ["art-7"],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Instrucciones de 13 de junio de 2017, de la Secretaría Autonómica de Educación e Investigación, sobre medidas de precaución ante altas temperaturas",
+        "articles": [],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-06-03",
+    "signatories": [
+      {
+        "name": "Daniel McEvoy Bravo",
+        "role": "Secretario Autonómico de Educación"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}

@@ -10,6 +10,7 @@ export type LawType =
   | 'orden'
   | 'resolucion'
   | 'circular'
+  | 'instrucciones'
   | 'documento'
   | 'correccion_errores';
 

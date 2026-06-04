@@ -15,7 +15,7 @@ const LAWS_DIR = join(DATA_DIR, 'laws');
 const CATEGORIES_FILE = join(DATA_DIR, 'metadata', 'categories.json');
 
 // Enums from types.ts
-const LAW_TYPES = ['ley_organica', 'ley', 'real_decreto', 'decreto', 'orden', 'resolucion', 'circular', 'documento', 'correccion_errores'];
+const LAW_TYPES = ['ley_organica', 'ley', 'real_decreto', 'decreto', 'orden', 'resolucion', 'circular', 'instrucciones', 'documento', 'correccion_errores'];
 const VIGENCY_STATUSES = ['vigente', 'vigente_parcial', 'derogada_parcial', 'derogada'];
 const STRUCTURE_NODE_TYPES = ['preambulo', 'titulo', 'capitulo', 'seccion', 'articulo', 'disposicion_adicional', 'disposicion_transitoria', 'disposicion_derogatoria', 'disposicion_final', 'anexo'];
 const AFFECTATION_TYPES = ['modifica', 'deroga', 'deroga_parcial', 'anade', 'sustituye'];

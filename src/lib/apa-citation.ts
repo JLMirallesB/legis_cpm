@@ -39,6 +39,7 @@ const TYPE_LABELS_ES: Record<LawType, string> = {
   orden: 'Orden',
   resolucion: 'Resolución',
   circular: 'Circular',
+  instrucciones: 'Instrucciones',
   documento: 'Documento',
   correccion_errores: 'Corrección de errores',
 };

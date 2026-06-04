@@ -320,7 +320,7 @@ Cada ley debe incluir las 4 propiedades siguientes (definidas en `src/lib/types.
 ### Leyes ingresadas
 Consultar siempre `data/metadata/law-registry.json` para la lista actualizada. No mantener lista duplicada aquí.
 
-Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`, `real_decreto`, `resolucion`. Pendientes: `correccion_errores`.
+Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`, `real_decreto`, `resolucion`, `instrucciones`. Pendientes: `correccion_errores`.
 
 #### Resoluciones
 - Las resoluciones pueden tener estructuras muy variadas (con artículos, con apartado único + anexo, u otras formas). NO asumir una estructura fija.

@@ -413,6 +413,13 @@
       "status": "ingested",
       "category": "acceso",
       "notes": "PDFs separados ES/VA. 15 apartados (Primero-Decimoquinto) + 2 anexos (calendarios convocatoria ordinaria y extraordinaria con tablas). Resolución anual de la DG Ordenación Educativa. Desarrolla Orden 8/2026. Bilingüe DOGV."
+    },
+    {
+      "slug": "instrucciones-altas-temperaturas-2026",
+      "title": "Instrucciones SAE 03/06/2026 - Medidas altas temperaturas en centros educativos",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "Documento (no normativa). PDFs separados ES/VA desde CEICE (no publicado en DOGV). Instrucciones de la Secretaría Autonómica de Educación, 03/06/2026. Preámbulo + 4 instrucciones (Primera: precauciones, Segunda: flexibilización horaria junio/septiembre para ESO/Bach/FP, Tercera: comunicación protección civil, Cuarta: entrada en vigor curso 2026/2027 con aplicación transitoria 2025/2026). Primer documento con type=instrucciones. Habilitada por art. 7 del Decreto 68/2026. Firmado por Daniel McEvoy Bravo, Secretario Autonómico de Educación."
     }
   ]
 }
