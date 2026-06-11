@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.2.2",
+    "date": "2026-06-11",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 04/06/2026, de la DG de Ordenación Educativa, por la que se convocan los premios profesionales para el alumnado que ha concluido las enseñanzas profesionales de Música o de Danza en el curso 2025-2026. Incluye premios al rendimiento académico, premios profesionales (fase de centro y fase autonómica) y premios extraordinarios."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 04/06/2026, de la DG d'Ordenació Educativa, per la qual es convoquen els premis professionals per a l'alumnat que ha conclòs les ensenyances professionals de Música o de Dansa en el curs 2025-2026. Inclou premis al rendiment acadèmic, premis professionals (fase de centre i fase autonòmica) i premis extraordinaris."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.2.1",
     "date": "2026-06-04",
     "entries": {
