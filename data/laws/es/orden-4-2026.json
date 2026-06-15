@@ -390,6 +390,11 @@
         "lawId": "orden-32-2011",
         "title": "Orden 32/2011, de 20 de diciembre (reclamación de calificaciones)",
         "description": "Procedimiento de reclamación aplicable a los premios (DA primera)"
+      },
+      {
+        "lawId": "resolucion-premios-profesionales-2025-2026",
+        "title": "Resolución 04/06/2026 (convocatoria premios profesionales 2025-2026)",
+        "description": "Convocatoria anual de los premios regulados por esta orden para el curso 2025-2026"
       }
     ]
   },

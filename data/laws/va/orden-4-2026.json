@@ -390,6 +390,11 @@
         "lawId": "orden-32-2011",
         "title": "Orde 32/2011, de 20 de desembre (reclamació de qualificacions)",
         "description": "Procediment de reclamació aplicable als premis (DA primera)"
+      },
+      {
+        "lawId": "resolucion-premios-profesionales-2025-2026",
+        "title": "Resolució 04/06/2026 (convocatòria premis professionals 2025-2026)",
+        "description": "Convocatòria anual dels premis regulats per esta orde per al curs 2025-2026"
       }
     ]
   },
