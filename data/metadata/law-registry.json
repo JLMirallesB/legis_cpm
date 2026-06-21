@@ -2,6 +2,13 @@
   "description": "Registro de leyes para tracking de ingesta. NO usado por Astro, solo para seguimiento.",
   "laws": [
     {
+      "slug": "resolucion-calendario-escolar-2026-2027",
+      "title": "Resolución 15/06/2026 - Calendario escolar curso 2026-2027",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Resolución anual de la DG de Centros Docentes. Fija el calendario escolar del curso 2026-2027 para todas las enseñanzas (Infantil, Primaria, ESO, Bachillerato, FP, FPA, artísticas Música/Danza, deportivas e idiomas). Preámbulo + 8 apartados (Primero-Octavo): fechas inicio/fin por enseñanza, incorporación alumnado, períodos lectivos, vacaciones Navidad/Pascua, festivos no lectivos, días no lectivos locales, calendario diferente excepcional y entrada en vigor. Habilitada por Orden 11/06/1998 y LOE (DA 5ª). Ámbito general. Anual (curso 26-27)."
+    },
+    {
       "slug": "resolucion-obtencion-directa-2026",
       "title": "Resolución 19/05/2026 - Pruebas obtención directa certificados EE elementales Música y Danza 2026",
       "status": "ingested",

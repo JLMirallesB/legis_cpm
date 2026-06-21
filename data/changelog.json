@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.3.0",
+    "date": "2026-06-21",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 15/06/2026, de la DG de Centros Docentes, por la que se fija el calendario escolar del curso académico 2026-2027 en la Comunitat Valenciana. Recoge fechas de inicio y fin por enseñanzas, períodos de vacaciones de Navidad y Pascua, días festivos no lectivos y días no lectivos de carácter local. Resolución anual (curso 2026-2027)."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 15/06/2026, de la DG de Centres Docents, per la qual es fixa el calendari escolar del curs acadèmic 2026-2027 a la Comunitat Valenciana. Recull dates d'inici i fi per ensenyances, períodes de vacacions de Nadal i Pasqua, dies festius no lectius i dies no lectius de caràcter local. Resolució anual (curs 2026-2027)."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.2.3",
     "date": "2026-06-15",
     "entries": {

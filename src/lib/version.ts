@@ -1,2 +1,2 @@
 // Versión del sitio. Actualizar con cada release.
-export const VERSION = '1.2.3';
+export const VERSION = '1.3.0';
