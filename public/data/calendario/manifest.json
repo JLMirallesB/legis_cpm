@@ -1,0 +1,2233 @@
+{
+  "schema": "cev-calendario-escolar",
+  "version": 1,
+  "updated": "2026-07-15",
+  "source": "https://jlmirallesb.github.io/legis_cpmdem/",
+  "courses": [
+    "2026-2027"
+  ],
+  "ensenyances": [
+    {
+      "code": "infantil_primaria",
+      "name": "Educació Infantil i Primària"
+    },
+    {
+      "code": "eso_batxillerat",
+      "name": "ESO i Batxillerat"
+    },
+    {
+      "code": "fp",
+      "name": "Formació Professional (bàsica, mitjà i superior)"
+    },
+    {
+      "code": "adults",
+      "name": "Formació de Persones Adultes"
+    },
+    {
+      "code": "musica_dansa",
+      "name": "Ensenyances de Música i Dansa (elementals i professionals)"
+    },
+    {
+      "code": "arts_plastiques",
+      "name": "Ensenyances professionals d'Arts Plàstiques i Disseny"
+    },
+    {
+      "code": "esportives",
+      "name": "Ensenyances esportives de règim especial"
+    },
+    {
+      "code": "idiomes",
+      "name": "Ensenyances d'Idiomes"
+    }
+  ],
+  "municipios": [
+    {
+      "code": "atzubia-l",
+      "name": "Atzúbia, l'"
+    },
+    {
+      "code": "agost",
+      "name": "Agost"
+    },
+    {
+      "code": "agres",
+      "name": "Agres"
+    },
+    {
+      "code": "aigues",
+      "name": "Aigües"
+    },
+    {
+      "code": "albatera",
+      "name": "Albatera"
+    },
+    {
+      "code": "alcalali",
+      "name": "Alcalalí"
+    },
+    {
+      "code": "alcosser",
+      "name": "Alcosser"
+    },
+    {
+      "code": "alcoi",
+      "name": "Alcoi"
+    },
+    {
+      "code": "alcoleja",
+      "name": "Alcoleja"
+    },
+    {
+      "code": "alfafara",
+      "name": "Alfafara"
+    },
+    {
+      "code": "l-alfas-del-pi",
+      "name": "L'Alfàs del Pi"
+    },
+    {
+      "code": "algorfa",
+      "name": "Algorfa"
+    },
+    {
+      "code": "alguena",
+      "name": "Algueña"
+    },
+    {
+      "code": "alacant",
+      "name": "Alacant"
+    },
+    {
+      "code": "almoradi",
+      "name": "Almoradí"
+    },
+    {
+      "code": "almudaina",
+      "name": "Almudaina"
+    },
+    {
+      "code": "alqueria-d-asnar-l",
+      "name": "Alqueria d'Asnar, l'"
+    },
+    {
+      "code": "altea",
+      "name": "Altea"
+    },
+    {
+      "code": "aspe",
+      "name": "Aspe"
+    },
+    {
+      "code": "balones",
+      "name": "Balones"
+    },
+    {
+      "code": "banyeres-de-mariola",
+      "name": "Banyeres de Mariola"
+    },
+    {
+      "code": "benasau",
+      "name": "Benasau"
+    },
+    {
+      "code": "beneixama",
+      "name": "Beneixama"
+    },
+    {
+      "code": "benejuzar",
+      "name": "Benejúzar"
+    },
+    {
+      "code": "benferri",
+      "name": "Benferri"
+    },
+    {
+      "code": "beniarbeig",
+      "name": "Beniarbeig"
+    },
+    {
+      "code": "beniarda",
+      "name": "Beniardà"
+    },
+    {
+      "code": "beniarres",
+      "name": "Beniarrés"
+    },
+    {
+      "code": "benidoleig",
+      "name": "Benidoleig"
+    },
+    {
+      "code": "benidorm",
+      "name": "Benidorm"
+    },
+    {
+      "code": "benifallim",
+      "name": "Benifallim"
+    },
+    {
+      "code": "benifato",
+      "name": "Benifato"
+    },
+    {
+      "code": "benigembla",
+      "name": "Benigembla"
+    },
+    {
+      "code": "benijofar",
+      "name": "Benijófar"
+    },
+    {
+      "code": "benilloba",
+      "name": "Benilloba"
+    },
+    {
+      "code": "benillup",
+      "name": "Benillup"
+    },
+    {
+      "code": "benimantell",
+      "name": "Benimantell"
+    },
+    {
+      "code": "benimarfull",
+      "name": "Benimarfull"
+    },
+    {
+      "code": "benimassot",
+      "name": "Benimassot"
+    },
+    {
+      "code": "benimeli",
+      "name": "Benimeli"
+    },
+    {
+      "code": "benissa",
+      "name": "Benissa"
+    },
+    {
+      "code": "el-poble-nou-de-benitatxell",
+      "name": "El Poble Nou de Benitatxell"
+    },
+    {
+      "code": "biar",
+      "name": "Biar"
+    },
+    {
+      "code": "bigastro",
+      "name": "Bigastro"
+    },
+    {
+      "code": "bolulla",
+      "name": "Bolulla"
+    },
+    {
+      "code": "busot",
+      "name": "Busot"
+    },
+    {
+      "code": "callosa-d-en-sarria",
+      "name": "Callosa d'En Sarrià"
+    },
+    {
+      "code": "callosa-de-segura",
+      "name": "Callosa de Segura"
+    },
+    {
+      "code": "calp",
+      "name": "Calp"
+    },
+    {
+      "code": "campello-el",
+      "name": "Campello, el"
+    },
+    {
+      "code": "el-camp-de-mirra",
+      "name": "El Camp de Mirra"
+    },
+    {
+      "code": "canada",
+      "name": "Cañada"
+    },
+    {
+      "code": "castalla",
+      "name": "Castalla"
+    },
+    {
+      "code": "castell-de-castells",
+      "name": "Castell de Castells"
+    },
+    {
+      "code": "castell-de-guadalest-el",
+      "name": "Castell de Guadalest, el"
+    },
+    {
+      "code": "catral",
+      "name": "Catral"
+    },
+    {
+      "code": "cocentaina",
+      "name": "Cocentaina"
+    },
+    {
+      "code": "confrides",
+      "name": "Confrides"
+    },
+    {
+      "code": "cox",
+      "name": "Cox"
+    },
+    {
+      "code": "crevillent",
+      "name": "Crevillent"
+    },
+    {
+      "code": "daya-nueva",
+      "name": "Daya Nueva"
+    },
+    {
+      "code": "daya-vieja",
+      "name": "Daya Vieja"
+    },
+    {
+      "code": "denia",
+      "name": "Dénia"
+    },
+    {
+      "code": "eatim-de-la-xara-dependent-de-denia",
+      "name": "Eatim de la Xara, Dependent de Dénia"
+    },
+    {
+      "code": "eatim-de-jesus-pobre-dependent-de-denia",
+      "name": "Eatim de Jesús Pobre, Dependent de Dénia"
+    },
+    {
+      "code": "dolores",
+      "name": "Dolores"
+    },
+    {
+      "code": "elda",
+      "name": "Elda"
+    },
+    {
+      "code": "elx",
+      "name": "Elx"
+    },
+    {
+      "code": "fageca",
+      "name": "Fageca"
+    },
+    {
+      "code": "famorca",
+      "name": "Famorca"
+    },
+    {
+      "code": "finestrat",
+      "name": "Finestrat"
+    },
+    {
+      "code": "formentera-del-segura",
+      "name": "Formentera del Segura"
+    },
+    {
+      "code": "gaianes",
+      "name": "Gaianes"
+    },
+    {
+      "code": "gata-de-gorgos",
+      "name": "Gata de Gorgos"
+    },
+    {
+      "code": "gorga",
+      "name": "Gorga"
+    },
+    {
+      "code": "granja-de-rocamora",
+      "name": "Granja de Rocamora"
+    },
+    {
+      "code": "guardamar-del-segura",
+      "name": "Guardamar del Segura"
+    },
+    {
+      "code": "el-fondo-de-les-neus",
+      "name": "El Fondó de les Neus"
+    },
+    {
+      "code": "hondon-de-los-frailes",
+      "name": "Hondón de Los Frailes"
+    },
+    {
+      "code": "ibi",
+      "name": "Ibi"
+    },
+    {
+      "code": "jacarilla",
+      "name": "Jacarilla"
+    },
+    {
+      "code": "xabia",
+      "name": "Xàbia"
+    },
+    {
+      "code": "xixona",
+      "name": "Xixona"
+    },
+    {
+      "code": "lliber",
+      "name": "Llíber"
+    },
+    {
+      "code": "orxa-l",
+      "name": "Orxa, l'"
+    },
+    {
+      "code": "millena",
+      "name": "Millena"
+    },
+    {
+      "code": "monforte-del-cid",
+      "name": "Monforte del Cid"
+    },
+    {
+      "code": "monover",
+      "name": "Monòver"
+    },
+    {
+      "code": "montesinos-los",
+      "name": "Montesinos, Los"
+    },
+    {
+      "code": "murla",
+      "name": "Murla"
+    },
+    {
+      "code": "muro-de-alcoy",
+      "name": "Muro de Alcoy"
+    },
+    {
+      "code": "mutxamel",
+      "name": "Mutxamel"
+    },
+    {
+      "code": "novelda",
+      "name": "Novelda"
+    },
+    {
+      "code": "nucia-la",
+      "name": "Nucia, la"
+    },
+    {
+      "code": "ondara",
+      "name": "Ondara"
+    },
+    {
+      "code": "onil",
+      "name": "Onil"
+    },
+    {
+      "code": "orba",
+      "name": "Orba"
+    },
+    {
+      "code": "orihuela",
+      "name": "Orihuela"
+    },
+    {
+      "code": "orxeta",
+      "name": "Orxeta"
+    },
+    {
+      "code": "parcent",
+      "name": "Parcent"
+    },
+    {
+      "code": "pedreguer",
+      "name": "Pedreguer"
+    },
+    {
+      "code": "pego",
+      "name": "Pego"
+    },
+    {
+      "code": "penaguila",
+      "name": "Penàguila"
+    },
+    {
+      "code": "petrer",
+      "name": "Petrer"
+    },
+    {
+      "code": "pilar-de-la-horadada",
+      "name": "Pilar de la Horadada"
+    },
+    {
+      "code": "pinos-el",
+      "name": "Pinós, el"
+    },
+    {
+      "code": "planes",
+      "name": "Planes"
+    },
+    {
+      "code": "poblets-els",
+      "name": "Poblets, els"
+    },
+    {
+      "code": "polop",
+      "name": "Polop"
+    },
+    {
+      "code": "quatretondeta",
+      "name": "Quatretondeta"
+    },
+    {
+      "code": "rafal",
+      "name": "Rafal"
+    },
+    {
+      "code": "rafol-d-almunia",
+      "name": "Ràfol d'Almúnia"
+    },
+    {
+      "code": "redovan",
+      "name": "Redován"
+    },
+    {
+      "code": "relleu",
+      "name": "Relleu"
+    },
+    {
+      "code": "rojales",
+      "name": "Rojales"
+    },
+    {
+      "code": "romana-la",
+      "name": "Romana, la"
+    },
+    {
+      "code": "sagra",
+      "name": "Sagra"
+    },
+    {
+      "code": "salinas",
+      "name": "Salinas"
+    },
+    {
+      "code": "san-fulgencio",
+      "name": "San Fulgencio"
+    },
+    {
+      "code": "san-isidro",
+      "name": "San Isidro"
+    },
+    {
+      "code": "san-miguel-de-salinas",
+      "name": "San Miguel de Salinas"
+    },
+    {
+      "code": "sanet-y-negrals",
+      "name": "Sanet Y Negrals"
+    },
+    {
+      "code": "sant-joan-d-alacant",
+      "name": "Sant Joan d'Alacant"
+    },
+    {
+      "code": "sant-vicent-del-raspeig",
+      "name": "Sant Vicent del Raspeig"
+    },
+    {
+      "code": "santa-pola",
+      "name": "Santa Pola"
+    },
+    {
+      "code": "sax",
+      "name": "Sax"
+    },
+    {
+      "code": "sella",
+      "name": "Sella"
+    },
+    {
+      "code": "senija",
+      "name": "Senija"
+    },
+    {
+      "code": "tarbena",
+      "name": "Tàrbena"
+    },
+    {
+      "code": "teulada",
+      "name": "Teulada"
+    },
+    {
+      "code": "tibi",
+      "name": "Tibi"
+    },
+    {
+      "code": "tollos",
+      "name": "Tollos"
+    },
+    {
+      "code": "tormos",
+      "name": "Tormos"
+    },
+    {
+      "code": "la-torre-de-les-macanes",
+      "name": "La Torre de les Maçanes"
+    },
+    {
+      "code": "torrevieja",
+      "name": "Torrevieja"
+    },
+    {
+      "code": "vall-d-alcala-la",
+      "name": "Vall d'Alcalà, la"
+    },
+    {
+      "code": "vall-d-ebo-la",
+      "name": "Vall d'Ebo, la"
+    },
+    {
+      "code": "vall-de-gallinera-la",
+      "name": "Vall de Gallinera, la"
+    },
+    {
+      "code": "vall-de-laguar-la",
+      "name": "Vall de Laguar, la"
+    },
+    {
+      "code": "verger-el",
+      "name": "Verger, el"
+    },
+    {
+      "code": "vila-joiosa-la",
+      "name": "Vila Joiosa, la"
+    },
+    {
+      "code": "villena",
+      "name": "Villena"
+    },
+    {
+      "code": "xalo",
+      "name": "Xaló"
+    },
+    {
+      "code": "ain",
+      "name": "Aín"
+    },
+    {
+      "code": "albocasser",
+      "name": "Albocàsser"
+    },
+    {
+      "code": "alcala-de-xivert",
+      "name": "Alcalà de Xivert"
+    },
+    {
+      "code": "alcudia-de-veo",
+      "name": "Alcudia de Veo"
+    },
+    {
+      "code": "alfondeguilla",
+      "name": "Alfondeguilla"
+    },
+    {
+      "code": "algimia-de-almonacid",
+      "name": "Algimia de Almonacid"
+    },
+    {
+      "code": "almassora",
+      "name": "Almassora"
+    },
+    {
+      "code": "almedijar",
+      "name": "Almedíjar"
+    },
+    {
+      "code": "almenara",
+      "name": "Almenara"
+    },
+    {
+      "code": "alqueries-les",
+      "name": "Alqueries, les"
+    },
+    {
+      "code": "altura",
+      "name": "Altura"
+    },
+    {
+      "code": "aranuel",
+      "name": "Arañuel"
+    },
+    {
+      "code": "ares-del-maestrat",
+      "name": "Ares del Maestrat"
+    },
+    {
+      "code": "argelita",
+      "name": "Argelita"
+    },
+    {
+      "code": "artana",
+      "name": "Artana"
+    },
+    {
+      "code": "atzeneta-del-maestrat",
+      "name": "Atzeneta del Maestrat"
+    },
+    {
+      "code": "ayodar",
+      "name": "Ayódar"
+    },
+    {
+      "code": "azuebar",
+      "name": "Azuébar"
+    },
+    {
+      "code": "barracas",
+      "name": "Barracas"
+    },
+    {
+      "code": "bejis",
+      "name": "Bejís"
+    },
+    {
+      "code": "benafer",
+      "name": "Benafer"
+    },
+    {
+      "code": "benafigos",
+      "name": "Benafigos"
+    },
+    {
+      "code": "benassal",
+      "name": "Benassal"
+    },
+    {
+      "code": "benicarlo",
+      "name": "Benicarló"
+    },
+    {
+      "code": "benicassim",
+      "name": "Benicàssim"
+    },
+    {
+      "code": "benlloc",
+      "name": "Benlloc"
+    },
+    {
+      "code": "betxi",
+      "name": "Betxí"
+    },
+    {
+      "code": "borriol",
+      "name": "Borriol"
+    },
+    {
+      "code": "borriana",
+      "name": "Borriana"
+    },
+    {
+      "code": "cabanes",
+      "name": "Cabanes"
+    },
+    {
+      "code": "calig",
+      "name": "Càlig"
+    },
+    {
+      "code": "canet-lo-roig",
+      "name": "Canet lo Roig"
+    },
+    {
+      "code": "castell-de-cabres",
+      "name": "Castell de Cabres"
+    },
+    {
+      "code": "castellfort",
+      "name": "Castellfort"
+    },
+    {
+      "code": "castellnovo",
+      "name": "Castellnovo"
+    },
+    {
+      "code": "castello-de-la-plana",
+      "name": "Castelló de la Plana"
+    },
+    {
+      "code": "castillo-de-villamalefa",
+      "name": "Castillo de Villamalefa"
+    },
+    {
+      "code": "cati",
+      "name": "Catí"
+    },
+    {
+      "code": "caudiel",
+      "name": "Caudiel"
+    },
+    {
+      "code": "cervera-del-maestre",
+      "name": "Cervera del Maestre"
+    },
+    {
+      "code": "xilxes",
+      "name": "Xilxes"
+    },
+    {
+      "code": "xodos",
+      "name": "Xodos"
+    },
+    {
+      "code": "chovar",
+      "name": "Chóvar"
+    },
+    {
+      "code": "cinctorres",
+      "name": "Cinctorres"
+    },
+    {
+      "code": "cirat",
+      "name": "Cirat"
+    },
+    {
+      "code": "cortes-de-arenoso",
+      "name": "Cortes de Arenoso"
+    },
+    {
+      "code": "costur",
+      "name": "Costur"
+    },
+    {
+      "code": "culla",
+      "name": "Culla"
+    },
+    {
+      "code": "el-toro",
+      "name": "El Toro"
+    },
+    {
+      "code": "eslida",
+      "name": "Eslida"
+    },
+    {
+      "code": "espadilla",
+      "name": "Espadilla"
+    },
+    {
+      "code": "fanzara",
+      "name": "Fanzara"
+    },
+    {
+      "code": "figueroles",
+      "name": "Figueroles"
+    },
+    {
+      "code": "forcall",
+      "name": "Forcall"
+    },
+    {
+      "code": "fuente-la-reina",
+      "name": "Fuente la Reina"
+    },
+    {
+      "code": "fuentes-de-ayodar",
+      "name": "Fuentes de Ayódar"
+    },
+    {
+      "code": "gaibiel",
+      "name": "Gaibiel"
+    },
+    {
+      "code": "geldo",
+      "name": "Geldo"
+    },
+    {
+      "code": "herbers",
+      "name": "Herbers"
+    },
+    {
+      "code": "higueras",
+      "name": "Higueras"
+    },
+    {
+      "code": "jerica",
+      "name": "Jérica"
+    },
+    {
+      "code": "l-alcora",
+      "name": "L'Alcora"
+    },
+    {
+      "code": "la-jana",
+      "name": "La Jana"
+    },
+    {
+      "code": "la-llosa",
+      "name": "La Llosa"
+    },
+    {
+      "code": "la-mata-de-morella",
+      "name": "La Mata de Morella"
+    },
+    {
+      "code": "la-pobla-de-benifassa",
+      "name": "La Pobla de Benifassà"
+    },
+    {
+      "code": "la-pobla-tornesa",
+      "name": "La Pobla Tornesa"
+    },
+    {
+      "code": "la-salzadella",
+      "name": "La Salzadella"
+    },
+    {
+      "code": "la-serratella",
+      "name": "La Serratella"
+    },
+    {
+      "code": "la-torre-d-en-besora",
+      "name": "La Torre d'En Besora"
+    },
+    {
+      "code": "la-torre-d-en-domenec",
+      "name": "La Torre d'En Doménec"
+    },
+    {
+      "code": "la-vall-d-uixo",
+      "name": "La Vall d'Uixó"
+    },
+    {
+      "code": "la-vilavella",
+      "name": "La Vilavella"
+    },
+    {
+      "code": "les-coves-de-vinroma",
+      "name": "Les Coves de Vinromà"
+    },
+    {
+      "code": "llucena",
+      "name": "Llucena"
+    },
+    {
+      "code": "ludiente",
+      "name": "Ludiente"
+    },
+    {
+      "code": "matet",
+      "name": "Matet"
+    },
+    {
+      "code": "moncofa",
+      "name": "Moncofa"
+    },
+    {
+      "code": "montan",
+      "name": "Montán"
+    },
+    {
+      "code": "montanejos",
+      "name": "Montanejos"
+    },
+    {
+      "code": "morella",
+      "name": "Morella"
+    },
+    {
+      "code": "navajas",
+      "name": "Navajas"
+    },
+    {
+      "code": "nules",
+      "name": "Nules"
+    },
+    {
+      "code": "olocau-del-rey",
+      "name": "Olocau del Rey"
+    },
+    {
+      "code": "onda",
+      "name": "Onda"
+    },
+    {
+      "code": "orpesa",
+      "name": "Orpesa"
+    },
+    {
+      "code": "palanques",
+      "name": "Palanques"
+    },
+    {
+      "code": "pavias",
+      "name": "Pavías"
+    },
+    {
+      "code": "peniscola",
+      "name": "Peníscola"
+    },
+    {
+      "code": "pina-de-montalgrao",
+      "name": "Pina de Montalgrao"
+    },
+    {
+      "code": "portell-de-morella",
+      "name": "Portell de Morella"
+    },
+    {
+      "code": "puebla-de-arenoso",
+      "name": "Puebla de Arenoso"
+    },
+    {
+      "code": "ribesalbes",
+      "name": "Ribesalbes"
+    },
+    {
+      "code": "rossell",
+      "name": "Rossell"
+    },
+    {
+      "code": "sacanet",
+      "name": "Sacañet"
+    },
+    {
+      "code": "sant-jordi",
+      "name": "Sant Jordi"
+    },
+    {
+      "code": "san-rafael-del-rio",
+      "name": "San Rafael del Río"
+    },
+    {
+      "code": "sant-joan-de-moro",
+      "name": "Sant Joan de Moró"
+    },
+    {
+      "code": "sant-mateu",
+      "name": "Sant Mateu"
+    },
+    {
+      "code": "santa-magdalena-de-pulpis",
+      "name": "Santa Magdalena de Pulpis"
+    },
+    {
+      "code": "segorbe",
+      "name": "Segorbe"
+    },
+    {
+      "code": "sierra-engarceran",
+      "name": "Sierra Engarcerán"
+    },
+    {
+      "code": "soneja",
+      "name": "Soneja"
+    },
+    {
+      "code": "sot-de-ferrer",
+      "name": "Sot de Ferrer"
+    },
+    {
+      "code": "suera",
+      "name": "Suera"
+    },
+    {
+      "code": "tales",
+      "name": "Tales"
+    },
+    {
+      "code": "teresa",
+      "name": "Teresa"
+    },
+    {
+      "code": "tirig",
+      "name": "Tírig"
+    },
+    {
+      "code": "todolella",
+      "name": "Todolella"
+    },
+    {
+      "code": "toga",
+      "name": "Toga"
+    },
+    {
+      "code": "toras",
+      "name": "Torás"
+    },
+    {
+      "code": "torralba-del-pinar",
+      "name": "Torralba del Pinar"
+    },
+    {
+      "code": "torreblanca",
+      "name": "Torreblanca"
+    },
+    {
+      "code": "torrechiva",
+      "name": "Torrechiva"
+    },
+    {
+      "code": "traiguera",
+      "name": "Traiguera"
+    },
+    {
+      "code": "les-useres",
+      "name": "Les Useres"
+    },
+    {
+      "code": "vall-d-alba",
+      "name": "Vall d'Alba"
+    },
+    {
+      "code": "vall-de-almonacid",
+      "name": "Vall de Almonacid"
+    },
+    {
+      "code": "vallat",
+      "name": "Vallat"
+    },
+    {
+      "code": "vallibona",
+      "name": "Vallibona"
+    },
+    {
+      "code": "vila-real",
+      "name": "Vila-real"
+    },
+    {
+      "code": "vilafames",
+      "name": "Vilafamés"
+    },
+    {
+      "code": "vilanova-d-alcolea",
+      "name": "Vilanova d'Alcolea"
+    },
+    {
+      "code": "vilar-de-canes",
+      "name": "Vilar de Canes"
+    },
+    {
+      "code": "vilafranca",
+      "name": "Vilafranca"
+    },
+    {
+      "code": "villahermosa-del-rio",
+      "name": "Villahermosa del Río"
+    },
+    {
+      "code": "villamalur",
+      "name": "Villamalur"
+    },
+    {
+      "code": "villanueva-de-viver",
+      "name": "Villanueva de Viver"
+    },
+    {
+      "code": "villores",
+      "name": "Villores"
+    },
+    {
+      "code": "vinaros",
+      "name": "Vinaròs"
+    },
+    {
+      "code": "vistabella-del-maestrat",
+      "name": "Vistabella del Maestrat"
+    },
+    {
+      "code": "viver",
+      "name": "Viver"
+    },
+    {
+      "code": "xert",
+      "name": "Xert"
+    },
+    {
+      "code": "zorita-del-maestrazgo",
+      "name": "Zorita del Maestrazgo"
+    },
+    {
+      "code": "zucaina",
+      "name": "Zucaina"
+    },
+    {
+      "code": "ademuz",
+      "name": "Ademuz"
+    },
+    {
+      "code": "ador",
+      "name": "Ador"
+    },
+    {
+      "code": "agullent",
+      "name": "Agullent"
+    },
+    {
+      "code": "aielo-de-malferit",
+      "name": "Aielo de Malferit"
+    },
+    {
+      "code": "aielo-de-rugat",
+      "name": "Aielo de Rugat"
+    },
+    {
+      "code": "alaquas",
+      "name": "Alaquàs"
+    },
+    {
+      "code": "albaida",
+      "name": "Albaida"
+    },
+    {
+      "code": "albal",
+      "name": "Albal"
+    },
+    {
+      "code": "albalat-de-la-ribera",
+      "name": "Albalat de la Ribera"
+    },
+    {
+      "code": "albalat-dels-sorells",
+      "name": "Albalat dels Sorells"
+    },
+    {
+      "code": "albalat-dels-tarongers",
+      "name": "Albalat dels Tarongers"
+    },
+    {
+      "code": "alberic",
+      "name": "Alberic"
+    },
+    {
+      "code": "alborache",
+      "name": "Alborache"
+    },
+    {
+      "code": "alboraia",
+      "name": "Alboraia"
+    },
+    {
+      "code": "albuixech",
+      "name": "Albuixech"
+    },
+    {
+      "code": "alcantera-de-xuquer",
+      "name": "Alcàntera de Xúquer"
+    },
+    {
+      "code": "alcasser",
+      "name": "Alcàsser"
+    },
+    {
+      "code": "alcublas",
+      "name": "Alcublas"
+    },
+    {
+      "code": "alcudia-de-crespins-l",
+      "name": "Alcúdia de Crespins, l'"
+    },
+    {
+      "code": "alcudia-l",
+      "name": "Alcúdia, l'"
+    },
+    {
+      "code": "aldaia",
+      "name": "Aldaia"
+    },
+    {
+      "code": "alfafar",
+      "name": "Alfafar"
+    },
+    {
+      "code": "alfara-de-la-baronia",
+      "name": "Alfara de la Baronia"
+    },
+    {
+      "code": "alfara-del-patriarca",
+      "name": "Alfara del Patriarca"
+    },
+    {
+      "code": "alfarb",
+      "name": "Alfarb"
+    },
+    {
+      "code": "alfarrasi",
+      "name": "Alfarrasí"
+    },
+    {
+      "code": "alfauir",
+      "name": "Alfauir"
+    },
+    {
+      "code": "algar-de-palancia",
+      "name": "Algar de Palància"
+    },
+    {
+      "code": "algemesi",
+      "name": "Algemesí"
+    },
+    {
+      "code": "algimia-d-alfara",
+      "name": "Algímia d'Alfara"
+    },
+    {
+      "code": "alginet",
+      "name": "Alginet"
+    },
+    {
+      "code": "almassera",
+      "name": "Almàssera"
+    },
+    {
+      "code": "almisera",
+      "name": "Almiserà"
+    },
+    {
+      "code": "almoines",
+      "name": "Almoines"
+    },
+    {
+      "code": "almussafes",
+      "name": "Almussafes"
+    },
+    {
+      "code": "alpuente",
+      "name": "Alpuente"
+    },
+    {
+      "code": "alqueria-de-la-comtessa-l",
+      "name": "Alqueria de la Comtessa, l'"
+    },
+    {
+      "code": "alzira",
+      "name": "Alzira"
+    },
+    {
+      "code": "andilla",
+      "name": "Andilla"
+    },
+    {
+      "code": "anna",
+      "name": "Anna"
+    },
+    {
+      "code": "antella",
+      "name": "Antella"
+    },
+    {
+      "code": "aras-de-los-olmos",
+      "name": "Aras de Los Olmos"
+    },
+    {
+      "code": "atzeneta-d-albaida",
+      "name": "Atzeneta d'Albaida"
+    },
+    {
+      "code": "ayora",
+      "name": "Ayora"
+    },
+    {
+      "code": "barraca-d-aigues-vives-la-eatim-dependent-d-alzira",
+      "name": "Barraca d'Aigües Vives, La, Eatim Dependent d'Alzira"
+    },
+    {
+      "code": "barx",
+      "name": "Barx"
+    },
+    {
+      "code": "barxeta",
+      "name": "Barxeta"
+    },
+    {
+      "code": "belgida",
+      "name": "Bèlgida"
+    },
+    {
+      "code": "bellreguard",
+      "name": "Bellreguard"
+    },
+    {
+      "code": "bellus",
+      "name": "Bellús"
+    },
+    {
+      "code": "benageber",
+      "name": "Benagéber"
+    },
+    {
+      "code": "benaguasil",
+      "name": "Benaguasil"
+    },
+    {
+      "code": "benavites",
+      "name": "Benavites"
+    },
+    {
+      "code": "beneixida",
+      "name": "Beneixida"
+    },
+    {
+      "code": "benetusser",
+      "name": "Benetússer"
+    },
+    {
+      "code": "beniarjo",
+      "name": "Beniarjó"
+    },
+    {
+      "code": "beniatjar",
+      "name": "Beniatjar"
+    },
+    {
+      "code": "benicolet",
+      "name": "Benicolet"
+    },
+    {
+      "code": "benicull-de-xuquer",
+      "name": "Benicull de Xúquer"
+    },
+    {
+      "code": "benifaio",
+      "name": "Benifaió"
+    },
+    {
+      "code": "benifairo-de-la-valldigna",
+      "name": "Benifairó de la Valldigna"
+    },
+    {
+      "code": "benifairo-de-les-valls",
+      "name": "Benifairó de les Valls"
+    },
+    {
+      "code": "benifla",
+      "name": "Beniflá"
+    },
+    {
+      "code": "beniganim",
+      "name": "Benigànim"
+    },
+    {
+      "code": "benimodo",
+      "name": "Benimodo"
+    },
+    {
+      "code": "benimuslem",
+      "name": "Benimuslem"
+    },
+    {
+      "code": "beniparrell",
+      "name": "Beniparrell"
+    },
+    {
+      "code": "benirredra",
+      "name": "Benirredrà"
+    },
+    {
+      "code": "benissano",
+      "name": "Benissanó"
+    },
+    {
+      "code": "benissoda",
+      "name": "Benissoda"
+    },
+    {
+      "code": "benissuera",
+      "name": "Benissuera"
+    },
+    {
+      "code": "betera",
+      "name": "Bétera"
+    },
+    {
+      "code": "bicorb",
+      "name": "Bicorb"
+    },
+    {
+      "code": "bocairent",
+      "name": "Bocairent"
+    },
+    {
+      "code": "bolbaite",
+      "name": "Bolbaite"
+    },
+    {
+      "code": "bonrepos-i-mirambell",
+      "name": "Bonrepòs i Mirambell"
+    },
+    {
+      "code": "bufali",
+      "name": "Bufali"
+    },
+    {
+      "code": "bugarra",
+      "name": "Bugarra"
+    },
+    {
+      "code": "bunol",
+      "name": "Buñol"
+    },
+    {
+      "code": "burjassot",
+      "name": "Burjassot"
+    },
+    {
+      "code": "calles",
+      "name": "Calles"
+    },
+    {
+      "code": "camporrobles",
+      "name": "Camporrobles"
+    },
+    {
+      "code": "canals",
+      "name": "Canals"
+    },
+    {
+      "code": "canet-d-en-berenguer",
+      "name": "Canet d'En Berenguer"
+    },
+    {
+      "code": "carcaixent",
+      "name": "Carcaixent"
+    },
+    {
+      "code": "carcer",
+      "name": "Càrcer"
+    },
+    {
+      "code": "carlet",
+      "name": "Carlet"
+    },
+    {
+      "code": "carricola",
+      "name": "Carrícola"
+    },
+    {
+      "code": "casas-altas",
+      "name": "Casas Altas"
+    },
+    {
+      "code": "casas-bajas",
+      "name": "Casas Bajas"
+    },
+    {
+      "code": "casinos",
+      "name": "Casinos"
+    },
+    {
+      "code": "castello",
+      "name": "Castelló"
+    },
+    {
+      "code": "castello-de-rugat",
+      "name": "Castelló de Rugat"
+    },
+    {
+      "code": "castellonet-de-la-conquesta",
+      "name": "Castellonet de la Conquesta"
+    },
+    {
+      "code": "castielfabib",
+      "name": "Castielfabib"
+    },
+    {
+      "code": "catadau",
+      "name": "Catadau"
+    },
+    {
+      "code": "catarroja",
+      "name": "Catarroja"
+    },
+    {
+      "code": "caudete-de-las-fuentes",
+      "name": "Caudete de Las Fuentes"
+    },
+    {
+      "code": "cerda",
+      "name": "Cerdà"
+    },
+    {
+      "code": "chella",
+      "name": "Chella"
+    },
+    {
+      "code": "chelva",
+      "name": "Chelva"
+    },
+    {
+      "code": "chera",
+      "name": "Chera"
+    },
+    {
+      "code": "cheste",
+      "name": "Cheste"
+    },
+    {
+      "code": "chiva",
+      "name": "Chiva"
+    },
+    {
+      "code": "chulilla",
+      "name": "Chulilla"
+    },
+    {
+      "code": "cofrentes",
+      "name": "Cofrentes"
+    },
+    {
+      "code": "corbera",
+      "name": "Corbera"
+    },
+    {
+      "code": "cortes-de-pallas",
+      "name": "Cortes de Pallás"
+    },
+    {
+      "code": "cotes",
+      "name": "Cotes"
+    },
+    {
+      "code": "cullera",
+      "name": "Cullera"
+    },
+    {
+      "code": "daimus",
+      "name": "Daimús"
+    },
+    {
+      "code": "domeno",
+      "name": "Domeño"
+    },
+    {
+      "code": "dos-aguas",
+      "name": "Dos Aguas"
+    },
+    {
+      "code": "eliana-l",
+      "name": "Eliana, l'"
+    },
+    {
+      "code": "emperador",
+      "name": "Emperador"
+    },
+    {
+      "code": "enguera",
+      "name": "Enguera"
+    },
+    {
+      "code": "enova-l",
+      "name": "Énova, l'"
+    },
+    {
+      "code": "estivella",
+      "name": "Estivella"
+    },
+    {
+      "code": "estubeny",
+      "name": "Estubeny"
+    },
+    {
+      "code": "faura",
+      "name": "Faura"
+    },
+    {
+      "code": "favara",
+      "name": "Favara"
+    },
+    {
+      "code": "foios",
+      "name": "Foios"
+    },
+    {
+      "code": "font-d-en-carros-la",
+      "name": "Font d'En Carròs, la"
+    },
+    {
+      "code": "font-de-la-figuera-la",
+      "name": "Font de la Figuera, la"
+    },
+    {
+      "code": "fontanars-dels-alforins",
+      "name": "Fontanars dels Alforins"
+    },
+    {
+      "code": "fortaleny",
+      "name": "Fortaleny"
+    },
+    {
+      "code": "fuenterrobles",
+      "name": "Fuenterrobles"
+    },
+    {
+      "code": "gandia",
+      "name": "Gandia"
+    },
+    {
+      "code": "gatova",
+      "name": "Gátova"
+    },
+    {
+      "code": "gavarda",
+      "name": "Gavarda"
+    },
+    {
+      "code": "genoves-el",
+      "name": "Genovés, el"
+    },
+    {
+      "code": "gestalgar",
+      "name": "Gestalgar"
+    },
+    {
+      "code": "gilet",
+      "name": "Gilet"
+    },
+    {
+      "code": "godella",
+      "name": "Godella"
+    },
+    {
+      "code": "godelleta",
+      "name": "Godelleta"
+    },
+    {
+      "code": "granja-de-la-costera-la",
+      "name": "Granja de la Costera, la"
+    },
+    {
+      "code": "guadassequies",
+      "name": "Guadasséquies"
+    },
+    {
+      "code": "guadassuar",
+      "name": "Guadassuar"
+    },
+    {
+      "code": "guardamar-de-la-safor",
+      "name": "Guardamar de la Safor"
+    },
+    {
+      "code": "higueruelas",
+      "name": "Higueruelas"
+    },
+    {
+      "code": "jalance",
+      "name": "Jalance"
+    },
+    {
+      "code": "jarafuel",
+      "name": "Jarafuel"
+    },
+    {
+      "code": "llanera-de-ranes",
+      "name": "Llanera de Ranes"
+    },
+    {
+      "code": "llauri",
+      "name": "Llaurí"
+    },
+    {
+      "code": "lliria",
+      "name": "Llíria"
+    },
+    {
+      "code": "llocnou-d-en-fenollet",
+      "name": "Llocnou d'En Fenollet"
+    },
+    {
+      "code": "llocnou-de-la-corona",
+      "name": "Llocnou de la Corona"
+    },
+    {
+      "code": "llocnou-de-sant-jeroni",
+      "name": "Llocnou de Sant Jeroni"
+    },
+    {
+      "code": "llombai",
+      "name": "Llombai"
+    },
+    {
+      "code": "llosa-de-ranes-la",
+      "name": "Llosa de Ranes, la"
+    },
+    {
+      "code": "llutxent",
+      "name": "Llutxent"
+    },
+    {
+      "code": "loriguilla",
+      "name": "Loriguilla"
+    },
+    {
+      "code": "losa-del-obispo",
+      "name": "Losa del Obispo"
+    },
+    {
+      "code": "macastre",
+      "name": "Macastre"
+    },
+    {
+      "code": "manises",
+      "name": "Manises"
+    },
+    {
+      "code": "manuel",
+      "name": "Manuel"
+    },
+    {
+      "code": "mareny-de-barraquetes-eatim-dependent-de-sueca",
+      "name": "Mareny de Barraquetes, Eatim Dependent de Sueca"
+    },
+    {
+      "code": "marines",
+      "name": "Marines"
+    },
+    {
+      "code": "massalaves",
+      "name": "Massalavés"
+    },
+    {
+      "code": "massalfassar",
+      "name": "Massalfassar"
+    },
+    {
+      "code": "massamagrell",
+      "name": "Massamagrell"
+    },
+    {
+      "code": "massanassa",
+      "name": "Massanassa"
+    },
+    {
+      "code": "meliana",
+      "name": "Meliana"
+    },
+    {
+      "code": "millares",
+      "name": "Millares"
+    },
+    {
+      "code": "miramar",
+      "name": "Miramar"
+    },
+    {
+      "code": "mislata",
+      "name": "Mislata"
+    },
+    {
+      "code": "moixent",
+      "name": "Moixent"
+    },
+    {
+      "code": "montcada",
+      "name": "Montcada"
+    },
+    {
+      "code": "montaverner",
+      "name": "Montaverner"
+    },
+    {
+      "code": "montesa",
+      "name": "Montesa"
+    },
+    {
+      "code": "montitxelvo",
+      "name": "Montitxelvo"
+    },
+    {
+      "code": "montroi",
+      "name": "Montroi"
+    },
+    {
+      "code": "montserrat",
+      "name": "Montserrat"
+    },
+    {
+      "code": "museros",
+      "name": "Museros"
+    },
+    {
+      "code": "naquera",
+      "name": "Nàquera"
+    },
+    {
+      "code": "navarres",
+      "name": "Navarrés"
+    },
+    {
+      "code": "novetle",
+      "name": "Novetlè"
+    },
+    {
+      "code": "oliva",
+      "name": "Oliva"
+    },
+    {
+      "code": "olleria-l",
+      "name": "Olleria, l'"
+    },
+    {
+      "code": "olocau",
+      "name": "Olocau"
+    },
+    {
+      "code": "ontinyent",
+      "name": "Ontinyent"
+    },
+    {
+      "code": "otos",
+      "name": "Otos"
+    },
+    {
+      "code": "paiporta",
+      "name": "Paiporta"
+    },
+    {
+      "code": "palma-de-gandia",
+      "name": "Palma de Gandía"
+    },
+    {
+      "code": "palmera",
+      "name": "Palmera"
+    },
+    {
+      "code": "palomar-el",
+      "name": "Palomar, el"
+    },
+    {
+      "code": "paterna",
+      "name": "Paterna"
+    },
+    {
+      "code": "pedralba",
+      "name": "Pedralba"
+    },
+    {
+      "code": "perello-el-eatim-dependent-de-sueca",
+      "name": "Perelló, El, Eatim Dependent de Sueca"
+    },
+    {
+      "code": "petres",
+      "name": "Petrés"
+    },
+    {
+      "code": "picanya",
+      "name": "Picanya"
+    },
+    {
+      "code": "picassent",
+      "name": "Picassent"
+    },
+    {
+      "code": "piles",
+      "name": "Piles"
+    },
+    {
+      "code": "pinet",
+      "name": "Pinet"
+    },
+    {
+      "code": "pobla-de-farnals-la",
+      "name": "Pobla de Farnals, la"
+    },
+    {
+      "code": "pobla-de-vallbona-la",
+      "name": "Pobla de Vallbona, la"
+    },
+    {
+      "code": "pobla-del-duc-la",
+      "name": "Pobla del Duc, la"
+    },
+    {
+      "code": "pobla-llarga-la",
+      "name": "Pobla Llarga, la"
+    },
+    {
+      "code": "polinya-de-xuquer",
+      "name": "Polinyà de Xúquer"
+    },
+    {
+      "code": "potries",
+      "name": "Potries"
+    },
+    {
+      "code": "pucol",
+      "name": "Puçol"
+    },
+    {
+      "code": "puebla-de-san-miguel",
+      "name": "Puebla de San Miguel"
+    },
+    {
+      "code": "puig-de-santa-maria-el",
+      "name": "Puig de Santa Maria, el"
+    },
+    {
+      "code": "quart-de-les-valls",
+      "name": "Quart de les Valls"
+    },
+    {
+      "code": "quart-de-poblet",
+      "name": "Quart de Poblet"
+    },
+    {
+      "code": "quartell",
+      "name": "Quartell"
+    },
+    {
+      "code": "quatretonda",
+      "name": "Quatretonda"
+    },
+    {
+      "code": "quesa",
+      "name": "Quesa"
+    },
+    {
+      "code": "rafelbunyol",
+      "name": "Rafelbunyol"
+    },
+    {
+      "code": "rafelcofer",
+      "name": "Rafelcofer"
+    },
+    {
+      "code": "rafelguaraf",
+      "name": "Rafelguaraf"
+    },
+    {
+      "code": "rafol-de-salem",
+      "name": "Ráfol de Salem"
+    },
+    {
+      "code": "real",
+      "name": "Real"
+    },
+    {
+      "code": "el-real-de-gandia-el",
+      "name": "El Real de Gandia, el"
+    },
+    {
+      "code": "requena",
+      "name": "Requena"
+    },
+    {
+      "code": "riba-roja-de-turia",
+      "name": "Riba-roja de Túria"
+    },
+    {
+      "code": "riola",
+      "name": "Riola"
+    },
+    {
+      "code": "rocafort",
+      "name": "Rocafort"
+    },
+    {
+      "code": "rotgla-i-corbera",
+      "name": "Rotglà i Corberà"
+    },
+    {
+      "code": "rotova",
+      "name": "Ròtova"
+    },
+    {
+      "code": "rugat",
+      "name": "Rugat"
+    },
+    {
+      "code": "sagunt",
+      "name": "Sagunt"
+    },
+    {
+      "code": "salem",
+      "name": "Salem"
+    },
+    {
+      "code": "san-antonio-de-benageber",
+      "name": "San Antonio de Benagéber"
+    },
+    {
+      "code": "sant-joanet",
+      "name": "Sant Joanet"
+    },
+    {
+      "code": "sedavi",
+      "name": "Sedaví"
+    },
+    {
+      "code": "segart",
+      "name": "Segart"
+    },
+    {
+      "code": "sellent",
+      "name": "Sellent"
+    },
+    {
+      "code": "sempere",
+      "name": "Sempere"
+    },
+    {
+      "code": "senyera",
+      "name": "Senyera"
+    },
+    {
+      "code": "serra",
+      "name": "Serra"
+    },
+    {
+      "code": "siete-aguas",
+      "name": "Siete Aguas"
+    },
+    {
+      "code": "silla",
+      "name": "Silla"
+    },
+    {
+      "code": "simat-de-la-valldigna",
+      "name": "Simat de la Valldigna"
+    },
+    {
+      "code": "sinarcas",
+      "name": "Sinarcas"
+    },
+    {
+      "code": "sollana",
+      "name": "Sollana"
+    },
+    {
+      "code": "sot-de-chera",
+      "name": "Sot de Chera"
+    },
+    {
+      "code": "sueca",
+      "name": "Sueca"
+    },
+    {
+      "code": "sumacarcer",
+      "name": "Sumacàrcer"
+    },
+    {
+      "code": "tavernes-blanques",
+      "name": "Tavernes Blanques"
+    },
+    {
+      "code": "tavernes-de-la-valldigna",
+      "name": "Tavernes de la Valldigna"
+    },
+    {
+      "code": "teresa-de-cofrentes",
+      "name": "Teresa de Cofrentes"
+    },
+    {
+      "code": "terrateig",
+      "name": "Terrateig"
+    },
+    {
+      "code": "titaguas",
+      "name": "Titaguas"
+    },
+    {
+      "code": "torrebaja",
+      "name": "Torrebaja"
+    },
+    {
+      "code": "torrella",
+      "name": "Torrella"
+    },
+    {
+      "code": "torrent",
+      "name": "Torrent"
+    },
+    {
+      "code": "torres-torres",
+      "name": "Torres Torres"
+    },
+    {
+      "code": "tous",
+      "name": "Tous"
+    },
+    {
+      "code": "tuejar",
+      "name": "Tuéjar"
+    },
+    {
+      "code": "turis",
+      "name": "Turís"
+    },
+    {
+      "code": "utiel",
+      "name": "Utiel"
+    },
+    {
+      "code": "valencia",
+      "name": "València"
+    },
+    {
+      "code": "vallada",
+      "name": "Vallada"
+    },
+    {
+      "code": "vallanca",
+      "name": "Vallanca"
+    },
+    {
+      "code": "valles",
+      "name": "Vallés"
+    },
+    {
+      "code": "venta-del-moro",
+      "name": "Venta del Moro"
+    },
+    {
+      "code": "villalonga",
+      "name": "Villalonga"
+    },
+    {
+      "code": "vilamarxant",
+      "name": "Vilamarxant"
+    },
+    {
+      "code": "villar-del-arzobispo",
+      "name": "Villar del Arzobispo"
+    },
+    {
+      "code": "villargordo-del-cabriel",
+      "name": "Villargordo del Cabriel"
+    },
+    {
+      "code": "vinalesa",
+      "name": "Vinalesa"
+    },
+    {
+      "code": "xativa",
+      "name": "Xàtiva"
+    },
+    {
+      "code": "xeraco",
+      "name": "Xeraco"
+    },
+    {
+      "code": "xeresa",
+      "name": "Xeresa"
+    },
+    {
+      "code": "xirivella",
+      "name": "Xirivella"
+    },
+    {
+      "code": "yatova",
+      "name": "Yátova"
+    },
+    {
+      "code": "yesa-la",
+      "name": "Yesa, la"
+    },
+    {
+      "code": "zarra",
+      "name": "Zarra"
+    }
+  ]
+}

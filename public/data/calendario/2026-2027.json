@@ -1,0 +1,1698 @@
+{
+  "schema": "cev-calendario-escolar",
+  "version": 1,
+  "course": "2026-2027",
+  "courseStart": "2026-09-09",
+  "courseEnd": "2027-06-18",
+  "ensenyanceOverrides": {
+    "adults": {
+      "courseStart": "2026-09-14",
+      "courseEnd": "2027-06-11"
+    },
+    "musica_dansa": {
+      "courseStart": "2026-09-14",
+      "courseEnd": "2027-06-11"
+    },
+    "arts_plastiques": {
+      "courseStart": "2026-09-14",
+      "courseEnd": "2027-06-11"
+    },
+    "esportives": {
+      "courseStart": "2026-09-21"
+    },
+    "idiomes": {
+      "courseStart": "2026-09-28"
+    }
+  },
+  "vacations": [
+    {
+      "title": "Nadal",
+      "start": "2026-12-22",
+      "end": "2027-01-06"
+    },
+    {
+      "title": "Pasqua",
+      "start": "2027-03-25",
+      "end": "2027-04-05"
+    }
+  ],
+  "autonomicHolidays": [
+    {
+      "title": "9 d'Octubre — Dia de la Comunitat Valenciana",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Festa Nacional d'Espanya",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "Immaculada Concepció",
+      "date": "2026-12-08"
+    },
+    {
+      "title": "Sant Josep",
+      "date": "2027-03-19"
+    },
+    {
+      "title": "Festa del Treball",
+      "date": "2027-05-01"
+    }
+  ],
+  "nonLectiveDays": [],
+  "localHolidays": {
+    "atzubia-l": [
+      {
+        "title": "Crist del Miracle",
+        "date": "2026-09-04"
+      }
+    ],
+    "agres": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      }
+    ],
+    "alcosser": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "alfafara": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "l-alfas-del-pi": [
+      {
+        "title": "Festa local",
+        "date": "2026-11-09"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-11-10"
+      }
+    ],
+    "almoradi": [
+      {
+        "title": "Festivitat de Sant Andreu",
+        "date": "2026-11-30"
+      }
+    ],
+    "alqueria-d-asnar-l": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-25"
+      },
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-28"
+      }
+    ],
+    "altea": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-29"
+      }
+    ],
+    "benejuzar": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "benferri": [
+      {
+        "title": "Sant Jeroni",
+        "date": "2026-09-30"
+      },
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "beniarres": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "benidorm": [
+      {
+        "title": "Festa local",
+        "date": "2026-11-09"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-11-10"
+      }
+    ],
+    "benifallim": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "benilloba": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "benillup": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-04"
+      }
+    ],
+    "benimantell": [
+      {
+        "title": "Festes en honor al Santíssim Sagrament",
+        "date": "2026-10-16"
+      }
+    ],
+    "benimarfull": [
+      {
+        "title": "Festivitat pont de la Constitució",
+        "date": "2026-12-07"
+      }
+    ],
+    "benimassot": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "callosa-d-en-sarria": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-10-13"
+      }
+    ],
+    "calp": [
+      {
+        "title": "Santíssim Crist de la Suor",
+        "date": "2026-10-22"
+      }
+    ],
+    "campello-el": [
+      {
+        "title": "Festivitat de Santa Teresa de Jesús",
+        "date": "2026-10-15"
+      }
+    ],
+    "castalla": [
+      {
+        "title": "Festes de Moros i Cristians",
+        "date": "2026-09-02"
+      }
+    ],
+    "cocentaina": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-30"
+      }
+    ],
+    "crevillent": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-10-05"
+      }
+    ],
+    "daya-nueva": [
+      {
+        "title": "Sant Miquel i , Dia de la Morera",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "Sant Miquel i , Dia de la Morera",
+        "date": "2026-09-30"
+      }
+    ],
+    "daya-vieja": [
+      {
+        "title": "Dia de la patrona, la Mare de Déu de Montserrat",
+        "date": "2026-09-08"
+      }
+    ],
+    "eatim-de-la-xara-dependent-de-denia": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-04"
+      },
+      {
+        "title": "Sant Mateu",
+        "date": "2026-09-21"
+      }
+    ],
+    "dolores": [
+      {
+        "title": "Mare de Déu dels Dolors",
+        "date": "2026-09-21"
+      }
+    ],
+    "elda": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-09"
+      }
+    ],
+    "elx": [
+      {
+        "title": "Festivitat de la Vinguda de la Mare de Déu",
+        "date": "2026-12-29"
+      }
+    ],
+    "fageca": [
+      {
+        "title": "Pont festivitat Comunitat Valenciana",
+        "date": "2026-10-08"
+      }
+    ],
+    "formentera-del-segura": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-29"
+      }
+    ],
+    "gaianes": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      }
+    ],
+    "gata-de-gorgos": [
+      {
+        "title": "Festivitat de Sant Miquel Arcàngel",
+        "date": "2026-09-29"
+      }
+    ],
+    "gorga": [
+      {
+        "title": "Dia dels Llauradors",
+        "date": "2026-12-28"
+      }
+    ],
+    "granja-de-rocamora": [
+      {
+        "title": "Festivitat de la Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "guardamar-del-segura": [
+      {
+        "title": "Festivitat de la Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "ibi": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-11"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-14"
+      }
+    ],
+    "jacarilla": [
+      {
+        "title": "Mare de Déu de Betlem",
+        "date": "2026-09-08"
+      }
+    ],
+    "xabia": [
+      {
+        "title": "Festa de La nostra Senyora de Loreto",
+        "date": "2026-09-08"
+      }
+    ],
+    "monforte-del-cid": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-12-09"
+      }
+    ],
+    "monover": [
+      {
+        "title": "Celebració de les festes patronals",
+        "date": "2026-09-08"
+      }
+    ],
+    "montesinos-los": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-13"
+      }
+    ],
+    "mutxamel": [
+      {
+        "title": "Festivitat de la Mare de Déu del Loreto",
+        "date": "2026-09-09"
+      }
+    ],
+    "onil": [
+      {
+        "title": "Dia del Nostre Senyor Robat",
+        "date": "2026-11-28"
+      }
+    ],
+    "orba": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-26"
+      }
+    ],
+    "orihuela": [
+      {
+        "title": "Festivitat de la Mare de Déu de Montserrat patrona d’Orihuela",
+        "date": "2026-09-08"
+      }
+    ],
+    "orxeta": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-18"
+      },
+      {
+        "title": "Festes patronals en honor a Sant Tomàs de Villanueva i Sant Nazari",
+        "date": "2026-09-21"
+      }
+    ],
+    "penaguila": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "petrer": [
+      {
+        "title": "Festa patronal en honor de la Mare de Déu del Remei",
+        "date": "2026-10-07"
+      }
+    ],
+    "pilar-de-la-horadada": [
+      {
+        "title": "Dia posterior a la festivitat de la Mare de Déu del Pilar",
+        "date": "2026-10-13"
+      }
+    ],
+    "planes": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-02"
+      },
+      {
+        "title": "Festes majors",
+        "date": "2026-10-05"
+      }
+    ],
+    "polop": [
+      {
+        "title": "Festes de Sant Francesc d’Assís",
+        "date": "2026-10-02"
+      }
+    ],
+    "quatretondeta": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-08"
+      }
+    ],
+    "rafal": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-07"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-10-08"
+      }
+    ],
+    "redovan": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-29"
+      }
+    ],
+    "relleu": [
+      {
+        "title": "Festes de la Mare de Déu del Miracle i els sants metges Sant Cosme i Sant Damià",
+        "date": "2026-09-28"
+      }
+    ],
+    "rojales": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "san-fulgencio": [
+      {
+        "title": "Festes en honor de la Mare de Déu del Remei",
+        "date": "2026-10-08"
+      }
+    ],
+    "san-isidro": [
+      {
+        "title": "Festivitat de Sant Ambròs",
+        "date": "2026-12-07"
+      }
+    ],
+    "san-miguel-de-salinas": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-29"
+      }
+    ],
+    "sanet-y-negrals": [
+      {
+        "title": "3 setembre i",
+        "date": "2026-09-04"
+      }
+    ],
+    "sant-joan-d-alacant": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-14"
+      }
+    ],
+    "santa-pola": [
+      {
+        "title": "Mare de Déu de Loreto",
+        "date": "2026-09-08"
+      }
+    ],
+    "sax": [
+      {
+        "title": "Cabildo",
+        "date": "2026-12-26"
+      }
+    ],
+    "sella": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-05"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-10-06"
+      }
+    ],
+    "tarbena": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-04"
+      }
+    ],
+    "vall-de-gallinera-la": [
+      {
+        "title": "Festiu de Nadal",
+        "date": "2026-12-23"
+      }
+    ],
+    "vila-joiosa-la": [
+      {
+        "title": "Festivitat de Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "villena": [
+      {
+        "title": "Dia posterior a la celebració de les festes patronals",
+        "date": "2026-09-10"
+      }
+    ],
+    "xalo": [
+      {
+        "title": "Festivitat de la Mare de Déu Pobra",
+        "date": "2026-10-19"
+      }
+    ],
+    "ain": [
+      {
+        "title": "Sant Ambròs",
+        "date": "2026-12-04"
+      }
+    ],
+    "albocasser": [
+      {
+        "title": "Conversió de Sant Pau",
+        "date": "2026-12-07"
+      }
+    ],
+    "alcudia-de-veo": [
+      {
+        "title": "Festivitat de Sant Pere, i , festivitat de Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "alfondeguilla": [
+      {
+        "title": "Festivitat de Sant Vicent, i , festivitat de Sant Bartomeu",
+        "date": "2026-11-09"
+      }
+    ],
+    "algimia-de-almonacid": [
+      {
+        "title": "Vespra de Nadal",
+        "date": "2026-12-24"
+      }
+    ],
+    "almenara": [
+      {
+        "title": "Sant Vicent i , dilluns de fira",
+        "date": "2026-09-28"
+      }
+    ],
+    "alqueries-les": [
+      {
+        "title": "Festivitat de la segregació municipal, i",
+        "date": "2026-10-05"
+      }
+    ],
+    "altura": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-25"
+      }
+    ],
+    "aranuel": [
+      {
+        "title": "Santa Quitèria, i , Sant Roc",
+        "date": "2026-09-28"
+      }
+    ],
+    "ayodar": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-05"
+      }
+    ],
+    "bejis": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      }
+    ],
+    "benafer": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "benafigos": [
+      {
+        "title": "Dilluns de la Magdalena, i , dia de la festivitat de la Mare de Déu de l’Ortisella",
+        "date": "2026-09-08"
+      }
+    ],
+    "benicassim": [
+      {
+        "title": "Sant Tomàs de Villanueva",
+        "date": "2026-09-22"
+      }
+    ],
+    "betxi": [
+      {
+        "title": "Festivitat del Santíssim Crist de la Pietat",
+        "date": "2026-09-21"
+      }
+    ],
+    "borriana": [
+      {
+        "title": "Festivitat de la Mare de Déu de la Misericòrdia",
+        "date": "2026-09-08"
+      }
+    ],
+    "canet-lo-roig": [
+      {
+        "title": "Festa de Sant Miquel",
+        "date": "2026-09-28"
+      }
+    ],
+    "castellfort": [
+      {
+        "title": "Festivitat de la Mare de Déu de la Font",
+        "date": "2026-09-08"
+      }
+    ],
+    "castellnovo": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "castillo-de-villamalefa": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-21"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-22"
+      }
+    ],
+    "cati": [
+      {
+        "title": "Sant Martí",
+        "date": "2026-11-11"
+      }
+    ],
+    "caudiel": [
+      {
+        "title": "Segon dia de la festivitat de la Mare de Déu del Xiquet Perdut",
+        "date": "2026-09-14"
+      },
+      {
+        "title": "Festivitat de Santa Úrsula",
+        "date": "2026-10-21"
+      }
+    ],
+    "cervera-del-maestre": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      }
+    ],
+    "xilxes": [
+      {
+        "title": "Dia de les Ànimes",
+        "date": "2026-09-21"
+      }
+    ],
+    "el-toro": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "fanzara": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-13"
+      }
+    ],
+    "figueroles": [
+      {
+        "title": "Festivitat de Sant Mateu",
+        "date": "2026-09-21"
+      }
+    ],
+    "gaibiel": [
+      {
+        "title": "El Crist de la Set",
+        "date": "2026-09-07"
+      }
+    ],
+    "geldo": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-02"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-03"
+      }
+    ],
+    "higueras": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "la-jana": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-26"
+      }
+    ],
+    "la-llosa": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      }
+    ],
+    "la-pobla-de-benifassa": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "la-pobla-tornesa": [
+      {
+        "title": "Sant Vicent, i , Sant Miquel",
+        "date": "2026-09-28"
+      }
+    ],
+    "la-vall-d-uixo": [
+      {
+        "title": "Festivitat de la Sagrada Família",
+        "date": "2026-10-13"
+      }
+    ],
+    "les-coves-de-vinroma": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "llucena": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "ludiente": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-13"
+      }
+    ],
+    "montanejos": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      }
+    ],
+    "navajas": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "olocau-del-rey": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "onda": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-19"
+      }
+    ],
+    "orpesa": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-05"
+      }
+    ],
+    "pavias": [
+      {
+        "title": "Festivitat de Sant Isidre, i , festivitat de Santa Caterina",
+        "date": "2026-11-25"
+      }
+    ],
+    "peniscola": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-09"
+      }
+    ],
+    "pina-de-montalgrao": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-09"
+      }
+    ],
+    "portell-de-morella": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "puebla-de-arenoso": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-18"
+      }
+    ],
+    "ribesalbes": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-07"
+      }
+    ],
+    "rossell": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "sant-mateu": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-21"
+      }
+    ],
+    "segorbe": [
+      {
+        "title": "Festivitat de la Mare de Déu de l’Esperança",
+        "date": "2026-09-02"
+      },
+      {
+        "title": "Festivitat de la Mare de Déu de Loreto",
+        "date": "2026-09-04"
+      }
+    ],
+    "soneja": [
+      {
+        "title": "Festivitat del Santíssim Crist de la Sang, i , festivitat de Sant Miquel Arcàngel",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "Festivitat del Santíssim Crist de la Sang, i , festivitat de Sant Miquel Arcàngel",
+        "date": "2026-09-25"
+      }
+    ],
+    "sot-de-ferrer": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "suera": [
+      {
+        "title": "Crist de la Clemència",
+        "date": "2026-10-26"
+      }
+    ],
+    "tales": [
+      {
+        "title": "Festa local",
+        "date": "2026-11-09"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-11-10"
+      }
+    ],
+    "teresa": [
+      {
+        "title": "Santa Teresa",
+        "date": "2026-10-15"
+      }
+    ],
+    "tirig": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "toras": [
+      {
+        "title": "Festivitat de la Mare de Déu de la Cova Santa, i , festivitat del Santíssim Crist de la Misericòrdia",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Festivitat de la Mare de Déu de la Cova Santa, i , festivitat del Santíssim Crist de la Misericòrdia",
+        "date": "2026-09-09"
+      }
+    ],
+    "torralba-del-pinar": [
+      {
+        "title": "Festivitat de Santa Bàrbara",
+        "date": "2026-12-04"
+      }
+    ],
+    "vall-d-alba": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "vallat": [
+      {
+        "title": "Festivitat de la Santa Creu, i , festivitat de Sant Joan Evangelista",
+        "date": "2026-12-28"
+      }
+    ],
+    "vallibona": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-08"
+      }
+    ],
+    "vila-real": [
+      {
+        "title": "Sant Esteve",
+        "date": "2026-12-26"
+      }
+    ],
+    "vilafranca": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      }
+    ],
+    "villamalur": [
+      {
+        "title": "Dilluns de les festes de setembre",
+        "date": "2026-09-15"
+      }
+    ],
+    "viver": [
+      {
+        "title": "Festa de Sant Miquel",
+        "date": "2026-09-25"
+      }
+    ],
+    "xert": [
+      {
+        "title": "Pont de la Constitució",
+        "date": "2026-12-07"
+      }
+    ],
+    "zorita-del-maestrazgo": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-04"
+      }
+    ],
+    "alaquas": [
+      {
+        "title": "Mare de Déu de l’Olivar",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "El Crist de la Bona Mort",
+        "date": "2026-09-09"
+      }
+    ],
+    "albaida": [
+      {
+        "title": "Mare de Déu del Remei",
+        "date": "2026-10-07"
+      }
+    ],
+    "albalat-dels-sorells": [
+      {
+        "title": "Santíssim Crist de les Ànimes",
+        "date": "2026-09-05"
+      }
+    ],
+    "albuixech": [
+      {
+        "title": "Mare de Déu d’Albuixech",
+        "date": "2026-09-02"
+      }
+    ],
+    "alcublas": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "alcudia-de-crespins-l": [
+      {
+        "title": "El Santíssim Crist i la Divina Aurora",
+        "date": "2026-09-07"
+      }
+    ],
+    "alcudia-l": [
+      {
+        "title": "Mare de Déu de l’Oreto",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Sant Andreu Apòstol",
+        "date": "2026-11-30"
+      }
+    ],
+    "alfafar": [
+      {
+        "title": "Mare de Déu del Do",
+        "date": "2026-09-08"
+      }
+    ],
+    "alfara-de-la-baronia": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-07"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-08"
+      }
+    ],
+    "alfauir": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "algar-de-palancia": [
+      {
+        "title": "Sant Pere Nolasc",
+        "date": "2026-09-25"
+      }
+    ],
+    "algemesi": [
+      {
+        "title": "Mare de Déu de la Salut",
+        "date": "2026-09-08"
+      }
+    ],
+    "anna": [
+      {
+        "title": "Festes locals",
+        "date": "2026-09-11"
+      },
+      {
+        "title": "Festes locals",
+        "date": "2026-09-25"
+      }
+    ],
+    "antella": [
+      {
+        "title": "El Crist de l’Agonia",
+        "date": "2026-12-09"
+      }
+    ],
+    "aras-de-los-olmos": [
+      {
+        "title": "Santa Caterina",
+        "date": "2026-11-25"
+      }
+    ],
+    "atzeneta-d-albaida": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-17"
+      },
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-18"
+      }
+    ],
+    "ayora": [
+      {
+        "title": "Sant Andreu",
+        "date": "2026-11-30"
+      }
+    ],
+    "barraca-d-aigues-vives-la-eatim-dependent-d-alzira": [
+      {
+        "title": "Mare de Déu d’Aigües Vives",
+        "date": "2026-09-11"
+      }
+    ],
+    "bellreguard": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "El Santíssim Crist de la Misericòrdia",
+        "date": "2026-09-25"
+      }
+    ],
+    "bellus": [
+      {
+        "title": "Sants de la Pedra",
+        "date": "2026-09-14"
+      }
+    ],
+    "benaguasil": [
+      {
+        "title": "Mare de Déu de Montiel",
+        "date": "2026-09-08"
+      }
+    ],
+    "beniarjo": [
+      {
+        "title": "Festes de setembre",
+        "date": "2026-09-18"
+      }
+    ],
+    "benicolet": [
+      {
+        "title": "Sant Vicent Ferrer i",
+        "date": "2026-12-07"
+      }
+    ],
+    "benifairo-de-les-valls": [
+      {
+        "title": "Pujada de la Mare de Déu",
+        "date": "2026-09-07"
+      }
+    ],
+    "benirredra": [
+      {
+        "title": "Sant Francesc de Borja",
+        "date": "2026-10-05"
+      }
+    ],
+    "benissano": [
+      {
+        "title": "Mare de Déu del Fonament",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Mare de Déu dels Dolors",
+        "date": "2026-09-09"
+      }
+    ],
+    "benissuera": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-11"
+      }
+    ],
+    "bonrepos-i-mirambell": [
+      {
+        "title": "Dia d’Acció de Gràcies",
+        "date": "2026-10-13"
+      }
+    ],
+    "burjassot": [
+      {
+        "title": "La Mare de Déu del Cap",
+        "date": "2026-09-30"
+      }
+    ],
+    "canals": [
+      {
+        "title": "Fira de setembre",
+        "date": "2026-09-18"
+      }
+    ],
+    "canet-d-en-berenguer": [
+      {
+        "title": "Mare de Déu contra les Febres",
+        "date": "2026-09-08"
+      }
+    ],
+    "carcaixent": [
+      {
+        "title": "Mare de Déu d’Aigües Vives",
+        "date": "2026-10-16"
+      }
+    ],
+    "carcer": [
+      {
+        "title": "Santíssim Crist de l’Agonia",
+        "date": "2026-09-15"
+      },
+      {
+        "title": "La Mare de Déu de la Divina Gràcia",
+        "date": "2026-09-16"
+      }
+    ],
+    "carlet": [
+      {
+        "title": "Santa Maria de Carlet",
+        "date": "2026-09-11"
+      }
+    ],
+    "castello": [
+      {
+        "title": "Fira de Santa Llúcia",
+        "date": "2026-12-14"
+      }
+    ],
+    "castello-de-rugat": [
+      {
+        "title": "Santíssim Crist de la Fe",
+        "date": "2026-12-07"
+      }
+    ],
+    "castielfabib": [
+      {
+        "title": "La Mare de Déu de Tejeda",
+        "date": "2026-09-08"
+      }
+    ],
+    "catarroja": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "cheste": [
+      {
+        "title": "Sant Lluc Evangelista",
+        "date": "2026-12-07"
+      }
+    ],
+    "chiva": [
+      {
+        "title": "Mare de Déu del Castell",
+        "date": "2026-09-08"
+      }
+    ],
+    "chulilla": [
+      {
+        "title": "Santa Bàrbara",
+        "date": "2026-12-04"
+      }
+    ],
+    "corbera": [
+      {
+        "title": "La Mare de Déu del Castell",
+        "date": "2026-09-08"
+      }
+    ],
+    "cotes": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "Festa local",
+        "date": "2026-09-29"
+      }
+    ],
+    "domeno": [
+      {
+        "title": "Dia de la Municipalitat",
+        "date": "2026-10-07"
+      }
+    ],
+    "dos-aguas": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "emperador": [
+      {
+        "title": "Festa patronal",
+        "date": "2026-09-07"
+      }
+    ],
+    "enguera": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "La Mare de Déu de Fàtima",
+        "date": "2026-09-30"
+      }
+    ],
+    "font-de-la-figuera-la": [
+      {
+        "title": "Nativitat de la Mare de Déu",
+        "date": "2026-09-08"
+      }
+    ],
+    "gandia": [
+      {
+        "title": "Sant Francesc de Borja, fira de Gandia",
+        "date": "2026-10-05"
+      }
+    ],
+    "gatova": [
+      {
+        "title": "Mare de Déu de la Mercé",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "Sant Josep, dia de la inauguració del Pou",
+        "date": "2026-09-25"
+      }
+    ],
+    "guadassequies": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "guardamar-de-la-safor": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "higueruelas": [
+      {
+        "title": "Santíssim Crist de la Pietat",
+        "date": "2026-09-14"
+      },
+      {
+        "title": "Santa Bàrbara",
+        "date": "2026-09-15"
+      }
+    ],
+    "jalance": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "jarafuel": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-11-27"
+      }
+    ],
+    "lliria": [
+      {
+        "title": "Sant Miquel Arcàngel",
+        "date": "2026-09-29"
+      }
+    ],
+    "llocnou-de-la-corona": [
+      {
+        "title": "Mare de Déu del Do",
+        "date": "2026-09-08"
+      }
+    ],
+    "manuel": [
+      {
+        "title": "Sant Isidre Llaurador",
+        "date": "2026-09-04"
+      }
+    ],
+    "massamagrell": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "Sant Joan Apòstol",
+        "date": "2026-10-01"
+      }
+    ],
+    "meliana": [
+      {
+        "title": "Crist de la Providència",
+        "date": "2026-09-14"
+      }
+    ],
+    "montcada": [
+      {
+        "title": "Sant Jaume Apòstol",
+        "date": "2026-09-10"
+      },
+      {
+        "title": "Santa Bàrbara",
+        "date": "2026-12-04"
+      }
+    ],
+    "montitxelvo": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "naquera": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-01"
+      },
+      {
+        "title": "El Jesuset",
+        "date": "2026-10-02"
+      }
+    ],
+    "navarres": [
+      {
+        "title": "Festa local",
+        "date": "2026-10-08"
+      }
+    ],
+    "oliva": [
+      {
+        "title": "Mare de Déu del Rebollet",
+        "date": "2026-09-08"
+      }
+    ],
+    "olleria-l": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-01"
+      }
+    ],
+    "olocau": [
+      {
+        "title": "Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "ontinyent": [
+      {
+        "title": "Dilluns de fira",
+        "date": "2026-11-16"
+      }
+    ],
+    "pedralba": [
+      {
+        "title": "Festa local",
+        "date": "2026-12-07"
+      }
+    ],
+    "perello-el-eatim-dependent-de-sueca": [
+      {
+        "title": "Festivitat de la constitució de l’entitat local del Perelló",
+        "date": "2026-12-07"
+      }
+    ],
+    "picanya": [
+      {
+        "title": "Mare de Déu de Montserrat",
+        "date": "2026-09-08"
+      }
+    ],
+    "picassent": [
+      {
+        "title": "La Mare de Déu de Vallivana",
+        "date": "2026-09-08"
+      }
+    ],
+    "piles": [
+      {
+        "title": "Sant Felip i , Santa Bàrbara",
+        "date": "2026-12-04"
+      }
+    ],
+    "pobla-de-farnals-la": [
+      {
+        "title": "Sant Josep",
+        "date": "2026-09-10"
+      },
+      {
+        "title": "Sant Feliu",
+        "date": "2026-09-11"
+      }
+    ],
+    "pobla-de-vallbona-la": [
+      {
+        "title": "Patrona Mare de Déu del Rosari",
+        "date": "2026-10-07"
+      }
+    ],
+    "pobla-llarga-la": [
+      {
+        "title": "Sant Calixt",
+        "date": "2026-10-14"
+      }
+    ],
+    "pucol": [
+      {
+        "title": "Patrona de Puçol",
+        "date": "2026-09-08"
+      }
+    ],
+    "puebla-de-san-miguel": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      }
+    ],
+    "puig-de-santa-maria-el": [
+      {
+        "title": "Festivitat de la Mare de Déu",
+        "date": "2026-09-07"
+      }
+    ],
+    "quart-de-les-valls": [
+      {
+        "title": "Crist de l’Agonia de Quart de les Valls",
+        "date": "2026-09-21"
+      }
+    ],
+    "quart-de-poblet": [
+      {
+        "title": "La Mare de Déu de la Llum",
+        "date": "2026-09-07"
+      }
+    ],
+    "rafelbunyol": [
+      {
+        "title": "Mare de Déu del Miracle",
+        "date": "2026-09-08"
+      }
+    ],
+    "riba-roja-de-turia": [
+      {
+        "title": "Festivitat del Crist",
+        "date": "2026-09-14"
+      }
+    ],
+    "rocafort": [
+      {
+        "title": "Santíssim Crist de la Providència",
+        "date": "2026-09-01"
+      }
+    ],
+    "rotgla-i-corbera": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-03"
+      },
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-04"
+      }
+    ],
+    "rotova": [
+      {
+        "title": "Dia de la Mare de Déu",
+        "date": "2026-09-04"
+      }
+    ],
+    "rugat": [
+      {
+        "title": "Sant Ambròs",
+        "date": "2026-12-07"
+      }
+    ],
+    "salem": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-11"
+      }
+    ],
+    "sedavi": [
+      {
+        "title": "Festa local",
+        "date": "2026-09-18"
+      }
+    ],
+    "sinarcas": [
+      {
+        "title": "Santa Úrsula",
+        "date": "2026-10-21"
+      }
+    ],
+    "sueca": [
+      {
+        "title": "La Mare de Déu de Sales",
+        "date": "2026-09-08"
+      }
+    ],
+    "sumacarcer": [
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-07"
+      }
+    ],
+    "titaguas": [
+      {
+        "title": "Jesús el Natzaré",
+        "date": "2026-09-03"
+      },
+      {
+        "title": "Mare de Déu del Remei",
+        "date": "2026-09-04"
+      }
+    ],
+    "torres-torres": [
+      {
+        "title": "Mare de Déu de la Llet",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Mare de Déu de Vallivana",
+        "date": "2026-09-09"
+      }
+    ],
+    "tous": [
+      {
+        "title": "Sant Miquel",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "Festes patronals",
+        "date": "2026-09-30"
+      }
+    ],
+    "tuejar": [
+      {
+        "title": "Sant Dídac",
+        "date": "2026-11-13"
+      },
+      {
+        "title": "La Puríssima",
+        "date": "2026-12-07"
+      }
+    ],
+    "utiel": [
+      {
+        "title": "Mare de Déu del Remei",
+        "date": "2026-09-08"
+      }
+    ],
+    "vallada": [
+      {
+        "title": "Divendres de Moros i Cristians",
+        "date": "2026-09-11"
+      }
+    ],
+    "venta-del-moro": [
+      {
+        "title": "Mare de Déu de Loreto",
+        "date": "2026-12-10"
+      }
+    ],
+    "vinalesa": [
+      {
+        "title": "Santa Bàrbara",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Sant Honorat",
+        "date": "2026-10-14"
+      }
+    ],
+    "xirivella": [
+      {
+        "title": "Mare de Déu de la Salut",
+        "date": "2026-09-08"
+      }
+    ]
+  }
+}

@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.5.0",
+    "date": "2026-07-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Publicación de un dataset de calendario escolar (manifiesto + curso 2026-2027) en data/calendario/, pensado para ser consumido por aplicaciones externas de planificación. Transcribe fielmente de la normativa del repo las fechas de inicio/fin por enseñanza, vacaciones, festivos autonómicos/nacionales y festivos locales de los 547 municipios de la Comunitat Valenciana. Esquema propio versionado (cev-calendario-escolar). Los festivos locales de enero-junio 2027 se incorporarán al ingestar la resolución de fiestas locales de 2027."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Publicació d'un dataset de calendari escolar (manifest + curs 2026-2027) en data/calendario/, pensat per a ser consumit per aplicacions externes de planificació. Transcriu fidelment de la normativa del repositori les dates d'inici/fi per ensenyança, vacacions, festius autonòmics/nacionals i festius locals dels 547 municipis de la Comunitat Valenciana. Esquema propi versionat (cev-calendari-escolar). Els festius locals de gener-juny 2027 s'incorporaran en ingestar la resolució de festes locals de 2027."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.4.0",
     "date": "2026-07-15",
     "entries": {
