@@ -1,0 +1,88 @@
+{
+  "id": "decreto-calendario-laboral-2026",
+  "slug": "decreto-calendario-laboral-2026",
+  "type": "decreto",
+  "number": "100/2025",
+  "date": "2025-07-01",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10145",
+    "date": "2025-07-07",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2025/24690",
+    "pdfUrl": "https://dogv.gva.es/datos/2025/07/07/pdf/2025_24690_va.pdf"
+  },
+  "title": "Decret 100/2025, d’1 de juliol, del Consell, pel qual es determina el calendari laboral d’aplicació en l’àmbit territorial de la Comunitat Valenciana per a l’any 2026",
+  "titleShort": "Decret 100/2025 - Calendari laboral 2026",
+  "category": "general",
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "anual",
+    "schoolYear": "2026",
+    "expiresDate": "2027-01-01"
+  },
+  "docType": "normativa",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2025-07-08"
+  },
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Reial decret legislatiu 2/2015, text refós de la Llei de l’Estatut dels Treballadors (art. 37.2)",
+        "relationship": "conformidad"
+      },
+      {
+        "title": "Reial decret 2001/1983, sobre jornades especials de treball (art. 45)",
+        "relationship": "conformidad"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "resolucion-fiestas-locales-2026",
+        "title": "Resolució de 12 de novembre de 2025 - Calendari de festes locals 2026",
+        "description": "Completa el calendari laboral 2026 amb les dos festes locals de cada municipi."
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2025-07-01",
+    "signatories": [
+      {
+        "name": "Carlos Mazón Guixot",
+        "role": "President de la Generalitat"
+      },
+      {
+        "name": "José Antonio Rovira Jover",
+        "role": "Conselleria d'Educació"
+      }
+    ]
+  },
+  "structure": [
+    {
+      "id": "preambulo",
+      "type": "preambulo",
+      "title": "Preàmbul",
+      "content": "Els articles 37.2 del text refós de la Llei de l’Estatut dels Treballadors, aprovat mitjançant el Reial decret legislatiu 2/2015, de 23 d’octubre, i el 45 del Reial decret 2001/1983, de 28 de juliol, sobre jornades especials de treball, establixen que les festes laborals, que tindran caràcter retribuït i no recuperable, no podran excedir de catorze a l’any, de les quals, dos seran locals.\n\nDe conformitat amb els preceptes esmentats, per a la determinació de les festes d’àmbit nacional que s’inclouran en el calendari laboral de cada any com a dies inhàbils a efectes laborals, retribuïts i no recuperables, s’atorga a les comunitats autònomes la facultat de substituir les festes assenyalades en l’apartat d) del punt un de l’esmentat article 45 per unes altres que, per tradició, els siguen pròpies. Així mateix, les comunitats autònomes podran també substituir el descans del dilluns de les festes nacionals que coincidisquen amb diumenge per la incorporació a la relació de festes de la comunitat autònoma d’unes altres que els siguen tradicionals.\n\nMitjançant la Resolució de les Corts número 142/IX, aprovada per la Comissió de Coordinació, Organització i Règim de les Institucions de la Generalitat el 22 de febrer de 2016, es va fixar com a festivitat autonòmica el dia 24 de juny, Sant Joan, en ser declarades les Fogueres de Sant Joan festes d’interés autonòmic. El Consell va adoptar com a criteri bàsic el respecte a les festes que més tradició tenen en el conjunt de la Comunitat Valenciana, i afavorir, així mateix, que el gaudi d’estes festes no supose un perjuí per a la seua activitat econòmica sinó, al contrari, que beneficie la competitivitat del conjunt de les empreses valencianes i repercutisca de manera positiva en l’ocupació.\n\nEste calendari es completarà amb les dos festes de caràcter local, que determinaran en ple les corresponents corporacions locals de la Comunitat Valenciana.\n\nEl calendari laboral que s’arreplega en este decret ha sigut sotmés a l’informe preceptiu previ del Consell Tripartit per al Desenrotllament de les Relacions Laborals i la Negociació Col·lectiva de la Comunitat Valenciana, en la sessió del dia 4 de juny de 2025, i ha sigut favorable a la proposta.\n\nEn conseqüència, de conformitat amb l’article 28.c) de la Llei 5/1983, de 30 de desembre, de la Generalitat, a proposta del conseller d’Educació, Cultura, Universitats i Ocupació, amb la deliberació prèvia del Consell en la reunió del dia 1 de juliol de 2025,"
+    },
+    {
+      "id": "apartado-1",
+      "type": "articulo",
+      "number": "Primer",
+      "title": "Primer. Dies inhàbils a efectes laborals",
+      "content": "Es declaren, dins de l’àmbit territorial de la Comunitat Valenciana per a l’any 2026, dies inhàbils a efectes laborals, retribuïts i no recuperables, les dates que a continuació s'indiquen:\n– 1 de gener, dijous, Cap d’Any\n– 6 de gener, dimarts, Epifania del Senyor\n– 19 de març, dijous, Sant Josep\n– 3 d’abril, Divendres Sant\n– 6 d’abril, Dilluns de Pasqua\n– 1 de maig, divendres, Festa del Treball\n– 24 de juny, dimecres, Sant Joan\n– 15 d’agost, dissabte, Assumpció de la Mare de Déu\n– 9 d’octubre, divendres, Dia de la Comunitat Valenciana\n– 12 d’octubre, dilluns, Festa Nacional d’Espanya\n– 8 de desembre, dimarts, Immaculada Concepció\n– 25 de desembre, divendres, Nativitat del Senyor"
+    },
+    {
+      "id": "apartado-2",
+      "type": "articulo",
+      "number": "Segon",
+      "title": "Segon. Entrada en vigor",
+      "content": "Este decret produirà efectes l’endemà de publicar-se en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ]
+}

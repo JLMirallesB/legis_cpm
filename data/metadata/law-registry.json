@@ -2,6 +2,27 @@
   "description": "Registro de leyes para tracking de ingesta. NO usado por Astro, solo para seguimiento.",
   "laws": [
     {
+      "slug": "decreto-calendario-laboral-2026",
+      "title": "Decreto 100/2025 - Calendario laboral 2026",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Decreto del Consell (DOGV 10145, 07/07/2025). Determina el calendario laboral de la Comunitat Valenciana para el año 2026: 12 fiestas laborales autonómicas y nacionales, retribuidas y no recuperables (art. 37.2 ET y 45 RD 2001/1983). Preámbulo + apartado Primero (relación de días) + Segundo (entrada en vigor). Se completa con las 2 fiestas locales de cada municipio (ver resolucion-fiestas-locales-2026). Normativa general, autonómica, anual (2026)."
+    },
+    {
+      "slug": "decreto-calendario-laboral-2027",
+      "title": "Decreto 42/2026 - Calendario laboral 2027",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Decreto del Consell (DOGV 10329, 25/03/2026). Determina el calendario laboral de la Comunitat Valenciana para el año 2027: 12 fiestas laborales. Firmado por la Vicepresidencia Primera y Conselleria de Vivienda, Empleo, Juventud e Igualdad. Normativa general, autonómica, anual (2027)."
+    },
+    {
+      "slug": "resolucion-fiestas-locales-2026",
+      "title": "Resolución 12/11/2025 - Fiestas locales 2026",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Resolución de la Conselleria de Educación, Cultura, Universidades y Empleo (DOGV 10238, 14/11/2025). Aprueba el calendario de fiestas locales, retribuidas y no recuperables, para 2026. En ejecución del Decreto 100/2025. Preámbulo + apartados Primero/Segundo + régimen de recursos + anexo con la relación completa de fiestas locales de los municipios de Alicante (143), Castellón (135) y Valencia (269). Normativa general, autonómica, anual (2026)."
+    },
+    {
       "slug": "resolucion-calendario-escolar-2026-2027",
       "title": "Resolución 15/06/2026 - Calendario escolar curso 2026-2027",
       "status": "ingested",

@@ -1,5 +1,39 @@
 [
   {
+    "version": "1.4.0",
+    "date": "2026-07-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Decreto 100/2025, de 1 de julio, del Consell, que determina el calendario laboral de la Comunitat Valenciana para el año 2026 (12 fiestas laborales autonómicas y nacionales, retribuidas y no recuperables). Normativa general, anual (2026)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Decreto 42/2026, de 20 de marzo, del Consell, que determina el calendario laboral de la Comunitat Valenciana para el año 2027. Normativa general, anual (2027)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 12 de noviembre de 2025 que aprueba el calendario de fiestas locales, retribuidas y no recuperables, en el ámbito de la Comunitat Valenciana para el año 2026. Incluye la relación completa de fiestas locales de los municipios de las provincias de Alicante, Castellón y Valencia. Normativa general, anual (2026)."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta del Decret 100/2025, d'1 de juliol, del Consell, que determina el calendari laboral de la Comunitat Valenciana per a l'any 2026 (12 festes laborals autonòmiques i nacionals, retribuïdes i no recuperables). Normativa general, anual (2026)."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta del Decret 42/2026, de 20 de març, del Consell, que determina el calendari laboral de la Comunitat Valenciana per a l'any 2027. Normativa general, anual (2027)."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 12 de novembre de 2025 que aprova el calendari de festes locals, retribuïdes i no recuperables, en l'àmbit de la Comunitat Valenciana per a l'any 2026. Inclou la relació completa de festes locals dels municipis de les províncies d'Alacant, Castelló i València. Normativa general, anual (2026)."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.3.0",
     "date": "2026-06-21",
     "entries": {

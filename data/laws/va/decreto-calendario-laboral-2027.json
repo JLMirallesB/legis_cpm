@@ -1,0 +1,82 @@
+{
+  "id": "decreto-calendario-laboral-2027",
+  "slug": "decreto-calendario-laboral-2027",
+  "type": "decreto",
+  "number": "42/2026",
+  "date": "2026-03-20",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10329",
+    "date": "2026-03-25",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2026/8641",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/03/25/pdf/2026_8641_va.pdf"
+  },
+  "title": "Decret 42/2026, de 20 de març, del Consell, pel qual es determina el calendari laboral d’aplicació en l’àmbit territorial de la Comunitat Valenciana per a l’any 2027",
+  "titleShort": "Decret 42/2026 - Calendari laboral 2027",
+  "category": "general",
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "anual",
+    "schoolYear": "2027",
+    "expiresDate": "2028-01-01"
+  },
+  "docType": "normativa",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-03-26"
+  },
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Reial decret legislatiu 2/2015, text refós de la Llei de l’Estatut dels Treballadors (art. 37.2)",
+        "relationship": "conformidad"
+      },
+      {
+        "title": "Reial decret 2001/1983, sobre jornades especials de treball (art. 45)",
+        "relationship": "conformidad"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-03-20",
+    "signatories": [
+      {
+        "name": "Juan Francisco Pérez Llorca",
+        "role": "President de la Generalitat"
+      },
+      {
+        "name": "Susana Camarero Benítez",
+        "role": "Vicepresidència Primera i Conselleria de Vivenda, Ocupació, Joventut i Igualtat"
+      }
+    ]
+  },
+  "structure": [
+    {
+      "id": "preambulo",
+      "type": "preambulo",
+      "title": "Preàmbul",
+      "content": "Els articles 37.2 de l’Estatut dels Treballadors i 45 del Reial decret 2001/1983 establixen que les festes laborals, que tindran caràcter retribuït i no recuperable, no podran excedir les catorze a l’any, de les quals dos seran locals.\n\nDe conformitat amb els preceptes esmentats, per a la determinació de les festes d’àmbit nacional que s’inclouran en el calendari laboral de cada any com a dies inhàbils a efectes laborals, retribuïts i no recuperables, s’atorga a les comunitats autònomes la facultat de substituir les festes assenyalades en l’apartat d) del punt primer de l’esmentat article 45 per unes altres que per tradició els siguen pròpies. Així mateix, les comunitats autònomes podran també substituir el descans del dilluns de les festes nacionals que coincidisquen amb diumenge per la incorporació a la relació de festes de la comunitat autònoma d’unes altres que siguen tradicionals i podran fer ús, a més, de la facultat del trasllat al dilluns immediatament posterior del descans laboral corresponent a les festes que coincidisquen amb diumenge.\n\nEn virtut del que s’establix en les disposicions invocades, per a la determinació de les festes laborals de l’any 2027, el Consell ha pres com a criteri bàsic el respecte a les festes que més tradició tenen en el conjunt de la nostra Comunitat, i afavorir, així mateix, que el gaudi d’estes festes no supose un perjuí per a l’activitat econòmica de la Comunitat Valenciana, sinó que, al contrari, beneficie la competitivitat del conjunt de les empreses valencianes i repercutisca de manera positiva en l’ocupació. Este calendari es completarà per les corporacions locals de la Comunitat Valenciana, a les quals correspon determinar dos festes de caràcter local.\n\nEl calendari laboral que s’inclou en el present decret ha sigut sotmés a informe preceptiu previ del Consell Tripartit per al Desenrotllament de les Relacions Laborals i la Negociació Col·lectiva de la Comunitat Valenciana, en la sessió del dia 10 de març de 2026.\n\nEn conseqüència, de conformitat amb l’article 28.c) de la Llei 5/1983, de 30 de desembre, de la Generalitat; a proposta de la vicepresidenta primera i consellera de Vivenda, Ocupació, Joventut i Igualtat, prèvia deliberació del Consell, en la reunió del dia 20 de març de 2026,"
+    },
+    {
+      "id": "apartado-1",
+      "type": "articulo",
+      "number": "Primer",
+      "title": "Primer. Dies inhàbils a efectes laborals",
+      "content": "Es declaren dies inhàbils a efectes laborals per a l’any 2027, dins de l’àmbit territorial de la Comunitat Valenciana, amb caràcter retribuït i no recuperable, les dates que s’indiquen a continuació:\n– 1 de gener, Any Nou\n– 6 de gener, Epifania del Senyor\n– 19 de març, Sant Josep\n– 26 de març, Divendres Sant\n– 29 de març, Dilluns de Pasqua\n– 1 de maig, Festa del Treball\n– 9 d’octubre, Dia de la Comunitat Valenciana\n– 12 d’octubre, Festa Nacional d’Espanya\n– 1 de novembre, Tots Sants\n– 6 de desembre, Dia de la Constitució\n– 8 de desembre, Immaculada Concepció\n– 25 de desembre, Nativitat del Senyor"
+    },
+    {
+      "id": "apartado-2",
+      "type": "articulo",
+      "number": "Segon",
+      "title": "Segon. Entrada en vigor",
+      "content": "Este decret tindrà efectes des de l’endemà de la publicació en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ]
+}
