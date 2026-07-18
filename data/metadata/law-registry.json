@@ -476,6 +476,13 @@
       "status": "ingested",
       "category": "organizacion",
       "notes": "Decreto del Consell (DOGV 9272, 07/02/2022). Regula las escuelas de enseñanza artística no formal de Música y de Artes Escénicas (música, danza, teatro, circo) de la Comunitat Valenciana — enseñanza NO reglada, sin títulos oficiales. PDF bilingüe a dos columnas (va izq / es der). Preámbulo + 3 capítulos (26 arts. originales) + DA + 4 DT + DD + 2 DF. Deroga el Decreto 91/2013. PRIMERA ley con scope 'escuelas_musica_artes_escenicas' (nuevo valor). Ingestada en su versión VIGENTE tras el Decreto 46/2026 (art. 6): suprime apartados (2.1; 9.6-9.7; 12.2/3/6/7/9; 13.2/3) y el art. 17 original, y renumera+reescribe los arts. 15-26 → nuevos 15-25. Los 18 artículos afectados llevan versions[] (v1 original 2022 + v2 vigente 2026-04-03). El art. 17 original suprimido se conserva como nodo 'art-17-original' con su texto en versions[]. Cross-ref bidireccional con decreto-46-2026. Firmado por Ximo Puig i Ferrer y Vicent Marzà i Ibáñez. Autonómica, permanente."
+    },
+    {
+      "slug": "ley-2-1998",
+      "title": "Ley 2/1998 - Ley Valenciana de la Música",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Ley de la Generalitat Valenciana (DOGV 3242, 14/05/1998). Ley marco valenciana de la Música: enseñanzas musicales (escuelas de música/danza), financiación, patrimonio musical y medidas de fomento. TEXTO CONSOLIDADO (versión vigente 24/05/2013): PDFs consolidados separados ES/VA, columna única. Jerarquía título>capítulo>sección: Título preliminar + Títulos I-VI. 41 artículos vigentes (art. 1 + arts. 17-56). El Título I (Del Instituto Valenciano de la Música, arts. 2-16) está DEROGADO (por Decreto Ley 7/2012 y Ley 1/2013) — conservado como nodo 'titulo-1' con nota. + 5 DA + DD + 2 DF. Modificada por leyes omnibus NO ingestadas (Ley 16/2010 arts. 17/32/33/37/43/45/46/55 y DF1ª; Decreto Ley 7/2012; Ley 1/2013) documentadas en posteriorAffectations (enlaces rotos OK). Concordancia con decreto-2-2022 (desarrolla Título II). Firmada por Eduardo Zaplana Hernández-Soro. Autonómica, permanente. NOTA: el PDF imprime la promulgación como '5 de mayo' pero la ley es 'de 12 de mayo' (fecha usada)."
     }
   ]
 }

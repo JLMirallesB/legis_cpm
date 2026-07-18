@@ -1,0 +1,542 @@
+{
+  "id": "ley-2-1998",
+  "slug": "ley-2-1998",
+  "type": "ley",
+  "number": "2/1998",
+  "date": "1998-05-12",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "3242",
+    "date": "1998-05-14",
+    "url": "https://dogv.gva.es/va/eli/es-vc/l/1998/05/12/2",
+    "pdfUrl": "https://dogv.gva.es/datos/consolidacion/1998/2001_3879_20130524_va.pdf"
+  },
+  "title": "Llei 2/1998, de 12 de maig, de la Generalitat Valenciana, de la Música",
+  "titleShort": "Llei 2/1998 - Llei Valenciana de la Música",
+  "category": "general",
+  "vigpiracy": {
+    "status": "vigente_parcial",
+    "statusLabel": "Vigent amb modificacions",
+    "effectiveDate": "1998-05-15",
+    "lastModifiedDate": "2013-05-24"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "La música en les seues múltiples formes i manifestacions és una de les arts més conreades a la Comunitat Valenciana. Forma part de la seua cultura i és una de les arts que més la identifica com a poble. La complexitat, multiplicitat i densitat del fenomen musical a la nostra terra exigeix i postula una llei valenciana de la música que fomente, coordine, impulse i desenvolupe aquesta rica realitat des d'una política global i integradora.\n\nL'Estatut d'Autonomia de la Comunitat Valenciana aprovat per la Llei Orgànica 5/1982, d'1 de juliol, en l'article 31.4 disposa que la Generalitat Valenciana té competència exclusiva en cultura, i la Llei Orgànica 12/1982, de 10 d'agost, de Transferència a la Comunitat Autònoma Valenciana de Competències en Matèria de Titularitat Estatal delegava les competències en educació, que han sigut definitivament incorporades al text estatutari per reforma d'aquest mitjançant la Llei Orgànica 5/1994, de 24 de març.\n\nL'objecte d'aquesta llei és el foment, protecció, coordinació, planificació, difusió i promoció de la música a la Comunitat Valenciana i la creació dels mitjans i condicions necessaris perquè la societat valenciana desenvolupe la seua cultura musical en les diferents facetes.\n\nLes especials característiques que concorren en la promoció i gestió cultural de la música aconsellen la creació d'un organisme que permeta agilitat en la gestió administrativa, particularment pel que fa a les relacions jurídiques externes, ja que aquesta és precisament la necessitat que demana la dinamicitat pròpia del món cultural. Per a aconseguir aquesta finalitat, amb major autonomia en el funcionament, en el títol I es crea l'Institut Valencià de la Música, com a entitat pública subjecta al dret privat.\n\nPer a ordenar els ensenyaments musicals i el seu finançament es dediquen els títols II i III i per a protegir el patrimoni musical i promoure les activitats musicals, s'inclouen els títols IV i V d'aquesta llei. En el títol V es crea la Jove Orquestra de la Generalitat Valenciana i la Banda Jove de la Generalitat Valenciana amb el fi d'oferir als joves músics de la Comunitat Valenciana una formació orquestral complementària. Així mateix, aquest títol preveu la creació del Cor, de la Orquestra Simfònica de la Generalitat Valenciana i de la Banda de Música de la Generalitat Valenciana pel Consell de la Generalitat.\n\nFinalment, s'estima convenient intensificar la dedicació, coordinació i col·laboració de les diputacions provincials i ajuntaments pel que fa a la formació, ensenyament i activitats musicals de conformitat amb l'article 47 de l'Estatut d'Autonomia i la normativa que el desplega i a això es destina el títol VI."
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-preliminar",
+      "number": "preliminar",
+      "title": "Títol preliminar. Objecte de la llei",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-1",
+          "number": "1",
+          "title": "Article 1. Objecte",
+          "content": "L'objecte de la present llei és el foment, protecció, coordinació, difusió i promoció de la música a la Comunitat Valenciana."
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-1",
+      "number": "I",
+      "title": "Títol I. De l'Institut Valencià de la Música",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "titulo-1-derogado",
+          "number": "2-16",
+          "title": "Articles 2 a 16 (derogats)",
+          "content": "[Títol I «De l'Institut Valencià de la Música» (articles 2 a 16) derogat. El Títol I va ser derogat per la disposició derogatòria única.2 de la Llei 1/2013, de 21 de maig, de la Generalitat, i per la disposició derogatòria segona 2.a) del Decret Llei 7/2012, de 19 d'octubre, del Consell, que van suprimir l'Institut Valencià de la Música. El text original d'estos articles es pot consultar en el PDF oficial.]"
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-2",
+      "number": "II",
+      "title": "Títol II. Dels ensenyaments musicals",
+      "children": [
+        {
+          "type": "capitulo",
+          "id": "titulo-2-cap-1",
+          "number": "I",
+          "title": "Capítol I. Disposicions generals",
+          "children": [
+            {
+              "type": "articulo",
+              "id": "art-17",
+              "number": "17",
+              "title": "Article 17. Objecte",
+              "content": "1. El present títol regula les normes per les quals es regiran la creació i funcionament de les escoles de música, de dansa o de música i dansa previstes en l'apartat 3 de l'article 48, de la Llei Orgànica d'Educació.\n\n2. Aquests centres específics d'ensenyament de música, de dansa o de música i dansa, no reglada, tindran com a finalitat impartir una formació general de la música i/o dansa i oferir una cultura musical als ciutadans, aprofitant per a això la important infraestructura educativa de les societats musicals i dels centres de titularitat pública o privada de la Comunitat Valenciana.\n\n3. Les competències en relació amb les escoles de música, de dansa o de música i dansa, així com les escoles d'educands, correspondran al departament de la Generalitat que les tinga atribuïdes, sense perjuí del que disposa l'apartat 3 de l'article 48 de la Llei Orgànica d'Educació."
+            }
+          ]
+        },
+        {
+          "type": "capitulo",
+          "id": "titulo-2-cap-2",
+          "number": "II",
+          "title": "Capítol II. Dels centres per a l'ensenyament de la música",
+          "children": [
+            {
+              "type": "seccion",
+              "id": "titulo-2-cap-2-sec-1",
+              "number": "1",
+              "title": "Secció primera. De les escoles de música, de dansa o de música i dansa",
+              "children": [
+                {
+                  "type": "articulo",
+                  "id": "art-18",
+                  "number": "18",
+                  "title": "Article 18. Definició i règim de funcionament",
+                  "content": "1. Les escoles de música, de dansa o de música i dansa són centres docents de formació musical dirigida a aficionats de qualsevol edat, que podran impartir una formació pràctica i orientar i preparar per als estudis professionals als qui demostren una vocació i aptituds especials.\n\n2. Aquestes escoles disposaran d'autonomia pedagògica i organitzativa i, sense perjudici de la seua qualitat, els seus ensenyament es desenvoluparan en un marc flexible i ampli perquè l'oferta arribe a tots els sectors de la societat. Aquests estudis no conduiran a l'obtenció de títol amb validesa acadèmica professional.\n\n3. No obstant això, podran expedir certificats dels estudis cursats pels alumnes, sense que, en cap cas, el text o format puga induir a confusió amb els certificats i títols amb validesa acadèmica.\n\n4. Aquestes escoles podran ser de música, de dansa, o de música i dansa.\n\n5. Aquestes escoles, les regularà reglamentàriament l'administració educativa."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-19",
+                  "number": "19",
+                  "title": "Article 19. Objectiu de les escoles",
+                  "content": "Les escoles de música, de dansa o de música i dansa tindran els objectius següents:\n\na) Atendre l'àmplia demanda de cultura musical pràctica amb el fi de despertar vocacions i aptituds que desemboquen en una integració posterior en les agrupacions musicals.\n\nb) Fomentar des de la infantesa el coneixement i apreciació de la música i la dansa.\n\nc) Impartir els aspectes teòrics mínims imprescindibles per a una concepció més global del fet musical i dansístic.\n\nd) Oferir ensenyament de música i dansa als alumnes sense consideració de l'edat.\n\ne) Oferir ensenyament especialitzat de totes les tendències musicals i de tots els instruments, amb atenció especial a les pròpies de la música popular i tradicional valenciana, així com a les danses autòctones de la nostra comunitat.\n\nf) Adequar la programació de l'ensenyament als interessos, dedicació i ritme d'aprenentatge de l'alumne.\n\ng) Potenciar el gust per l'audició de tot tipus d'estils musicals i desenvolupar l'esperit crític de l'alumnat.\n\nh) Fomentar en l'alumnat l'interés per la participació en agrupacions vocals i instrumentals, i en les bandes de música o en agrupacions de dansa, segons el tipus d'escola de què es tracte.\n\ni) Orientar i proporcionar la formació adequada a aquells alumnes que per la seua capacitat, talent especial i interés tinguen aptituds i voluntat d'accedir a estudis reglats de caràcter professional.\n\nj) Recollir, sistematitzar i difondre les tradicions musicals locals o dansístics comarcals."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-20",
+                  "number": "20",
+                  "title": "Article 20. Del professorat",
+                  "content": "1. El professorat de les escoles de música, dansa i de música i dansa hauran d'estar en possessió, com a mínim, del títol professional corresponent al grau mitjà de música, o de dansa, específic de l'especialitat que impartisca o titulació equivalent anàloga.\n\n2. L'ensenyament dels àmbits de formació musical complementària i activitats de conjunt podrà estar a càrrec de professors amb titulació específica corresponent a una altra matèria."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-21",
+                  "number": "21",
+                  "title": "Article 21. De les instal·lacions",
+                  "content": "1. Els locals de les escoles de música, de dansa o de música i dansa compliran les condicions sanitàries, d'habitabilitat, seguretat i acústiques que establisca la legislació.\n\n2. Reglamentàriament, es fixaran les instal·lacions mínimes que han de tenir les escoles de música, de dansa i de música i dansa.\n\n3. Les escoles de música i dansa necessitades d'instal·lacions per al seu treball, podran utilitzar les instal·lacions educatives en cada poble que siguen de titularitat de la Generalitat, en tot cas, sempre fora de l'horari lectiu del centre, amb l'autorització que pertoque prèvia i amb la subjecció a les necessitats derivades de la programació d'activitats dels centres esmentats."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-22",
+                  "number": "22",
+                  "title": "Article 22. Dels ensenyaments mínims",
+                  "content": "1. A les escoles de música caldrà impartir, com a mínim, ensenyaments de:\n\na) Dues especialitats instrumentals.\n\nb) Conjunt coral. c). Llenguatge musical.\n\n2. Les escoles de música fomentaran la participació dels alumnes en activitats instrumentals i corals de conjunt.\n\n3. Les escoles de música regulades en aquesta llei integraran progressivament, en el seu quadre d'ensenyaments, els instruments de corda.\n\n4. A les escoles de dansa caldrà impartir, a més de música, com a mínim, una especialitat entre les de dansa clàssica o espanyola.\n\n5. A les escoles de música i dansa caldrà impartir, com a mínim, els ensenyaments establits en els apartats 1 i 4 d'aquest article."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-23",
+                  "number": "23",
+                  "title": "Article 23. Programació dels ensenyaments",
+                  "content": "1. Les escoles de música, de dansa i de música i dansa, gaudiran de plena autonomia pel que fa a la realització dels seus propis projectes curriculars dels ensenyaments que el centre tinga autoritzats. El centre haurà de tenir en compte la preparació per a l'accés als distints graus de l'ensenyament reglat i programar els continguts i els objectius vigents als centres oficials corresponents a les especialitats a les quals es vulga accedir.\n\n2. Les escoles de música, de dansa i de música i dansa podran organitzar cursos i tota mena d'activitats musicals que contribuïsquen a l'enriquiment de la seua oferta i formació de l'alumnat, perfeccionament del docent i elevació del medi cultural i social en el qual es desenvolupen."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-24",
+                  "number": "24",
+                  "title": "Article 24. De la regulació",
+                  "content": "Les escoles de música, de dansa i de música i dansa establides en aquesta llei es regiran per les normes que s'estableixen en aquesta i en les disposicions que la despleguen reglamentàriament, i quedaran sotmeses a les normes de dret comú en aquells aspectes que no han estat recollits."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-25",
+                  "number": "25",
+                  "title": "Article 25. Denominació",
+                  "content": "1. Aquests centres rebran la denominació genèrica d'escoles de música, de dansa o de música i dansa. A aquesta denominació el titular hi podrà afegir una denominació específica que haurà de constar en la sol·licitud d'autorització corresponent, i també en la publicitat.\n\n2. Aquesta denominació serà distintiva i exclusiva d'aquests centres, i no podrà utilitzar aquest nom cap altra entitat no autoritzada i inscrita al registre corresponent."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-26",
+                  "number": "26",
+                  "title": "Article 26. Accés a ensenyaments reglats",
+                  "content": "L'administració educativa establirà les mesures reglamentàries que escaiguen, amb al finalitat de garantir el dret dels alumnes i de les alumnes de les escoles de música i dansa, públiques i privades, i de les escoles d'educands de les societats musicals, a ocupar places escolars als centres d'estudis reglats en igualtat de condicions, mitjançant les corresponents proves d'accés la convocatòria de les quals es durà a efecte amb la màxima publicitat."
+                },
+                {
+                  "type": "articulo",
+                  "id": "art-27",
+                  "number": "27",
+                  "title": "Article 27. Registre",
+                  "content": "1. Al Registre de Centres Docents de la Comunitat Valenciana es crearà un registre específic per a escoles de música, de dansa i de música i dansa en el qual s'inscriuran aquelles escoles, de titularitat pública o privada, que hagen sigut autoritzades per l'administració educativa.\n\n2. L'administració educativa podrà autoritzar el registre d'escoles de música, de dansa o de música i dansa, que tinguen les seues instal·lacions ubicades a diferents immobles, fins i tot a diferent localitat, sempre que la distància entre aquestes localitats no dificulte la realització d'aquests ensenyaments i que pel que fa al conjunt complisquen els requisits mínims establits."
+                }
+              ]
+            },
+            {
+              "type": "seccion",
+              "id": "titulo-2-cap-2-sec-2",
+              "number": "2",
+              "title": "Secció segona. De les escoles d'educands",
+              "children": [
+                {
+                  "type": "articulo",
+                  "id": "art-28",
+                  "number": "28",
+                  "title": "Article 28. Escoles d'educands",
+                  "content": "Les escoles d'educands de les societat musicals que per les seues característiques no s'inscriguen al Registre d'Escoles de Música, també podran rebre de les administracions públiques, mitjançant disposicions específiques, protecció i ajuda d'acord amb la tasca educativa i cultural que exercisquen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-3",
+      "number": "III",
+      "title": "Títol III. Del finançament dels ensenyaments musicals",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-29",
+          "number": "29",
+          "title": "Article 29. Disposició general",
+          "content": "Les administracions valencianes col·laboraran adequadament en el finançament dels ensenyaments musicals, a l'efecte de dotar les escoles de música, de dansa i de música i dansa dels mitjans necessaris per a aconseguir-ne els objectius."
+        },
+        {
+          "type": "articulo",
+          "id": "art-30",
+          "number": "30",
+          "title": "Article 30. Programa autonòmic de finançament",
+          "content": "1. Per a aconseguir la finalitat disposada en l'article anterior, s'establirà un programa autonòmic de finançament dels ensenyaments musicals no reglats, impartits a les escoles de música, de dansa i de música i dansa i, amb la corresponent dotació pressupostària, per a un període de 10 anys.\n\n2. Aquest programa inclourà els criteris per al seu finançament, gestió i execució i les mesures necessàries per a la dotació de recursos humans, construcció, adaptació i reforma d'edificis que alberguen els centres educatius, adquisició d'instruments musicals i material didàctic, l'establiment i desenvolupament de serveis complementaris i la formació i actualització permanent del professorat."
+        },
+        {
+          "type": "articulo",
+          "id": "art-31",
+          "number": "31",
+          "title": "Article 31. Col·laboració interadministrativa",
+          "content": "La Generalitat Valenciana establirà acords i convenis de col·laboració amb les corporacions locals i les associacions i entitats sense finalitat lucrativa que siguen titulars d'escoles de música, de dansa i de música i dansa, i d'escoles d'educands, per a ajudar econòmicament al seu funcionament i contribuir al compliment dels seus objectius."
+        },
+        {
+          "type": "articulo",
+          "id": "art-32",
+          "number": "32",
+          "title": "Article 32. Ajudes",
+          "content": "1. La conselleria competent concedirà ajudes dirigides al manteniment de les escoles de música, de dansa i de música i dansa, i la resta de centres d'ensenyaments musicals, així com subvencions que permeten la realització d'activitats o programacions musicals. 4\n\n2. En les convocatòries que es facen a l'efecte figurà una comissió de valoració en la qual podran participar tant la Federació Valenciana de Municipis i Províncies com representants de les entitats, institucions, federacions o associacions musicals de la Comunitat Valenciana."
+        },
+        {
+          "type": "articulo",
+          "id": "art-33",
+          "number": "33",
+          "title": "Article 33. Beques de l'Institut Valencià de la Música",
+          "content": "Anualment es realitzarà una convocatòria de beques, per l'òrgan competent, dirigida als alumnes que cursen estudis no reglats en escoles de música, de dansa o de música i dansa, mentre estos estudis estiguen exclosos de les convocatòries generals de beques i ajudes a l'estudi de les administracions educatives."
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-4",
+      "number": "IV",
+      "title": "Títol IV. Del patrimoni musical valencià i el seu registre",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-34",
+          "number": "34",
+          "title": "Article 34. Marc legal",
+          "content": "La protecció, enriquiment, foment, difusió i gaudi social del patrimoni musical valencià es regirà per les normes reguladores del patrimoni cultural valencià i, subsidiàriament, per aquesta llei i les altres lleis vigents sobre la matèria."
+        },
+        {
+          "type": "articulo",
+          "id": "art-35",
+          "number": "35",
+          "title": "Article 35. Objecte",
+          "content": "1. Integren el patrimoni musical valencià els béns, les activitats i les entitats de caràcter musical especialment representatius de la història i la cultura de la Comunitat Valenciana.\n\n2. El patrimoni musical valencià serà inventariat o catalogat i constituirà l'Arxiu Musical Valencià. Aquest arxiu incorporarà tant formats tradicionals com nous suports físics i estarà dotat dels mitjans adequats de conservació i de reproducció."
+        },
+        {
+          "type": "articulo",
+          "id": "art-36",
+          "number": "36",
+          "title": "Article 36. Institucions consultives",
+          "content": "1. A la Generalitat li correspon el coneixement, el foment i la difusió del patrimoni musical valencià.\n\n2. Són institucions consultives de l'administració pública de la Generalitat Valenciana en matèria musical a l'efecte establit en la normativa reguladora del patrimoni cultural valencià, el Consell Valencià de Cultura, la Reial Acadèmia de Belles Arts de Sant Carles de València, el Consell Escolar Valencià, l'Institut Valencià de la Música, els conservatoris superiors de música, els conservatoris superiors de dansa, la Federació de Societats Musicals de la Comunitat Valenciana i totes aquelles institucions que puga reconéixer el Consell mitjançant un decret, i això sense perjudici de l'assessorament que, si escau, puga demanar d'uns altres organismes professionals i d'entitats culturals públiques i privades."
+        },
+        {
+          "type": "articulo",
+          "id": "art-37",
+          "number": "37",
+          "title": "Article 37. Protecció del patrimoni musical valencià",
+          "content": "1. Els ajuntaments cooperaran amb la Generalitat en el coneixement, la conservació, el foment i la difusió del patrimoni musical que hi ha al seu terme municipal, i adoptaran les mesures que calguen per a evitar-ne el deteriorament, la pèrdua o la destrucció. Comunicaran a la Conselleria de Cultura, Educació i Ciència qualsevol amenaça de dany o de pertorbació de la funció social que aquests béns patisquen, i també les dificultats i les necessitats que tinguen per a la cura d'aquests béns. Exerciran, també, les altres funcions que, de manera expressa, se'ls atribuïsquen.\n\n2. La conselleria que exercisca les competències en matèria de cultura, d'acord amb els ajuntaments, podrà crear comissions mixtes integrades per representants de la Generalitat i del municipi respectiu amb la funció d'assessorar els òrgans competents per a l'execució d'estes mesures de protecció del patrimoni musical valencià amb vista al seu compliment. 6\n\n3. Les persones físiques i jurídiques que observen el perill de pèrdua o de deteriorament d'un bé integrant del patrimoni musical valencià hauran de comunicar-ho a la Conselleria de Cultura, Educació i Ciència o a l'ajuntament corresponent al més aviat possible."
+        },
+        {
+          "type": "articulo",
+          "id": "art-38",
+          "number": "38",
+          "title": "Article 38. De la protecció i tutela",
+          "content": "Els béns, les activitats i les entitats integrants del patrimoni musical valencià de major rellevància i significació, gaudiran de singular protecció i tutela, mitjançant un decret del Consell, d'acord amb el procediment que reglamentàriament es determine. El decret haurà de descriure clarament el bé, l'activitat i l'entitat, i indicarà tots els elements i les característiques que el componen per a la plena identificació i el coneixement de les característiques essencials d'aquest."
+        },
+        {
+          "type": "articulo",
+          "id": "art-39",
+          "number": "39",
+          "title": "Article 39. Registre del patrimoni musical valencià",
+          "content": "Els béns, les activitats i les entitats constitutius del patrimoni musical valencià s'inscriuran en un registre específic, depenent de la Conselleria de Cultura, Educació i Ciència, l'organització, el funcionament i el règim d'accés del qual es determinaran per via reglamentària."
+        },
+        {
+          "type": "articulo",
+          "id": "art-40",
+          "number": "40",
+          "title": "Article 40. Certificat acreditatiu de la inscripció",
+          "content": "El registre del patrimoni cultural valencià expedirà un certificat que acredite la inscripció de béns, activitats i entitats que les identifique i amb al resta d'anotacions pertinents d'acord amb el que reglamentàriament es determine."
+        },
+        {
+          "type": "articulo",
+          "id": "art-41",
+          "number": "41",
+          "title": "Article 41. Conservació, consolidació i millora",
+          "content": "1. Les administracions valencianes procuraran per tots els mitjans tècnics la conservació, la consolidació i la millora de tots els béns, les activitats i les entitats que componen el patrimoni musical valencià.\n\n2. El Consell de la Generalitat, i els ajuntaments si pertoca, col·laboraran amb els titulars dels béns, activitats i entitats inscrits en el registre, en la seua conservació i difusió, i arbitraran les ajudes econòmiques i tècniques en la forma indicada reglamentàriament.\n\n3. El Consell de la Generalitat disposarà les mesures que calguen perquè el finançament d'obres de conservació, manteniment i rehabilitació de béns, així com d'activitats incloses en el patrimoni musical valencià, tinguen accés preferent al crèdit oficial en la forma i amb els requisits que establisquen les seues normes reguladores. Amb aquesta finalitat, la Generalitat podrà establir, mitjançant acords amb persones i entitats públiques i privades, les condicions per a gaudir dels beneficis crediticis.\n\n4. Els titulars dels béns que s'hagen beneficiat d'algun tipus d'ajuda de caràcter públic estaran subjectes, en la seua actuació, a les condicions que s'hagen fixat per a la seua concessió."
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-5",
+      "number": "V",
+      "title": "Títol V. Mesures de foment de la cultura musical",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-42",
+          "number": "42",
+          "title": "Article 42. Sobre la promoció de la música a la Comunitat Valenciana",
+          "content": "La Generalitat es marca com a principis orientadors de la seua política cultural en matèria musical la promoció, desenvolupament, ensenyament, difusió i protecció de la música en tots els seus aspectes, expressions i ramificacions. I, consegüentment, prestarà suport a les entitats públiques i privades, particulars i associacions que perseguisquen aquests objectius i realitzen les activitats pròpies per a aconseguir aquells fins, afavorint la seua coordinació i promovent i creant les condicions socials més adequades a aquest efecte. I això, sense perjudici de la necessària participació i cooperació entre les institucions socials, les entitats privades i els particulars."
+        },
+        {
+          "type": "articulo",
+          "id": "art-43",
+          "number": "43",
+          "title": "Article 43. Col·laboració institucional",
+          "content": "La Generalitat, a través del departament competent en cada cas, col·laborarà amb les corporacions locals i entitats musicals sense ànim de lucre per a l'adquisició, construcció, restauració, adaptació, manteniment, millora i equipament dels edificis destinats a la formació, ensenyament i activitats musicals i socials."
+        },
+        {
+          "type": "articulo",
+          "id": "art-44",
+          "number": "44",
+          "title": "Article 44. Creació d'infraestructures",
+          "content": "Les administracions públiques procuraran dotar d'infraestructures adequades per a la interpretació i audicions musicals en cada una de les zones o comarques del territori valencià."
+        },
+        {
+          "type": "articulo",
+          "id": "art-45",
+          "number": "45",
+          "title": "Article 45. Adquisició d'instruments musicals",
+          "content": "A fi de facilitar la utilització d'instruments musicals pels jóvens, durant la seua estada en escoles i centres docents, l'òrgan o el departament de la Generalitat competent crearà un programa d'ajudes, que possibilite la seua adquisició per les corporacions locals i entitats musicals sense ànim de lucre, titulars de les escoles o centres docents."
+        },
+        {
+          "type": "articulo",
+          "id": "art-46",
+          "number": "46",
+          "title": "Article 46. Línies de crèdit específiques",
+          "content": "L'òrgan o el departament de la Generalitat competent impulsarà la creació de línies de crèdit específiques per a construir, conservar i modernitzar edificis destinats a activitats musicals i de dansa i adquirir instruments, per mitjà de crèdits especials de les institucions bancàries, públiques i privades."
+        },
+        {
+          "type": "articulo",
+          "id": "art-47",
+          "number": "47",
+          "title": "Article 47. Mesures per al foment de la música i de la dansa",
+          "content": "Per a fomentar la música, la dansa i la cultura musical, les administracions públiques de la Comunitat Valenciana procuraran adoptar les mesures següents:\n\na) Ajudar, col·laborar o subvencionar certàmens, festivals i altres manifestacions i activitats de bandes de música, orquestres o altres grups musicals.\n\nb) Ajudar o subvencionar les iniciatives orientades al perfeccionament dels músics.\n\nc) Concertar convenis de suport a inversions en infraestructures i a programes socials i musicals que les corporacions locals, les associacions i entitats sense fi lucratiu organitzen de manera permanent o estable en la seua durada.\n\nd) Aquelles tendents a incentivar la creativitat musical.\n\ne) Fomentar de manera estable les manifestacions musicals liricoescèniques, com l'òpera."
+        },
+        {
+          "type": "articulo",
+          "id": "art-48",
+          "number": "48",
+          "title": "Article 48. Sobre el perfeccionament musical",
+          "content": "1. Es crearan programes de treball adequats per a atendre el perfeccionament musical dels intèrprets valencians.\n\n2. Es crearan, així mateix, programes amb dotació pressupostària, de concessió de bosses i ajudes per a l'assistència a cursos, seminaris i trobades de perfeccionament tècnic i artístic per a músics que hi tinguen les condicions adequades."
+        },
+        {
+          "type": "articulo",
+          "id": "art-49",
+          "number": "49",
+          "title": "Article 49. De la Jove Orquestra de la Generalitat Valenciana",
+          "content": "1. Es crea la Jove Orquestra de la Generalitat Valenciana, amb la finalitat d'oferir als joves músics de la Comunitat Valenciana una formació orquestral complementària.\n\n2. La composició i funcionament de la Jove Orquestra de la Generalitat Valenciana seran regulats reglamentàriament.\n\n3. S'adscriu la Jove Orquestra de la Generalitat Valenciana a l'Institut Valencià de la Música."
+        },
+        {
+          "type": "articulo",
+          "id": "art-50",
+          "number": "50",
+          "title": "Article 50. De la Banda Jove de la Generalitat Valenciana",
+          "content": "1. Es crea la Banda Jove de la Generalitat Valenciana, amb la finalitat d'oferir als joves músics de la Comunitat Valenciana una formació bandística complementària.\n\n2. La composició i funcionament de la Banda Jove de la Generalitat Valenciana seran regulats reglamentàriament.\n\n3. S'adscriu la Banda Jove de la Generalitat Valenciana a l'Institut Valencià de la Música."
+        },
+        {
+          "type": "articulo",
+          "id": "art-51",
+          "number": "51",
+          "title": "Article 51. Del Cor de la Generalitat Valenciana",
+          "content": "1. Es crea el Cor de la Generalitat Valenciana amb caràcter professional.\n\n2. La composició i funcionament del Cor de la Generalitat Valenciana seran regulats reglamentàriament.\n\n3. El Cor de la Generalitat Valenciana s'adscriu a l'Institut Valencià de la Música."
+        },
+        {
+          "type": "articulo",
+          "id": "art-52",
+          "number": "52",
+          "title": "Article 52. De l'Orquestra Simfònica de la Generalitat Valenciana",
+          "content": "1. Es crea l'Orquestra Simfònica de la Generalitat Valenciana amb caràcter professional.\n\n2. La composició i funcionament de l'Orquestra Simfònica de la Generalitat Valenciana seran regulats reglamentàriament.\n\n3. L'Orquestra Simfònica de la Generalitat Valenciana s'adscriu a l'Institut Valencià de la Música."
+        },
+        {
+          "type": "articulo",
+          "id": "art-53",
+          "number": "53",
+          "title": "Article 53. De la Banda de Música de la Generalitat Valenciana",
+          "content": "1. Es crea la Banda de Música de la Generalitat Valenciana amb caràcter professional.\n\n2. La composició i funcionament de la Banda de Música de la Generalitat Valenciana seran regulats reglamentàriament.\n\n3. La Banda de Música de la Generalitat Valenciana s'adscriu a l'Institut Valencià de la Música."
+        }
+      ]
+    },
+    {
+      "type": "titulo",
+      "id": "titulo-6",
+      "number": "VI",
+      "title": "Títol VI. De les relacions de col·laboració de les administracions valencianes amb les societats musicals i les associacions artístic-musicals",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-54",
+          "number": "54",
+          "title": "Article 54. Coordinació institucional",
+          "content": "La política cultural de la Generalitat Valenciana s'orientarà a impulsar i coordinar les funcions, ensenyaments i activitats relatius a la música, de les diputacions provincials, de les corporacions locals i de les associacions artisticomusicals, per a una millor distribució de recursos i promoció cultural."
+        },
+        {
+          "type": "articulo",
+          "id": "art-55",
+          "number": "55",
+          "title": "Article 55. Ajuntaments i diputacions",
+          "content": "Pel que fa a les activitats musicals, els ajuntaments i les diputacions coordinaran els seus esforços per a la major eficàcia d'aquells i perquè resulten beneficiaris el nombre més gran possible de ciutadans. Quan es programen per a tota la Comunitat es realitzarà la coordinació oportuna entre les dites corporacions i la Generalitat, a través del seu departament competent, així com, si és el cas, amb l'Institut Valencià de la Música."
+        },
+        {
+          "type": "articulo",
+          "id": "art-56",
+          "number": "56",
+          "title": "Article 56. Convenis de col·laboració institucional",
+          "content": "Mitjançant convenis de col·laboració, els ajuntaments i les diputacions prestaran ajuda material, humana i financera a les societats musicals i a les escoles de música dins dels límits consignats en els pressupostos respectius."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposició addicional primera.",
+      "content": "Ateses les peculiaritats valencianes, un mateix edifici podrà ser destinat als ensenyaments propis de les escoles de música, de dansa o de música i dansa i a altres fins socials, culturals o educatius."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segona",
+      "title": "Disposició addicional segona.",
+      "content": "L'administració autonòmica gestionarà davant de l'administració de l'estat fórmules per a la qualificació d'Entitat d'Utilitat Pública d'aquelles associacions musicals sense finalitat lucrativa que complisquen els requisits corresponents a l'efecte de ser receptores dels beneficis legals que aquestes qualificacions comporten."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposició addicional tercera.",
+      "content": "L'adscripció del personal de la Generalitat que s'efectue a l'Institut Valencià de la Música es farà respectant les condicions establides fins a aquell moment per a l'esmentat personal."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "quarta",
+      "title": "Disposició addicional quarta.",
+      "content": "Per a la creació i funcionament de la Jove Orquestra de la Generalitat Valenciana es tindrà en compte l'actual i a extingir Jove Orquestra Valenciana."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-5",
+      "number": "cinquena",
+      "title": "Disposició addicional cinquena.",
+      "content": "Per a la creació i funcionament del Cor de la Generalitat Valenciana, es tindrà en compte l'actual i a extingir Cor de València."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposició derogatòria única.",
+      "content": "Queden derogades totes les disposicions d'igual o inferior rang que s'oposen al que disposa aquesta llei."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "number": "primera",
+      "title": "Disposició final primera. Aplicació i desplegament",
+      "content": "El Consell i la conselleria competent en cada cas, en l'àmbit de les seues competències respectives, adoptaran totes les disposicions que siguen necessàries per a l'aplicació i el desplegament de la present llei."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "number": "segona",
+      "title": "Disposició final segona. Entrada en vigor",
+      "content": "Aquesta llei entrarà en vigor l'endemà de la seua publicació en el Diari Oficial de la Generalitat Valenciana."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Estatut d'Autonomia de la Comunitat Valenciana (competència en cultura)",
+        "relationship": "habilitante"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "ley-16-2010",
+        "title": "Llei 16/2010, de 27 de desembre, de Mesures Fiscals, de Gestió Administrativa i Financera, i d'Organització de la Generalitat",
+        "type": "modifica",
+        "articles": [
+          "art-17",
+          "art-32",
+          "art-33",
+          "art-37",
+          "art-43",
+          "art-45",
+          "art-46",
+          "art-55",
+          "df-1"
+        ],
+        "date": "2010-12-31",
+        "description": "Modifica els arts. 17, 32.1, 33, 37.2, 43, 45, 46, 55 i la disposició final primera"
+      },
+      {
+        "lawId": "decreto-ley-7-2012",
+        "title": "Decret Llei 7/2012, de 19 d'octubre, del Consell",
+        "type": "deroga_parcial",
+        "articles": [
+          "titulo-1"
+        ],
+        "date": "2012-10-22",
+        "description": "Suprimix l'Institut Valencià de la Música i deroga el Títol I"
+      },
+      {
+        "lawId": "ley-1-2013",
+        "title": "Llei 1/2013, de 21 de maig, de la Generalitat",
+        "type": "deroga_parcial",
+        "articles": [
+          "titulo-1"
+        ],
+        "date": "2013-05-23",
+        "description": "Deroga expressament el Títol I (supressió de l'Institut Valencià de la Música)"
+      }
+    ],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "decreto-2-2022",
+        "title": "Decret 2/2022 (escoles d'ensenyança artística no formal)",
+        "description": "Desplega el règim de les escoles de música i dansa previst en el Títol II"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "1998-05-12",
+    "signatories": [
+      {
+        "name": "Eduardo Zaplana Hernández-Soro",
+        "role": "President de la Generalitat"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "normativa"
+}

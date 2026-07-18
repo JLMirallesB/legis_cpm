@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.5.3",
+    "date": "2026-07-18",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Ley 2/1998, de 12 de mayo, de la Generalitat Valenciana, de la Música (Ley Valenciana de la Música), en su texto consolidado vigente (24/05/2013). Ley marco: enseñanzas musicales (escuelas de música y danza), financiación, patrimonio musical valenciano y medidas de fomento. Estructura completa título/capítulo/sección con 41 artículos vigentes, disposiciones y preámbulo. El Título I (Instituto Valenciano de la Música), derogado, se conserva con nota. Las modificaciones posteriores (leyes 16/2010 y 1/2013 y Decreto Ley 7/2012) quedan documentadas como afectaciones."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Llei 2/1998, de 12 de maig, de la Generalitat Valenciana, de la Música (Llei Valenciana de la Música), en el seu text consolidat vigent (24/05/2013). Llei marc: ensenyaments musicals (escoles de música i dansa), finançament, patrimoni musical valencià i mesures de foment. Estructura completa títol/capítol/secció amb 41 articles vigents, disposicions i preàmbul. El Títol I (Institut Valencià de la Música), derogat, es conserva amb nota. Les modificacions posteriors (lleis 16/2010 i 1/2013 i Decret Llei 7/2012) queden documentades com a afectacions."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.2",
     "date": "2026-07-18",
     "entries": {
