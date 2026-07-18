@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.5.2",
+    "date": "2026-07-18",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Decreto 2/2022, de 14 de enero, del Consell, de regulación de las escuelas de enseñanza artística no formal de Música y de Artes Escénicas (enseñanza no reglada). 3 capítulos, 26 artículos originales, disposiciones y cláusula de promulgación. Ingestado en su redacción vigente tras el Decreto 46/2026, que suprime, modifica y renumera numerosos artículos: los 18 artículos afectados conservan su texto original y el vigente mediante el selector de versiones."
+        },
+        {
+          "type": "mejora",
+          "description": "Nueva etiqueta de aplicación (scope) «Escuelas de Música y Artes Escénicas», para distinguir la normativa de escuelas de enseñanza artística no reglada de la de conservatorios. Filtrable en el buscador."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta del Decret 2/2022, de 14 de gener, del Consell, de regulació de les escoles d'ensenyança artística no formal de Música i d'Arts Escèniques (ensenyança no reglada). 3 capítols, 26 articles originals, disposicions i clàusula de promulgació. Ingestat en la seua redacció vigent després del Decret 46/2026, que suprimix, modifica i renumera nombrosos articles: els 18 articles afectats conserven el seu text original i el vigent mitjançant el selector de versions."
+        },
+        {
+          "type": "millora",
+          "description": "Nova etiqueta d'aplicació (scope) «Escoles de Música i Arts Escèniques», per a distingir la normativa d'escoles d'ensenyança artística no reglada de la de conservatoris. Filtrable en el cercador."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.1",
     "date": "2026-07-18",
     "entries": {

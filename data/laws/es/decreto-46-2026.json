@@ -143,6 +143,33 @@
           "art-19"
         ],
         "date": "2026-04-03"
+      },
+      {
+        "lawId": "decreto-2-2022",
+        "title": "Decreto 2/2022 - Escuelas de enseñanza artística no formal de Música y Artes Escénicas",
+        "type": "modifica",
+        "articles": [
+          "art-2",
+          "art-5",
+          "art-8",
+          "art-9",
+          "art-12",
+          "art-13",
+          "art-15",
+          "art-16",
+          "art-17",
+          "art-18",
+          "art-19",
+          "art-20",
+          "art-21",
+          "art-22",
+          "art-23",
+          "art-24",
+          "art-25",
+          "art-17-original"
+        ],
+        "date": "2026-04-03",
+        "description": "Suprime, modifica y renumera numerosos artículos (deroga el art. 17 original y renumera los arts. 15-26)"
       }
     ],
     "posteriorAffectations": [],

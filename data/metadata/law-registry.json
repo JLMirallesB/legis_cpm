@@ -469,6 +469,13 @@
       "status": "ingested",
       "category": "convocatorias",
       "notes": "Resolución de la Secretaría Autonómica de Educación (DOGV 10407, 17/07/2026). Regula el PAF y convoca la solicitud de las modalidades formativas (proyectos de formación en centros, seminarios y grupos de trabajo) para el curso 2026-2027, y establece la dotación de recursos económicos. PDFs separados ES/VA. Preámbulo + 25 apartados (Primera-Vigésima quinta), con una tabla markdown en el apartado Décima sexta (Certificación). Habilitada por LOE (art.102) y Orden 65/2012. Firmada por Daniel McEvoy Bravo. Categoría Convocatorias, autonómica, anual (curso 26-27)."
+    },
+    {
+      "slug": "decreto-2-2022",
+      "title": "Decreto 2/2022 - Escuelas de enseñanza artística no formal de Música y Artes Escénicas",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "Decreto del Consell (DOGV 9272, 07/02/2022). Regula las escuelas de enseñanza artística no formal de Música y de Artes Escénicas (música, danza, teatro, circo) de la Comunitat Valenciana — enseñanza NO reglada, sin títulos oficiales. PDF bilingüe a dos columnas (va izq / es der). Preámbulo + 3 capítulos (26 arts. originales) + DA + 4 DT + DD + 2 DF. Deroga el Decreto 91/2013. PRIMERA ley con scope 'escuelas_musica_artes_escenicas' (nuevo valor). Ingestada en su versión VIGENTE tras el Decreto 46/2026 (art. 6): suprime apartados (2.1; 9.6-9.7; 12.2/3/6/7/9; 13.2/3) y el art. 17 original, y renumera+reescribe los arts. 15-26 → nuevos 15-25. Los 18 artículos afectados llevan versions[] (v1 original 2022 + v2 vigente 2026-04-03). El art. 17 original suprimido se conserva como nodo 'art-17-original' con su texto en versions[]. Cross-ref bidireccional con decreto-46-2026. Firmado por Ximo Puig i Ferrer y Vicent Marzà i Ibáñez. Autonómica, permanente."
     }
   ]
 }

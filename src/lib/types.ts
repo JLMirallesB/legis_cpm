@@ -20,7 +20,7 @@ export type VigencyStatus =
   | 'derogada_parcial'
   | 'derogada';
 
-export type LawScope = 'general' | 'musica_y_danza' | 'musica' | 'danza';
+export type LawScope = 'general' | 'musica_y_danza' | 'musica' | 'danza' | 'escuelas_musica_artes_escenicas';
 export type LawTerritory = 'estatal' | 'autonomico';
 export type LawDocType = 'normativa' | 'documentos';
 

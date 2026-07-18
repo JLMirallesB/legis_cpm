@@ -1,7 +1,7 @@
 # Instrucciones para Claude Code - Legis CPM
 
 ## Qué es este proyecto
-Lector de legislación de Conservatorios Profesionales de Música y Danza de la Generalitat Valenciana. Sitio estático con Astro 6.x desplegado en GitHub Pages. Datos en JSON bilingüe (es/va).
+Lector de legislación de Conservatorios Profesionales de Música y Danza **y de Escuelas de enseñanza artística no formal (Música y Artes Escénicas)** de la Generalitat Valenciana. Sitio estático con Astro 6.x desplegado en GitHub Pages. Datos en JSON bilingüe (es/va). El proyecto se llama **Legis CPMDEM** (los textos de marca ya incluyen las Escuelas de Música).
 
 ## Documentación
 Leer antes de hacer cambios: `docs/CONTENT-GUIDE.md` (proceso de ingesta), `docs/DATA-SCHEMA.md` (esquema JSON), `src/lib/types.ts` (tipos TypeScript).
@@ -269,7 +269,7 @@ content = re.sub(r'\n([a-z]\) )', r'\n\n\1', content)  # single \n before letter
 
 #### Propiedades de clasificación (OBLIGATORIO en toda nueva ingesta)
 Cada ley debe incluir las 4 propiedades siguientes (definidas en `src/lib/types.ts`):
-- `scope`: `"general"` | `"musica_y_danza"` | `"musica"` | `"danza"` — indica a qué enseñanzas aplica
+- `scope`: `"general"` | `"musica_y_danza"` | `"musica"` | `"danza"` | `"escuelas_musica_artes_escenicas"` — indica a qué enseñanzas aplica. `escuelas_musica_artes_escenicas` = escuelas de enseñanza artística NO reglada (Música y Artes Escénicas); distinto de los valores de conservatorio (enseñanza reglada). Al añadir un valor de scope nuevo hay que tocar: `src/lib/types.ts` (unión `LawScope`), `src/i18n/{es,va}.json` (`tag.scope.<valor>`), `src/components/LawTags.astro` (CSS `.tag-scope-<valor>`) y `src/pages/{es,va}/buscar.astro` (`tagLabels` + CSS)
 - `territory`: `"estatal"` | `"autonomico"` — BOE = estatal, DOGV = autonómico
 - `temporality`: objeto con `type: "permanente"` o `type: "anual"` (con `schoolYear` y `expiresDate`)
   - Leyes anuales (ej. instrucciones de inicio de curso): `{ "type": "anual", "schoolYear": "25-26", "expiresDate": "2026-09-01" }`
