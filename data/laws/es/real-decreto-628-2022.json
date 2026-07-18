@@ -153,6 +153,15 @@
           "art-15"
         ],
         "description": "Modifica arts 14 y 15 del RD 1577/2006 (titulación y documentos)"
+      },
+      {
+        "lawId": "real-decreto-85-2007",
+        "title": "Real Decreto 85/2007 - Currículo básico EEPP Danza",
+        "type": "modifica",
+        "articles": [
+          "art-14",
+          "art-15"
+        ]
       }
     ],
     "posteriorAffectations": [],

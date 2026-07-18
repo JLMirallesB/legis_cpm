@@ -1,0 +1,23 @@
+{
+  "id": "centros-integrados-coordinacion",
+  "slug": "centros-integrados-coordinacion",
+  "title": {
+    "es": "Centros integrados y coordinación de enseñanzas",
+    "va": "Centres integrats i coordinació d'ensenyances"
+  },
+  "description": {
+    "es": "Correspondencia entre las enseñanzas profesionales de música y danza y la educación secundaria: simultaneidad de estudios, convalidaciones y creación de centros integrados. Base estatal (LOE y reales decretos de currículo) y desarrollo autonómico valenciano.",
+    "va": "Correspondència entre els ensenyaments professionals de música i dansa i l'educació secundària: simultaneïtat d'estudis, convalidacions i creació de centres integrats. Base estatal (LOE i reials decrets de currículum) i desplegament autonòmic valencià."
+  },
+  "updatedAt": "2026-07-18",
+  "fragments": [
+    { "lawSlug": "ley-organica-2-2006", "articleId": "art-47" },
+    { "lawSlug": "real-decreto-1577-2006", "articleId": "art-20" },
+    { "lawSlug": "real-decreto-85-2007", "articleId": "art-20" },
+    { "lawSlug": "real-decreto-303-2010", "articleId": "art-14" },
+    { "lawSlug": "decreto-158-2007", "articleId": "art-20" },
+    { "lawSlug": "decreto-159-2007", "articleId": "art-20" },
+    { "lawSlug": "decreto-156-2007", "articleId": "art-21" },
+    { "lawSlug": "decreto-157-2007", "articleId": "art-19" }
+  ]
+}

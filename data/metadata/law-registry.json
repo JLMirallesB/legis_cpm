@@ -483,6 +483,13 @@
       "status": "ingested",
       "category": "general",
       "notes": "Ley de la Generalitat Valenciana (DOGV 3242, 14/05/1998). Ley marco valenciana de la Música: enseñanzas musicales (escuelas de música/danza), financiación, patrimonio musical y medidas de fomento. TEXTO CONSOLIDADO (versión vigente 24/05/2013): PDFs consolidados separados ES/VA, columna única. Jerarquía título>capítulo>sección: Título preliminar + Títulos I-VI. 41 artículos vigentes (art. 1 + arts. 17-56). El Título I (Del Instituto Valenciano de la Música, arts. 2-16) está DEROGADO (por Decreto Ley 7/2012 y Ley 1/2013) — conservado como nodo 'titulo-1' con nota. + 5 DA + DD + 2 DF. Modificada por leyes omnibus NO ingestadas (Ley 16/2010 arts. 17/32/33/37/43/45/46/55 y DF1ª; Decreto Ley 7/2012; Ley 1/2013) documentadas en posteriorAffectations (enlaces rotos OK). Concordancia con decreto-2-2022 (desarrolla Título II). Firmada por Eduardo Zaplana Hernández-Soro. Autonómica, permanente. NOTA: el PDF imprime la promulgación como '5 de mayo' pero la ley es 'de 12 de mayo' (fecha usada)."
+    },
+    {
+      "slug": "real-decreto-85-2007",
+      "title": "Real Decreto 85/2007 - Currículo básico EEPP Danza",
+      "status": "ingested",
+      "category": "curriculo",
+      "notes": "Real Decreto estatal (BOE 38, 13/02/2007). Fija los aspectos básicos del currículo de las enseñanzas profesionales de danza (LOE). Norma paralela al RD 1577/2006 (música) — misma estructura: preámbulo + 6 capítulos (arts. 1-20) + 4 DA + DD + 2 DF + Anexo I (enseñanzas mínimas, stub) + Anexo II (horario mínimo por especialidad, tabla). TEXTO CONSOLIDADO (última modificación 27/07/2022 por RD 628/2022, que modifica arts. 14 y 15 — cross-ref bidireccional). Solo en castellano; VA usa mismo contenido con nota. Firmado por Juan Carlos I y Mercedes Cabrera Calvo-Sotelo. Estatal, permanente. Ingestado para el cuaderno 'Centros integrados y coordinación' (art. 20)."
     }
   ]
 }

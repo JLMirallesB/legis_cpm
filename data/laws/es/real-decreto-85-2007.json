@@ -1,0 +1,342 @@
+{
+  "id": "real-decreto-85-2007",
+  "slug": "real-decreto-85-2007",
+  "type": "real_decreto",
+  "number": "85/2007",
+  "date": "2007-01-26",
+  "publishedIn": {
+    "source": "BOE",
+    "number": "38",
+    "date": "2007-02-13",
+    "url": "https://www.boe.es/eli/es/rd/2007/01/26/85",
+    "pdfUrl": "https://www.boe.es/buscar/pdf/2007/BOE-A-2007-2956-consolidado.pdf"
+  },
+  "title": "Real Decreto 85/2007, de 26 de enero, por el que se fijan los aspectos básicos del currículo de las enseñanzas profesionales de danza reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación",
+  "titleShort": "RD 85/2007 - Currículo básico EEPP Danza",
+  "category": "curriculo",
+  "vigpiracy": {
+    "status": "vigente_parcial",
+    "statusLabel": "Vigente con modificaciones (RD 628/2022)",
+    "effectiveDate": "2007-02-14",
+    "lastModifiedDate": "2022-07-28"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "Las enseñanzas artísticas reguladas en la Ley Orgánica 2/2006, de 3 de mayo, de Educación, tienen por finalidad proporcionar al alumnado una formación artística de calidad, así como garantizar la cualificación de los futuros profesionales de la música, la danza, el arte dramático, las artes plásticas y el diseño. Son enseñanzas artísticas, entre otras, las enseñanzas profesionales de música y de danza. La ley establece que estas enseñanzas profesionales se organicen, unas y otras, en seis cursos de duración.\n\nConsiderando el avance que para las enseñanzas de danza supuso la normativa emanada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, este real decreto sigue fundamentándose en el estudio de la especialidad, que actúa como eje vertebrador del currículo y, a la vez, pretende avanzar hacia una estructura más abierta y flexible. Se abordan asimismo medidas que permitan la máxima adecuación de los estudios a los intereses del alumnado, se considera la compatibilidad real entre estas enseñanzas y las de educación secundaria y se faculta a las Administraciones educativas para la adopción de diferentes medidas de ordenación académica a este respecto.\n\nCabe destacar, como peculiaridad de los estudios de danza en relación con otras enseñanzas, que en ellos el bailarín se expresa a través de su propio cuerpo y cursa unos estudios que tienen como meta el ejercicio profesional. Por ello, la importancia del rendimiento físico y las posibilidades del cuerpo del intérprete como instrumento de trabajo hacen necesario que su período de formación inicial finalice a una edad temprana. Las enseñanzas profesionales de danza deberán garantizar una instrucción que proporcione el nivel de expresión artística propio de unos estudios altamente especializados, destinados a aquellos alumnos y alumnas que posean aptitudes específicas y voluntad para dedicarse a ellos.\n\nEn lo que refiere a la apertura de las enseñanzas, este real decreto crea la especialidad de Baile flamenco. Dicha especialidad, cuya génesis profesional se aprecia en el siglo XIX con unos reducidos repertorios y estilos, ha evolucionado permanentemente a través del tiempo y ha experimentado, sobre todo en los últimos años, un importante avance en relación con su praxis y su difusión. La gran demanda, la fusión con otras artes y su protagonismo en las nuevas estéticas de las artes escénicas aconsejan la inclusión de esta nueva especialidad en las enseñanzas profesionales de la danza.\n\nEn cuanto a los contenidos de las especialidades de la danza, se mantiene la necesidad de conjugar comprensión y expresión, conocimiento y realización. Este proceso complejo de educación artística debe tener en cuenta que los contenidos esenciales en la formación de un bailarín están presentes, casi en su totalidad, desde el inicio de los estudios, y que su desarrollo se realiza no sólo por la adquisición de nuevos elementos sino especialmente por la profundización permanente de los mismos. En esta trayectoria, el grado de dificultad interpretativa vendrá determinado por la naturaleza de los ejercicios y de las obras que en cada tramo del proceso se seleccionen.\n\nEn relación con los criterios de evaluación, éstos establecen el tipo y grado de aprendizaje que se espera hayan alcanzado los alumnos en un momento determinado respecto de los objetivos generales de las enseñanzas, las capacidades indicadas en los objetivos específicos de las enseñanzas profesionales de danza y los propios de cada especialidad. El nivel de cumplimiento de estos objetivos, en relación con los criterios de evaluación fijados, ha de ser medido teniendo en cuenta el contexto del alumno así como sus propias características y posibilidades. De este modo, la evaluación se constituye en una función formativa y, además, en una fuente de información sobre el mismo proceso de enseñanza, convirtiéndose en un referente fundamental de todo el proceso de enseñanzaaprendizaje.\n\nEn consonancia con todo ello, se fijan los aspectos básicos del currículo que constituyen las enseñanzas mínimas y los horarios escolares mínimos de las enseñanzas profesionales de danza. Sobre unas y otros, las Administraciones Educativas establecerán sus respectivos currículos y horarios.\n\nEn el proceso de elaboración de este real decreto han sido consultadas las Comunidades Autónomas y han emitido informe el Consejo Escolar del Estado y el Ministerio de Administraciones Públicas.\n\nEn su virtud, a propuesta de la Ministra de Educación y Ciencia, de acuerdo con el Consejo de Estado y previa deliberación del Consejo de Ministros en su reunión del día 26 de enero de 2007,"
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-1",
+      "number": "I",
+      "title": "Capítulo I. De la finalidad y organización de las enseñanzas profesionales de danza",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-1",
+          "number": "1",
+          "title": "Artículo 1. Finalidad y organización.",
+          "content": "1. Las enseñanzas profesionales de danza tienen como finalidad proporcionar al alumnado una formación artística de calidad y garantizar la cualificación de los futuros profesionales de la danza.\n\n2. La finalidad de las enseñanzas profesionales de danza se ordena en cuatro funciones básicas: formativa, orientadora, profesionalizadora y preparatoria para estudios posteriores.\n\n3. Las enseñanzas profesionales de danza se organizarán en un grado de seis cursos de duración, según lo dispuesto en el artículo 48.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+        },
+        {
+          "type": "articulo",
+          "id": "art-2",
+          "number": "2",
+          "title": "Artículo 2. Objetivos generales de las enseñanzas profesionales de danza.",
+          "content": "1. Las enseñanzas profesionales de danza tienen como objetivo contribuir a desarrollar en los alumnos y alumnas las capacidades generales y los valores cívicos propios del sistema educativo y, además, las capacidades siguientes:\n\na) Habituarse a observar la danza asistiendo a manifestaciones escénicas con ella relacionadas y establecer un concepto estético que les permita fundamentar y desarrollar los propios criterios interpretativos.\n\nb) Desarrollar la sensibilidad artística y el criterio estético como fuente de formación y enriquecimiento personal.\n\nc) Analizar y valorar la calidad de la danza.\n\nd) Conocer los valores de la danza y optar por los aspectos emanados de ella que sean más idóneos para el desarrollo personal.\n\ne) Participar en actividades de animación dancística y cultural que les permitan vivir la experiencia de transmitir el goce de la danza.\n\nf) Conocer y emplear con precisión el vocabulario específico relativo a los conceptos científicos de la danza.\n\ng) Conocer y valorar el patrimonio dancístico como parte integrante del patrimonio histórico y cultural."
+        },
+        {
+          "type": "articulo",
+          "id": "art-3",
+          "number": "3",
+          "title": "Artículo 3. Objetivos específicos de las enseñanzas profesionales de danza.",
+          "content": "Las enseñanzas profesionales de danza deberán contribuir a que los alumnos y alumnas adquieran las capacidades siguientes:\n\na) Demostrar el dominio técnico y el desarrollo artístico necesarios que permitan el acceso al mundo profesional.\n\nb) Habituarse a asistir a manifestaciones escénicas relacionadas con la danza para formar su cultura dancística y restablecer un concepto estético que les permita fundamentar y desarrollar los propios criterios interpretativos.\n\nc) Valorar la importancia del dominio del cuerpo y de la mente para utilizar con seguridad la técnica, con el fin de alcanzar la necesaria concentración que permita una interpretación artística de calidad.\n\nd) Profundizar en el desarrollo de su personalidad a través de la necesaria sensibilidad musical, con el fin de alcanzar una interpretación expresiva.\n\ne) Analizar críticamente la calidad de la danza en relación con sus valores intrínsecos.\n\nf) Interrelacionar y aplicar los conocimientos adquiridos en todas las asignaturas que componen el currículo, en las vivencias y en las experiencias propias para conseguir una interpretación artística de calidad.\n\ng) Aplicar los conocimientos históricos, estilísticos y coreográficos para conseguir una interpretación artística de calidad.\n\nh) Tener la disposición necesaria para saber integrarse en un grupo como un miembro más del mismo o para actuar como responsable del conjunto.\n\ni) Actuar en público con autocontrol, dominio de la memoria y capacidad comunicativa.\n\nj) Adaptarse con la versatilidad necesaria a las diferentes formas expresivas características de la creación coreográfica contemporánea.\n\nk) Improvisar de acuerdo con el estilo, la forma y el carácter de la música, así como a partir de diferentes propuestas no necesariamente musicales, tanto auditivas como plásticas, poéticas, etc.\n\nl) Reaccionar con los reflejos necesarios que requiere la solución de los problemas que puedan surgir durante la interpretación.\n\nm) Formarse una imagen ajustada de sí mismo, de sus características y posibilidades, y desarrollar hábitos del estudio, valorando el rendimiento en relación con el tiempo empleado.\n\nn) Profundizar en el conocimiento corporal y emocional para mantener el adecuado equilibrio y bienestar psicofísico."
+        },
+        {
+          "type": "articulo",
+          "id": "art-4",
+          "number": "4",
+          "title": "Artículo 4. Especialidades de las enseñanzas profesionales de danza.",
+          "content": "Son especialidades de las enseñanzas profesionales de danza: Baile flamenco. Danza clásica. Danza contemporánea. Danza española."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-2",
+      "number": "II",
+      "title": "Capítulo II. Del currículo",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-5",
+          "number": "5",
+          "title": "Artículo 5. Currículo.",
+          "content": "1. Los objetivos, contenidos y criterios de evaluación que para las distintas especialidades y asignaturas de las enseñanzas profesionales de danza se incluyen en el anexo I, constituyen los aspectos básicos de los currículos respectivos.\n\n2. El horario escolar correspondiente a los contenidos básicos de las enseñanzas mínimas, de conformidad con lo dispuesto en el artículo 6.3 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, será el establecido en el anexo II.\n\n3. Las Administraciones educativas establecerán el currículo de las enseñanzas profesionales de danza y los horarios correspondientes, de acuerdo con lo previsto en el artículo 6 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+        },
+        {
+          "type": "articulo",
+          "id": "art-6",
+          "number": "6",
+          "title": "Artículo 6. Asignaturas que constituyen el currículo.",
+          "content": "1. Las enseñanzas profesionales de danza se organizan en las asignaturas siguientes:\n\na) Asignatura común a todas las especialidades: Música.\n\nb) Asignaturas propias de la especialidad: Especialidad de Baile flamenco: Técnicas básicas de danza. Danza española. Baile flamenco. Estudio del cante de acompañamiento. Estudio de la guitarra de acompañamiento. Especialidad de Danza clásica: Danza clásica. Danza contemporánea. Repertorio. Especialidad de Danza contemporánea: Danza clásica. Improvisación. Técnicas de danza contemporánea. Especialidad de Danza española: Danza clásica. Escuela bolera. Danza estilizada. Flamenco. Folklore.\n\n2. Las Administraciones educativas determinarán los cursos en los que se deberán realizar las asignaturas establecidas en el apartado anterior.\n\n3. Las Administraciones educativas podrán añadir, dentro de las diferentes especialidades, asignaturas distintas de las incluidas en este real decreto, tales como «Anatomía aplicada a la danza», «Historia de la danza» y otras.\n\n4. Asimismo, las Administraciones educativas podrán potenciar en sus currículos distintos perfiles dentro de cada especialidad en los dos últimos cursos de las enseñanzas profesionales de danza."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-3",
+      "number": "III",
+      "title": "Capítulo III. Del acceso a las enseñanzas",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-7",
+          "number": "7",
+          "title": "Artículo 7. Requisitos académicos y prueba de acceso.",
+          "content": "1. Conforme al artículo 49 de la Ley Orgánica 2/2006, de 3 de mayo, para acceder a las enseñanzas profesionales de danza será preciso superar una prueba específica de acceso regulada y organizada por las Administraciones educativas, mediante la que se valorará la madurez, aptitudes y conocimientos para cursar con aprovechamiento las enseñanzas profesionales, de acuerdo con los objetivos establecidos en este real decreto.\n\n2. Asimismo, podrá accederse a cada curso de las enseñanzas profesionales sin haber cursado los anteriores siempre que, a través de una prueba, el aspirante demuestre poseer los conocimientos necesarios para cursar con aprovechamiento las enseñanzas correspondientes. Dicha prueba será organizada por las Administraciones educativas."
+        },
+        {
+          "type": "articulo",
+          "id": "art-8",
+          "number": "8",
+          "title": "Artículo 8. Calificación de las pruebas de acceso.",
+          "content": "1. Las puntuaciones definitivas obtenidas por los alumnos en las pruebas de acceso se ajustarán a la calificación numérica de 0 a 10, con un decimal como máximo, siendo precisa la calificación de 5 para el aprobado.\n\n2. La superación de la prueba de acceso faculta exclusivamente para matricularse en el curso académico en el que haya sido convocada."
+        },
+        {
+          "type": "articulo",
+          "id": "art-9",
+          "number": "9",
+          "title": "Artículo 9. Admisión de alumnos.",
+          "content": "La admisión de alumnos estará sometida a los principios de igualdad, mérito y capacidad, y supeditada a las calificaciones obtenidas en la prueba de acceso a las enseñanzas."
+        },
+        {
+          "type": "articulo",
+          "id": "art-10",
+          "number": "10",
+          "title": "Artículo 10. Matriculación.",
+          "content": "1. Corresponde a las Administraciones educativas regular los procesos de matriculación del alumnado.\n\n2. En el caso de los alumnos que cursan más de una especialidad únicamente cursarán las asignaturas comunes por una de ellas. Una vez cursadas y superadas en una especialidad, la calificación obtenida es válida para todas las especialidades y de esta manera deberá constar en el libro de calificaciones.\n\n3. Las Administraciones educativas establecerán las condiciones para la matriculación, con carácter excepcional, en más de un curso académico, de acuerdo con lo establecido en el artículo 48.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-4",
+      "number": "IV",
+      "title": "Capítulo IV. De la evaluación, la promoción y la permanencia",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-11",
+          "number": "11",
+          "title": "Artículo 11. Evaluación.",
+          "content": "1. La evaluación de las enseñanzas profesionales de danza se llevará a cabo teniendo en cuenta los objetivos educativos y los criterios de evaluación establecidos en el currículo.\n\n2. La evaluación del aprendizaje de los alumnos será continua e integradora, aunque diferenciada según las distintas asignaturas del currículo.\n\n3. La evaluación será realizada por el conjunto de profesores del alumno coordinados por el profesor tutor, actuando dichos profesores de manera integrada a lo largo del proceso de evaluación y en la adopción de las decisiones resultantes de dicho proceso.\n\n4. Los profesores evaluarán tanto el aprendizaje de los alumnos como los procesos de enseñanza.\n\n5. Las Administraciones educativas regularán las condiciones para que los centros organicen las oportunas pruebas extraordinarias con el fin de facilitar a los alumnos la recuperación de las asignaturas con evaluación negativa.\n\n6. Los resultados de la evaluación final de las distintas asignaturas que componen el currículo se expresarán mediante la escala numérica de 1 a 10 sin decimales, considerándose positivas las calificaciones iguales o superiores a cinco y negativas las inferiores a cinco. La nota media será la media aritmética de las calificaciones de todas las asignaturas cursadas que formen parte de las enseñanzas profesionales de música en la especialidad, redondeada a la centésima más próxima y en caso de equidistancia a la superior."
+        },
+        {
+          "type": "articulo",
+          "id": "art-12",
+          "number": "12",
+          "title": "Artículo 12. Promoción.",
+          "content": "1. Los alumnos promocionarán de curso cuando hayan superado las asignaturas cursadas o tengan evaluación negativa como máximo en dos asignaturas, sin perjuicio de lo que se establece en el apartado 2 de este artículo. En el supuesto de asignaturas pendientes referidas a la práctica de la danza, la recuperación de las mismas deberá realizarse en la clase del curso siguiente si éstas forman parte del mismo. En el resto de los casos, los alumnos deberán asistir a las clases de las asignaturas no superadas en el curso anterior.\n\n2. La calificación negativa en tres o más asignaturas de uno o varios cursos impedirá la promoción de un alumno al curso siguiente. La no superación de cualquiera de las asignaturas que se detallan a continuación impedirá en todos los casos la promoción al curso siguiente: Especialidad Asignaturas Danza española. Baile flamenco. Baile flamenco. Danza clásica. Danza clásica. Danza contemporánea. Técnicas de danza contemporánea. Escuela bolera. Danza española. Danza estilizada. Flamenco.\n\n3. Los alumnos que al término del 6.º curso tuvieran pendientes de evaluación positiva tres asignaturas o más deberán repetir el curso en su totalidad. Cuando la calificación negativa se produzca en una o dos asignaturas, sólo será necesario que se realicen las asignaturas pendientes."
+        },
+        {
+          "type": "articulo",
+          "id": "art-13",
+          "number": "13",
+          "title": "Artículo 13. Límites de permanencia.",
+          "content": "1. El límite de permanencia en las enseñanzas profesionales de danza será de ocho años. El alumno o la alumna no podrá permanecer más de dos años en el mismo curso, excepto en 6.º curso.\n\n2. Con carácter excepcional y en las condiciones que establezcan las Administraciones educativas, se podrá ampliar en un año la permanencia en supuestos de enfermedad grave u otras circunstancias que merezcan igual consideración."
+        },
+        {
+          "type": "articulo",
+          "id": "art-14",
+          "number": "14",
+          "title": "Artículo 14. Titulación.",
+          "content": "1. Los alumnos y las alumnas que hayan superado las enseñanzas profesionales de danza obtendrán el título profesional de danza, en el que constará la especialidad cursada.\n\n2. El alumnado que finalice las enseñanzas profesionales de danza podrá obtener el título de Bachiller en su modalidad de Artes, en las condiciones establecidas en el Real Decreto 243/2022, de 5 de abril, sin perjuicio del régimen de convalidaciones regulado para estas enseñanzas."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-5",
+      "number": "V",
+      "title": "Capítulo V. De los documentos de evaluación",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-15",
+          "number": "15",
+          "title": "Artículo 15. Documentos básicos de evaluación.",
+          "content": "1. Los documentos básicos de evaluación de las enseñanzas profesionales de danza son: el expediente académico personal, la certificación académica personal, las actas de evaluación y los informes de evaluación individualizados.\n\n2. Toda la información relativa al proceso de evaluación se recogerá, de manera sintética, en el expediente académico personal. En dicho expediente figurarán los datos personales y los datos de identificación del centro, la modalidad de acceso a las enseñanzas, los datos de matrícula y, en su caso, las medidas de adaptación curricular, los resultados de la evaluación y la nota media final.\n\n3. Los documentos básicos de evaluación citarán en lugar preferente la norma de la Administración Educativa que desarrolla el currículo correspondiente."
+        },
+        {
+          "type": "articulo",
+          "id": "art-16",
+          "number": "16",
+          "title": "Artículo 16. Contenido de las certificaciones académicas personales.",
+          "content": "1. La certificación académica personal se obtiene del expediente académico personal y tiene valor acreditativo de los estudios realizados. Este documento oficial recogerá la referencia normativa del plan de estudios, el curso académico, las calificaciones obtenidas con expresión de la convocatoria (ordinaria o extraordinaria), las asignaturas que hayan sido objeto de convalidación o reconocimiento y, en su caso, las anulaciones de matrícula y renuncia a convocatorias.\n\n2. En el caso de alumnado que curse más de una especialidad, se cumplimentará una certificación académica por cada una de ellas, y en las mismas se recogerán las asignaturas comunes que hayan sido superadas con sus calificaciones."
+        },
+        {
+          "type": "articulo",
+          "id": "art-17",
+          "number": "17",
+          "title": "Artículo 17. Lenguas de los documentos básicos.",
+          "content": "En las Comunidades Autónomas cuyas lenguas tengan estatutariamente atribuido carácter oficial, los documentos básicos de evaluación podrán ser redactados en la correspondiente lengua, debiendo ser expedidos, en todo caso, en forma bilingüe cuando lo pidan los alumnos y debiendo figurar siempre el texto castellano cuando hayan de surtir efectos fuera del ámbito de la Comunidad Autónoma. Si debiera surtir efectos en el territorio de una Comunidad Autónoma donde sea cooficial esa misma lengua distinta del castellano, no será precisa su traducción."
+        },
+        {
+          "type": "articulo",
+          "id": "art-18",
+          "number": "18",
+          "title": "Artículo 18. Procedimiento de cumplimentación y custodia.",
+          "content": "La supervisión del procedimiento de cumplimentación y custodia de los diferentes documentos de evaluación se realizará en la forma que determinen las Administraciones educativas competentes."
+        },
+        {
+          "type": "articulo",
+          "id": "art-19",
+          "number": "19",
+          "title": "Artículo 19. Procedimiento para la movilidad.",
+          "content": "1. A fin de garantizar la movilidad académica y territorial del alumnado de las enseñanzas profesionales de danza, tendrán la consideración de documentos básicos de movilidad: la certificación académica personal y el informe de evaluación individualizado que tendrán efectos en todo el territorio nacional.\n\n2. El informe de evaluación individualizado recogerá toda aquella información que resulte necesaria para la continuidad del proceso de aprendizaje."
+        }
+      ]
+    },
+    {
+      "type": "capitulo",
+      "id": "cap-6",
+      "number": "VI",
+      "title": "Capítulo VI. Correspondencia con otras enseñanzas",
+      "children": [
+        {
+          "type": "articulo",
+          "id": "art-20",
+          "number": "20",
+          "title": "Artículo 20. Correspondencia entre enseñanzas de danza y enseñanzas de educación secundaria.",
+          "content": "1. De acuerdo con el artículo 47.1 de la Ley Orgánica 2/2006, de 3 de mayo, las Administraciones educativas facilitarán al alumnado la posibilidad de cursar simultáneamente las enseñanzas artísticas profesionales y la educación secundaria.\n\n2. Asimismo, de conformidad con el artículo 47.2 de la citada Ley Orgánica 2/2006, de 3 de mayo, con objeto de hacer efectivo lo previsto en el apartado anterior, se podrán adoptar las oportunas medidas de organización y de ordenación académica que incluirán, entre otras, las convalidaciones y la creación de centros integrados.\n\n3. El Ministerio de Educación y Ciencia, consultadas las Comunidades Autónomas, establecerá correspondencias entre materias de educación secundaria obligatoria y de bachillerato y asignaturas de las enseñanzas profesionales de danza.\n\n4. Sin perjuicio de lo establecido en el apartado anterior, las Administraciones educativas podrán establecer convalidaciones cuando éstas afecten a las materias optativas de educación secundaria obligatoria y de bachillerato, y regular, en el ámbito de sus competencias, adaptaciones en sus currículos encaminadas a facilitar la simultaneidad de estudios de régimen general y de régimen especial."
+        }
+      ]
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-1",
+      "number": "primera",
+      "title": "Disposición adicional primera. Valoración del título profesional en el acceso a las",
+      "content": "enseñanzas superiores. Para hacer efectivo lo previsto en el artículo 54.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, en relación con la prueba de acceso a las enseñanzas superiores, la nota media del expediente de los estudios profesionales constituirá como máximo el cincuenta por ciento de la nota de la prueba en el caso de los alumnos y las alumnas que opten a ella y estén en posesión del título profesional de danza. Corresponde a las Administraciones educativas la concreción de ese tanto por ciento."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-2",
+      "number": "segunda",
+      "title": "Disposición adicional segunda. Alumnos con discapacidad.",
+      "content": "1. En el marco de las disposiciones establecidas en la Ley 51/2003, de 2 de diciembre, de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad, los centros escolares de nueva creación deberán cumplir con las disposiciones vigentes en materia de promoción de la accesibilidad. El resto de los centros deberá adecuarse a dicha ley en los plazos y con los criterios establecidos en la misma.\n\n2. Las Administraciones educativas adoptarán las medidas oportunas para la adaptación del currículo a las necesidades del alumnado con discapacidad."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-3",
+      "number": "tercera",
+      "title": "Disposición adicional tercera. Incorporación de alumnos procedentes de planes anteriores",
+      "content": "con asignaturas pendientes.\n\n1. Sin perjuicio de las equivalencias establecidas en el Real Decreto 806/2006, de 30 de junio, por el que se establece el calendario de aplicación de la nueva ordenación del sistema educativo, establecida por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, cuando un alumno haya suspendido dos o más asignaturas del curso que esté realizando de las enseñanzas establecidas en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, se incorporará al mismo curso de las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación, que deberá realizar completo.\n\n2. Asimismo, cuando un alumno tenga calificación negativa en una asignatura del curso que esté realizando de las enseñanzas establecidas en la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, se incorporará al curso siguiente de las enseñanzas reguladas por la Ley Orgánica 2/2006, de 3 de mayo, de Educación. A tal fin, las Administraciones educativas determinarán las condiciones para la superación de la asignatura pendiente.\n\n3. El alumno presentará el libro de calificaciones y el centro receptor abrirá el correspondiente expediente académico, al que incorporará los datos pertinentes."
+    },
+    {
+      "type": "disposicion_adicional",
+      "id": "da-4",
+      "number": "cuarta",
+      "title": "Disposición adicional cuarta. Revisión y actualización de los aspectos básicos del",
+      "content": "currículo de las enseñanzas profesionales de danza. El Gobierno mantendrá actualizados los aspectos básicos del currículo de las enseñanzas profesionales de danza. Aquellos aspectos del currículo regulados por normativa básica que requieran revisión y actualización podrán ser modificados por el Ministerio de Educación y Formación Profesional, previo informe del Consejo Escolar del Estado y del Consejo Superior de Enseñanzas Artísticas, manteniendo, en todo caso, el carácter básico del currículo resultante de dicha actualización."
+    },
+    {
+      "type": "disposicion_derogatoria",
+      "id": "dd-unica",
+      "number": "única",
+      "title": "Disposición derogatoria única. Derogación normativa.",
+      "content": "Sin perjuicio de su aplicación transitoria en función del calendario de aplicación de la nueva ordenación del sistema educativo establecido en el Real Decreto 806/2006, de 30 de junio, quedan derogados el Real Decreto 1254/1997, de 24 de julio, por el que se establecen los aspectos básicos del currículo del grado medio de las enseñanzas de danza y la Orden de 17 de noviembre de 1997, por la que se establecen los aspectos básicos de los informes de evaluación del grado medio de las enseñanzas de danza, así como los requisitos formales derivados de dicho proceso que sean precisos para garantizar la movilidad de los alumnos."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-1",
+      "number": "primera",
+      "title": "Disposición final primera. Título competencial.",
+      "content": "Este real decreto tiene carácter básico, a excepción de aquellos preceptos que hacen referencia expresa a facultades de las Comunidades Autónomas en el ámbito de sus competencias, y se dicta al amparo de lo dispuesto en el artículo 149.1.30.ª de la Constitución Española, de la habilitación que confiere al Gobierno el artículo 6.2 de la Ley Orgánica 2/2006, de 3 de mayo, de Educación, y en uso de la competencia estatal para la fijación de las enseñanzas mínimas recogida expresadamente en la disposición adicional primera. 2. c) de la Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación."
+    },
+    {
+      "type": "disposicion_final",
+      "id": "df-2",
+      "number": "segunda",
+      "title": "Disposición final segunda. Entrada en vigor.",
+      "content": "El presente real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "number": "I",
+      "title": "Anexo I",
+      "content": "[Contenido extenso del anexo - ver PDF original]"
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-2",
+      "number": "II",
+      "title": "Anexo II",
+      "content": "Horario escolar mínimo por especialidades de las enseñanzas profesionales de Danza (horas por grado)\n\n**Especialidad de Baile Flamenco**\n\n| Asignatura | Horas |\n|---|---|\n| Técnicas Básicas de danza | 905 |\n| Danza Española | 445 |\n| Baile Flamenco | 780 |\n| Estudio del Cante de Acompañamiento | 130 |\n| Estudio de la Guitarra de Acompañamiento | 130 |\n| Música | 130 |\n\n**Especialidad de Danza Clásica**\n\n| Asignatura | Horas |\n|---|---|\n| Danza Clásica | 1.662 |\n| Danza Contemporánea | 342 |\n| Música | 130 |\n| Repertorio | 386 |\n\n**Especialidad de Danza Española**\n\n| Asignatura | Horas |\n|---|---|\n| Danza Clásica | 1.175 |\n| Escuela Bolera | 420 |\n| Danza Estilizada | 320 |\n| Flamenco | 320 |\n| Folklore | 155 |\n| Música | 130 |\n\n**Especialidad de Danza Contemporánea**\n\n| Asignatura | Horas |\n|---|---|\n| Danza Clásica | 980 |\n| Improvisación | 260 |\n| Música | 130 |\n| Técnicas de Danza Contemporánea | 1.150 |"
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "Ley Orgánica 2/2006 (LOE, art. 6.2 y 47)",
+        "articles": [
+          "art-6",
+          "art-47"
+        ],
+        "relationship": "habilitante"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [
+      {
+        "lawId": "real-decreto-628-2022",
+        "title": "Real Decreto 628/2022, de 26 de julio",
+        "type": "modifica",
+        "articles": [
+          "art-14",
+          "art-15"
+        ],
+        "date": "2022-07-26",
+        "description": "Modifica los artículos 14 y 15 (titulación y documentos de evaluación) tras la LOMLOE"
+      }
+    ],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "real-decreto-1577-2006",
+        "title": "RD 1577/2006 (currículo básico EEPP Música)",
+        "description": "Norma paralela para las enseñanzas profesionales de música"
+      },
+      {
+        "lawId": "decreto-156-2007",
+        "title": "Decreto 156/2007 (currículo EEPP Danza en la CV)",
+        "description": "Desarrollo autonómico valenciano de estas enseñanzas mínimas"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "Madrid",
+    "date": "2007-01-26",
+    "signatories": [
+      {
+        "name": "Juan Carlos I",
+        "role": "Rey de España"
+      },
+      {
+        "name": "Mercedes Cabrera Calvo-Sotelo",
+        "role": "Ministerio de Educación"
+      }
+    ]
+  },
+  "scope": "danza",
+  "territory": "estatal",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "normativa"
+}

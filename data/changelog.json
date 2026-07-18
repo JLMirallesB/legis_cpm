@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.5.4",
+    "date": "2026-07-18",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Nuevo cuaderno «Centros integrados y coordinación de enseñanzas»: reúne la correspondencia entre las enseñanzas profesionales de música y danza y la educación secundaria (simultaneidad, convalidaciones y centros integrados), desde la LOE (art. 47) y los reales decretos estatales de currículo (RD 1577/2006 y RD 85/2007, art. 20; RD 303/2010 art. 14) hasta el desarrollo autonómico valenciano (decretos 156-159/2007)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta del Real Decreto 85/2007, de 26 de enero, por el que se fijan los aspectos básicos del currículo de las enseñanzas profesionales de danza (texto consolidado, última modificación por RD 628/2022). Norma estatal paralela al RD 1577/2006 de música."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Nou quadern «Centres integrats i coordinació d'ensenyances»: reunix la correspondència entre els ensenyaments professionals de música i dansa i l'educació secundària (simultaneïtat, convalidacions i centres integrats), des de la LOE (art. 47) i els reials decrets estatals de currículum (RD 1577/2006 i RD 85/2007, art. 20; RD 303/2010 art. 14) fins al desplegament autonòmic valencià (decrets 156-159/2007)."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta del Reial Decret 85/2007, de 26 de gener, pel qual es fixen els aspectes bàsics del currículum dels ensenyaments professionals de dansa (text consolidat, última modificació pel RD 628/2022). Norma estatal paral·lela al RD 1577/2006 de música."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.3",
     "date": "2026-07-18",
     "entries": {
