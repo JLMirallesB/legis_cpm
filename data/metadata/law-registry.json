@@ -455,6 +455,20 @@
       "status": "ingested",
       "category": "organizacion",
       "notes": "Documento (no normativa). PDFs separados ES/VA desde CEICE (no publicado en DOGV). Instrucciones de la Secretaría Autonómica de Educación, 03/06/2026. Preámbulo + 4 instrucciones (Primera: precauciones, Segunda: flexibilización horaria junio/septiembre para ESO/Bach/FP, Tercera: comunicación protección civil, Cuarta: entrada en vigor curso 2026/2027 con aplicación transitoria 2025/2026). Primer documento con type=instrucciones. Habilitada por art. 7 del Decreto 68/2026. Firmado por Daniel McEvoy Bravo, Secretario Autonómico de Educación."
+    },
+    {
+      "slug": "resolucion-piie-2026-2028",
+      "title": "Resolución 07/04/2026 - Convocatoria PIIE (proyectos de innovación e inclusión educativa) cursos 2026-2028",
+      "status": "ingested",
+      "category": "convocatorias",
+      "notes": "Resolución de la DG de Innovación e Inclusión Educativa (DOGV 10341, 14/04/2026). Establece el procedimiento de convocatoria, gestión y concesión de asignaciones económicas para PIIE bienales en centros públicos no universitarios de la Generalitat, cursos 2026-2027 y 2027-2028. PDFs separados ES/VA. Preámbulo + 27 apartados (Primero-Vigésimo séptimo). Habilitada por LOMLOE, Decreto 104/2018 (art.17) y Decreto 193/2025. Firmada por delegación por María del Rosario Escrig Llinares. Primera ley de la categoría Convocatorias. Autonómica, anual (bienal 26-28)."
+    },
+    {
+      "slug": "resolucion-paf-2026-2027",
+      "title": "Resolución 09/07/2026 - Convocatoria PAF (Programa anual de formación permanente de centro) curso 2026-2027",
+      "status": "ingested",
+      "category": "convocatorias",
+      "notes": "Resolución de la Secretaría Autonómica de Educación (DOGV 10407, 17/07/2026). Regula el PAF y convoca la solicitud de las modalidades formativas (proyectos de formación en centros, seminarios y grupos de trabajo) para el curso 2026-2027, y establece la dotación de recursos económicos. PDFs separados ES/VA. Preámbulo + 25 apartados (Primera-Vigésima quinta), con una tabla markdown en el apartado Décima sexta (Certificación). Habilitada por LOE (art.102) y Orden 65/2012. Firmada por Daniel McEvoy Bravo. Categoría Convocatorias, autonómica, anual (curso 26-27)."
     }
   ]
 }

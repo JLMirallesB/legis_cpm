@@ -1,0 +1,243 @@
+{
+  "id": "resolucion-paf-2026-2027",
+  "slug": "resolucion-paf-2026-2027",
+  "type": "resolucion",
+  "number": "09/07/2026",
+  "date": "2026-07-09",
+  "publishedIn": {
+    "source": "DOGV",
+    "number": "10407",
+    "date": "2026-07-17",
+    "url": "https://dogv.gva.es/va/resultat-dogv?signatura=2026/24401",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/07/17/pdf/2026_24401_va.pdf"
+  },
+  "title": "Resolució de 9 de juliol de 2026, de la Secretaria Autonòmica d'Educació, per la qual es regula el programa anual de formació permanent de centre, es convoca la sol·licitud de les modalitats formatives (projectes de formació en centres, seminaris i grups de treball) per a desenrotllar-les durant el curs 2026-2027, i s'establix la dotació de recursos econòmics per als centres docents públics de titularitat de la Generalitat.",
+  "titleShort": "Convocatòria PAF (Programa anual de formació permanent de centre) curs 2026-2027",
+  "category": "convocatorias",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-07-18"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "La Llei orgànica 2/2006, de 3 de maig, d'educació, modificada per Llei orgànica 3/2020, de 29 de desembre, establix en l'article 102 que la formació permanent constituïx un dret i una obligació de tot el professorat i una responsabilitat de les administracions educatives i dels mateixos centres.\n\nL'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives (d'ara en avant, Orde 65/2012), d'acord amb les necessitats detectades en l'alumnat, introduïx, com a principi de l'organització integral de la formació permanent del professorat, l'autonomia dels centres educatius, així com el protagonisme dels equips directius i docents davall la supervisió de la persona coordinadora de formació de centre. El programa anual de formació permanent forma part de la programació general anual dels centres docents.\n\nLa Resolució de 22 de juny de 2026, de la Secretaria Autonòmica d'Educació, per la qual s'establix el Pla anual de formació permanent del professorat corresponent al curs 2026-2027.\n\nLes actuacions de formació permanent del professorat en els centres educatius han de partir de les necessitats de formació detectades en les avaluacions internes i externes de l'alumnat i del centre reflectides en la memòria final de centre, a fi de millorar la pràctica educativa (articles 84 i 85 del Decret 253/2019, de 29 de novembre, del Consell, de regulació de l'organització i el funcionament dels centres públics que impartixen ensenyances d'Educació Infantil o d'Educació Primària, i articles 99 i 100 del Decret 252/2019, de 29 de novembre, del Consell, de regulació de l'organització i el funcionament dels centres públics que impartixen ensenyances d'Educació Secundària Obligatòria, Batxillerat i Formació Professional). Així, s'han de considerar les propostes de la Conselleria d'Educació, Cultura i Universitats, i comptar amb la col·laboració dels agents educatius. La formació del professorat ha d'incidir directament en el progrés de l'organització i la gestió dels centres i en els processos d'ensenyança i aprenentatge.\n\nResulten fonamentals, en el desenrotllament dels processos formatius que es regulen en esta resolució, la reflexió conjunta i la investigació col·laborativa entre el professorat i els diferents agents educatius, així com l'intercanvi d'experiències en els centres i entre estos. Així mateix, la participació de tota la comunitat educativa en la formació permanent afavorix de manera eficaç que cale en la millora social; per a això és necessari disposar dels mecanismes que possibiliten esta participació i d'un procediment per a facilitar-ne la continuïtat.\n\nL'article 14.3 de l'Orde 65/2012 establix que les activitats de formació corresponents a les modalitats de formació en centres, seminaris, grups de treball seran reconegudes només si han sigut convocades per l'òrgan competent en matèria de formació del professorat. L'Administració educativa valenciana mostra amb la present resolució el seu compromís amb la formació en els centres, perquè el desenrotllament professional del personal docent done la millor resposta a la realitat educativa de cada centre i el seu entorn, i facilite l'èxit escolar, social i personal de l'alumnat.\n\nPer tot això, i en virtut de les competències que em conferix l'article 68 de la Llei 5/1983, de 30 de desembre, del Consell; l'article 7 del Decret 68/2026, de 4 de maig, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura i Universitats, i l'article 107 del Decret 186/2025, de 5 de desembre, del Consell, pel qual establix l'estructura orgànica bàsica de la Presidència i de les conselleries de la Generalitat,"
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-1",
+      "number": "1",
+      "title": "Primera. Objecte",
+      "content": "Esta resolució té com a objectiu:\n\na) Regular el procediment d'elaboració, desenrotllament i finalització dels programes anuals de formació permanent de centre (PAF) del curs 2026-2027.\n\nb) Establir el termini de sol·licitud d'autorització de les modalitats formatives (projectes de formació en centres, seminaris i grups de treball) en el marc dels respectius PAF, així com regular-ne el desenrotllament, la finalització, l'avaluació i la certificació en el curs 2026-2027.\n\nc) Establir la dotació de recursos econòmics addicionals, si és el cas, als centres docents públics de titularitat de la Generalitat, que contribuïsquen al desenrotllament d'estes activitats durant el curs 2026-2027."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-2",
+      "number": "2",
+      "title": "Segona. Àmbit d'aplicació",
+      "content": "Esta resolució s'aplicarà als centres docents públics de la Conselleria Educació, Cultura i Universitats de la Generalitat Valenciana i als centres privats concertats sostinguts amb fons públics, tots estos d'ensenyances no universitàries regulades en la Llei orgànica 2/2006, de 3 de maig, d'educació, modificada per Llei orgànica 3/2020, de 29 de desembre, així com en les unitats pedagògiques hospitalàries (UPH) i en les unitats especialitzades d'orientació (UEO)."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-3",
+      "number": "3",
+      "title": "Tercera. Persones destinatàries de la formació",
+      "content": "Podrà participar en la formació regulada en esta resolució:\n\na) El personal docent de centres educatius que impartixen ensenyances no universitàries de règim general o de règim especial, les UPH i les UEO.\n\nb) El personal no docent (personal tècnic de gestió en interpretació de la llengua de signes, personal educador d'educació especial, personal fisioterapeuta, personal tècnic de gestió en Educació Infantil, personal educador social, personal terapeuta ocupacional, personal educador d'Educació Infantil, i personal treballador social) que du a terme tasques tècniques o de suport educatiu amb l'alumnat de centres docents que impartixen ensenyances no universitàries de règim general o de règim especial, les UPH i les UEO.\n\nc) El personal qualificat de primer cicle d'Educació Infantil arreplegat en l'àmbit d'aplicació, base segona de la present resolució.\n\nd) El personal docent que presta servici en els diferents departaments educatius de la Conselleria d'Educació, Cultura i Universitats en tasques d'inspecció educativa, d'assessorament o de suport, que podrà participar en seminaris específics i grups de treball constituïts per professionals del seu àmbit.\n\ne) De manera excepcional, i únicament en la modalitat projecte de formació en centres (PFC), un altre personal no docent distint del precisat en els apartats a i b i altres membres de la comunitat educativa dels centres educatius podran participar en les activitats formatives, sense que es puga certificar pel Servici de Registre i Acreditació Docent."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-4",
+      "number": "4",
+      "title": "Quarta. Disseny del programa anual de formació permanent",
+      "content": "1. Es dissenyarà a partir de les propostes de millora derivades de la reflexió conjunta sobre els resultats de les avaluacions internes i externes realitzades i les conclusions després de l'avaluació del PAF del curs anterior, en coherència amb les línies d'actuació del PAM i amb el pla estratègic de millora, en cas de ser centre PROA+.\n\n2. El programa d'activitats formatives de centre serà fixat i organitzat per l'equip directiu, amb el suport de la persona coordinadora de formació del centre (d'ara en avant, CFC), en estreta col·laboració amb la direcció d'este; la persona coordinadora de benestar i protecció, i l'equip o departament d'orientació educativa. L'equip directiu articularà la identificació de necessitats formatives, tant col·lectives com individuals, del claustre i del personal de suport, i les inclourà en el PAF. També buscarà la complementarietat amb les diferents ofertes formatives definides en el marc del Pla de formació permanent del professorat de la Conselleria d'Educació, Cultura i Universitats.\n\n3. Per al disseny del PAF es podrà comptar amb l'assessorament dels CEFIRE i de la inspecció educativa, en l'exercici de les seues funcions.\n\n4. Les sol·licituds s'ompliran segons les indicacions que es publicaran en la pàgina web de la Subdirecció General de Formació del Professorat (SDGFP)\n\nhttps://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio\n\n5. S'especificaran els gastos econòmics que es deriven de la realització de cada activitat formativa. Se sol·licitarà la suma de les quantitats de totes les activitats formatives restant el romanent del curs anterior.\n\n6. Per al registre del PAF se seguiran les instruccions que figuren en la pàgina web de la Subdirecció General de Formació del Professorat."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-5",
+      "number": "5",
+      "title": "Quinta. Requisits",
+      "content": "1. Este programa formarà part de la programació general anual (PGA) i tindrà com a finalitat aconseguir els objectius establits en el PEC o PFC en els centres integrats de Formació Professional. El seu disseny partirà de la detecció i l'anàlisi de les necessitats formatives individuals i col·lectives del professorat i del personal especialitzat per a incrementar l'èxit escolar, personal i social del seu alumnat.\n\n2. Les activitats formatives sol·licitades hauran d'estar directament relacionades amb una de les línies d'actuació del PAM.\n\n3. El PAF ha de ser aprovat pel claustre del centre. Caldrà adjuntar certificat acreditatiu de la constància en acta d'eixa aprovació, així com de la relació directa de les activitats formatives amb el PAM, firmada pel secretari o secretària del centre amb el vistiplau de la direcció. Esta certificació (model disponible en la pàgina web de formació del professorat, secció PAF) s'adjuntarà en la plataforma Ítaca. S'ha d'informar el Consell Escolar de l'aprovació del claustre."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-6",
+      "number": "6",
+      "title": "Sexta. Coordinació del PAF",
+      "content": "1. En virtut del que es disposa en l'article 10 de l'Orde 65/2012, la persona coordinadora de formació de centre (CFC) serà designada per la direcció del centre educatiu, la UEO o persona coordinadora de la UPH, entre el personal docent del claustre, preferentment amb destinació definitiva.\n\n2. Les persones CFC iniciaran l'elaboració del PAF, dinamitzaran l'inici de la sol·licitud d'activitats formatives i el seu posterior desenrotllament, concretaran el PAF i registraran les persones coordinadores de les activitats formatives (CAF) en el mòdul ITACA3 http://itaca3.edu.gva.es/itaca3-gad, si és el cas. Si es considera, la persona CFC pot coordinar també una activitat formativa. Les funcions de la persona CFC són les establides en l'article 10.2 de l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives.\n\n3. S'inscriurà d'ofici en l'espai AULES totes les persones CFC per a facilitar l'acompanyament en cada una de les fases del programa. Només les persones que s'incorporen per primera vegada a la coordinació de formació en centre hauran de realitzar la formació i podran certificar si resulten aptes en esta. Esta formació es realitzarà durant el curs escolar i impulsarà l'avaluació de l'impacte de la formació en la millora de la qualitat educativa i la creació de xarxes intercentres que faciliten el treball col·laboratiu del professorat."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-7",
+      "number": "7",
+      "title": "Sèptima. Coordinació de les activitats de formació",
+      "content": "1. Cada persona CAF coordinarà només una activitat de formació per cada curs acadèmic i seguirà les indicacions en este sentit proporcionades per la persona CFC, com determina l'article 15 de l'Orde 65/2012, del 26 d'octubre, de la\n\n2. La persona CFC podrà exercir el rol de CAF en una única activitat de formació."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-8",
+      "number": "8",
+      "title": "Octava. Modalitats formatives del PAF",
+      "content": "1. Es prioritzaran els processos de reflexió compartida, la generació de materials, l'aprenentatge col·laboratiu i l'experimentació, per la qual cosa es podrà sol·licitar participar en les següents modalitats formatives: projectes de formació en centres, seminaris i grups de treball.\n\n2. En els projectes de formació en centres i en els seminaris es podrà comptar com a ponents amb el personal del centre, amb la col·laboració i el suport de la xarxa CEFIRE, amb la inspecció educativa en l'exercici de les seues funcions, o un altre personal expert extern al centre. El suport serà com a màxim del 30 % del total d'hores planificades en la modalitat formativa, excepte si el realitza personal del centre; en eixe cas es podrà superar eixe 30 % sense arribar al 60 % de les sessions totals, amb l'ànim d'afavorir la reflexió conjunta. En cas de planificar sessions amb ponents interns i externs, la suma d'estes serà inferior al 60 % del total (respectant els percentatges establits per a ponents interns i externs).\n\n3. D'acord amb l'article 20.3 de l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives, en una activitat concreta, no es podran emetre certificats per diferents tipus de participació a la mateixa persona."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-9",
+      "number": "9",
+      "title": "Novena. Projectes de formació en centres",
+      "content": "1. Esta modalitat formativa incidix sobre la comunitat educativa d'un centre a través de la formació i el treball en comú dels seus components, de l'estudi de la pràctica professional i de la generació de coneixement compartit aplicable a cada context escolar. Els projectes de formació, per tant, han d'implicar com a mínim el 50 % del claustre per a assegurar el seu impacte positiu en la realitat del centre.\n\n2. Esta modalitat formativa preveu la possibilitat de col·laboració de persones ponents expertes, prioritàriament assessories del CEFIRE.\n\n3. En aplicació de l'article 16 de l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives, que regula la duració mínima i màxima de les diferents modalitats formatives, així com la seua distribució horària, cada centre podrà realitzar un màxim de dos projectes de formació en centres (PFC), d'un mínim de 30 hores de duració, sense superar entre els dos les 60 hores per curs escolar."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-10",
+      "number": "10",
+      "title": "Dècima. Grups de treball",
+      "content": "1. Esta modalitat formativa involucra un determinat grup de professionals del centre vinculat amb el desenrotllament de l'alumnat, mitjançant l'elaboració i/o anàlisi de materials curriculars, així com l'experimentació amb estos en diferents situacions educatives, sense la possibilitat de comptar amb docència directa de ponents externs a l'activitat.\n\n2. Tenen per objecte estudiar i desenrotllar materials de lliure distribució, d'aplicació directa en l'aula, tant en els processos d'ensenyança i aprenentatge com en els de l'avaluació:\n\na) Elaborar materials didàctics (unitats didàctiques, situacions d'aprenentatge, seqüències didàctiques, projectes, etc.).\n\nb) Analitzar i experimentar materials didàctics i/o ferramentes informàtiques per al procés d'ensenyança i aprenentatge.\n\n3. La seua duració comprendrà un mínim de 20 hores i un màxim de 30 hores.\n\n4. Per a l'elaboració dels materials es recomana el seguiment del procediment estipulat amb l'objectiu d'assegurar la coherència, homogeneïtat i qualitat dels continguts desenrotllats.\n\n5. S'establixen criteris d'avaluació dels materials elaborats per a garantir-ne la qualitat. Els materials que no complisquen amb els estàndards podran comportar la no certificació del grup de treball.\n\n6. El nombre de participants, sense incloure la persona coordinadora, no podrà ser inferior a cinc. El nombre màxim de participants el determinarà l'equip directiu tenint en compte la dinàmica del grup de treball, i es recomana que no siga superior a deu. S'atendrà la demanda dels centres que per motius de plantilla no puguen aconseguir el mínim i/o el màxim de participants."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-11",
+      "number": "11",
+      "title": "Onzena. Seminaris",
+      "content": "1. Involucren un determinat conjunt de professionals del centre vinculat amb el desenrotllament de l'alumnat, que tenen en comú àmbits i temàtiques escolars, mitjançant la reflexió, l'anàlisi, el debat i l'estudi compartit, rigorós i científic de qüestions tècniques, educatives, metodològiques o didàctiques relatives a tals àmbits i temàtiques, amb possibilitat ocasional d'una persona experta.\n\n2. La seua duració comprendrà un mínim de 20 hores i un màxim de 30 hores.\n\n3. El nombre de participants, sense incloure la persona coordinadora, no podrà ser inferior a set. El nombre màxim de participants el determinarà l'equip directiu tenint en compte la dinàmica del seminari, i es recomana que no siga superior a quinze. S'atendrà la demanda dels centres que per motius de plantilla no puguen aconseguir el mínim i/o el màxim de participants."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-12",
+      "number": "12",
+      "title": "Dotzena. Seminaris específics",
+      "content": "La Subdirecció General de Formació del Professorat, a través del Servici de Planificació i Gestió de la Formació Permanent del Professorat, podrà autoritzar seminaris específics no reflectits en la planificació inicial del PAF, en virtut del que s'establix en l'article 7.2 de l'Orde 65/2012, dirigits a perfils professionals o col·lectius específics del professorat, o per a tractar temàtiques concretes que així ho requerisquen. Al seu torn, podrà dissenyar i proposar els que considere necessaris tenint en compte les necessitats de funcions professionals específiques."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-13",
+      "number": "13",
+      "title": "Tretzena. Formes de participació en seminaris, grups de treball i PFC",
+      "content": "S'establixen dos formes de participació:\n\na) De centre únic (PUC). Participa professorat o personal especialitzat d'un sol centre o unitat.\n\nb) Intercentres (PIC). Participa professorat o personal especialitzat de diversos centres docents o unitats. Constarà com a centre coordinador aquell en el qual estiga adscrita la coordinació de l'activitat formativa (CAF). Esta opció implica el compromís de transferència a la resta de cada un dels claustres, així com la incorporació dels resultats en tots els centres participants en la seua memòria final.\n\nEn els seminaris i grups de treball intercentres, el nombre de participants és l'establit en cada modalitat formativa.\n\nEn el PFC intercentres el nombre de participants del centre coordinador ha de ser un mínim del 50 % del claustre i del 30 % del claustre de cada centre no coordinador."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-14",
+      "number": "14",
+      "title": "Catorzena. Desenrotllament de les activitats formatives",
+      "content": "1. Els PFC, els grups de treball i els seminaris es desenrotllaran, després d'aprovar-se, des de l'endemà de la resolució d'esta convocatòria fins al 30 de juny de 2027.\n\n2. En totes les modalitats formatives, fins i tot les que es duguen a terme en el mateix centre, les sessions de treball podran ser presencials o en línia, mitjançant videoconferència. Serà responsabilitat de la persona CAF el control de l'assistència del professorat.\n\n3. Durant el desenrotllament de les activitats formatives, les persones CAF hauran de registrar en la plataforma ITACA3 les actes de les sessions de treball i els fulls de firmes en format PDF firmats en un termini de set dies hàbils des de la realització de cada una de les sessions. Les persones CAF que no siguen usuàries d'ITACA 3 hauran de descarregar-se el model d'acta/firmes de la pàgina web de la Subdirecció General de Formació del Professorat\n\nhttps://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio, omplir-lo, firmar-lo, escanejar-lo en format PDF i enviar-lo a l'assessoria responsable del CEFIRE de referència. L'arxiu de l'acta/firmes s'anomenarà de la manera següent: Acta_Firmes_codi centre_mod form_data sessió (la data de la sessió es codificarà de la manera següent: aa-mm-dd).\n\n4. Durant el desenrotllament dels PFC, grups de treball i seminaris, i fins a arribar al 15 % de les sessions planificades, s'admetran canvis en la seua composició si es complixen els requisits de participació de la convocatòria. Qualsevol canvi dins de termini haurà de comunicar-se a l'assessoria de referència. Transcorregut eixe 15 %, no s'admetran canvis en participants en cap concepte.\n\n5. Una vegada finalitzada cada activitat formativa del PAF, la persona CAF haurà de completar i adjuntar en la plataforma ITACA 3 l'acta final amb la relació de persones aptes i no aptes, especificant en cas d'avaluació negativa els motius que ho justifiquen, així com la justificació dels gastos de l'activitat formativa, si n'hi haguera. A més, s'haurà d'aportar, en funció de l'activitat formativa:\n\na) Memòria final d'activitats realitzades, segons el model facilitat.\n\nb) Si és el cas, relació de persones expertes que han impartit la formació, amb el títol de la ponència impartida, el nombre d'hores i la data de realització.\n\nc) En el cas dels grups de treball, els materials produïts en finalitzar hauran de presentar-se en l'apartat d'ITACA 3 corresponent."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-15",
+      "number": "15",
+      "title": "Quinzena. Avaluació del PAF",
+      "content": "1. El procés d'avaluació i finalització del PAF no es podrà iniciar fins que no hagen conclòs, o s'hagen tancat, les activitats formatives que el componen, i les persones CAF hagen tramitat la documentació corresponent, o l'assessoria de referència de la xarxa CEFIRE haja gestionat la seua suspensió anticipada, en el cas que no s'haja dut a terme.\n\n2. La data límit per a l'enviament de la documentació és el 5 de juliol de 2027. Això implica la necessària coordinació prèvia de la persona CAF amb la persona CFC.\n\n3. Per a l'avaluació i finalització del PAF se seguiran les instruccions de la web de la Subdirecció General de Formació del Professorat quant al PAF:\n\nhttps://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio\n\n4. Les assessories dels CEFIRE avaluaran els PFC, grups de treball i seminaris a partir de la documentació aportada pels centres després de finalitzar l'activitat, considerant el seguiment realitzat durant el curs escolar i els instruments d'avaluació generats per a això.\n\n5. Els CEFIRE podran sol·licitar als centres educatius, les UEO o persona coordinadora de la UPH la informació que consideren necessària per a la correcta avaluació de les activitats.\n\n6. Es podran desestimar activitats formatives per abandó voluntari dels participants, per incompliment continuat de les funcions de coordinació, per considerar que no s'han aconseguit els objectius mínims establits en esta, o perquè els productes finals obtinguts, si és el cas, no reunixen els requisits establits per a cada activitat formativa.\n\n7. L'avaluació de les persones participants en les activitats formatives com a aptes o no aptes serà responsabilitat del CEFIRE de referència, a proposta de la persona CAF. Els CEFIRE hauran d'elaborar, per a cada activitat formativa, les actes finals d'avaluació a partir de les quals s'emetran els certificats corresponents.\n\n8. Per a certificar-se, les activitats hauran d'obtindre una valoració final positiva segons l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-16",
+      "number": "16",
+      "title": "Setzena. Certificat",
+      "content": "1. Els CEFIRE certificaran com a participant, coordinador o coordinadora, o ponent, segons el rol de cada una de les persones integrants dels PFC, seminaris i grups de treball. En el cas de les persones participants, per a obtindre el certificat s'haurà d'acreditar l'assistència a un mínim del 85 % d'hores de l'activitat formativa. En els certificats expedits constarà el mateix nombre d'hores de formació per a tots els participants. Les persones CFC rebran la seua acreditació anual en el rol de coordinació CFC. Les persones CAF certificaran com a coordinació les hores de l'activitat formativa. En l'activitat formativa en què la persona CFC assumisca les funcions de persona CAF, rebrà acreditació anual i certificat de les hores de l'activitat formativa com a persona coordinadora. Tot això en aplicació de l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives.\n\n2. En aplicació de l'article 16 de l'Orde 65/2012, de 26 d'octubre, de la Conselleria d'Educació, Formació i Ocupació, que establix el model de formació permanent del professorat i el disseny, reconeixement i registre de les activitats formatives, que regula la duració mínima i màxima de les diferents modalitats formatives, així com la seua distribució horària, es podrà certificar:\n\n| Certifica | Mínim (en hores) | Màxim (en hores) |\n|---|---|---|\n| Grup de treball | 20 | 30 (per any escolar) |\n| Formació en centres | 30 | 60 (per any escolar) |\n| Seminari | 20 | 30 (per any escolar) |\n\n3. D'acord amb l'article 20.3 de l'Orde 65/2012, de 26 d'octubre, mencionada més amunt, no es podran emetre certificats per diferents tipus de participació en la mateixa activitat formativa a la mateixa persona (ponent, assistent o coordinador/a)."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-17",
+      "number": "17",
+      "title": "Dessetena. Termini i forma de presentació de les sol·licituds de participació",
+      "content": "1. El termini de presentació de la sol·licitud serà de l'11 de setembre al 7 d'octubre de 2026.\n\n2. Les sol·licituds s'hauran de concretar seguint les instruccions que s'indiquen en la web de la Subdirecció General de Formació del Professorat relativa al PAF\n\nhttps://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-18",
+      "number": "18",
+      "title": "Dihuitena. Valoració de les propostes",
+      "content": "1. Es constituiran comissions de valoració en cada CEFIRE general, i en els CEFIRE específics designats per la Subdirecció General de Formació del Professorat que revisaran les propostes presentades de PFC, grups de treball i seminaris, a fi de valorar-les i assignar la puntuació segons el que es disposa en esta resolució. Esta comissió estarà integrada per:\n\na) Presidència: la persona que exercix la direcció del CEFIRE corresponent, que comptarà amb vot de qualitat.\n\nb) Vocals:\n\n– Una persona designada per la Inspecció General d'Educació.\n\n– Dos persones designades per la direcció del CEFIRE corresponent, d'entre les seues assessories. Actuarà com a secretari o secretària la persona de menys edat entre les assessories.\n\n2. Una vegada valorades les propostes, la direcció del CEFIRE comunicarà a la Subdirecció General de Formació del Professorat la proposta d'autorització de PFC, grups de treball i seminaris, amb indicació de les hores que s'han de certificar a l'efecte de formació permanent del professorat. En esta proposta s'haurà de fer constar el títol i la modalitat de participació de cada u. I serà la Subdirecció General de Formació de Professorat la que validarà, en última instància, les propostes presentades."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-19",
+      "number": "19",
+      "title": "Denovena. Criteris per a l'assignació de punts",
+      "content": "1. Activitats formatives amb participació de professorat d'un únic centre (PUC):\n\na) Per cada PFC: 250 punts.\n\nb) Per cada seminari: 100 punts.\n\nc) Per cada grup de treball: 50 punts.\n\n2. Activitats formatives amb participació de professorat de més d'un centre (PIC):\n\na) Per cada PFC: 315 punts.\n\nb) Per cada seminari: 125 punts.\n\nc) Per cada grup de treball: 60 punts."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-20",
+      "number": "20",
+      "title": "Vintena. Motius d'exclusió",
+      "content": "Seran motius d'exclusió i no valoració:\n\na) La no vinculació de les activitats formatives del PAF amb les línies d'actuació del PAM del centre.\n\nb) L'incompliment dels requisits establits en esta convocatòria per a la modalitat formativa corresponent.\n\nc) L'absència d'especificació del gasto econòmic junt amb la seua justificació argumentada per les necessitats de les activitats formatives proposades.\n\nd) No haver sigut certificada l'aprovació de la proposta en claustre per la secretaria o, en defecte d'això, per la direcció del centre.\n\ne) En el cas dels centres que no siguen usuaris d'ITACA, no aportar la documentació requerida.\n\nf) Haver destinat en cursos anteriors la dotació econòmica assignada per a la realització del PAF a fins diferents de la formació del professorat.\n\ng) Que l'import del pressupost de l'activitat formativa destinat a assessorament per part de persones expertes externes siga superior a un 30 % del total de les hores.\n\nNomés es valoraran les sol·licituds que s'hagen registrat dins del termini de presentació."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-21",
+      "number": "21",
+      "title": "Vint-i-unena. Resolució del procediment",
+      "content": "1. La Secretaria Autonòmica d'Educació dictarà la corresponent resolució, que es publicarà en la pàgina web de la Subdirecció General de Formació del Professorat\n\nhttps://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio, amb la relació provisional dels PFC, grups de treball i seminaris seleccionats i denegats. Esta resolució indicarà les hores que se certificaran a l'efecte de formació permanent del professorat, el títol i la modalitat de participació de cada un d'ells.\n\n2. Les persones CAF dels PFC, seminaris i grups de treball disposaran de cinc dies hàbils per a presentar, davant les direccions dels CEFIRE de referència que hagen valorat les sol·licituds, les al·legacions que estimen oportunes.\n\n3. Vistes les al·legacions presentades dins del termini establit, la Secretaria Autonòmica d'Educació dictarà una resolució amb la relació definitiva dels PFC, grups de treball i seminaris seleccionats i denegats. En esta resolució s'indicaran les hores a certificar a l'efecte de formació permanent del professorat, el títol, la modalitat de participació de cada un d'ells i, si és el cas, els recursos econòmics assignats, i es publicarà en la pàgina web de la Subdirecció General de Formació del Professorat https://ceice.gva.es/va/web/formacion-profesorado/formacio/programa-anual-de-formacio. Mitjançant esta publicació s'entendran notificats, amb caràcter general, tant els centres i les unitats implicats com el professorat i personal especialitzat participant.\n\n4. El termini màxim per a resoldre esta convocatòria serà d'un mes a partir de l'endemà de la finalització de la presentació de les sol·licituds."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-22",
+      "number": "22",
+      "title": "Vint-i-dosena. Finançament",
+      "content": "1. Els centres docents públics d'ensenyances d'Educació Infantil, Educació Primària, Educació Secundària Obligatòria, Batxillerat, Formació Professional, Educació Especial, Ensenyances de Règim Especial i Educació de Persones Adultes de titularitat de la Generalitat podran rebre en concepte de gastos de funcionament recursos econòmics per al desenrotllament dels PFC, grups de treball i seminaris. Les necessitats que en este sentit puguen generar les UEO i les UPH seran cobertes pels respectius CEFIRE de referència.\n\n2. El finançament d'esta convocatòria, fins a un màxim d'un milió d'euros (1.000.000 €), serà amb càrrec a l'aplicació pressupostària corresponent al programa G01090204.421F00, subconcepte 22606, de Formació de professorat dels pressupostos de la Generalitat per a l'exercici 2026\n\n3. En cas de disposar d'un romanent, este es destinarà a cobrir les activitats formatives convocades en la present resolució. Per a la concreció de l'assignació econòmica es dividirà l'import total dels recursos econòmics assignats a la convocatòria entre la suma total de punts obtinguts per tots els centres seleccionats, assignant a cada punt el seu valor econòmic. A cada centre se li assignarà el resultat del càlcul de la part sencera obtinguda de multiplicar els punts assignats pel valor unitari de cada punt.\n\n4. L'assignació econòmica del PAF no podrà ser superior a la necessitat pressupostada en la descripció de les necessitats. Es tindrà en compte en el càlcul d'estes el possible romanent després de l'abonament de la totalitat de les factures corresponents a les activitats formatives desenrotllades en la convocatòria del curs 2026-2027.\n\n5. L'assignació econòmica s'efectuarà als centres docents. En els PFC de modalitat intercentres, el centre gestor de l'assignació econòmica serà el centre coordinador. En els grups de treball i seminaris, el centre gestor de l'assignació econòmica serà el centre a on estiga adscrita la persona que els coordine.\n\n6. La Subdirecció General de Formació del Professorat, a través del Servici de Planificació i Gestió de la Formació Permanent del Professorat, ordenarà i instruirà els expedients dels PFC, grups de treball i seminaris proposats per les comissions de valoració constituïdes en els CEFIRE."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-23",
+      "number": "23",
+      "title": "Vint-i-tresena. Comissió de selecció i assignació de recursos econòmics",
+      "content": "1. Es constituirà una comissió de selecció i assignació de recursos, formada per:\n\na) Presidència: la persona que presidix la Subdirecció General de Formació del Professorat o persona a qui delegue, que comptarà amb vot de qualitat.\n\nb) Vocals:\n\n– La persona que ostenta la direcció del Servici de Planificació i Gestió de la Formació Permanent del Professorat, o persona a qui delegue.\n\n– Tres persones de les direccions o les assessories de la xarxa CEFIRE, designades per la Subdirecció General de Formació del Professorat.\n\nc) Secretària o secretari: un funcionari o funcionària de la Subdirecció General de Formació del Professorat, amb veu i vot.\n\n2. La comissió haurà d'ajustar la seua actuació al que disposen els articles 19 i següents de la Llei 40/2015, d'1 d'octubre, de règim jurídic del sector públic.\n\n3. Esta comissió tindrà les funcions següents:\n\na) Coordinar les comissions de valoració dels CEFIRE.\n\nb) Arreplegar de les comissions de valoració dels CEFIRE les propostes d'autorització dels PFC, grups de treball i seminaris.\n\nc) Assignar els recursos econòmics a cada centre docent segons els criteris establits en l'apartat en esta resolució.\n\nd) Elevar a la Secretaria Autonòmica d'Educació la proposta d'autorització de les activitats formatives i de l'assignació econòmica de cada centre, si és el cas."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-24",
+      "number": "24",
+      "title": "Vint-i-quatrena. Justificació dels gastos",
+      "content": "1. Els centres docents hauran de justificar la dotació utilitzant el control de l'activitat econòmica del mateix centre, especificant els ingressos i els gastos que es produïsquen en el desenrotllament de l'activitat formativa, i adjuntar la justificació de l'import de l'assignació econòmica concedida al balanç anual. Este procediment de justificació s'ha d'efectuar d'acord amb el que es disposa en l'Orde, de 18 de maig de 1995, de la Conselleria d'Educació i Ciència (DOGV 2526, 09.06.1995), per la qual es regula i s'exercix l'activitat i l'autonomia de la gestió econòmica dels centres docents públics no universitaris de la Comunitat Valenciana.\n\n2. Els centres han de conservar els documents justificatius de l'aplicació del fons rebut, mentres puguen ser objecte d'actuacions de comprovació i control.\n\n3. Atés el caràcter de sobredotació per gastos extraordinaris de funcionament, en els documents de control de l'activitat econòmica del centre s'han d'especificar clarament els ingressos i els gastos que es produïsquen a conseqüència de les actuacions del PFC, del seminari o del grup de treball.\n\n4. La secretaria dels centres haurà de justificar els gastos realitzats en les modalitats formatives corresponents per via telemàtica a través de la plataforma ITACA, en el mòdul de comptabilitat, seguint les instruccions que s'indiquen.\n\n5. La quantitat rebuda es dedicarà íntegrament a les activitats de formació, i s'haurà d'ajustar al que disposa l'article 310 de la Llei 9/2017, de 8 de novembre, de contractes del sector públic, per la qual es transposen a l'ordenament jurídic espanyol les directives del Parlament Europeu i del Consell 2014/23/UE i 2014/24/UE, de 26 de febrer de 2014.\n\n6. En el desenrotllament de les activitats de formació podran presentar-se, per a justificar-les, els gastos, la motivació i l'import dels quals hauran de figurar degudament argumentats en la descripció de la necessitat quan es faça la sol·licitud de l'activitat formativa corresponent als següents conceptes:\n\na) Docència o assessorament per persones expertes externes a l'activitat formativa que no pertanguen a la xarxa de CEFIRE i si les hores impartides no superen el 30 % de les hores programades.\n\nb) Desplaçaments de les persones que impartixen ponències. No s'abonaran gastos de desplaçament a les persones participants per assistir al lloc en el qual, de manera ordinària, es desenrotlla l'activitat formativa sol·licitada i autoritzada. Únicament, en el cas en què en el desenrotllament de la planificació d'un seminari o PFC, i davall la supervisió de la persona assessora responsable del CEFIRE de referència, es realitze una activitat que implique el desplaçament de tot el grup a una localitat distinta, es podrà procedir a la tramitació de la indemnització corresponent, segons el que s'establix en el Decret 80/2025, de 3 de juny, del Consell, sobre indemnitzacions per raó del servici i gratificacions per servicis extraordinaris.\n\nc) Materials no inventariables directament relacionats amb l'activitat formativa."
+    },
+    {
+      "type": "articulo",
+      "id": "apartado-25",
+      "number": "25",
+      "title": "Vint-i-cinquena. Propietat intel·lectual i publicació dels materials",
+      "content": "Les persones que realitzen els materials generats durant les activitats formatives del PAF són responsables del compliment de la normativa vigent tant en matèria de protecció de dades (Llei orgànica 3/2018, de 5 de desembre, de protecció de dades personals i garantia dels drets digitals) com de propietat intel·lectual (Reial decret legislatiu 1/1996, de 12 d'abril, pel qual s'aprova el text refós de la Llei de propietat intel·lectual).\n\nEls materials resultants de l'activitat formativa en cada una de les modalitats quedaran a la disposició de la Subdirecció General de Formació del Professorat després de finalitzar l'activitat, i previ a certificar-ho, acompanyant la documentació que s'entregarà al CEFIRE per a certificar-la.\n\nEls materials avaluats positivament per la seua originalitat i qualitat podran ser publicats en els repositoris de la Conselleria d'Educació, Cultura i Universitats, fent constar el nom de les persones participants i el de les persones coordinadores."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "lawId": "ley-organica-2-2006",
+        "title": "Llei Orgànica 2/2006 (LOE, art. 102: formació permanent)",
+        "articles": [
+          "art-102"
+        ],
+        "relationship": "desarrollo"
+      },
+      {
+        "title": "Ordre 65/2012 (model de formació permanent del professorat)",
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": []
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-07-09",
+    "signatories": [
+      {
+        "name": "Daniel McEvoy Bravo",
+        "role": "Secretari autonòmic d'Educació"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "anual",
+    "schoolYear": "26-27",
+    "expiresDate": "2027-09-01"
+  },
+  "docType": "normativa"
+}

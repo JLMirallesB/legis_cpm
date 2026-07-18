@@ -127,6 +127,15 @@
       "icon": "award"
     },
     {
+      "id": "convocatorias",
+      "label": { "es": "Convocatorias", "va": "Convocatòries" },
+      "description": {
+        "es": "Convocatorias de programas, proyectos y ayudas a los que los centros o el profesorado se presentan voluntariamente",
+        "va": "Convocatòries de programes, projectes i ajudes als quals els centres o el professorat es presenten voluntàriament"
+      },
+      "icon": "door"
+    },
+    {
       "id": "general",
       "label": { "es": "Normativa general", "va": "Normativa general" },
       "description": {
