@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.5.5",
+    "date": "2026-07-20",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Instrucción núm. 1/2026 de la Dirección General de Infraestructuras Educativas y la Dirección General de Centros Docentes, sobre medidas provisionales para la mejora del confort térmico en centros educativos: adquisición, instalación y uso de equipos portátiles de aire acondicionado hasta la ejecución del Plan EduClima, con el Anexo I de condiciones técnicas y las instrucciones de gestión contable de la dotación económica extraordinaria (subcuentas 013CLIMA y 625CLIMA)."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Instrucción núm. 6, de 26 de abril de 2023, de la Dirección General de Infraestructuras Educativas, sobre condiciones de confort térmico en los centros educativos: protocolo de autorización de ventiladores, equipos de aire acondicionado y medidas alternativas (Anexo 1 para centros de titularidad municipal, Anexo 2 para centros de la Conselleria). Es la norma que complementa la Instrucción 1/2026, con la que queda enlazada."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Instrucció núm. 1/2026 de la Direcció General d'Infraestructures Educatives i la Direcció General de Centres Docents, sobre mesures provisionals per a la millora del confort tèrmic en centres educatius: adquisició, instal·lació i ús d'equips portàtils d'aire condicionat fins a l'execució del Pla EduClima, amb l'Annex I de condicions tècniques i les instruccions de gestió comptable de la dotació econòmica extraordinària (subcomptes 013CLIMA i 625CLIMA)."
+        },
+        {
+          "type": "nou",
+          "description": "Ingesta de la Instrucció núm. 6, de 26 d'abril de 2023, de la Direcció General d'Infraestructures Educatives, sobre condicions de confort tèrmic en els centres educatius: protocol d'autorització de ventiladors, equips d'aire condicionat i mesures alternatives (Annex 1 per a centres de titularitat municipal, Annex 2 per a centres de la Conselleria). És la norma que complementa la Instrucció 1/2026, amb la qual queda enllaçada."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.4",
     "date": "2026-07-18",
     "entries": {
@@ -1896,17 +1922,17 @@
         },
         {
           "type": "nuevo",
-          "description": "Estructura base con cat\u00e1logo, b\u00fasqueda y soporte biling\u00fce (castellano / valenciano)"
+          "description": "Estructura base con catálogo, búsqueda y soporte bilingüe (castellano / valenciano)"
         }
       ],
       "va": [
         {
           "type": "nou",
-          "description": "Llan\u00e7ament inicial del lloc Legis CPMDEM"
+          "description": "Llançament inicial del lloc Legis CPMDEM"
         },
         {
           "type": "nou",
-          "description": "Estructura base amb cat\u00e0leg, cerca i suport biling\u00fce (castell\u00e0 / valenci\u00e0)"
+          "description": "Estructura base amb catàleg, cerca i suport bilingüe (castellà / valencià)"
         }
       ]
     }

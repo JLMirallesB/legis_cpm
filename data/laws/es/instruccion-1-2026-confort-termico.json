@@ -1,0 +1,168 @@
+{
+  "id": "instruccion-1-2026-confort-termico",
+  "slug": "instruccion-1-2026-confort-termico",
+  "type": "instrucciones",
+  "number": "1/2026",
+  "date": "2026-07-20",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "1/2026",
+    "date": "2026-07-20",
+    "url": "",
+    "pdfUrl": ""
+  },
+  "title": "Instrucción núm. 1/2026 “Medidas provisionales para la mejora del confort térmico en centros educativos”, de 17 de julio, de la Dirección General de Infraestructuras Educativas y la Dirección General de Centros Docentes",
+  "titleShort": "Instrucción 1/2026 - Confort térmico en centros educativos",
+  "category": "economica",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2026-07-20"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Antecedentes",
+      "content": "El incremento de la frecuencia, intensidad y duración de los episodios de altas temperaturas que se viene registrando en los últimos años, especialmente durante los meses finales del curso escolar y el inicio del siguiente, está teniendo una incidencia directa sobre las condiciones ambientales existentes en los centros docentes públicos de la Comunitat Valenciana. Esta circunstancia afecta tanto a las aulas como al resto de los espacios destinados a la actividad educativa y puede comprometer el normal desarrollo de la actividad lectiva, pudiendo repercutir en las condiciones de seguridad, salud y bienestar del alumnado, del personal docente y del resto de trabajadores de los centros.\n\nCon el fin de hacer frente a esta realidad, la Generalitat ha venido adoptando diferentes medidas dirigidas a minimizar los efectos derivados de las altas temperaturas en los centros educativos. En este sentido, se dictó por el órgano competente la Instrucción núm. 6, de 26 de abril de 2023, “condiciones de confort térmico en los centros educativos”, de la Dirección General de Infraestructuras Educativas, sobre el procedimiento establecido para mejorar las condiciones de confort térmico en los centros educativos públicos de la Comunitat Valenciana (en adelante Instrucción núm. 6, de 26 de abril de 2023), mediante la que se estableció el procedimiento para atender las solicitudes formuladas por los ayuntamientos, como titulares de los centros de educación infantil y primaria, así como por las direcciones de los centros docentes de titularidad de la Generalitat, para la adopción de actuaciones destinadas a mejorar las condiciones de confort térmico de los edificios educativos existentes.\n\nAsimismo, la Secretaría Autonómica de Educación ha venido recordando y actualizando las medidas preventivas y organizativas que deben adoptar los centros educativos ante situaciones de exposición a altas temperaturas, contemplando en sus Instrucciones de 3 de junio de 2026, de la Secretaría Autonómica de Educación, sobre las medidas a adoptar ante posibles exposiciones a altas temperaturas en centros educativos, entre otras, la reorganización del uso de los espacios, la flexibilización horaria en determinados supuestos y la coordinación con las administraciones competentes cuando las condiciones térmicas pudieran comprometer la normal prestación del servicio educativo. Estas actuaciones ponen de manifiesto la necesidad de combinar medidas organizativas con actuaciones materiales que permitan mejorar progresivamente las condiciones de confort de los edificios docentes.\n\nEn este contexto, el President de la Generalitat anunció, mediante declaración institucional realizada el día 12 de junio de 2026, la puesta en marcha del Plan EduClima, dotado con una inversión global de 140 millones de euros, de los cuales 32 millones de euros se encuentran recogidos en el proyecto de presupuestos para el ejercicio 2026, con el objetivo de climatizar la totalidad de las aulas de los centros docentes públicos de la Comunitat Valenciana mediante soluciones permanentes y energéticamente eficientes.\n\nNo obstante, la ejecución material de las actuaciones previstas en el citado Plan requiere necesariamente una planificación técnica y administrativa que impide que la totalidad de las intervenciones puedan encontrarse finalizadas al inicio del curso 2026-2027. En consecuencia, resulta necesario establecer medidas de carácter transitorio, no tenidas en cuenta en la Instrucción núm. 6, de 26 de abril de 2023, que permitan atender aquellas situaciones en las que las condiciones térmicas existentes dificulten el normal desarrollo de la actividad docente, garantizando al mismo tiempo la seguridad de las instalaciones y el cumplimiento de la normativa técnica aplicable.\n\nEntre dichas medidas transitorias se contempla la posibilidad de instalar equipos portátiles de aire acondicionado en aquellos espacios docentes en los que, de manera justificada y hasta la ejecución de las actuaciones definitivas previstas en el Plan EduClima, resulte necesario mejorar las condiciones de confort térmico. Dada la incidencia que este tipo de equipos puede tener sobre las instalaciones eléctricas de los edificios, así como sobre las condiciones de seguridad y funcionamiento de los centros, resulta preciso establecer criterios homogéneos para su instalación y utilización, determinando el procedimiento a seguir y las condiciones técnicas que deberán cumplirse.\n\nEn virtud de lo anterior, y en el ejercicio de las competencias atribuidas a la Dirección General de Infraestructuras Educativas y la Dirección General de Centros Docentes por el Decreto 68/2026, de 4 de mayo, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Universidades, se dicta la presente Instrucción."
+    },
+    {
+      "type": "seccion",
+      "id": "objeto",
+      "title": "Objeto de la Instrucción",
+      "content": "La presente Instrucción tiene por objeto establecer el régimen aplicable a la adquisición e implementación de medidas para mejorar el confort térmico en los centros educativos públicos, en los términos establecidos en la Instrucción núm. 6, de 26 de abril de 2023. En particular regula la adquisición, instalación y uso de equipos portátiles de aire acondicionado en los centros docentes públicos de titularidad de la Generalitat, como medida de carácter provisional y temporal hasta la ejecución de las actuaciones previstas en el Plan EduClima.\n\nAsimismo, la presente Instrucción, que complementa la Instrucción núm. 6, de 26 de abril de 2023, de la Dirección General de Infraestructuras Educativas, y las Instrucciones de 3 de junio de 2026 de la Secretaría Autonómica de Educación sobre las medidas a adoptar ante posibles exposiciones a altas temperaturas en centros educativos, determina las condiciones para la utilización de los créditos habilitados con esta finalidad, así como el procedimiento y los requisitos técnicos que deberán cumplirse para la instalación de equipos portátiles de aire acondicionado, aspectos no contemplados en la citada Instrucción núm. 6, de 26 de abril de 2023."
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "number": "1",
+      "title": "Primero. Ámbito de aplicación",
+      "content": "La presente Instrucción se aplicará a la adquisición, instalación y utilización de las medidas reservadas a mejorar el confort térmico en los centros educativos públicos, como complemento a las previstas en la citada Instrucción núm. 6 de 2023, concretamente para la instalación y uso de equipos portátiles de aire acondicionado destinados a aulas y otros espacios docentes de los centros públicos, como medida de carácter provisional hasta la ejecución de las actuaciones de climatización previstas en el Plan EduClima.\n\nSe deberá priorizar la instalación de los equipos en aquellas aulas con condiciones térmicas más desfavorables (orientaciones sur/suroeste, plantas superiores, ausencia de protecciones solares en huecos de fachada, etcétera).\n\nLa instalación de dichos equipos deberá ser compatible con las características y capacidad de la instalación eléctrica existente en el centro y la potencia eléctrica contratada, así como conforme a los requisitos técnicos establecidos en el Anexo I de la presente Instrucción.\n\nLa adquisición de los equipos se efectuará con cargo a los créditos habilitados al efecto, respetando en todo caso la normativa vigente en materia de contratación pública y los límites aplicables a los contratos menores."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "number": "2",
+      "title": "Segundo. Plazo de ejecución",
+      "content": "Las actuaciones de adquisición e instalación de los equipos deberán ejecutarse, con carácter general, antes del inicio del mes de octubre de 2026 o, en caso de necesidad de modificación de la instalación eléctrica, antes de marzo de 2027.\n\nCuando, por causas debidamente justificadas, no resulte posible ejecutar dichas actuaciones dentro del plazo señalado, la adquisición e instalación podrán posponerse hasta el mes de marzo de 2027, manteniendo en todo caso su carácter estrictamente provisional hasta la ejecución de las actuaciones definitivas previstas en el Plan EduClima."
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "number": "3",
+      "title": "Tercero. Condiciones de utilización",
+      "content": "Los equipos portátiles de aire acondicionado únicamente podrán utilizarse en las dependencias para las que hayan sido adquiridos e instalados, de acuerdo con las condiciones técnicas establecidas en el Anexo I y respetando las instrucciones de seguridad y funcionamiento aplicadas por la dirección del centro.\n\nSu utilización tendrá carácter temporal y cesará una vez se ejecuten las actuaciones de climatización previstas en el Plan EduClima o cuando así lo determinen los servicios técnicos competentes."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "number": "I",
+      "title": "Anexo I. Condiciones técnicas para la instalación de equipos de climatización portátiles",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "anexo-1-consideraciones-generales",
+          "title": "1. Consideraciones técnicas generales",
+          "content": "Los aires acondicionados portátiles son equipos compactos, que no requieren instalación, salvo la conexión del tubo de evacuación de aire a una abertura exterior, como puede ser una ventana y la eliminación o retirada del agua de condensados.\n\nLos aires acondicionados portátiles requieren una ubicación próxima a una toma de corriente y a una ventana, de manera que se pueda expulsar el aire caliente del ambiente al exterior. Además, debe disponer de un espacio libre alrededor, para que circule el aire adecuadamente (las dimensiones de este espacio libre varían según fabricante y modelo).\n\nLos fabricantes suelen disponer de accesorios para conectar el tubo de evacuación a ventanas correderas y algunos también para ventanas batientes. Si no fuera así, siempre existe la opción de fijar la apertura de la ventana (evitando que un golpe de viento pueda abrirla completamente) para poder sacar el conducto de evacuación y emplear materiales aislantes para cubrir el resto del hueco de la ventana."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-climatizador-evaporativo",
+          "title": "2. Climatizador evaporativo versus aire acondicionado portátil",
+          "content": "Es necesario señalar que en el mercado existen equipos portátiles para mejorar el confort térmico como son:\n\n– Climatizador evaporativo\n– Aire acondicionado\n\nEs importante distinguir entre unos y otros porque, aunque parezcan lo mismo, presentan diferencias significativas.\n\nUn climatizador evaporativo enfría el aire mediante el proceso de evaporación del agua, creando un ambiente más fresco. En regiones con climas secos, los climatizadores evaporativos son altamente eficaces, ya que incrementan la humedad relativa y refrescan el ambiente. Sin embargo, en áreas con humedad elevada, su eficiencia disminuye, por lo que no se recomienda su uso en este tipo de áreas.\n\nLos climatizadores evaporativos tienen un consumo energético menor que los aires acondicionados portátiles y no requieren la conexión de un tubo exterior para expulsar el aire caliente al exterior, sin embargo, requieren de un clima seco y la limpieza periódica del depósito de agua para evitar la producción de gérmenes y patógenos, e ir llenando el depósito de agua.\n\nLos aires acondicionados portátiles enfrían el aire en cualquier tipo de clima (seco o húmedo) y reducen la humedad."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-caracteristicas-equipos",
+          "title": "3. Características básicas de los equipos",
+          "content": "Los equipos de aire acondicionado portátil existentes en el mercado pueden ser solo frío, o frío y calor (bomba de calor), por lo que, dado que las aulas suelen tener la calefacción resuelta, hablamos en este caso de equipos solo frio, que suelen ser más económicos y hay mayor gama disponible en el mercado.\n\nA la hora de escoger un equipo, deberán tenerse en cuenta los siguientes parámetros fundamentales:\n\n– Marcado CE: Símbolo obligatorio que indica que un producto cumple con los requisitos legales y técnicos de seguridad, salud y medio ambiente exigidos en la Unión Europea.\n– Potencia/Capacidad del equipo en frío: Seleccionaremos un equipo en función de las necesidades del espacio. Ver el apartado de dimensionado de los equipos.\n– Eficiencia energética: Se recomienda una eficiencia energética mínima de clase “A”.\n– Potencia/Consumo eléctrico: Ver el apartado instalación eléctrica.\n– Nivel de ruido en dB o dB (A) o potencia sonora en W de los equipos: este parámetro los fabricantes suelen indicarlo de diferente manera y no es un valor que se pueda comparar directamente.\n\nOtras características para tener en cuenta son las funciones adicionales de estos equipos como la función deshumidificadora, recomendable en zonas costeras debido a la mayor humedad ambiente o sistemas de filtrado adicionales."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-dimensionado",
+          "title": "4. Dimensionado de los equipos y número",
+          "content": "Para dimensionar los equipos es necesario realizar un cálculo de las cargas térmicas necesarias. Estas cargas vienen determinadas por distintos factores como son:\n\n– Características del espacio: Dimensiones, materiales constructivos, aislamiento térmico, orientación y ubicación.\n– Cargas internas: Ocupación, uso, equipamiento (iluminación, motores…)\n– Condiciones exteriores: Temperatura, humedad, radiación solar…\n\nDado que lo abordado en este documento es una medida provisional, se recomiendan los siguientes valores orientativos (116 – 163 W/m²) a la hora de determinar las cargas térmicas de las aulas para seleccionar la potencia de los equipos.\n\nSe ha de tener en cuenta que en el mercado existen equipos que presentan su capacidad de enfriamiento en distintas unidades como pueden ser frigorías por hora o BTU (unidades térmicas británicas) por hora además de la potencia en watios (W).\n\nCon el fin de facilitar la selección de equipos se presenta la siguiente tabla:\n\n**Cargas térmicas orientativas por m² de superficie**\n\n| Nivel de exigencia | Watios (W) | frigorías/hora | BTU |\n|---|---|---|---|\n| I | 116 | 100 | 396 |\n| II | 140 | 120 | 478 |\n| III | 163 | 140 | 556 |\n\nPOTENCIA NECESARIA DEL EQUIPO/S A ADQUIRIR = SUPERFICIE (m²) x CARGA TÉRMICA POR m²\n\nEl nivel de exigencia se determinará por cada centro en función de la exposición solar, la superficie de acristalamiento, la ubicación interior o exterior, y la experiencia previa de años anteriores."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-instalacion-electrica",
+          "title": "5. Instalación eléctrica",
+          "content": "La puesta en funcionamiento de los equipos de confort térmico requiere unas condiciones adecuadas de la instalación eléctrica de los centros. Por este motivo, la presente instrucción incorpora las previsiones necesarias en esta materia, de modo que la adquisición de los equipos se realice de forma planificada y con plenas garantías de funcionamiento y seguridad, conforme a la normativa vigente.\n\nCon carácter general y dado que se trata de una actuación provisional, las instalaciones eléctricas de los centros que cumplen la normativa vigente no deberían revestir ningún tipo de inconveniente.\n\nNo obstante, como ya se ha indicado, es necesario disponer de una toma de corriente para estos equipos, por lo que se deberá analizar tanto la instalación eléctrica de baja tensión, como la potencia contratada por el centro, para concluir si es suficiente con la instalación existente o si, por el contrario, es necesario realizar una ampliación de la instalación eléctrica de baja tensión y/o aumentar la potencia contratada, con el apoyo de la empresa instaladora de baja tensión que tenga contratado la revisión periódica obligatoria y/o el mantenimiento de la instalación o bien, cualquier instalador autorizado.\n\nLos centros docentes con una potencia superior a 100 kW instalados, aunque la potencia contratada sea inferior, y las escuelas infantiles de primer ciclo (0 – 3 años) independientemente de su potencia instalada, están obligados a tener suscrito un contrato de mantenimiento de la instalación de baja tensión con empresa instaladora, la cual debe emitir un Boletín de Revisión Anual (BRA). Si la potencia es inferior a 100 kW no se exige contrato de mantenimiento, pero sí revisión periódica obligatoria anual (BRA) por considerarse local de pública concurrencia. Excepcionalmente, si los centros docentes (que no sean escuelas infantiles de primer ciclo) tienen una ocupación prevista no superior a 50 personas, no son considerados como locales de pública concurrencia, y por tanto no es obligatoria su revisión periódica anual.\n\nPara más información se puede consultar el siguiente enlace: https://sede.gva.es/es/detall-tramit?id_proc=22686\n\nLa instalación puntual de diferentes elementos de climatización no debería revestir de inconveniente, no obstante, antes de la compra y disposición de los equipos se deberá verificar que la instalación eléctrica está en buen estado, comprobando que la última revisión de baja tensión ha sido favorable (BRA favorable). En caso contrario deberán previamente llevarse a cabo las reparaciones indicadas a tal fin. En los centros de titularidad municipal, dicha gestión deberá llevarse a cabo por el Ayuntamiento como parte de las labores de conservación y mantenimiento de su competencia.\n\nAsimismo, se deberá acreditar por parte del instalador autorizado que la potencia eléctrica contratada en el centro puede absorber el incremento de potencia producido por el funcionamiento simultáneo del conjunto de los equipos a adquirir.\n\nLa ampliación o modificación de la instalación eléctrica, en el caso de que sea necesaria, debe realizarse por una empresa instaladora autorizada en instalaciones eléctricas. Puede consultarse en el portal de industria de la Generalitat Valenciana, en el apartado de consultas públicas en industria, las empresas instaladoras y mantenedoras inscritas en la Comunitat Valenciana de la zona (https://portalindustria.gva.es/es/consultes-publiques), o acudir a la página del Registro Integrado Industrial del Ministerio.\n\nCuando se trate de una escuela infantil o de un centro docente con una ocupación prevista de más de 50 personas, es de aplicación la ITC-BT-28 INSTALACIONES EN LOCALES DE PÚBLICA CONCURRENCIA, del Reglamento Electrotécnico de Baja Tensión (en adelante REBT). En el supuesto de ser necesaria una ampliación o modificación de la instalación de un local de pública concurrencia, de acuerdo con la ITC-BT-04 DOCUMENTACIÓN Y PUESTA EN SERVICIO DE LAS INSTALACIONES, y la ITC-BT-05 VERIFICACIONES E INSPECCIONES del REBT, será necesario la redacción de proyecto técnico e inspección por organismo de control, así como registrar la modificación ante la Conselleria con competencias en industria. En otros supuestos, se estará a lo indicado en el REBT en cuanto a la documentación exigible e inspección inicial.\n\nEn el portal de industria de la Generalitat Valenciana, en el apartado de Trámites y servicios, Seguridad Industrial y metrología, Instalaciones y establecimientos, se encuentra toda la información y los trámites relativos a las instalaciones de baja tensión (https://portalindustria.gva.es/es/instal-lacions-i-establiments)."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-gestion-contable",
+          "title": "6. Gestión contable de la dotación económica",
+          "content": "La dotación económica extraordinaria que reciban los centros docentes públicos no universitarios, destinada a la realización de actuaciones provisionales para mejorar el confort térmico en los centros educativos, incluida la adquisición, instalación y utilización de aparatos de aire acondicionado portátil, deberá observar las siguientes instrucciones para su correcta gestión económica.\n\nLos centros recibirán una dotación económica extraordinaria, de carácter finalista, destinada exclusivamente a la realización de actuaciones provisionales para mejorar el confort térmico en los centros educativos, incluyendo aquellos elementos auxiliares que resulten necesarios para su instalación y funcionamiento. Asimismo, esta dotación podrá destinarse a la revisión de las instalaciones eléctricas de los centros de titularidad de la Generalitat Valenciana, cuando dicha actuación resulte necesaria para garantizar la correcta instalación, puesta en funcionamiento o uso de los equipos de climatización portátil adquiridos con cargo a la misma, así como a aquellos gastos asociados que resulten necesarios para su funcionamiento en condiciones adecuadas.\n\nDicha dotación tiene carácter extraordinario y responde a la necesidad de mejorar las condiciones térmicas de los espacios educativos ante episodios de altas temperaturas, hasta la ejecución de las actuaciones estructurales previstas en el Plan EduClima.\n\nLos equipos adquiridos con cargo a esta dotación deberán incorporarse obligatoriamente al inventario del centro, al tratarse de bienes de carácter inventariable de conformidad con la normativa aplicable en materia de gestión patrimonial y económica de los centros docentes públicos.\n\n**Registro contable:**\n\nPara la correcta gestión e identificación del gasto, deberán utilizarse exclusivamente las subcuentas específicas habilitadas al efecto:\n\n– Ingreso: 013CLIMA – Ingreso extraordinario para adquisición de equipos de climatización portátiles.\n– Gasto: 625CLIMA – Gasto extraordinario para adquisición de equipos de climatización portátiles inventariables.\n\nEl gasto deberá realizarse respetando los límites de gestión económica establecidos en la normativa de aplicación a los centros docentes no universitarios. Así la Ley de Presupuestos de la Generalitat vigente, de conformidad con su artículo 10, establece que los centros docentes no universitarios podrán realizar gastos de equipamiento que excedan del mantenimiento ordinario hasta un límite conjunto de 75.000 euros anuales. E incluso podrá autorizarse un importe adicional de hasta 75.000 euros, previa solicitud a la Dirección Territorial correspondiente, y justificación debidamente motivada de la necesidad.\n\nPor su parte, las adquisiciones deberán ajustarse a lo dispuesto en la Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público. En particular, solo podrán realizar la contratación menor con los límites establecidos por la ley, es decir, tienen la consideración de contratos menores los contratos de suministro de importe inferior a 15.000 euros (IVA excluido). Además, la contratación deberá respetar los principios de buena gestión, eficiencia en el gasto y prohibición del fraccionamiento indebido del contrato.\n\nPor último, conforme a la Orden de 18 de mayo de 1995, por la cual se establecen las normas que regulan la gestión económica de los centros docentes públicos no universitarios de la Generalitat Valenciana, los gastos que superen el importe de 1.803 euros deberán ser aprobados previamente por el Consejo Escolar.\n\n**Justificación y seguimiento:**\n\nLa correcta aplicación de los fondos será objeto de seguimiento, dentro de sus funciones ordinarias, por parte de:\n\n– La Inspección Educativa, en relación con la adecuación del gasto y su correcta imputación contable.\n– Las Direcciones Territoriales, en lo relativo al control económico y, en su caso, la autorización de actuaciones extraordinarias."
+        }
+      ]
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Decreto 68/2026, de 4 de mayo, del Consell, de aprobación del Reglamento orgánico y funcional de la Conselleria de Educación, Cultura y Universidades",
+        "articles": [],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Instrucción núm. 6, de 26 de abril de 2023, de la Dirección General de Infraestructuras Educativas, sobre condiciones de confort térmico en los centros educativos",
+        "articles": [],
+        "relationship": "desarrollo",
+        "lawId": "instruccion-6-2023-confort-termico"
+      }
+    ],
+    "priorAffectations": [
+      {
+        "lawId": "instruccion-6-2023-confort-termico",
+        "title": "Instrucción núm. 6, de 26 de abril de 2023, “Condiciones de confort térmico en los centros educativos”, de la Dirección General de Infraestructuras Educativas, sobre el procedimiento establecido para mejorar las condiciones de confort térmico en los centros educativos públicos de la Comunitat Valenciana",
+        "type": "modifica",
+        "articles": [],
+        "date": "2026-07-20",
+        "description": "Complementa la Instrucción 6/2023 regulando los equipos portátiles de aire acondicionado y la gestión contable de la dotación, aspectos no contemplados en ella."
+      }
+    ],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "instrucciones-altas-temperaturas-2026",
+        "title": "Instrucciones de 3 de junio de 2026, de la Secretaría Autonómica de Educación, sobre las medidas a adoptar ante posibles exposiciones a altas temperaturas en centros educativos",
+        "description": "Medidas preventivas y organizativas que complementa esta Instrucción con actuaciones materiales."
+      },
+      {
+        "lawId": "cuenta-gestion-centros-docentes",
+        "title": "Cuenta de Gestión de Centros Docentes Públicos No Universitarios — Guía práctica de preguntas frecuentes",
+        "description": "Marco general de gestión económica de los centros al que se ajusta el registro contable de la dotación (subcuentas 013CLIMA / 625CLIMA)."
+      },
+      {
+        "title": "Orden de 18 de mayo de 1995, por la que se establecen las normas que regulan la gestión económica de los centros docentes públicos no universitarios de la Generalitat Valenciana",
+        "description": "Los gastos superiores a 1.803 euros deben ser aprobados previamente por el Consejo Escolar."
+      },
+      {
+        "title": "Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público",
+        "description": "Límite de contrato menor de suministro: 15.000 euros (IVA excluido) y prohibición de fraccionamiento indebido."
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-07-20",
+    "signatories": [
+      {
+        "name": "José María Larena Berrocal",
+        "role": "Director general de Infraestructuras Educativas"
+      },
+      {
+        "name": "Jorge Cabo Martínez",
+        "role": "Director general de Centros Docentes"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}

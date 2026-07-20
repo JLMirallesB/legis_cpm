@@ -490,6 +490,20 @@
       "status": "ingested",
       "category": "curriculo",
       "notes": "Real Decreto estatal (BOE 38, 13/02/2007). Fija los aspectos básicos del currículo de las enseñanzas profesionales de danza (LOE). Norma paralela al RD 1577/2006 (música) — misma estructura: preámbulo + 6 capítulos (arts. 1-20) + 4 DA + DD + 2 DF + Anexo I (enseñanzas mínimas, stub) + Anexo II (horario mínimo por especialidad, tabla). TEXTO CONSOLIDADO (última modificación 27/07/2022 por RD 628/2022, que modifica arts. 14 y 15 — cross-ref bidireccional). Solo en castellano; VA usa mismo contenido con nota. Firmado por Juan Carlos I y Mercedes Cabrera Calvo-Sotelo. Estatal, permanente. Ingestado para el cuaderno 'Centros integrados y coordinación' (art. 20)."
+    },
+    {
+      "slug": "instruccion-1-2026-confort-termico",
+      "title": "Instrucción 1/2026 - Confort térmico en centros educativos",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "Instrucción núm. 1/2026 de la Dirección General de Infraestructuras Educativas y la Dirección General de Centros Docentes (CEICE, no publicada en DOGV; firmada el 20/07/2026). Medidas provisionales para mejorar el confort térmico: adquisición, instalación y uso de equipos portátiles de aire acondicionado hasta la ejecución del Plan EduClima. Estructura: preámbulo (Antecedentes) + sección Objeto + apartados Primero-Tercero (ámbito, plazo, condiciones de uso) + Anexo I con 6 sub-secciones (consideraciones técnicas, evaporativo vs aire acondicionado, características, dimensionado con tabla de cargas térmicas, instalación eléctrica, gestión contable). Gestión económica: subcuentas 013CLIMA (ingreso) y 625CLIMA (gasto), límite 75.000 € art. 10 Ley Presupuestos, contrato menor 15.000 €, aprobación Consejo Escolar >1.803 €. docType documentos, permanente, autonómico, scope general. Discrepancia de fecha entre PDF ES (17 de julio) y VA (14 de juliol): se usa 20/07/2026 (firma electrónica) como date. Sin URL pública al PDF (publishedIn.url y pdfUrl vacíos, pendiente)."
+    },
+    {
+      "slug": "instruccion-6-2023-confort-termico",
+      "title": "Instrucción 6/2023 - Condiciones de confort térmico en centros educativos",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "Instrucción núm. 6, de 26 de abril de 2023, de la Dirección General de Infraestructuras Educativas (CEICE, no publicada en DOGV; firmada por Víctor García i Tomás el 26/04/2023). Norma matriz del confort térmico: protocolo para tramitar solicitudes de ventiladores, aire acondicionado y medidas alternativas (láminas solares, lamas, porches, vegetación, ventilación cruzada, pintura blanca, toldos). PDF bilingüe en un solo fichero: VA págs. 1-11, ES págs. 12-22 (extraído con pdftotext -layout, un solo pase). Estructura: preámbulo (Antecedentes) + sección Objeto + apartados Primero-Segundo + Anexo 1 (centros de titularidad municipal) y Anexo 2 (centros de titularidad de la Conselleria), cada uno con 3 sub-secciones (solicitud, respuesta DT con documentación y condiciones técnicas, informe técnico). Cross-ref bidireccional con instruccion-1-2026-confort-termico (posteriorAffectations aquí, priorAffectations allí). Sin URL pública al PDF (publishedIn.url y pdfUrl vacíos, pendiente)."
     }
   ]
 }

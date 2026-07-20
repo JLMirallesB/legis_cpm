@@ -1,0 +1,168 @@
+{
+  "id": "instruccion-1-2026-confort-termico",
+  "slug": "instruccion-1-2026-confort-termico",
+  "type": "instrucciones",
+  "number": "1/2026",
+  "date": "2026-07-20",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "1/2026",
+    "date": "2026-07-20",
+    "url": "",
+    "pdfUrl": ""
+  },
+  "title": "Instrucció núm. 1/2026 “Mesures provisionals per a la millora del confort tèrmic en centres educatius”, de 14 de juliol, de la Direcció General d'Infraestructures Educatives i la Direcció General de Centres Docents",
+  "titleShort": "Instrucció 1/2026 - Confort tèrmic en centres educatius",
+  "category": "economica",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-07-20"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Antecedents",
+      "content": "L'increment de la freqüència, intensitat i duració dels episodis d'altes temperatures que es ve registrant en els últims anys, especialment durant els mesos finals del curs escolar i l'inici del següent, està tenint una incidència directa sobre les condicions ambientals existents en els centres docents públics de la Comunitat Valenciana. Esta circumstància afecta tant les aules com la resta dels espais destinats a l'activitat educativa i pot comprometre el normal desenrotllament de l'activitat lectiva, i pot repercutir en les condicions de seguretat, salut i benestar de l'alumnat, del personal docent i de la resta de treballadors dels centres.\n\nAmb la finalitat de fer front a esta realitat, la Generalitat ha adoptat diferents mesures dirigides a minimitzar els efectes derivats de les altes temperatures en els centres educatius. En este sentit, es va dictar per l'òrgan competent la Instrucció núm. 6, de 26 d'abril de 2023, “condicions de confort tèrmic en els centres educatius”, de la Direcció General d'Infraestructures Educatives, sobre el procediment establit per a millorar les condicions de confort tèrmic en els centres educatius públics de la Comunitat Valenciana (d'ara en avant Instrucció núm. 6, de 26 d'abril de 2023), mitjançant la qual es va establir el procediment per a atendre les sol·licituds formulades pels ajuntaments, com a titulars dels centres d'educació infantil i primària, així com per les direccions dels centres docents de titularitat de la Generalitat, per a l'adopció d'actuacions destinades a millorar les condicions de confort tèrmic dels edificis educatius existents.\n\nAixí mateix, la Secretaria Autonòmica d'Educació ha anat recordant i actualitzant les mesures preventives i organitzatives que han d'adoptar els centres educatius davant de situacions d'exposició a altes temperatures, contemplant en les seues Instruccions de 3 de juny de 2026, de la Secretaria Autonòmica d'Educació, sobre les mesures a adoptar davant possibles exposicions a altes temperatures en centres educatius, entre altres, la reorganització de l'ús dels espais, la flexibilització horària en determinats supòsits i la coordinació amb les administracions competents quan les condicions tèrmiques pogueren comprometre la normal prestació del servici educatiu. Estes actuacions posen de manifest la necessitat de combinar mesures organitzatives amb actuacions materials que permeten millorar progressivament les condicions de confort dels edificis docents.\n\nEn este context, el President de la Generalitat va anunciar, mitjançant declaració institucional realitzada el dia 12 de juny de 2026, la posada en marxa del Pla EduClima, dotat amb una inversió global de 140 milions d'euros, dels quals 32 milions d'euros es troben recollits en el projecte de pressupostos per a l'exercici 2026, amb l'objectiu de climatitzar la totalitat de les aules dels centres docents públics de la Comunitat Valenciana mitjançant solucions permanents i energèticament eficients.\n\nNo obstant, l'execució material de les actuacions previstes en el citat Pla requerix necessàriament una planificació tècnica i administrativa que impedix que la totalitat de les intervencions puguen trobar-se finalitzades a l'inici del curs 2026-2027. En conseqüència, resulta necessari establir mesures de caràcter transitori, no tingudes en compte en la Instrucció núm. 6, de 26 d'abril de 2023, que permeten atendre aquelles situacions en les quals les condicions tèrmiques existents dificulten el normal desenrotllament de l'activitat docent, que garantisquen al mateix temps la seguretat de les instal·lacions i el compliment de la normativa tècnica aplicable.\n\nEntre estes mesures transitòries es contempla la possibilitat d'instal·lar equips portàtils d'aire condicionat en aquells espais docents en els quals, de manera justificada i fins a l'execució de les actuacions definitives previstes en el Pla EduClima, resulte necessari millorar les condicions de confort tèrmic. Atesa la incidència que este tipus d'equips pot tindre sobre les instal·lacions elèctriques dels edificis, així com sobre les condicions de seguretat i funcionament dels centres, resulta necessari establir criteris homogenis per a la seua instal·lació i utilització, i determinar el procediment a seguir i les condicions tècniques que hauran de complir-se.\n\nEn virtut de l'anterior, i en l'exercici de les competències atribuïdes a la Direcció General d'Infraestructures Educatives i la Direcció General de Centres Docents pel Decret 68/2026, de 4 de maig, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura i Universitats, es dicta la present Instrucció."
+    },
+    {
+      "type": "seccion",
+      "id": "objeto",
+      "title": "Objecte de la Instrucció",
+      "content": "La present Instrucció té per objecte establir el règim aplicable a l'adquisició i implementació de mesures per a millorar el confort tèrmic en els centres educatius públics, en els termes complementaris als establits en la Instrucció núm. 6, de 26 d'abril de 2023. En particular regula l'adquisició, instal·lació i ús d'equips portàtils d'aire condicionat en els centres docents públics de titularitat de la Generalitat, com a mesura de caràcter provisional i temporal fins a l'execució de les actuacions previstes en el Pla EduClima.\n\nAixí mateix, la present Instrucció, que complementa la Instrucció núm. 6, de 26 d'abril de 2023, de la Direcció General d'Infraestructures Educatives, i les Instruccions de 3 de juny de 2026 de la Secretaria Autonòmica d'Educació sobre les mesures a adoptar davant de possibles exposicions a altes temperatures en centres educatius, determina les condicions per a la utilització dels crèdits habilitats amb esta finalitat, així com el procediment i els requisits tècnics que hauran de complir-se per a la instal·lació d'equips portàtils d'aire condicionat, aspectes no contemplats en la citada Instrucció núm. 6, de 26 d'abril de 2023."
+    },
+    {
+      "type": "articulo",
+      "id": "art-1",
+      "number": "1",
+      "title": "Primer. Àmbit d'aplicació",
+      "content": "La present Instrucció s'aplicarà a l'adquisició, instal·lació i utilització de les mesures reservades a millorar el confort tèrmic en els centres educatius públics, com a complement a les previstes en la citada Instrucció núm. 6, de 26 d'abril de 2023, concretament per a la instal·lació i ús d'equips portàtils d'aire condicionat destinats a aules i altres espais docents dels centres públics, com a mesura de caràcter provisional fins a l'execució de les actuacions de climatització previstes en el Pla EduClima.\n\nS'haurà de prioritzar la instal·lació dels equips en aquelles aules amb condicions tèrmiques més desfavorables (orientacions sud/sud-oest, plantes superiors, absència de proteccions solars en buits de fatxada, etcètera).\n\nLa instal·lació d'estos equips haurà de ser compatible amb les característiques i capacitat de la instal·lació elèctrica existent en el centre i la potència elèctrica contractada, així com conforme als requisits tècnics establits en l'Annex I de la present Instrucció.\n\nL'adquisició dels equips s'efectuarà amb càrrec als crèdits habilitats a este efecte, respectant en tot cas la normativa vigent en matèria de contractació pública i els límits aplicables als contractes menors."
+    },
+    {
+      "type": "articulo",
+      "id": "art-2",
+      "number": "2",
+      "title": "Segon. Termini d'execució",
+      "content": "Les actuacions d'adquisició i instal·lació dels equips hauran d'executar-se, amb caràcter general, abans de l'inici del mes d'octubre de 2026 o, en cas de necessitat de modificació de la instal·lació elèctrica, abans de març de 2027.\n\nQuan, per causes degudament justificades, no resulte possible executar estes actuacions dins del termini assenyalat, l'adquisició i instal·lació podran posposar-se fins al mes de març de 2027, i mantindre en tot cas el seu caràcter estrictament provisional fins a l'execució de les actuacions definitives previstes en el Pla EduClima."
+    },
+    {
+      "type": "articulo",
+      "id": "art-3",
+      "number": "3",
+      "title": "Tercer. Condicions d'utilització",
+      "content": "Els equips portàtils d'aire condicionat únicament podran utilitzar-se en les dependències per a les quals hagen sigut adquirits i instal·lats, d'acord amb les condicions tècniques establides en l'Annex I i respectant les instruccions de seguretat i funcionament aplicades per la direcció del centre.\n\nLa seua utilització tindrà caràcter temporal i cessarà una vegada s'executen les actuacions de climatització previstes en el Pla EduClima o quan així ho determinen els servicis tècnics competents."
+    },
+    {
+      "type": "anexo",
+      "id": "anexo-1",
+      "number": "I",
+      "title": "Annex I. Condicions tècniques per a la instal·lació d'equips de climatització portàtils",
+      "children": [
+        {
+          "type": "seccion",
+          "id": "anexo-1-consideraciones-generales",
+          "title": "1. Consideracions tècniques generals",
+          "content": "Els aires condicionats portàtils són equips compactes, que no requerixen instal·lació, excepte la connexió del tub d'evacuació d'aire a una obertura exterior, com pot ser una finestra i l'eliminació o retirada de l'aigua de condensats.\n\nEls aires condicionats portàtils requerixen una ubicació pròxima a una presa de corrent i a una finestra, de manera que es puga expulsar l'aire calent de l'ambient a l'exterior. A més, ha de disposar d'un espai lliure al voltant, perquè circule l'aire adequadament (les dimensions d'este espai lliure varien segons fabricant i model).\n\nEls fabricants solen disposar d'accessoris per a connectar el tub d'evacuació a finestres corredisses i alguns també per a finestres batents. Si no fora així, sempre existix l'opció de fixar l'obertura de la finestra (evitant que un colp de vent puga obrir-la completament) per a poder traure el conducte d'evacuació i utilitzar materials aïllants per a cobrir la resta del buit de la finestra."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-climatizador-evaporativo",
+          "title": "2. Climatitzador evaporatiu versus aire condicionat portàtil",
+          "content": "És necessari assenyalar que en el mercat existixen equips portàtils per a millorar el confort tèrmic com són:\n\n– Climatitzador evaporatiu\n– Aire condicionat\n\nÉs important distingir entre els uns i els altres perquè, encara que semblen el mateix, presenten diferències significatives.\n\nUn climatitzador evaporatiu refreda l'aire mitjançant el procés d'evaporació de l'aigua, i crea un ambient més fresc. En regions amb climes secs, els climatitzadors evaporatius són altament eficaços, ja que incrementen la humitat relativa i refresquen l'ambient. No obstant, en àrees amb humitat elevada, la seua eficiència disminuïx, per la qual cosa no es recomana el seu ús en esta mena d'àrees.\n\nEls climatitzadors evaporatius tenen un consum energètic menor que els aires condicionats portàtils i no requerixen la connexió d'un tub exterior per a expulsar l'aire calent a l'exterior, no obstant, requerixen d'un clima sec i la neteja periòdica del depòsit d'aigua per a evitar la producció de gèrmens i patògens, i anar omplint el depòsit d'aigua.\n\nEls aires condicionats portàtils refreden l'aire en qualsevol tipus de clima (sec o humit) i reduïxen la humitat."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-caracteristicas-equipos",
+          "title": "3. Característiques bàsiques dels equips",
+          "content": "Els equips d'aire condicionat portàtil existents en el mercat poden ser sols fred, o fred i calor (bomba de calor), per la qual cosa, atés que les aules solen tindre la calefacció resolta, parlem en este cas d'equips sols fred, que solen ser més econòmics i hi ha major gamma disponible en el mercat.\n\nA l'hora de triar un equip, hauran de tindre's en compte els paràmetres fonamentals següents:\n\n– Marcatge CE: Símbol obligatori que indica que un producte complix amb els requisits legals i tècnics de seguretat, salut i medi ambient exigits en la Unió Europea.\n– Potència/Capacitat de l'equip en fred: Seleccionarem un equip en funció de les necessitats de l'espai. Vegeu l'apartat de dimensionament dels equips.\n– Eficiència energètica: Es recomana una eficiència energètica mínima de classe “A”.\n– Potència/Consum elèctric: Vegeu l'apartat instal·lació elèctrica.\n– Nivell de soroll en dB o dB (A) o potència sonora en W dels equips: este paràmetre els fabricants solen indicar-lo de diferent manera i no és un valor que es puga comparar directament.\n\nAltres característiques per a tindre en compte són les funcions addicionals d'estos equips com la funció deshumidificadora, recomanable en zones costaneres a causa de la major humitat ambient o sistemes de filtrat addicionals."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-dimensionado",
+          "title": "4. Dimensionat dels equips i número",
+          "content": "Per a dimensionar els equips és necessari realitzar un càlcul de les càrregues tèrmiques necessàries. Estes càrregues venen determinades per diferents factors com són:\n\n– Característiques de l'espai: Dimensions, materials constructius, aïllament tèrmic, orientació i ubicació.\n– Càrregues internes: Ocupació, ús, equipament (il·luminació, motors…)\n– Condicions exteriors: Temperatura, humitat, radiació solar…\n\nAtés que el que s'aborda en este document és una mesura provisional, es recomanen els valors orientatius següents (116 – 163 W/m²) a l'hora de determinar les càrregues tèrmiques de les aules per a seleccionar la potència dels equips.\n\nS'ha de tindre en compte que en el mercat existixen equips que presenten la seua capacitat de refredament en diferents unitats com poden ser frigories per hora o BTU (unitats tèrmiques britàniques) per hora a més de la potència en watios (W).\n\nAmb la finalitat de facilitar la selecció d'equips es presenta la taula següent:\n\n**Càrregues tèrmiques orientatives per m² de superfície**\n\n| Nivell d'exigència | Vats (W) | frigories/hora | BTU |\n|---|---|---|---|\n| I | 116 | 100 | 396 |\n| II | 140 | 120 | 478 |\n| III | 163 | 140 | 556 |\n\nPOTÈNCIA NECESSÀRIA DE L'EQUIP/S A ADQUIRIR = SUPERFÍCIE (m²) x CÀRREGA TÈRMICA PER m²\n\nEl nivell d'exigència es determinarà per cada centre en funció de l'exposició solar, la superfície d'envidriment, la ubicació interior o exterior, i l'experiència prèvia d'anys anteriors."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-instalacion-electrica",
+          "title": "5. Instal·lació elèctrica",
+          "content": "La posada en funcionament dels equips de confort tèrmic requerix unes condicions adequades de la instal·lació elèctrica dels centres. Per este motiu, la present instrucció incorpora les previsions necessàries en esta matèria, de manera que l'adquisició dels equips es realitze de forma planificada i amb plenes garanties de funcionament i seguretat, conforme a la normativa vigent.\n\nAmb caràcter general i atés que es tracta d'una actuació provisional, les instal·lacions elèctriques dels centres que complixen la normativa vigent no haurien de revestir cap mena d'inconvenient.\n\nEls centres docents amb una potència superior a 100 kW instal·lats, encara que la potència contractada siga inferior, i les escoles infantils de primer cicle (0 – 3 anys) independentment de la seua potència instal·lada, estan obligats a tindre subscrit un contracte de manteniment de la instal·lació de baixa tensió amb empresa instal·ladora, que ha d'emetre un Butlletí de Revisió Anual (BRA). Si la potència és inferior a 100 kW no s'exigix contracte de manteniment, però sí revisió periòdica obligatòria anual (BRA) per considerar-se local de pública concurrència. Excepcionalment, si els centres docents (que no siguen escoles infantils de primer cicle) tenen una ocupació prevista no superior a 50 persones, no són considerats com a locals de pública concurrència, i per tant no és obligatòria la seua revisió periòdica anual.\n\nPer a més informació es pot consultar el següent enllaç: https://sede.gva.es/es/detall-tramit?id_proc=22686\n\nLa instal·lació puntual de diferents elements de climatització no hauria de revestir d'inconvenient, no obstant això, abans de la compra i disposició dels equips s'haurà de verificar que la instal·lació elèctrica està en bon estat, comprovant que l'última revisió de baixa tensió ha sigut favorable (BRA favorable). En cas contrari hauran prèviament de dur-se a terme les reparacions indicades a tal fi. En els centres de titularitat municipal, esta gestió haurà de dur-se a terme per l'Ajuntament com a part de les labors de conservació i manteniment de la seua competència.\n\nAixí mateix, s'haurà d'acreditar per part de l'instal·lador autoritzat que la potència elèctrica contractada en el centre pot absorbir l'increment de potència produït pel funcionament simultani del conjunt dels equips a adquirir.\n\nL'ampliació o modificació de la instal·lació elèctrica, en el cas que siga necessària, ha de realitzar-se per una empresa instal·ladora autoritzada en instal·lacions elèctriques. Pot consultar-se en el portal d'Indústria de la Generalitat Valenciana, en l'apartat de consultes públiques en indústria, les empreses instal·ladores i mantenidores inscrites en la Comunitat Valenciana de la zona (https://portalindustria.gva.es/es/consultes-publiques), o acudir a la pàgina del Registre Integrat Industrial del Ministeri.\n\nQuan es tracte d'una escola infantil o d'un centre docent amb una ocupació prevista de més de 50 persones, és aplicable la ITC-BT-28 INSTAL·LACIONS EN LOCALS DE PÚBLICA CONCURRÈNCIA, del Reglament Electrotècnic de Baixa Tensió (d'ara en avant REBT).\n\nEn el supòsit de ser necessària una ampliació o modificació de la instal·lació d'un local de pública concurrència, d'acord amb la ITC-BT-04 DOCUMENTACIÓ I POSADA EN SERVICI DE LES INSTAL·LACIONS, i la ITC-BT-05 VERIFICACIONS I INSPECCIONS del REBT, serà necessària la redacció de projecte tècnic i inspecció per organisme de control, així com registrar la modificació davant la Conselleria amb competències en indústria. En altres supòsits, s'estarà a l'indicat en el REBT quant a la documentació exigible i inspecció inicial.\n\nEn el portal d'Indústria de la Generalitat Valenciana, en l'apartat de Tràmits i servicis, Seguretat Industrial i metrologia, Instal·lacions i establiments, es troba tota la informació i els tràmits relatius a les instal·lacions de baixa tensió (https://portalindustria.gva.es/es/instal-lacions-i-establiments)."
+        },
+        {
+          "type": "seccion",
+          "id": "anexo-1-gestion-contable",
+          "title": "6. Gestió comptable de la dotació econòmica",
+          "content": "La dotació econòmica extraordinària que reben els centres docents públics no universitaris, destinada a la realització d'actuacions provisionals per a millorar el confort tèrmic en els centres educatius, inclosa l'adquisició, instal·lació i utilització d'aparells d'aire condicionat portàtil, haurà d'observar les instruccions següents per a la seua correcta gestió econòmica.\n\nEls centres rebran una dotació econòmica extraordinària, de caràcter finalista, destinada exclusivament a la realització d'actuacions provisionals per a millorar el confort tèrmic en els centres educatius, inclosos aquells elements auxiliars que resulten necessaris per a la seua instal·lació i funcionament. Així mateix, esta dotació podrà destinar-se a la revisió de les instal·lacions elèctriques dels centres de titularitat de la Generalitat Valenciana, quan esta actuació resulte necessària per garantir la correcta instal·lació, posada en funcionament o ús dels equips de climatització portàtil adquirits amb càrrec a la mateixa, així com a aquelles despeses associades que siguen necessàries per al seu funcionament en condicions adequades.\n\nEsta dotació té caràcter extraordinari i respon a la necessitat de millorar les condicions tèrmiques dels espais educatius davant d'episodis d'altes temperatures, fins a l'execució de les actuacions estructurals previstes en el Pla EduClima.\n\nEls equips adquirits amb càrrec a esta dotació hauran d'incorporar-se obligatòriament a l'inventari del centre, en tractar-se de béns de caràcter inventariable de conformitat amb la normativa aplicable en matèria de gestió patrimonial i econòmica dels centres docents públics.\n\n**Registre comptable:**\n\nPer a la correcta gestió i identificació del gasto, hauran d'utilitzar-se exclusivament els subcomptes específics habilitats a este efecte:\n\n– Ingrés: 013CLIMA – Ingrés extraordinari per a adquisició d'equips de climatització portàtils.\n– Gasto: 625CLIMA – Gasto extraordinari per a adquisició d'equips de climatització portàtils inventariables.\n\nEl gasto haurà de realitzar-se respectant els límits de gestió econòmica establits en la normativa d'aplicació als centres docents no universitaris. Així, la Llei de Pressupostos de la Generalitat vigent, de conformitat amb el seu article 10, establix que els centres docents no universitaris podran realitzar gastos d'equipament que excedisquen del manteniment ordinari fins a un límit conjunt de 75.000 euros anuals. I fins i tot podrà autoritzar-se un import addicional de fins a 75.000 euros, amb sol·licitud prèvia a la direcció territorial corresponent, i justificació degudament motivada de la necessitat.\n\nPer part seua, les adquisicions hauran d'ajustar-se al que es disposa en la Llei 9/2017, de 8 de novembre, de contractes del sector públic. En particular, només podran realitzar la contractació menor amb els límits establits per la llei, és a dir, tenen la consideració de contractes menors els contractes de subministrament d'import inferior a 15.000 euros (IVA exclòs). A més, la contractació haurà de respectar els principis de bona gestió, eficiència en el gasto i prohibició del fraccionament indegut del contracte.\n\nFinalment, conforme a l'Orde de 18 de maig de 1995, per la qual s'establixen les normes que regulen la gestió econòmica dels centres docents públics no universitaris de la Generalitat Valenciana, els gastos que superen l'import de 1.803 euros hauran de ser aprovats prèviament pel Consell Escolar.\n\n**Justificació i seguiment:**\n\nLa correcta aplicació dels fons serà objecte de seguiment, dins de les seues funcions ordinàries, per part de:\n\n– La Inspecció Educativa, en relació amb l'adequació del gasto i la seua correcta imputació comptable.\n– Les direccions territorials, quant al control econòmic i, si és el cas, l'autorització d'actuacions extraordinàries."
+        }
+      ]
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Decret 68/2026, de 4 de maig, del Consell, d'aprovació del Reglament orgànic i funcional de la Conselleria d'Educació, Cultura i Universitats",
+        "articles": [],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Instrucció núm. 6, de 26 d'abril de 2023, de la Direcció General d'Infraestructures Educatives, sobre condicions de confort tèrmic en els centres educatius",
+        "articles": [],
+        "relationship": "desarrollo",
+        "lawId": "instruccion-6-2023-confort-termico"
+      }
+    ],
+    "priorAffectations": [
+      {
+        "lawId": "instruccion-6-2023-confort-termico",
+        "title": "Instrucció núm. 6, de 26 d'abril de 2023, “Condicions de confort tèrmic en els centres educatius”, de la Direcció General d'Infraestructures Educatives, sobre el procediment establit per a millorar les condicions de confort tèrmic en els centres educatius públics de la Comunitat Valenciana",
+        "type": "modifica",
+        "articles": [],
+        "date": "2026-07-20",
+        "description": "Complementa la Instrucció 6/2023 regulant els equips portàtils d'aire condicionat i la gestió comptable de la dotació, aspectes no contemplats en ella."
+      }
+    ],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "instrucciones-altas-temperaturas-2026",
+        "title": "Instruccions de 3 de juny de 2026, de la Secretaria Autonòmica d'Educació, sobre les mesures a adoptar davant de possibles exposicions a altes temperatures en centres educatius",
+        "description": "Mesures preventives i organitzatives que esta Instrucció complementa amb actuacions materials."
+      },
+      {
+        "lawId": "cuenta-gestion-centros-docentes",
+        "title": "Compte de Gestió de Centres Docents Públics No Universitaris — Guia pràctica de preguntes freqüents",
+        "description": "Marc general de gestió econòmica dels centres al qual s'ajusta el registre comptable de la dotació (subcomptes 013CLIMA / 625CLIMA)."
+      },
+      {
+        "title": "Orde de 18 de maig de 1995, per la qual s'establixen les normes que regulen la gestió econòmica dels centres docents públics no universitaris de la Generalitat Valenciana",
+        "description": "Els gastos superiors a 1.803 euros han de ser aprovats prèviament pel Consell Escolar."
+      },
+      {
+        "title": "Llei 9/2017, de 8 de novembre, de contractes del sector públic",
+        "description": "Límit de contracte menor de subministrament: 15.000 euros (IVA exclòs) i prohibició de fraccionament indegut."
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-07-20",
+    "signatories": [
+      {
+        "name": "José María Larena Berrocal",
+        "role": "Director general d'Infraestructures Educatives"
+      },
+      {
+        "name": "Jorge Cabo Martínez",
+        "role": "Director general de Centres Docents"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}
