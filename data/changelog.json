@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.5.6",
+    "date": "2026-07-21",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "Rectificación de error material en la Instrucción 1/2026 de confort térmico (apartado 6, gestión contable): las subcuentas del registro contable se corrigen de 013CLIMA/625CLIMA a 013CONFORT/625CONFORT, con la descripción «Ingreso/Gasto extraordinario para mejorar el confort térmico»."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregit",
+          "description": "Rectificació d'error material en la Instrucció 1/2026 de confort tèrmic (apartat 6, gestió comptable): els subcomptes del registre comptable es corregeixen de 013CLIMA/625CLIMA a 013CONFORT/625CONFORT, amb la descripció «Ingrés/Despesa extraordinària per a millorar el confort tèrmic»."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.5",
     "date": "2026-07-20",
     "entries": {
