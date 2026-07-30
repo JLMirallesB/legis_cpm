@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.5.7",
+    "date": "2026-07-30",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "Corrección de errores de las Instrucciones de plantillas de conservatorios 2026-2027 (firmada el 05/05/2026): en el apartado 7.1, «Horas lectivas de dedicación a funciones directivas», se suprime la frase «A este efecto, el alumnado matriculado en más de una especialidad computará como un solo alumno». El resto de las instrucciones permanece inalterado."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregit",
+          "description": "Correcció d'errors de les Instruccions de plantilles de conservatoris 2026-2027 (signada el 05/05/2026): en l'apartat 7.1, «Hores lectives de dedicació a funcions directives», se suprimix la frase «A este efecte, l'alumnat matriculat en més d'una especialitat computarà com un sol alumne». La resta de les instruccions continua inalterada."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.6",
     "date": "2026-07-21",
     "entries": {
