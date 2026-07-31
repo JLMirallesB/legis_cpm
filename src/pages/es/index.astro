@@ -71,6 +71,9 @@ const lang = 'es' as const;
 
   .search-input {
     flex: 1;
+    /* Un <input> tiene ancho intrinseco propio: sin min-width: 0 no puede
+       encoger y empuja al boton fuera del viewport en pantallas estrechas. */
+    min-width: 0;
     padding: var(--space-sm) var(--space-md);
     border: 2px solid var(--color-border);
     border-radius: var(--radius-md);

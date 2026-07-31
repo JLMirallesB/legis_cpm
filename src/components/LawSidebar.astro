@@ -135,6 +135,10 @@ const indexLabel = lang === 'va' ? 'Índex de la norma' : 'Índice de la norma';
     max-height: calc(100vh - var(--header-height) - var(--space-xl));
     overflow-y: auto;
     padding-right: var(--space-md);
+    /* Grid item: sin esto un título de artículo largo ensancha el tramo.
+       Va aquí y no en LawReaderLayout porque el CSS scoped de Astro se compila
+       con el hash del componente que declara la regla. */
+    min-width: 0;
   }
 
   .sidebar-toggle {
@@ -249,6 +253,14 @@ const indexLabel = lang === 'va' ? 'Índex de la norma' : 'Índice de la norma';
     transition: opacity 0.2s, transform 0.2s;
     z-index: 9999;
     white-space: nowrap;
+    max-width: calc(100% - 2rem);
+  }
+
+  @media (max-width: 480px) {
+    .sidebar-toast {
+      white-space: normal;
+      text-align: center;
+    }
   }
 
   .sidebar-toast.visible {

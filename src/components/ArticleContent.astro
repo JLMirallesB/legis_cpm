@@ -334,8 +334,15 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
     border: 1px solid #fef3c7;
     border-radius: var(--radius-sm);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: var(--space-sm);
+  }
+
+  /* El <label> es flex item: con min-width: auto el <select> no puede encoger
+     por debajo del ancho de su opción más larga (títulos de ley completos). */
+  .version-selector label {
+    min-width: 0;
   }
 
   .version-indicator {
@@ -374,6 +381,16 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
     font-size: 0.95rem;
     line-height: 1.8;
     color: var(--color-text);
+    overflow-wrap: break-word;
+  }
+
+  /* renderInline() (content-renderer.ts) autoenlaza las URLs usando la URL
+     completa como texto del enlace: son "palabras" de hasta 110 caracteres
+     (~690 px) que el navegador no parte por sí solo. `anywhere` en vez de
+     `break-word` porque solo `anywhere` reduce el tamaño min-content, que es
+     lo que dimensiona la columna del grid. */
+  .article-text :global(a) {
+    overflow-wrap: anywhere;
   }
 
   .article-text :global(p) {
@@ -414,6 +431,7 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
     overflow-x: auto;
     margin: var(--space-md) 0;
     max-width: 100%;
+    overscroll-behavior-x: contain;
   }
 
   .article-text :global(table) {
@@ -430,6 +448,7 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
     border: 1px solid var(--color-border);
     padding: 4px 8px;
     text-align: center;
+    overflow-wrap: break-word;
   }
 
   .article-text :global(th) {
@@ -446,8 +465,37 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
       opacity: 1;
     }
 
-    .version-select {
-      max-width: calc(100vw - 6rem);
+    /* Pista de scroll: sombras laterales que solo aparecen cuando queda
+       contenido oculto (background-attachment local + scroll). Sin JS y sin
+       efecto por encima de 768 px. */
+    .article-text :global(.table-wrapper) {
+      background:
+        linear-gradient(to right, var(--color-bg) 30%, rgba(247, 250, 252, 0)) left center,
+        linear-gradient(to left, var(--color-bg) 30%, rgba(247, 250, 252, 0)) right center,
+        radial-gradient(farthest-side at 0% 50%, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0)) left center,
+        radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0)) right center;
+      background-repeat: no-repeat;
+      background-size: 28px 100%, 28px 100%, 12px 100%, 12px 100%;
+      background-attachment: local, local, scroll, scroll;
+    }
+
+    /* Las tablas curriculares llegan a 8 columnas: menos tipografía y menos
+       relleno hacen que muchas quepan sin necesidad de desplazarlas. */
+    .article-text :global(table) {
+      font-size: 0.78rem;
+    }
+
+    .article-text :global(th),
+    .article-text :global(td) {
+      padding: 3px 5px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* La sangría de 1.5 em se come ~24 px de una columna de ~290 px; los
+       párrafos siguen separados por su margen inferior. */
+    .article-text :global(p) {
+      text-indent: 0;
     }
   }
 </style>

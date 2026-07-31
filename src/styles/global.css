@@ -70,6 +70,9 @@ body {
   background-color: var(--color-bg);
   line-height: 1.6;
   min-height: 100vh;
+  /* Red de seguridad heredable: evita que un token sin espacios (URL, referencia
+     larga) se salga de su caja. Solo actúa si la palabra no cabe en la línea. */
+  overflow-wrap: break-word;
 }
 
 a {
@@ -93,6 +96,14 @@ a:hover {
 @media (max-width: 768px) {
   .container {
     padding: 0 var(--space-lg);
+  }
+}
+
+/* En móvil el ancho de lectura es el recurso escaso: se recorta el padding
+   lateral para recuperar 24 px de columna de texto. */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.75rem;
   }
 }
 

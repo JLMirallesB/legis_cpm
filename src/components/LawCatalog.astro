@@ -101,6 +101,16 @@ const lawsByCategory = getLawsByCategory(lang);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
     padding: 3px;
+    max-width: 100%;
+  }
+
+  /* El control no puede envolver: el slider se posiciona por JS con
+     getBoundingClientRect y asume una sola fila. Se estrecha, no se parte. */
+  @media (max-width: 480px) {
+    .seg-btn {
+      padding: 0.4rem 0.7rem;
+      font-size: 0.78rem;
+    }
   }
 
   .seg-slider {
@@ -188,7 +198,7 @@ const lawsByCategory = getLawsByCategory(lang);
 
   .law-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
     gap: var(--space-md);
   }
 

@@ -132,6 +132,7 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
 
   .law-breadcrumb {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: var(--space-xs);
     font-size: 0.85rem;
@@ -212,6 +213,14 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
     gap: var(--space-xl);
   }
 
+  /* Sin esto, el min-width: auto de un grid item deja que un descendiente ancho
+     (una tabla, una URL sin puntos de corte) ensanche el tramo por encima del
+     viewport y arrastre a toda la página. Además anula el max-width: 100% de
+     los descendientes, con lo que .table-wrapper deja de hacer scroll. */
+  .law-content {
+    min-width: 0;
+  }
+
   @media (max-width: 768px) {
     .law-body {
       grid-template-columns: 1fr;
@@ -264,8 +273,10 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
     padding: var(--space-md);
     box-shadow: var(--shadow-lg);
     z-index: 100;
-    min-width: 380px;
-    max-width: 95vw;
+    /* width + max-width, no min-width: min-width gana a max-width, así que
+       `min-width: 380px` desbordaba en pantallas de menos de 400 px. */
+    width: 380px;
+    max-width: 100%;
   }
 
   .embed-label {

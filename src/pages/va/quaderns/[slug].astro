@@ -359,6 +359,27 @@ notebook.fragments.forEach(f => {
     font-size: 0.9rem;
     line-height: 1.65;
     color: var(--color-text);
+    overflow-wrap: break-word;
+  }
+
+  /* El renderer autoenlaça les URL amb la URL completa com a text. */
+  .fragment-body :global(a) {
+    overflow-wrap: anywhere;
+  }
+
+  /* renderContent() embolcalla les taules en .table-wrapper, però ací no tenia
+     estil: les taules de 8 columnes se n'eixien sense poder desplaçar-les. */
+  .fragment-body :global(.table-wrapper) {
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 0.5em 0;
+    overscroll-behavior-x: contain;
+  }
+
+  /* El wrapper crea un context de format de bloc, aixi que el marge de la
+     taula ja no col·lapsa: es trasllada al wrapper per no duplicar l'espaiat. */
+  .fragment-body :global(.table-wrapper table) {
+    margin: 0;
   }
 
   .fragment-body :global(p) {
@@ -423,6 +444,8 @@ notebook.fragments.forEach(f => {
     padding-left: 1.5em;
     text-indent: -1.5em;
     color: var(--color-text-secondary);
+    /* La referència APA acaba amb la URL completa de la font. */
+    overflow-wrap: anywhere;
   }
 
   /* Toast */

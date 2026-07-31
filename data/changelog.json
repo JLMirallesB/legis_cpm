@@ -1,5 +1,47 @@
 [
   {
+    "version": "1.6.1",
+    "date": "2026-07-31",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "Corregido el desbordamiento horizontal en móvil: en 34 de las 165 páginas el texto de la ley se salía de la pantalla y arrastraba a toda la página, que quedaba más ancha que el móvil. La causa principal eran las direcciones web enlazadas dentro del articulado (hasta 137 caracteres, unos 690 px sin poder partirse) y, en segundo lugar, las columnas del lector, que crecían con su contenido en vez de ceñirse a la pantalla. Ahora las direcciones largas se parten por líneas y las columnas quedan contenidas."
+        },
+        {
+          "type": "corregido",
+          "description": "Las tablas de los cuadernos ya se pueden desplazar horizontalmente: las tablas de distribución horaria (hasta 8 columnas) se salían de la pantalla sin posibilidad de verlas enteras, porque en las páginas de cuaderno faltaba el contenedor con desplazamiento que sí tenía el lector de leyes."
+        },
+        {
+          "type": "mejora",
+          "description": "Más ancho de lectura y mejor legibilidad en móvil: se reduce el margen lateral en pantallas de 480 px o menos, las tablas usan una tipografía algo menor para que la mayoría quepan sin desplazarlas (la de distribución horaria del Decreto 158/2007 pasa de 365 a 336 px y ya cabe entera), las que no caben muestran una sombra lateral que indica que se pueden deslizar, y se elimina la sangría de primera línea, que se comía parte de una columna ya estrecha."
+        },
+        {
+          "type": "corregido",
+          "description": "Arreglados otros elementos que se salían en pantallas estrechas: el botón «Buscar» del buscador y de la portada, la rejilla de fichas del catálogo y de los cuadernos a 320 px, el desplegable de versiones de un artículo, el cuadro de código para insertar la ley y la ruta de navegación."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregido",
+          "description": "Corregit el desbordament horitzontal en mòbil: en 34 de les 165 pàgines el text de la llei se n'eixia de la pantalla i arrossegava tota la pàgina, que quedava més ampla que el mòbil. La causa principal eren les adreces web enllaçades dins de l'articulat (fins a 137 caràcters, uns 690 px sense poder partir-se) i, en segon lloc, les columnes del lector, que creixien amb el seu contingut en compte de cenyir-se a la pantalla. Ara les adreces llargues es parteixen per línies i les columnes queden contingudes."
+        },
+        {
+          "type": "corregido",
+          "description": "Les taules dels quaderns ja es poden desplaçar horitzontalment: les taules de distribució horària (fins a 8 columnes) se n'eixien de la pantalla sense possibilitat de veure-les senceres, perquè a les pàgines de quadern faltava el contenidor amb desplaçament que sí que tenia el lector de lleis."
+        },
+        {
+          "type": "mejora",
+          "description": "Més amplària de lectura i millor llegibilitat en mòbil: es redueix el marge lateral en pantalles de 480 px o menys, les taules fan servir una tipografia una mica menor perquè la majoria càpiguen sense desplaçar-les (la de distribució horària del Decret 158/2007 passa de 365 a 336 px i ja cap sencera), les que no caben mostren una ombra lateral que indica que es poden lliscar, i s'elimina el sagnat de primera línia, que es menjava part d'una columna ja estreta."
+        },
+        {
+          "type": "corregido",
+          "description": "Adobats altres elements que se n'eixien en pantalles estretes: el botó «Buscar» del cercador i de la portada, la graella de fitxes del catàleg i dels quaderns a 320 px, el desplegable de versions d'un article, el quadre de codi per a inserir la llei i el camí de navegació."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.6.0",
     "date": "2026-07-31",
     "entries": {
