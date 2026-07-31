@@ -247,6 +247,13 @@
       "notes": "59 arts (6 caps, secciones en caps IV y VI) + 10 DA + 1 DT + 1 DD + 3 DF. Arts 22-29, 31-36 marcados como no relevantes para conservatorios. Bilingüe DOGV. Desarrolla Decreto 104/2018."
     },
     {
+      "slug": "resolucion-inicio-curso-2026-2027",
+      "title": "Resolución 29/07/2026 - Instrucciones inicio de curso 2026-2027",
+      "status": "ingested",
+      "category": "organizacion",
+      "notes": "Resolución de la Secretaría Autonómica de Educación (DOGV 10418, 31/07/2026). Instrucciones de ordenación académica y organización de la actividad docente de los conservatorios y centros autorizados de enseñanzas artísticas elementales y profesionales de Música y Danza para el curso 2026-2027. Preámbulo + apartado único + anexo con 10 secciones (PEC, proyecto de gestión, normas de organización y funcionamiento, PGA y Plan de Mejora, órganos de coordinación docente, personal docente y no docente, enseñanzas, alumnado, admisión y matrícula, ITACA/TIC/protección de datos) más consideraciones adicionales y finales. Novedades respecto al curso 25-26: nueva sección 7.3 (formación en emergencias), 3.2.4 (programa de coordinación horaria), 3.2.11 (prevención de riesgos laborales) y 3.2.12 (medidas de emergencia y planes de autoprotección), reestructuración de la sección 6 (horario del personal docente en 6.1.1-6.1.3, nueva 6.4 sobre incompatibilidad de matrícula del profesorado), 8.4 pasa a remitir a la Circular 1/2025 sobre flexibilización de la duración de las enseñanzas, y la sección 10 incorpora 10.4 (promoción y matrícula automática) y 10.5 (gestión de incidencias). Ámbito Música y Danza, autonómica, anual (curso 26-27)."
+    },
+    {
       "slug": "resolucion-inicio-curso-2025-2026",
       "title": "Resolución 29/07/2025 - Instrucciones inicio de curso 2025-2026",
       "status": "ingested",

@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.6.0",
+    "date": "2026-07-31",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Resolución de 29 de julio de 2026, de la Secretaría Autonómica de Educación, por la que se dictan las instrucciones de inicio de curso 2026-2027 para los conservatorios y centros autorizados de enseñanzas artísticas elementales y profesionales de Música y de Danza (DOGV 10418, 31/07/2026). Incluye el preámbulo, el apartado único y el anexo completo con sus 10 secciones y las consideraciones adicionales y finales."
+        },
+        {
+          "type": "nuevo",
+          "description": "Novedades del curso 2026-2027 respecto al 2025-2026: nueva sección 7.3 sobre formación en emergencias; nuevos apartados 3.2.4 (programa de coordinación horaria), 3.2.11 (prevención de riesgos laborales, con adaptación de puestos, embarazo y lactancia y delegados de prevención) y 3.2.12 (medidas de emergencia y planes de autoprotección); reestructuración de la sección 6, con el horario del personal docente detallado en 6.1.1-6.1.3 y el nuevo apartado 6.4 sobre incompatibilidad de matrícula del profesorado en su centro de destino; el apartado 8.4 pasa a remitir a la Circular 1/2025 sobre flexibilización de la duración de las enseñanzas; y la sección 10 incorpora 10.4 (promoción automática, matrícula automática y gestión de bajas) y 10.5 (gestión de incidencias)."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Resolució de 29 de juliol de 2026, de la Secretaria Autonòmica d'Educació, per la qual es dicten les instruccions d'inici de curs 2026-2027 per als conservatoris i centres autoritzats d'ensenyances artístiques elementals i professionals de Música i de Dansa (DOGV 10418, 31/07/2026). Inclou el preàmbul, l'apartat únic i l'annex complet amb les seues 10 seccions i les consideracions addicionals i finals."
+        },
+        {
+          "type": "nou",
+          "description": "Novetats del curs 2026-2027 respecte al 2025-2026: nova secció 7.3 sobre formació en emergències; nous apartats 3.2.4 (programa de coordinació horària), 3.2.11 (prevenció de riscos laborals, amb adaptació de llocs, embaràs i lactància i delegats de prevenció) i 3.2.12 (mesures d'emergència i plans d'autoprotecció); reestructuració de la secció 6, amb l'horari del personal docent detallat en 6.1.1-6.1.3 i el nou apartat 6.4 sobre incompatibilitat de matrícula del professorat en el seu centre de destí; l'apartat 8.4 passa a remetre a la Circular 1/2025 sobre flexibilització de la duració de les ensenyances; i la secció 10 incorpora 10.4 (promoció automàtica, matrícula automàtica i gestió de baixes) i 10.5 (gestió d'incidències)."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.5.7",
     "date": "2026-07-30",
     "entries": {
