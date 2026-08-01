@@ -1,5 +1,39 @@
 [
   {
+    "version": "1.6.2",
+    "date": "2026-08-01",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "Corregidas las descargas en markdown, que salían vacías o con solo los encabezados: el exportador trataba los títulos, capítulos y secciones como simples contenedores y descartaba su texto, que es donde muchas normas guardan todo el contenido. Afectaba a 23 de las 73 normas, en los dos idiomas y en las dos descargas (texto consolidado e historial de versiones). Los casos peores eran la guía de la cuenta de gestión (0 % del texto), las instrucciones de validación de apps (2,8 %), de uso seguro de las TIC y del SAI (4,4 %), de altas y bajas de usuarios (5 %), las fiestas locales de 2026 (9 %) y las instrucciones de plantillas 2026-2027 (9,4 %); en los decretos de currículo 156, 157, 158 y 159 de 2007 se perdían los anexos curriculares enteros (entre el 57 % y el 77 % del texto). La web nunca estuvo afectada: el fallo era solo de la exportación."
+        },
+        {
+          "type": "mejora",
+          "description": "Las descargas en markdown incluyen ahora la cláusula de promulgación (lugar, fecha y firmantes), que ya se mostraba en la web pero faltaba en los archivos descargados."
+        },
+        {
+          "type": "corregido",
+          "description": "En las descargas en markdown de documentos sin número de norma o sin número de boletín ya no aparecen huecos en la cabecera."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregido",
+          "description": "Corregides les descàrregues en markdown, que eixien buides o només amb els encapçalaments: l'exportador tractava els títols, capítols i seccions com a simples contenidors i descartava el seu text, que és on moltes normes guarden tot el contingut. Afectava 23 de les 73 normes, en els dos idiomes i en les dues descàrregues (text consolidat i historial de versions). Els casos pitjors eren la guia del compte de gestió (0 % del text), les instruccions de validació d'aplicacions (2,8 %), d'ús segur de les TIC i del SAI (4,4 %), d'altes i baixes d'usuaris (5 %), les festes locals de 2026 (9 %) i les instruccions de plantilles 2026-2027 (9,4 %); en els decrets de currículum 156, 157, 158 i 159 de 2007 es perdien els annexos curriculars sencers (entre el 57 % i el 77 % del text). La web no va estar mai afectada: la fallada era només de l'exportació."
+        },
+        {
+          "type": "mejora",
+          "description": "Les descàrregues en markdown inclouen ara la clàusula de promulgació (lloc, data i signants), que ja es mostrava a la web però faltava en els arxius descarregats."
+        },
+        {
+          "type": "corregido",
+          "description": "En les descàrregues en markdown de documents sense número de norma o sense número de butlletí ja no apareixen buits en la capçalera."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.6.1",
     "date": "2026-07-31",
     "entries": {
