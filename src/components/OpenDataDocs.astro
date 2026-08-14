@@ -1,0 +1,387 @@
+---
+import type { Lang } from '../lib/types';
+import { t } from '../i18n/utils';
+import { DATASETS, DATA_BASE, usageSnippet } from '../lib/opendata';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const lawPath = lang === 'va' ? 'llei' : 'ley';
+const snippet = usageSnippet(lang);
+---
+
+<div class="container hero">
+  <h1>{t('opendata.title', lang)}</h1>
+  <p class="subtitle">{t('opendata.subtitle', lang)}</p>
+</div>
+
+<div class="container content-container">
+
+  <section class="panel">
+    <h2>{t('opendata.how.title', lang)}</h2>
+    <ul class="principles">
+      <li>
+        <strong>{t('opendata.how.static.title', lang)}</strong>
+        {t('opendata.how.static.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.how.cors.title', lang)}</strong>
+        {t('opendata.how.cors.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.how.manifest.title', lang)}</strong>
+        {t('opendata.how.manifest.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.how.version.title', lang)}</strong>
+        {t('opendata.how.version.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.how.source.title', lang)}</strong>
+        {t('opendata.how.source.body', lang)}
+      </li>
+    </ul>
+
+    <h3>{t('opendata.how.example', lang)}</h3>
+    <pre class="code"><code>{snippet}</code></pre>
+  </section>
+
+  {DATASETS.map(ds => (
+    <section class="panel dataset" id={ds.id}>
+      <header class="ds-head">
+        <h2>{ds.name[lang]}</h2>
+        <code class="schema-tag">{ds.schema} · v{ds.version}</code>
+      </header>
+      <p class="ds-summary">{ds.summary[lang]}</p>
+
+      <h3>{t('opendata.files', lang)}</h3>
+      <ul class="files">
+        {ds.files.map(f => (
+          <li>
+            <a href={DATA_BASE + f.path} class="file-url"><code>{DATA_BASE + f.path}</code></a>
+            <span class="file-desc">{f.desc[lang]}</span>
+          </li>
+        ))}
+      </ul>
+
+      <h3>{t('opendata.fields.manifest', lang)}</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>{t('opendata.fields.field', lang)}</th>
+              <th>{t('opendata.fields.type', lang)}</th>
+              <th>{t('opendata.fields.desc', lang)}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {ds.manifestFields.map(f => (
+              <tr>
+                <td><code>{f.name}</code></td>
+                <td class="type">{f.type}</td>
+                <td>{f.desc[lang]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="common-fields">{t('opendata.fields.common', lang)}</p>
+
+      <h3>{t('opendata.fields.course', lang)}</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>{t('opendata.fields.field', lang)}</th>
+              <th>{t('opendata.fields.type', lang)}</th>
+              <th>{t('opendata.fields.desc', lang)}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {ds.courseFields.map(f => (
+              <tr>
+                <td><code>{f.name}</code></td>
+                <td class="type">{f.type}</td>
+                <td>{f.desc[lang]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <h3>{t('opendata.sample', lang)}</h3>
+      <pre class="code"><code>{ds.sample}</code></pre>
+
+      <h3>{t('opendata.updates', lang)}</h3>
+      <p>{ds.updates[lang]}</p>
+
+      <h3>{t('opendata.sources', lang)}</h3>
+      <p class="sources-intro">{t('opendata.sources.intro', lang)}</p>
+      <ul class="sources">
+        {ds.sources.map(s => (
+          <li><a href={`${base}${lang}/${lawPath}/${s.slug}/`}>{s.title[lang]}</a></li>
+        ))}
+      </ul>
+
+      {ds.notes.length > 0 && (
+        <div class="notes">
+          <h3>{t('opendata.notes', lang)}</h3>
+          <ul>
+            {ds.notes.map(n => <li>{n[lang]}</li>)}
+          </ul>
+        </div>
+      )}
+    </section>
+  ))}
+
+  <section class="panel">
+    <h2>{t('opendata.stability.title', lang)}</h2>
+    <ul class="principles">
+      <li>
+        <strong>{t('opendata.stability.compat.title', lang)}</strong>
+        {t('opendata.stability.compat.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.stability.errors.title', lang)}</strong>
+        {t('opendata.stability.errors.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.stability.cache.title', lang)}</strong>
+        {t('opendata.stability.cache.body', lang)}
+      </li>
+      <li>
+        <strong>{t('opendata.stability.use.title', lang)}</strong>
+        {t('opendata.stability.use.body', lang)}
+      </li>
+    </ul>
+  </section>
+
+</div>
+
+<style>
+  .hero {
+    text-align: center;
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-lg);
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    max-width: 60ch;
+    margin: 0 auto;
+  }
+
+  .content-container {
+    padding-bottom: var(--space-2xl);
+    max-width: 900px;
+  }
+
+  .panel {
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-xl);
+  }
+
+  .panel h2 {
+    font-size: 1.35rem;
+    color: var(--color-primary);
+    margin: 0 0 var(--space-md);
+  }
+
+  .panel h3 {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-muted);
+    margin: var(--space-lg) 0 var(--space-sm);
+  }
+
+  .ds-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .ds-head h2 {
+    margin: 0;
+  }
+
+  .schema-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+  }
+
+  .ds-summary {
+    color: var(--color-text-secondary);
+  }
+
+  .principles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+
+  .principles li {
+    color: var(--color-text-secondary);
+    padding-left: var(--space-md);
+    border-left: 3px solid var(--color-border-dark);
+  }
+
+  .principles strong {
+    display: block;
+    color: var(--color-text);
+  }
+
+  .files {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+
+  .file-url {
+    display: block;
+    word-break: break-all;
+  }
+
+  .file-url code {
+    font-size: 0.85rem;
+  }
+
+  .file-desc {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .code {
+    background: var(--color-primary-dark);
+    color: #e2e8f0;
+    padding: var(--space-md);
+    border-radius: var(--radius-sm);
+    overflow-x: auto;
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  .code code {
+    font-family: var(--font-mono);
+    background: none;
+    color: inherit;
+    padding: 0;
+    white-space: pre;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+
+  th {
+    text-align: left;
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: var(--space-sm);
+    border-bottom: 1px solid var(--color-border-dark);
+  }
+
+  td {
+    padding: var(--space-sm);
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+    color: var(--color-text-secondary);
+  }
+
+  td code {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  td.type {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
+
+  .common-fields,
+  .sources-intro {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-top: var(--space-sm);
+  }
+
+  .sources {
+    margin: 0;
+    padding-left: var(--space-lg);
+  }
+
+  .sources li {
+    margin-bottom: var(--space-xs);
+  }
+
+  .notes {
+    margin-top: var(--space-lg);
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-sm);
+    padding: var(--space-md);
+  }
+
+  .notes h3 {
+    margin-top: 0;
+  }
+
+  .notes ul {
+    margin: 0;
+    padding-left: var(--space-lg);
+    color: var(--color-text-secondary);
+    font-size: 0.92rem;
+  }
+
+  .notes li + li {
+    margin-top: var(--space-sm);
+  }
+
+  @media (max-width: 640px) {
+    .panel {
+      padding: var(--space-md);
+    }
+    .code {
+      font-size: 0.75rem;
+    }
+  }
+</style>

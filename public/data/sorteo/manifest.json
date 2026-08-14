@@ -1,0 +1,9 @@
+{
+  "schema": "cev-sorteo-admision",
+  "version": 1,
+  "updated": "2026-08-14",
+  "source": "https://jlmirallesb.github.io/legis_cpmdem/",
+  "courses": [
+    "2026-2027"
+  ]
+}

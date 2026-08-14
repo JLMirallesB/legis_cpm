@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import OpenDataDocs from '../../../components/OpenDataDocs.astro';
+import { t } from '../../../i18n/utils';
+
+const lang = 'va' as const;
+---
+
+<BaseLayout lang={lang} title={t('opendata.title', lang)} description={t('opendata.subtitle', lang)}>
+  <OpenDataDocs lang={lang} />
+</BaseLayout>

@@ -25,6 +25,10 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
       <a href={`${base}${lang}/`} class="nav-link">{t('nav.catalog', lang)}</a>
       <a href={`${base}${lang}/buscar/`} class="nav-link">{t('nav.search', lang)}</a>
       <a href={`${base}${lang}/${lang === 'va' ? 'quaderns' : 'cuadernos'}/`} class="nav-link">{t('nav.cuadernos', lang)}</a>
+      <a href={`${base}${lang}/${lang === 'va' ? 'dades' : 'datos'}/`} class="nav-link">
+        <span class="nav-full">{t('nav.opendata', lang)}</span>
+        <span class="nav-short">{t('nav.opendata_short', lang)}</span>
+      </a>
     </nav>
 
     <a href={alternateUrl} class="lang-switch btn" role="link" aria-label={lang === 'va' ? `Canviar a ${t('lang.switch', lang)}` : `Cambiar a ${t('lang.switch', lang)}`} data-target-lang={otherLang}>
@@ -107,6 +111,12 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     text-decoration: none;
   }
 
+  /* «Datos abiertos» es la etiqueta más larga del menú: por debajo de 640px
+     se abrevia a «Datos» para que la barra no desborde en móvil. */
+  .nav-short {
+    display: none;
+  }
+
   .lang-switch {
     background: rgba(255, 255, 255, 0.15);
     color: white;
@@ -134,6 +144,12 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     }
     .nav {
       gap: var(--space-sm);
+    }
+    .nav-full {
+      display: none;
+    }
+    .nav-short {
+      display: inline;
     }
   }
 

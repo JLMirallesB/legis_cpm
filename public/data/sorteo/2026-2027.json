@@ -1,0 +1,50 @@
+{
+  "schema": "cev-sorteo-admision",
+  "version": 1,
+  "course": "2026-2027",
+  "letters1": "Q-O",
+  "letters2": "N-W",
+  "norm": {
+    "lawId": "resolucion-sorteo-admision-2026-2027",
+    "shortTitle": "Res 21/04/2026 - Sorteo admisión 2026-2027",
+    "shortTitleVa": "Res 21/04/2026 - Sorteig admissió 2026-2027",
+    "date": "2026-04-21",
+    "dogv": "10348",
+    "dogvUrl": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/11785",
+    "pdfUrl": "https://dogv.gva.es/datos/2026/04/23/pdf/2026_11785_es.pdf",
+    "url": "https://jlmirallesb.github.io/legis_cpmdem/es/ley/resolucion-sorteo-admision-2026-2027/",
+    "urlVa": "https://jlmirallesb.github.io/legis_cpmdem/va/llei/resolucion-sorteo-admision-2026-2027/"
+  },
+  "appliedBy": [
+    {
+      "lawId": "resolucion-admision-2026-2027",
+      "shortTitle": "Res 30/04/2026 - Convocatoria admisión Música y Danza 2026-2027",
+      "shortTitleVa": "Res 30/04/2026 - Convocatòria admissió Música i Dansa 2026-2027",
+      "date": "2026-04-30",
+      "dogv": "10355",
+      "dogvUrl": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/12843",
+      "pdfUrl": "https://dogv.gva.es/datos/2026/05/05/pdf/2026_12843_es.pdf",
+      "url": "https://jlmirallesb.github.io/legis_cpmdem/es/ley/resolucion-admision-2026-2027/",
+      "urlVa": "https://jlmirallesb.github.io/legis_cpmdem/va/llei/resolucion-admision-2026-2027/",
+      "articles": [
+        "apartado-9"
+      ]
+    },
+    {
+      "lawId": "orden-8-2026",
+      "shortTitle": "O 8/2026 - Admisión a enseñanzas elementales y profesionales de Música y Danza",
+      "shortTitleVa": "O 8/2026 - Admissió a ensenyances elementals i professionals de Música i Dansa",
+      "date": "2026-04-24",
+      "dogv": "10352",
+      "dogvUrl": "https://dogv.gva.es/es/resultat-dogv?signatura=2026/12242",
+      "pdfUrl": "https://dogv.gva.es/datos/2026/04/29/pdf/2026_12242_es.pdf",
+      "url": "https://jlmirallesb.github.io/legis_cpmdem/es/ley/orden-8-2026/",
+      "urlVa": "https://jlmirallesb.github.io/legis_cpmdem/va/llei/orden-8-2026/",
+      "articles": [
+        "art-19"
+      ]
+    }
+  ],
+  "scopeNote": "La resolución del sorteo regula la admisión en Educación Infantil, Primaria, ESO, Bachillerato y centros de Educación Especial, y no menciona las enseñanzas artísticas. Su aplicación a las enseñanzas elementales y profesionales de Música y Danza deriva del artículo 19.2.4.º de la Orden 8/2026 y del apartado noveno de la convocatoria anual de admisión, que reproduce estas mismas letras. No existe un sorteo propio de las enseñanzas artísticas: es el mismo sorteo general.",
+  "scopeNoteVa": "La resolució del sorteig regula l'admissió en Educació Infantil, Primària, ESO, Batxillerat i centres d'Educació Especial, i no menciona les ensenyances artístiques. La seua aplicació a les ensenyances elementals i professionals de Música i Dansa deriva de l'article 19.2.4t de l'Ordre 8/2026 i de l'apartat nové de la convocatòria anual d'admissió, que reproduïx estes mateixes lletres. No hi ha un sorteig propi de les ensenyances artístiques: és el mateix sorteig general."
+}

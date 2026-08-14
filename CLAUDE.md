@@ -88,6 +88,25 @@ npm run build     # debe compilar sin errores
 - Actualizar `lastModifiedDate` en `vigpiracy`
 - Actualizar `data/metadata/law-registry.json`
 
+#### 6. ⚠️ Comprobar si la ley alimenta un dataset externo (NO SALTAR)
+
+**Este paso es obligatorio en toda ingesta.** Hay apps externas que leen datasets estáticos generados a partir de las leyes de este repo. Si la ley recién ingestada es una de sus fuentes y no se regenera el dataset, esas apps siguen sirviendo datos del curso pasado sin avisar de nada.
+
+| Si la ley es… | Regenerar con | Detalle |
+|---|---|---|
+| Calendario escolar, calendario laboral/festivos autonómicos, o fiestas locales | `python3 scripts/gen-calendario-dataset.py` | «Dataset de calendario escolar…» al final de este documento |
+| Sorteo público de admisión (`resolucion-sorteo-admision-{curso}`), convocatoria anual de admisión de Música y Danza, u orden de admisión que sustituya a la Orden 8/2026 | `python3 scripts/gen-sorteo-dataset.py` | «Dataset del sorteo de admisión…» al final de este documento |
+
+Los generadores **extraen los datos del texto de las leyes ingestadas**: casi nunca basta con ejecutarlos, hay que registrar antes la ley nueva en la lista de fuentes del script (`LOCAL_SOURCES`, `COURSES`, `STANDING_RULE`…). Cada sección explica qué tocar.
+
+Después: `npm run build` (Astro copia `public/` a `dist/`), release normal y **push** — el dataset solo llega a las apps externas cuando se despliega.
+
+**Al crear un dataset nuevo** (una tercera app que quiera leer datos de este repo), hay cuatro sitios que tocar, y ninguno es opcional:
+1. `scripts/gen-{nombre}-dataset.py` — generador que **extrae los datos del texto de las leyes ingestadas**, nunca valores tecleados a mano.
+2. `public/data/{nombre}/` — salida: `manifest.json` con `courses[]` + un fichero por curso.
+3. Una **fila en la tabla de este paso 6** y una **sección al final de este documento** con el disparador y las convenciones del esquema.
+4. `src/lib/opendata.ts` — descriptor bilingüe del dataset; es lo que alimenta la página pública `/es/datos/` y `/va/dades/`. Si cambia la forma de un fichero ya publicado, actualizarlo también.
+
 ### Errores conocidos y lecciones aprendidas
 
 #### Selección del método de extracción (CRÍTICO)
@@ -327,6 +346,7 @@ Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`
 - Ejemplo ingresado: instrucciones de inicio de curso (apartado único + anexo extenso con secciones numeradas 1-10 usando nodos `seccion`/`articulo`).
 - Las resoluciones anuales (instrucciones de curso) usan `temporality.type: "anual"` con `schoolYear` y `expiresDate`.
 - **⚠️ Si la norma es de calendario** (calendario escolar, calendario laboral/festivos autonómicos, o fiestas locales), tras ingestarla hay que **regenerar el dataset de calendario** — ver la sección «Dataset de calendario escolar para consumo externo» al final de este documento.
+- **⚠️ Si la norma es el sorteo público de admisión** (`resolucion-sorteo-admision-{curso}`) o la convocatoria anual de admisión de Música y Danza, tras ingestarla hay que **regenerar el dataset de sorteo** — ver la sección «Dataset del sorteo de admisión para consumo externo» al final de este documento.
 
 ### Configuración importante
 - `base` en `astro.config.mjs` DEBE tener trailing slash: `/legis_cpmdem/`
@@ -367,3 +387,29 @@ Convenciones del dataset (no romper, la app externa depende de ellas):
 - Idioma del dataset: valenciano. Un mapeo de nombres es/va de municipios sería una pasada futura verificada (no emparejar a ojo Xàbia↔Jávea, etc.).
 
 Tras regenerar: `npm run build` (Astro copia `public/` a `dist/`) y hacer release normal (version.ts + changelog + tag + push).
+
+## Dataset del sorteo de admisión para consumo externo (`data/sorteo/`)
+
+Este repo publica un segundo dataset (mismo patrón que el de calendario) que consumen apps externas de gestión de admisión y pruebas de acceso: las letras del sorteo público de Conselleria con las que se ordena al alumnado en los desempates. NO es parte de la web visible: son datos.
+
+- Ficheros publicados: `public/data/sorteo/manifest.json` y `public/data/sorteo/{curso}.json`.
+- URLs públicas: `https://jlmirallesb.github.io/legis_cpmdem/data/sorteo/manifest.json` (y `/{curso}.json`).
+- Esquema versionado propio: `"schema": "cev-sorteo-admision"`, `"version": N` (subir `version` solo en cambios incompatibles; los aditivos no la tocan).
+- Generador reproducible: **`scripts/gen-sorteo-dataset.py`** — extrae las letras con regex del artículo «Resultado del sorteo» de la norma ya ingestada; **nunca teclearlas a mano**. Ejecutar: `python3 scripts/gen-sorteo-dataset.py`.
+
+### ⚠️ DISPARADOR: al ingestar el sorteo de un curso nuevo, REGENERAR el dataset
+
+| Normativa afectada | Acción en `scripts/gen-sorteo-dataset.py` |
+|---|---|
+| **Sorteo de un curso nuevo** (ej. `resolucion-sorteo-admision-2027-2028`) | Añadir una tupla a `COURSES`: `(curso, slug del sorteo, slug de la convocatoria de admisión de Música y Danza)`. Si la convocatoria aún no está ingestada, pasar `None` como tercer elemento y volver a ejecutar cuando lo esté. |
+| **Nueva convocatoria anual de admisión de Música y Danza** | Rellenar el tercer elemento de la tupla del curso correspondiente (activa la comprobación cruzada de letras). |
+| **Nueva orden de admisión de Música y Danza** que sustituya a la Orden 8/2026 | Actualizar `STANDING_RULE` con el nuevo slug y artículo. |
+| **Corrección de letras** en la resolución del sorteo | Re-ejecutar el generador (las letras se extraen de la ley). |
+
+Convenciones del dataset (la app externa depende de ellas):
+- `letters1`/`letters2` = cadena literal `«X-Y»`, tal y como la publica la norma (primer apellido / segundo apellido).
+- `manifest.courses[]` es lo que evita que la app adivine el slug de la norma del año siguiente: lee el manifest, elige curso y pide `{curso}.json`.
+- `norm` = norma de la que salen las letras. `appliedBy` = normas de Música y Danza que aplican ese sorteo a los conservatorios.
+- **El sorteo NO es específico de enseñanzas artísticas**: la resolución solo nombra Infantil, Primaria, ESO, Bachillerato y Educación Especial. Se aplica a los conservatorios por el art. 19.2.4.º de la Orden 8/2026 y por el apartado noveno de la convocatoria anual, que reproduce las mismas letras. El generador comprueba que ambas coinciden y aborta si discrepan.
+
+Tras regenerar: `npm run build` y release normal (version.ts + changelog + tag + push).

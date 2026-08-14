@@ -1,5 +1,39 @@
 [
   {
+    "version": "1.7.0",
+    "date": "2026-08-14",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Nuevo apartado «Datos abiertos» en el menú, que documenta los conjuntos de datos que este sitio publica para que otras aplicaciones puedan leerlos: qué ficheros hay, qué contiene cada campo, una muestra real, de qué normas se transcriben y cuándo se actualizan. Hasta ahora existían pero no estaban explicados en ninguna parte."
+        },
+        {
+          "type": "nuevo",
+          "description": "Nuevo conjunto de datos abierto con las letras del sorteo público de admisión, publicado en /data/sorteo/ junto al que ya existía de calendario escolar. Contiene las letras de ordenación del primer y del segundo apellido de cada curso (para 2026-2027: Q-O y N-W), la resolución de la que salen y las normas de Música y Danza que la aplican a los conservatorios. Sirve para que otras aplicaciones dejen de teclear esas letras a mano cada año."
+        },
+        {
+          "type": "mejora",
+          "description": "Las letras del sorteo se extraen automáticamente del texto de la resolución ya ingestada y se contrastan con las que reproduce la convocatoria anual de admisión de Música y Danza; si no coincidieran, la generación se detiene en vez de publicar un dato erróneo."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Nou apartat «Dades obertes» en el menú, que documenta els conjunts de dades que este lloc publica perquè altres aplicacions puguen llegir-los: quins fitxers hi ha, què conté cada camp, una mostra real, de quines normes es transcriuen i quan s'actualitzen. Fins ara existien però no estaven explicats enlloc."
+        },
+        {
+          "type": "nou",
+          "description": "Nou conjunt de dades obert amb les lletres del sorteig públic d'admissió, publicat en /data/sorteo/ al costat del que ja hi havia de calendari escolar. Conté les lletres d'ordenació del primer i del segon cognom de cada curs (per a 2026-2027: Q-O i N-W), la resolució d'on ixen i les normes de Música i Dansa que l'apliquen als conservatoris. Servix perquè altres aplicacions deixen de teclejar eixes lletres a mà cada any."
+        },
+        {
+          "type": "millora",
+          "description": "Les lletres del sorteig s'extrauen automàticament del text de la resolució ja ingestada i es contrasten amb les que reproduïx la convocatòria anual d'admissió de Música i Dansa; si no coincidiren, la generació s'atura en compte de publicar una dada errònia."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.6.2",
     "date": "2026-08-01",
     "entries": {
