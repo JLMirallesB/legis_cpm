@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.7.1",
+    "date": "2026-08-14",
+    "entries": {
+      "es": [
+        {
+          "type": "mejora",
+          "description": "El conjunto de datos del sorteo de admisión incluye ahora, junto a las letras, la cita literal de la norma que fija cómo deben aplicarse, más un aviso en lenguaje llano. El motivo: las dos letras de cada par ordenan el apellido, y una aplicación externa las estaba usando a medias. Publicarlo evita que quien lea el dato tenga que deducir la regla por su cuenta. Es un añadido: no cambia las letras ni afecta a quien ya leía el fichero."
+        }
+      ],
+      "va": [
+        {
+          "type": "millora",
+          "description": "El conjunt de dades del sorteig d'admissió inclou ara, al costat de les lletres, la cita literal de la norma que fixa com s'han d'aplicar, més un avís en llenguatge planer. El motiu: les dues lletres de cada parell ordenen el cognom, i una aplicació externa les estava usant a mitges. Publicar-ho evita que qui llija la dada haja de deduir la regla pel seu compte. És un afegit: no canvia les lletres ni afecta qui ja llegia el fitxer."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.7.0",
     "date": "2026-08-14",
     "entries": {

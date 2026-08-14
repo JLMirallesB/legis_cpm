@@ -45,6 +45,19 @@
       ]
     }
   ],
+  "procedure": {
+    "text": "según lo establecido en el apartado 2 del artículo 38 del Decreto 48/2024, en las situaciones de empate que se produzcan después de aplicar los criterios de desempates, se realizará un sorteo público de acuerdo con el procedimiento siguiente: se elegirán dos letras por las cuales se ordenará el primer apellido; también otros dos letras por las cuales se ordenará el segundo apellido, y que se aplicarán cuando exista coincidencia con el primero. En caso de no disponer de un segundo apellido, se considerará que este empieza con \"AA\"",
+    "textVa": "segons el que s'establix en l'apartat 2 de l'article 38 del Decret 48/2024, en les situacions d'empat que es produïsquen després d'aplicar els criteris de desempat, es farà un sorteig públic d'acord amb el procediment següent: es triaran dos lletres per les quals s'ordenarà el primer cognom; també altres dos lletres per les quals s'ordenarà el segon cognom i que s'aplicaran quan hi haja coincidència amb el primer. En cas de no disposar d'un segon cognom, es considerarà que este comença amb \"AA\"",
+    "note": "El sorteo asigna DOS letras a cada apellido, y las dos ordenan ese apellido: «Q-O» no es una letra de inicio con otra sobrante. Las del segundo apellido solo entran en juego cuando coincide el primero. La norma no detalla más el algoritmo de comparación; el único indicio adicional que da es el comodín «AA» —dos caracteres— para quien no tiene segundo apellido.",
+    "noteVa": "El sorteig assigna DUES lletres a cada cognom, i les dues ordenen eixe cognom: «Q-O» no és una lletra d'inici amb una altra que sobra. Les del segon cognom només entren en joc quan coincidix el primer. La norma no detalla més l'algorisme de comparació; l'únic indici addicional que dóna és el comodí «AA» —dos caràcters— per a qui no té segon cognom.",
+    "sourceLawId": "orden-8-2024",
+    "sourceArticle": "art-40",
+    "sourceIngested": false,
+    "citedIn": {
+      "lawId": "resolucion-sorteo-admision-2026-2027",
+      "nodeId": "preambulo"
+    }
+  },
   "scopeNote": "La resolución del sorteo regula la admisión en Educación Infantil, Primaria, ESO, Bachillerato y centros de Educación Especial, y no menciona las enseñanzas artísticas. Su aplicación a las enseñanzas elementales y profesionales de Música y Danza deriva del artículo 19.2.4.º de la Orden 8/2026 y del apartado noveno de la convocatoria anual de admisión, que reproduce estas mismas letras. No existe un sorteo propio de las enseñanzas artísticas: es el mismo sorteo general.",
   "scopeNoteVa": "La resolució del sorteig regula l'admissió en Educació Infantil, Primària, ESO, Batxillerat i centres d'Educació Especial, i no menciona les ensenyances artístiques. La seua aplicació a les ensenyances elementals i professionals de Música i Dansa deriva de l'article 19.2.4t de l'Ordre 8/2026 i de l'apartat nové de la convocatòria anual d'admissió, que reproduïx estes mateixes lletres. No hi ha un sorteig propi de les ensenyances artístiques: és el mateix sorteig general."
 }

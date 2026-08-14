@@ -103,6 +103,49 @@ def crosscheck(slug, l1, l2):
     return "coinciden"
 
 
+def extract_procedure(slug):
+    """Extrae del preámbulo la cita literal del art. 40 de la Orden 8/2024.
+
+    Es el artículo que fija CÓMO se aplican las letras (dos por apellido, y el
+    comodín «AA» para quien no tiene segundo apellido). La Orden 8/2024 no está
+    ingestada: la tenemos solo por esta cita dentro del preámbulo de la resolución
+    del sorteo, así que se marca `sourceIngested: false`.
+    """
+    out = {}
+    for lang, marker in (("es", "artículo 40"), ("va", "article 40")):
+        law = load(slug, lang)
+        text = "\n".join(n.get("content") or "" for n in iter_nodes(law))
+        i = text.find(marker)
+        if i == -1:
+            raise SystemExit(f"[{slug}/{lang}] no se encuentra la cita del art. 40")
+        m = re.search(r"«([^»]+)»", text[i:])
+        if not m:
+            raise SystemExit(f"[{slug}/{lang}] no se encuentra el entrecomillado tras el art. 40")
+        quote = " ".join(m.group(1).split())
+        # Guarda: la cita debe hablar de dos letras por apellido.
+        expect = "dos letras" if lang == "es" else "dos lletres"
+        if expect not in quote:
+            raise SystemExit(f"[{slug}/{lang}] la cita del art. 40 no menciona «{expect}»: {quote[:120]}")
+        out[lang] = quote
+    return out
+
+
+# Aviso neutro: dice lo que dice la norma, sin añadir interpretación propia.
+PROCEDURE_NOTE_ES = (
+    "El sorteo asigna DOS letras a cada apellido, y las dos ordenan ese apellido: "
+    "«Q-O» no es una letra de inicio con otra sobrante. Las del segundo apellido solo "
+    "entran en juego cuando coincide el primero. La norma no detalla más el algoritmo "
+    "de comparación; el único indicio adicional que da es el comodín «AA» —dos "
+    "caracteres— para quien no tiene segundo apellido."
+)
+PROCEDURE_NOTE_VA = (
+    "El sorteig assigna DUES lletres a cada cognom, i les dues ordenen eixe cognom: "
+    "«Q-O» no és una lletra d'inici amb una altra que sobra. Les del segon cognom només "
+    "entren en joc quan coincidix el primer. La norma no detalla més l'algorisme de "
+    "comparació; l'únic indici addicional que dóna és el comodí «AA» —dos caràcters— "
+    "per a qui no té segon cognom."
+)
+
 SCOPE_NOTE_ES = (
     "La resolución del sorteo regula la admisión en Educación Infantil, Primaria, ESO, "
     "Bachillerato y centros de Educación Especial, y no menciona las enseñanzas artísticas. "
@@ -126,6 +169,7 @@ standing["articles"] = STANDING_RULE[1]
 
 for course, sorteo_slug, admision_slug in COURSES:
     l1, l2 = extract_letters(sorteo_slug)
+    proc = extract_procedure(sorteo_slug)
     applied = [standing]
     if admision_slug:
         state = crosscheck(admision_slug, l1, l2)
@@ -144,6 +188,16 @@ for course, sorteo_slug, admision_slug in COURSES:
         "letters2": l2,
         "norm": law_ref(sorteo_slug),
         "appliedBy": applied,
+        "procedure": {
+            "text": proc["es"],
+            "textVa": proc["va"],
+            "note": PROCEDURE_NOTE_ES,
+            "noteVa": PROCEDURE_NOTE_VA,
+            "sourceLawId": "orden-8-2024",
+            "sourceArticle": "art-40",
+            "sourceIngested": False,
+            "citedIn": {"lawId": sorteo_slug, "nodeId": "preambulo"},
+        },
         "scopeNote": SCOPE_NOTE_ES,
         "scopeNoteVa": SCOPE_NOTE_VA,
     }

@@ -164,6 +164,7 @@ export const DATASETS: Dataset[] = [
       { name: 'letters2', type: 'string', desc: { es: 'Letras con las que se ordena el segundo apellido. Solo se aplican cuando coincide el primero.', va: 'Lletres amb les quals s\'ordena el segon cognom. Només s\'apliquen quan coincidix el primer.' } },
       { name: 'norm', type: 'object', desc: { es: 'Resolución de la que salen las letras: título corto, fecha, número de DOGV y enlaces a la ficha oficial, al PDF y a la norma en este sitio.', va: 'Resolució d\'on ixen les lletres: títol curt, data, número de DOGV i enllaços a la fitxa oficial, al PDF i a la norma en este lloc.' } },
       { name: 'appliedBy', type: 'object[]', desc: { es: 'Normas de Música y Danza que aplican ese sorteo a los conservatorios, con el artículo o apartado concreto. Mismos campos que norm.', va: 'Normes de Música i Dansa que apliquen eixe sorteig als conservatoris, amb l\'article o apartat concret. Mateixos camps que norm.' } },
+      { name: 'procedure', type: 'object', desc: { es: 'Cómo se aplican las letras. Lleva la cita literal del artículo que fija el procedimiento (text, textVa), un aviso en lenguaje llano (note, noteVa) y de dónde sale la cita. Léelo antes de programar la ordenación.', va: 'Com s\'apliquen les lletres. Porta la cita literal de l\'article que fixa el procediment (text, textVa), un avís en llenguatge planer (note, noteVa) i d\'on ix la cita. Llig-lo abans de programar l\'ordenació.' } },
       { name: 'scopeNote', type: 'string', desc: { es: 'Explicación, en castellano, de por qué el sorteo general se aplica a las enseñanzas artísticas. Hay también scopeNoteVa en valenciano.', va: 'Explicació, en castellà, de per què el sorteig general s\'aplica a les ensenyances artístiques. Hi ha també scopeNoteVa en valencià.' } },
     ],
     sample: `{
@@ -180,6 +181,13 @@ export const DATASETS: Dataset[] = [
     "url": "https://jlmirallesb.github.io/legis_cpmdem/es/ley/resolucion-sorteo-admision-2026-2027/"
   },
   "appliedBy": [ { "lawId": "orden-8-2026", "articles": ["art-19"] } ],
+  "procedure": {
+    "text": "...se elegirán dos letras por las cuales se ordenará el primer apellido...",
+    "note": "El sorteo asigna DOS letras a cada apellido, y las dos ordenan ese apellido...",
+    "sourceLawId": "orden-8-2024",
+    "sourceArticle": "art-40",
+    "sourceIngested": false
+  },
   "scopeNote": "..."
 }`,
     updates: {
@@ -199,6 +207,14 @@ export const DATASETS: Dataset[] = [
       {
         es: 'Al generar el dataset se comprueba que las letras de la resolución del sorteo y las que reproduce la convocatoria de Música y Danza coinciden. Si no coincidieran, no se publica nada.',
         va: 'En generar el dataset es comprova que les lletres de la resolució del sorteig i les que reproduïx la convocatòria de Música i Dansa coincidixen. Si no coincidiren, no es publica res.',
+      },
+      {
+        es: 'El orden dentro del par importa y no es alfabético: en «Q-O» se ordena empezando por la Q y, a igualdad, por la O. Y son las dos letras las que ordenan el apellido, no solo la primera. Consulta procedure antes de programar la ordenación: ahí está la cita literal de la norma que lo fija.',
+        va: 'L\'orde dins del parell importa i no és alfabètic: en «Q-O» s\'ordena començant per la Q i, a igualtat, per la O. I són les dues lletres les que ordenen el cognom, no només la primera. Consulta procedure abans de programar l\'ordenació: ahí està la cita literal de la norma que ho fixa.',
+      },
+      {
+        es: 'La Orden 8/2024, que fija el procedimiento, no está ingestada en este sitio: la cita de procedure procede del preámbulo de la resolución del sorteo, que la reproduce. Por eso procedure.sourceIngested es false y no hay enlace a la norma.',
+        va: 'L\'Orde 8/2024, que fixa el procediment, no està ingestada en este lloc: la cita de procedure procedix del preàmbul de la resolució del sorteig, que la reproduïx. Per això procedure.sourceIngested és false i no hi ha enllaç a la norma.',
       },
     ],
   },
