@@ -50,12 +50,13 @@ const snippet = usageSnippet(lang);
   </section>
 
   {DATASETS.map(ds => (
-    <section class="panel dataset" id={ds.id}>
-      <header class="ds-head">
-        <h2>{ds.name[lang]}</h2>
+    <details class="panel dataset" id={ds.id}>
+      <summary class="ds-head">
+        <h2 class="ds-name">{ds.name[lang]}</h2>
         <code class="schema-tag">{ds.schema} · v{ds.version}</code>
-      </header>
-      <p class="ds-summary">{ds.summary[lang]}</p>
+        <span class="ds-summary">{ds.summary[lang]}</span>
+        <span class="ds-chevron" aria-hidden="true"></span>
+      </summary>
 
       <h3>{t('opendata.files', lang)}</h3>
       <ul class="files">
@@ -134,7 +135,7 @@ const snippet = usageSnippet(lang);
           </ul>
         </div>
       )}
-    </section>
+    </details>
   ))}
 
   <section class="panel">
@@ -160,6 +161,22 @@ const snippet = usageSnippet(lang);
   </section>
 
 </div>
+
+<script>
+  // Las fichas van plegadas, así que un enlace a #sorteo aterrizaría en una
+  // ficha cerrada sin que se note. Al llegar con ancla, se abre y se desplaza.
+  function openFromHash() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (target instanceof HTMLDetailsElement) {
+      target.open = true;
+      target.scrollIntoView();
+    }
+  }
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
+</script>
 
 <style>
   .hero {
@@ -209,19 +226,79 @@ const snippet = usageSnippet(lang);
     margin: var(--space-lg) 0 var(--space-sm);
   }
 
+  /* Las fichas de dataset son <details> plegados por defecto: con varios
+     conjuntos la página se vuelve inabarcable si van todos abiertos. */
+  .dataset {
+    padding: 0;
+  }
+
   .ds-head {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: var(--space-sm);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: var(--space-md);
+    row-gap: var(--space-xs);
+    padding: var(--space-lg);
+    cursor: pointer;
+    list-style: none;
+    border-radius: var(--radius-md);
+  }
+
+  /* Oculta el triángulo nativo (Safari usa un pseudo-elemento propio). */
+  .ds-head::-webkit-details-marker {
+    display: none;
+  }
+
+  .ds-head:hover {
+    background: var(--color-bg-secondary);
+  }
+
+  .ds-head:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
+  }
+
+  .ds-name {
+    grid-area: 1 / 1;
+    margin: 0;
+    font-size: 1.35rem;
+    color: var(--color-primary);
+  }
+
+  .ds-head .schema-tag {
+    grid-area: 2 / 1;
+    justify-self: start;
+  }
+
+  .ds-chevron {
+    grid-row: 1 / -1;
+    grid-column: 2;
+    align-self: center;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-right: 2px solid var(--color-text-muted);
+    border-bottom: 2px solid var(--color-text-muted);
+    transform: rotate(-45deg);
+    transition: transform 0.2s;
+  }
+
+  .dataset[open] .ds-chevron {
+    transform: rotate(45deg);
+  }
+
+  .dataset[open] .ds-head {
     border-bottom: 2px solid var(--color-border);
-    padding-bottom: var(--space-sm);
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
     margin-bottom: var(--space-md);
   }
 
-  .ds-head h2 {
-    margin: 0;
+  /* El contenido plegable hereda el padding que le hemos quitado al panel. */
+  .dataset > :not(.ds-head) {
+    margin-left: var(--space-lg);
+    margin-right: var(--space-lg);
+  }
+
+  .dataset > :last-child {
+    margin-bottom: var(--space-lg);
   }
 
   .schema-tag {
@@ -235,7 +312,10 @@ const snippet = usageSnippet(lang);
   }
 
   .ds-summary {
+    grid-area: 3 / 1;
     color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    margin-top: var(--space-xs);
   }
 
   .principles {
@@ -377,11 +457,31 @@ const snippet = usageSnippet(lang);
   }
 
   @media (max-width: 640px) {
-    .panel {
+    .panel:not(.dataset) {
       padding: var(--space-md);
+    }
+    .ds-head {
+      padding: var(--space-md);
+    }
+    .dataset > :not(.ds-head) {
+      margin-left: var(--space-md);
+      margin-right: var(--space-md);
+    }
+    .dataset > :last-child {
+      margin-bottom: var(--space-md);
     }
     .code {
       font-size: 0.75rem;
+    }
+  }
+
+  /* Al imprimir no hay quien despliegue nada: se muestran todas las fichas. */
+  @media print {
+    .dataset:not([open]) > *:not(.ds-head) {
+      display: block;
+    }
+    .ds-chevron {
+      display: none;
     }
   }
 </style>

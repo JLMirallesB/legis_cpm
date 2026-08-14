@@ -1,5 +1,23 @@
 [
   {
+    "version": "1.7.2",
+    "date": "2026-08-14",
+    "entries": {
+      "es": [
+        {
+          "type": "mejora",
+          "description": "En el apartado de datos abiertos, las fichas de cada conjunto de datos se pliegan y despliegan, y salen plegadas. Las explicaciones de cabecera y de cierre siguen abiertas. La ficha plegada sigue mostrando el nombre, el esquema y el resumen, para poder decidir si interesa sin abrirla. Los enlaces con ancla abren la ficha correspondiente, y al imprimir se despliegan todas."
+        }
+      ],
+      "va": [
+        {
+          "type": "millora",
+          "description": "En l'apartat de dades obertes, les fitxes de cada conjunt de dades es pleguen i despleguen, i ixen plegades. Les explicacions de capçalera i de tancament continuen obertes. La fitxa plegada continua mostrant el nom, l'esquema i el resum, per a poder decidir si interessa sense obrir-la. Els enllaços amb àncora obrin la fitxa corresponent, i en imprimir es despleguen totes."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.7.1",
     "date": "2026-08-14",
     "entries": {
