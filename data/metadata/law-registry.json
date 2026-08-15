@@ -293,7 +293,7 @@
       "title": "Decreto 193/2025 - Convivencia en el sistema educativo de la Comunitat Valenciana",
       "status": "ingested",
       "category": "organizacion",
-      "notes": "PDFs separados ES/VA. 3 títulos, 36 artículos, 3 DA, 2 DT, 1 DD, 7 DF. Deroga D.195/2022 (no ingresado). Vigente desde 07/01/2026."
+      "notes": "PDFs separados ES/VA. 3 títulos, 36 artículos, 3 DA, 2 DT, 1 DD, 7 DF. Deroga D.195/2022 (no ingresado). Vigente desde 07/01/2026. Modificado por la Ley 5/2026 (arts. 25, 30 y 32 con versions[])."
     },
     {
       "slug": "instrucciones-convalidaciones-2023",
@@ -511,6 +511,13 @@
       "status": "ingested",
       "category": "economica",
       "notes": "Instrucción núm. 6, de 26 de abril de 2023, de la Dirección General de Infraestructuras Educativas (CEICE, no publicada en DOGV; firmada por Víctor García i Tomás el 26/04/2023). Norma matriz del confort térmico: protocolo para tramitar solicitudes de ventiladores, aire acondicionado y medidas alternativas (láminas solares, lamas, porches, vegetación, ventilación cruzada, pintura blanca, toldos). PDF bilingüe en un solo fichero: VA págs. 1-11, ES págs. 12-22 (extraído con pdftotext -layout, un solo pase). Estructura: preámbulo (Antecedentes) + sección Objeto + apartados Primero-Segundo + Anexo 1 (centros de titularidad municipal) y Anexo 2 (centros de titularidad de la Conselleria), cada uno con 3 sub-secciones (solicitud, respuesta DT con documentación y condiciones técnicas, informe técnico). Cross-ref bidireccional con instruccion-1-2026-confort-termico (posteriorAffectations aquí, priorAffectations allí). Sin URL pública al PDF (publishedIn.url y pdfUrl vacíos, pendiente)."
+    },
+    {
+      "slug": "ley-5-2026",
+      "title": "Ley 5/2026 - Medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat",
+      "status": "ingested",
+      "category": "general",
+      "notes": "Ley de acompañamiento (DOGV 10425, 10/08/2026). Ingesta parcial: texto íntegro en los arts. 1, 2 y 17 (tasas de educación no universitaria y de enseñanzas artísticas superiores, Ley 20/2017; en el cuadro del art. 2 van en negrita los conceptos de conservatorio), los arts. 152-157 (capítulo VII, Educación) y la derogatoria y las 5 DF. Del resto de la ley (3 títulos, 15 capítulos, 199 arts) se conserva la estructura con los tramos de capítulos seguidos agrupados en un nodo con la nota de no relativo a conservatorios. Preámbulo podado: apartados I-III enteros y, de IV, V y VII, solo los párrafos de educación, tasas y parte final. Modifica el D.193/2025 (arts. 25, 30 y 32) y la Ley 20/2017 de tasas. El preámbulo se omitió en la edición ES y lo reprodujo la corrección de errores DOGV 10425 bis (2026/26688). Vigente desde 11/08/2026."
     }
   ]
 }

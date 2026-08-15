@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.8.0",
+    "date": "2026-08-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Ley 5/2026, de 31 de julio, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat (la ley de acompañamiento, DOGV 10425). Se reproduce el texto íntegro de lo que afecta a las enseñanzas de música y danza: los artículos 1, 2 y 17, que reescriben las tasas de la Ley 20/2017, los artículos 152 a 157 del capítulo de Educación, la disposición derogatoria y las cinco disposiciones finales. El cuadro de cuotas del artículo 2 se muestra recortado a los conceptos que tramita un conservatorio: título profesional de música y de danza, libro de calificaciones, certificaciones, apertura de expediente y convalidación de estudios extranjeros. Del resto de la ley —de vivienda a ganadería— se conserva la estructura, con los tramos de capítulos seguidos agrupados en un solo apunte. El preámbulo se omitió por error en la edición castellana del DOGV y se transcribe de la corrección de errores publicada el mismo día, conservando el encuadre general de la ley y los pasajes de educación y tasas."
+        },
+        {
+          "type": "actualizado",
+          "description": "El Decreto 193/2025, de convivencia, recoge ya las modificaciones que le introduce la Ley 5/2026, con selector de versión en los tres artículos afectados: el artículo 32 suma el deber de directivos, docentes y consejo escolar de velar por la neutralidad ideológica del centro; el artículo 30 suma el deber del alumnado de mantener el rostro sustancialmente descubierto durante toda la jornada, salvo prescripción médica o actividad pedagógica, cultural o teatral autorizada; y el artículo 25 tipifica su incumplimiento como falta grave."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Llei 5/2026, de 31 de juliol, de mesures fiscals, de gestió administrativa i financera, i d'organització de la Generalitat (la llei d'acompanyament, DOGV 10425). Es reproduïx el text íntegre del que afecta les ensenyances de música i dansa: els articles 1, 2 i 17, que reescriuen les taxes de la Llei 20/2017, els articles 152 a 157 del capítol d'Educació, la disposició derogatòria i les cinc disposicions finals. El quadro de quotes de l'article 2 es mostra retallat als conceptes que tramita un conservatori: títol professional de música i de dansa, llibre de qualificacions, certificats, obertura d'expedient i convalidació d'estudis estrangers. De la resta de la llei —de vivenda a ramaderia— es conserva l'estructura, amb els trams de capítols seguits agrupats en un sol apunt. El preàmbul es va ometre per error en l'edició castellana del DOGV i es transcriu de la correcció d'errades publicada el mateix dia, conservant l'encaix general de la llei i els passatges d'educació i taxes."
+        },
+        {
+          "type": "actualitzat",
+          "description": "El Decret 193/2025, de convivència, ja arreplega les modificacions que hi introduïx la Llei 5/2026, amb selector de versió en els tres articles afectats: l'article 32 suma el deure de directius, docents i consell escolar de vetlar per la neutralitat ideològica del centre; l'article 30 suma el deure de l'alumnat de mantindre el rostre substancialment descobert durant tota la jornada, excepte prescripció mèdica o activitat pedagògica, cultural o teatral autoritzada; i l'article 25 tipifica el seu incompliment com a falta greu."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.7.2",
     "date": "2026-08-14",
     "entries": {
