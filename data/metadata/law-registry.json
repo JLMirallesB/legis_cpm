@@ -518,6 +518,13 @@
       "status": "ingested",
       "category": "general",
       "notes": "Ley de acompañamiento (DOGV 10425, 10/08/2026). Ingesta parcial: texto íntegro en los arts. 1, 2 y 17 (tasas de educación no universitaria y de enseñanzas artísticas superiores, Ley 20/2017; en el cuadro del art. 2 van en negrita los conceptos de conservatorio), los arts. 152-157 (capítulo VII, Educación) y la derogatoria y las 5 DF. Del resto de la ley (3 títulos, 15 capítulos, 199 arts) se conserva la estructura con los tramos de capítulos seguidos agrupados en un nodo con la nota de no relativo a conservatorios. Preámbulo podado: apartados I-III enteros y, de IV, V y VII, solo los párrafos de educación, tasas y parte final. Modifica el D.193/2025 (arts. 25, 30 y 32) y la Ley 20/2017 de tasas. El preámbulo se omitió en la edición ES y lo reprodujo la corrección de errores DOGV 10425 bis (2026/26688). Vigente desde 11/08/2026."
+    },
+    {
+      "slug": "ley-20-2017",
+      "title": "Ley 20/2017 - Tasas de la Generalitat",
+      "status": "ingested",
+      "category": "economica",
+      "notes": "Texto CONSOLIDADO del DOGV (versión vigente 01/06/2025, PDF es/va en /datos/consolidacion/2017/2017_12159_20250601_{lang}.pdf), más las modificaciones de la Ley 5/2026 posteriores a esa consolidación. Ingesta parcial: de los 36 títulos se desarrolla solo el título XIV (tasas en materia de educación) y, dentro de él, los capítulos I (enseñanzas artísticas superiores), II (enseñanzas de régimen especial: es el de los conservatorios, con las tarifas de matrícula por asignatura) y V (servicios administrativos no universitarios). El capítulo III (enseñanza universitaria) está derogado por la Ley 5/2026 y el IV queda en nota. Los cuadros de tarifas se recortan a los conceptos de conservatorio. versions[] en art-14-1-2, art-14-5-5 y dt-unica (v2 Ley 5/2026 / v1 consolidado 2025). OJO: la ley la retoca cada ley de acompañamiento; hay que revisarla en cada ingesta de una ley de medidas fiscales."
     }
   ]
 }

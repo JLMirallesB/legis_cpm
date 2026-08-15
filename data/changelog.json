@@ -1,5 +1,31 @@
 [
   {
+    "version": "1.9.0",
+    "date": "2026-08-15",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ingesta de la Ley 20/2017, de tasas de la Generalitat, en su texto consolidado. Trae por fin al repositorio lo que cuesta cada trámite de un conservatorio: las tarifas de matrícula por asignatura de las enseñanzas elementales y profesionales de música y danza, con sus tres precios según se curse por primera vez, se lleve pendiente o se repita; las pruebas de acceso, de ingreso y de obtención directa del certificado elemental; y las tasas de título profesional, libro de calificaciones, certificaciones, tarjeta de alumno y apertura de expediente. Junto al cuadro van los artículos que lo gobiernan y que suelen buscarse por separado: quién está exento, quién tiene el 50 % de bonificación, el pago en dos plazos con el segundo en la segunda quincena de enero, la anulación automática de la matrícula por impago y las reglas de traslado de expediente."
+        },
+        {
+          "type": "actualizado",
+          "description": "De la ley se reproduce el título XIV, de tasas en materia de educación; el resto de los 36 títulos se identifica por su estructura. Los cuadros muestran solo los conceptos de conservatorio. Los artículos que reescribió la Ley 5/2026 —las exenciones de las enseñanzas artísticas superiores, el cuadro de servicios administrativos y la disposición transitoria— llevan selector de versión, de modo que se puede comparar la redacción vigente con la del texto consolidado de junio de 2025."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Ingesta de la Llei 20/2017, de taxes de la Generalitat, en el seu text consolidat. Porta per fi al repositori el que costa cada tràmit d'un conservatori: les tarifes de matrícula per assignatura de les ensenyances elementals i professionals de música i dansa, amb els seus tres preus segons si es cursa per primera vegada, es porta pendent o es repetix; les proves d'accés, d'ingrés i d'obtenció directa del certificat elemental; i les taxes de títol professional, llibre de qualificacions, certificats, targeta d'alumne i obertura d'expedient. Al costat del quadro van els articles que el governen i que se solen buscar per separat: qui està exempt, qui té el 50 % de bonificació, el pagament en dos terminis amb el segon en la segona quinzena de gener, l'anul·lació automàtica de la matrícula per impagament i les regles de trasllat d'expedient."
+        },
+        {
+          "type": "actualitzat",
+          "description": "De la llei es reproduïx el títol XIV, de taxes en matèria d'educació; la resta dels 36 títols s'identifica per la seua estructura. Els quadros mostren només els conceptes de conservatori. Els articles que va reescriure la Llei 5/2026 —les exempcions de les ensenyances artístiques superiors, el quadro de servicis administratius i la disposició transitòria— porten selector de versió, de manera que es pot comparar la redacció vigent amb la del text consolidat de juny de 2025."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.8.0",
     "date": "2026-08-15",
     "entries": {

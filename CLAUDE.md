@@ -348,6 +348,19 @@ Tipos de norma ingresados hasta ahora: `decreto`, `orden`, `ley_organica`, `ley`
 - **⚠️ Si la norma es de calendario** (calendario escolar, calendario laboral/festivos autonómicos, o fiestas locales), tras ingestarla hay que **regenerar el dataset de calendario** — ver la sección «Dataset de calendario escolar para consumo externo» al final de este documento.
 - **⚠️ Si la norma es el sorteo público de admisión** (`resolucion-sorteo-admision-{curso}`) o la convocatoria anual de admisión de Música y Danza, tras ingestarla hay que **regenerar el dataset de sorteo** — ver la sección «Dataset del sorteo de admisión para consumo externo» al final de este documento.
 
+#### Leyes de medidas fiscales (leyes de acompañamiento)
+
+Cada año, junto a los presupuestos, Les Corts aprueban una ley de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat (la «ley de acompañamiento»). Son leyes enormes y heterogéneas que modifican decenas de normas de golpe.
+
+**⚠️ Al ingestar una ley de acompañamiento hay dos comprobaciones obligatorias:**
+
+1. **¿Modifica la Ley 20/2017, de tasas?** Casi siempre sí, y casi siempre toca el título XIV (tasas en materia de educación). Hay que abrir `data/laws/{es,va}/ley-20-2017.json` y **crear las versiones** de los artículos afectados (`art-14-1-2`, `art-14-2-5`, `art-14-5-5`, `dt-unica`…), actualizar `posteriorAffectations` y `vigpiracy.lastModifiedDate`. Si no se hace, el repositorio publica tarifas de matrícula caducadas, que es peor que no publicarlas.
+2. **¿Modifica alguna otra ley ya ingestada?** Revisar el capítulo de la Conselleria de Educación, Cultura y Universidades y el índice completo: el Decreto 193/2025 de convivencia, el Decreto 80/2017 de inspección o los decretos de currículo pueden aparecer en cualquier capítulo.
+
+Convenciones de alcance para estas leyes (ver `ley-5-2026` como modelo): se conserva el esqueleto completo de títulos, capítulos y secciones, agrupando en un solo nodo los **tramos de capítulos seguidos** sin incidencia («Capítulos I a VI. …»), y se reproduce con texto íntegro solo lo que afecta a las enseñanzas de música y danza. El preámbulo se poda igual: enteros los apartados de encuadre general de la ley, y del resto solo los párrafos con incidencia, sustituyendo los tramos elididos por la nota.
+
+Cuando un cuadro de tarifas o de cuotas mezcla enseñanzas, **se recorta a los conceptos de conservatorio** y se cierra con la nota de no relativo; no se reproduce entero.
+
 ### Configuración importante
 - `base` en `astro.config.mjs` DEBE tener trailing slash: `/legis_cpmdem/`
 - Node.js >= 22.12.0
