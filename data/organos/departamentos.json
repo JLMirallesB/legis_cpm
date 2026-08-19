@@ -1,0 +1,304 @@
+{
+  "id": "departamentos",
+  "slug": "departamentos",
+  "order": 12,
+  "short": {
+    "es": "Departamentos",
+    "va": "Departaments"
+  },
+  "title": {
+    "es": "Los departamentos didácticos",
+    "va": "Els departaments didàctics"
+  },
+  "description": {
+    "es": "Cómo se organizan los departamentos de un conservatorio, cuáles son y qué les corresponde.",
+    "va": "Com s'organitzen els departaments d'un conservatori, quins són i què els correspon."
+  },
+  "terms": [
+    "departamento didactico",
+    "departamentos didacticos",
+    "departament didactic",
+    "departaments didactics"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-57-2020",
+      "article": "art-27",
+      "hash": {
+        "es": "8bf3ebb1",
+        "va": "7cc7667d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-28",
+      "hash": {
+        "es": "1a77805a",
+        "va": "c00a64fd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-29",
+      "hash": {
+        "es": "3bda1e56",
+        "va": "29046535"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "hash": {
+        "es": "787875d2",
+        "va": "6e3335ed"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "hash": {
+        "es": "e5bb6851",
+        "va": "525c3ab9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-32",
+      "apartado": "3",
+      "hash": {
+        "es": "bc6cebdc",
+        "va": "09c12d27"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-3",
+      "apartado": "2",
+      "hash": {
+        "es": "9ab13782",
+        "va": "53aeba74"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "5.1.c",
+      "hash": {
+        "es": "b0395599",
+        "va": "9a394d22"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-23",
+      "note": "Qué órganos de coordinación docente hay",
+      "hash": {
+        "es": "d9109888",
+        "va": "b206ceca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-32",
+      "apartado": "1",
+      "hash": {
+        "es": "809fa1ba",
+        "va": "d9506c91"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "3.c",
+      "hash": {
+        "es": "1131c393",
+        "va": "f9813098"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5.b.12",
+      "hash": {
+        "es": "cc18874e",
+        "va": "7022d40d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-24",
+      "apartado": "0",
+      "hash": {
+        "es": "c8ec8bbf",
+        "va": "58054b01"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-23",
+      "apartado": "0",
+      "hash": {
+        "es": "d2f582b0",
+        "va": "3b6d3481"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "anexo-7",
+      "apartado": "2.10.4",
+      "hash": {
+        "es": "dc8275f1",
+        "va": "2cdf491b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "anexo-8",
+      "apartado": "3",
+      "hash": {
+        "es": "31faafa8",
+        "va": "418a5cb5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "article": "sec-7",
+      "apartado": "7.2",
+      "hash": {
+        "es": "ebf56dc0",
+        "va": "4fa4876e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "30545ef5",
+        "va": "0ff0ba46"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "ab44d6b7",
+        "va": "17f65390"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-11#r",
+        "art-23#2.c",
+        "art-26#4",
+        "art-35#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "items": [
+        "sec-1#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "items": [
+        "sec-4#4.4"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-20-2019",
+      "items": [
+        "art-15#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-32-2011",
+      "items": [
+        "art-13#2.c"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "items": [
+        "anexo-4-3#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "items": [
+        "anexo-3-2#3.2.3.2",
+        "anexo-4-3#2",
+        "anexo-6-1#6.1.2.1.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    }
+  ],
+  "titleTerms": [
+    "departamentos didacticos",
+    "departamento didactico"
+  ],
+  "exclude": [
+    "direccion del departamento"
+  ]
+}

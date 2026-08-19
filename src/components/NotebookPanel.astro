@@ -89,6 +89,9 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
   appVersion: VERSION,
   apaRef,
   apaParen,
+  vigenciaUrl: import.meta.env.BASE_URL + 'api/vigencia.json',
+  staleLabel: t('notebook.stale', lang),
+  staleOpenLabel: t('notebook.stale_open', lang),
 }}>
   const STORAGE_KEY = 'legis_notebook';
 
@@ -141,6 +144,35 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
     const count = loadFragments().length;
     badge.textContent = count;
     badge.hidden = count === 0;
+  }
+
+  // ── Vigencia de los fragmentos guardados ───────────────────
+  //
+  // El cuaderno personal guarda el texto copiado y la fecha. Comparando esa
+  // fecha con la última vez que se tocó el artículo se sabe si la cita puede
+  // haberse quedado atrás; hasta ahora no había forma de enterarse.
+  let vigencia = null;
+
+  async function ensureVigencia() {
+    if (vigencia !== null) return vigencia;
+    try {
+      const res = await fetch(vigenciaUrl);
+      vigencia = res.ok ? await res.json() : { laws: {} };
+    } catch {
+      vigencia = { laws: {} };
+    }
+    return vigencia;
+  }
+
+  function fragmentStale(frag) {
+    const law = vigencia?.laws?.[frag.lawSlug];
+    if (!law) return false;
+    const today = new Date().toISOString().slice(0, 10);
+    if (law.status === 'derogada') return true;
+    if (law.expires && law.expires <= today) return true;
+    const changed = law.articles?.[frag.articleId];
+    const saved = (frag.savedAt || '').slice(0, 10);
+    return Boolean(changed && saved && changed > saved);
   }
 
   // ── Render list ────────────────────────────────────────────
@@ -216,6 +248,17 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
       text.textContent = frag.text.length > 200 ? frag.text.slice(0, 200) + '…' : frag.text;
 
       item.append(text);
+
+      if (fragmentStale(frag)) {
+        const aviso = document.createElement('p');
+        aviso.className = 'fragment-stale';
+        aviso.textContent = staleLabel + ' ';
+        const link = document.createElement('a');
+        link.href = frag.url;
+        link.textContent = staleOpenLabel;
+        aviso.appendChild(link);
+        item.append(aviso);
+      }
       list.appendChild(item);
     });
   }
@@ -433,7 +476,10 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
   document.getElementById('notebook-trigger')?.addEventListener('click', () => {
     if (panel) {
       const isOpen = panel.classList.toggle('is-open');
-      if (isOpen) renderList();
+      if (isOpen) {
+        renderList();
+        ensureVigencia().then(renderList);
+      }
     }
   });
   document.getElementById('notebook-close')?.addEventListener('click', () => {
@@ -707,6 +753,21 @@ const { lang, lawTitle, lawShort, lawSlug, apaRef, apaParen } = Astro.props;
 
 <style>
   /* ── Trigger button ──────────────────────────────────────── */
+  .fragment-stale {
+    margin: var(--space-xs) 0 0;
+    padding: var(--space-xs) var(--space-sm);
+    border-left: 3px solid #8f5511;
+    background: #fdf6ec;
+    color: #8f5511;
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .fragment-stale a {
+    color: inherit;
+    font-weight: 600;
+  }
+
   .notebook-trigger {
     position: fixed;
     bottom: 24px;

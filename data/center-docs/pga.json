@@ -1,0 +1,568 @@
+{
+  "id": "pga",
+  "slug": "pga",
+  "order": 2,
+  "short": {
+    "es": "PGA",
+    "va": "PGA"
+  },
+  "title": {
+    "es": "Programación general anual",
+    "va": "Programació general anual"
+  },
+  "description": {
+    "es": "El documento que concreta cada curso lo que el proyecto educativo fija a largo plazo: horario general, actividades, planes y previsiones. Se elabora al empezar el curso y se evalúa al terminarlo.",
+    "va": "El document que concreta cada curs el que el projecte educatiu fixa a llarg termini: horari general, activitats, plans i previsions. S'elabora en començar el curs i s'avalua en acabar-lo."
+  },
+  "terms": [
+    "programacion general anual",
+    "programacio general anual",
+    "pga"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-125",
+      "note": "El artículo que la crea y dice qué recoge",
+      "hash": {
+        "es": "23df2435",
+        "va": "21115690"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-127",
+      "apartado": "b",
+      "note": "El Consejo Escolar la aprueba y la evalúa",
+      "hash": {
+        "es": "392408b5",
+        "va": "392408b5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "a",
+      "hash": {
+        "es": "1e8d278d",
+        "va": "e320a581"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "b",
+      "hash": {
+        "es": "648618ff",
+        "va": "95c9b93f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-132",
+      "apartado": "n",
+      "hash": {
+        "es": "9e7adfde",
+        "va": "9e7adfde"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-124",
+      "apartado": "1",
+      "note": "El plan de convivencia se incorpora a la PGA",
+      "hash": {
+        "es": "ea868d94",
+        "va": "ea868d94"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "note": "El artículo central: qué es, quién la elabora y qué incluye",
+      "hash": {
+        "es": "0bef16ef",
+        "va": "cec3bec5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.m",
+      "hash": {
+        "es": "99f62b0c",
+        "va": "58509c8b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.a",
+      "hash": {
+        "es": "cada91e9",
+        "va": "e054f4e4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "a",
+      "hash": {
+        "es": "ca227417",
+        "va": "683c88ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.g",
+      "hash": {
+        "es": "0e5cb3c1",
+        "va": "f69aaf84"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "a",
+      "hash": {
+        "es": "4e9797f7",
+        "va": "895f8215"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "j",
+      "hash": {
+        "es": "f4525386",
+        "va": "55ffbcc4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "2.l",
+      "note": "Las actividades extraescolares se incluyen en la PGA",
+      "hash": {
+        "es": "a37ac96c",
+        "va": "67a34d1b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "2.p",
+      "hash": {
+        "es": "8ae5210a",
+        "va": "ef91e10f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-42",
+      "apartado": "2",
+      "hash": {
+        "es": "9c6bae2e",
+        "va": "ce96aa74"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "5.g",
+      "hash": {
+        "es": "17345c12",
+        "va": "47b729af"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.a",
+      "hash": {
+        "es": "f90af6c2",
+        "va": "2bdb9a87"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.g",
+      "hash": {
+        "es": "9c9d52ba",
+        "va": "5a9bfe0a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.b",
+      "hash": {
+        "es": "f9181764",
+        "va": "1f01739c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.h",
+      "hash": {
+        "es": "0c7647a8",
+        "va": "8eb40a86"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-23",
+      "apartado": "6",
+      "hash": {
+        "es": "f0dc5b60",
+        "va": "e9ded5a0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-24",
+      "apartado": "6",
+      "hash": {
+        "es": "68543c59",
+        "va": "54770668"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "2",
+      "hash": {
+        "es": "af7614a7",
+        "va": "559e1dff"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-1",
+      "note": "Contenido y plazos de la PGA de este curso",
+      "hash": {
+        "es": "11b826dd",
+        "va": "6ccc280c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-1",
+      "apartado": "2",
+      "hash": {
+        "es": "b678d2d2",
+        "va": "5ca0c19e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-7",
+      "apartado": "0",
+      "hash": {
+        "es": "346ae2a6",
+        "va": "8aaca625"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-1",
+      "hash": {
+        "es": "3f4d4fbe",
+        "va": "e932d8f0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-1",
+      "apartado": "2",
+      "hash": {
+        "es": "b678d2d2",
+        "va": "5ca0c19e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-3-2",
+      "apartado": "3.2.4.3",
+      "hash": {
+        "es": "aa1c63e3",
+        "va": "7ec94c1b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-9-1",
+      "apartado": "4",
+      "hash": {
+        "es": "578b9273",
+        "va": "d6bd3ebe"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-5",
+      "apartado": "1",
+      "note": "El programa de formación del centro forma parte de la PGA",
+      "hash": {
+        "es": "dd197ede",
+        "va": "bc2d5e58"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "*",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-12",
+      "apartado": "1",
+      "reason": "El PAM es el documento equivalente de los centros de régimen general"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-18",
+      "apartado": "1",
+      "reason": "El plan de convivencia: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "m",
+      "reason": "La acción tutorial: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "6",
+      "reason": "Composición de las comisiones del Consejo Escolar"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-27",
+      "apartado": "1",
+      "reason": "Naturaleza de los departamentos didácticos"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "l",
+      "reason": "Colaboración en actividades ya aprobadas"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "5",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "2.n",
+      "reason": "Quién organiza las actividades, no qué recoge la PGA"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.m",
+      "reason": "Propuestas de actividades de la AMPA"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-51",
+      "apartado": "2",
+      "reason": "El proyecto de gestión: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5~2",
+      "reason": "Numeración repetida en el DOGV; el apartado 5 real ya está"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "6",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "apartado": "1",
+      "reason": "El plan de autoevaluación: ficha propia"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-10",
+      "apartado": "3",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "2~4",
+      "reason": "Modifica la Orden 5/2017; se cita el artículo 10 vigente"
+    },
+    {
+      "law": "circular-1-2025-permisos",
+      "article": "sec-1-15",
+      "apartado": "1",
+      "reason": "Permisos del profesorado"
+    },
+    {
+      "law": "circular-1-2025-permisos",
+      "article": "sec-7",
+      "apartado": "2.b",
+      "reason": "Permisos del profesorado"
+    },
+    {
+      "law": "decreto-234-2022",
+      "article": "art-4",
+      "apartado": "1~2",
+      "reason": "Indemnizaciones por razón del servicio"
+    },
+    {
+      "law": "cuenta-gestion-centros-docentes",
+      "article": "sec-consideraciones-2",
+      "apartado": "3.a",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "cuenta-gestion-centros-docentes",
+      "article": "sec-pregunta-4",
+      "apartado": "0",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-2-1",
+      "apartado": "2",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-2-1",
+      "apartado": "2",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5.1",
+      "reason": "La autoevaluación: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5.1",
+      "reason": "La autoevaluación: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-3-2",
+      "apartado": "3.2.4.4",
+      "reason": "Desplazamiento del profesorado"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-3",
+      "apartado": "1",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-3",
+      "apartado": "2",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-3",
+      "apartado": "1",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-3",
+      "apartado": "2",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "5.2.6.c",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "article": "apartado-5",
+      "apartado": "1",
+      "reason": "Requisitos de los proyectos de innovación"
+    }
+  ]
+}

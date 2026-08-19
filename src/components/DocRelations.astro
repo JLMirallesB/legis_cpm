@@ -1,0 +1,165 @@
+---
+/**
+ * Cómo encaja el documento con los demás: la matrioska, dicha en voz alta.
+ *
+ * Las relaciones se declaran una sola vez —en el documento pequeño, que es
+ * quien sabe de quién forma parte— y se leen en las dos direcciones.
+ */
+import type { Lang, ResolvedCenterDoc } from '../lib/types';
+import { t } from '../i18n/utils';
+
+interface Props {
+  doc: ResolvedCenterDoc;
+  lang: Lang;
+  seg: string;
+}
+
+const { doc, lang, seg } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const contiene = doc.related.filter(r => r.relation === 'contiene');
+const parteDe = doc.related.filter(r => r.relation === 'parte-de');
+const derivaDe = doc.related.filter(r => r.relation === 'deriva-de');
+const origina = doc.related.filter(r => r.relation === 'origina');
+const hayAlgo = doc.parts.length || doc.related.length;
+---
+
+{hayAlgo && (
+  <section class="relations" aria-label={t('docs.relations', lang)}>
+    <h2 class="relations-title">{t('docs.relations', lang)}</h2>
+
+    {parteDe.length > 0 && (
+      <p class="rel-line">
+        <span class="rel-label">{t('docs.rel.parte_de', lang)}</span>
+        {parteDe.map((r, i) => (
+          <>
+            {i > 0 && <span class="rel-sep">·</span>}
+            <a href={`${base}${lang}/${seg}/${r.slug}/`}>{r.title}</a>
+          </>
+        ))}
+      </p>
+    )}
+
+    {derivaDe.length > 0 && (
+      <p class="rel-line">
+        <span class="rel-label">{t('docs.rel.deriva_de', lang)}</span>
+        {derivaDe.map(r => <a href={`${base}${lang}/${seg}/${r.slug}/`}>{r.title}</a>)}
+      </p>
+    )}
+
+    {origina.length > 0 && (
+      <p class="rel-line">
+        <span class="rel-label">{t('docs.rel.origina', lang)}</span>
+        {origina.map((r, i) => (
+          <>
+            {i > 0 && <span class="rel-sep">·</span>}
+            <a href={`${base}${lang}/${seg}/${r.slug}/`}>{r.title}</a>
+          </>
+        ))}
+      </p>
+    )}
+
+    {contiene.length > 0 && (
+      <p class="rel-line">
+        <span class="rel-label">{t('docs.rel.contiene', lang)}</span>
+        {contiene.map((r, i) => (
+          <>
+            {i > 0 && <span class="rel-sep">·</span>}
+            <a href={`${base}${lang}/${seg}/${r.slug}/`}>{r.title}</a>
+          </>
+        ))}
+      </p>
+    )}
+
+    {doc.parts.length > 0 && (
+      <div class="parts">
+        <p class="rel-label">{t('docs.rel.partes', lang)}</p>
+        <ul>
+          {doc.parts.map(p => (
+            <li>
+              <a href={`${base}${lang}/${seg}/${doc.slug}/${p.slug}/`}>{p.title}</a>
+              <span class="part-count">{t('docs.refs', lang, { count: String(p.refCount) })}</span>
+              <span class="part-desc">{p.description}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </section>
+)}
+
+<style>
+  .relations {
+    margin-bottom: var(--space-xl);
+    padding: var(--space-md) var(--space-lg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+  }
+
+  .relations-title {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-sm);
+  }
+
+  .rel-line {
+    margin: 0 0 var(--space-xs);
+    font-size: 0.92rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    align-items: baseline;
+  }
+
+  .rel-label {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+  }
+
+  .rel-sep { color: var(--color-text-muted); }
+
+  .relations a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .relations a:hover { text-decoration: underline; }
+
+  .parts {
+    margin-top: var(--space-sm);
+    padding-top: var(--space-sm);
+    border-top: 1px dashed var(--color-border);
+  }
+
+  .parts ul {
+    list-style: none;
+    margin: var(--space-xs) 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .parts li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    align-items: baseline;
+    font-size: 0.92rem;
+  }
+
+  .part-count {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+
+  .part-desc {
+    flex-basis: 100%;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+  }
+</style>

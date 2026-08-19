@@ -10,11 +10,51 @@
     "va": "Quadres d'hores d'assignatura per especialitat dels decrets de currículum autonòmics de música i dansa."
   },
   "updatedAt": "2026-04-09",
-  "fragments": [
-    { "lawSlug": "decreto-159-2007", "articleId": "anexo-2" },
-    { "lawSlug": "decreto-158-2007", "articleId": "anexo-2" },
-    { "lawSlug": "decreto-109-2011", "articleId": "anexo-2" },
-    { "lawSlug": "decreto-90-2015", "articleId": "anexo-3" },
-    { "lawSlug": "decreto-156-2007", "articleId": "anexo-2" }
+  "refs": [
+    {
+      "law": "decreto-159-2007",
+      "article": "anexo-2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "5e4cb45e",
+        "va": "75bcae3f"
+      }
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "anexo-2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "6e633ab4",
+        "va": "bac45181"
+      }
+    },
+    {
+      "law": "decreto-109-2011",
+      "article": "anexo-2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "e996284b",
+        "va": "0406986d"
+      }
+    },
+    {
+      "law": "decreto-90-2015",
+      "article": "anexo-3",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "767c2ee2",
+        "va": "9c527d69"
+      }
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "anexo-2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "058714b8",
+        "va": "bd2d6a22"
+      }
+    }
   ]
 }

@@ -9,10 +9,14 @@
 
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
+import {
+  findNode, currentContent, resolveApartado, resolveApartadoTree, refFreshness, hashText, parseApartados
+} from '../src/lib/refs-core.mjs';
 
 const DATA_DIR = join(import.meta.dirname, '..', 'data');
 const LAWS_DIR = join(DATA_DIR, 'laws');
 const CATEGORIES_FILE = join(DATA_DIR, 'metadata', 'categories.json');
+const REFS_DIRS = [join(DATA_DIR, 'notebooks'), join(DATA_DIR, 'center-docs'), join(DATA_DIR, 'organos')];
 
 // Enums from types.ts
 const LAW_TYPES = ['ley_organica', 'ley', 'real_decreto', 'decreto', 'orden', 'resolucion', 'circular', 'instrucciones', 'documento', 'correccion_errores'];
@@ -351,6 +355,108 @@ for (const lang of ['es', 'va']) {
 // Cross-reference check (only on es/ to avoid duplicate warnings)
 console.log('');
 checkCrossRefs('es');
+
+// ── Referencias con ancla (cuadernos) ───────────────────
+//
+// Aquí es donde se detecta que una cita ha dejado de decir lo que decía.
+// Ancla que no resuelve = ERROR: preferimos romper el build a publicar un
+// cuaderno al que le falta un fragmento sin que nadie se entere.
+
+function loadLaws(lang) {
+  const map = new Map();
+  const dir = join(LAWS_DIR, lang);
+  if (!existsSync(dir)) return map;
+  for (const f of readdirSync(dir).filter(f => f.endsWith('.json'))) {
+    map.set(f.replace('.json', ''), JSON.parse(readFileSync(join(dir, f), 'utf8')));
+  }
+  return map;
+}
+
+function validateRefs() {
+  const laws = { es: loadLaws('es'), va: loadLaws('va') };
+  let total = 0;
+  let aRevisar = 0;
+
+  for (const dir of REFS_DIRS) {
+  if (!existsSync(dir)) continue;
+  for (const file of readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
+    const nb = JSON.parse(readFileSync(join(dir, file), 'utf8'));
+    const ctx = basename(dir) + '/' + file;
+
+    if (!Array.isArray(nb.refs)) {
+      error(ctx, 'falta el array refs[] (¿cuaderno sin migrar a referencias con ancla?)');
+      continue;
+    }
+
+    nb.refs.forEach((ref, i) => {
+      total++;
+      const donde = `${ctx} refs[${i}] ${ref.law}/${ref.article}${ref.apartado ? '#' + ref.apartado : ''}`;
+
+      for (const lang of ['es', 'va']) {
+        const law = laws[lang].get(ref.law);
+        if (!law) { error(donde, `la ley no existe en ${lang}/`); continue; }
+
+        const node = findNode(law.structure, ref.article);
+        if (!node) { error(donde, `el artículo no existe en ${lang}/`); continue; }
+
+        const content = currentContent(node);
+        let texto = content;
+
+        if (ref.apartado) {
+          const res = ref.subtree
+            ? resolveApartadoTree(content, ref.apartado)
+            : resolveApartado(content, ref.apartado);
+          if (!res.ok) {
+            error(donde, res.reason === 'ambiguo'
+              ? `apartado ambiguo en ${lang}, candidatos: ${res.candidates.join(', ')}`
+              : `el apartado no existe en ${lang}; hay: ${res.candidates.slice(0, 12).join(', ')}`);
+            continue;
+          }
+          texto = res.text;
+        }
+
+        const estado = refFreshness({ law, node, ref, lang, resolvedText: texto });
+        if (estado.level !== 'ok') {
+          aRevisar++;
+          const motivos = estado.reasons.map(r => r.code + (r.detail ? ` (${r.detail})` : '')).join('; ');
+          warn(donde, `${lang}: ${estado.level} — ${motivos}`);
+        }
+      }
+    });
+  }
+  }
+
+  // Un artículo con distinto número de apartados en cada idioma delata una
+  // extracción incompleta: es lo que impide anclar una cita en valenciano.
+  const va = loadLaws('va');
+  for (const [slug, law] of loadLaws('es')) {
+    const otro = va.get(slug);
+    if (!otro) continue;
+    const walk = nodes => {
+      for (const n of nodes) {
+        const c = currentContent(n);
+        if (c && n.type === 'articulo') {
+          const nodoVa = findNode(otro.structure, n.id);
+          if (nodoVa) {
+            const a = parseApartados(c).length;
+            const b = parseApartados(currentContent(nodoVa)).length;
+            if (a && b && Math.abs(a - b) > Math.max(2, a * 0.25)) {
+              warn(`${slug}/${n.id}`, `apartados desiguales entre idiomas: ${a} en es, ${b} en va`);
+            }
+          }
+        }
+        if (n.children) walk(n.children);
+      }
+    };
+    walk(law.structure);
+  }
+
+  console.log(`Referencias comprobadas: ${total} (${aRevisar} necesitan revisión)`);
+  return total;
+}
+
+console.log('\nValidando referencias de los cuadernos...\n');
+validateRefs();
 
 // Summary
 console.log(`\n${'='.repeat(50)}`);

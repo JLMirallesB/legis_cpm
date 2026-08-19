@@ -174,10 +174,34 @@ export interface Category {
 
 // ── Cuadernos pregrabados ───────────────────────────────
 
-export interface NotebookFragmentRef {
-  lawSlug: string;
-  articleId: string;
-  excerpt?: string | Record<Lang, string>;
+// ── Referencias con ancla ───────────────────────────────
+
+/**
+ * Apunta a un apartado concreto de un artículo. El texto NO se guarda aquí: se
+ * resuelve desde la ley al compilar, para que una cita no pueda petrificarse.
+ */
+export interface Ref {
+  law: string;                            // slug de la ley
+  article: string;                        // id del nodo: art-121, da-1, anexo-2…
+  apartado?: string;                      // ruta: "2", "1.k", "5.b.3"; ausente = nodo entero
+  subtree?: boolean;                      // incluir también los sub-apartados que cuelgan
+  part?: string;                          // id de la parte del documento a la que pertenece
+  checkedAt?: string;                     // YYYY-MM-DD en que se revisó por última vez
+  hash?: Partial<Record<Lang, string>>;   // huella del texto resuelto ese día
+  note?: string;                          // por qué está aquí (uso editorial)
+}
+
+export type FreshnessLevel = 'ok' | 'caducado' | 'revisar' | 'derogado' | 'roto';
+
+export interface FreshnessReason {
+  code: 'ancla-rota' | 'texto-cambiado' | 'ley-derogada' | 'articulo-modificado'
+      | 'articulo-afectado' | 'articulo-derogado' | 'curso-caducado';
+  detail?: string;
+}
+
+export interface Freshness {
+  level: FreshnessLevel;
+  reasons: FreshnessReason[];
 }
 
 export interface NotebookDefinition {
@@ -186,7 +210,7 @@ export interface NotebookDefinition {
   title: Record<Lang, string>;
   description: Record<Lang, string>;
   updatedAt: string;
-  fragments: NotebookFragmentRef[];
+  refs: Ref[];
 }
 
 export interface ResolvedFragment {
@@ -195,6 +219,7 @@ export interface ResolvedFragment {
   html: string;
   articleId: string;
   articleTitle: string;
+  apartado: string | null;
   lawSlug: string;
   lawShort: string;
   lawTitle: string;
@@ -203,6 +228,7 @@ export interface ResolvedFragment {
   apaParenthetical: string;
   apaReference: string;
   savedAt: string;
+  freshness: Freshness;
 }
 
 export interface ResolvedNotebook {
@@ -213,4 +239,120 @@ export interface ResolvedNotebook {
   updatedAt: string;
   fragments: ResolvedFragment[];
   lawCount: number;
+  freshness: FreshnessLevel;
+}
+
+// ── Documentos de centro ────────────────────────────────
+
+/**
+ * Ficha de un documento de centro: recoge todo lo que la normativa dice sobre
+ * él. No guarda texto de las leyes, solo referencias con ancla.
+ */
+export interface CenterDocDefinition {
+  id: string;
+  slug: string;
+  order: number;
+  short: Record<Lang, string>;
+  title: Record<Lang, string>;
+  description: Record<Lang, string>;
+  terms: string[];                  // para el cribado de cada ingesta
+  updatedAt: string;
+
+  /**
+   * Partes con nombre propio que viven dentro de este documento. No duplican
+   * nada: agrupan referencias que ya están en `refs` mediante `part`, y se
+   * publican como página aparte para que quien busque «proyecto curricular»
+   * llegue a algún sitio.
+   */
+  parts?: {
+    id: string;
+    slug: string;
+    title: Record<Lang, string>;
+    description: Record<Lang, string>;
+  }[];
+
+  /** Cómo encaja con otros documentos: la matrioska, dicha en voz alta. */
+  related?: { slug: string; relation: 'contiene' | 'parte-de' | 'deriva-de' }[];
+  // «origina» no se declara nunca: es la inversa calculada de «deriva-de».
+  refs: Ref[];
+  /**
+   * Decisiones de «esto no va aquí». Dos formas:
+   * - una referencia concreta: { law, article, apartado?, reason }
+   * - un grupo: { law, items: ["art-9#1.a", …], reason } — para cuando una
+   *   norma nombra al órgano treinta veces de pasada y enumerarlas una a una
+   *   volvería el registro ilegible.
+   */
+  discarded: {
+    law: string;
+    article?: string;               // "*" = la ley entera
+    apartado?: string;
+    items?: string[];               // "art-9#1.a"
+    reason: string;
+  }[];
+}
+
+/** Los cuatro bloques en que se ordena una ficha. */
+export type CenterDocGroupId = 'estatal' | 'autonomico' | 'curso' | 'historico';
+
+export interface CenterDocLawGroup {
+  lawSlug: string;
+  lawShort: string;
+  lawTitle: string;
+  schoolYear?: string;
+  fragments: ResolvedFragment[];
+}
+
+export interface CenterDocGroup {
+  id: CenterDocGroupId;
+  laws: CenterDocLawGroup[];
+}
+
+/** Un descarte, resuelto para poder revisarlo sin abrir el JSON. */
+export interface ResolvedDiscard {
+  lawSlug: string;
+  lawShort: string;
+  articleId: string;      // "*" = la ley entera
+  articleTitle: string;
+  apartado: string | null;
+  reason: string;
+  preview: string;        // primeras líneas del texto descartado
+  url: string | null;
+  count?: number;         // descarte agrupado: cuántas menciones cubre
+}
+
+export interface DiscardLawGroup {
+  lawSlug: string;
+  lawShort: string;
+  items: ResolvedDiscard[];
+}
+
+export interface ResolvedPart {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  refCount: number;
+}
+
+export interface ResolvedRelation {
+  slug: string;
+  title: string;
+  short: string;
+  relation: 'contiene' | 'parte-de' | 'deriva-de' | 'origina';
+}
+
+export interface ResolvedCenterDoc {
+  id: string;
+  slug: string;
+  short: string;
+  title: string;
+  description: string;
+  updatedAt: string;
+  groups: CenterDocGroup[];
+  parts: ResolvedPart[];
+  related: ResolvedRelation[];
+  discarded: DiscardLawGroup[];
+  refCount: number;
+  lawCount: number;
+  freshness: FreshnessLevel;
 }

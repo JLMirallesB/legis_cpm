@@ -1,0 +1,223 @@
+{
+  "id": "convivencia",
+  "slug": "convivencia",
+  "order": 6,
+  "short": {
+    "es": "Convivencia",
+    "va": "Convivència"
+  },
+  "title": {
+    "es": "Plan de convivencia",
+    "va": "Pla de convivència"
+  },
+  "description": {
+    "es": "El plan que ordena la convivencia del centro. Ojo con los nombres: la norma vigente lo sigue llamando plan de convivencia, y lo que ha pasado a llamarse de bienestar y protección es la figura de coordinación, antes de igualdad y convivencia.",
+    "va": "El pla que ordena la convivència del centre. Compte amb els noms: la norma vigent el continua anomenant pla de convivència, i el que ha passat a dir-se de benestar i protecció és la figura de coordinació, abans d'igualtat i convivència."
+  },
+  "terms": [
+    "plan de convivencia",
+    "pla de convivencia",
+    "plan de igualdad y convivencia",
+    "pla d'igualtat i convivencia",
+    "bienestar y proteccion",
+    "benestar i proteccio"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-124",
+      "apartado": "1",
+      "note": "La obligación de elaborarlo y de incorporarlo a la PGA",
+      "hash": {
+        "es": "ea868d94",
+        "va": "ea868d94"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-18",
+      "note": "El artículo que lo regula en la norma vigente",
+      "hash": {
+        "es": "a4db122c",
+        "va": "1eedd836"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-26",
+      "apartado": "1.a",
+      "note": "El plan se tiene en cuenta al graduar las medidas disciplinarias",
+      "hash": {
+        "es": "91ab830b",
+        "va": "4a3a120e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "df-2",
+      "note": "La coordinación que lo impulsa pasa a llamarse de bienestar y protección",
+      "hash": {
+        "es": "a981ca0e",
+        "va": "c35a5db2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "3.j",
+      "note": "El PEC debe abordarlo",
+      "hash": {
+        "es": "0a36ec42",
+        "va": "b36e0374"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5.b.8",
+      "note": "La PGA concreta sus acuerdos",
+      "hash": {
+        "es": "a8dfd12b",
+        "va": "26ba525e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "c",
+      "note": "Las programaciones incorporan sus acuerdos",
+      "hash": {
+        "es": "de0d38e7",
+        "va": "37765348"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-39",
+      "apartado": "2.c",
+      "note": "En conservatorios se llamó plan de igualdad y convivencia",
+      "hash": {
+        "es": "7c6417b8",
+        "va": "6eef6f16"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-39",
+      "apartado": "2.d",
+      "hash": {
+        "es": "4f06e500",
+        "va": "f29e9852"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "2~2",
+      "note": "El cambio de nombre de la coordinación, aplicado este curso",
+      "hash": {
+        "es": "c73e6ddf",
+        "va": "e883ca9d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "3",
+      "subtree": true,
+      "hash": {
+        "es": "94505e67",
+        "va": "ec774952"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-124",
+      "apartado": "5",
+      "reason": "Protocolos que regula la Administración, no contenido del plan"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-4",
+      "apartado": "5",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-5",
+      "apartado": "4",
+      "reason": "Las normas de organización y funcionamiento: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "3",
+      "reason": "La programación general anual: ficha propia"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.b",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.c",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "anexo",
+      "apartado": "caracter-sumativo-y-progresivo",
+      "reason": "Tabla resumen de los niveles de respuesta"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-4",
+      "apartado": "2",
+      "reason": "Formación del profesorado"
+    }
+  ],
+  "related": [
+    {
+      "slug": "pec",
+      "relation": "parte-de"
+    },
+    {
+      "slug": "pga",
+      "relation": "parte-de"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import CenterDocBody from '../../../../components/CenterDocBody.astro';
+import { getAllCenterDocs, getCenterDocBySlug, resolveCenterDoc } from '../../../../lib/center-docs';
+import { t } from '../../../../i18n/utils';
+
+const lang = 'es' as const;
+const base = import.meta.env.BASE_URL;
+const seg = 'organos';
+
+export const getStaticPaths: GetStaticPaths = () =>
+  getAllCenterDocs('organos').flatMap(doc =>
+    (doc.parts ?? []).map(part => ({ params: { slug: doc.slug, part: part.slug } }))
+  );
+
+const { slug, part } = Astro.params;
+const def = getCenterDocBySlug(slug!, 'organos')!;
+const partDef = (def.parts ?? []).find(p => p.slug === part)!;
+
+// Misma ficha, recortada a las referencias de esta parte: ni un dato duplicado.
+const doc = resolveCenterDoc(def, lang, undefined, partDef.id, 'organos');
+---
+
+<BaseLayout lang={lang} title={partDef.title[lang]}>
+  <div class="container detail-page">
+    <a href={`${base}${lang}/${seg}/${def.slug}/`} class="back-link">
+      {t('org.back_to_doc', lang, { doc: def.title[lang] })}
+    </a>
+
+    <header class="doc-header">
+      <span class="doc-short">{t('org.part_of', lang, { doc: def.title[lang] })}</span>
+      <h1>{partDef.title[lang]}</h1>
+      <p class="doc-desc">{partDef.description[lang]}</p>
+      <p class="doc-meta">{t('org.refs', lang, { count: String(doc.refCount) })}</p>
+    </header>
+
+    <p class="part-note">
+      {t('org.part_note', lang)}
+      {' '}
+      <a href={`${base}${lang}/${seg}/${def.slug}/`}>{t('org.part_see_whole', lang, { doc: def.title[lang] })}</a>
+    </p>
+
+    <CenterDocBody doc={doc} lang={lang} showDiscarded={false} />
+  </div>
+</BaseLayout>
+
+<style>
+  .detail-page {
+    max-width: 52rem;
+    padding-bottom: var(--space-2xl);
+  }
+
+  .back-link {
+    display: inline-block;
+    margin: var(--space-lg) 0;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .back-link:hover { color: var(--color-primary); }
+
+  .doc-header {
+    padding-bottom: var(--space-lg);
+    border-bottom: 2px solid var(--color-border);
+    margin-bottom: var(--space-xl);
+  }
+
+  .doc-short {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+  }
+
+  .doc-header h1 {
+    font-size: 1.9rem;
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+
+  .doc-desc {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .doc-meta,
+  .doc-scope {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .doc-stale {
+    margin-bottom: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    border-left: 3px solid #8f5511;
+    background: #fdf6ec;
+    color: #8f5511;
+    font-size: 0.9rem;
+  }
+
+  .doc-group { margin-bottom: var(--space-2xl); }
+
+  .group-title {
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-xs);
+  }
+
+  .group-desc {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-bottom: var(--space-lg);
+  }
+
+  .law-group { margin-bottom: var(--space-xl); }
+
+  .law-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-sm);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  .law-heading a {
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .law-heading a:hover { color: var(--color-primary); }
+
+  .law-course {
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--color-text-muted);
+  }
+
+  .law-full-title {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin: var(--space-xs) 0 var(--space-md);
+  }
+
+  .fragment-block {
+    margin-bottom: var(--space-lg);
+    padding-left: var(--space-md);
+    border-left: 2px solid var(--color-border);
+  }
+
+  .fragment-title {
+    font-size: 0.95rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .fragment-title a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .fragment-title a:hover { text-decoration: underline; }
+
+  .fragment-apartado {
+    margin-left: var(--space-xs);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
+
+  .fragment-body {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  .descartes {
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-lg);
+    margin-top: var(--space-xl);
+  }
+
+  .descartes summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+  }
+
+  .descartes summary:hover { color: var(--color-primary); }
+
+  .descarte-law { margin-bottom: var(--space-lg); }
+
+  .descarte-law-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .descarte-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .descarte {
+    padding-left: var(--space-md);
+    border-left: 2px dashed var(--color-border);
+  }
+
+  .descarte-head {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .descarte-head a { color: var(--color-primary); text-decoration: none; }
+  .descarte-head a:hover { text-decoration: underline; }
+
+  .descarte-reason {
+    margin: 0.15rem 0 0;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+  }
+
+  .descarte-preview {
+    margin: 0.3rem 0 0;
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+  }
+
+  .historico {
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-lg);
+  }
+
+  .historico summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+  }
+
+  .historico summary:hover { color: var(--color-primary); }
+
+  .part-note {
+    margin-bottom: var(--space-xl);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+  }
+</style>
+

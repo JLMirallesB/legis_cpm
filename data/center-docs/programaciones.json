@@ -1,0 +1,506 @@
+{
+  "id": "programaciones",
+  "slug": "programaciones",
+  "order": 4,
+  "short": {
+    "es": "Programaciones",
+    "va": "Programacions"
+  },
+  "title": {
+    "es": "Programaciones didácticas",
+    "va": "Programacions didàctiques"
+  },
+  "description": {
+    "es": "Lo que cada departamento concreta para su asignatura antes de que empiece el curso: objetivos, contenidos, criterios de evaluación, recuperación y atención a la diversidad. Es el documento que más de cerca toca al profesorado.",
+    "va": "El que cada departament concreta per a la seua assignatura abans que comence el curs: objectius, continguts, criteris d'avaluació, recuperació i atenció a la diversitat. És el document que més de prop toca el professorat."
+  },
+  "terms": [
+    "programacion didactica",
+    "programaciones didacticas",
+    "programacio didactica",
+    "programacions didactiques",
+    "programacion docente",
+    "programaciones docentes",
+    "programacio docent",
+    "programacions docents",
+    "programacion de aula",
+    "programaciones de aula",
+    "programacio d'aula",
+    "programacions d'aula"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5.b",
+      "subtree": true,
+      "note": "Los trece apartados que toda programación didáctica debe recoger",
+      "hash": {
+        "es": "7e18d5d0",
+        "va": "0bb79f82"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "3.p",
+      "note": "El PEC fija los criterios generales para elaborarlas",
+      "hash": {
+        "es": "453fa672",
+        "va": "5839e597"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "c",
+      "note": "La comisión de coordinación pedagógica fija las normas generales",
+      "hash": {
+        "es": "895a4448",
+        "va": "4f24f879"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "b",
+      "note": "Las elabora el departamento antes de que empiece el curso",
+      "hash": {
+        "es": "004bc1e3",
+        "va": "96b11f3c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "1",
+      "note": "Se preparan al acabar el curso anterior",
+      "hash": {
+        "es": "6194d932",
+        "va": "52ff367c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.d",
+      "hash": {
+        "es": "13e4486c",
+        "va": "08b0953c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.e",
+      "hash": {
+        "es": "37ae85e7",
+        "va": "390ee3d5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.c",
+      "note": "Las aprueba el claustro",
+      "hash": {
+        "es": "62980d5b",
+        "va": "11db550e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "l",
+      "hash": {
+        "es": "5efa402c",
+        "va": "dbc9f0d8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.f",
+      "hash": {
+        "es": "1af327c6",
+        "va": "59face1e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "3",
+      "hash": {
+        "es": "a728f16a",
+        "va": "29eff2b8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "m",
+      "note": "La memoria que las evalúa al final de curso",
+      "hash": {
+        "es": "b41b814f",
+        "va": "e6d127ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "5",
+      "hash": {
+        "es": "229a593a",
+        "va": "bddcf39c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "2.i",
+      "note": "Lo que está en la programación no puede ser actividad extraescolar",
+      "hash": {
+        "es": "78ec4a8d",
+        "va": "3c7a5392"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-23",
+      "apartado": "7",
+      "note": "Enseñanzas profesionales de música",
+      "hash": {
+        "es": "3e939a54",
+        "va": "d4c5a44b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-24",
+      "apartado": "7",
+      "note": "Enseñanzas profesionales de danza",
+      "hash": {
+        "es": "3e939a54",
+        "va": "d4c5a44b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-22",
+      "apartado": "5",
+      "note": "Enseñanzas elementales de música",
+      "hash": {
+        "es": "ac514241",
+        "va": "4b47ce8a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-21",
+      "apartado": "5",
+      "note": "Enseñanzas elementales de danza",
+      "hash": {
+        "es": "ac514241",
+        "va": "4b47ce8a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-3",
+      "apartado": "2",
+      "note": "Copia al equipo directivo y publicidad",
+      "hash": {
+        "es": "9ab13782",
+        "va": "53aeba74"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-4",
+      "apartado": "6.a",
+      "note": "Se puede reclamar por aplicación incorrecta de sus criterios",
+      "hash": {
+        "es": "44b8981a",
+        "va": "47b2ecfb"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-4",
+      "apartado": "6.b",
+      "hash": {
+        "es": "402abb12",
+        "va": "9f76d013"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-14",
+      "apartado": "2",
+      "note": "La adecuación personalizada de la programación",
+      "hash": {
+        "es": "e55b0158",
+        "va": "f920fd27"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-14",
+      "apartado": "5",
+      "hash": {
+        "es": "4fbdac94",
+        "va": "1851625b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-32",
+      "apartado": "32.1.c",
+      "note": "Deber de incluir aspectos de convivencia en la programación de aula",
+      "hash": {
+        "es": "12d1fb03",
+        "va": "e25af0fe"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-8-2",
+      "apartado": "3",
+      "note": "Contenidos mínimos y criterios se hacen públicos",
+      "hash": {
+        "es": "02a12e5d",
+        "va": "964d6735"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-8-3",
+      "apartado": "8.3.1.3.d",
+      "note": "El procedimiento sustitutorio sale de la programación",
+      "hash": {
+        "es": "a0a9d969",
+        "va": "81da33b1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.3.2",
+      "hash": {
+        "es": "20208a5c",
+        "va": "b5f4ff83"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.3.4",
+      "hash": {
+        "es": "6484a58d",
+        "va": "804c0483"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-8-2",
+      "apartado": "3",
+      "hash": {
+        "es": "4373ee38",
+        "va": "1d702e20"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-8-3",
+      "apartado": "8.3.2.3.d",
+      "hash": {
+        "es": "55b5f73f",
+        "va": "0e354d17"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.3.2",
+      "hash": {
+        "es": "0837906a",
+        "va": "61fb136f"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-121",
+      "apartado": "3",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-27",
+      "apartado": "1",
+      "reason": "Naturaleza de los departamentos didácticos"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "4",
+      "reason": "Reuniones por grupos de asignaturas"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-35",
+      "apartado": "1",
+      "reason": "Naturaleza de la comisión de coordinación pedagógica"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "5",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "da-3",
+      "apartado": "0",
+      "reason": "Cláusula general de cumplimiento e inspección"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-4",
+      "apartado": "5.g",
+      "reason": "Programas específicos de atención a la diversidad"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.b",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "anexo",
+      "apartado": "caracter-sumativo-y-progresivo",
+      "reason": "Tabla resumen de los niveles de respuesta"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-14",
+      "apartado": "1",
+      "reason": "Encuadre de las medidas de nivel II"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-16",
+      "apartado": "2",
+      "reason": "Actuaciones dentro del aula ordinaria"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-17",
+      "apartado": "1.c",
+      "reason": "Documentos de gestión del centro en general"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-20",
+      "apartado": "4",
+      "reason": "Adaptaciones curriculares individuales significativas"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-42",
+      "apartado": "1.e",
+      "reason": "Personal de apoyo a la inclusión"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-58",
+      "apartado": "3.a",
+      "reason": "Unidades específicas"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-59",
+      "apartado": "3.a",
+      "reason": "Unidades específicas"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-59",
+      "apartado": "4.a",
+      "reason": "Unidades específicas"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "anexo-2",
+      "apartado": "profesorado",
+      "reason": "Indicadores del plan de mejora"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.2.a",
+      "reason": "La acción tutorial: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.2.a",
+      "reason": "La acción tutorial: ficha propia"
+    }
+  ],
+  "related": [
+    {
+      "slug": "pga",
+      "relation": "parte-de"
+    }
+  ]
+}

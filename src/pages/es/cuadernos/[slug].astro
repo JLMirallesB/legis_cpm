@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getAllNotebooks, getNotebookBySlug, resolveNotebook } from '../../../lib/notebooks';
 import { VERSION } from '../../../lib/version';
 import { t } from '../../../i18n/utils';
+import FreshnessBadge from '../../../components/FreshnessBadge.astro';
 
 const lang = 'es' as const;
 
@@ -20,6 +21,8 @@ const notebook = resolveNotebook(def, lang);
 const dateFormatted = new Date(notebook.updatedAt).toLocaleDateString('es-ES', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
+
+const stale = notebook.fragments.filter(f => f.freshness.level !== 'ok').length;
 
 // Group fragments by law for display
 const lawGroups: { lawSlug: string; lawShort: string; lawTitle: string; fragments: typeof notebook.fragments }[] = [];
@@ -60,25 +63,32 @@ notebook.fragments.forEach(f => {
       </div>
     </header>
 
+    {stale > 0 && (
+      <p class="nb-stale-notice">
+        {stale === 1
+          ? t('freshness.notice_one', lang)
+          : t('freshness.notice_many', lang, { count: String(stale) })}
+      </p>
+    )}
+
     <main class="nb-content">
       {lawGroups.map(group => (
         <section class="law-group">
           <h2 class="law-heading">{group.lawShort.toUpperCase()}</h2>
           <p class="law-full-title">{group.lawTitle}</p>
-          {group.fragments.map(f => {
-            const isExcerpt = f.text.startsWith('[...]');
-            return (
-              <article class="fragment-block">
-                <h3 class="fragment-title">
-                  <a href={f.url}>{f.articleTitle}</a>
-                </h3>
-                {isExcerpt && <p class="fragment-ellipsis">[...]</p>}
-                <div class="fragment-body" set:html={f.html} />
-                {isExcerpt && <p class="fragment-ellipsis">[...]</p>}
-                <p class="fragment-cite">{f.apaParenthetical}</p>
-              </article>
-            );
-          })}
+          {group.fragments.map(f => (
+            <article class="fragment-block">
+              <h3 class="fragment-title">
+                <a href={f.url}>{f.articleTitle}</a>
+                {f.apartado && (
+                  <span class="fragment-apartado">{t('cuadernos.apartado', lang, { path: f.apartado })}</span>
+                )}
+              </h3>
+              <FreshnessBadge freshness={f.freshness} lang={lang} checkedAt={f.savedAt} />
+              <div class="fragment-body" set:html={f.html} />
+              <p class="fragment-cite">{f.apaParenthetical}</p>
+            </article>
+          ))}
         </section>
       ))}
 
@@ -106,6 +116,7 @@ notebook.fragments.forEach(f => {
   appVersion: VERSION,
   printDisclaimer: t('footer.personal_project', lang),
   printDisclaimerLong: t('footer.disclaimer', lang),
+  apartadoLabel: t('cuadernos.apartado', lang, { path: '{path}' }),
 }}>
   const STORAGE_KEY = 'legis_notebook';
 
@@ -146,16 +157,14 @@ notebook.fragments.forEach(f => {
           <p class="law-full-title">${f.lawTitle}</p>`;
         prevLawSlug = f.lawSlug;
       }
-      const isExcerpt = f.text.startsWith('[...]');
-      const beforeEllipsis = isExcerpt ? '<p class="fragment-ellipsis">[…]</p>' : '';
-      const afterEllipsis = isExcerpt ? '<p class="fragment-ellipsis">[…]</p>' : '';
+      // Ya no se imprimen puntos suspensivos: cada cita es el apartado entero.
       const contentHtml = f.html
-        ? `${beforeEllipsis}<div class="fragment-content">${f.html}</div>${afterEllipsis}`
+        ? `<div class="fragment-content">${f.html}</div>`
         : `<blockquote class="fragment-text">${f.text.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>')}</blockquote>`;
       const parenHtml = f.apaParenthetical ? `<p class="fragment-cite">${f.apaParenthetical}</p>` : '';
       bodyHtml += `
         <div class="fragment">
-          <h3 class="fragment-ref">${f.articleTitle}</h3>
+          <h3 class="fragment-ref">${f.articleTitle}${f.apartado ? ' · ' + apartadoLabel.replace('{path}', f.apartado) : ''}</h3>
           ${contentHtml}
           ${parenHtml}
           <p class="fragment-url">${f.url}</p>
@@ -338,6 +347,22 @@ notebook.fragments.forEach(f => {
     border-radius: var(--radius-md);
     padding: var(--space-md);
     margin-bottom: var(--space-md);
+  }
+
+  .fragment-apartado {
+    margin-left: var(--space-xs);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
+
+  .nb-stale-notice {
+    margin-bottom: var(--space-lg);
+    padding: var(--space-sm) var(--space-md);
+    border-left: 3px solid #8f5511;
+    background: #fdf6ec;
+    color: #8f5511;
+    font-size: 0.9rem;
   }
 
   .fragment-title {

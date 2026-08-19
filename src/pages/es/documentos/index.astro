@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getAllCenterDocs } from '../../../lib/center-docs';
+import { t } from '../../../i18n/utils';
+
+const lang = 'es' as const;
+const base = import.meta.env.BASE_URL;
+const docs = getAllCenterDocs();
+---
+
+<BaseLayout lang={lang} title={t('docs.title', lang)}>
+  <div class="container hero">
+    <h1>{t('docs.title', lang)}</h1>
+    <p class="subtitle">{t('docs.subtitle', lang)}</p>
+    <p class="scope">{t('docs.scope_note', lang)}</p>
+  </div>
+
+  <div class="container content-container">
+    {docs.length === 0 ? (
+      <p class="empty">{t('docs.empty', lang)}</p>
+    ) : (
+      <div class="doc-grid">
+        {docs.map(doc => (
+          <a href={`${base}${lang}/documentos/${doc.slug}/`} class="doc-card">
+            <span class="doc-short">{doc.short[lang]}</span>
+            <h2>{doc.title[lang]}</h2>
+            <p>{doc.description[lang]}</p>
+            {doc.parts && doc.parts.length > 0 && (
+              <span class="doc-parts">
+                {t('docs.rel.partes', lang)}{' '}
+                {doc.parts.map(p => p.title[lang]).join(' · ')}
+              </span>
+            )}
+            <span class="doc-meta">
+              {t('docs.refs', lang, { count: String(doc.refs.length) })}
+              {' · '}
+              {t('docs.laws', lang, { count: String(new Set(doc.refs.map(r => r.law)).size) })}
+            </span>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-lg);
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+  }
+
+  .subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: var(--space-xs);
+  }
+
+  .scope {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  .content-container { padding-bottom: var(--space-2xl); }
+
+  .doc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+    gap: var(--space-lg);
+  }
+
+  .doc-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease;
+  }
+
+  .doc-card:hover { border-color: var(--color-primary); }
+
+  .doc-short {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+  }
+
+  .doc-card h2 {
+    font-size: 1.15rem;
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  .doc-card p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 0.92rem;
+  }
+
+  .doc-parts {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    border-left: 2px solid var(--color-border);
+    padding-left: var(--space-sm);
+  }
+
+  .doc-meta {
+    margin-top: var(--space-xs);
+    font-size: 0.82rem;
+    color: var(--color-text-muted);
+  }
+
+  .empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    padding: var(--space-2xl) 0;
+  }
+</style>

@@ -51,3 +51,21 @@
 - URL: https://JLMirallesB.github.io/legis_cpmdem/
 - Ley de ejemplo: Decreto 158/2007 (datos ficticios pero estructura real)
 - Búsqueda: índice JSON generado en build, búsqueda client-side sin FlexSearch (suficiente para 20-50 leyes)
+
+## Documentos de centro (apartado nuevo, en diseño 2026-08-19)
+
+Fichas por documento de centro (PEC, PGA, PAM, NOF/convivencia, programaciones,
+PAT, memoria...) que recogen todo lo que la normativa dice sobre cada uno.
+
+- [ ] **v1: solo normativa** — referencias resueltas desde las leyes ingestadas,
+      separando lo permanente de lo del curso vigente + histórico plegado.
+- [ ] **Ámbito futuro**: enseñanzas superiores y escuelas de música. La v1 cubre
+      solo Conservatorios Profesionales; sus documentos no coinciden.
+- [ ] **v2 (futuro): guía completa** — cabecera redactada por documento (qué es,
+      quién lo elabora, quién lo aprueba, plazos) + checklist de contenidos
+      mínimos exigidos por norma, cada ítem enlazado al artículo que lo exige.
+
+Requisito transversal: **las citas no pueden petrificarse**. Los cuadernos
+actuales guardan el texto copiado en `excerpt` y nadie se entera si la ley
+cambia. Hay que sustituirlo por referencias con ancla resueltas en build, con
+aviso de frescura. Esto se arregla aunque el apartado de documentos no se haga.

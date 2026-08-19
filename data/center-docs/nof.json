@@ -1,0 +1,498 @@
+{
+  "id": "nof",
+  "slug": "nof",
+  "order": 5,
+  "short": {
+    "es": "NOF · RRI",
+    "va": "NOF · RRI"
+  },
+  "title": {
+    "es": "Normas de organización y funcionamiento",
+    "va": "Normes d'organització i funcionament"
+  },
+  "description": {
+    "es": "El documento que fija cómo se organiza y funciona el conservatorio por dentro. Cambió de nombre con el tiempo: la normativa antigua lo llama reglamento de régimen interior o interno (RRI), y la reciente, normas de organización y funcionamiento (NOF). Aquí se recogen las dos.",
+    "va": "El document que fixa com s'organitza i funciona el conservatori per dins. Va canviar de nom amb el temps: la normativa antiga l'anomena reglament de règim interior o intern (RRI), i la recent, normes d'organització i funcionament (NOF). Ací es recullen les dues."
+  },
+  "terms": [
+    "normas de organizacion y funcionamiento",
+    "normes d'organitzacio i funcionament",
+    "reglamento de regimen interior",
+    "reglamento de regimen interno",
+    "reglament de regim interior",
+    "reglament de regim intern"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-124",
+      "note": "El artículo que regula qué son y qué deben concretar",
+      "hash": {
+        "es": "f667c232",
+        "va": "f667c232"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-120",
+      "apartado": "2",
+      "note": "La autonomía para elaborarlas y aprobarlas",
+      "hash": {
+        "es": "b83b89ca",
+        "va": "b83b89ca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "h",
+      "note": "El claustro las informa",
+      "hash": {
+        "es": "4aaab91f",
+        "va": "0fe048c3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-49",
+      "note": "Las NOF como parte del plan de centro, todavía con el nombre antiguo",
+      "hash": {
+        "es": "946f7198",
+        "va": "73d83948"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-47",
+      "apartado": "3",
+      "hash": {
+        "es": "737c7828",
+        "va": "9fb09ff9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-48",
+      "apartado": "2",
+      "hash": {
+        "es": "738b0c25",
+        "va": "6845209f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.i",
+      "hash": {
+        "es": "46b5750a",
+        "va": "e1d6de05"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.f",
+      "note": "La AMPA puede proponer modificaciones",
+      "hash": {
+        "es": "51730e22",
+        "va": "11ed286d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.g",
+      "note": "El alumnado puede proponer modificaciones",
+      "hash": {
+        "es": "826b3eea",
+        "va": "cda9cc7e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-5",
+      "note": "El artículo central en la norma vigente de convivencia",
+      "hash": {
+        "es": "e7fdea13",
+        "va": "8c032939"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-8",
+      "apartado": "1",
+      "hash": {
+        "es": "849713e5",
+        "va": "7e67d4c3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-24",
+      "apartado": "1.f",
+      "hash": {
+        "es": "cb4b9a18",
+        "va": "932aa512"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-24",
+      "apartado": "7",
+      "hash": {
+        "es": "91c5c88c",
+        "va": "fa6b7af1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-27",
+      "apartado": "27.1.1.d",
+      "hash": {
+        "es": "ec90a757",
+        "va": "aed1fde8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-27",
+      "apartado": "27.1.2.d",
+      "hash": {
+        "es": "f8801e33",
+        "va": "9acb0eac"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-27",
+      "apartado": "27.2.5",
+      "note": "El procedimiento conciliador se define en las NOF",
+      "hash": {
+        "es": "e8952e96",
+        "va": "fb392cdd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.1.7.b.5",
+      "hash": {
+        "es": "14cc4d29",
+        "va": "2dbcea3f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-29",
+      "apartado": "29.4.b",
+      "note": "Límite al uniforme escolar que las NOF no pueden traspasar",
+      "hash": {
+        "es": "fd517078",
+        "va": "ec1e42e7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-34",
+      "apartado": "1.c",
+      "hash": {
+        "es": "975d1b8e",
+        "va": "11d33487"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-36",
+      "apartado": "a",
+      "hash": {
+        "es": "31a430fb",
+        "va": "c6267b37"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "1",
+      "note": "Los criterios del programa de coordinación horaria se incluyen en las NOF",
+      "hash": {
+        "es": "8e6e10d4",
+        "va": "6fb5f734"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-3-1",
+      "hash": {
+        "es": "1100bb5b",
+        "va": "393bbe93"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-3-2",
+      "apartado": "3.2.2",
+      "hash": {
+        "es": "0211932e",
+        "va": "5db10480"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "5.2.8",
+      "hash": {
+        "es": "472af85b",
+        "va": "e798467d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-3-1",
+      "hash": {
+        "es": "8e121a0b",
+        "va": "dda39184"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-3-2",
+      "apartado": "3.2.2.1",
+      "hash": {
+        "es": "b27ddcd9",
+        "va": "fb8044fd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-6-2",
+      "apartado": "2",
+      "hash": {
+        "es": "4b86be7c",
+        "va": "48b28c33"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-8-3",
+      "apartado": "8.3.1.2",
+      "hash": {
+        "es": "fe5c1c00",
+        "va": "2c5cc1a5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-8",
+      "apartado": "0",
+      "note": "Las NOF deben facilitar el derecho de reunión del alumnado",
+      "hash": {
+        "es": "cb2ddeba",
+        "va": "cb2ddeba"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-7",
+      "apartado": "0",
+      "note": "Los criterios del programa se incluyen en las NOF",
+      "hash": {
+        "es": "346ae2a6",
+        "va": "8aaca625"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE y la LODE; el texto vigente se cita en ellas"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-54",
+      "apartado": "2.g",
+      "reason": "Órganos de gobierno de los centros concertados"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-54",
+      "apartado": "3",
+      "reason": "Órganos de gobierno de los centros concertados"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-56",
+      "apartado": "2",
+      "reason": "Consejo escolar de los centros concertados"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-57",
+      "apartado": "l",
+      "reason": "Consejo escolar de los centros concertados"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "k",
+      "reason": "Cláusula de cierre de las funciones del claustro"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "df-1",
+      "apartado": "5",
+      "reason": "Modifica la LODE; se cita la LODE"
+    },
+    {
+      "law": "ley-40-2015",
+      "article": "art-61",
+      "apartado": "t",
+      "reason": "Las normas de organización del Gobierno, no las de un centro docente"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "6",
+      "reason": "Composición de las comisiones del Consejo Escolar"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.l",
+      "reason": "Cláusula de cierre de las funciones del claustro"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-4",
+      "apartado": "5",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "5",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "6",
+      "reason": "Deber del profesorado, no contenido de las NOF"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.1.7.a.3",
+      "reason": "Trámite del expediente disciplinario"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.1.7.c.1",
+      "reason": "Trámite del expediente disciplinario"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-33",
+      "apartado": "2.a",
+      "reason": "Derechos de las familias: la referencia es incidental"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-22",
+      "apartado": "3",
+      "reason": "Constitución del consejo escolar: mención de pasada"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-2",
+      "apartado": "4",
+      "reason": "Reclamaciones en centros privados"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-5",
+      "apartado": "7",
+      "reason": "Reclamaciones en centros privados"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "dt-unica",
+      "apartado": "2",
+      "reason": "Régimen transitorio de las reclamaciones"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "11",
+      "reason": "Modifica la Orden 5/2017; no regula las NOF"
+    },
+    {
+      "law": "cuenta-gestion-centros-docentes",
+      "article": "sec-pregunta-29",
+      "apartado": "ingresos-recibidos-de-las-familias-por-i",
+      "reason": "Xarxa Llibres: mención de pasada"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "anexo-2",
+      "apartado": "centro",
+      "reason": "Indicadores del plan de mejora"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-3-2",
+      "apartado": "3.2.3.2",
+      "reason": "Criterios de agrupamiento y distribución de grupos"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "da-1",
+      "apartado": "0",
+      "reason": "Centros privados no concertados"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    }
+  ]
+}

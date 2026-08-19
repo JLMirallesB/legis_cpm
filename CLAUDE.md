@@ -88,7 +88,51 @@ npm run build     # debe compilar sin errores
 - Actualizar `lastModifiedDate` en `vigpiracy`
 - Actualizar `data/metadata/law-registry.json`
 
-#### 6. ⚠️ Comprobar si la ley alimenta un dataset externo (NO SALTAR)
+#### 6. ⚠️ Cribar la ley nueva contra las fichas de documentos de centro
+
+**Paso obligatorio de toda ingesta.** Por cada ficha de `data/center-docs/`:
+
+```bash
+node scripts/refs-triage.mjs pec --ley <slug-de-la-ley-nueva>
+```
+
+Lista los apartados de esa ley que hablan del documento y que aún no están
+decididos. Cada candidato acaba en uno de dos sitios de la ficha: en `refs` si
+regula el documento, o en `discarded` con su motivo si es mención de pasada.
+Lo ya decidido no se vuelve a preguntar, así que el cribado no se repite.
+
+Criterio de corte: entra lo que **regula** el documento —qué contiene, quién lo
+elabora, quién lo aprueba, qué obligación impone— y no lo que solo lo nombra
+(«de acuerdo con el proyecto educativo»). Ante la duda, descartar y anotar por
+qué: un descarte razonado se revisa fácil, una ficha inflada no se lee.
+
+Regla de separación entre fichas: **si tienen nombre distinto son documentos
+distintos**, aunque uno viva dentro de otro. El PEC, la PGA y el Plan de Mejora
+son tres fichas, no una. (Y en conservatorios el documento se llama **Plan de
+Mejora**: el PAM es otra cosa, de los centros de régimen general.)
+
+Tras tocar una ficha: `npm run validate` y `npm run refs:refresh` si procede.
+
+#### 6 bis. ⚠️ Revisar las referencias con ancla que apunten a lo que has tocado
+
+`npm run validate` comprueba todas las referencias de `data/notebooks/` y de
+`data/center-docs/` contra las leyes:
+
+- **Error** si un ancla ya no resuelve: el apartado citado ha desaparecido o se
+  ha renumerado. Rompe el build a propósito.
+- **Aviso** si el texto citado ha cambiado, si el artículo tiene versión nueva,
+  si le afecta una norma posterior o si venció el curso de una norma anual.
+
+Ante un aviso: abrir la cita, comprobar que sigue diciendo lo que se quería
+citar y solo entonces `npm run refs:refresh` para volver a sellarla. Lanzarlo
+sin mirar silencia justo el aviso que hacía falta.
+
+Si la ley nueva llega con los apartados pegados en un solo párrafo (defecto
+recurrente de extracción), `npm run fix:apartados` los separa: solo corta donde
+continúa la serie esperada, así que no rompe referencias internas del tipo
+«el artículo 5. La evaluación…».
+
+#### 7. ⚠️ Comprobar si la ley alimenta un dataset externo (NO SALTAR)
 
 **Este paso es obligatorio en toda ingesta.** Hay apps externas que leen datasets estáticos generados a partir de las leyes de este repo. Si la ley recién ingestada es una de sus fuentes y no se regenera el dataset, esas apps siguen sirviendo datos del curso pasado sin avisar de nada.
 
@@ -104,7 +148,7 @@ Después: `npm run build` (Astro copia `public/` a `dist/`), release normal y **
 **Al crear un dataset nuevo** (una tercera app que quiera leer datos de este repo), hay cuatro sitios que tocar, y ninguno es opcional:
 1. `scripts/gen-{nombre}-dataset.py` — generador que **extrae los datos del texto de las leyes ingestadas**, nunca valores tecleados a mano.
 2. `public/data/{nombre}/` — salida: `manifest.json` con `courses[]` + un fichero por curso.
-3. Una **fila en la tabla de este paso 6** y una **sección al final de este documento** con el disparador y las convenciones del esquema.
+3. Una **fila en la tabla de este paso 7** y una **sección al final de este documento** con el disparador y las convenciones del esquema.
 4. `src/lib/opendata.ts` — descriptor bilingüe del dataset; es lo que alimenta la página pública `/es/datos/` y `/va/dades/`. Si cambia la forma de un fichero ya publicado, actualizarlo también.
 
 ### Errores conocidos y lecciones aprendidas

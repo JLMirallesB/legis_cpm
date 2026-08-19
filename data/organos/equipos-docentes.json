@@ -1,0 +1,492 @@
+{
+  "id": "equipos-docentes",
+  "slug": "equipos-docentes",
+  "order": 11,
+  "short": {
+    "es": "Equipos docentes",
+    "va": "Equips docents"
+  },
+  "title": {
+    "es": "Los equipos docentes",
+    "va": "Els equips docents"
+  },
+  "description": {
+    "es": "El conjunto de profesorado que atiende a un mismo alumno o alumna: cuándo se reúne y qué decide.",
+    "va": "El conjunt de professorat que atén un mateix alumne o alumna: quan es reunix i què decidix."
+  },
+  "terms": [
+    "equipo docente",
+    "equipos docentes",
+    "equip docent",
+    "equips docents"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "hash": {
+        "es": "d763c001",
+        "va": "a5582804"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "hash": {
+        "es": "e75eac24",
+        "va": "103e523c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-14",
+      "apartado": "4",
+      "hash": {
+        "es": "edf69460",
+        "va": "b0600572"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-15",
+      "apartado": "7",
+      "hash": {
+        "es": "0f7f78d0",
+        "va": "40a7a010"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-30",
+      "apartado": "5",
+      "hash": {
+        "es": "d90cb25c",
+        "va": "9443ae28"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "art-6",
+      "apartado": "2",
+      "hash": {
+        "es": "0f63f756",
+        "va": "58930c97"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-6-3",
+      "apartado": "1",
+      "hash": {
+        "es": "19ebeb09",
+        "va": "d761c6bd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-2",
+      "apartado": "1",
+      "hash": {
+        "es": "6bb4d390",
+        "va": "7bc40fda"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-23",
+      "note": "Qué órganos de coordinación docente hay",
+      "hash": {
+        "es": "d9109888",
+        "va": "b206ceca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "30545ef5",
+        "va": "0ff0ba46"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "1",
+      "hash": {
+        "es": "6ce74eee",
+        "va": "e9db94a2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "4",
+      "hash": {
+        "es": "f84d52ca",
+        "va": "875c600d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "5",
+      "hash": {
+        "es": "9e6d8939",
+        "va": "2e05b382"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "7",
+      "hash": {
+        "es": "750c0d2e",
+        "va": "470797d0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "13",
+      "hash": {
+        "es": "dd6ee5a2",
+        "va": "a3d8821b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-48",
+      "apartado": "1",
+      "hash": {
+        "es": "6e5e51ea",
+        "va": "63ad10c9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-24",
+      "apartado": "4",
+      "hash": {
+        "es": "449dd16f",
+        "va": "84f85c29"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-21",
+      "apartado": "3",
+      "hash": {
+        "es": "e44d210b",
+        "va": "048199b6"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-23",
+      "apartado": "4",
+      "hash": {
+        "es": "449dd16f",
+        "va": "84f85c29"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-22",
+      "apartado": "3",
+      "hash": {
+        "es": "e44d210b",
+        "va": "048199b6"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-26",
+      "apartado": "3",
+      "hash": {
+        "es": "6923b1f2",
+        "va": "59b99486"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "faq-flexibilizacion-2025",
+      "article": "art-3",
+      "apartado": "0",
+      "hash": {
+        "es": "d90022ac",
+        "va": "a8f83de7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-11",
+      "apartado": "11.2.2.a",
+      "hash": {
+        "es": "795e4cbd",
+        "va": "387b8a8b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-15",
+      "apartado": "4",
+      "hash": {
+        "es": "35d3d370",
+        "va": "f8a95de4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-16",
+      "apartado": "3",
+      "hash": {
+        "es": "6f89db65",
+        "va": "7a3b93e9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-17",
+      "apartado": "5",
+      "hash": {
+        "es": "36861ad0",
+        "va": "b8f10412"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-30",
+      "apartado": "4",
+      "hash": {
+        "es": "e7661521",
+        "va": "9933a3dc"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-37",
+      "apartado": "7.a",
+      "hash": {
+        "es": "10a73eb9",
+        "va": "1fa8fc6c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-54",
+      "apartado": "5",
+      "hash": {
+        "es": "c8add594",
+        "va": "ba92e272"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "circular-1-2025",
+      "article": "art-2",
+      "note": "La propuesta de flexibilización parte del equipo docente",
+      "hash": {
+        "es": "d38e22ef",
+        "va": "1f04ed36"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "circular-1-2025",
+      "article": "art-3",
+      "hash": {
+        "es": "c34bb839",
+        "va": "b162e329"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "ab44d6b7",
+        "va": "17f65390"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "aclaratorio-circular-1-2025",
+      "items": [
+        "art-4#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "circular-1-2025",
+      "items": [
+        "art-2#procedimiento-para-solicitar-la-flexibil.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-104-2018",
+      "items": [
+        "art-4#3.a",
+        "anexo#caracter-sumativo-y-progresivo"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-159-2007",
+      "items": [
+        "anexo-1-conjunto#introduccion"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "items": [
+        "art-30#30.1.1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-23#1",
+        "art-23#2.b",
+        "art-25#17",
+        "art-38#2.c"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "items": [
+        "art-132#m"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-20-2019",
+      "items": [
+        "art-9#1",
+        "art-15#5",
+        "art-20#6",
+        "art-30#3",
+        "art-37#7.b",
+        "art-39#5",
+        "art-41#5",
+        "art-42#1.a",
+        "art-42#1.b",
+        "art-42#1.e",
+        "art-42#1.f",
+        "art-49#6",
+        "art-56#1",
+        "art-59#3.e"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-32-2011",
+      "items": [
+        "art-4#6.a.1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-9-2025",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "items": [
+        "anexo-1-2#1.2.2.1.b",
+        "anexo-1-2#1.2.2.1.c",
+        "anexo-5-2#4.b",
+        "anexo-5-2#6",
+        "anexo-8-4#4.a",
+        "anexo-8-4#4.b",
+        "anexo-10-2#4"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "items": [
+        "anexo-1-2#1.2.2.1.b",
+        "anexo-1-2#1.2.2.1.c",
+        "anexo-5-2#5.b",
+        "anexo-5-2#7.a",
+        "anexo-5-2#7.b",
+        "anexo-6-1#5.2.6.f",
+        "anexo-10-1#4"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    }
+  ],
+  "titleTerms": [
+    "equipos docentes",
+    "equipo docente"
+  ]
+}

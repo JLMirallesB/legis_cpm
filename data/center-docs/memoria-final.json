@@ -1,0 +1,223 @@
+{
+  "id": "memoria-final",
+  "slug": "memoria-final",
+  "order": 3,
+  "short": {
+    "es": "Memoria",
+    "va": "Memòria"
+  },
+  "title": {
+    "es": "Memoria final de curso",
+    "va": "Memòria final de curs"
+  },
+  "description": {
+    "es": "El cierre del curso: qué se cumplió de la programación general anual y qué conclusiones se sacan para el siguiente.",
+    "va": "El tancament del curs: què es va complir de la programació general anual i quines conclusions se'n trauen per al següent."
+  },
+  "terms": [
+    "memoria final",
+    "memoria de final de curso",
+    "memoria de fin de curso",
+    "memoria fin de curso",
+    "memoria anual",
+    "memoria final de curs",
+    "memoria de fi de curs"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "6",
+      "note": "De dónde sale: el claustro evalúa el cumplimiento de la PGA",
+      "hash": {
+        "es": "3eaa9f6f",
+        "va": "924b6da8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "2.d",
+      "note": "La dirección la presenta a la dirección territorial",
+      "hash": {
+        "es": "d0fd29fe",
+        "va": "23d7d9e0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.e",
+      "note": "La memoria de cada departamento",
+      "hash": {
+        "es": "37ae85e7",
+        "va": "390ee3d5"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "3.g",
+      "hash": {
+        "es": "03e1a835",
+        "va": "643a8208"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-43",
+      "apartado": "2.c",
+      "hash": {
+        "es": "1b6759a2",
+        "va": "1ea30a10"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "5.g",
+      "hash": {
+        "es": "17345c12",
+        "va": "47b729af"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-11",
+      "apartado": "4",
+      "hash": {
+        "es": "ae23b1bd",
+        "va": "aed71b29"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "df-4",
+      "apartado": "4.2.c",
+      "hash": {
+        "es": "038ac3fd",
+        "va": "c645b14b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "3",
+      "note": "La memoria incluye un apartado del programa de coordinación horaria",
+      "hash": {
+        "es": "b07ee177",
+        "va": "0345d075"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-3",
+      "note": "Contenido, aprobación y plazo de este curso",
+      "hash": {
+        "es": "aeab9caa",
+        "va": "8775087a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-7",
+      "apartado": "f",
+      "hash": {
+        "es": "a5bc171d",
+        "va": "f8d1471b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-3",
+      "hash": {
+        "es": "fab8fef5",
+        "va": "22a274f4"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "*",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "apartado": "3",
+      "reason": "El plan de autoevaluación: ficha propia"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-58",
+      "apartado": "4.c",
+      "reason": "Memoria de las unidades específicas, no la del centro"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "3~3",
+      "reason": "Modifica la Orden 5/2017; se cita el artículo 10 vigente"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-2",
+      "apartado": "4.2.2.3",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-2",
+      "apartado": "4.2.2.3",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-13",
+      "apartado": "b",
+      "reason": "Formación del profesorado"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-14",
+      "apartado": "5.a",
+      "reason": "Memoria de las actividades formativas, no la del centro"
+    }
+  ],
+  "related": [
+    {
+      "slug": "pga",
+      "relation": "deriva-de"
+    }
+  ]
+}

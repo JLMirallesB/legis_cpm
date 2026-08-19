@@ -1,0 +1,563 @@
+{
+  "id": "plan-mejora",
+  "slug": "plan-mejora",
+  "order": 7,
+  "short": {
+    "es": "Plan de Mejora",
+    "va": "Pla de Millora"
+  },
+  "title": {
+    "es": "Plan de Mejora",
+    "va": "Pla de Millora"
+  },
+  "description": {
+    "es": "Lo que el conservatorio se propone mejorar cada curso a partir de su autoevaluación. Se estructura en tres fases —autoevaluación, desarrollo y evaluación—, así que el plan de autoevaluación del artículo 56 no es un documento aparte, sino su punto de partida. En los centros de régimen general el documento equivalente se llama plan de actuación para la mejora (PAM); en los conservatorios, Plan de Mejora.",
+    "va": "El que el conservatori es proposa millorar cada curs a partir de la seua autoavaluació. S'estructura en tres fases —autoavaluació, desenvolupament i avaluació—, així que el pla d'autoavaluació de l'article 56 no és un document a banda, sinó el seu punt de partida. En els centres de règim general el document equivalent s'anomena pla d'actuació per a la millora (PAM); en els conservatoris, Pla de Millora."
+  },
+  "terms": [
+    "plan de mejora",
+    "pla de millora",
+    "plan de actuacion para la mejora",
+    "pla d'actuacio per a la millora",
+    "autoevaluacion",
+    "autoavaluacio",
+    "evaluacion interna",
+    "avaluacio interna"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-127",
+      "apartado": "k",
+      "hash": {
+        "es": "72998439",
+        "va": "72998439"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "g",
+      "hash": {
+        "es": "b05fa19d",
+        "va": "25bdfb3c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-132",
+      "apartado": "h",
+      "hash": {
+        "es": "41c00345",
+        "va": "41c00345"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-91",
+      "apartado": "1.k",
+      "hash": {
+        "es": "5b923ceb",
+        "va": "5b923ceb"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.h",
+      "hash": {
+        "es": "41c00345",
+        "va": "e17de574"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-18",
+      "apartado": "1.f",
+      "hash": {
+        "es": "4f4d692f",
+        "va": "3f4ab0d8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "3.o",
+      "hash": {
+        "es": "7ad2583b",
+        "va": "a6e857ec"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.h",
+      "hash": {
+        "es": "b13b4d20",
+        "va": "27aeaaed"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "h",
+      "hash": {
+        "es": "f8b91bd8",
+        "va": "6d077b57"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "b",
+      "hash": {
+        "es": "afe2b53d",
+        "va": "e1c4f409"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-55",
+      "apartado": "3",
+      "hash": {
+        "es": "5c754bf7",
+        "va": "3ee65472"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "note": "La autoevaluación: la comisión que la hace, su sitio en la PGA y adónde van sus conclusiones",
+      "hash": {
+        "es": "dc2133e7",
+        "va": "e07d9ca1"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-1",
+      "note": "Por qué existe",
+      "hash": {
+        "es": "3c4142dd",
+        "va": "748272cd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-2",
+      "note": "La autoevaluación como punto de partida",
+      "hash": {
+        "es": "b0bc59a2",
+        "va": "3c43af3e"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-3",
+      "note": "Funciones de cada órgano",
+      "hash": {
+        "es": "a62aa6a9",
+        "va": "9c1ac7d2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-4-1",
+      "hash": {
+        "es": "3dd8e0bc",
+        "va": "283d3a53"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-4-2",
+      "hash": {
+        "es": "50c50c71",
+        "va": "291d2648"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-4-3",
+      "hash": {
+        "es": "55f0147f",
+        "va": "3898fe9b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-4-4",
+      "hash": {
+        "es": "f65e5679",
+        "va": "22ada7c1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "anexo-1",
+      "note": "Modelos de ficha",
+      "hash": {
+        "es": "f65e5679",
+        "va": "22ada7c1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-2",
+      "note": "Ámbitos, órganos y contenido del plan este curso",
+      "hash": {
+        "es": "7f11fe34",
+        "va": "3a5da993"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-1",
+      "apartado": "4",
+      "note": "Vive dentro del plan de autoevaluación",
+      "hash": {
+        "es": "81faa702",
+        "va": "c771d36b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7.c",
+      "hash": {
+        "es": "4d1dd78c",
+        "va": "33d04728"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "5.2.6.c",
+      "hash": {
+        "es": "400e42ff",
+        "va": "7a80b366"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-2",
+      "hash": {
+        "es": "d59c3f55",
+        "va": "a9cfea4f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-1",
+      "apartado": "4",
+      "hash": {
+        "es": "81faa702",
+        "va": "c771d36b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "6",
+      "hash": {
+        "es": "41610610",
+        "va": "2292b901"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5.1",
+      "note": "El diagnóstico de evaluación interna concluye en el plan de mejora",
+      "hash": {
+        "es": "8ca98f2f",
+        "va": "5f228c22"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5.1",
+      "hash": {
+        "es": "56018cb6",
+        "va": "2072443f"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-145",
+      "apartado": "2",
+      "note": "La Administración apoya la autoevaluación de los centros",
+      "hash": {
+        "es": "8c76ae78",
+        "va": "063cf920"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-18",
+      "apartado": "1.d",
+      "note": "El equipo directivo elabora la memoria de autoevaluación",
+      "hash": {
+        "es": "b97d069d",
+        "va": "13ba90b2"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "2.k",
+      "hash": {
+        "es": "9b49824d",
+        "va": "3a36eb6f"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "3.m",
+      "note": "El PEC incorpora los procedimientos de evaluación interna",
+      "hash": {
+        "es": "82514d51",
+        "va": "a88e76c7"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5.h",
+      "note": "La PGA incluye el plan de autoevaluación y sus resultados",
+      "hash": {
+        "es": "1d58f230",
+        "va": "e78fa16e"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-2",
+      "apartado": "5",
+      "note": "Este curso la autoevaluación debe medir el impacto del pianista acompañante",
+      "hash": {
+        "es": "191c4ad8",
+        "va": "319f7d57"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-6-3",
+      "apartado": "6",
+      "hash": {
+        "es": "0d2f3071",
+        "va": "9e04ca62"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-6-4",
+      "apartado": "5",
+      "hash": {
+        "es": "9574ac24",
+        "va": "08d9590b"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "autoevaluacion"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "*",
+      "reason": "Regula el PAM, el documento equivalente de los centros de régimen general"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "*",
+      "reason": "Regula el PAM, el documento equivalente de los centros de régimen general"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-11",
+      "apartado": "4",
+      "reason": "Formación del profesorado"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-38",
+      "apartado": "2.a",
+      "reason": "Formación del profesorado; además usa la denominación de régimen general"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-121",
+      "apartado": "2",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "da-1",
+      "apartado": "2",
+      "reason": "Convocatorias de innovación; usa la denominación de régimen general"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "2",
+      "reason": "La programación general anual: ficha propia"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "2~4",
+      "reason": "Modifica la Orden 5/2017"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-7",
+      "apartado": "0",
+      "reason": "La programación general anual: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-3",
+      "apartado": "2",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-3",
+      "apartado": "2",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-102",
+      "apartado": "3",
+      "reason": "Formación del profesorado"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-49",
+      "apartado": "5",
+      "reason": "El plan de centro en conjunto"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-55",
+      "apartado": "1",
+      "reason": "Evaluación externa que hace la Administración"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-55",
+      "apartado": "2",
+      "reason": "Evaluación externa que hace la Administración"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5",
+      "reason": "Encabezado de la sección; su contenido ya está referenciado"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.5",
+      "reason": "Encabezado de la sección; su contenido ya está referenciado"
+    }
+  ],
+  "parts": [
+    {
+      "id": "autoevaluacion",
+      "slug": "autoevaluacion",
+      "title": {
+        "es": "Autoevaluación del centro",
+        "va": "Autoavaluació del centre"
+      },
+      "description": {
+        "es": "El diagnóstico del que arranca el Plan de Mejora: quién lo hace, con qué comisión, dónde vive y adónde van sus conclusiones. El artículo 56 lo llama plan de autoevaluación; la guía y las instrucciones lo tratan como la primera de las tres fases del plan.",
+        "va": "El diagnòstic del qual arranca el Pla de Millora: qui el fa, amb quina comissió, on viu i on van les seues conclusions. L'article 56 l'anomena pla d'autoavaluació; la guia i les instruccions el tracten com la primera de les tres fases del pla."
+      }
+    }
+  ],
+  "related": [
+    {
+      "slug": "pga",
+      "relation": "parte-de"
+    }
+  ]
+}

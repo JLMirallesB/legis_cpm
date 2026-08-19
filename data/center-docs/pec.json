@@ -1,0 +1,916 @@
+{
+  "id": "pec",
+  "slug": "pec",
+  "order": 1,
+  "short": {
+    "es": "PEC",
+    "va": "PEC"
+  },
+  "title": {
+    "es": "Proyecto Educativo de Centro",
+    "va": "Projecte Educatiu de Centre"
+  },
+  "description": {
+    "es": "Todo lo que la normativa dice sobre el proyecto educativo de un conservatorio: qué tiene que contener, quién lo elabora y quién lo aprueba, y qué añade cada curso. Incluye la concreción del currículo, que desde la LOE vive dentro del PEC aunque algunos artículos la sigan llamando «proyecto curricular».",
+    "va": "Tot el que la normativa diu sobre el projecte educatiu d'un conservatori: què ha de contindre, qui l'elabora i qui l'aprova, i què hi afig cada curs. Inclou la concreció del currículum, que des de la LOE viu dins del PEC encara que alguns articles la continuen anomenant «projecte curricular»."
+  },
+  "terms": [
+    "proyecto educativo",
+    "projecte educatiu",
+    "proyecto curricular",
+    "proyectos curriculares",
+    "projecte curricular",
+    "projectes curriculars",
+    "concrecion del curriculo",
+    "concrecio del curriculum"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-121",
+      "note": "El artículo que define el PEC",
+      "hash": {
+        "es": "0893ee8c",
+        "va": "0893ee8c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-120",
+      "apartado": "2",
+      "note": "La autonomía para elaborarlo y aprobarlo",
+      "hash": {
+        "es": "b83b89ca",
+        "va": "b83b89ca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-132",
+      "apartado": "c",
+      "hash": {
+        "es": "cb267b74",
+        "va": "cb267b74"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-84",
+      "apartado": "9",
+      "note": "Matricularse supone respetar el PEC",
+      "hash": {
+        "es": "687fa58c",
+        "va": "687fa58c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-49",
+      "note": "El PEC dentro del plan de centro",
+      "hash": {
+        "es": "946f7198",
+        "va": "73d83948"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "note": "Qué debe abordar el PEC de un conservatorio",
+      "hash": {
+        "es": "9dd440c9",
+        "va": "a7c7f1f9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-48",
+      "apartado": "1",
+      "hash": {
+        "es": "6e5e51ea",
+        "va": "63ad10c9"
+      },
+      "checkedAt": "2026-08-19",
+      "note": "La concreción del currículo se hace mediante el PEC, no en un documento aparte",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "3",
+      "note": "De qué modo la PGA deriva del PEC",
+      "hash": {
+        "es": "95f989e1",
+        "va": "a5c87c31"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.c",
+      "hash": {
+        "es": "b5077070",
+        "va": "c214b372"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "3.f",
+      "hash": {
+        "es": "587858e4",
+        "va": "b5fba73f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "3.g",
+      "hash": {
+        "es": "db7a4de6",
+        "va": "59afe030"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "a",
+      "hash": {
+        "es": "ca227417",
+        "va": "683c88ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.g",
+      "hash": {
+        "es": "0e5cb3c1",
+        "va": "f69aaf84"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "b",
+      "hash": {
+        "es": "afe2b53d",
+        "va": "e1c4f409"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "j",
+      "hash": {
+        "es": "f4525386",
+        "va": "55ffbcc4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-41",
+      "apartado": "2.a",
+      "hash": {
+        "es": "2c489298",
+        "va": "1cda0319"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "5.g",
+      "hash": {
+        "es": "17345c12",
+        "va": "47b729af"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.a",
+      "hash": {
+        "es": "f90af6c2",
+        "va": "2bdb9a87"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.g",
+      "hash": {
+        "es": "9c9d52ba",
+        "va": "5a9bfe0a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.b",
+      "hash": {
+        "es": "f9181764",
+        "va": "1f01739c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.h",
+      "hash": {
+        "es": "0c7647a8",
+        "va": "8eb40a86"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-22",
+      "note": "Autonomía curricular, enseñanzas elementales de música",
+      "hash": {
+        "es": "fdcca268",
+        "va": "98aefce9"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-21",
+      "note": "Autonomía curricular, enseñanzas elementales de danza",
+      "hash": {
+        "es": "186e1022",
+        "va": "88aad837"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-11",
+      "note": "El PEC como eje vertebrador de la inclusión",
+      "hash": {
+        "es": "0b9fbea3",
+        "va": "3aa59344"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-6",
+      "apartado": "2",
+      "hash": {
+        "es": "906ceb59",
+        "va": "cfef73a2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-7",
+      "apartado": "2",
+      "hash": {
+        "es": "b9733e49",
+        "va": "834a70b7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1",
+      "hash": {
+        "es": "17797512",
+        "va": "b8918b5d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-4",
+      "apartado": "4",
+      "hash": {
+        "es": "876d0109",
+        "va": "e34004c9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-10",
+      "apartado": "3",
+      "hash": {
+        "es": "b4cd8d1a",
+        "va": "7db94c6a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-4",
+      "note": "El PEC en la nueva norma de convivencia",
+      "hash": {
+        "es": "e01c7b04",
+        "va": "693fd97e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-5",
+      "apartado": "3",
+      "hash": {
+        "es": "6416029d",
+        "va": "06fce19c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "5",
+      "hash": {
+        "es": "c0900cd6",
+        "va": "2c0f2c4b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-18",
+      "apartado": "1",
+      "hash": {
+        "es": "d71c17cd",
+        "va": "77221327"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "1",
+      "hash": {
+        "es": "8e6e10d4",
+        "va": "6fb5f734"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-1",
+      "apartado": "1",
+      "hash": {
+        "es": "e1db8fd3",
+        "va": "f8c43de3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-1",
+      "apartado": "2",
+      "hash": {
+        "es": "b678d2d2",
+        "va": "5ca0c19e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "hash": {
+        "es": "1f26e2c6",
+        "va": "16374cec"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-1",
+      "apartado": "1",
+      "hash": {
+        "es": "e1db8fd3",
+        "va": "f8c43de3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-1",
+      "apartado": "2",
+      "hash": {
+        "es": "b678d2d2",
+        "va": "5ca0c19e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "hash": {
+        "es": "8da4ee0b",
+        "va": "11648aff"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-7",
+      "apartado": "0",
+      "note": "El programa de coordinación horaria se integra en el PEC",
+      "hash": {
+        "es": "346ae2a6",
+        "va": "8aaca625"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "3.c",
+      "note": "El PEC coordina y concreta los contenidos curriculares",
+      "hash": {
+        "es": "5799d5fa",
+        "va": "df44cfc2"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "d",
+      "note": "Lenguaje residual: la CCP redacta el «proyecto curricular», que hoy es la parte curricular del PEC",
+      "hash": {
+        "es": "6081689c",
+        "va": "24c2c506"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "e",
+      "note": "El claustro lo aprueba",
+      "hash": {
+        "es": "198b13c5",
+        "va": "25e71260"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "f",
+      "hash": {
+        "es": "288a3ccb",
+        "va": "bface9b3"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-48",
+      "apartado": "2",
+      "hash": {
+        "es": "738b0c25",
+        "va": "6845209f"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-129",
+      "apartado": "b",
+      "note": "El claustro aprueba y evalúa la concreción del currículo",
+      "hash": {
+        "es": "648618ff",
+        "va": "95c9b93f"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-35",
+      "apartado": "1",
+      "note": "La CCP coordina la concreción del currículo",
+      "hash": {
+        "es": "f1448a14",
+        "va": "6170bb23"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-23",
+      "apartado": "2",
+      "note": "Qué adecua la concreción del currículo en música profesional",
+      "hash": {
+        "es": "7c6fe17a",
+        "va": "65e13ee6"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-24",
+      "apartado": "2",
+      "note": "Ídem en danza profesional",
+      "hash": {
+        "es": "5f58db85",
+        "va": "fbdf3360"
+      },
+      "checkedAt": "2026-08-19",
+      "part": "curriculo"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la propia LOE"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "article": "*",
+      "reason": "Mención de pasada en los motivos de exclusión"
+    },
+    {
+      "law": "orden-8-2026",
+      "article": "art-8",
+      "apartado": "1",
+      "reason": "Mención de pasada: la prueba de acceso, no el PEC"
+    },
+    {
+      "law": "orden-28-2011",
+      "article": "art-41",
+      "apartado": "3",
+      "reason": "Mención de pasada: selección de asignaturas"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "11",
+      "reason": "Modifica la Orden 5/2017; se cita el artículo 10 vigente de aquella"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "df-1",
+      "apartado": "6",
+      "reason": "Carácter propio de los centros privados"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-121",
+      "apartado": "6",
+      "reason": "Centros privados concertados"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "g",
+      "reason": "El horario general, no el PEC"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "apartado": "6",
+      "reason": "Composición de las comisiones del Consejo Escolar"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "apartado": "2.a",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "apartado": "2.b",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-27",
+      "apartado": "1",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "i",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "j",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "k",
+      "reason": "Mención de pasada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-31",
+      "apartado": "5",
+      "reason": "La memoria de los departamentos"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-38",
+      "apartado": "2.a",
+      "reason": "Formación del profesorado"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-51",
+      "apartado": "2",
+      "reason": "El proyecto de gestión: ficha propia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "apartado": "2",
+      "reason": "El plan de autoevaluación: ficha propia"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-5",
+      "apartado": "14",
+      "reason": "Funciones de la conselleria"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-8",
+      "apartado": "2",
+      "reason": "Participación del alumnado"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-12",
+      "apartado": "2.a",
+      "reason": "Es la PGA, no el PEC"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.a",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.b",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.c",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "anexo",
+      "apartado": "caracter-sumativo-y-progresivo",
+      "reason": "Tabla resumen de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "2",
+      "reason": "Tutoría"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "3",
+      "reason": "Tutoría"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-11",
+      "apartado": "4",
+      "reason": "Coordinación docente"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-29",
+      "apartado": "29.4.c",
+      "reason": "Derechos del alumnado: mención de pasada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-29",
+      "apartado": "29.7.c",
+      "reason": "Derechos del alumnado: mención de pasada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-30",
+      "apartado": "30.2.b",
+      "reason": "Deberes del alumnado: mención de pasada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-32",
+      "apartado": "32.4.b",
+      "reason": "Deberes del profesorado: mención de pasada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-33",
+      "apartado": "2.e",
+      "reason": "Derechos de las familias: mención de pasada"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-10",
+      "apartado": "8",
+      "reason": "Directrices de la CCP"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-40",
+      "apartado": "1",
+      "reason": "Personal de apoyo"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-43",
+      "apartado": "1",
+      "reason": "Agentes externos"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-10",
+      "apartado": "3",
+      "reason": "Prueba de acceso"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-16",
+      "apartado": "3",
+      "reason": "Criterios de evaluación"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-10",
+      "apartado": "3",
+      "reason": "Prueba de acceso"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-15",
+      "apartado": "3",
+      "reason": "Criterios de evaluación"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-13",
+      "apartado": "3",
+      "reason": "Criterios de evaluación"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-14",
+      "apartado": "3",
+      "reason": "Criterios de evaluación"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-2-1",
+      "apartado": "2",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-2-1",
+      "apartado": "2",
+      "reason": "Gestión económica"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-1",
+      "apartado": "1",
+      "reason": "Es la PGA, no el PEC"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "b",
+      "reason": "Las programaciones didácticas: ficha propia"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "2",
+      "reason": "La PGA y el Plan de Mejora: fichas propias"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-10",
+      "apartado": "3",
+      "reason": "La memoria final de curso: ficha propia"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "*",
+      "reason": "Autonomía de los centros privados y concertados"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "article": "sec-1",
+      "apartado": "0",
+      "reason": "El Plan de Mejora: ficha propia"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "preambulo",
+      "apartado": "0",
+      "reason": "Preámbulo: encuadre, no regulación"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "art-9",
+      "apartado": "0",
+      "reason": "Perfil docente de los puestos; la referencia al PEC es incidental"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "article": "apartado-5",
+      "apartado": "0",
+      "reason": "Cita el D.57/2020 como fundamento, no regula el PEC"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "m",
+      "reason": "La acción tutorial: ficha propia"
+    }
+  ],
+  "parts": [
+    {
+      "id": "curriculo",
+      "slug": "concrecion-curricular",
+      "title": {
+        "es": "Concreción del currículo",
+        "va": "Concreció del currículum"
+      },
+      "description": {
+        "es": "La parte curricular del proyecto educativo: qué adecua cada centro del currículo oficial, quién la redacta y quién la aprueba. La normativa antigua la llamaba proyecto curricular y algunos artículos del Decreto 57/2020 aún lo hacen, pero desde la LOE no es un documento aparte: se elabora dentro del PEC.",
+        "va": "La part curricular del projecte educatiu: què adequa cada centre del currículum oficial, qui la redacta i qui l'aprova. La normativa antiga l'anomenava projecte curricular i alguns articles del Decret 57/2020 encara ho fan, però des de la LOE no és un document a banda: s'elabora dins del PEC."
+      }
+    }
+  ]
+}

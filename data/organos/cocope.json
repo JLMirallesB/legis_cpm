@@ -1,0 +1,284 @@
+{
+  "id": "cocope",
+  "slug": "cocope",
+  "order": 9,
+  "short": {
+    "es": "COCOPE",
+    "va": "COCOPE"
+  },
+  "title": {
+    "es": "La Comisión de Coordinación Pedagógica",
+    "va": "La Comissió de Coordinació Pedagògica"
+  },
+  "description": {
+    "es": "El máximo órgano de coordinación docente: quién lo compone y qué coordina.",
+    "va": "El màxim òrgan de coordinació docent: qui el compon i què coordina."
+  },
+  "terms": [
+    "comision de coordinacion pedagogica",
+    "cocope",
+    "comissio de coordinacio pedagogica",
+    "coordinacion pedagogica"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-57-2020",
+      "article": "art-35",
+      "hash": {
+        "es": "87a1a009",
+        "va": "6a3c5fee"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "hash": {
+        "es": "2425145b",
+        "va": "f5904ef8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-10",
+      "apartado": "8",
+      "hash": {
+        "es": "e17a69b7",
+        "va": "d6d4f1d7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-28-2011",
+      "article": "art-41",
+      "apartado": "3",
+      "hash": {
+        "es": "b715081b",
+        "va": "e4bb9d61"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-4-2",
+      "apartado": "4.2.2.2",
+      "hash": {
+        "es": "8ea5a671",
+        "va": "729712fd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-2",
+      "apartado": "4.2.2.2",
+      "hash": {
+        "es": "453cdce5",
+        "va": "68d3f3c9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-23",
+      "note": "Qué órganos de coordinación docente hay",
+      "hash": {
+        "es": "d9109888",
+        "va": "b206ceca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "30545ef5",
+        "va": "0ff0ba46"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "c",
+      "hash": {
+        "es": "c90083fd",
+        "va": "ee15897a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-29",
+      "apartado": "3",
+      "hash": {
+        "es": "c974659f",
+        "va": "9fdab2c8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.b",
+      "hash": {
+        "es": "d884367f",
+        "va": "07d4958e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "apartado": "1.g",
+      "hash": {
+        "es": "0e5cb3c1",
+        "va": "f69aaf84"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-39",
+      "apartado": "2.c",
+      "hash": {
+        "es": "7c6417b8",
+        "va": "6eef6f16"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-6",
+      "apartado": "7",
+      "hash": {
+        "es": "f7314904",
+        "va": "d2506b34"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-20-2019",
+      "article": "art-40",
+      "apartado": "3",
+      "hash": {
+        "es": "3421ed58",
+        "va": "b62408d7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-28-2011",
+      "article": "art-43",
+      "apartado": "2",
+      "hash": {
+        "es": "8abd7792",
+        "va": "380d4d63"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-28-2011",
+      "article": "art-43",
+      "apartado": "4.a",
+      "hash": {
+        "es": "490e9c26",
+        "va": "37039579"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "ab44d6b7",
+        "va": "17f65390"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-23#2.a",
+        "art-28#2",
+        "art-28#4",
+        "art-30#b",
+        "art-33#1.f",
+        "art-34#2",
+        "art-49#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "items": [
+        "sec-1#0",
+        "sec-3#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-20-2019",
+      "items": [
+        "art-15#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "items": [
+        "anexo-4-2#4.2.2.1",
+        "anexo-8-3#8.3.2.3.c"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "items": [
+        "anexo-4-2#4.2.2.1",
+        "anexo-8-3#8.3.1.3.c"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    }
+  ],
+  "titleTerms": [
+    "comision de coordinacion pedagogica",
+    "coordinacion pedagogica"
+  ]
+}

@@ -1,0 +1,100 @@
+---
+/**
+ * Estado de una cita respecto a la ley de la que sale.
+ *
+ * No se escribe a mano en ningún sitio: sale de comparar la referencia con el
+ * texto vigente al compilar. Una cita «al día» no pinta nada — el ruido visual
+ * se reserva para lo que necesita atención.
+ */
+import type { Lang, Freshness } from '../lib/types';
+import { t } from '../i18n/utils';
+
+interface Props {
+  freshness: Freshness;
+  lang: Lang;
+  checkedAt?: string;
+}
+
+const { freshness, lang, checkedAt } = Astro.props;
+const visible = freshness.level !== 'ok';
+---
+
+{visible && (
+  <div class={`freshness freshness-${freshness.level}`}>
+    <span class="freshness-level">{t(`freshness.${freshness.level}`, lang)}</span>
+    <span class="freshness-reasons">
+      {freshness.reasons.map(r => (
+        <span class="freshness-reason">
+          {t(`freshness.reason.${r.code}`, lang, { detail: r.detail ?? '' })}
+          {r.detail && r.code !== 'curso-caducado' ? ` (${r.detail})` : ''}
+        </span>
+      ))}
+    </span>
+    {checkedAt && (
+      <span class="freshness-date">{t('freshness.checked', lang, { date: checkedAt })}</span>
+    )}
+  </div>
+)}
+
+<style>
+  .freshness {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-xs) var(--space-sm);
+    margin-bottom: var(--space-sm);
+    padding: var(--space-xs) var(--space-sm);
+    border-left: 3px solid currentColor;
+    border-radius: 2px;
+    font-size: 0.85rem;
+  }
+
+  .freshness-level {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.72rem;
+  }
+
+  .freshness-reasons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    color: var(--color-text-secondary);
+  }
+
+  .freshness-reason:not(:last-child)::after {
+    content: ' ·';
+  }
+
+  .freshness-date {
+    color: var(--color-text-muted);
+    font-size: 0.78rem;
+  }
+
+  .freshness-revisar,
+  .freshness-caducado {
+    color: #8f5511;
+    background: #fdf6ec;
+  }
+
+  .freshness-derogado,
+  .freshness-roto {
+    color: #a3272f;
+    background: #fdeeee;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .freshness-revisar,
+    .freshness-caducado {
+      color: #e0a95f;
+      background: #302614;
+    }
+
+    .freshness-derogado,
+    .freshness-roto {
+      color: #f0a0a0;
+      background: #331d1d;
+    }
+  }
+</style>

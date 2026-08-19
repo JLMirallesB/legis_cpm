@@ -1,0 +1,192 @@
+{
+  "id": "jefatura-departamento",
+  "slug": "jefatura-departamento",
+  "order": 13,
+  "short": {
+    "es": "Jefatura de departamento",
+    "va": "Direcció de departament"
+  },
+  "title": {
+    "es": "La dirección del departamento didáctico",
+    "va": "La direcció del departament didàctic"
+  },
+  "description": {
+    "es": "Quien dirige un departamento: cómo se nombra, qué coordina y cuándo cesa.",
+    "va": "Qui dirigix un departament: com es nomena, què coordina i quan cessa."
+  },
+  "terms": [
+    "direccion del departamento",
+    "jefatura de departamento",
+    "jefe de departamento",
+    "jefa de departamento",
+    "direccio del departament",
+    "cap de departament"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-57-2020",
+      "article": "art-32",
+      "hash": {
+        "es": "c4a51050",
+        "va": "35923cc6"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-33",
+      "hash": {
+        "es": "3faea334",
+        "va": "2cb1ed6f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-34",
+      "hash": {
+        "es": "0e91f024",
+        "va": "0933e92c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "article": "sec-7",
+      "hash": {
+        "es": "b2fc5ae4",
+        "va": "2ba7503d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-29",
+      "apartado": "3",
+      "hash": {
+        "es": "c974659f",
+        "va": "9fdab2c8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "a",
+      "hash": {
+        "es": "ca227417",
+        "va": "683c88ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "6.1.2.1.b",
+      "hash": {
+        "es": "02465fcb",
+        "va": "417672ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-35",
+      "apartado": "2",
+      "hash": {
+        "es": "d5561230",
+        "va": "95fd76d6"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-13",
+      "apartado": "2.c",
+      "hash": {
+        "es": "45a2cc94",
+        "va": "6bff2929"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "anexo-7",
+      "apartado": "2.10.4",
+      "hash": {
+        "es": "dc8275f1",
+        "va": "2cdf491b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "article": "sec-7",
+      "apartado": "7.2",
+      "hash": {
+        "es": "ebf56dc0",
+        "va": "4fa4876e"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-31#4",
+        "art-31#6"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "items": [
+        "anexo-2#equipo-directivo-del-centro"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    }
+  ],
+  "titleTerms": [
+    "direccion del departamento didactico",
+    "jefatura de departamento",
+    "direccion del departamento"
+  ],
+  "related": [
+    {
+      "slug": "departamentos",
+      "relation": "parte-de"
+    }
+  ]
+}

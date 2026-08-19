@@ -10,212 +10,373 @@
     "va": "Normativa sobre les sessions d'avaluació, funcions de l'equip docent en l'avaluació col·legiada, documents d'avaluació preceptius (actes, informes individualitzats), planificació de sessions i participació del pianista acompanyant."
   },
   "updatedAt": "2026-04-24",
-  "fragments": [
+  "refs": [
     {
-      "lawSlug": "ley-organica-2-2006",
-      "articleId": "art-91",
-      "excerpt": "b) La evaluación del proceso de aprendizaje del alumnado, así como la evaluación de los procesos de enseñanza. [...] 2. Los profesores realizarán las funciones expresadas en el apartado anterior bajo el principio de colaboración y trabajo en equipo."
-    },
-    {
-      "lawSlug": "real-decreto-1577-2006",
-      "articleId": "art-11",
-      "excerpt": "3. La evaluación será realizada por el conjunto de profesores del alumno coordinados por el profesor tutor, actuando dichos profesores de manera integrada a lo largo del proceso de evaluación y en la adopción de las decisiones resultantes de dicho proceso."
-    },
-    {
-      "lawSlug": "real-decreto-1577-2006",
-      "articleId": "art-15",
-      "excerpt": "Los documentos básicos de evaluación de las enseñanzas profesionales de música son: el expediente académico personal, la certificación académica personal, las actas de evaluación y los informes de evaluación individualizados."
-    },
-    {
-      "lawSlug": "decreto-158-2007",
-      "articleId": "art-15",
-      "excerpt": {
-        "es": "1. Los profesores evaluarán el aprendizaje de los alumnos, los procesos de enseñanza y su propia práctica docente. 2. La evaluación del aprendizaje de los alumnos será continua e integradora, aunque diferenciada según las distintas asignaturas del currículo.",
-        "va": "1. El professorat avaluarà l'aprenentatge de l'alumnat, els processos d'ensenyament i la seua pròpia pràctica docent. 2. L'avaluació de l'aprenentatge de l'alumnat serà contínua i integradora, encara que diferenciada segons les distintes assignatures del currículum."
+      "law": "ley-organica-2-2006",
+      "article": "art-91",
+      "apartado": "1.b",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "38165587",
+        "va": "38165587"
       }
     },
     {
-      "lawSlug": "decreto-158-2007",
-      "articleId": "art-16",
-      "excerpt": {
-        "es": "2. El profesor tutor tendrá la responsabilidad de coordinar tanto la evaluación, como la función de orientación del alumnado.",
-        "va": "2. El professor tutor tindrà la responsabilitat de coordinar tant l'avaluació, com la funció d'orientació de l'alumnat."
+      "law": "ley-organica-2-2006",
+      "article": "art-91",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "0e8ce9df",
+        "va": "0e8ce9df"
       }
     },
     {
-      "lawSlug": "decreto-158-2007",
-      "articleId": "art-26",
-      "excerpt": {
-        "es": "Son documentos de evaluación de las enseñanzas profesionales de música: el expediente académico personal, las actas de evaluación, el libro de calificaciones y los informes de evaluación individualizados.",
-        "va": "Són documents d'avaluació de les ensenyances professionals de música: l'expedient acadèmic personal, les actes d'avaluació, el llibre de qualificacions i els informes d'avaluació individualitzats."
+      "law": "real-decreto-1577-2006",
+      "article": "art-11",
+      "apartado": "3",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "e948f04d",
+        "va": "e948f04d"
       }
     },
     {
-      "lawSlug": "decreto-156-2007",
-      "articleId": "art-16",
-      "excerpt": {
-        "es": "1. Los profesores evaluarán el aprendizaje de los alumnos, los procesos de enseñanza y su propia práctica docente. 2. La evaluación del aprendizaje de los alumnos será continua e integradora, aunque diferenciada según las distintas asignaturas del currículo.",
-        "va": "1. El professorat avaluarà l'aprenentatge de l'alumnat, els processos d'ensenyament i la seua pròpia pràctica docent. 2. L'avaluació de l'aprenentatge de l'alumnat serà contínua i integradora, encara que diferenciada segons les distintes assignatures del currículum."
+      "law": "real-decreto-1577-2006",
+      "article": "art-15",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "cb8454f0",
+        "va": "cb8454f0"
       }
     },
     {
-      "lawSlug": "decreto-156-2007",
-      "articleId": "art-17",
-      "excerpt": {
-        "es": "2. El profesor tutor de un grupo de alumnos y alumnas tendrá la responsabilidad de realizar la orientación personal de los alumnos y alumnas y de coordinar la evaluación del alumnado y de los procesos de enseñanza y de aprendizaje.",
-        "va": "2. El professor tutor d'un grup d'alumnes tindrà la responsabilitat de realitzar l'orientació personal de l'alumnat i de coordinar l'avaluació de l'alumnat i dels processos d'ensenyament i d'aprenentatge."
+      "law": "decreto-158-2007",
+      "article": "art-15",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "539e0e05",
+        "va": "22a40255"
       }
     },
     {
-      "lawSlug": "decreto-156-2007",
-      "articleId": "art-27",
-      "excerpt": {
-        "es": "Son documentos de evaluación de las enseñanzas profesionales de danza: el expediente académico personal, las actas de evaluación, el libro de calificaciones y los informes de evaluación individualizados.",
-        "va": "Són documents d'avaluació de les ensenyances professionals de dansa: l'expedient acadèmic personal, les actes d'avaluació, el llibre de qualificacions i els informes d'avaluació individualitzats."
+      "law": "decreto-158-2007",
+      "article": "art-15",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "2b5b278b",
+        "va": "8c929b5f"
       }
     },
     {
-      "lawSlug": "decreto-159-2007",
-      "articleId": "art-14",
-      "excerpt": {
-        "es": "1. Los profesores evaluarán el aprendizaje de los alumnos, los procesos de enseñanza y su propia práctica docente. [...] 3. La evaluación del alumnado en las enseñanzas elementales de música se llevará a cabo teniendo en cuenta los objetivos educativos y los criterios de evaluación establecidos en el currículo.",
-        "va": "1. El professorat avaluarà l'aprenentatge de l'alumnat, els processos d'ensenyament i la seua pròpia pràctica docent. [...] 3. L'avaluació de l'alumnat en les ensenyances elementals de música es durà a terme tenint en compte els objectius educatius i els criteris d'avaluació establits en el currículum."
+      "law": "decreto-158-2007",
+      "article": "art-16",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4a81a924",
+        "va": "384657e0"
       }
     },
     {
-      "lawSlug": "decreto-159-2007",
-      "articleId": "art-24",
-      "excerpt": {
-        "es": "Son documentos de evaluación de las enseñanzas elementales de música, el expediente académico personal, las actas de evaluación, y los informes de evaluación individualizados.",
-        "va": "Són documents d'avaluació de les ensenyances elementals de música, l'expedient acadèmic personal, les actes d'avaluació, i els informes d'avaluació individualitzats."
+      "law": "decreto-158-2007",
+      "article": "art-26",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "fc8b3255",
+        "va": "248144cd"
       }
     },
     {
-      "lawSlug": "decreto-157-2007",
-      "articleId": "art-13",
-      "excerpt": {
-        "es": "1. Los profesores evaluarán el aprendizaje de los alumnos, los procesos de enseñanza y su propia práctica docente. [...] La evaluación será realizada por el conjunto de profesores del alumno coordinados por el profesor tutor, actuando dichos profesores de manera integrada a lo largo del proceso de evaluación y en la adopción de las decisiones resultantes de dicho proceso.",
-        "va": "1. El professorat avaluarà l'aprenentatge de l'alumnat, els processos d'ensenyament i la seua pròpia pràctica docent. [...] L'avaluació serà realitzada pel conjunt del professorat de l'alumne o alumna coordinats pel professor tutor, i els dits professors actuaran de manera integrada al llarg del procés d'avaluació i en l'adopció de les decisions resultants del dit procés."
+      "law": "decreto-156-2007",
+      "article": "art-16",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "539e0e05",
+        "va": "22a40255"
       }
     },
     {
-      "lawSlug": "decreto-157-2007",
-      "articleId": "art-14",
-      "excerpt": {
-        "es": "2. El profesor tutor tendrá la responsabilidad de coordinar tanto la evaluación, como la función de orientación del alumnado.",
-        "va": "2. El professor tutor tindrà la responsabilitat de coordinar tant l'avaluació, com la funció d'orientació de l'alumnat."
+      "law": "decreto-156-2007",
+      "article": "art-16",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "2b5b278b",
+        "va": "8c929b5f"
       }
     },
     {
-      "lawSlug": "decreto-157-2007",
-      "articleId": "art-23",
-      "excerpt": {
-        "es": "Son documentos de evaluación de las enseñanzas elementales de danza, el expediente académico personal, las actas de evaluación, y los informes de evaluación individualizados.",
-        "va": "Són documents d'avaluació de les ensenyances elementals de dansa, l'expedient acadèmic personal, les actes d'avaluació, i els informes d'avaluació individualitzats."
+      "law": "decreto-156-2007",
+      "article": "art-17",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4fb95e4c",
+        "va": "f65aa53e"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-11",
-      "excerpt": {
-        "es": "d) Establecer los criterios para organizar y coordinar los procesos de evaluación.\n\nj) Elaborar la planificación general de las sesiones de evaluación y el calendario de las pruebas de evaluación y pruebas extraordinarias.",
-        "va": "d) Establir els criteris per a organitzar i coordinar els processos d'avaluació.\n\nj) Elaborar la planificació general de les sessions d'avaluació i el calendari de les proves d'avaluació i proves extraordinàries."
+      "law": "decreto-156-2007",
+      "article": "art-27",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4addc9df",
+        "va": "7f5b2c8e"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-12",
-      "excerpt": {
-        "es": "b) Ordenar el régimen administrativo del conservatorio, de conformidad con las directrices de la dirección, los expedientes y actas del alumnado.\n\nc) Ejercer la secretaría de los órganos colegiados de gobierno del centro, establecer el plan de reuniones de los órganos mencionados, levantar acta de las sesiones y dar fe de los acuerdos, todo esto con el visto bueno de la dirección.",
-        "va": "b) Ordenar el règim administratiu del conservatori, de conformitat amb les directrius de la direcció, els expedients i les actes de l'alumnat.\n\nc) Exercir la secretaria dels òrgans col·legiats de govern del centre, establir el pla de reunions dels òrgans esmentats, alçar acta de les sessions i donar fe dels acords, tot amb el vistiplau de la direcció."
+      "law": "decreto-159-2007",
+      "article": "art-14",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "539e0e05",
+        "va": "22a40255"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-25",
-      "excerpt": {
-        "es": "1. Coordinar y presidir las reuniones del equipo docente y las sesiones de evaluación de su alumnado.\n\n7. Coordinar el proceso de evaluación continua del alumnado y adoptar, junto con el equipo docente, las decisiones adecuadas sobre la evaluación, promoción y titulación del alumnado, de conformidad con la normativa que sea aplicable.",
-        "va": "1. Coordinar i presidir les reunions de l'equip docent i les sessions d'avaluació del seu alumnat.\n\n7. Coordinar el procés d'avaluació contínua de l'alumnat i adoptar, junt amb l'equip docent, les decisions adients sobre l'avaluació, promoció i titulació de l'alumnat, de conformitat amb la normativa que siga aplicable."
+      "law": "decreto-159-2007",
+      "article": "art-14",
+      "apartado": "3",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "30a5546e",
+        "va": "8d6f208d"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-26",
-      "excerpt": {
-        "es": "b) Llevar a cabo de manera colegiada la evaluación del alumnado, de acuerdo con la normativa vigente y con el proyecto educativo del centro, y adoptar las decisiones que correspondan en materia de promoción y titulación.",
-        "va": "b) Realitzar de manera col·legiada l'avaluació de l'alumnat, d'acord amb la normativa vigent i amb el projecte educatiu del centre i adoptar les decisions que corresponguen en matèria de promoció i titulació."
+      "law": "decreto-159-2007",
+      "article": "art-24",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "7ac76f8d",
+        "va": "2aafb546"
       }
     },
     {
-      "lawSlug": "resolucion-inicio-curso-2025-2026",
-      "articleId": "anexo-6-3",
-      "excerpt": {
-        "es": "1. El pianista/clavecinista acompañante formará parte del equipo docente del alumnado asignado. Como tal participará activamente en todas las decisiones de la evaluación del proceso de enseñanza aprendizaje, teniendo voz y voto en la evaluación, de forma que su participación puede suponer un porcentaje de calificación de la asignatura de especialidad (instrumento o voz) de cada alumno, de acuerdo con la regulación de la figura del pianista/clavecinista acompañante recogida en el PEC del centro.",
-        "va": "1. El pianista/clavecinista acompanyant formarà part de l'equip docent de l'alumnat assignat. Com a tal participarà activament en totes les decisions de l'avaluació del procés d'ensenyament aprenentatge, tenint veu i vot en l'avaluació, de manera que la seua participació pot suposar un percentatge de qualificació de l'assignatura d'especialitat (instrument o veu) de cada alumne, d'acord amb la regulació de la figura del pianista/clavecinista acompanyant recollida en el PEC del centre."
+      "law": "decreto-157-2007",
+      "article": "art-13",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "539e0e05",
+        "va": "22a40255"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-30",
-      "excerpt": {
-        "es": "f) Elaborar, realizar y evaluar las pruebas de acceso para el alumnado de nuevo ingreso, así como, si es el caso, las pruebas extraordinarias para el alumnado pendiente de evaluación.\n\ng) Intervenir, en primera instancia, en los procesos de reclamación de calificaciones parciales o finales estimadas incorrectas, derivadas del proceso de evaluación que el alumnado formule al departamento, y dictar los informes pertinentes.",
-        "va": "f) Elaborar, realitzar i avaluar les proves d'accés per a l'alumnat de nou ingrés, així com, si és el cas, les proves extraordinàries per a l'alumnat pendent d'avaluació.\n\ng) Intervenir, en primera instància, en els processos de reclamació de qualificacions parcials o finals estimades incorrectes, derivades del procés d'avaluació que l'alumnat formule al departament, i dictar els informes pertinents."
+      "law": "decreto-157-2007",
+      "article": "art-13",
+      "apartado": "4",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "84332992",
+        "va": "ed583372"
       }
     },
     {
-      "lawSlug": "decreto-57-2020",
-      "articleId": "art-36",
-      "excerpt": {
-        "es": "h) Preparar junto con la jefatura de estudios, y proponer posteriormente al claustro, la planificación general de las sesiones de evaluación, el calendario de exámenes o pruebas extraordinarias y las directrices para llevar a cabo la acción tutorial.",
-        "va": "h) Preparar junt amb la direcció d'estudis, i proposar posteriorment al claustre, la planificació general de les sessions d'avaluació, el calendari d'exàmens o proves extraordinàries i les directrius per a dur a terme l'acció tutorial."
+      "law": "decreto-157-2007",
+      "article": "art-14",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4a81a924",
+        "va": "c6ed4218"
       }
     },
     {
-      "lawSlug": "orden-32-2011",
-      "articleId": "art-3",
-      "excerpt": {
-        "es": "El alumnado de los centros docentes que imparten las enseñanzas a que se refiere el artículo 1 de esta orden tiene derecho a que su dedicación, esfuerzo y rendimiento académico sean valorados y reconocidos con objetividad.",
-        "va": "L'alumnat dels centres docents que impartixen els ensenyaments a què es referix l'article 1 d'esta orde, té dret que la seua dedicació, esforç i rendiment acadèmic siguen valorats i reconeguts amb objectivitat."
+      "law": "decreto-157-2007",
+      "article": "art-23",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "a09035d0",
+        "va": "ce508024"
       }
     },
     {
-      "lawSlug": "orden-32-2011",
-      "articleId": "art-4",
-      "excerpt": {
-        "es": "Los tutores y tutoras, tras cada sesión de evaluación y cuando existan circunstancias que lo aconsejen, informarán al alumnado, y en su caso, a sus representantes legales, sobre el resultado del proceso de aprendizaje seguido.",
-        "va": "Els tutors i tutores, després de cada sessió d'avaluació i quan hi haja circumstàncies que ho aconsellen, informaran l'alumnat, i si és el cas, els seus representants legals, sobre el resultat del procés d'aprenentatge seguit."
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "d",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "29bbe0e9",
+        "va": "26a98f8b"
       }
     },
     {
-      "lawSlug": "orden-32-2011",
-      "articleId": "art-13"
-    },
-    {
-      "lawSlug": "orden-32-2011",
-      "articleId": "art-14"
-    },
-    {
-      "lawSlug": "resolucion-inicio-curso-2025-2026",
-      "articleId": "anexo-7-1",
-      "excerpt": {
-        "es": "7.1.1 Con el objetivo de mejorar la planificación del curso 2026-2027, la evaluación final se realizará antes de la finalización del curso escolar.",
-        "va": "7.1.1 Amb l'objectiu de millorar la planificació del curs 2026-2027, l'avaluació final es realitzarà abans de la finalització del curs escolar."
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "j",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "304ed961",
+        "va": "01547b15"
       }
     },
     {
-      "lawSlug": "resolucion-inicio-curso-2025-2026",
-      "articleId": "anexo-8-2",
-      "excerpt": {
-        "es": "El procedimiento para la reclamación de calificaciones obtenidas y de las decisiones sobre promoción, así como a las actuaciones previas referentes a la solicitud de aclaraciones y revisiones está establecido en los capítulos I y V de la Orden 32/2011.",
-        "va": "El procediment per a la reclamació de qualificacions obtingudes i de les decisions sobre promoció, així com les actuacions prèvies referents a la sol·licitud d'aclariments i revisions està establit en els capítols I i V de l'Ordre 32/2011."
+      "law": "decreto-57-2020",
+      "article": "art-12",
+      "apartado": "b",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "d2aedcf5",
+        "va": "88427b44"
       }
     },
     {
-      "lawSlug": "resolucion-inicio-curso-2025-2026",
-      "articleId": "anexo-8-3",
-      "excerpt": {
-        "es": "La asistencia a clase regularmente es una condición necesaria para el derecho del alumnado a la evaluación continua.",
-        "va": "L'assistència a classe regularment és una condició necessària per al dret de l'alumnat a l'avaluació contínua."
+      "law": "decreto-57-2020",
+      "article": "art-12",
+      "apartado": "c",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "9624d028",
+        "va": "ce4ec22e"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "6ce74eee",
+        "va": "e9db94a2"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "7",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "750c0d2e",
+        "va": "470797d0"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "apartado": "2.b",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "fe3f24d0",
+        "va": "8a764edf"
+      }
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-6-3",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "19ebeb09",
+        "va": "d761c6bd"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "f",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "81bc7dac",
+        "va": "34a7c07d"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-30",
+      "apartado": "g",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "d290a0ae",
+        "va": "bc77b610"
+      }
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "h",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "ff92e6f1",
+        "va": "979f5794"
+      }
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-3",
+      "apartado": "1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "841599b9",
+        "va": "781f12c2"
+      }
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-3",
+      "apartado": "4",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "08ee815f",
+        "va": "7b4d4a82"
+      }
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-13",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4fb17805",
+        "va": "699ca868"
+      }
+    },
+    {
+      "law": "orden-32-2011",
+      "article": "art-14",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "485c438f",
+        "va": "7dedc00f"
+      }
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-7-1",
+      "apartado": "7.1.1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "b6e0b1d4",
+        "va": "ffab1e12"
+      }
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-8-2",
+      "apartado": "2",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "dd42aaec",
+        "va": "fed82922"
+      }
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-8-3",
+      "apartado": "8.3.2.1",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "e24b2ec3",
+        "va": "7d6f6aa1"
       }
     }
   ]

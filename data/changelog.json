@@ -1,5 +1,437 @@
 [
   {
+    "version": "2.0.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Dos apartados nuevos que cambian para qué sirve este sitio. Hasta ahora era un lector de leyes: se entraba sabiendo qué norma buscar. Ahora se puede entrar por la pregunta que uno tiene de verdad —qué debe contener el proyecto educativo, qué le toca hacer a la jefatura de estudios— y el sitio reúne lo que dicen todas las normas sobre ello. Ocho fichas de documentos de centro y catorce de órganos y cargos, con 801 referencias en total."
+        },
+        {
+          "type": "nuevo",
+          "description": "Ninguna de esas fichas guarda texto de las leyes: guarda la dirección de cada apartado y lo resuelve al compilar. Por eso una cita no puede quedarse anticuada en silencio, y por eso cada ficha avisa cuando una norma posterior toca algo que cita. El mismo mecanismo se aplicó a los cuadernos, que sí guardaban texto copiado."
+        },
+        {
+          "type": "corregido",
+          "description": "La construcción de todo esto destapó y arregló defectos que llevaban tiempo en los datos: 55 artículos con los apartados pegados en un solo párrafo, dos citas que apuntaban a texto que el repositorio ya no tenía, y cuatro artículos cuya versión valenciana estaba truncada o contaminada con texto castellano, restaurados desde el PDF del DOGV."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Dos apartats nous que canvien per a què servix aquest lloc. Fins ara era un lector de lleis: s'hi entrava sabent quina norma buscar. Ara es pot entrar per la pregunta que un té de veritat —què ha de contindre el projecte educatiu, què li toca fer a la prefectura d'estudis— i el lloc reunix el que diuen totes les normes sobre això. Huit fitxes de documents de centre i catorze d'òrgans i càrrecs, amb 801 referències en total."
+        },
+        {
+          "type": "nou",
+          "description": "Cap d'aquestes fitxes guarda text de les lleis: guarda l'adreça de cada apartat i el resol en compilar. Per això una cita no pot quedar-se antiquada en silenci, i per això cada fitxa avisa quan una norma posterior toca alguna cosa que cita. El mateix mecanisme es va aplicar als quaderns, que sí que guardaven text copiat."
+        },
+        {
+          "type": "corregit",
+          "description": "La construcció de tot això va destapar i arreglar defectes que portaven temps en les dades: 55 articles amb els apartats apegats en un sol paràgraf, dues cites que apuntaven a text que el repositori ja no tenia, i quatre articles la versió valenciana dels quals estava truncada o contaminada amb text castellà, restaurats des del PDF del DOGV."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.19.1",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "Arreglados los cuatro artículos que la validación señalaba por tener distinto número de apartados en cada idioma. Al artículo 21 del Decreto 156/2007 y al 20 del Decreto 158/2007 —la correspondencia con la educación secundaria— les faltaban en valenciano tres cuartas partes del texto: se han restaurado desde el PDF del DOGV. El artículo 8 del Decreto 156/2007 tenía justo lo contrario, diez mil caracteres de tablas en castellano pegados dentro del fichero valenciano."
+        },
+        {
+          "type": "corregido",
+          "description": "Las funciones de la jefatura de estudios del Decreto 57/2020 se leían en valenciano hasta la letra n: de la o a la v estaban pegadas en un solo párrafo. El reparador de apartados no las separaba porque la serie de letras salta la eñe y él esperaba encontrarla. Ahora el artículo tiene sus veintidós letras en los dos idiomas, y su título valenciano ya no se traga la primera frase."
+        },
+        {
+          "type": "actualizado",
+          "description": "El aviso de frescura hizo su trabajo: al corregir esos artículos, cuatro citas que los usaban se marcaron solas para revisión, entre ellas dos de un cuaderno que llevaba tiempo sirviendo en valenciano un artículo truncado sin que nadie pudiera saberlo."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregit",
+          "description": "Arreglats els quatre articles que la validació assenyalava per tindre diferent nombre d'apartats en cada idioma. A l'article 21 del Decret 156/2007 i al 20 del Decret 158/2007 —la correspondència amb l'educació secundària— els faltaven en valencià tres quartes parts del text: s'han restaurat des del PDF del DOGV. L'article 8 del Decret 156/2007 tenia just el contrari, deu mil caràcters de taules en castellà apegats dins del fitxer valencià."
+        },
+        {
+          "type": "corregit",
+          "description": "Les funcions de la direcció d'estudis del Decret 57/2020 es llegien en valencià fins a la lletra n: de la o a la v estaven apegades en un sol paràgraf. El reparador d'apartats no les separava perquè la sèrie de lletres salta la enya i ell esperava trobar-la. Ara l'article té les seues vint-i-dues lletres en els dos idiomes."
+        },
+        {
+          "type": "actualitzat",
+          "description": "L'avís de frescor va fer la seua faena: en corregir aquells articles, quatre cites que els feien servir es van marcar soles per a revisió, entre elles dues d'un quadern que portava temps servint en valencià un article truncat sense que ningú poguera saber-ho."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.19.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "actualizado",
+          "description": "Las catorce fichas de órganos y cargos pasan de 263 a 524 referencias tras revisar a mano los 1.392 candidatos, uno por uno. Lo que faltaba era casi todo del mismo tipo: lo que un cargo hace en relación con otro. La dirección pasa de 62 a 99 referencias con la selección, el nombramiento y el cese que regula la LOE; el Consejo Escolar de 24 a 77 con todo el proceso electoral y las reclamaciones disciplinarias; el claustro de 19 a 44; la jefatura de estudios de 8 a 35."
+        },
+        {
+          "type": "corregido",
+          "description": "Aviso nuevo en la validación: un artículo con muy distinto número de apartados en castellano y en valenciano delata una extracción incompleta. Ha encontrado cuatro, entre ellos el artículo 11 del Decreto 57/2020 —las funciones de la jefatura de estudios—, que tiene veintitrés apartados en castellano y solo catorce en valenciano."
+        }
+      ],
+      "va": [
+        {
+          "type": "actualitzat",
+          "description": "Les catorze fitxes d'òrgans i càrrecs passen de 263 a 524 referències després de revisar a mà els 1.392 candidats, un per un. El que faltava era quasi tot del mateix tipus: el que un càrrec fa en relació amb un altre. La direcció passa de 62 a 99 referències amb la selecció, el nomenament i el cessament que regula la LOE; el Consell Escolar de 24 a 77 amb tot el procés electoral i les reclamacions disciplinàries; el claustre de 19 a 44; la prefectura d'estudis de 8 a 35."
+        },
+        {
+          "type": "corregit",
+          "description": "Avís nou en la validació: un article amb molt diferent nombre d'apartats en castellà i en valencià delata una extracció incompleta. N'ha trobat quatre, entre ells l'article 11 del Decret 57/2020 —les funcions de la prefectura d'estudis—, que té vint-i-tres apartats en castellà i només catorze en valencià."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.18.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Apartado nuevo: Órganos y cargos. Catorce fichas con lo que la normativa encarga a cada figura de un conservatorio —dirección, vicedirección, jefatura de estudios, secretaría, vicesecretaría, equipo directivo, Consejo Escolar, claustro, comisión de coordinación pedagógica, tutoría, equipos docentes, departamentos, jefatura de departamento y las coordinaciones—, con el mismo motor que las fichas de documentos: el texto sale de la ley al compilar y avisa si cambia."
+        },
+        {
+          "type": "nuevo",
+          "description": "Las ocho figuras de coordinación tienen página propia dentro de su ficha. Una de ellas, la de orientación educativa, académica y profesional, no está en ningún decreto: la crean las instrucciones de inicio de curso, que le dan ocho funciones. Y la de igualdad y convivencia ha pasado a llamarse de bienestar y protección."
+        },
+        {
+          "type": "actualizado",
+          "description": "La criba de un cargo no puede ser «lo nombra» sino «le atribuye algo»: la dirección aparece más de trescientas veces en el corpus, casi siempre como firmante o destinataria. Cada ficha separa lo que le encarga una función de la mención de trámite, y esas menciones quedan agrupadas por norma con su recuento, para que la ausencia siga siendo comprobable sin llenar la página."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Apartat nou: Òrgans i càrrecs. Catorze fitxes amb el que la normativa encarrega a cada figura d'un conservatori —direcció, vicedirecció, prefectura d'estudis, secretaria, vicesecretaria, equip directiu, Consell Escolar, claustre, comissió de coordinació pedagògica, tutoria, equips docents, departaments, direcció de departament i les coordinacions—, amb el mateix motor que les fitxes de documents: el text ix de la llei en compilar i avisa si canvia."
+        },
+        {
+          "type": "nou",
+          "description": "Les huit figures de coordinació tenen pàgina pròpia dins de la seua fitxa. Una d'elles, la d'orientació educativa, acadèmica i professional, no està en cap decret: la creen les instruccions d'inici de curs, que li donen huit funcions. I la d'igualtat i convivència ha passat a dir-se de benestar i protecció."
+        },
+        {
+          "type": "actualitzat",
+          "description": "El garbellat d'un càrrec no pot ser «l'anomena» sinó «li atribuïx alguna cosa»: la direcció apareix més de tres-centes vegades en el corpus, quasi sempre com a signant o destinatària. Cada fitxa separa el que li encarrega una funció de la menció de tràmit, i eixes mencions queden agrupades per norma amb el seu recompte."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.17.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Las fichas dicen ahora cómo encajan unas con otras. Cada una abre con un bloque que enseña de qué documento forma parte, qué documentos contiene y de cuál sale: la memoria sale de la PGA, la PGA contiene las programaciones didácticas, el plan de convivencia y el Plan de Mejora, y el proyecto educativo contiene el plan de convivencia y el de acción tutorial. La relación se declara una sola vez, en el documento pequeño, y se lee en las dos direcciones."
+        },
+        {
+          "type": "nuevo",
+          "description": "Las partes con nombre propio tienen página propia sin duplicar nada. La concreción del currículo —el antiguo proyecto curricular— y la autoevaluación del centro son partes del proyecto educativo y del Plan de Mejora respectivamente: cada una tiene su página, que no es más que su ficha recortada a las referencias de esa parte. Un solo dato, dos ventanas, y quien busque «proyecto curricular» llega a algún sitio en vez de a un vacío."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Les fitxes diuen ara com encaixen les unes amb les altres. Cadascuna obri amb un bloc que mostra de quin document forma part, quins documents conté i de quin ix: la memòria ix de la PGA, la PGA conté les programacions didàctiques, el pla de convivència i el Pla de Millora, i el projecte educatiu conté el pla de convivència i el d'acció tutorial. La relació es declara una sola vegada, en el document xicotet, i es llig en les dues direccions."
+        },
+        {
+          "type": "nou",
+          "description": "Les parts amb nom propi tenen pàgina pròpia sense duplicar res. La concreció del currículum —l'antic projecte curricular— i l'autoavaluació del centre són parts del projecte educatiu i del Pla de Millora respectivament: cadascuna té la seua pàgina, que no és més que la seua fitxa retallada a les referències d'aquella part. Una sola dada, dues finestres, i qui busque «projecte curricular» arriba a algun lloc en compte d'a un buit."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.16.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "actualizado",
+          "description": "La ficha del Plan de Mejora absorbe la autoevaluación, que no es un documento aparte sino su primera fase: tanto la guía de Conselleria como las instrucciones estructuran el plan en autoevaluación, desarrollo y evaluación. Pasa de 27 a 37 referencias, con el artículo 56 del Decreto 57/2020 entero —la comisión que hace la autoevaluación, su sitio en la PGA y adónde van sus conclusiones— y lo que cada curso se manda medir."
+        },
+        {
+          "type": "actualizado",
+          "description": "Conviene saberlo al leerla: las propias instrucciones se contradicen sobre qué contiene a qué. Su apartado 4.1 dice que el plan de mejora se incluye dentro del plan de autoevaluación, y su apartado 4.2 dice que el Plan de Mejora se estructura en tres partes, la primera de ellas la autoevaluación. La ficha sigue el segundo, que es el que desarrollan la guía y los modelos de ficha."
+        },
+        {
+          "type": "actualizado",
+          "description": "La ficha del proyecto educativo incorpora la concreción del currículo, que tampoco es documento aparte: el artículo 48.1 del Decreto 57/2020 dice que los equipos docentes concretan el currículo «por medio de la elaboración del proyecto educativo». Pasa de 41 a 50 referencias, con los artículos que aún hablan de «proyecto curricular» —la comisión de coordinación pedagógica lo redacta, el claustro lo aprueba— y lo que cada decreto de currículo manda adecuar."
+        }
+      ],
+      "va": [
+        {
+          "type": "actualitzat",
+          "description": "La fitxa del Pla de Millora absorbix l'autoavaluació, que no és un document a banda sinó la seua primera fase: tant la guia de Conselleria com les instruccions estructuren el pla en autoavaluació, desenvolupament i avaluació. Passa de 27 a 37 referències, amb l'article 56 del Decret 57/2020 sencer —la comissió que fa l'autoavaluació, el seu lloc en la PGA i on van les seues conclusions— i el que cada curs es mana mesurar."
+        },
+        {
+          "type": "actualitzat",
+          "description": "Convé saber-ho en llegir-la: les mateixes instruccions es contradiuen sobre què conté què. El seu apartat 4.1 diu que el pla de millora s'inclou dins del pla d'autoavaluació, i el seu apartat 4.2 diu que el Pla de Millora s'estructura en tres parts, la primera l'autoavaluació. La fitxa seguix el segon, que és el que desenvolupen la guia i els models de fitxa."
+        },
+        {
+          "type": "actualitzat",
+          "description": "La fitxa del projecte educatiu incorpora la concreció del currículum, que tampoc és document a banda: l'article 48.1 del Decret 57/2020 diu que els equips docents concreten el currículum «per mitjà de l'elaboració del projecte educatiu». Passa de 41 a 50 referències, amb els articles que encara parlen de «projecte curricular» —la comissió de coordinació pedagògica el redacta, el claustre l'aprova— i el que cada decret de currículum mana adequar."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.15.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Ficha de las programaciones didácticas, la primera pensada para el profesorado y no para el equipo directivo: 31 referencias de 10 normas. En el centro está el artículo 52.5.b del Decreto 57/2020, que enumera los trece apartados que toda programación debe recoger, desde los objetivos y los criterios de evaluación hasta las actividades de recuperación y los indicadores."
+        },
+        {
+          "type": "nuevo",
+          "description": "La ficha reúne también lo que no suele buscarse junto: cuándo se elaboran (al acabar el curso anterior, artículo 31.1), quién las aprueba, la memoria con que se evalúan, y sus efectos frente al alumnado — la publicidad de contenidos mínimos y criterios, y las dos causas por las que se puede reclamar una calificación según la Orden 32/2011."
+        },
+        {
+          "type": "actualizado",
+          "description": "Como la memoria final, no tiene bloque estatal: la LOE no regula este documento para las enseñanzas de música y danza. Son ocho las fichas publicadas."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Fitxa de les programacions didàctiques, la primera pensada per al professorat i no per a l'equip directiu: 31 referències de 10 normes. Al centre hi ha l'article 52.5.b del Decret 57/2020, que enumera els tretze apartats que tota programació ha d'arreplegar, des dels objectius i els criteris d'avaluació fins a les activitats de recuperació i els indicadors."
+        },
+        {
+          "type": "nou",
+          "description": "La fitxa reunix també el que no se sol buscar junt: quan s'elaboren (en acabar el curs anterior, article 31.1), qui les aprova, la memòria amb què s'avaluen, i els seus efectes davant l'alumnat — la publicitat de continguts mínims i criteris, i les dues causes per les quals es pot reclamar una qualificació segons l'Ordre 32/2011."
+        },
+        {
+          "type": "actualitzat",
+          "description": "Com la memòria final, no té bloc estatal: la LOE no regula aquest document per als ensenyaments de música i dansa. Són huit les fitxes publicades."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.14.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Tres fichas más, y con ellas el ciclo anual completo: programación general anual, memoria final de curso y Plan de Mejora. La PGA reúne 32 referencias de 9 normas —desde el artículo 125 de la LOE y el 52 del Decreto 57/2020 hasta los plazos concretos de registro de este curso—; la memoria, 12; y el Plan de Mejora, 27, con la guía de Conselleria entera como manual del documento."
+        },
+        {
+          "type": "nuevo",
+          "description": "La memoria final no tiene bloque estatal: es un documento enteramente autonómico. Sale de evaluar la PGA, y la ficha lo enseña encadenando el artículo 52.6 del Decreto 57/2020 con el apartado 4.3 de las instrucciones de cada curso, que fija quién la aprueba y hasta qué día hay de plazo."
+        },
+        {
+          "type": "actualizado",
+          "description": "El cuaderno «Plan de Mejora» se retira: sus doce citas están en la ficha, junto a la guía de Conselleria y a lo que añaden las instrucciones de este curso. Nada se pierde y deja de haber dos sitios donde mirar lo mismo."
+        },
+        {
+          "type": "corregido",
+          "description": "Los apartados numerados con ordinales escritos se anclaban por la palabra, y la palabra cambia con el idioma: «Cuarta» en castellano es «Quarta» en valenciano, así que una referencia resolvía en un idioma y fallaba en el otro. Ahora el ordinal se normaliza a su número y la referencia vale para los dos."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Tres fitxes més, i amb elles el cicle anual complet: programació general anual, memòria final de curs i Pla de Millora. La PGA reunix 32 referències de 9 normes —des de l'article 125 de la LOE i el 52 del Decret 57/2020 fins als terminis concrets de registre d'aquest curs—; la memòria, 12; i el Pla de Millora, 27, amb la guia de Conselleria sencera com a manual del document."
+        },
+        {
+          "type": "nou",
+          "description": "La memòria final no té bloc estatal: és un document enterament autonòmic. Ix d'avaluar la PGA, i la fitxa ho mostra encadenant l'article 52.6 del Decret 57/2020 amb l'apartat 4.3 de les instruccions de cada curs, que fixa qui l'aprova i fins a quin dia hi ha de termini."
+        },
+        {
+          "type": "actualitzat",
+          "description": "El quadern «Pla de Millora» es retira: les seues dotze cites estan en la fitxa, al costat de la guia de Conselleria i del que hi afigen les instruccions d'aquest curs. No es perd res i deixa d'haver-hi dos llocs on mirar el mateix."
+        },
+        {
+          "type": "corregit",
+          "description": "Els apartats numerats amb ordinals escrits s'ancoraven per la paraula, i la paraula canvia amb l'idioma: «Cuarta» en castellà és «Quarta» en valencià, així que una referència resolia en un idioma i fallava en l'altre. Ara l'ordinal es normalitza al seu número i la referència val per als dos."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.13.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Dos fichas más de documentos de centro: el plan de acción tutorial y el plan de convivencia. Son documentos distintos y apenas se pisan: de los 59 apartados que hablan de uno o de otro, solo 3 hablan de los dos, y son enumeraciones de pasada. El decreto de convivencia les dedica un artículo a cada uno, el 18 y el 19."
+        },
+        {
+          "type": "nuevo",
+          "description": "La ficha del plan de acción tutorial recoge el nombre que usa la normativa valenciana de conservatorios, plan de orientación y acción tutorial, y reúne lo que dicen los cuatro decretos de currículo sobre la tutoría junto a los seis apartados del Decreto 57/2020 que reparten quién hace qué. No tiene bloque estatal: la LOE no regula este documento."
+        },
+        {
+          "type": "corregido",
+          "description": "El lector de apartados descartaba el texto que no empieza por un marcador numerado o con letra. Eran 952 nodos de 2212 —el 43 % del corpus— invisibles para la criba de las fichas, entre ellos el artículo que regula el plan de acción tutorial. Al arreglarlo aparecieron referencias que faltaban en las fichas del proyecto educativo y de las normas de organización y funcionamiento, entre ellas la resolución anual de coordinación horaria de este curso."
+        },
+        {
+          "type": "actualizado",
+          "description": "Una referencia puede arrastrar ahora sus sub-apartados. Sirve para citar de una vez una sección entera de las instrucciones de inicio de curso, como la que desarrolla el plan de acción tutorial, sin tener que enumerar sus once letras."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Dues fitxes més de documents de centre: el pla d'acció tutorial i el pla de convivència. Són documents distints i a penes es trepitgen: dels 59 apartats que parlen d'un o de l'altre, només 3 parlen dels dos, i són enumeracions de passada. El decret de convivència els dedica un article a cadascun, el 18 i el 19."
+        },
+        {
+          "type": "nou",
+          "description": "La fitxa del pla d'acció tutorial arreplega el nom que usa la normativa valenciana de conservatoris, pla d'orientació i acció tutorial, i reunix el que diuen els quatre decrets de currículum sobre la tutoria al costat dels sis apartats del Decret 57/2020 que reparteixen qui fa què. No té bloc estatal: la LOE no regula aquest document."
+        },
+        {
+          "type": "corregit",
+          "description": "El lector d'apartats descartava el text que no comença per un marcador numerat o amb lletra. Eren 952 nodes de 2212 —el 43 % del corpus— invisibles per al garbellat de les fitxes, entre ells l'article que regula el pla d'acció tutorial. En arreglar-ho van aparéixer referències que faltaven en les fitxes del projecte educatiu i de les normes d'organització i funcionament, entre elles la resolució anual de coordinació horària d'aquest curs."
+        },
+        {
+          "type": "actualitzat",
+          "description": "Una referència pot arrossegar ara els seus subapartats. Servix per a citar d'una vegada una secció sencera de les instruccions d'inici de curs, com la que desenvolupa el pla d'acció tutorial, sense haver d'enumerar les seues onze lletres."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.12.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Segunda ficha de documentos de centro: las normas de organización y funcionamiento. El documento ha cambiado de nombre con los años —la normativa antigua lo llama reglamento de régimen interior o interno (RRI) y la reciente, normas de organización y funcionamiento (NOF)—, así que la ficha busca por las dos denominaciones y reúne 28 referencias de 6 normas."
+        },
+        {
+          "type": "nuevo",
+          "description": "La ficha deja ver algo que no es evidente: el Decreto 57/2020, que es el reglamento orgánico de los conservatorios, no dedica ningún artículo a este documento y solo lo nombra de pasada como parte del plan de centro. Quien fija hoy su contenido es el artículo 124 de la LOE y, sobre todo, el Decreto 193/2025 de convivencia, que le encarga concretar desde el procedimiento conciliador hasta los límites de lo que puede exigirse sobre el uniforme escolar."
+        },
+        {
+          "type": "corregido",
+          "description": "El Decreto 193/2025 era la única norma cuyo nombre corto no incluía el número; ahora sigue la convención del resto y se identifica como «D 193/2025» en el catálogo, la búsqueda y las fichas."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Segona fitxa de documents de centre: les normes d'organització i funcionament. El document ha canviat de nom amb els anys —la normativa antiga l'anomena reglament de règim interior o intern (RRI) i la recent, normes d'organització i funcionament (NOF)—, així que la fitxa busca per les dues denominacions i reunix 28 referències de 6 normes."
+        },
+        {
+          "type": "nou",
+          "description": "La fitxa deixa veure una cosa que no és evident: el Decret 57/2020, que és el reglament orgànic dels conservatoris, no dedica cap article a aquest document i només l'anomena de passada com a part del pla de centre. Qui en fixa hui el contingut és l'article 124 de la LOE i, sobretot, el Decret 193/2025 de convivència, que li encarrega concretar des del procediment conciliador fins als límits del que es pot exigir sobre l'uniforme escolar."
+        },
+        {
+          "type": "corregit",
+          "description": "El Decret 193/2025 era l'única norma el nom curt de la qual no incloïa el número; ara seguix la convenció de la resta i s'identifica com «D 193/2025» en el catàleg, la cerca i les fitxes."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.11.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Apartado nuevo: Documentos de centro. Una ficha por cada documento que un conservatorio tiene que elaborar, con todo lo que la normativa dice sobre él reunido en un sitio. Estrena la ficha del Proyecto Educativo de Centro, con 40 referencias sacadas de 10 normas: desde el artículo 121 de la LOE y el artículo 50 del Decreto 57/2020 —qué debe abordar el PEC de un conservatorio— hasta lo que le añaden la normativa de inclusión, la de convivencia y las instrucciones de cada curso."
+        },
+        {
+          "type": "nuevo",
+          "description": "La ficha se ordena sola en cuatro bloques: marco estatal, normativa autonómica, este curso y cursos anteriores. Lo que solo vale un curso se separa por su fecha de caducidad, así que el 1 de septiembre las instrucciones del curso pasado caen al histórico plegado sin que nadie tenga que tocar nada, y las del curso nuevo ocupan su sitio."
+        },
+        {
+          "type": "nuevo",
+          "description": "El texto de cada referencia sale de la ley al compilar, nunca copiado, con el mismo aviso de frescura que los cuadernos: si una norma posterior toca un artículo citado en la ficha, la ficha lo dice."
+        },
+        {
+          "type": "actualizado",
+          "description": "Ámbito de esta primera versión: conservatorios profesionales de música y danza. Cada ficha cierra con un desplegable de lo que se ha dejado fuera y por qué —lo de escuelas de música, las menciones de pasada, las leyes que solo modifican otras ya citadas—, con un fragmento de cada texto descartado. La ausencia de una norma es así una decisión que se puede leer y discutir, no un olvido."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Apartat nou: Documents de centre. Una fitxa per cada document que un conservatori ha d'elaborar, amb tot el que la normativa diu sobre ell reunit en un lloc. Estrena la fitxa del Projecte Educatiu de Centre, amb 40 referències tretes de 10 normes: des de l'article 121 de la LOE i l'article 50 del Decret 57/2020 —què ha d'abordar el PEC d'un conservatori— fins al que hi afigen la normativa d'inclusió, la de convivència i les instruccions de cada curs."
+        },
+        {
+          "type": "nou",
+          "description": "La fitxa s'ordena sola en quatre blocs: marc estatal, normativa autonòmica, aquest curs i cursos anteriors. El que només val un curs se separa per la seua data de caducitat, així que l'1 de setembre les instruccions del curs passat cauen a l'històric plegat sense que ningú haja de tocar res, i les del curs nou ocupen el seu lloc."
+        },
+        {
+          "type": "nou",
+          "description": "El text de cada referència ix de la llei en compilar, mai copiat, amb el mateix avís de frescor que els quaderns: si una norma posterior toca un article citat en la fitxa, la fitxa ho diu."
+        },
+        {
+          "type": "actualitzat",
+          "description": "Àmbit d'aquesta primera versió: conservatoris professionals de música i dansa. Cada fitxa tanca amb un desplegable del que s'ha deixat fora i per què —el d'escoles de música, les mencions de passada, les lleis que només en modifiquen unes altres ja citades—, amb un fragment de cada text descartat. L'absència d'una norma és així una decisió que es pot llegir i discutir, no un oblit."
+        }
+      ]
+    }
+  },
+  {
+    "version": "1.10.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Los cuadernos dejan de guardar el texto copiado de la ley. Ahora cada cita es una referencia a un apartado concreto —artículo 121, apartado 2; artículo 127, letra k— y el texto se resuelve desde la ley al compilar el sitio. Consecuencia práctica: una cita no puede quedarse anticuada en silencio. Si la ley cambia, cambia lo que se lee en el cuaderno."
+        },
+        {
+          "type": "nuevo",
+          "description": "Aviso de frescura en cada cita. Cuando el texto citado ha cambiado desde la última revisión, cuando una norma posterior toca ese artículo, cuando la ley queda derogada o cuando vence el curso de una norma anual, la cita lo dice encima del texto. Nada de esto se escribe a mano: sale de comparar la referencia con la ley. Las citas que están al día no muestran nada."
+        },
+        {
+          "type": "nuevo",
+          "description": "El cuaderno personal del navegador también avisa. Los fragmentos que guardaste hace meses se comparan con la fecha en que se modificó por última vez ese artículo, y los que puedan haberse quedado atrás llevan un enlace al texto vigente."
+        },
+        {
+          "type": "corregido",
+          "description": "Al migrar las 59 citas de los cinco cuadernos aparecieron dos que ya no decían lo que dicen hoy las leyes: las de la Orden 32/2011, cuyo texto se movió de artículo en una reingesta posterior. Se han vuelto a anclar al artículo 3, apartados 1 y 4. Es exactamente el fallo que este cambio viene a impedir."
+        },
+        {
+          "type": "corregido",
+          "description": "Reparados 55 artículos y anexos cuyos apartados venían pegados en un solo párrafo desde la ingesta —entre ellos el claustro de profesorado y la asociación de alumnado del Decreto 57/2020, y los currículos de danza del Decreto 156/2007—. Se leen mejor y ya se puede citar un apartado suelto de ellos."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Els quaderns deixen de guardar el text copiat de la llei. Ara cada cita és una referència a un apartat concret —article 121, apartat 2; article 127, lletra k— i el text es resol des de la llei en compilar el lloc. Conseqüència pràctica: una cita no pot quedar-se antiquada en silenci. Si la llei canvia, canvia el que es llig en el quadern."
+        },
+        {
+          "type": "nou",
+          "description": "Avís de frescor en cada cita. Quan el text citat ha canviat des de l'última revisió, quan una norma posterior toca aquest article, quan la llei queda derogada o quan venç el curs d'una norma anual, la cita ho diu damunt del text. Res d'això s'escriu a mà: ix de comparar la referència amb la llei. Les cites que estan al dia no mostren res."
+        },
+        {
+          "type": "nou",
+          "description": "El quadern personal del navegador també avisa. Els fragments que vas guardar fa mesos es comparen amb la data en què es va modificar per última vegada aquest article, i els que puguen haver quedat arrere porten un enllaç al text vigent."
+        },
+        {
+          "type": "corregit",
+          "description": "En migrar les 59 cites dels cinc quaderns van aparéixer dues que ja no deien el que diuen hui les lleis: les de l'Ordre 32/2011, el text de la qual es va moure d'article en una reingesta posterior. S'han tornat a ancorar a l'article 3, apartats 1 i 4. És exactament la fallada que aquest canvi ve a impedir."
+        },
+        {
+          "type": "corregit",
+          "description": "Reparats 55 articles i annexos els apartats dels quals venien apegats en un sol paràgraf des de la ingesta —entre ells el claustre de professorat i l'associació d'alumnat del Decret 57/2020, i els currículums de dansa del Decret 156/2007—. Es lligen millor i ja se'n pot citar un apartat solt."
+        }
+      ]
+    }
+  },
+  {
     "version": "1.9.0",
     "date": "2026-08-15",
     "entries": {

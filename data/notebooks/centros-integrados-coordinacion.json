@@ -10,14 +10,78 @@
     "va": "Correspondència entre els ensenyaments professionals de música i dansa i l'educació secundària: simultaneïtat d'estudis, convalidacions i creació de centres integrats. Base estatal (LOE i reials decrets de currículum) i desplegament autonòmic valencià."
   },
   "updatedAt": "2026-07-18",
-  "fragments": [
-    { "lawSlug": "ley-organica-2-2006", "articleId": "art-47" },
-    { "lawSlug": "real-decreto-1577-2006", "articleId": "art-20" },
-    { "lawSlug": "real-decreto-85-2007", "articleId": "art-20" },
-    { "lawSlug": "real-decreto-303-2010", "articleId": "art-14" },
-    { "lawSlug": "decreto-158-2007", "articleId": "art-20" },
-    { "lawSlug": "decreto-159-2007", "articleId": "art-20" },
-    { "lawSlug": "decreto-156-2007", "articleId": "art-21" },
-    { "lawSlug": "decreto-157-2007", "articleId": "art-19" }
+  "refs": [
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-47",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "37dbd7df",
+        "va": "e4b1e566"
+      }
+    },
+    {
+      "law": "real-decreto-1577-2006",
+      "article": "art-20",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "23fe8d14",
+        "va": "23fe8d14"
+      }
+    },
+    {
+      "law": "real-decreto-85-2007",
+      "article": "art-20",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "56744a6f",
+        "va": "56744a6f"
+      }
+    },
+    {
+      "law": "real-decreto-303-2010",
+      "article": "art-14",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "f3280d1c",
+        "va": "f3280d1c"
+      }
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-20",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "a0682967",
+        "va": "b515e4b8"
+      }
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-20",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "b92b8108",
+        "va": "76e9b35a"
+      }
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-21",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "1eb77145",
+        "va": "44333150"
+      }
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-19",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "5cbfcc5f",
+        "va": "f377d908"
+      }
+    }
   ]
 }

@@ -10,30 +10,60 @@
     "va": "Règim de funcionament dels òrgans col·legiats segons la Llei 40/2015: constitució, convocatòries, actes, abstenció i recusació."
   },
   "updatedAt": "2026-04-23",
-  "fragments": [
+  "refs": [
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-15"
+      "law": "ley-40-2015",
+      "article": "art-15",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "1a2c3b93",
+        "va": "1a2c3b93"
+      }
     },
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-16"
+      "law": "ley-40-2015",
+      "article": "art-16",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "107af30c",
+        "va": "107af30c"
+      }
     },
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-17"
+      "law": "ley-40-2015",
+      "article": "art-17",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "f5e445e9",
+        "va": "f5e445e9"
+      }
     },
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-18"
+      "law": "ley-40-2015",
+      "article": "art-18",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "4467459d",
+        "va": "4467459d"
+      }
     },
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-23"
+      "law": "ley-40-2015",
+      "article": "art-23",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "23f7650e",
+        "va": "23f7650e"
+      }
     },
     {
-      "lawSlug": "ley-40-2015",
-      "articleId": "art-24"
+      "law": "ley-40-2015",
+      "article": "art-24",
+      "checkedAt": "2026-08-19",
+      "hash": {
+        "es": "db16c7fc",
+        "va": "db16c7fc"
+      }
     }
   ]
 }

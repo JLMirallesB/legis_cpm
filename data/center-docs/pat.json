@@ -1,0 +1,295 @@
+{
+  "id": "pat",
+  "slug": "pat",
+  "order": 9,
+  "short": {
+    "es": "PAT",
+    "va": "PAT"
+  },
+  "title": {
+    "es": "Plan de acción tutorial",
+    "va": "Pla d'acció tutorial"
+  },
+  "description": {
+    "es": "Cómo se organiza la tutoría en el conservatorio: quién la ejerce, qué le corresponde hacer y dónde se concreta el plan que la ordena.",
+    "va": "Com s'organitza la tutoria al conservatori: qui l'exercix, què li correspon fer i on es concreta el pla que l'ordena."
+  },
+  "terms": [
+    "plan de accion tutorial",
+    "pla d'accio tutorial",
+    "accion tutorial",
+    "accio tutorial"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-193-2025",
+      "article": "art-19",
+      "note": "El artículo que lo nombra y remite a la norma orgánica",
+      "hash": {
+        "es": "93cd869c",
+        "va": "9d686c7c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-50",
+      "apartado": "3.h",
+      "note": "El PEC debe incluirlo; en conservatorios se llama plan de orientación y acción tutorial",
+      "hash": {
+        "es": "1c4041b8",
+        "va": "6e5156ea"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-11",
+      "apartado": "m",
+      "hash": {
+        "es": "dc8aa212",
+        "va": "c73281e1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "2",
+      "hash": {
+        "es": "a2074b73",
+        "va": "5037db5d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-25",
+      "apartado": "17",
+      "hash": {
+        "es": "ddc36842",
+        "va": "63e45286"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "apartado": "2.g",
+      "hash": {
+        "es": "bcb4b9a8",
+        "va": "cdea5bce"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-26",
+      "apartado": "2.h",
+      "hash": {
+        "es": "3ed043a3",
+        "va": "cffe7470"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-41",
+      "apartado": "2.d",
+      "hash": {
+        "es": "4c97273f",
+        "va": "ec36e446"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-16",
+      "note": "Tutoría en las enseñanzas profesionales de música",
+      "hash": {
+        "es": "89c9e594",
+        "va": "886dfc54"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-17",
+      "note": "Tutoría en las enseñanzas profesionales de danza",
+      "hash": {
+        "es": "1c9ec89c",
+        "va": "4951d127"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-159-2007",
+      "article": "art-15",
+      "note": "Tutoría en las enseñanzas elementales de música",
+      "hash": {
+        "es": "89ed2e89",
+        "va": "6a65307d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-14",
+      "note": "Tutoría en las enseñanzas elementales de danza",
+      "hash": {
+        "es": "8afa04d0",
+        "va": "f2b2532c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.1",
+      "subtree": true,
+      "note": "Qué debe contener el plan este curso",
+      "hash": {
+        "es": "b1925103",
+        "va": "a3fba8b2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.2",
+      "subtree": true,
+      "hash": {
+        "es": "2f438981",
+        "va": "4c64738f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.d",
+      "hash": {
+        "es": "da7731d6",
+        "va": "91c68c06"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.1",
+      "subtree": true,
+      "hash": {
+        "es": "836b20f4",
+        "va": "271db3cd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2.2",
+      "subtree": true,
+      "hash": {
+        "es": "2f438981",
+        "va": "cf8f828b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.d",
+      "hash": {
+        "es": "da7731d6",
+        "va": "91c68c06"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-121",
+      "apartado": "2",
+      "reason": "El proyecto educativo: ficha propia"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "1",
+      "reason": "Funciones de la tutoría en convivencia: ficha de convivencia"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-6",
+      "apartado": "4",
+      "reason": "Funciones de la tutoría en convivencia: ficha de convivencia"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-36",
+      "apartado": "h",
+      "reason": "Planificación de las sesiones de evaluación"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.b",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-14",
+      "apartado": "1.c",
+      "reason": "Detalle de los niveles de respuesta"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "art-29",
+      "apartado": "9.h",
+      "reason": "Estructura de la orientación educativa"
+    },
+    {
+      "law": "decreto-104-2018",
+      "article": "anexo",
+      "apartado": "caracter-sumativo-y-progresivo",
+      "reason": "Tabla resumen de los niveles de respuesta"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2",
+      "reason": "Encabezado de la sección; su contenido ya está referenciado"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.2",
+      "reason": "Encabezado de la sección; su contenido ya está referenciado"
+    }
+  ],
+  "related": [
+    {
+      "slug": "pec",
+      "relation": "parte-de"
+    }
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "id": "coordinaciones",
+  "slug": "coordinaciones",
+  "order": 14,
+  "short": {
+    "es": "Coordinaciones",
+    "va": "Coordinacions"
+  },
+  "title": {
+    "es": "Las figuras de coordinación",
+    "va": "Les figures de coordinació"
+  },
+  "description": {
+    "es": "Las coordinaciones docentes que se constituyen cada curso. El decreto define siete; las instrucciones de este curso añaden la de orientación y renombran la de igualdad y convivencia como de bienestar y protección.",
+    "va": "Les coordinacions docents que es constituïxen cada curs. El decret en definix set; les instruccions d'aquest curs afigen la d'orientació i reanomenen la d'igualtat i convivència com de benestar i protecció."
+  },
+  "terms": [
+    "coordinador",
+    "coordinadora",
+    "coordinacion de",
+    "figuras de coordinacion",
+    "coordinacio de",
+    "figures de coordinacio"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-193-2025",
+      "article": "df-2",
+      "apartado": "2.1",
+      "hash": {
+        "es": "bea31563",
+        "va": "87c783e3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "df-2",
+      "apartado": "2.2",
+      "hash": {
+        "es": "1a749d6e",
+        "va": "961f0b0b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "df-4",
+      "apartado": "4.2",
+      "hash": {
+        "es": "ad42be57",
+        "va": "2a084ce7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-23",
+      "apartado": "2.e.7",
+      "hash": {
+        "es": "5ad6d789",
+        "va": "43e70732"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-37",
+      "part": "tic",
+      "hash": {
+        "es": "423b1e14",
+        "va": "80e107bd"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-38",
+      "part": "formacion",
+      "hash": {
+        "es": "26693fab",
+        "va": "4445319c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-39",
+      "part": "bienestar",
+      "hash": {
+        "es": "babd3ee7",
+        "va": "7ce014a7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "part": "actividades",
+      "hash": {
+        "es": "be90022c",
+        "va": "550bd3e1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-41",
+      "part": "elementales",
+      "hash": {
+        "es": "84b258c0",
+        "va": "9bc5fa47"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-42",
+      "part": "extension",
+      "hash": {
+        "es": "047e6e5b",
+        "va": "629ec5ee"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-43",
+      "part": "horaria",
+      "hash": {
+        "es": "be4e620e",
+        "va": "983e388c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-4-2026",
+      "article": "df-3",
+      "apartado": "4~2",
+      "hash": {
+        "es": "47e3c0ba",
+        "va": "324ddf43"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-2",
+      "apartado": "4",
+      "hash": {
+        "es": "f96f18bc",
+        "va": "1047f9b3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-3",
+      "apartado": "1",
+      "hash": {
+        "es": "508a7206",
+        "va": "8cf368a9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-3",
+      "apartado": "2",
+      "hash": {
+        "es": "ef82fe5c",
+        "va": "df768af9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "orden-5-2017",
+      "article": "art-5",
+      "apartado": "1",
+      "hash": {
+        "es": "e82643ee",
+        "va": "c1653a26"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-6",
+      "apartado": "1",
+      "hash": {
+        "es": "f5e1f1ed",
+        "va": "483651dc"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-10",
+      "apartado": "6",
+      "hash": {
+        "es": "88c2a3d8",
+        "va": "3b4e8561"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-11",
+      "apartado": "3",
+      "hash": {
+        "es": "8168da9c",
+        "va": "e3a1f05e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "article": "apartado-16",
+      "apartado": "1",
+      "hash": {
+        "es": "bdd79304",
+        "va": "dfa44783"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "article": "apartado-5",
+      "apartado": "3",
+      "hash": {
+        "es": "e97302c0",
+        "va": "eec20a6e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-23",
+      "note": "Qué órganos de coordinación docente hay",
+      "hash": {
+        "es": "d9109888",
+        "va": "b206ceca"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "1~2",
+      "part": "tic",
+      "hash": {
+        "es": "275bcc69",
+        "va": "6dc3e5a9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "2",
+      "part": "formacion",
+      "hash": {
+        "es": "6fdee2de",
+        "va": "b915c5f8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "3",
+      "part": "bienestar",
+      "hash": {
+        "es": "94505e67",
+        "va": "ec774952"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "2~2",
+      "part": "bienestar",
+      "hash": {
+        "es": "c73e6ddf",
+        "va": "e883ca9d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "4",
+      "part": "orientacion",
+      "hash": {
+        "es": "96f8b692",
+        "va": "2fecab04"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "4~2",
+      "part": "orientacion",
+      "hash": {
+        "es": "94c574d7",
+        "va": "c94ca064"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5~2",
+      "part": "orientacion",
+      "hash": {
+        "es": "5dd4ae30",
+        "va": "7923ac81"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.a",
+      "part": "orientacion",
+      "hash": {
+        "es": "7c8f4f71",
+        "va": "3db16198"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.b",
+      "part": "orientacion",
+      "hash": {
+        "es": "477fda04",
+        "va": "24e4f03a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.c",
+      "part": "orientacion",
+      "hash": {
+        "es": "72ad3013",
+        "va": "c1c6fbaf"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.d",
+      "part": "orientacion",
+      "hash": {
+        "es": "da7731d6",
+        "va": "91c68c06"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.e",
+      "part": "orientacion",
+      "hash": {
+        "es": "ace075d4",
+        "va": "f0bd2fb0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.f",
+      "part": "orientacion",
+      "hash": {
+        "es": "d3c6a036",
+        "va": "8fc1c1ec"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.g",
+      "part": "orientacion",
+      "hash": {
+        "es": "7433f7d3",
+        "va": "d8ee9175"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5.h",
+      "part": "orientacion",
+      "hash": {
+        "es": "ba5a2a14",
+        "va": "13ad6826"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "5",
+      "part": "actividades",
+      "hash": {
+        "es": "bcb9a952",
+        "va": "08556247"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "6",
+      "part": "elementales",
+      "hash": {
+        "es": "c0fb5c2a",
+        "va": "ad52b8b4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7",
+      "part": "extension",
+      "hash": {
+        "es": "fa3f86fb",
+        "va": "c2d84c67"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "8",
+      "part": "horaria",
+      "hash": {
+        "es": "67d44f26",
+        "va": "ab21e0f3"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "6~2",
+      "part": "horaria",
+      "hash": {
+        "es": "230a31f1",
+        "va": "782ffe2b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7~2",
+      "part": "horaria",
+      "hash": {
+        "es": "eaef5fdb",
+        "va": "5d0bc475"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7.a",
+      "part": "horaria",
+      "hash": {
+        "es": "595c94a5",
+        "va": "24ff6092"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7.b",
+      "part": "horaria",
+      "hash": {
+        "es": "24deb29e",
+        "va": "d9e319bc"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7.c",
+      "part": "horaria",
+      "hash": {
+        "es": "4d1dd78c",
+        "va": "33d04728"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "7.d",
+      "part": "horaria",
+      "hash": {
+        "es": "8066c5cb",
+        "va": "115e2253"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "1~2",
+      "note": "El curso pasado la lista de las ocho figuras va en un solo bloque",
+      "hash": {
+        "es": "89c3280e",
+        "va": "af781b24"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "2",
+      "hash": {
+        "es": "59adc996",
+        "va": "6b2dd6d4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "3",
+      "part": "orientacion",
+      "hash": {
+        "es": "ec3ef54a",
+        "va": "d40033df"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4",
+      "part": "orientacion",
+      "hash": {
+        "es": "80d1af5d",
+        "va": "d1b7c608"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.a",
+      "part": "orientacion",
+      "hash": {
+        "es": "e2ecbeaa",
+        "va": "40be66b4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.b",
+      "part": "orientacion",
+      "hash": {
+        "es": "477fda04",
+        "va": "24e4f03a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.c",
+      "part": "orientacion",
+      "hash": {
+        "es": "72ad3013",
+        "va": "c1c6fbaf"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.d",
+      "part": "orientacion",
+      "hash": {
+        "es": "da7731d6",
+        "va": "91c68c06"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.e",
+      "part": "orientacion",
+      "hash": {
+        "es": "ace075d4",
+        "va": "b6dd5b7c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.f",
+      "part": "orientacion",
+      "hash": {
+        "es": "d3c6a036",
+        "va": "c2a71e84"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.g",
+      "part": "orientacion",
+      "hash": {
+        "es": "572ea725",
+        "va": "477ecc1e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "4.h",
+      "part": "orientacion",
+      "hash": {
+        "es": "8ff4ca32",
+        "va": "13ad6826"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "5",
+      "part": "horaria",
+      "hash": {
+        "es": "8482889e",
+        "va": "a3b6e6ea"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "6",
+      "part": "horaria",
+      "hash": {
+        "es": "41610610",
+        "va": "2292b901"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "30545ef5",
+        "va": "0ff0ba46"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-11",
+      "apartado": "2",
+      "hash": {
+        "es": "d18326cd",
+        "va": "5f067a34"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-11",
+      "apartado": "4",
+      "hash": {
+        "es": "cb54ad1b",
+        "va": "8bda2ae6"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-1",
+      "apartado": "1",
+      "hash": {
+        "es": "ab44d6b7",
+        "va": "17f65390"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "3~2",
+      "hash": {
+        "es": "2a0a2c4f",
+        "va": "59d77110"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-5-2",
+      "apartado": "8",
+      "part": "horaria",
+      "hash": {
+        "es": "67d44f26",
+        "va": "ab21e0f3"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "aclaratorio-circular-1-2025",
+      "items": [
+        "art-4#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "circular-1-2025",
+      "items": [
+        "art-2#procedimiento-para-solicitar-la-flexibil.a"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-104-2018",
+      "items": [
+        "art-11#3",
+        "art-13#5"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-109-2011",
+      "items": [
+        "anexo-1#contenidos-de-guitarra-electrica"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-156-2007",
+      "items": [
+        "anexo-1-danza-clasica#d",
+        "anexo-1-danza-clasica#g",
+        "anexo-1-danza-clasica#h",
+        "anexo-1-danza-contemporanea#d",
+        "anexo-1-danza-espanola#d",
+        "anexo-1-danza-espanola#3.e"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-157-2007",
+      "items": [
+        "anexo-1-danza-academica#objetivos-generales.11",
+        "anexo-1-danza-academica#criterios-de-evaluacion.2",
+        "anexo-1-danza-academica#criterios-de-evaluacion.5",
+        "anexo-1-expresion-musical-y-ritmica#introduccion",
+        "anexo-1-escuela-bolera#introduccion",
+        "anexo-1-escuela-bolera#criterios-de-evaluacion.1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-158-2007",
+      "items": [
+        "anexo-1-instrumentos-de-cuerda-pulsada-del-renacimiento-y-#h"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-159-2007",
+      "items": [
+        "anexo-1-acordeon#objetivos.3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "items": [
+        "preambulo#0",
+        "art-6#1",
+        "df-2#2",
+        "df-4#4",
+        "df-4#4.1",
+        "df-4#4.2.e"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-23#2.e",
+        "art-23#2.e.1",
+        "art-23#2.e.2",
+        "art-23#2.e.3",
+        "art-23#2.e.4",
+        "art-23#2.e.5",
+        "art-23#2.e.6",
+        "art-23#4",
+        "art-25#6",
+        "art-26#2.f",
+        "art-35#1",
+        "art-36#g",
+        "art-36#n"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "instruccion-4-2025-uso-seguro-tic",
+      "items": [
+        "sec-5#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "items": [
+        "sec-7#7.2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-20-2017",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-40-2015",
+      "items": [
+        "preambulo#0",
+        "art-73#1.a",
+        "art-73#1.e",
+        "art-75#a",
+        "art-78#1",
+        "art-78#2",
+        "art-149#2",
+        "art-154#1",
+        "df-14#1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "items": [
+        "art-91#1.i",
+        "art-124#5",
+        "da-8#2.d"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "items": [
+        "art-28#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-20-2019",
+      "items": [
+        "art-42#1.c",
+        "art-44#3",
+        "art-56#3.a",
+        "art-57#3",
+        "da-1#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-4-2026",
+      "items": [
+        "df-3#6",
+        "df-3#2~3",
+        "df-3#3~3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-5-2017",
+      "items": [
+        "art-4#0",
+        "art-5#2.a",
+        "art-5#2.c",
+        "art-6#2",
+        "art-8#1",
+        "art-8#3",
+        "art-10#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-9-2025",
+      "items": [
+        "anexo-7#2.10.4",
+        "anexo-8#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-coordinacion-horaria-2026-2027",
+      "items": [
+        "apartado-2#0",
+        "apartado-7#f",
+        "apartado-7#a~2",
+        "apartado-7#f~2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "items": [
+        "anexo-1-2#1.2.2.1.c",
+        "anexo-1-2#1.2.2.1.d",
+        "anexo-3-2#3.2.10.6"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "items": [
+        "anexo-1-2#1.2.2.1.c",
+        "anexo-1-2#1.2.2.1.d",
+        "anexo-3-2#3.2.11.4.2",
+        "anexo-6-1#6.1.2.1.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "items": [
+        "preambulo#0",
+        "apartado-4#2",
+        "apartado-6#2",
+        "apartado-6#3",
+        "apartado-13#b",
+        "apartado-15#5",
+        "apartado-16#3",
+        "apartado-22#5",
+        "apartado-25#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "items": [
+        "apartado-8#1.5.2",
+        "apartado-8#3.2.e",
+        "apartado-18#4.c",
+        "apartado-18#6.c",
+        "apartado-20#2",
+        "apartado-20#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "8",
+      "reason": "Fragmento de la lista de figuras que solo el texto castellano separa como apartado; el bloque completo ya está referenciado"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "article": "anexo-5-2",
+      "apartado": "2~2",
+      "reason": "Fragmento de la lista de figuras que solo el texto castellano separa como apartado; el bloque completo ya está referenciado"
+    }
+  ],
+  "titleTerms": [
+    "coordinadora o coordinador",
+    "coordinador o coordinadora",
+    "figuras de coordinacion",
+    "otras figuras de coordinacion"
+  ],
+  "exclude": [
+    "comision de coordinacion pedagogica",
+    "coordinacion pedagogica",
+    "coordinacion docente",
+    "organos de coordinacion",
+    "programa de coordinacion horaria",
+    "coordinacion horaria"
+  ],
+  "parts": [
+    {
+      "id": "tic",
+      "slug": "coordinacion-tic",
+      "title": {
+        "es": "Coordinación de las TIC",
+        "va": "Coordinació de les TIC"
+      },
+      "description": {
+        "es": "Quien coordina las tecnologías de la información y la comunicación en el centro.",
+        "va": "Qui coordina les tecnologies de la informació i la comunicació al centre."
+      }
+    },
+    {
+      "id": "formacion",
+      "slug": "coordinacion-formacion",
+      "title": {
+        "es": "Coordinación de formación",
+        "va": "Coordinació de formació"
+      },
+      "description": {
+        "es": "Quien detecta las necesidades de formación del claustro y organiza el programa anual.",
+        "va": "Qui detecta les necessitats de formació del claustre i organitza el programa anual."
+      }
+    },
+    {
+      "id": "bienestar",
+      "slug": "coordinacion-bienestar-proteccion",
+      "title": {
+        "es": "Coordinación de bienestar y protección",
+        "va": "Coordinació de benestar i protecció"
+      },
+      "description": {
+        "es": "La antigua coordinación de igualdad y convivencia: el Decreto 193/2025 le cambió el nombre siguiendo la ley de protección a la infancia.",
+        "va": "L'antiga coordinació d'igualtat i convivència: el Decret 193/2025 li va canviar el nom seguint la llei de protecció a la infància."
+      }
+    },
+    {
+      "id": "orientacion",
+      "slug": "coordinacion-orientacion",
+      "title": {
+        "es": "Coordinación de orientación educativa, académica y profesional",
+        "va": "Coordinació d'orientació educativa, acadèmica i professional"
+      },
+      "description": {
+        "es": "La única figura que no está en el decreto: la crean las instrucciones de inicio de curso, que le dan ocho funciones propias.",
+        "va": "L'única figura que no està en el decret: la creen les instruccions d'inici de curs, que li donen huit funcions pròpies."
+      }
+    },
+    {
+      "id": "actividades",
+      "slug": "coordinacion-actividades",
+      "title": {
+        "es": "Coordinación de actividades complementarias y extraescolares",
+        "va": "Coordinació d'activitats complementàries i extraescolars"
+      },
+      "description": {
+        "es": "Quien organiza las actividades complementarias y extraescolares del conservatorio.",
+        "va": "Qui organitza les activitats complementàries i extraescolars del conservatori."
+      }
+    },
+    {
+      "id": "elementales",
+      "slug": "coordinacion-elementales",
+      "title": {
+        "es": "Coordinación de enseñanzas elementales",
+        "va": "Coordinació d'ensenyaments elementals"
+      },
+      "description": {
+        "es": "La figura propia de los centros que imparten enseñanzas elementales.",
+        "va": "La figura pròpia dels centres que imparteixen ensenyaments elementals."
+      }
+    },
+    {
+      "id": "extension",
+      "slug": "coordinacion-extension-cultural",
+      "title": {
+        "es": "Coordinación de extensión cultural y promoción artística",
+        "va": "Coordinació d'extensió cultural i promoció artística"
+      },
+      "description": {
+        "es": "Quien impulsa los conciertos, las audiciones y la proyección del conservatorio hacia fuera.",
+        "va": "Qui impulsa els concerts, les audicions i la projecció del conservatori cap a fora."
+      }
+    },
+    {
+      "id": "horaria",
+      "slug": "coordinacion-horaria",
+      "title": {
+        "es": "Coordinación del programa de coordinación horaria",
+        "va": "Coordinació del programa de coordinació horària"
+      },
+      "description": {
+        "es": "Solo en los centros con el programa autorizado; las instrucciones de este curso le añaden cuatro funciones.",
+        "va": "Només en els centres amb el programa autoritzat; les instruccions d'aquest curs li afigen quatre funcions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1108 @@
+{
+  "id": "consejo-escolar",
+  "slug": "consejo-escolar",
+  "order": 7,
+  "short": {
+    "es": "Consejo Escolar",
+    "va": "Consell Escolar"
+  },
+  "title": {
+    "es": "El Consejo Escolar",
+    "va": "El Consell Escolar"
+  },
+  "description": {
+    "es": "El órgano en el que participa toda la comunidad educativa: quién lo integra, cómo se elige y qué decide.",
+    "va": "L'òrgan en què participa tota la comunitat educativa: qui l'integra, com s'elegix i què decidix."
+  },
+  "terms": [
+    "consejo escolar",
+    "consell escolar"
+  ],
+  "updatedAt": "2026-08-19",
+  "refs": [
+    {
+      "law": "decreto-193-2025",
+      "article": "art-9",
+      "hash": {
+        "es": "9240abad",
+        "va": "a4b015a0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-10",
+      "hash": {
+        "es": "7d5efa8f",
+        "va": "831a4fdf"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2.2",
+      "hash": {
+        "es": "c40f55b9",
+        "va": "2f8de1a9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2.3",
+      "hash": {
+        "es": "ee4d329c",
+        "va": "4e070530"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-5",
+      "apartado": "4",
+      "hash": {
+        "es": "e637bc9f",
+        "va": "c350f292"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-20",
+      "hash": {
+        "es": "642432e3",
+        "va": "97b26d97"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "4",
+      "hash": {
+        "es": "a875f0c8",
+        "va": "47fc832e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-3",
+      "hash": {
+        "es": "a6cb6e4b",
+        "va": "b452f458"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-4",
+      "hash": {
+        "es": "438f7dfe",
+        "va": "3e221de2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-5",
+      "hash": {
+        "es": "23733656",
+        "va": "0b311548"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-8",
+      "hash": {
+        "es": "683435a1",
+        "va": "c5f345c0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-15",
+      "apartado": "1",
+      "hash": {
+        "es": "0e3736fd",
+        "va": "d42aa1ab"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-22",
+      "hash": {
+        "es": "0c219afa",
+        "va": "1be0e276"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "dt-unica",
+      "hash": {
+        "es": "d11cd728",
+        "va": "39e842df"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-126",
+      "hash": {
+        "es": "fc6aa4fb",
+        "va": "fc6aa4fb"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "art-127",
+      "hash": {
+        "es": "d21c45c8",
+        "va": "d21c45c8"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "article": "da-26",
+      "hash": {
+        "es": "9a57ee08",
+        "va": "b0c1b408"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-34",
+      "hash": {
+        "es": "df519e28",
+        "va": "df519e28"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-56",
+      "apartado": "1",
+      "hash": {
+        "es": "bd8de152",
+        "va": "bd8de152"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-56",
+      "apartado": "2",
+      "hash": {
+        "es": "d22a80dc",
+        "va": "d22a80dc"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-60",
+      "apartado": "2",
+      "hash": {
+        "es": "e473190b",
+        "va": "e473190b"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "article": "apartado-19",
+      "apartado": "4",
+      "hash": {
+        "es": "91422e79",
+        "va": "d2eddc59"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-19",
+      "note": "Qué órganos colegiados de gobierno hay",
+      "hash": {
+        "es": "317512f8",
+        "va": "c44c7cae"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-22",
+      "note": "Régimen de funcionamiento: convocatorias, quórum y actas",
+      "hash": {
+        "es": "fe5e3767",
+        "va": "15ea8869"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-5",
+      "apartado": "6",
+      "hash": {
+        "es": "509a2d52",
+        "va": "7d8bd01e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.b",
+      "hash": {
+        "es": "5aedf0aa",
+        "va": "1fb769b2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.i",
+      "hash": {
+        "es": "1c97eedf",
+        "va": "f7c645de"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "1.k",
+      "hash": {
+        "es": "31a77fbb",
+        "va": "16eee6fa"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "2.g",
+      "hash": {
+        "es": "b128966e",
+        "va": "b8309816"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "2.i",
+      "hash": {
+        "es": "2aec0f44",
+        "va": "b6c0b55d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-9",
+      "apartado": "2.m",
+      "hash": {
+        "es": "cd466c09",
+        "va": "1b51e0b1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-15",
+      "apartado": "a",
+      "hash": {
+        "es": "031f4e2a",
+        "va": "455f1786"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-15",
+      "apartado": "e",
+      "hash": {
+        "es": "36e81840",
+        "va": "3ef1fafa"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-16",
+      "apartado": "3",
+      "hash": {
+        "es": "b39e270e",
+        "va": "2003f3a0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-18",
+      "apartado": "1.c",
+      "hash": {
+        "es": "f2a5d992",
+        "va": "0558f523"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.a",
+      "hash": {
+        "es": "cada91e9",
+        "va": "e054f4e4"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-21",
+      "apartado": "4.f",
+      "hash": {
+        "es": "5de51cf2",
+        "va": "3fd54c88"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-39",
+      "apartado": "2.e",
+      "hash": {
+        "es": "1164009a",
+        "va": "2dcb6d3d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "2.k",
+      "hash": {
+        "es": "304bb116",
+        "va": "8dfbc9c1"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-40",
+      "apartado": "3.d",
+      "hash": {
+        "es": "576ceea5",
+        "va": "b3b16a63"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.a",
+      "hash": {
+        "es": "f90af6c2",
+        "va": "2bdb9a87"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.b",
+      "hash": {
+        "es": "38b9f080",
+        "va": "90d0e119"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.d",
+      "hash": {
+        "es": "3ae2797d",
+        "va": "883deb41"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.e",
+      "hash": {
+        "es": "1bdaf43f",
+        "va": "cb35b020"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-44",
+      "apartado": "6.j",
+      "hash": {
+        "es": "cdc746cc",
+        "va": "f404e425"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.b",
+      "hash": {
+        "es": "f9181764",
+        "va": "1f01739c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.c",
+      "hash": {
+        "es": "90f69659",
+        "va": "29d9f668"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.e",
+      "hash": {
+        "es": "ef7358f5",
+        "va": "eac9aa5e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.f",
+      "hash": {
+        "es": "d568873c",
+        "va": "f6e1597d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-45",
+      "apartado": "3.l",
+      "hash": {
+        "es": "31a08ae2",
+        "va": "2b3d82dc"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-49",
+      "apartado": "2",
+      "hash": {
+        "es": "023879a5",
+        "va": "a1819e91"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-51",
+      "apartado": "6",
+      "hash": {
+        "es": "234d1da1",
+        "va": "72f78f07"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-51",
+      "apartado": "8",
+      "hash": {
+        "es": "4bf99a7c",
+        "va": "81fefda9"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-52",
+      "apartado": "5.c",
+      "hash": {
+        "es": "d416a75a",
+        "va": "21c7ee57"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "apartado": "2",
+      "hash": {
+        "es": "97ef4493",
+        "va": "59163534"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-56",
+      "apartado": "3",
+      "hash": {
+        "es": "de0f326a",
+        "va": "c39292e2"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-26",
+      "apartado": "7",
+      "hash": {
+        "es": "98950b6e",
+        "va": "3345df67"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.1.7.a.1",
+      "hash": {
+        "es": "bc793832",
+        "va": "fd678a97"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2",
+      "hash": {
+        "es": "f4c53c7e",
+        "va": "9a3b4602"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2.1",
+      "hash": {
+        "es": "65f8ee55",
+        "va": "bb0b091a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2.4",
+      "hash": {
+        "es": "3d9f25b2",
+        "va": "4c992a31"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-28",
+      "apartado": "28.2.6",
+      "hash": {
+        "es": "881c57ed",
+        "va": "26aa7732"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-32",
+      "apartado": "32.5",
+      "hash": {
+        "es": "aa3373d9",
+        "va": "d47e6ace"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-193-2025",
+      "article": "art-33",
+      "apartado": "2.c",
+      "hash": {
+        "es": "79912216",
+        "va": "023e4dfa"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-2",
+      "apartado": "4",
+      "hash": {
+        "es": "a096629a",
+        "va": "5f94327c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-7",
+      "apartado": "2",
+      "hash": {
+        "es": "2adc71f1",
+        "va": "269b8f8d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-7",
+      "apartado": "6",
+      "hash": {
+        "es": "09b57a71",
+        "va": "c10512f0"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-7",
+      "apartado": "7",
+      "hash": {
+        "es": "63c641c7",
+        "va": "06c40624"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-10",
+      "apartado": "3",
+      "hash": {
+        "es": "abb9227b",
+        "va": "3e238a5c"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-15",
+      "apartado": "6",
+      "hash": {
+        "es": "f8f497ad",
+        "va": "8c508e0a"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-15",
+      "apartado": "7",
+      "hash": {
+        "es": "a5d486b9",
+        "va": "a951c2f7"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-18",
+      "apartado": "4",
+      "hash": {
+        "es": "e77810d7",
+        "va": "3eac454f"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-19",
+      "apartado": "1",
+      "hash": {
+        "es": "a00057c1",
+        "va": "a016018d"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-19",
+      "apartado": "2",
+      "hash": {
+        "es": "d365d2e9",
+        "va": "70f90dde"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-19",
+      "apartado": "5",
+      "hash": {
+        "es": "0ee01e7e",
+        "va": "416286ad"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "decreto-93-2016",
+      "article": "art-23",
+      "apartado": "0",
+      "hash": {
+        "es": "486e3c1f",
+        "va": "c51fe77e"
+      },
+      "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "article": "art-56",
+      "apartado": "3",
+      "hash": {
+        "es": "13c56ed1",
+        "va": "13c56ed1"
+      },
+      "checkedAt": "2026-08-19"
+    }
+  ],
+  "discarded": [
+    {
+      "law": "ley-1-2024",
+      "article": "*",
+      "reason": "Enseñanzas artísticas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "circular-5-2025-iseacv",
+      "article": "*",
+      "reason": "ISEACV y enseñanzas superiores: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-2-2022",
+      "article": "*",
+      "reason": "Escuelas de enseñanza artística no formal: fuera del ámbito de la v1"
+    },
+    {
+      "law": "decreto-46-2026",
+      "article": "*",
+      "reason": "Modifica el Decreto 2/2022, de escuelas: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-2-1998",
+      "article": "*",
+      "reason": "Escuelas de música y danza: fuera del ámbito de la v1"
+    },
+    {
+      "law": "ley-organica-3-2020",
+      "article": "*",
+      "reason": "Modifica la LOE; el texto vigente se cita en la LOE"
+    },
+    {
+      "law": "circular-1-2026-ausencias",
+      "items": [
+        "anexo-1-primero#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "cuenta-gestion-centros-docentes",
+      "items": [
+        "sec-consideraciones-1#0",
+        "sec-consideraciones-2#3.b",
+        "sec-consideraciones-3#a",
+        "sec-pregunta-18#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-104-2018",
+      "items": [
+        "art-7#1",
+        "art-8#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-109-2011",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-148-2014",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-193-2025",
+      "items": [
+        "preambulo#0",
+        "art-8#2",
+        "art-26#2.h",
+        "art-28#28.1.7.b.1",
+        "art-28#28.1.7.h.1",
+        "art-28#28.1.7.h.4",
+        "art-29#29.6.a",
+        "art-29#29.6.d",
+        "art-33#2.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-234-2022",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-57-2020",
+      "items": [
+        "art-9#1.f",
+        "art-9#2.h",
+        "art-14#1",
+        "art-15#g",
+        "art-22#9",
+        "art-42#4",
+        "art-44#5.b",
+        "art-44#5.e",
+        "art-46#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-90-2015",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "decreto-93-2016",
+      "items": [
+        "preambulo#0",
+        "art-15#11",
+        "art-16#9",
+        "art-17#2",
+        "art-17#8"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "guia-plan-mejora",
+      "items": [
+        "sec-1#0",
+        "sec-2#0",
+        "sec-3#0",
+        "anexo-2#profesorado",
+        "anexo-2#representacion"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "instruccion-1-2026-confort-termico",
+      "items": [
+        "anexo-1-gestion-contable#registro-contable"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-5-2026",
+      "items": [
+        "art-156#1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-organica-2-2006",
+      "items": [
+        "preambulo#0",
+        "art-116#3",
+        "art-119#2",
+        "art-119#3",
+        "art-119#5",
+        "art-122#3",
+        "art-129#a",
+        "art-129#e",
+        "art-131#4",
+        "art-132#b",
+        "art-132#f",
+        "art-132#i",
+        "art-132#k",
+        "art-135#3",
+        "art-136#2",
+        "art-137#0",
+        "art-138#d",
+        "dt-6#3",
+        "df-1#8",
+        "df-1#9.d",
+        "df-1#10.a"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "ley-organica-8-1985",
+      "items": [
+        "preambulo#0",
+        "art-51#3",
+        "art-54#1.b",
+        "art-54#2.a",
+        "art-54#2.f",
+        "art-54#4",
+        "art-55#0",
+        "art-57#0",
+        "art-57#d",
+        "art-58#0",
+        "art-59#1",
+        "art-59#2",
+        "art-60#4",
+        "art-60#5",
+        "art-61#2",
+        "art-61#7",
+        "art-62#1.a",
+        "da-4#0",
+        "da-5#1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-20-2019",
+      "items": [
+        "preambulo#0",
+        "dt-unica#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-28-2011",
+      "items": [
+        "art-43#2",
+        "art-43#4.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-32-2011",
+      "items": [
+        "dt-unica#2"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-4-2026",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-5-2017",
+      "items": [
+        "art-5#2.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-8-2026",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-9-2025",
+      "items": [
+        "preambulo#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "orden-gestion-economica-1995",
+      "items": [
+        "norma-3#0",
+        "norma-5#1",
+        "norma-7#0",
+        "norma-11#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-28-06-2018-proteccion-datos",
+      "items": [
+        "preambulo#0",
+        "anexo-1-sec-8#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2025-2026",
+      "items": [
+        "anexo-2-2#2.2.4",
+        "anexo-3-1#1",
+        "anexo-4-2#4.2.2.4",
+        "anexo-4-3#3",
+        "anexo-8-3#8.3.2.3.c",
+        "anexo-9-3#0"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "items": [
+        "anexo-2-2#2.2.4",
+        "anexo-3-1#1",
+        "anexo-3-2#3.2.7.3",
+        "anexo-4-2#4.2.2.4",
+        "anexo-4-3#1",
+        "anexo-4-3#3",
+        "anexo-6-1#5.2.b"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-no-convivencia-progenitores-2019",
+      "items": [
+        "preambulo#0",
+        "art-8#1"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-paf-2026-2027",
+      "items": [
+        "apartado-5#3"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    },
+    {
+      "law": "resolucion-piie-2026-2028",
+      "items": [
+        "apartado-8#3.2.f"
+      ],
+      "reason": "Menciones incidentales: la norma nombra la figura sin atribuirle nada"
+    }
+  ],
+  "titleTerms": [
+    "consejo escolar"
+  ],
+  "exclude": [
+    "consejo escolar valenciano",
+    "consejo escolar del estado",
+    "consejo escolar municipal"
+  ]
+}

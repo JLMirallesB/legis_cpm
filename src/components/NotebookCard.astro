@@ -11,8 +11,8 @@ const { notebook, lang } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const nbPath = lang === 'va' ? 'quaderns' : 'cuadernos';
 const href = `${base}${lang}/${nbPath}/${notebook.slug}/`;
-const fragCount = notebook.fragments.length;
-const lawCount = new Set(notebook.fragments.map(f => f.lawSlug)).size;
+const fragCount = notebook.refs.length;
+const lawCount = new Set(notebook.refs.map(r => r.law)).size;
 const dateFormatted = new Date(notebook.updatedAt).toLocaleDateString(
   lang === 'va' ? 'ca-ES' : 'es-ES',
   { year: 'numeric', month: 'short', day: 'numeric' }

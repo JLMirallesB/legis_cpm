@@ -10,7 +10,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "refs:refresh": "node scripts/refs-refresh.mjs",
+    "fix:apartados": "node scripts/fix-apartados.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",
