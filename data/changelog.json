@@ -1,5 +1,23 @@
 [
   {
+    "version": "2.1.0",
+    "date": "2026-08-19",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Cuaderno nuevo: unidades didácticas. Reúne las siete referencias vigentes que hay en el repositorio, y de paso deja ver algo que no se aprecia leyendo las normas por separado: ninguna define la unidad didáctica ni regula su contenido. Aparece siempre como la unidad de referencia que las adaptaciones y los refuerzos tienen que respetar, y siempre en normativa de inclusión — el Decreto 104/2018 y la Orden 20/2019—, más la mención de este curso a los grupos de trabajo que las elaboran."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Quadern nou: unitats didàctiques. Reunix les set referències vigents que hi ha al repositori, i de passada deixa veure una cosa que no s'aprecia llegint les normes per separat: cap no definix la unitat didàctica ni en regula el contingut. Apareix sempre com la unitat de referència que les adaptacions i els reforços han de respectar, i sempre en normativa d'inclusió —el Decret 104/2018 i l'Ordre 20/2019—, més la menció d'aquest curs als grups de treball que les elaboren."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.0.0",
     "date": "2026-08-19",
     "entries": {
