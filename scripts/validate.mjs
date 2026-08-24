@@ -110,6 +110,51 @@ for (const slug of vaSlugs) {
 }
 
 // Validate structure nodes recursively
+// ── URLs del articulado ──────────────────────────────────────────────
+// El texto del DOGV escribe las direcciones sin marcado y el renderizador las
+// autoenlaza, así que una URL mal transcrita no falla de forma visible: se
+// queda a medias, con la cola en texto plano, y el enlace lleva a un 404.
+// El defecto viene siempre de la extracción del PDF, que parte las URLs por el
+// salto de línea (metiendo un espacio) o se come el guion que había allí.
+
+const URL_RE = /https?:\/\/[^\s<)]+[^\s<).,;:]/g;
+
+// Tras una URL, un espacio y un fragmento que solo puede ser continuación de
+// ella: codificación porcentual, `+` de query, extensión de fichero o un trozo
+// de UUID. Nada de eso empieza una frase.
+const SPLIT_TAIL_RE = /^[ \t]+(%[0-9A-Fa-f]{2}|[0-9A-Za-z._+%-]*(?:%[0-9A-Fa-f]{2}|\+|\.pdf\b)|[0-9a-f]{6,}\b)/;
+
+// Igual que cited-links.ts: también los dominios escritos sin esquema, porque
+// una errata conocida puede estar precisamente en uno de ellos ("www.aipd.es").
+const BARE_URL_RE = /\bwww\.[^\s<)]+[^\s<).,;:]/g;
+
+/** Todas las direcciones que aparecen en el articulado, para cotejar erratas */
+const urlsEnElTexto = new Set();
+
+function checkUrls(text, file, where) {
+  if (!text) return;
+  for (const match of text.matchAll(BARE_URL_RE)) {
+    urlsEnElTexto.add(match[0]);
+  }
+  for (const match of text.matchAll(URL_RE)) {
+    const url = match[0];
+    urlsEnElTexto.add(url);
+    const tail = text.slice(match.index + url.length);
+
+    if (SPLIT_TAIL_RE.test(tail)) {
+      error(file, `${where}: URL partida por un espacio (la cola queda en texto plano): "${url.slice(-50)} ${tail.trim().slice(0, 40)}…"`);
+    }
+    if (url.endsWith('-')) {
+      error(file, `${where}: URL acabada en guion, señal de salto de línea sin unir: "${url.slice(-60)}"`);
+    }
+    // Una coma dentro de una URL casi siempre es el separador de la frase que
+    // se ha quedado pegado por falta de espacio (".pdf,BOE núm. 294").
+    if (/,[A-ZÀ-Þ]/.test(url)) {
+      error(file, `${where}: coma pegada dentro de la URL (falta el espacio que separa la frase): "${url.slice(-60)}"`);
+    }
+  }
+}
+
 function validateStructure(nodes, file, ids, parentContext = 'structure') {
   if (!Array.isArray(nodes)) {
     error(file, `${parentContext} no es un array`);
@@ -123,6 +168,8 @@ function validateStructure(nodes, file, ids, parentContext = 'structure') {
     requireEnum(node, 'type', STRUCTURE_NODE_TYPES, file, ctx);
     requireString(node, 'id', file, ctx);
     requireString(node, 'title', file, ctx);
+
+    checkUrls(node.content, file, `${ctx} (${node.id})`);
 
     // Check unique IDs
     if (node.id) {
@@ -145,6 +192,8 @@ function validateStructure(nodes, file, ids, parentContext = 'structure') {
         requireString(ver, 'versionId', file, vctx);
         requireDate(ver, 'effectiveDate', file, vctx);
         requireString(ver, 'content', file, vctx);
+
+        checkUrls(ver.content, file, `${vctx} (${node.id})`);
 
         if (ver.modifiedBy !== null && ver.modifiedBy !== undefined) {
           requireString(ver.modifiedBy, 'lawId', file, `${vctx}.modifiedBy`);
@@ -457,6 +506,54 @@ function validateRefs() {
 
 console.log('\nValidando referencias de los cuadernos...\n');
 validateRefs();
+
+// ── Erratas de enlace conocidas ──────────────────────────────────────
+// La tabla corrige direcciones que la norma publicó mal. Si la entrada ya no
+// coincide con nada del articulado es que el texto se corrigió (y sobra) o que
+// la URL se transcribió distinta (y la corrección no se está aplicando): en los
+// dos casos hay que mirarlo, porque una corrección muda no avisa de nada.
+const CORRECTIONS_FILE = join(DATA_DIR, 'metadata', 'link-corrections.json');
+if (existsSync(CORRECTIONS_FILE)) {
+  const file = 'metadata/link-corrections.json';
+  let corrections;
+  try {
+    corrections = JSON.parse(readFileSync(CORRECTIONS_FILE, 'utf-8'));
+  } catch (e) {
+    error(file, `JSON inválido: ${e.message}`);
+    corrections = [];
+  }
+  if (!Array.isArray(corrections)) {
+    error(file, 'se esperaba un array de correcciones');
+    corrections = [];
+  }
+
+  const vistas = new Set();
+  for (let i = 0; i < corrections.length; i++) {
+    const c = corrections[i];
+    const ctx = `[${i}]`;
+
+    if (!requireString(c, 'url', file, ctx)) continue;
+    requireString(c, 'correctedUrl', file, ctx);
+
+    if (vistas.has(c.url)) error(file, `${ctx}: url duplicada "${c.url}"`);
+    vistas.add(c.url);
+
+    if (c.correctedUrl && !/^https?:\/\//i.test(c.correctedUrl)) {
+      error(file, `${ctx}: correctedUrl debe ser absoluta (con https://): "${c.correctedUrl}"`);
+    }
+    if (c.correctedUrl === c.url) {
+      error(file, `${ctx}: correctedUrl es idéntica a url, la corrección no corrige nada`);
+    }
+    for (const lang of ['es', 'va']) {
+      if (typeof c.note?.[lang] !== 'string' || c.note[lang].trim() === '') {
+        error(file, `${ctx}: falta note.${lang} (hay que explicar por qué se corrige)`);
+      }
+    }
+    if (!urlsEnElTexto.has(c.url)) {
+      error(file, `${ctx}: "${c.url}" ya no aparece en el articulado de ninguna ley (corrección obsoleta o URL transcrita de otra forma)`);
+    }
+  }
+}
 
 // Summary
 console.log(`\n${'='.repeat(50)}`);

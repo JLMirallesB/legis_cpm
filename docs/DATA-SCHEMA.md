@@ -223,6 +223,87 @@ Campo **opcional** para leyes que incluyen formularios PDF descargables (ej: mod
 
 **Cuándo usar**: cuando la norma incluye modelos de formularios o solicitudes como anexos, que el personal del conservatorio puede necesitar descargar y rellenar.
 
+## Enlaces del articulado
+
+Las normas del DOGV escriben las direcciones dentro del texto, sin marcado. El
+proyecto las trata en dos sitios, y **ninguno de los dos se rellena a mano**:
+
+**1. Dentro del texto.** `src/lib/content-renderer.ts` autoenlaza, en un solo
+barrido, tres formas: URLs con esquema (`https://…`), dominios sin esquema que
+empiezan por `www.` y direcciones de correo (que salen como `mailto:`). Vale
+igual en párrafos, en encabezados y dentro de celdas de tabla.
+
+Lo que ese barrido no reconozca se queda en texto plano, así que **la URL tiene
+que estar bien transcrita**. El defecto habitual no es de formato sino de
+extracción: el PDF parte la dirección por el salto de línea y al unir las líneas
+queda un espacio en medio (`…/Actualitzaci %C3%B3n_…`) o desaparece el guion que
+había allí (`proteccio-dedades`). En los dos casos el enlace sale a medias y la
+cola se ve como texto suelto. `npm run validate` lo corta como **error**: URL
+partida por un espacio, URL acabada en guion, y coma pegada dentro de la URL.
+
+**2. Arriba, en la cabecera de la ley.** El bloque plegable «Enlaces citados en
+el texto» lo genera `src/lib/cited-links.ts` recorriendo el articulado en tiempo
+de compilación, con un nombre legible derivado de la propia URL. No hay nada que
+añadir al JSON: si el enlace está en el texto, aparece arriba, y si se corrige
+la URL el bloque se corrige solo. Va plegado porque hay normas con más de veinte
+enlaces citados.
+
+### Erratas de enlace (`data/metadata/link-corrections.json`)
+
+Cuando el DOGV publica una dirección equivocada y se sabe cuál era la buena, el
+articulado se deja como está —es el texto legal— y la corrección se anota aparte:
+
+```json
+[
+  {
+    "url": "www.aipd.es",
+    "correctedUrl": "https://www.aepd.es",
+    "note": {
+      "es": "La resolución escribe «www.aipd.es», que no existe. …",
+      "va": "La resolució escriu «www.aipd.es», que no existeix. …"
+    }
+  }
+]
+```
+
+- `url`: tal y como aparece en el texto, **carácter a carácter** (con esquema o sin él)
+- `correctedUrl`: absoluta, con `https://`
+- `note`: por qué se corrige, en los dos idiomas
+
+La fila sale marcada como «errata en la norma» dentro del bloque de enlaces
+citados, con el enlace de la norma intacto y el correcto debajo. `npm run
+validate` comprueba que la entrada sigue coincidiendo con alguna ley: una
+corrección que ya no encaja con nada es un error, no un silencio.
+
+## Recursos externos (externalResources)
+
+Campo **opcional** para enlaces que **no aparecen en el articulado** y que aun
+así conviene ofrecer junto a la norma: una herramienta de apoyo, la corrección
+de errores publicada aparte, la sede donde se tramita algo.
+
+```json
+{
+  "externalResources": [
+    {
+      "id": "prelacion",
+      "title": "Calculadora de prelación",
+      "url": "https://jlmirallesb.github.io/prelacion/"
+    }
+  ]
+}
+```
+
+- `id`: identificador único del recurso dentro de la ley
+- `title`: texto del botón, en el idioma del JSON (es/va)
+- `url`: URL absoluta
+
+**Renderizado**: bloque de botones azules (`ExternalResourceButtons.astro`) en la
+cabecera de la ley, encima del bloque de enlaces citados.
+
+**Cuándo NO usar**: para un enlace que ya está escrito en el articulado. Ese sale
+solo en «Enlaces citados en el texto»; duplicarlo aquí obliga a mantener a mano
+una copia que se desincroniza en cuanto se corrige el texto.
+
 ## Convenciones de Nombrado
 
 - **slug**: tipo-numero-ano en min&uacute;sculas (ej: `decreto-158-2007`)

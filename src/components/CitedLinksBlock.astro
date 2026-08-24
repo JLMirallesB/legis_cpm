@@ -1,0 +1,180 @@
+---
+import type { Lang } from '../lib/types';
+import type { CitedLink } from '../lib/cited-links';
+import { t } from '../i18n/utils';
+
+interface Props {
+  links: CitedLink[];
+  lang: Lang;
+}
+
+const { links, lang } = Astro.props;
+---
+
+{links.length > 0 && (
+  <details class="cited-links">
+    <summary>
+      <span class="cited-links-icon" aria-hidden="true">&#128279;</span>
+      {t('links.cited_in_text', lang)}
+      <span class="cited-links-count">{links.length}</span>
+    </summary>
+    <ul class="cited-links-list">
+      {links.map((link) => (
+        <li class={link.correctedUrl ? 'has-correction' : undefined}>
+          <a class="cited-link-name" href={link.href} target="_blank" rel="noopener noreferrer">
+            {link.label} &nearr;
+          </a>
+          <a class="cited-link-where" href={`#${link.nodeId}`}>{link.nodeTitle}</a>
+          {link.correctedUrl && <span class="cited-link-flag">{t('links.wrong_in_norm', lang)}</span>}
+          <span class="cited-link-url">{link.url}</span>
+          {link.correctedUrl && (
+            <p class="cited-link-fix">
+              <span class="cited-link-fix-label">{t('links.corrected_to', lang)}:</span>
+              <a href={link.correctedUrl} target="_blank" rel="noopener noreferrer">{link.correctedUrl} &nearr;</a>
+              {link.note && <span class="cited-link-note">{link.note}</span>}
+            </p>
+          )}
+        </li>
+      ))}
+    </ul>
+  </details>
+)}
+
+<style>
+  /* Mismo lenguaje visual que ExternalResourceButtons (azul), pero plegado:
+     hay leyes con más de veinte enlaces citados y desplegadas se comerían la
+     cabecera entera. */
+  .cited-links {
+    margin-top: var(--space-md);
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: var(--radius-md);
+  }
+
+  .cited-links summary {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm) var(--space-md);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1e40af;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .cited-links summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Triángulo propio: el nativo se oculta arriba para poder colocarlo al final */
+  .cited-links summary::after {
+    content: '\25be';
+    margin-left: auto;
+    transition: transform 0.15s;
+  }
+
+  .cited-links[open] summary::after {
+    transform: rotate(180deg);
+  }
+
+  .cited-links summary:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: -2px;
+  }
+
+  .cited-links-count {
+    background: #2563eb;
+    color: #fff;
+    border-radius: 999px;
+    padding: 0 6px;
+    font-size: 0.72rem;
+    line-height: 1.5;
+  }
+
+  .cited-links-list {
+    margin: 0;
+    padding: 0 var(--space-md) var(--space-sm);
+    list-style: none;
+  }
+
+  .cited-links-list li {
+    padding: var(--space-xs) 0;
+    border-top: 1px solid #dbeafe;
+  }
+
+  .cited-link-name {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1d4ed8;
+  }
+
+  .cited-link-where {
+    display: inline-block;
+    margin-left: var(--space-xs);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  /* La URL completa se muestra para que se vea a dónde lleva antes de pulsar;
+     `anywhere` porque son "palabras" de más de 100 caracteres. */
+  .cited-link-url {
+    display: block;
+    font-family: var(--font-mono, monospace);
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+    overflow-wrap: anywhere;
+  }
+
+  /* Una errata del DOGV se marca, no se esconde: el enlace de la norma sigue
+     ahí y debajo va el que de verdad lleva al recurso. */
+  .cited-links-list li.has-correction {
+    background: #fffbeb;
+    margin: 0 calc(-1 * var(--space-xs));
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+    border-radius: var(--radius-sm);
+  }
+
+  .cited-link-flag {
+    display: inline-block;
+    margin-left: var(--space-xs);
+    padding: 0 6px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 0.68rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .cited-link-fix {
+    margin: 2px 0 0;
+    font-size: 0.78rem;
+    line-height: 1.5;
+    color: #78350f;
+  }
+
+  .cited-link-fix-label {
+    font-weight: 700;
+  }
+
+  .cited-link-fix a {
+    color: #b45309;
+    overflow-wrap: anywhere;
+  }
+
+  .cited-link-note {
+    display: block;
+    color: var(--color-text-muted);
+    font-size: 0.72rem;
+  }
+
+  @media (max-width: 480px) {
+    .cited-link-url {
+      display: none;
+    }
+  }
+</style>

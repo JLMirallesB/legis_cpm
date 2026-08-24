@@ -16,13 +16,13 @@ export function mdTableToHtml(block: string): string {
   const bodyRows = lines.slice(2);
 
   let html = '<div class="table-wrapper"><table>';
-  html += '<thead><tr>' + headerCells.map(c => `<th>${c}</th>`).join('') + '</tr></thead>';
+  html += '<thead><tr>' + headerCells.map(c => `<th>${renderInline(c)}</th>`).join('') + '</tr></thead>';
   html += '<tbody>';
   for (const row of bodyRows) {
     const cells = parseRow(row);
     html += '<tr>' + cells.map(c => {
       const bold = c.startsWith('**') && c.endsWith('**') && c.length > 4;
-      const text = bold ? c.slice(2, -2) : c;
+      const text = renderInline(bold ? c.slice(2, -2) : c);
       return bold ? `<td><strong>${text}</strong></td>` : `<td>${text}</td>`;
     }).join('') + '</tr>';
   }
@@ -30,11 +30,32 @@ export function mdTableToHtml(block: string): string {
   return html;
 }
 
-/** Render inline markdown: **bold**, and auto-link URLs */
+/**
+ * Un solo barrido de autoenlazado, con tres alternativas en el mismo regex para
+ * que ninguna pueda morder dentro de lo que otra ya ha capturado: una URL con
+ * esquema se lleva por delante el `www.` que contiene, y un `@` dentro de una
+ * URL no se confunde con un correo.
+ *
+ * Los textos del DOGV escriben las direcciones tal cual, sin marcado, así que
+ * lo que no reconozca este regex se queda en texto plano: es el único punto del
+ * proyecto donde una dirección se convierte en enlace.
+ */
+const LINKIFY_RE =
+  /(https?:\/\/[^\s<)]+[^\s<).,;:])|(\bwww\.[^\s<)]+[^\s<).,;:])|([^\s<>()[\]{}«»,;:"']+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+)/g;
+
+function anchor(href: string, label: string): string {
+  return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+}
+
+/** Render inline markdown: **bold**, and auto-link URLs, bare domains and e-mails */
 export function renderInline(text: string): string {
   return text
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/(https?:\/\/[^\s<)]+[^\s<).,;:])/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+    .replace(LINKIFY_RE, (match, url, bare, mail) => {
+      if (url) return anchor(url, url);
+      if (bare) return anchor(`https://${bare}`, bare);
+      return anchor(`mailto:${mail}`, mail);
+    });
 }
 
 /** Render a content block: table, section heading, image, or paragraph */
@@ -49,7 +70,7 @@ export function renderBlock(block: string): string {
   }
   // A block that is entirely bold = section sub-heading
   if (block.startsWith('**') && block.endsWith('**') && !block.slice(2, -2).includes('**')) {
-    return `<p class="content-heading">${block.slice(2, -2)}</p>`;
+    return `<p class="content-heading">${renderInline(block.slice(2, -2))}</p>`;
   }
   // Preserve single line breaks as <br> within a paragraph
   return `<p>${renderInline(block.replace(/\n/g, '<br>'))}</p>`;

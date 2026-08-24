@@ -1,5 +1,63 @@
 [
   {
+    "version": "2.2.0",
+    "date": "2026-08-24",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Nuevo bloque plegable «Enlaces citados en el texto» en la cabecera de cada norma: reúne todas las direcciones web que la propia norma escribe en su articulado, con un nombre legible y un salto al apartado que las cita. Se genera al compilar a partir del texto, así que no puede quedarse desfasado respecto a lo que dice la ley."
+        },
+        {
+          "type": "nuevo",
+          "description": "Cuando una norma publica un enlace equivocado y se sabe cuál era el bueno, el bloque de enlaces citados lo marca como «errata en la norma» y ofrece debajo la dirección correcta, con una nota que explica el porqué. El articulado no se toca: sigue diciendo lo que publicó el DOGV. Primer caso anotado: la Resolución de 28 de junio de 2018 remite a «www.aipd.es», que no existe, cuando la Agencia Española de Protección de Datos está en www.aepd.es."
+        },
+        {
+          "type": "corregido",
+          "description": "Las direcciones de correo electrónico que aparecen en el texto ya se muestran como enlaces (antes solo se enlazaban las URLs). Afecta a 18 direcciones repartidas por la Cuenta de gestión, las instrucciones de plantillas, el PIIE, la coordinación horaria y las instrucciones de confort térmico y de uso seguro de las TIC."
+        },
+        {
+          "type": "corregido",
+          "description": "Se reparan 13 direcciones que la extracción del PDF había partido o pegado mal y que por eso salían a medias, con la cola en texto plano, o llevaban a un 404. Entre otras: el modelo de convalidaciones del anexo X en las instrucciones de inicio de curso 2026-2027, la delegación de protección de datos y el registro de tratamiento de datos en las de 2025-2026, la instrucción operativa de embarazo y lactancia de la Circular 1/2025, el enlace del seguro escolar de la Cuenta de gestión y la web de formación del profesorado del PAF."
+        },
+        {
+          "type": "mejora",
+          "description": "Las URLs y los correos también se enlazan ahora dentro de las tablas y de los encabezados de sección, no solo en los párrafos. Y el selector de versión de un artículo pasa a usar el mismo renderizador que el resto del sitio, en vez de una copia que se había quedado atrás."
+        },
+        {
+          "type": "mejora",
+          "description": "npm run validate rechaza a partir de ahora las URLs mal transcritas del articulado: partidas por un espacio, acabadas en guion o con una coma pegada. Son los tres defectos que deja la extracción del PDF al unir líneas."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Nou bloc plegable «Enllaços citats en el text» en la capçalera de cada norma: reuneix totes les adreces web que la mateixa norma escriu en el seu articulat, amb un nom llegible i un salt a l'apartat que les cita. Es genera en compilar a partir del text, així que no pot quedar-se desfasat respecte al que diu la llei."
+        },
+        {
+          "type": "nou",
+          "description": "Quan una norma publica un enllaç equivocat i se sap quin era el bo, el bloc d'enllaços citats el marca com a «errada en la norma» i ofereix a sota l'adreça correcta, amb una nota que explica el perquè. L'articulat no es toca: continua dient el que va publicar el DOGV. Primer cas anotat: la Resolució de 28 de juny de 2018 remet a «www.aipd.es», que no existeix, quan l'Agència Espanyola de Protecció de Dades està en www.aepd.es."
+        },
+        {
+          "type": "corregit",
+          "description": "Les adreces de correu electrònic que apareixen en el text ja es mostren com a enllaços (abans només s'enllaçaven les URL). Afecta 18 adreces repartides pel Compte de gestió, les instruccions de plantilles, el PIIE, la coordinació horària i les instruccions de confort tèrmic i d'ús segur de les TIC."
+        },
+        {
+          "type": "corregit",
+          "description": "Es reparen 13 adreces que l'extracció del PDF havia partit o enganxat malament i que per això eixien a mitges, amb la cua en text pla, o portaven a un 404. Entre altres: el model de convalidacions de l'annex X en les instruccions d'inici de curs 2026-2027, la delegació de protecció de dades i el registre de tractament de dades en les de 2025-2026, la instrucció operativa d'embaràs i lactància de la Circular 1/2025, l'enllaç de l'assegurança escolar del Compte de gestió i la web de formació del professorat del PAF."
+        },
+        {
+          "type": "millora",
+          "description": "Les URL i els correus també s'enllacen ara dins de les taules i dels encapçalaments de secció, no només en els paràgrafs. I el selector de versió d'un article passa a usar el mateix renderitzador que la resta del lloc, en compte d'una còpia que s'havia quedat arrere."
+        },
+        {
+          "type": "millora",
+          "description": "npm run validate rebutja a partir d'ara les URL mal transcrites de l'articulat: partides per un espai, acabades en guió o amb una coma enganxada. Són els tres defectes que deixa l'extracció del PDF en unir línies."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.1.1",
     "date": "2026-08-22",
     "entries": {

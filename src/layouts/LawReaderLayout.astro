@@ -6,11 +6,13 @@ import VigencyBadge from '../components/VigencyBadge.astro';
 import DownloadButtons from '../components/DownloadButtons.astro';
 import FormModelButtons from '../components/FormModelButtons.astro';
 import ExternalResourceButtons from '../components/ExternalResourceButtons.astro';
+import CitedLinksBlock from '../components/CitedLinksBlock.astro';
 import LegalAnalysis from '../components/LegalAnalysis.astro';
 import LawTags from '../components/LawTags.astro';
 import NotebookPanel from '../components/NotebookPanel.astro';
 import { t } from '../i18n/utils';
 import { buildCitationData, apaReference, apaParenthetical } from '../lib/apa-citation';
+import { collectCitedLinks } from '../lib/cited-links';
 
 interface Props {
   law: Law;
@@ -20,6 +22,7 @@ interface Props {
 const { law, lang } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const citationData = buildCitationData(law);
+const citedLinks = collectCitedLinks(law, lang);
 const fullReference = apaReference(citationData);
 const parenthetical = apaParenthetical(citationData);
 const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-ES' : 'es-ES', {
@@ -61,6 +64,7 @@ const dateFormatted = new Date(law.date).toLocaleDateString(lang === 'va' ? 'ca-
       {law.externalResources && law.externalResources.length > 0 && (
         <ExternalResourceButtons resources={law.externalResources} lang={lang} />
       )}
+      <CitedLinksBlock links={citedLinks} lang={lang} />
       <div class="cite-apa-wrap">
         <button class="btn btn-cite" id="cite-apa-btn" type="button">
           &#128220; {t('cite.button', lang)}

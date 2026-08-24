@@ -82,6 +82,9 @@ npm run validate  # 0 errores obligatorio, avisos OK para leyes no ingresadas
 npm run build     # debe compilar sin errores
 ```
 
+Si la norma cita direcciones web en el texto, comprobar además que resuelven —
+ver «URLs escritas dentro del articulado» en errores conocidos.
+
 #### 5. Actualizar cross-references si la ley modifica otras
 - Añadir `posteriorAffectations` en las leyes modificadas
 - **CREAR VERSIONES** en los artículos afectados (array `versions`)
@@ -251,12 +254,74 @@ content = re.sub(r'\n([a-z]\) )', r'\n\n\1', content)  # single \n before letter
 - Los metadatos VA (title, titleShort, vigpiracy.statusLabel, promulgation.signatories.role, legalAnalysis titles/descriptions) deben traducirse al valenciano
 - Roles de firmantes estatales: `Rey de España` → `Rei d'Espanya`, `Presidente del Gobierno` → `President del Govern`, `Ministro/a de X` → `Ministre/a de X`
 
+#### URLs escritas dentro del articulado (comprobación obligatoria)
+
+Muchas resoluciones e instrucciones citan direcciones web en el propio texto. El
+renderizador las autoenlaza solo (URLs `https://`, dominios `www.` y correos, en
+párrafos, encabezados y celdas de tabla), así que **en el JSON van como texto
+plano, sin markdown de enlace**. Lo que hay que vigilar es la transcripción:
+
+- El PDF parte las URLs largas por el salto de línea. Al unir las líneas queda
+  **un espacio dentro de la dirección** (`…/Actualitzaci %C3%B3n_Instrucciones…`,
+  `…/SPRL_IOPRL_04+1910+Info rmaci%C3%B3n…`). El enlace sale a medias y la cola
+  se ve como texto suelto: es el síntoma de «hay un link que no se muestra como
+  tal».
+- O desaparece **el guion que había en el salto**: `proteccio-dedades` por
+  `proteccio-de-dades`, `delegacion-deproteccion`, `unaadaptaci%C3%B3n`,
+  `revista.seg- social.es`. La URL parece bien y da 404.
+- Ojo también con los **UUID de las rutas de `ceice.gva.es`**: pierden guiones
+  igual que el resto (`6ee7fef6-f05b48d3-…` en vez de `6ee7fef6-f05b-48d3-…`).
+- Y con el número de apartado que se pega al final de la dirección
+  (`…-publics-gva.2. Cualquier normativa…`): ahí el `2.` es el apartado
+  siguiente y hay que separarlo con `\n\n`.
+
+`npm run validate` corta con **error** los tres patrones (URL partida por un
+espacio, URL acabada en guion, coma pegada dentro de la URL), pero no detecta un
+guion perdido en medio. Por eso, tras la ingesta: **extraer todas las URLs del
+JSON y comprobarlas** (`curl -o /dev/null -w '%{http_code}' -L`). Las que den
+404 hay que mirarlas una a una y distinguir dos casos:
+
+- **Defecto nuestro** (guion o espacio perdido al extraer) → se corrige.
+- **Enlace muerto en origen** (el portal de la GVA se reestructura a menudo y las
+  normas citan rutas que ya no existen) → **se transcribe tal cual**. El texto
+  legal es el que es; no se «arregla» apuntando a otra página. Si la misma
+  dirección está mal en ES y en VA, es errata del DOGV, no de la extracción.
+
+No hay que rellenar nada en el JSON para que estos enlaces aparezcan en la
+cabecera de la ley: el bloque plegable «Enlaces citados en el texto» se genera
+en tiempo de compilación (`src/lib/cited-links.ts`). `externalResources` es solo
+para enlaces que **no** están en el articulado (calculadora de prelación,
+ADMINOVA, corrección de errores publicada aparte).
+
+**Cuando la errata es del DOGV y sabemos cuál era la dirección buena**, el
+articulado NO se toca —se transcribe lo publicado— y la corrección se anota en
+`data/metadata/link-corrections.json`:
+
+```json
+{
+  "url": "www.aipd.es",
+  "correctedUrl": "https://www.aepd.es",
+  "note": { "es": "…por qué se corrige…", "va": "…" }
+}
+```
+
+Sale marcada como «errata en la norma» dentro del bloque de enlaces citados, con
+el enlace bueno debajo. `url` tiene que coincidir **carácter a carácter** con lo
+que hay en el texto; `npm run validate` da error si deja de aparecer en alguna
+ley (corrección obsoleta), si falta la nota en un idioma o si `correctedUrl` no
+es absoluta.
+
+Esto es solo para direcciones **equivocadas** cuyo destino correcto conocemos —
+que la propia norma nombra el organismo, o que la ruta buena es evidente. Un
+enlace bien transcrito que hoy da 404 porque el portal se reorganizó **no se
+corrige a ojo**: se deja como está.
+
 #### Imágenes y diagramas en PDFs
 - Los diagramas/organigramas del PDF se extraen como texto garbled (celdas del diagrama mezcladas)
 - Detectar por patrones: bloques de texto corto con nombres de niveles educativos, siglas MECES/EQF mezclados
 - Sustituir por imagen: guardar en `public/images/laws/{slug}-{nombre}.png` y usar markdown `![alt](/legis_cpmdem/images/laws/archivo.png)`
 - `ArticleContent.astro` renderiza `![alt](url)` como `<figure>` con `<img>` y `<figcaption>`
-- `ArticleContent.astro` convierte URLs (`https://...`) en enlaces clicables automáticamente (auto-linking). No hace falta usar markdown de enlaces.
+- `content-renderer.ts` convierte URLs (`https://...`), dominios `www.` y correos en enlaces clicables automáticamente (auto-linking). No hace falta usar markdown de enlaces — ver «URLs escritas dentro del articulado».
 
 #### Leyes con contenido no relevante para conservatorios
 - Muchas leyes estatales regulan múltiples enseñanzas (ESO, bachillerato, FP, deportivas...)

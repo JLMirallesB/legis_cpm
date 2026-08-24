@@ -19,6 +19,10 @@ const citeParentheticalLabel = t('cite.parenthetical', lang);
 const citeReferenceLabel = t('cite.reference', lang);
 
 const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ?? '');
+// Cada versión se renderiza aquí, no en el cliente: así el selector de versión
+// usa el mismo renderizador que el resto del sitio (autoenlazado de URLs y
+// correos incluido) en vez de una copia que se quedaba atrás.
+const versionsHtml = (node.versions ?? []).map(v => ({ versionId: v.versionId, html: renderContent(v.content) }));
 ---
 
 <article class="article-block" id={nodeId}>
@@ -165,45 +169,16 @@ const contentHtml = renderContent(node.content ?? node.versions?.[0]?.content ??
   </script>
 
   {hasVersions && (
-    <script define:vars={{ nodeId, versions: node.versions }}>
-      function renderBlock(block) {
-        if (block.trimStart().startsWith('|') && block.includes('|---')) {
-          const lines = block.split('\n').filter(l => l.trim().startsWith('|'));
-          if (lines.length < 2) return `<p>${block}</p>`;
-          const parseRow = (line) => line.split('|').slice(1, -1).map(c => c.trim());
-          const hdr = parseRow(lines[0]);
-          let html = '<div class="table-wrapper"><table><thead><tr>' +
-            hdr.map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>';
-          for (const row of lines.slice(2)) {
-            const cells = parseRow(row);
-            html += '<tr>' + cells.map(c => {
-              const b = c.startsWith('**') && c.endsWith('**');
-              const t = b ? c.slice(2,-2) : c;
-              return b ? `<td><strong>${t}</strong></td>` : `<td>${t}</td>`;
-            }).join('') + '</tr>';
-          }
-          return html + '</tbody></table></div>';
-        }
-        if (block.startsWith('**') && block.endsWith('**') && !block.slice(2,-2).includes('**')) {
-          return `<p class="content-heading">${block.slice(2,-2)}</p>`;
-        }
-        return `<p>${block.replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(https?:\/\/[^\s<)]+[^\s<).,;:])/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>')}</p>`;
-      }
-
+    <script define:vars={{ nodeId, versionsHtml }}>
       const selector = document.querySelector(`.version-selector[data-article-id="${nodeId}"] select`);
       const textContainer = document.querySelector(`.article-text[data-article-id="${nodeId}"]`);
       const indicator = document.querySelector(`.version-indicator[data-indicator-id="${nodeId}"]`);
 
       if (selector && textContainer) {
         selector.addEventListener('change', (e) => {
-          const selectedId = e.target.value;
-          const selectedIdx = versions.findIndex((v) => v.versionId === selectedId);
-          const version = versions[selectedIdx];
-          if (version) {
-            textContainer.innerHTML = version.content
-              .split('\n\n')
-              .map(renderBlock)
-              .join('');
+          const selectedIdx = versionsHtml.findIndex((v) => v.versionId === e.target.value);
+          if (selectedIdx !== -1) {
+            textContainer.innerHTML = versionsHtml[selectedIdx].html;
           }
           if (indicator) {
             indicator.classList.toggle('version-current', selectedIdx === 0);
