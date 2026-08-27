@@ -1,5 +1,31 @@
 [
   {
+    "version": "2.2.1",
+    "date": "2026-08-27",
+    "entries": {
+      "es": [
+        {
+          "type": "corregido",
+          "description": "El selector de idioma ya no lleva a un 404 en Documentos ni en Órganos. La equivalencia entre rutas traducía «ley», «cuadernos» y «datos», pero se había dejado fuera «documentos»/«documents» y «órganos»/«organs», así que desde esas dos secciones el botón de idioma apuntaba a una dirección que no existe. Ahora las rutas traducidas están en una única tabla, para que una sección nueva no vuelva a quedarse fuera por olvido."
+        },
+        {
+          "type": "mejora",
+          "description": "La cabecera en móvil deja de apelotonarse: por debajo de 900px los seis enlaces del menú pasan a un desplegable con botón de menú, y en la barra solo quedan el nombre del sitio y el selector de idioma. El desplegable se cierra al elegir un enlace, al tocar fuera y con la tecla Escape. El nombre del sitio vuelve a verse en pantallas pequeñas, donde antes desaparecía y dejaba un hueco sin nada en el que pulsar."
+        }
+      ],
+      "va": [
+        {
+          "type": "corregit",
+          "description": "El selector d'idioma ja no porta a un 404 en Documents ni en Òrgans. L'equivalència entre rutes traduïa «ley», «cuadernos» i «datos», però s'havia deixat fora «documentos»/«documents» i «órganos»/«organs», així que des d'aquestes dues seccions el botó d'idioma apuntava a una adreça que no existeix. Ara les rutes traduïdes estan en una única taula, perquè una secció nova no torne a quedar-se fora per oblit."
+        },
+        {
+          "type": "millora",
+          "description": "La capçalera en mòbil deixa d'apilotonar-se: per davall de 900px els sis enllaços del menú passen a un desplegable amb botó de menú, i en la barra només queden el nom del lloc i el selector d'idioma. El desplegable es tanca en triar un enllaç, en tocar fora i amb la tecla Escape. El nom del lloc torna a veure's en pantalles xicotetes, on abans desapareixia i deixava un buit sense res on polsar."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.2.0",
     "date": "2026-08-24",
     "entries": {
