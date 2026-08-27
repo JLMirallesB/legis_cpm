@@ -12,6 +12,7 @@ const { lang, currentUrl } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const otherLang = getOtherLang(lang);
 const alternateUrl = getAlternateUrl(currentUrl, otherLang);
+const menuLabel = lang === 'va' ? 'Menú de navegació' : 'Menú de navegación';
 ---
 
 <header class="header">
@@ -21,7 +22,7 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
       <span class="logo-version">v{VERSION}</span>
     </a>
 
-    <nav class="nav" aria-label={lang === 'va' ? 'Navegació principal' : 'Navegación principal'}>
+    <nav id="main-nav" class="nav" aria-label={lang === 'va' ? 'Navegació principal' : 'Navegación principal'}>
       <a href={`${base}${lang}/`} class="nav-link">{t('nav.catalog', lang)}</a>
       <a href={`${base}${lang}/buscar/`} class="nav-link">{t('nav.search', lang)}</a>
       <a href={`${base}${lang}/${lang === 'va' ? 'documents' : 'documentos'}/`} class="nav-link">{t('nav.docs', lang)}</a>
@@ -33,9 +34,18 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
       </a>
     </nav>
 
-    <a href={alternateUrl} class="lang-switch btn" role="link" aria-label={lang === 'va' ? `Canviar a ${t('lang.switch', lang)}` : `Cambiar a ${t('lang.switch', lang)}`} data-target-lang={otherLang}>
-      {t('lang.switch', lang)}
-    </a>
+    <div class="header-actions">
+      <a href={alternateUrl} class="lang-switch btn" role="link" aria-label={lang === 'va' ? `Canviar a ${t('lang.switch', lang)}` : `Cambiar a ${t('lang.switch', lang)}`} data-target-lang={otherLang}>
+        {t('lang.switch', lang)}
+      </a>
+
+      <button type="button" class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label={menuLabel}>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path class="icon-open" d="M3 6h18M3 12h18M3 18h18" />
+          <path class="icon-close" d="M5 5l14 14M19 5L5 19" />
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -44,6 +54,43 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     const target = (e.currentTarget as HTMLElement).dataset.targetLang;
     if (target) localStorage.setItem('legis-cpmdem-lang', target);
   });
+
+  // Menú desplegable en móvil: los seis enlaces no caben en la barra.
+  const header = document.querySelector('.header');
+  const toggle = document.querySelector<HTMLButtonElement>('.nav-toggle');
+  const nav = document.getElementById('main-nav');
+
+  if (header && toggle && nav) {
+    const setOpen = (open: boolean) => {
+      toggle.setAttribute('aria-expanded', String(open));
+      nav.classList.toggle('is-open', open);
+    };
+
+    toggle.addEventListener('click', () => {
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    // Cerrar al navegar, al pulsar fuera o con Escape.
+    nav.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('a')) setOpen(false);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!header.contains(e.target as Node)) setOpen(false);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+
+    // Si se vuelve a ancho de escritorio con el menú abierto, no dejar rastro.
+    window.matchMedia('(min-width: 901px)').addEventListener('change', (e) => {
+      if (e.matches) setOpen(false);
+    });
+  }
 </script>
 
 <style>
@@ -55,7 +102,6 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     color: white;
     height: var(--header-height);
     box-shadow: var(--shadow-md);
-    overflow: hidden;
   }
 
   .header-inner {
@@ -75,6 +121,7 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     font-weight: 700;
     font-size: 1.25rem;
     text-decoration: none;
+    flex-shrink: 0;
   }
 
   .logo:hover {
@@ -113,10 +160,30 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     text-decoration: none;
   }
 
-  /* «Datos abiertos» es la etiqueta más larga del menú: por debajo de 640px
-     se abrevia a «Datos» para que la barra no desborde en móvil. */
+  /* «Datos abiertos» es la etiqueta más larga del menú: solo se abrevia en la
+     franja de escritorio justa (901-1000px), donde la barra todavía lleva los
+     seis enlaces. En el desplegable móvil sobra sitio y se muestra entera. */
   .nav-short {
     display: none;
+  }
+
+  @media (min-width: 901px) and (max-width: 1000px) {
+    .nav {
+      gap: var(--space-sm);
+    }
+    .nav-full {
+      display: none;
+    }
+    .nav-short {
+      display: inline;
+    }
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-shrink: 0;
   }
 
   .lang-switch {
@@ -134,9 +201,77 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     color: white;
   }
 
-  @media (max-width: 640px) {
-    .logo-text {
+  .nav-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-sm);
+    color: white;
+    cursor: pointer;
+  }
+
+  .nav-toggle:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .nav-toggle svg {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .nav-toggle .icon-close {
+    display: none;
+  }
+
+  .nav-toggle[aria-expanded='true'] .icon-open {
+    display: none;
+  }
+
+  .nav-toggle[aria-expanded='true'] .icon-close {
+    display: inline;
+  }
+
+  /* Por debajo de 900px los seis enlaces ya no caben junto al logo y el selector
+     de idioma: pasan a un desplegable bajo la barra. */
+  @media (max-width: 900px) {
+    .nav-toggle {
+      display: inline-flex;
+    }
+
+    .nav {
       display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 0;
+      padding: var(--space-sm) 0;
+      background: var(--color-primary-dark);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .nav.is-open {
+      display: flex;
+    }
+
+    .nav-link {
+      font-size: 1rem;
+      padding: var(--space-sm) var(--space-md);
+      border-radius: 0;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .logo {
+      font-size: 1.05rem;
     }
     .logo-version {
       display: none;
@@ -144,28 +279,9 @@ const alternateUrl = getAlternateUrl(currentUrl, otherLang);
     .header-inner {
       gap: var(--space-sm);
     }
-    .nav {
-      gap: var(--space-sm);
-    }
-    .nav-full {
-      display: none;
-    }
-    .nav-short {
-      display: inline;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .nav {
-      gap: var(--space-xs);
-    }
-    .nav-link {
-      font-size: 0.8rem;
-      padding: var(--space-xs);
-    }
     .lang-switch {
       font-size: 0.75rem;
-      padding: var(--space-xs);
+      padding: var(--space-xs) var(--space-sm);
     }
   }
 </style>
