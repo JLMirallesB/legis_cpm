@@ -1,5 +1,23 @@
 [
   {
+    "version": "2.3.0",
+    "date": "2026-08-31",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Cuaderno nuevo: «Pianista acompañante». Reúne lo que la normativa dice sobre la figura del pianista o clavecinista acompañante y, en danza, del guitarrista y el cantaor acompañantes. Ningún texto la regula entera: se lee repartida entre los cuatro decretos de currículo (que la crean y la adscriben a departamento), el artículo 28 del Decreto 57/2020 (a qué departamento va quien ejerce en varios), las instrucciones de inicio de curso 2026-2027 (lo que debe regular el PEC, funciones y organización horaria en música y en danza, horas lectivas y horario anexo a la PGA), el anexo VII de la Orden 9/2025 y el apartado 8.2 de las instrucciones de plantillas 2026-2027 (cómputo de cupo y prorrateo por nivel), y el anexo V del Real Decreto 428/2013 (qué imparten los titulares de las antiguas especialidades de acompañante)."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Quadern nou: «Pianista acompanyant». Reuneix el que la normativa diu sobre la figura del pianista o clavecinista acompanyant i, en dansa, del guitarrista i el cantaor acompanyants. Cap text no la regula sencera: es llig repartida entre els quatre decrets de currículum (que la creen i l'adscriuen a departament), l'article 28 del Decret 57/2020 (a quin departament va qui exerceix en diversos), les instruccions d'inici de curs 2026-2027 (el que ha de regular el PEC, funcions i organització horària en música i en dansa, hores lectives i horari annex a la PGA), l'annex VII de l'Ordre 9/2025 i l'apartat 8.2 de les instruccions de plantilles 2026-2027 (còmput de quota i prorrateig per nivell), i l'annex V del Reial decret 428/2013 (què imparteixen els titulars de les antigues especialitats d'acompanyant)."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.2.1",
     "date": "2026-08-27",
     "entries": {
