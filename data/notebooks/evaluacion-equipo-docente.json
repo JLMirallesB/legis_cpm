@@ -9,6 +9,10 @@
     "es": "Normativa sobre las sesiones de evaluación, funciones del equipo docente en la evaluación colegiada, documentos de evaluación preceptivos (actas, informes individualizados), planificación de sesiones y participación del pianista acompañante.",
     "va": "Normativa sobre les sessions d'avaluació, funcions de l'equip docent en l'avaluació col·legiada, documents d'avaluació preceptius (actes, informes individualitzats), planificació de sessions i participació del pianista acompanyant."
   },
+  "triage": {
+    "mode": "manual",
+    "reason": "Cuaderno temático difuso: se construyó leyendo, no buscando. El término ingenuo («evaluación») da 801 candidatos; afinado a colocaciones baja a 142, pero solo reencuentra 14 de las 37 refs de la ficha, porque la mayoría de los artículos hablan de sesiones de evaluación sin usar ninguna fórmula literal. Un cribado que pierde dos tercios de lo que ya hay no sirve de red."
+  },
   "updatedAt": "2026-04-24",
   "refs": [
     {

@@ -9,6 +9,12 @@
     "es": "Todo lo que la normativa vigente dice sobre las unidades didácticas. Ninguna norma del repositorio las define ni regula su contenido: aparecen siempre como la unidad de referencia que las adaptaciones y los refuerzos deben respetar, y siempre en normativa de inclusión.",
     "va": "Tot el que la normativa vigent diu sobre les unitats didàctiques. Cap norma del repositori no les definix ni en regula el contingut: apareixen sempre com la unitat de referència que les adaptacions i els reforços han de respectar, i sempre en normativa d'inclusió."
   },
+  "terms": [
+    "unidad didactica",
+    "unidades didacticas",
+    "unitat didactica",
+    "unitats didactiques"
+  ],
   "updatedAt": "2026-08-19",
   "refs": [
     {
@@ -88,5 +94,6 @@
       },
       "checkedAt": "2026-08-20"
     }
-  ]
+  ],
+  "discarded": []
 }

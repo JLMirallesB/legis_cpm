@@ -204,6 +204,21 @@ export interface Freshness {
   reasons: FreshnessReason[];
 }
 
+/**
+ * Por qué una ficha se queda fuera del cribado por términos. No todo lo que
+ * este repositorio agrupa tiene una palabra que lo nombre: un cuaderno puede
+ * definirse por «los artículos 15 a 24 de la Ley 40/2015» o por un tema
+ * difuso que se leyó, no que se buscó. Buscarlo por término da mucho ruido y,
+ * peor, pierde apartados que sí lo regulan sin nombrarlo.
+ *
+ * Se declara para que el hueco quede escrito: `refs-triage.mjs --todas` las
+ * lista al final en vez de callárselas.
+ */
+export interface TriagePolicy {
+  mode: 'manual';
+  reason: string;
+}
+
 export interface NotebookDefinition {
   id: string;
   slug: string;
@@ -211,6 +226,22 @@ export interface NotebookDefinition {
   description: Record<Lang, string>;
   updatedAt: string;
   refs: Ref[];
+
+  /**
+   * Términos para el cribado de cada ingesta, en los dos idiomas y sin tildes
+   * (el cribado compara plegado). Solo lo llevan los cuadernos que se definen
+   * por un nombre propio; el resto declara `triage`.
+   */
+  terms?: string[];
+
+  /** Homónimos que se tapan antes de comparar. */
+  exclude?: string[];
+
+  /** Decisiones de «esto no va aquí», mismo formato que en los documentos. */
+  discarded?: CenterDocDefinition['discarded'];
+
+  /** Presente solo si el cuaderno NO se criba por términos. */
+  triage?: TriagePolicy;
 }
 
 export interface ResolvedFragment {

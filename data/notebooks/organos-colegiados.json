@@ -9,6 +9,10 @@
     "es": "Régimen de funcionamiento de los órganos colegiados según la Ley 40/2015: constitución, convocatorias, actas, abstención y recusación.",
     "va": "Règim de funcionament dels òrgans col·legiats segons la Llei 40/2015: constitució, convocatòries, actes, abstenció i recusació."
   },
+  "triage": {
+    "mode": "manual",
+    "reason": "El criterio del cuaderno es «los artículos 15 a 24 de la Ley 40/2015», no un término. Cribar por «órgano colegiado» da 95 candidatos, de los que 47 son menciones de pasada en otras normas, y además pierde los artículos 23 y 24 (abstención y recusación), que regulan el régimen sin nombrarlo. Si la Ley 40/2015 se modifica, ya avisa npm run validate por posteriorAffectations."
+  },
   "updatedAt": "2026-04-23",
   "refs": [
     {

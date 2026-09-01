@@ -9,6 +9,18 @@
     "es": "Correspondencia entre las enseñanzas profesionales de música y danza y la educación secundaria: simultaneidad de estudios, convalidaciones y creación de centros integrados. Base estatal (LOE y reales decretos de currículo) y desarrollo autonómico valenciano.",
     "va": "Correspondència entre els ensenyaments professionals de música i dansa i l'educació secundària: simultaneïtat d'estudis, convalidacions i creació de centres integrats. Base estatal (LOE i reials decrets de currículum) i desplegament autonòmic valencià."
   },
+  "terms": [
+    "centro integrado",
+    "centros integrados",
+    "centre integrat",
+    "centres integrats",
+    "simultaneidad",
+    "simultaneitat",
+    "simultanear",
+    "simultaniejar",
+    "convalidacion",
+    "convalidacio"
+  ],
   "updatedAt": "2026-07-18",
   "refs": [
     {
@@ -83,5 +95,6 @@
         "va": "f377d908"
       }
     }
-  ]
+  ],
+  "discarded": []
 }

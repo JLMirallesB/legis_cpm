@@ -9,6 +9,10 @@
     "es": "Cuadros de horas de asignatura por especialidad de los decretos de currículo autonómicos de música y danza.",
     "va": "Quadres d'hores d'assignatura per especialitat dels decrets de currículum autonòmics de música i dansa."
   },
+  "triage": {
+    "mode": "manual",
+    "reason": "Las refs son cuadros de horas en anexos: «distribución horaria» está en el título del anexo, no en el texto de las celdas, y el cribado compara el texto del apartado. Reencuentra 2 de 5 refs. Revisar a mano los anexos de horarios de los decretos de currículo cuando se ingeste o modifique uno."
+  },
   "updatedAt": "2026-04-09",
   "refs": [
     {
