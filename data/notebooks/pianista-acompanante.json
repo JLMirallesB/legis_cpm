@@ -1,0 +1,151 @@
+{
+  "id": "pianista-acompanante",
+  "slug": "pianista-acompanante",
+  "title": {
+    "es": "Pianista acompañante",
+    "va": "Pianista acompanyant"
+  },
+  "description": {
+    "es": "Todo lo que la normativa dice sobre la figura del pianista o clavecinista acompañante —y, en danza, del guitarrista y el cantaor acompañantes—: dónde se crea, a qué departamento se adscribe, qué le toca regular al centro en el PEC, cómo se calcula su horario y de qué especialidad docente depende. Ningún texto la regula entera: se lee repartida entre los cuatro decretos de currículo, el Decreto 57/2020, las instrucciones de inicio de curso y las normas de plantilla.",
+    "va": "Tot el que la normativa diu sobre la figura del pianista o clavecinista acompanyant —i, en dansa, del guitarrista i el cantaor acompanyants—: on es crea, a quin departament s'adscriu, què li toca regular al centre en el PEC, com es calcula el seu horari i de quina especialitat docent depén. Cap text no la regula sencera: es llig repartida entre els quatre decrets de currículum, el Decret 57/2020, les instruccions d'inici de curs i les normes de plantilla."
+  },
+  "updatedAt": "2026-08-31",
+  "refs": [
+    {
+      "law": "decreto-159-2007",
+      "article": "art-23",
+      "note": "Crea la figura en las enseñanzas elementales de música y la adscribe al departamento de la especialidad en que apoya.",
+      "hash": {
+        "es": "d2f582b0",
+        "va": "3b6d3481"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "decreto-158-2007",
+      "article": "art-24",
+      "note": "Misma previsión para las enseñanzas profesionales de música.",
+      "hash": {
+        "es": "c8ec8bbf",
+        "va": "58054b01"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "decreto-157-2007",
+      "article": "art-22",
+      "note": "En danza elemental el encaje es distinto: departamento específico de contenido teórico musical, con obligación de asistir a los de las asignaturas en que se ejerce cuando se le requiera.",
+      "hash": {
+        "es": "b3958777",
+        "va": "fb7cf3cb"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "decreto-156-2007",
+      "article": "art-25",
+      "note": "En danza profesional el artículo cubre tres figuras: pianista, guitarrista y cantaor acompañantes.",
+      "hash": {
+        "es": "9f677c22",
+        "va": "07fd956c"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "decreto-57-2020",
+      "article": "art-28",
+      "apartado": "4",
+      "note": "Regla de adscripción cuando se ejerce en más de un departamento: decide la dirección a propuesta de la COCOPE.",
+      "hash": {
+        "es": "a83614e9",
+        "va": "731b1198"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-1-2",
+      "apartado": "1.2.4",
+      "note": "Lo que el PEC debe contemplar: funciones, criterios de distribución horaria y ponderación en la calificación de la especialidad.",
+      "hash": {
+        "es": "1f92eb40",
+        "va": "07094a08"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-2",
+      "note": "Régimen completo en música: equipo docente con voz y voto, departamento, planificación propia, organización horaria y autoevaluación del impacto.",
+      "hash": {
+        "es": "3dd53ceb",
+        "va": "bf159529"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-3",
+      "note": "En danza el régimen es mucho más escueto y se remite a lo que regule el PEC.",
+      "hash": {
+        "es": "e96e5ec9",
+        "va": "288bb65a"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-6-1",
+      "apartado": "6.1.1.4.b",
+      "note": "Las horas de acompañamiento cuentan como horas lectivas semanales.",
+      "hash": {
+        "es": "0c34616e",
+        "va": "4ec98265"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "resolucion-inicio-curso-2026-2027",
+      "article": "anexo-4-1",
+      "apartado": "5",
+      "note": "La PGA incorpora como anexo el horario del profesorado que desempeña la función.",
+      "hash": {
+        "es": "af662a4b",
+        "va": "da962802"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "orden-9-2025",
+      "article": "anexo-7",
+      "apartado": "5.1",
+      "note": "A efectos de plantilla las horas van en la especialidad de piano, y la dotación la fija la dirección general competente.",
+      "hash": {
+        "es": "560c37bd",
+        "va": "995e7b19"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "instrucciones-plantillas-conservatorios-2026-2027",
+      "article": "sec-8",
+      "apartado": "8.2",
+      "note": "El prorrateo por nivel educativo (5', 10', 15', 30' por alumno) y los agrupamientos de sesiones. Es el apartado al que remiten las instrucciones de inicio de curso.",
+      "hash": {
+        "es": "30abcc62",
+        "va": "a1f917a5"
+      },
+      "checkedAt": "2026-08-31"
+    },
+    {
+      "law": "real-decreto-428-2013",
+      "article": "anexo-5",
+      "note": "Qué asignaturas imparten los titulares de las antiguas especialidades de pianista acompañante (canto, danza, instrumentos), clavecinista acompañante y guitarrista acompañante flamenco.",
+      "hash": {
+        "es": "e47aa4d8",
+        "va": "e47aa4d8"
+      },
+      "checkedAt": "2026-08-31"
+    }
+  ]
+}
