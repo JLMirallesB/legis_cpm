@@ -1,5 +1,31 @@
 [
   {
+    "version": "2.3.1",
+    "date": "2026-09-01",
+    "entries": {
+      "es": [
+        {
+          "type": "mejora",
+          "description": "El cribado que se pasa a cada ley nueva ya no se deja fuera a los cuadernos. Hasta ahora solo revisaba las fichas de documentos de centro: los órganos podían revisarse pero nada lo mandaba, y los cuadernos no entraban en absoluto, así que una norma nueva podía tocar un cuaderno sin que saltara nada. Ahora un solo comando recorre las tres carpetas."
+        },
+        {
+          "type": "mejora",
+          "description": "Los seis cuadernos se midieron uno a uno antes de darles términos de búsqueda, comprobando si el cribado reencuentra las referencias que la ficha ya tiene. Tres lo pasan y entran («Pianista acompañante», «Unidades didácticas» y «Centros integrados y coordinación de enseñanzas»). Los otros tres no se dejan buscar por una palabra: «Órganos colegiados» se define por un tramo de la Ley 40/2015 y el término pierde la abstención y la recusación; «Evaluación» es demasiado difuso; «Distribución horaria» vive en cuadros de anexo donde el término está en el título, no en el texto. Esos tres quedan marcados como de revisión manual, con el motivo escrito en la propia ficha, y el cribado los nombra en voz alta al terminar en vez de callárselos. Un hueco anotado se revisa; uno silencioso, no."
+        }
+      ],
+      "va": [
+        {
+          "type": "millora",
+          "description": "El garbellat que es passa a cada llei nova ja no es deixa fora els quaderns. Fins ara només revisava les fitxes de documents de centre: els òrgans es podien revisar però res no ho manava, i els quaderns no hi entraven gens, de manera que una norma nova podia tocar un quadern sense que saltara res. Ara una sola ordre recorre les tres carpetes."
+        },
+        {
+          "type": "millora",
+          "description": "Els sis quaderns es van mesurar un a un abans de donar-los termes de cerca, comprovant si el garbellat retroba les referències que la fitxa ja té. Tres el passen i hi entren («Pianista acompanyant», «Unitats didàctiques» i «Centres integrats i coordinació d'ensenyaments»). Els altres tres no es deixen buscar per una paraula: «Òrgans col·legiats» es definix per un tram de la Llei 40/2015 i el terme perd l'abstenció i la recusació; «Avaluació» és massa difús; «Distribució horària» viu en quadres d'annex on el terme està en el títol, no en el text. Aquests tres queden marcats com de revisió manual, amb el motiu escrit en la fitxa mateixa, i el garbellat els anomena en veu alta en acabar en compte de callar-se'ls. Un buit anotat es revisa; un de silenciós, no."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.3.0",
     "date": "2026-08-31",
     "entries": {
