@@ -91,9 +91,17 @@ ver «URLs escritas dentro del articulado» en errores conocidos.
 - Actualizar `lastModifiedDate` en `vigpiracy`
 - Actualizar `data/metadata/law-registry.json`
 
-#### 6. ⚠️ Cribar la ley nueva contra las fichas de documentos de centro
+#### 6. ⚠️ Cribar la ley nueva contra las fichas
 
-**Paso obligatorio de toda ingesta.** Por cada ficha de `data/center-docs/`:
+**Paso obligatorio de toda ingesta.** El cribado cubre **tres** carpetas, no
+una: `data/center-docs/` (documentos), `data/organos/` (órganos y cargos) y
+`data/notebooks/` (cuadernos). Un solo comando las recorre todas:
+
+```bash
+node scripts/refs-triage.mjs --todas --ley <slug-de-la-ley-nueva>
+```
+
+Para una ficha suelta, su slug en vez de `--todas`:
 
 ```bash
 node scripts/refs-triage.mjs pec --ley <slug-de-la-ley-nueva>
@@ -114,12 +122,27 @@ distintos**, aunque uno viva dentro de otro. El PEC, la PGA y el Plan de Mejora
 son tres fichas, no una. (Y en conservatorios el documento se llama **Plan de
 Mejora**: el PAM es otra cosa, de los centros de régimen general.)
 
+**Fichas que no se criban por términos.** Algunas no se definen por una
+palabra sino por un tramo de articulado («los arts. 15-24 de la Ley 40/2015»)
+o por un tema difuso. Buscarlas por término da mucho ruido y, peor, pierde
+apartados que las regulan sin nombrarlas. Esas declaran en su JSON:
+
+```json
+"triage": { "mode": "manual", "reason": "…por qué el término no sirve…" }
+```
+
+`--todas` las lista al final, con su motivo, en vez de callárselas: el hueco
+queda dicho para que alguien lo mire a mano. Hoy son tres cuadernos
+(`organos-colegiados`, `evaluacion-equipo-docente`, `distribucion-horaria`).
+Antes de poner `terms` a una ficha nueva, medir el **recall**: si el cribado no
+reencuentra las refs que ya tiene, no sirve de red y va a manual.
+
 Tras tocar una ficha: `npm run validate` y `npm run refs:refresh` si procede.
 
 #### 6 bis. ⚠️ Revisar las referencias con ancla que apunten a lo que has tocado
 
-`npm run validate` comprueba todas las referencias de `data/notebooks/` y de
-`data/center-docs/` contra las leyes:
+`npm run validate` comprueba todas las referencias de `data/notebooks/`,
+`data/center-docs/` y `data/organos/` contra las leyes:
 
 - **Error** si un ancla ya no resuelve: el apartado citado ha desaparecido o se
   ha renumerado. Rompe el build a propósito.

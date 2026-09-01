@@ -9,6 +9,18 @@
     "es": "Todo lo que la normativa dice sobre la figura del pianista o clavecinista acompañante —y, en danza, del guitarrista y el cantaor acompañantes—: dónde se crea, a qué departamento se adscribe, qué le toca regular al centro en el PEC, cómo se calcula su horario y de qué especialidad docente depende. Ningún texto la regula entera: se lee repartida entre los cuatro decretos de currículo, el Decreto 57/2020, las instrucciones de inicio de curso y las normas de plantilla.",
     "va": "Tot el que la normativa diu sobre la figura del pianista o clavecinista acompanyant —i, en dansa, del guitarrista i el cantaor acompanyants—: on es crea, a quin departament s'adscriu, què li toca regular al centre en el PEC, com es calcula el seu horari i de quina especialitat docent depén. Cap text no la regula sencera: es llig repartida entre els quatre decrets de currículum, el Decret 57/2020, les instruccions d'inici de curs i les normes de plantilla."
   },
+  "terms": [
+    "pianista acompanante",
+    "pianista acompanyant",
+    "clavecinista acompanante",
+    "clavecinista acompanyant",
+    "guitarrista acompanante",
+    "guitarrista acompanyant",
+    "cantaor acompanante",
+    "cantaor acompanyant",
+    "profesorado acompanante",
+    "professorat acompanyant"
+  ],
   "updatedAt": "2026-08-31",
   "refs": [
     {
@@ -147,5 +159,6 @@
       },
       "checkedAt": "2026-08-31"
     }
-  ]
+  ],
+  "discarded": []
 }
