@@ -1,0 +1,125 @@
+{
+  "id": "instruccion-1-2026-asuntos-particulares",
+  "slug": "instruccion-1-2026-asuntos-particulares",
+  "type": "instrucciones",
+  "number": "1/2026",
+  "date": "2026-09-01",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "",
+    "date": "2026-09-02",
+    "url": "https://ceice.gva.es/va/web/rrhh-educacion/-/permisos-per-assumptes-particulars-i-per-cura-de-fill-o-filla-menor-afectat-o-afectada-per-c%C3%80ncer-o-una-altra-malaltia-greu",
+    "pdfUrl": "https://ceice.gva.es/documents/162909733/414622723/Instrucci%C3%B3+assumptes++particulars_26-006677_trad_firmado.pdf/899a90fb-61d3-76f6-bb11-f2455384d866"
+  },
+  "title": "Instrucció 1/2026 de la Direcció General de Personal Docent per la qual es regulen els assumptes particulars retribuïts del personal docent no universitari dependent de la Conselleria d’Educació, Cultura i Universitats",
+  "titleShort": "Instrucció 1/2026 - Assumptes particulars retribuïts del personal docent",
+  "category": "profesorado",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigent",
+    "effectiveDate": "2026-09-02"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preàmbul",
+      "content": "La Llei 4/2021, de 16 d’abril, de la funció pública valenciana, establix en l’article 80.1 que “el personal funcionari podrà gaudir dels permisos establits en l’article 48 del text refós de la Llei de l’Estatut bàsic de l’empleat públic, aprovat pel Reial decret legislatiu 5/2015, de 30 d’octubre”.\n\nEste Reial decret legislatiu 5/2015 indica que els funcionaris públics tenen els permisos següents: “Per assumptes particulars, sis dies cada any”.\n\nEn data 5 de gener de 2023 es va publicar en el Diari Oficial de la Generalitat Valenciana número 9506 el Decret 234/2022, de 30 de desembre, del Consell, pel qual es regulen les condicions de treball del personal docent no universitari funcionarial dependent de la Conselleria d’Educació, Cultura i Esport: permisos i llicències.\n\nEn desplegament d’este decret, el 17 de gener de 2025 es va publicar en el portal web de la Conselleria d’Educació, Cultura i Universitats la Circular 1/2025, de la Direcció General de Personal Docent, per la qual s’aprova el manual/instruccions de permisos i llicències del personal docent no universitari de centres públics dependents de la conselleria competent en matèria d’educació.\n\nTant en el Decret 234/2022, de 30 de desembre, com en la Circular 1/2025, de 17 de gener, no es fa una menció expressa sobre el permís per assumptes particulars retribuïts per part del personal docent no universitari.\n\nNo obstant això, el 25 de maig de 2026, les organitzacions sindicals ANPE i CSIF i esta conselleria van firmar un acord per la millora del sistema educatiu de la Comunitat Valenciana pel qual s’establix la implantació de 6 dies de lliure disposició a partir del curs 26/27 (3 en dies lectius i 3 en dies no lectius).\n\nEsta en fase de tramitació el Decret …/2026, del Consell, pel qual es regula l’horari del personal docent en els centres públics no universitaris de la Comunitat Valenciana, que contempla una disposició addicional per la qual es modifica el Decret 234/ 2022, de 30 de desembre, del Consell, pel qual es regulen les condicions de treball del personal docent no universitari funcionarial dependent de la Conselleria d’Educació, Cultura i Esport: permisos i llicències; esta disposició hi afig l’article 24 bis, que establix el permís per assumptes particulars."
+    },
+    {
+      "type": "articulo",
+      "id": "objeto",
+      "title": "Objecte",
+      "content": "La present instrucció té com a objecte la regulació del permís per assumptes particulars del personal docent no universitari."
+    },
+    {
+      "type": "articulo",
+      "id": "persona",
+      "title": "Persona que el gaudix",
+      "content": "El personal docent no universitari que presta servicis en els centres docents públics dependents de la Generalitat Valenciana."
+    },
+    {
+      "type": "articulo",
+      "id": "duracion",
+      "title": "Duració",
+      "content": "El personal funcionari docent podrà gaudir d’este permís, cada curs escolar, fins a sis dies: tres en període lectiu i tres en període no lectiu.\n\nAteses les característiques especials del calendari i la jornada escolar, el període de gaudi d’este permís serà des de l’1 de setembre fins al 31 de juliol de l’any següent, és a dir, el curs escolar.\n\nEn qualsevol cas, els dies d’assumptes particulars que no hagen sigut gaudits en el curs escolar en què es generen no seran acumulables al curs següent."
+    },
+    {
+      "type": "articulo",
+      "id": "organo-competente",
+      "title": "Òrgan competent",
+      "content": "La sol·licitud es presentarà en el centre a on es presten servicis i la resoldrà el director o la directora del centre.\n\nEn el cas dels directors i directores dels centres docents, la sol·licitud la presentaran en la direcció territorial corresponent i la resoldrà el director o directora territorial."
+    },
+    {
+      "type": "articulo",
+      "id": "efectos-retributivos",
+      "title": "Efectes retributius",
+      "content": "Sis dies amb dret a retribucions."
+    },
+    {
+      "type": "articulo",
+      "id": "solicitud",
+      "title": "Sol·licitud",
+      "content": "La sol·licitud es realitzarà, respecte a la data prevista per al seu gaudi, amb una antelació mínima de set dies naturals i una antelació màxima d’un mes. La sol·licitud haurà de finalitzar-se amb la corresponent resolució que autoritze o denegue el permís sol·licitat. En el cas de resolució denegatòria, esta haurà de ser motivada. En el supòsit de no rebre resposta a la sol·licitud, el silenci administratiu serà negatiu.\n\nQuan concórreguen circumstàncies excepcionals que impossibiliten la sol·licitud del permís dins dels terminis establits, esta podrà presentar-se tan prompte com estes circumstàncies siguen conegudes, i la seua admissió quedarà subjecta a la valoració corresponent."
+    },
+    {
+      "type": "articulo",
+      "id": "observaciones",
+      "title": "Observacions",
+      "content": "– No es concediran permisos per assumptes particulars en els casos següents:\n• Durant els 7 primers dies lectius i els 7 últims dies lectius del curs escolar.\n• En el període de set dies lectius abans o després dels períodes no lectius de Nadal i Pasqua.\n• En el període de set dies lectius abans o després de les festes de Falles, Magdalena i Sant Joan en els centres docents de municipis a on se celebren estes festivitats.\n• En període d’avaluacions, ni entre avaluació ordinària i extraordinària de fi de curs.\n\n– No podran gaudir-se de forma consecutiva en dies lectius. A este efecte, divendres i dilluns es consideren dies lectius consecutius.\n\n– Obligatòriament, el docent que obtinga un permís d’assumptes particulars deixarà un pla d’activitats per a l’alumnat.\n\n– La seua concessió estarà condicionada a les necessitats del servici educatiu i a l’autorització prèvia.\n\n– El nombre màxim de docents en un centre als quals podrà concedir-se este permís per a un mateix dia lectiu s’ajustarà a l’escala següent:\n\n| Docents del centre | Màxim de permisos per a un mateix dia lectiu |\n|---|---|\n| Fins a 20 docents | 1 docent |\n| Entre 21 i 40 docents | 2 docents |\n| Entre 41 i 60 docents | 3 docents |\n| Entre 61 i 80 docents | 4 docents |\n| Entre 81 i 100 docents | 5 docents |\n| Entre 101 i 120 docents | 6 docents |\n| Entre 121 i 140 docents | 7 docents |\n| Entre 141 i 160 docents | 8 docents |\n| Entre 161 i 180 docents | 9 docents |\n| Entre 181 i 200 docents | 10 docents |\n| Més de 200 docents | 11 docents |\n\nEn aquells centres en què hi haja diferents torns, esta quantitat es repartirà de manera proporcional entre cada torn. El centre establirà, a través dels seus òrgans col·legiats, els criteris per a la concessió d’estos permisos, atorgant preferència al personal que no haja gaudit prèviament de cap permís per assumptes particulars.\n\n– Per a cada docent, el nombre de dies de permís per assumptes particulars serà proporcional al nombre de dies del període o períodes de nomenament en el corresponent curs escolar.\n\n– En el supòsit de personal docent interí el cessament del qual tinga lloc durant el curs escolar, i que siga objecte d’un nou nomenament dins d’este, podrà fer ús dels dies d’assumptes particulars que, si és el cas, han quedat pendents de gaudi en el nomenament anterior."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Llei 4/2021, de 16 d’abril, de la funció pública valenciana",
+        "articles": [
+          "art-80"
+        ],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Reial decret legislatiu 5/2015, de 30 d’octubre, text refós de la Llei de l’Estatut Bàsic de l’Empleat Públic",
+        "articles": [
+          "art-48"
+        ],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "decreto-234-2022",
+        "title": "Decret 234/2022 - Permisos i llicències del personal docent",
+        "description": "Norma base de permisos i llicències. No conté menció expressa del permís per assumptes particulars; el Decret …/2026 d’horari, en tramitació, hi afegirà un article 24 bis que l’establix"
+      },
+      {
+        "lawId": "circular-1-2025-permisos",
+        "title": "Circular 1/2025 - Manual de permisos i llicències del personal docent",
+        "description": "Manual de permisos i llicències que tampoc arreplegava el permís per assumptes particulars, regulat ara per esta instrucció"
+      },
+      {
+        "title": "Acord de 25 de maig de 2026 entre la Conselleria i les organitzacions sindicals ANPE i CSIF per la millora del sistema educatiu de la Comunitat Valenciana",
+        "description": "Establix la implantació de 6 dies de lliure disposició a partir del curs 26/27 (3 de lectius i 3 de no lectius)"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-09-01",
+    "signatories": [
+      {
+        "name": "Francisco Pablo Ortega Gil",
+        "role": "Direcció General de Personal Docent"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}

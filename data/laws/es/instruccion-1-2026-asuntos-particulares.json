@@ -1,0 +1,125 @@
+{
+  "id": "instruccion-1-2026-asuntos-particulares",
+  "slug": "instruccion-1-2026-asuntos-particulares",
+  "type": "instrucciones",
+  "number": "1/2026",
+  "date": "2026-09-01",
+  "publishedIn": {
+    "source": "CEICE",
+    "number": "",
+    "date": "2026-09-02",
+    "url": "https://ceice.gva.es/es/web/rrhh-educacion/-/permisos-por-asuntos-particulares-y-por-cuidado-de-hijo-o-hija-menor-afectado-o-afectada-por-c%C3%81ncer-u-otra-enfermedad-grave",
+    "pdfUrl": "https://ceice.gva.es/documents/162909733/414622723/Instrucci%C3%B3n+asuntos+particulares_firmado.pdf/20e62fec-683f-e84f-21f5-33bde7638e5d"
+  },
+  "title": "Instrucción 1/2026 de la Dirección General de Personal Docente por la que se regulan los asuntos particulares retribuidos del personal docente no universitario dependiente de la Conselleria de Educación, Cultura y Universidades",
+  "titleShort": "Instrucción 1/2026 - Asuntos particulares retribuidos del personal docente",
+  "category": "profesorado",
+  "vigpiracy": {
+    "status": "vigente",
+    "statusLabel": "Vigente",
+    "effectiveDate": "2026-09-02"
+  },
+  "structure": [
+    {
+      "type": "preambulo",
+      "id": "preambulo",
+      "title": "Preámbulo",
+      "content": "la Ley 4/2021, de 16 de abril, de la Función Pública Valenciana establece en su artículo 80.1 que el personal funcionario podrá disfrutar de los permisos establecidos en el artículo 48 del texto refundido de la Ley del Estatuto básico del empleado público, aprobado por el Real decreto legislativo 5/2015, de 30 de octubre.\n\nDicho Real Decreto Legislativo 5/2015 indica que los funcionarios públicos tienen los siguientes permisos: “Por asuntos particulares, seis días al año”.\n\nEn fecha 5 de enero de 2023 se publicó en el Diari Oficial de la Generalitat Valenciana número 9506, el Decreto 234/2022, de 30 de diciembre, del Consell, por el que se regulan las condiciones de trabajo del personal docente no universitario funcionarial dependiente de la Conselleria de Educación, Cultura y Deporte: permisos y licencias.\n\nEn desarrollo del mismo, el 17 de enero de 2025 se publicó en el portal web de la Conselleria de Educación, Cultura y Universidades la Circular 1/2025, de la Dirección General de Personal Docente, por la que se aprueba el manual/instrucciones de permisos y licencias del personal docente no universitario de centros públicos dependientes de la Conselleria competente en materia de educación.\n\nTanto en el Decreto 234/2022, de 30 de diciembre como en la Circular 1/2025, de 17 de enero, no se contiene una mención expresa sobre el permiso por asuntos particulares retribuidos por parte del personal docente no universitario.\n\nNo obstante, el 25 de mayo de 2026, las organizaciones sindicales ANPE y CSIF y esta Conselleria firmaron un Acuerdo por la mejora del sistema educativo de la Comunitat Valenciana por el que se establece la implantación de 6 días de libre disposición a partir del curso 26/27 (3 en días lectivos y 3 en días no lectivos).\n\nEsta en fase de tramitación el Decreto …/2026, del Consell, por el que se regula el horario del personal docente en los centros públicos no universitarios de la Comunitat Valenciana que contempla una disposición adicional por la que se modifica el Decreto 234/ 2022, de 30 de diciembre, del Consell, por el que se regulan las condiciones de trabajo del personal docente no universitario funcionarial dependiente de la Conselleria de Educación, Cultura y Deporte: permisos y licencias, dicha disposición añade el artículo 24 bis que establece el permiso por asuntos particulares."
+    },
+    {
+      "type": "articulo",
+      "id": "objeto",
+      "title": "Objeto",
+      "content": "La presente instrucción tiene por objeto la regulación del permiso por asuntos particulares del personal docente no universitario."
+    },
+    {
+      "type": "articulo",
+      "id": "persona",
+      "title": "Persona que lo disfruta",
+      "content": "El personal docente no universitario que presta servicios en los centros docentes públicos dependientes de la Generalitat Valenciana."
+    },
+    {
+      "type": "articulo",
+      "id": "duracion",
+      "title": "Duración",
+      "content": "El personal funcionario docente podrá disfrutar de este permiso, cada curso escolar, hasta seis días: tres en periodo lectivo y tres en periodo no lectivo.\n\nDadas las características especiales del calendario y la jornada escolar el periodo de disfrute de este permiso será del 1 de septiembre al 31 de julio del año siguiente, es decir, el curso escolar.\n\nEn cualquier caso, los días de asuntos particulares que no hayan sido disfrutados en el curso escolar en que se generen no serán acumulables al curso siguiente."
+    },
+    {
+      "type": "articulo",
+      "id": "organo-competente",
+      "title": "Órgano competente",
+      "content": "La solicitud se presentará en el centro donde se prestan servicios y la resolverá el director o la directora del centro.\n\nEn el caso de los directores y directoras de los centros docentes la solicitud se presentará en la Dirección Territorial correspondiente y la resolverá el director o directora territorial."
+    },
+    {
+      "type": "articulo",
+      "id": "efectos-retributivos",
+      "title": "Efectos retributivos",
+      "content": "Seis días con derecho a retribuciones."
+    },
+    {
+      "type": "articulo",
+      "id": "solicitud",
+      "title": "Solicitud",
+      "content": "La solicitud se realizará, respecto a la fecha prevista para su disfrute, con una antelación mínima de siete días naturales y una antelación máxima de un mes.\n\nLa solicitud deberá finalizarse con la correspondiente resolución autorizando o denegando el permiso solicitado, en el caso de resolución denegatoria esta deberá ser motivada. En los supuestos de no recibir contestación a la solicitud, el silencio administrativo será negativo.\n\nCuando concurran circunstancias excepcionales que imposibiliten la solicitud del permiso dentro de los plazos establecidos, esta podrá presentarse tan pronto como dichas circunstancias sean conocidas, quedando su admisión sujeta a la correspondiente valoración."
+    },
+    {
+      "type": "articulo",
+      "id": "observaciones",
+      "title": "Observaciones",
+      "content": "– No se concederán permisos por asuntos particulares en los siguientes casos:\n• Durante los 7 primeros días lectivos y los 7 últimos días lectivos del curso escolar.\n• En el periodo de siete días lectivos antes o después de los periodos no lectivos de Navidad y Pascua.\n• En el periodo de siete días lectivos antes o después de las fiestas de Fallas, Magdalena y San Juan en los centros docentes de municipios donde se celebran estas festividades.\n• En periodo de evaluaciones, ni entre evaluación ordinaria y extraordinaria de fin de curso.\n\n– No podrán disfrutarse de forma consecutiva en días lectivos. A estos efectos, viernes y lunes se consideran días lectivos consecutivos.\n\n– Obligatoriamente el docente que obtenga un permiso de asuntos particulares dejará un plan de actividades para el alumnado.\n\n– Su concesión estará condicionada a las necesidades del servicio educativo y a su previa autorización.\n\n– El número máximo de docentes en un centro a los que podrá concederse este permiso para un mismo día lectivo se ajustará a la siguiente escala.\n\n| Docentes del centro | Máximo de permisos para un mismo día lectivo |\n|---|---|\n| Hasta 20 docentes | 1 docente |\n| Entre 21 y 40 docentes | 2 docentes |\n| Entre 41 y 60 docentes | 3 docentes |\n| Entre 61 y 80 docentes | 4 docentes |\n| Entre 81 y 100 docentes | 5 docentes |\n| Entre 101 y 120 docentes | 6 docentes |\n| Entre 121 y 140 docentes | 7 docentes |\n| Entre 141 y 160 docentes | 8 docentes |\n| Entre 161 y 180 docentes | 9 docentes |\n| Entre 181 y 200 docentes | 10 docentes |\n| Más de 200 docentes | 11 docentes |\n\nEn aquellos centros en los que existan diferentes turnos esta cantidad se repartirá de forma proporcional entre cada turno. El centro establecerá, a través de sus órganos colegiados, los criterios para la concesión de estos permisos, otorgando preferencia al personal que no haya disfrutado previamente de ningún permiso por asuntos particulares.\n\n– Para cada docente, el número de días de permiso por asuntos particulares será proporcional al número de días del periodo o periodos de nombramiento en el correspondiente curso escolar.\n\n– En el supuesto de personal docente interino cuyo cese tenga lugar durante el curso escolar, y que sea objeto de un nuevo nombramiento dentro del mismo, podrá hacer uso de los días de asuntos particulares que, en su caso, hubieran quedado pendientes de disfrute en el nombramiento anterior."
+    }
+  ],
+  "legalAnalysis": {
+    "enactedPursuantTo": [
+      {
+        "title": "Ley 4/2021, de 16 de abril, de la Función Pública Valenciana",
+        "articles": [
+          "art-80"
+        ],
+        "relationship": "habilitante"
+      },
+      {
+        "title": "Real Decreto Legislativo 5/2015, de 30 de octubre, texto refundido de la Ley del Estatuto Básico del Empleado Público",
+        "articles": [
+          "art-48"
+        ],
+        "relationship": "desarrollo"
+      }
+    ],
+    "priorAffectations": [],
+    "posteriorAffectations": [],
+    "derogations": [],
+    "concordances": [
+      {
+        "lawId": "decreto-234-2022",
+        "title": "Decreto 234/2022 - Permisos y licencias del personal docente",
+        "description": "Norma base de permisos y licencias. No contiene mención expresa del permiso por asuntos particulares; el Decreto …/2026 de horario, en tramitación, le añadirá un artículo 24 bis que lo establece"
+      },
+      {
+        "lawId": "circular-1-2025-permisos",
+        "title": "Circular 1/2025 - Manual de permisos y licencias del personal docente",
+        "description": "Manual de permisos y licencias que tampoco recogía el permiso por asuntos particulares, regulado ahora por esta instrucción"
+      },
+      {
+        "title": "Acuerdo de 25 de mayo de 2026 entre la Conselleria y las organizaciones sindicales ANPE y CSIF por la mejora del sistema educativo de la Comunitat Valenciana",
+        "description": "Establece la implantación de 6 días de libre disposición a partir del curso 26/27 (3 lectivos y 3 no lectivos)"
+      }
+    ]
+  },
+  "promulgation": {
+    "place": "València",
+    "date": "2026-09-01",
+    "signatories": [
+      {
+        "name": "Francisco Pablo Ortega Gil",
+        "role": "Dirección General de Personal Docente"
+      }
+    ]
+  },
+  "scope": "general",
+  "territory": "autonomico",
+  "temporality": {
+    "type": "permanente"
+  },
+  "docType": "documentos"
+}

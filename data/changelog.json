@@ -1,5 +1,47 @@
 [
   {
+    "version": "2.4.0",
+    "date": "2026-09-02",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "Instrucción 1/2026 de la Dirección General de Personal Docente, sobre asuntos particulares retribuidos. Es la primera norma que regula este permiso para el personal docente: hasta seis días por curso escolar, tres en periodo lectivo y tres en no lectivo, del 1 de septiembre al 31 de julio y sin acumular al curso siguiente. La resuelve la dirección del centro —la dirección territorial si quien la pide es el director o la directora— y trae la escala de cuántos docentes pueden faltar el mismo día lectivo según el tamaño de la plantilla, además de las fechas en que no se concede: los siete primeros y últimos días lectivos del curso, el entorno de Navidad y Pascua, el de Fallas, Magdalena y San Juan donde se celebren, y el periodo de evaluaciones."
+        },
+        {
+          "type": "nuevo",
+          "description": "Circular 2/2026 de la Dirección General de Personal Docente, que reescribe entero el apartado 12 de la Circular 1/2025: el permiso por cuidado de hijo o hija menor afectado por cáncer u otra enfermedad grave. El plazo de solicitud de inicio de curso deja de estar fijado en la circular y pasa a la instrucción anual; el permiso ya no se extingue sino que se suspende y se reanuda al cesar la causa; la documentación se separa entre quien lo pide por primera vez y quien lo renueva, que ahora basta con una declaración responsable; y se añaden causas de extinción y reglas nuevas sobre OVIDOC, ITACA y comprobación de requisitos."
+        },
+        {
+          "type": "actualizado",
+          "description": "El apartado 12 de la Circular 1/2025 gana selector de versión: se puede leer el texto vigente desde la Circular 2/2026 y el original de enero de 2025 uno al lado del otro."
+        },
+        {
+          "type": "actualizado",
+          "description": "La ficha de la dirección recoge una atribución nueva: resolver las solicitudes de permiso por asuntos particulares del personal del centro."
+        }
+      ],
+      "va": [
+        {
+          "type": "nou",
+          "description": "Instrucció 1/2026 de la Direcció General de Personal Docent, sobre assumptes particulars retribuïts. És la primera norma que regula este permís per al personal docent: fins a sis dies per curs escolar, tres en període lectiu i tres en no lectiu, de l'1 de setembre al 31 de juliol i sense acumular-los al curs següent. La resol la direcció del centre —la direcció territorial si qui la demana és el director o la directora— i porta l'escala de quants docents poden faltar el mateix dia lectiu segons la grandària de la plantilla, a més de les dates en què no es concedix: els set primers i últims dies lectius del curs, l'entorn de Nadal i Pasqua, el de Falles, Magdalena i Sant Joan on se celebren, i el període d'avaluacions."
+        },
+        {
+          "type": "nou",
+          "description": "Circular 2/2026 de la Direcció General de Personal Docent, que reescriu sencer l'apartat 12 de la Circular 1/2025: el permís per cura de fill o filla menor afectat per càncer o una altra malaltia greu. El termini de sol·licitud d'inici de curs deixa d'estar fixat en la circular i passa a la instrucció anual; el permís ja no s'extingix sinó que se suspén i es reprén en cessar la causa; la documentació se separa entre qui el demana per primera vegada i qui el renova, que ara en té prou amb una declaració responsable; i s'hi afigen causes d'extinció i regles noves sobre OVIDOC, ITACA i comprovació de requisits."
+        },
+        {
+          "type": "actualitzat",
+          "description": "L'apartat 12 de la Circular 1/2025 guanya selector de versió: es pot llegir el text vigent des de la Circular 2/2026 i l'original de gener de 2025 l'un al costat de l'altre."
+        },
+        {
+          "type": "actualitzat",
+          "description": "La fitxa de la direcció arreplega una atribució nova: resoldre les sol·licituds de permís per assumptes particulars del personal del centre."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.3.1",
     "date": "2026-09-01",
     "entries": {
