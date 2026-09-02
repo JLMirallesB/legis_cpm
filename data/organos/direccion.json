@@ -1009,6 +1009,16 @@
         "va": "acf17d0b"
       },
       "checkedAt": "2026-08-19"
+    },
+    {
+      "law": "instruccion-1-2026-asuntos-particulares",
+      "article": "organo-competente",
+      "hash": {
+        "es": "08b1cb23",
+        "va": "954d04f5"
+      },
+      "checkedAt": "2026-09-02",
+      "note": "Atribuye a la dirección resolver las solicitudes de permiso por asuntos particulares del personal del centro"
     }
   ],
   "discarded": [
