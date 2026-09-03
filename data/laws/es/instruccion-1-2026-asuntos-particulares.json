@@ -116,6 +116,28 @@
       }
     ]
   },
+  "formModels": [
+    {
+      "id": "solicitud",
+      "title": "Modelo de solicitud del permiso (a la dirección del centro)",
+      "pdfUrl": "models/instruccion-1-2026-asuntos-particulares-solicitud.pdf"
+    },
+    {
+      "id": "resolucion-concesion",
+      "title": "Modelo de resolución de concesión",
+      "pdfUrl": "models/instruccion-1-2026-asuntos-particulares-resolucion-concesion.pdf"
+    },
+    {
+      "id": "resolucion-denegacion",
+      "title": "Modelo de resolución de denegación (motivada)",
+      "pdfUrl": "models/instruccion-1-2026-asuntos-particulares-resolucion-denegacion.pdf"
+    },
+    {
+      "id": "certificado-dias",
+      "title": "Certificado de días consumidos (personal interino)",
+      "pdfUrl": "models/instruccion-1-2026-asuntos-particulares-certificado-dias.pdf"
+    }
+  ],
   "scope": "general",
   "territory": "autonomico",
   "temporality": {

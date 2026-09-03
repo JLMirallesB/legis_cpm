@@ -1,5 +1,23 @@
 [
   {
+    "version": "2.4.1",
+    "date": "2026-09-03",
+    "entries": {
+      "es": [
+        {
+          "type": "nuevo",
+          "description": "La Instrucción 1/2026 de asuntos particulares llega con sus cuatro modelos descargables, que la instrucción no publicaba junto al texto: la solicitud del permiso dirigida a la dirección del centro, la resolución de concesión, la resolución de denegación —que la instrucción exige motivar— y el certificado de días consumidos que expide la secretaría del centro para el personal interino. Los tres primeros son bilingües; el certificado solo existe en castellano."
+        }
+      ],
+      "va": [
+        {
+          "type": "nuevo",
+          "description": "La Instrucció 1/2026 d'assumptes particulars ja porta els seus quatre models descarregables, que la instrucció no publicava al costat del text: la sol·licitud del permís dirigida a la direcció del centre, la resolució de concessió, la resolució de denegació —que la instrucció exigeix motivar— i el certificat de dies consumits que expedeix la secretaria del centre per al personal interí. Els tres primers són bilingües; el certificat només existeix en castellà."
+        }
+      ]
+    }
+  },
+  {
     "version": "2.4.0",
     "date": "2026-09-02",
     "entries": {
